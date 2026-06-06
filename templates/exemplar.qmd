@@ -1,14 +1,32 @@
 ---
-# STUB — finalise in Phase 1. Tracked in GitHub: "Finalise content-type templates".
-title: ""
+# SETTLED — 2026-06-06. Profiles of real-world benchmarks.
+title: "Game/Experience Title"
 type: exemplar
-medium: ""
-year: ""
-mechanisms: []    # links to entry slugs
+medium: ""           # interactive-fiction | live-game | tabletop | puzzle-hunt
+year: ""             # Release year
+designer: ""         # Individual or studio
+mechanisms: []       # Links to canonical entries
+provenance: ""       # corpus | researched | synthesis
 ---
 
 ## Overview
+<!-- 1-2 paragraphs on the cultural and design significance. -->
 
-## Key mechanisms illustrated
+## The Design Profile
+<!-- How this work functions as an exemplar. What can we learn from it? -->
 
-## Stat block
+::: {.callout-note}
+### The Signature
+The specific mechanism or interaction that defines this work. [corpus]
+:::
+
+## Mechanisms Illustrated
+<!-- List of mechanisms with brief notes on how they manifest here. -->
+
+## The Stat Block
+<!-- move data-dense stats to this table -->
+| Attribute | Value |
+|-----------|-------|
+| Players   |       |
+| Duration  |       |
+| Substrate |       |

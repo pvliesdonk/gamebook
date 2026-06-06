@@ -1,28 +1,58 @@
 ---
-# STUB — finalise in Phase 1. Tracked in GitHub: "Finalise content-type templates".
-# See docs/decisions.md items #11 and #12.
-title: ""
-aliases: []          # other names designers use for this mechanism
-family: ""           # functional family — settled in Phase 1 (decision #3)
-media: []            # tags: interactive-fiction, live-game, tabletop, puzzle-hunt
-effects: []          # routing facet: what effect does this mechanism create?
-problems: []         # routing facet: what design problem does it solve?
-components: []       # routing facet: what components does it require?
+# SETTLED — 2026-06-06. The central content type of the guide.
+title: "Mechanism Name"
+aliases: []          # Other names designers use for this mechanism
+family: ""           # Family 1–6 (Structure, Puzzles, Story, Social, Space, Systems)
+media: []            # Filter tags: interactive-fiction, live-game, tabletop, puzzle-hunt
+facets:
+  effects: []        # What feeling or outcome does this create?
+  problems: []       # What design roadblock does this solve?
+  components: []     # What physical/mechanical parts are required?
 provenance: ""       # corpus | researched | synthesis
 ---
 
-## What it does
+*Silhouette: A single-line "jizz" definition of the mechanism's impression.*
 
-<!-- readable head: 2-4 sentences -->
+<!-- THE READABLE HEAD (THE SPARK) -->
+<!-- 1-3 short paragraphs of evocative "Naturalist" prose. 
+     No headers, no bullet points. Focus on the feeling and purpose. -->
 
-## How it works
+## The Mechanism (How it works)
 
-<!-- scannable body -->
+<!-- THE SCANNABLE BODY (THE BLUEPRINT) -->
+<!-- Use Diagnostic Headers (e.g. ## The Trigger) to group reflective prose. 
+     No bullets in main prose flow. Move data-dense lists to Tables or Insets. -->
 
-## When to reach for it — and when not
+::: {.callout-note}
+### The Specimen
+Observation of this mechanism in a real-world game. [corpus]
+:::
 
-## In the wild
+## Design Judgement
 
-## Pairs with / confusable with
+::: {.callout-tip}
+### The Field Note
+Practical "Mentor" advice on implementation and nuances. [synthesis]
+:::
+
+::: {.callout-warning}
+### The Hazard
+Known traps, failure modes, or anti-patterns to avoid. [synthesis]
+:::
+
+## Interactions (The Connectors)
+
+**Confusable With:** 
+<!-- Comparison plate: distinguish from look-alike mechanisms. -->
+
+**Pairs Well With:** 
+<!-- Symbiosis: mechanisms that flock together. -->
+
+**Common Transitions:** 
+<!-- Transport: where a designer typically goes after this. -->
+
+**Implementation Interlocks:** 
+<!-- Crunch: mechanical widgets (clocks, dice, etc.) that drive this. -->
 
 ## Sources
+<!-- Footnote citations for [researched] claims. -->

@@ -1,8 +1,29 @@
 ---
-# STUB — finalise in Phase 1. Tracked in GitHub: "Finalise content-type templates".
-title: ""
+# SETTLED — 2026-06-06. Orientation pieces on terrain features.
+title: "Primer Name"
 type: primer
+provenance: ""       # corpus | researched | synthesis
 ---
 
-<!-- Primers are short orientation pieces on a big terrain feature.
-     Lighter than a survey essay; written to dip into, not read through. -->
+*Silhouette: A one-line orientation of the terrain feature.*
+
+<!-- Primers are orientation pieces (e.g. "Structure and Pacing").
+     Voice: Light authorial / Mentor. 
+     Goal: Dip-in orientation, not an exhaustive essay. -->
+
+## The Terrain
+
+<!-- Reflective prose on the landscape of this concept. -->
+
+::: {.callout-tip}
+### Mentor Wisdom
+High-level advice on navigating this terrain. [synthesis]
+:::
+
+## Key Mechanisms
+
+<!-- Briefly introduce the load-bearing mechanisms of this family, 
+     linking to full entries. -->
+
+## Related Exemplars
+<!-- Links to real-world works that showcase this family. -->
