@@ -1,0 +1,31 @@
+project:
+  type: book
+  pre-render: python3 scripts/backlinks.py
+
+book:
+  title: "Field Guide to Narrative & Game Design"
+  author: "—"
+  chapters:
+    - content/index.qmd
+    - part: "Primers"
+      chapters:
+        - content/primers/index.qmd
+    - part: "Entries"
+      chapters:
+        - content/entries/index.qmd
+    - part: "Keys"
+      chapters:
+        - content/keys/index.qmd
+    - part: "Exemplars"
+      chapters:
+        - content/exemplars/index.qmd
+    - part: "Style Specimens"
+      chapters:
+        - content/specimens/index.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  typst: default
