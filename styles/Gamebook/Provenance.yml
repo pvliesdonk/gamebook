@@ -1,0 +1,9 @@
+---
+extends: existence
+message: "Invalid or misspelled provenance marker. Use [corpus], [researched], or [synthesis]."
+level: error
+ignorecase: false
+# Matches brackets that don't contain our three allowed tags.
+# Allows for [researched, p. 42] format.
+tokens:
+  - '\[(?!(corpus|researched|synthesis)).*?\]'

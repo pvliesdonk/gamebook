@@ -1,0 +1,15 @@
+extends: substitution
+message: Use canonical term '%s' instead of '%s'.
+level: error
+ignorecase: true
+swap:
+  Epiphany: Aha Moment
+  Sudden Insight: Aha Moment
+  Countdown: Progress Clock
+  Track: Progress Clock
+  Progress Bar: Progress Clock
+  Pure Branching: Time Cave
+  The Move: PbtA Move
+  Narrative Trigger: PbtA Move
+  Lines and Veils: Safety Contract
+  X-Card: Safety Contract

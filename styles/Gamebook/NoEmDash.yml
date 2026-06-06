@@ -1,0 +1,9 @@
+---
+extends: existence
+message: "No em-dashes allowed. Use colons or parentheses."
+level: error
+nonword: true
+tokens:
+  - '—'
+  - '--'
+# We allow en-dashes (–) for metric ranges as per field guide conventions.

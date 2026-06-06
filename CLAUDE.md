@@ -28,6 +28,14 @@ a `STUB` or `DRAFT` notice at the top of the file.
 Do not fill in a stub unless its GitHub issue is assigned to you and the
 corresponding phase is active.
 
+## Terminology & Registry
+
+`docs/term-registry.md` is the canonical authority on mechanism naming.
+
+- **Mandatory Usage:** All prose (entries, primers, etc.) must use the **Canonical Term** defined in the registry.
+- **Living Document:** The registry is updated during Phases 4 and 5 as new entries are authored. If a term is missing or ambiguous, it must be added to the registry before being used in prose.
+- **Consistency:** Use the registry to unify naming across cross-media concepts.
+
 ## Build commands
 
 ```bash
@@ -48,8 +56,17 @@ research/       research notes and sources (not rendered)
 scripts/        build-time scripts (backlinks injection)
 templates/      content-type templates — copy when creating new entries
 _quarto.yml     Quarto book config
-_brand.yml      brand tokens (DRAFT until Phase 1)
+_brand.yml      brand tokens (SETTLED)
 ```
+
+## Linting & Consistency
+
+The project uses **Vale** and **markdownlint** for automated quality control.
+
+- **Pre-commit:** Run `pre-commit install` to enable automated checks.
+- **Manual Check:** Run `vale content/` and `markdownlint content/`.
+- **Term Registry:** If an alias is detected, replace it with the canonical term from `docs/term-registry.md`.
+- **AI Fingerprint:** The `ai-tells` ruleset is active to prevent clichéd or overly formal LLM-style prose.
 
 ## Provenance markers
 
