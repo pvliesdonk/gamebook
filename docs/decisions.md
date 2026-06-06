@@ -1,0 +1,27 @@
+# Decision Register
+
+Each item is `proposed`, `draft`, or `settled`, with the date it was settled.
+
+**Rule for agents:** Only rely on items marked `settled`. Treat `draft` items as
+open — do not build on them. If a `draft` item blocks your work, stop and ask.
+
+| # | Decision | State | Settled | Note |
+|---|----------|-------|---------|------|
+| 1 | Form: naturalist field guide, single expandable entries | settled | — | |
+| 2 | Spine: design function, medium as tag | settled | — | family list is #3 |
+| 3 | Functional-family taxonomy (six-family strawman) | **draft** | | to be designed in Phase 1 |
+| 4 | Output: Quarto single-source, Typst PDF + HTML wiki | settled | — | |
+| 5 | Backlinks injected at build from the guide's own graph | settled | — | |
+| 6 | Brand: one `_brand.yml` drives both faces | settled | — | tokens draft — see stub issue |
+| 7 | Split pipeline (separate web renderer) as fallback | **draft** | | trigger: pilot web output disappoints |
+| 8 | Graph view for the wiki | proposed | | phase-six nice to have |
+| 9 | Consistency: LLM style guide primary, thin Vale backstop | settled | — | |
+| 10 | Repo: independent, new; corpus = point-in-time input | settled | — | |
+| 11 | Entry template / anatomy | **draft** | | Phase 1 — see stub issue |
+| 12 | Frontmatter schema and routing facets (keys) | **draft** | | Phase 1 — see stub issue |
+| 13 | Canonical term registry | **draft** | | Phase 1 — see stub issue |
+| 14 | Voice: neutral body, light authorial in judgement and primers | **draft** | | confirm in style guide |
+| 15 | Provenance markers (corpus / researched / synthesis) | settled | — | format draft — see style guide |
+| 16 | Primer set and count | **draft** | | Phase 2 |
+| 17 | PDF scope: curated over exhaustive | settled | — | curation by frontmatter flag |
+| 18 | Illustrations / diagrams | proposed | | parked, possibly phase two |
