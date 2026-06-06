@@ -1,0 +1,10 @@
+# Quarto build output
+_book/
+.quarto/
+*_files/
+
+# Quarto freeze (regenerate on render)
+_freeze/
+
+# OS
+.DS_Store
