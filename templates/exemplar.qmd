@@ -1,0 +1,14 @@
+---
+# STUB — finalise in Phase 1. Tracked in GitHub: "Finalise content-type templates".
+title: ""
+type: exemplar
+medium: ""
+year: ""
+mechanisms: []    # links to entry slugs
+---
+
+## Overview
+
+## Key mechanisms illustrated
+
+## Stat block

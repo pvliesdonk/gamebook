@@ -1,0 +1,11 @@
+---
+# STUB — finalise in Phase 1. Tracked in GitHub: "Finalise content-type templates".
+title: ""
+type: specimen
+register: ""   # e.g. instructional, atmospheric, terse
+rhythm: ""     # e.g. staccato, flowing
+---
+
+## Specimen
+
+## Point of view

@@ -1,0 +1,8 @@
+---
+# STUB — finalise in Phase 1. Tracked in GitHub: "Finalise content-type templates".
+title: ""
+type: primer
+---
+
+<!-- Primers are short orientation pieces on a big terrain feature.
+     Lighter than a survey essay; written to dip into, not read through. -->

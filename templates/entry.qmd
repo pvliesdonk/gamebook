@@ -1,0 +1,28 @@
+---
+# STUB — finalise in Phase 1. Tracked in GitHub: "Finalise content-type templates".
+# See docs/decisions.md items #11 and #12.
+title: ""
+aliases: []          # other names designers use for this mechanism
+family: ""           # functional family — settled in Phase 1 (decision #3)
+media: []            # tags: interactive-fiction, live-game, tabletop, puzzle-hunt
+effects: []          # routing facet: what effect does this mechanism create?
+problems: []         # routing facet: what design problem does it solve?
+components: []       # routing facet: what components does it require?
+provenance: ""       # corpus | researched | synthesis
+---
+
+## What it does
+
+<!-- readable head: 2-4 sentences -->
+
+## How it works
+
+<!-- scannable body -->
+
+## When to reach for it — and when not
+
+## In the wild
+
+## Pairs with / confusable with
+
+## Sources
