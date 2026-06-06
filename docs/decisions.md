@@ -9,7 +9,7 @@ open — do not build on them. If a `draft` item blocks your work, stop and ask.
 |---|----------|-------|---------|------|
 | 1 | Form: naturalist field guide, single expandable entries | settled | — | |
 | 2 | Spine: design function, medium as tag | settled | — | family list is #3 |
-| 3 | Functional-family taxonomy (six-family strawman) | **draft** | | to be designed in Phase 1 |
+| 3 | Functional-family taxonomy (Structure, Puzzles, Story, Social, Space, Systems) | settled | 2026-06-06 | Refined into 6 distinct engineering disciplines. |
 | 4 | Output: Quarto single-source, Typst PDF + HTML wiki | settled | — | |
 | 5 | Backlinks injected at build from the guide's own graph | settled | — | |
 | 6 | Brand: one `_brand.yml` drives both faces | settled | — | tokens draft — see stub issue |
@@ -17,10 +17,10 @@ open — do not build on them. If a `draft` item blocks your work, stop and ask.
 | 8 | Graph view for the wiki | proposed | | phase-six nice to have |
 | 9 | Consistency: LLM style guide primary, thin Vale backstop | settled | — | |
 | 10 | Repo: independent, new; corpus = point-in-time input | settled | — | |
-| 11 | Entry template / anatomy | **draft** | | Phase 1 — see stub issue |
+| 11 | Entry template / anatomy (Head, Body, Judgement call-outs) | settled | 2026-06-06 | |
 | 12 | Frontmatter schema and routing facets (keys) | **draft** | | Phase 1 — see stub issue |
 | 13 | Canonical term registry | **draft** | | Phase 1 — see stub issue |
-| 14 | Voice: neutral body, light authorial in judgement and primers | **draft** | | confirm in style guide |
+| 14 | Voice: neutral body, Mentor call-outs, Practitioner head | settled | 2026-06-06 | Defined in style-guide.md. Uses en-NL/Metric conventions. |
 | 15 | Provenance markers (corpus / researched / synthesis) | settled | — | format draft — see style guide |
 | 16 | Primer set and count | **draft** | | Phase 2 |
 | 17 | PDF scope: curated over exhaustive | settled | — | curation by frontmatter flag |
