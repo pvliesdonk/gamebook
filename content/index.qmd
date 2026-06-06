@@ -1,0 +1,9 @@
+---
+title: "How to Use This Guide"
+---
+
+*Placeholder — content written in Phase 4.*
+
+This guide is organised by design function. Use the Keys section to navigate by
+the effect you want to create, the problem you are hitting, or the component you
+are holding.

@@ -1,0 +1,7 @@
+---
+title: "Entries"
+---
+
+*Placeholder — entries written in Phase 4 and Phase 5.*
+
+The main reference: one entry per design mechanism, grouped by functional family.
