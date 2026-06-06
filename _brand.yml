@@ -1,0 +1,14 @@
+# DRAFT — placeholder tokens, to be settled in Phase 1 (see docs/decisions.md #6)
+# Tracked in GitHub: "Finalise brand tokens in _brand.yml"
+
+color:
+  palette:
+    accent: "#c07840"   # warm amber — provisional
+  foreground: "#1a1a1a"
+  background: "#fafafa"
+
+typography:
+  base:
+    family: Georgia
+  headings:
+    family: Georgia
