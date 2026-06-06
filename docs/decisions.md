@@ -19,7 +19,7 @@ open — do not build on them. If a `draft` item blocks your work, stop and ask.
 | 10 | Repo: independent, new; corpus = point-in-time input | settled | — | |
 | 11 | Entry template / anatomy (Head, Body, Judgement call-outs) | settled | 2026-06-06 | |
 | 12 | Frontmatter schema and routing facets (keys) | **draft** | | Phase 1 — see stub issue |
-| 13 | Canonical term registry | **draft** | | Phase 1 — see stub issue |
+| 13 | Canonical term registry | settled (initial) | 2026-06-06 | Seeded; living document mandate in GEMINI.md |
 | 14 | Voice: neutral body, Mentor call-outs, Practitioner head | settled | 2026-06-06 | Defined in style-guide.md. Uses en-NL/Metric conventions. |
 | 15 | Provenance markers (corpus / researched / synthesis) | settled | — | format draft — see style guide |
 | 16 | Primer set and count | **draft** | | Phase 2 |
