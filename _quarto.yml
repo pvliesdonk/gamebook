@@ -6,7 +6,7 @@ book:
   title: "Field Guide to Narrative & Game Design"
   author: "—"
   chapters:
-    - content/index.qmd
+    - index.qmd
     - part: "Primers"
       chapters:
         - content/primers/index.qmd
