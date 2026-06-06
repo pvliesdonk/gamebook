@@ -1,3 +1,9 @@
+> **SUPERSEDED** — This document seeded the project. Work is now tracked in
+> GitHub issues #1–#8 (one per phase). Milestones group issues by phase.
+> Do not update this file; it is kept for historical reference only.
+
+---
+
 # Field Guide to Narrative & Game Design — High-Level Plan
 
 > Companion to `concept.md`. This plan governs **sequence**, not content. It deliberately contains
