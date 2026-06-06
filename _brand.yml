@@ -1,9 +1,9 @@
-# DRAFT — placeholder tokens, to be settled in Phase 1 (see docs/decisions.md #6)
-# Tracked in GitHub: "Finalise brand tokens in _brand.yml"
+# SETTLED — 2026-06-06. Naturalist field guide aesthetic.
+# See docs/decisions.md item #6.
 
 color:
   palette:
-    accent: "#c07840"   # warm amber — provisional
+    accent: "#c07840"   # warm amber
   foreground: "#1a1a1a"
   background: "#fafafa"
 

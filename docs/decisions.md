@@ -12,7 +12,7 @@ open — do not build on them. If a `draft` item blocks your work, stop and ask.
 | 3 | Functional-family taxonomy (Structure, Puzzles, Story, Social, Space, Systems) | settled | 2026-06-06 | Refined into 6 distinct engineering disciplines. |
 | 4 | Output: Quarto single-source, Typst PDF + HTML wiki | settled | — | |
 | 5 | Backlinks injected at build from the guide's own graph | settled | — | |
-| 6 | Brand: one `_brand.yml` drives both faces | settled | — | tokens draft — see stub issue |
+| 6 | Brand: one `_brand.yml` drives both faces | settled | 2026-06-06 | Warm amber accent, Georgia serif. |
 | 7 | Split pipeline (separate web renderer) as fallback | **draft** | | trigger: pilot web output disappoints |
 | 8 | Graph view for the wiki | proposed | | phase-six nice to have |
 | 9 | Consistency: LLM style guide primary, thin Vale backstop | settled | — | |
