@@ -128,12 +128,18 @@ stage all three.*
 - `dash-and-galactic-puzzle-hunts.md` → Exemplar profile: **DASH / Galactic Puzzle Hunt**
 - `cicada-3301-and-secret-hunts.md` → Exemplar profile: **Cicada 3301**
 
-### Cross-family handoffs (tentative-Puzzles notes NOT claimed here — for fan-out)
+### Cross-family handoffs (bidirectional)
 
-These notes sit in puzzle-flavoured subcategories but belong to other families by
-function. The fan-out agent for the named family should claim each and write its
-coverage row (calibration deliberately leaves them undispositioned to avoid
-double-claiming):
+Routing runs **both ways**. The notes below sit in puzzle-flavoured subcategories but
+belong to other families by function; the fan-out agent for the named family claims each
+and writes its coverage row (calibration leaves them undispositioned to avoid
+double-claiming). **Conversely, fan-out agents may route notes back *into* Puzzles** (a
+mystery-cluing IF note, a physical-clue-format prop note, a puzzle-accessibility note):
+those arrive as `route_out → Puzzles` flags and are folded into this family at reconcile
+(Task 4), where Puzzles may gain notes or new articles. This family is therefore **not
+frozen at Gate A** — it is the locked *pattern*, not a closed set.
+
+Routed out of Puzzles (for fan-out to claim):
 
 - `escape-room-design/branching-in-escape-rooms.md` → **Structure & Pacing**
 - `escape-room-design/pacing-and-difficulty-curves.md` → **Structure & Pacing**

@@ -355,6 +355,7 @@ INPUTS you must read first:
 - research/corpus-manifest.md (filter to rows whose tentative family is <FAMILY>;
   also pull in any note your similarity searches show belongs here regardless of
   its tentative family).
+- INBOUND HANDOFFS routed to you (claim these): <LIST OR "none">
 - The worked example below — match its granularity and format exactly:
 <PASTE ACCEPTED CALIBRATION SUBTREE>
 
@@ -364,18 +365,34 @@ METHOD — drive clustering from three vault signals, do not invent structure:
 3. Semantic: call get_similar on representative notes; hybrid `search` on core mechanisms.
 An article is where the signals agree. Where they disagree, mark it ?needs-review.
 
+ROUTING IS BIDIRECTIONAL. Some notes in your slice belong to OTHER families by function;
+route them out. You may also have notes routed IN to you (listed under INBOUND HANDOFFS) —
+claim those. Never write a coverage row for a note you route out (the destination family
+owns it); this prevents double-claiming.
+
+TAXONOMY PRECEDENT: where a note is a sprawling multi-type taxonomy, make a shallow
+comparative "map" article plus deep type articles — never one squashed entry.
+
 HARD OUTPUT CONTRACT:
 - Every article lists the REAL vault note paths that feed it (you must have read them).
 - An article with no corpus base is allowed ONLY if tagged `gap` with a one-line reason.
   Never present a non-corpus article as corpus-backed.
+- For every article fed by 2+ notes, add a one-line `preserve:` note — what the merge
+  must keep vs. may shed — so compression is a decision, not an accident.
+- Drop policy (conservative): only pure-navigation/index/overview notes may be `drop`;
+  every drop needs a one-line rationale. Do not drop content notes.
 - NO prose bodies. NO facets beyond what the notes support.
-- If the template/facet schema/family edge does not fit, say so in a `proposed_revisions`
-  field — do not force the fit and do not silently deviate.
+- If the template/facet schema/family edge does not fit, say so in `proposed_revisions` —
+  do not force the fit and do not silently deviate.
 
-RETURN exactly two markdown blocks:
+RETURN exactly three markdown blocks:
 1. An outline subtree in the worked-example format (## Family … / ### Group … / - **article**).
 2. Coverage-map rows: | note path | disposition | target article(s) | rationale |
-   covering every <FAMILY> note you were given (disposition ∈ merge/split/drop/new).
+   covering every note you CLAIM (disposition ∈ merge/split/drop/new) — including any
+   INBOUND HANDOFF notes. Do NOT include routed-out notes here.
+3. A `route_out:` list — one line per note that belongs elsewhere:
+   `<note path> → <destination family or gallery>` (destinations include Puzzles, Clues &
+   Information, the Exemplars gazetteer, and the Style Specimen gallery).
 Plus a short `proposed_revisions:` list (empty if none). Return raw markdown only.
 ```
 
@@ -403,9 +420,9 @@ git commit -m "feat: cluster remaining five families (refs #3)"
 - Modify: `docs/coverage-map.md` (dedup after reconciliation)
 - Create: `docs/gap-list.md`
 
-- [ ] **Step 1: Resolve cross-family mechanisms**
+- [ ] **Step 1: Resolve cross-family mechanisms and all `route_out` flags**
 
-Find mechanisms claimed by 2+ families (e.g. Progress Clock spans Family 1/6). Assign each a single home article; replace the duplicate(s) with a cross-reference note in the outline. Update the term registry (`docs/term-registry.md`) with any new canonical terms surfaced, per its living-document mandate.
+Collect every agent's `route_out` list plus the calibration family's routed-out notes. Assign each routed note to its destination family — **including notes routed back into the already-built Puzzles family**, which may gain feeds to existing articles or entirely new articles. Write each routed note's coverage row under its destination (the source family deliberately left it undispositioned). Then find mechanisms claimed by 2+ families (e.g. Progress Clock spans Family 1/6): assign each a single home article and replace duplicates with a cross-reference. Update the term registry (`docs/term-registry.md`) with any new canonical terms surfaced, per its living-document mandate.
 
 - [ ] **Step 2: Derive the primer list (settles decision #16)**
 
