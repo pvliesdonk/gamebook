@@ -10,9 +10,9 @@ book:
     - part: "Primers"
       chapters:
         - content/primers/index.qmd
-    - part: "Entries"
+    - part: "Articles"
       chapters:
-        - content/entries/index.qmd
+        - content/articles/index.qmd
     - part: "Keys"
       chapters:
         - content/keys/index.qmd
