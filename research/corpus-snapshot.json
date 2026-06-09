@@ -1,0 +1,1172 @@
+[
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/README.md",
+    "title": "Interactive Fiction Craft Corpus",
+    "folder": "Narrative & Game Design/Interactive Fiction"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/audience-and-access/accessibility_guidelines.md",
+    "title": "Accessibility Guidelines for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/audience-and-access"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/audience-and-access/audience_targeting.md",
+    "title": "Audience Targeting for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/audience-and-access"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/audience-and-access/localization_considerations.md",
+    "title": "Localization Considerations for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/audience-and-access"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/craft-foundations/audio_visual_integration.md",
+    "title": "Audio-Visual Integration in Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/craft-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/craft-foundations/collaborative_if_writing.md",
+    "title": "Collaborative Interactive Fiction Writing",
+    "folder": "Narrative & Game Design/Interactive Fiction/craft-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/craft-foundations/creative_workflow_pipeline.md",
+    "title": "Creative Workflow and Production Pipeline",
+    "folder": "Narrative & Game Design/Interactive Fiction/craft-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/craft-foundations/diegetic_design.md",
+    "title": "Diegetic Design for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/craft-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/craft-foundations/idea_capture_and_hooks.md",
+    "title": "Idea Capture and Deferred Work",
+    "folder": "Narrative & Game Design/Interactive Fiction/craft-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/craft-foundations/if_platform_tools.md",
+    "title": "Interactive Fiction Platform Tools",
+    "folder": "Narrative & Game Design/Interactive Fiction/craft-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/craft-foundations/mechanics_design_patterns.md",
+    "title": "Mechanics Design Patterns",
+    "folder": "Narrative & Game Design/Interactive Fiction/craft-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/craft-foundations/player_analytics_metrics.md",
+    "title": "Player Analytics and Metrics for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/craft-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/craft-foundations/quality_standards_if.md",
+    "title": "Quality Standards for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/craft-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/craft-foundations/research_and_verification.md",
+    "title": "Research and Verification for Creative Work",
+    "folder": "Narrative & Game Design/Interactive Fiction/craft-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/craft-foundations/testing_interactive_fiction.md",
+    "title": "Testing Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/craft-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/emotional-design/conflict_patterns.md",
+    "title": "Conflict Patterns for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/emotional-design"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/emotional-design/emotional_beats.md",
+    "title": "Emotional Beats for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/emotional-design"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/genre-conventions/children_and_ya_conventions.md",
+    "title": "Children and YA Genre Conventions",
+    "folder": "Narrative & Game Design/Interactive Fiction/genre-conventions"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/genre-conventions/fantasy_conventions.md",
+    "title": "Fantasy Genre Conventions for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/genre-conventions"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/genre-conventions/historical_fiction.md",
+    "title": "Historical Fiction Conventions for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/genre-conventions"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/genre-conventions/horror_conventions.md",
+    "title": "Horror Genre Conventions for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/genre-conventions"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/genre-conventions/mystery_conventions.md",
+    "title": "Mystery Genre Conventions for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/genre-conventions"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/genre-conventions/sci_fi_conventions.md",
+    "title": "Science Fiction Conventions for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/genre-conventions"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/genre-conventions/trope_variations.md",
+    "title": "Trope Variations and Archetype Catalog for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/genre-conventions"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/beat_taxonomies_craft_literature.md",
+    "title": "Beat Taxonomies from Craft Literature",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/branching_narrative_construction.md",
+    "title": "Branching Narrative Construction",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/branching_narrative_craft.md",
+    "title": "Branching Narrative Craft for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/cascading_disaster_patterns.md",
+    "title": "Cascading Disaster Patterns",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/endings_patterns.md",
+    "title": "Endings Patterns",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/ensemble_convergence_patterns.md",
+    "title": "Ensemble Convergence Patterns",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/episodic_serialized_if.md",
+    "title": "Episodic and Serialized Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/heist_and_caper_patterns.md",
+    "title": "Heist and Caper Patterns",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/moral_dilemma_chains.md",
+    "title": "Moral Dilemma Chains",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/nonlinear_structure.md",
+    "title": "Nonlinear and Alternative Structures",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/pacing_and_tension.md",
+    "title": "Pacing and Tension",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/pressure_cooker_patterns.md",
+    "title": "Pressure Cooker and Bottle Episode Patterns",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/rashomon_patterns.md",
+    "title": "Rashomon and Contradicting Perspective Patterns",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/romance_and_relationships.md",
+    "title": "Romance and Relationships in Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/scene_sequel_in_interactive_fiction.md",
+    "title": "Scene and Sequel in Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/scene_structure_and_beats.md",
+    "title": "Scene Structure and Beat Integration",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/scene_transitions.md",
+    "title": "Scene Transitions",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/time_loop_patterns.md",
+    "title": "Time Loop Patterns",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/narrative-structure/try_fail_cycles_branching_fiction.md",
+    "title": "Try-Fail Cycles in Branching Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/narrative-structure"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/prose-and-language/character_voice.md",
+    "title": "Character Voice",
+    "folder": "Narrative & Game Design/Interactive Fiction/prose-and-language"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/prose-and-language/dialogue_craft.md",
+    "title": "Dialogue Craft for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/prose-and-language"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/prose-and-language/exposition_techniques.md",
+    "title": "Exposition Techniques",
+    "folder": "Narrative & Game Design/Interactive Fiction/prose-and-language"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/prose-and-language/narrative_point_of_view.md",
+    "title": "Narrative Point of View in Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/prose-and-language"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/prose-and-language/prose_patterns.md",
+    "title": "Prose Patterns for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/prose-and-language"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/prose-and-language/subtext_and_implication.md",
+    "title": "Subtext and Implication for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/prose-and-language"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/prose-and-language/voice_register_consistency.md",
+    "title": "Voice and Register Consistency",
+    "folder": "Narrative & Game Design/Interactive Fiction/prose-and-language"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/scope-and-planning/scope_and_length.md",
+    "title": "Scope and Length Guidelines for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/scope-and-planning"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/conversational_flowing_action_01.md",
+    "title": "Conversational Present Second-Person — Action",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/conversational_flowing_action_01_3p.md",
+    "title": "Conversational Past Third-Limited — Action",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/conversational_flowing_dialogue_01.md",
+    "title": "Conversational Past Third-Limited — Dialogue",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/conversational_flowing_introspection_01.md",
+    "title": "Conversational Past Third-Limited — Introspection",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/conversational_measured_dialogue_01.md",
+    "title": "Conversational Past First-Person — Dialogue",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/conversational_punchy_dialogue_01.md",
+    "title": "Conversational Present Second-Person — Dialogue",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/literary_flowing_action_01.md",
+    "title": "Literary Past Third-Limited — Action",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/literary_flowing_action_02.md",
+    "title": "Literary Present Second-Person — Action",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/literary_flowing_introspection_01.md",
+    "title": "Literary Past First-Person — Introspection",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/literary_measured_action_01.md",
+    "title": "Literary Past Third-Limited — Measured Action",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/literary_measured_exposition_01.md",
+    "title": "Literary Present Second-Person — Exposition",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/literary_measured_introspection_01.md",
+    "title": "Literary Past Third-Limited — Introspection",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/literary_punchy_dialogue_01.md",
+    "title": "Literary Past Third-Limited — Dialogue",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/ornate_flowing_action_01.md",
+    "title": "Ornate Present Second-Person — Action",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/ornate_flowing_introspection_01.md",
+    "title": "Ornate Past Third-Limited — Introspection",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/ornate_measured_introspection_01.md",
+    "title": "Ornate Past First-Person — Introspection",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/sparse_flowing_exposition_01.md",
+    "title": "Sparse Past Third-Limited — Exposition",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/sparse_measured_exposition_01.md",
+    "title": "Sparse Present Second-Person — Exposition",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/sparse_measured_introspection_01.md",
+    "title": "Sparse Past Third-Limited — Introspection",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/sparse_punchy_action_01.md",
+    "title": "Sparse Past Third-Limited — Action",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/sparse_punchy_action_02.md",
+    "title": "Sparse Present Second-Person — Action",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/sparse_punchy_action_03.md",
+    "title": "Sparse Past First-Person — Action",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/sparse_punchy_dialogue_01.md",
+    "title": "Sparse Past Third-Limited — Dialogue",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/style-exemplars/sparse_punchy_dialogue_02.md",
+    "title": "Sparse Present Second-Person — Dialogue",
+    "folder": "Narrative & Game Design/Interactive Fiction/style-exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/world-and-setting/canon_management.md",
+    "title": "Canon and Worldbuilding Management",
+    "folder": "Narrative & Game Design/Interactive Fiction/world-and-setting"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/world-and-setting/character_naming_by_culture.md",
+    "title": "Character Naming by Culture for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/world-and-setting"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/world-and-setting/location_naming_patterns.md",
+    "title": "Location Naming Patterns for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/world-and-setting"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/world-and-setting/setting_as_character.md",
+    "title": "Setting as Character for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/world-and-setting"
+  },
+  {
+    "path": "Narrative & Game Design/Interactive Fiction/world-and-setting/worldbuilding_patterns.md",
+    "title": "Worldbuilding Patterns for Interactive Fiction",
+    "folder": "Narrative & Game Design/Interactive Fiction/world-and-setting"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/Cross-References to IF Craft.md",
+    "title": "Cross-References to IF Craft",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/Escape Room Design.md",
+    "title": "Escape Room Design",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/Exemplars.md",
+    "title": "Exemplars",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/Group Dynamics.md",
+    "title": "Group Dynamics",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/Hybrid Analog-Digital.md",
+    "title": "Hybrid Analog-Digital",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/Immersive and Live Action.md",
+    "title": "Immersive and Live Action",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/Production and Props.md",
+    "title": "Production and Props",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/Puzzle Design.md",
+    "title": "Puzzle Design",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/README.md",
+    "title": "Live Game Design",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/Scavenger and Treasure Hunts.md",
+    "title": "Scavenger and Treasure Hunts",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/_deep-research-prompts.md",
+    "title": "Deep Research Prompts",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/_narrow-search-questions.md",
+    "title": "Narrow Search Questions",
+    "folder": "Narrative & Game Design/Live Game Design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/escape-room-design/branching-in-escape-rooms.md",
+    "title": "Branching in Escape Rooms",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/escape-room-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/escape-room-design/failure-modes.md",
+    "title": "Failure Modes in Escape Room Design",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/escape-room-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/escape-room-design/hint-systems.md",
+    "title": "Hint Systems in Escape Rooms",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/escape-room-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/escape-room-design/pacing-and-difficulty-curves.md",
+    "title": "Pacing and Difficulty Curves",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/escape-room-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/escape-room-design/puzzle-taxonomy.md",
+    "title": "Puzzle Taxonomy in Escape Rooms",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/escape-room-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/escape-room-design/structural-patterns.md",
+    "title": "Structural Patterns in Escape Rooms",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/escape-room-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/escape-room-design/theme-and-immersion.md",
+    "title": "Theme and Immersion in Escape Rooms",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/escape-room-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/exemplars/crystal-maze.md",
+    "title": "The Crystal Maze",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/exemplars/exit-the-game.md",
+    "title": "Exit The Game",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/exemplars/hunt-a-killer.md",
+    "title": "Hunt A Killer",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/exemplars/mysterious-package-company.md",
+    "title": "Mysterious Package Company",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/exemplars/notable-real-escape-rooms.md",
+    "title": "Notable Real Escape Rooms",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/exemplars/sleep-no-more-and-punchdrunk.md",
+    "title": "Sleep No More and Punchdrunk",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/exemplars/unlock-series.md",
+    "title": "Unlock Series",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/group-dynamics/cooperative-vs-adversarial-formats.md",
+    "title": "Cooperative vs Adversarial Live Game Formats",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/group-dynamics"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/group-dynamics/debriefing.md",
+    "title": "Debriefing",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/group-dynamics"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/group-dynamics/host-roles.md",
+    "title": "Host Roles",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/group-dynamics"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/group-dynamics/information-asymmetry.md",
+    "title": "Information Asymmetry",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/group-dynamics"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/group-dynamics/mixed-ability-groups.md",
+    "title": "Mixed-Ability Groups",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/group-dynamics"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/group-dynamics/parallel-team-architectures.md",
+    "title": "Parallel Team Architectures",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/group-dynamics"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/group-dynamics/player-types-and-roles.md",
+    "title": "Player Types and Roles",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/group-dynamics"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/group-dynamics/spectator-friendly-design.md",
+    "title": "Spectator Friendly Design",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/group-dynamics"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/group-dynamics/team-sizes.md",
+    "title": "Team Sizes",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/group-dynamics"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/group-dynamics/team-splitting-strategies.md",
+    "title": "Team-Splitting Strategies",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/group-dynamics"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/group-dynamics/trust-and-social-pressure.md",
+    "title": "Trust and Social Pressure",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/group-dynamics"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/hybrid-analog-digital/bot-distribution.md",
+    "title": "Bot Distribution",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/hybrid-analog-digital"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/hybrid-analog-digital/game-state-and-answer-checking.md",
+    "title": "Game State and Answer Checking",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/hybrid-analog-digital"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/hybrid-analog-digital/llm-as-npc.md",
+    "title": "LLMs as NPCs",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/hybrid-analog-digital"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/hybrid-analog-digital/qr-nfc-patterns.md",
+    "title": "QR and NFC Patterns",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/hybrid-analog-digital"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/hybrid-analog-digital/web-app-gating.md",
+    "title": "Web App Gating",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/hybrid-analog-digital"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/artefact-design.md",
+    "title": "Artefact Design",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/faction-design.md",
+    "title": "Faction Design",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/immersive-theatre-lessons.md",
+    "title": "Immersive Theatre Lessons",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/jubensha.md",
+    "title": "Jubensha",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/megagames.md",
+    "title": "Megagames",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/murder-mystery-party.md",
+    "title": "Murder Mystery Party",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/nordic-larp.md",
+    "title": "Nordic LARP",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/one-on-one-scene-design.md",
+    "title": "One-on-One Scene Design",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/progressive-revelation.md",
+    "title": "Progressive Revelation",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/puzzle-accessibility.md",
+    "title": "Puzzle Accessibility",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/theatrical-wrapper-design.md",
+    "title": "Theatrical Wrapper Design",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/3d-printing-applications.md",
+    "title": "3D Printing Applications",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/cue-management.md",
+    "title": "Cue Management",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/digital-props.md",
+    "title": "Digital Props",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/document-forgery.md",
+    "title": "Document Forgery",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/game-master-station.md",
+    "title": "Game-Master Station",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/hidden-compartments.md",
+    "title": "Hidden Compartments and Reveal Mechanisms",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/lock-taxonomy.md",
+    "title": "Lock Taxonomy",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/materials-durability-and-weatherproofing.md",
+    "title": "Materials, Durability, and Weatherproofing",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/physical-clue-formats.md",
+    "title": "Physical Clue Formats",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/print-and-play-tooling.md",
+    "title": "Print and Play Tooling",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/reset-and-pre-run-checklists.md",
+    "title": "Reset and Pre-Run Checklists",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/production-and-props/sourcing-and-fabrication.md",
+    "title": "Sourcing and Fabrication",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/production-and-props"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/puzzle-design/aha-moment-engineering.md",
+    "title": "Aha Moment Engineering",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/puzzle-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/puzzle-design/cipher-selection.md",
+    "title": "Cipher Selection",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/puzzle-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/puzzle-design/clue-sequencing.md",
+    "title": "Clue Sequencing",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/puzzle-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/puzzle-design/cluing-principles.md",
+    "title": "Cluing Principles",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/puzzle-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/puzzle-design/information-architecture.md",
+    "title": "Information Architecture",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/puzzle-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/puzzle-design/meta-puzzles.md",
+    "title": "Meta Puzzles",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/puzzle-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/puzzle-design/multistep-puzzles.md",
+    "title": "Multistep Puzzles",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/puzzle-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/puzzle-design/puzzle-types.md",
+    "title": "Puzzle Types A Cognitive Taxonomy",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/puzzle-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/puzzle-design/self-resolving-puzzles.md",
+    "title": "Self-Resolving Puzzles",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/puzzle-design"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts/book-and-treasure-hunts.md",
+    "title": "Book and Treasure Hunts",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts/clue-chain-design.md",
+    "title": "Clue Chain Design",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts/community-and-player-trust.md",
+    "title": "Community and Player Trust",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts/finale-design.md",
+    "title": "Finale Design",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts/outdoor-vs-indoor.md",
+    "title": "Outdoor vs Indoor",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts/physical-vs-digital-puzzle-artefacts.md",
+    "title": "Physical vs Digital Puzzle Artefacts",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts/static-vs-adaptive.md",
+    "title": "Static vs Adaptive",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts"
+  },
+  {
+    "path": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts/traditions-overview.md",
+    "title": "Traditions Overview",
+    "folder": "Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts"
+  },
+  {
+    "path": "Narrative & Game Design/Puzzle Hunts/README.md",
+    "title": "Puzzle Hunts and ARGs",
+    "folder": "Narrative & Game Design/Puzzle Hunts"
+  },
+  {
+    "path": "Narrative & Game Design/Puzzle Hunts/corpus/arg-history.md",
+    "title": "ARG History -- Alternate Reality Games as a Design Tradition",
+    "folder": "Narrative & Game Design/Puzzle Hunts/corpus"
+  },
+  {
+    "path": "Narrative & Game Design/Puzzle Hunts/corpus/cicada-3301-and-secret-hunts.md",
+    "title": "Cicada 3301 and the Secret / Recruitment Hunt",
+    "folder": "Narrative & Game Design/Puzzle Hunts/corpus"
+  },
+  {
+    "path": "Narrative & Game Design/Puzzle Hunts/corpus/dash-and-galactic-puzzle-hunts.md",
+    "title": "DASH and Galactic Puzzle Hunt -- Distributed & Online Hunt Formats",
+    "folder": "Narrative & Game Design/Puzzle Hunts/corpus"
+  },
+  {
+    "path": "Narrative & Game Design/Puzzle Hunts/corpus/mit-mystery-hunt.md",
+    "title": "MIT Mystery Hunt",
+    "folder": "Narrative & Game Design/Puzzle Hunts/corpus"
+  },
+  {
+    "path": "Narrative & Game Design/Puzzle Hunts/corpus/printed-puzzle-tradition.md",
+    "title": "The Print Puzzle Tradition",
+    "folder": "Narrative & Game Design/Puzzle Hunts/corpus"
+  },
+  {
+    "path": "Narrative & Game Design/Puzzle Hunts/corpus/puzzle-hunt-craft.md",
+    "title": "Puzzle Hunt Craft",
+    "folder": "Narrative & Game Design/Puzzle Hunts/corpus"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/README.md",
+    "title": "Tabletop",
+    "folder": "Narrative & Game Design/Tabletop"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-design/decision-space-and-choice-design.md",
+    "title": "Decision Space and Choice Design",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-design/downtime-and-turn-structure.md",
+    "title": "Downtime and Turn Structure -- Analysis Paralysis and Modern Solutions",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-design/elegance-and-emergence.md",
+    "title": "Elegance and Emergence in Boardgame Design",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-design/mechanism-vocabulary.md",
+    "title": "Boardgame Mechanism Vocabulary",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-design/randomness-and-luck-management.md",
+    "title": "Randomness and Luck Management in Boardgame Design",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-design/replayability.md",
+    "title": "Replayability -- Designing for Dozens or Hundreds of Plays",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-design/solo-modes.md",
+    "title": "Solo Modes in Boardgame Design",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-design/theme-mechanism-integration.md",
+    "title": "Theme-Mechanism Integration",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-genres/american-style.md",
+    "title": "American-Style Boardgames (Ameritrash)",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-genres"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-genres/co-op-games.md",
+    "title": "Cooperative Boardgames -- Genre Overview",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-genres"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-genres/deckbuilders.md",
+    "title": "Deckbuilders",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-genres"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-genres/eurogame-tradition.md",
+    "title": "The German / Eurogame Tradition",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-genres"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-genres/legacy-games.md",
+    "title": "Legacy Games",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-genres"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-genres/party-games.md",
+    "title": "Party Games",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-genres"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/boardgame-genres/social-deduction.md",
+    "title": "Social Deduction Games",
+    "folder": "Narrative & Game Design/Tabletop/corpus/boardgame-genres"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/digital-puzzle-games/convention-establishment.md",
+    "title": "Convention Establishment in Digital Puzzle Games",
+    "folder": "Narrative & Game Design/Tabletop/corpus/digital-puzzle-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/digital-puzzle-games/mechanic-revelation-curves.md",
+    "title": "Mechanic-Revelation Curves in Puzzle Games",
+    "folder": "Narrative & Game Design/Tabletop/corpus/digital-puzzle-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/digital-puzzle-games/nonverbal-tutorial-design.md",
+    "title": "Nonverbal Tutorial Design",
+    "folder": "Narrative & Game Design/Tabletop/corpus/digital-puzzle-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/digital-puzzle-games/puzzle-as-discovery.md",
+    "title": "Puzzle as Discovery -- The Jonathan Blow Tradition",
+    "folder": "Narrative & Game Design/Tabletop/corpus/digital-puzzle-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/digital-puzzle-games/the-aha-moment-in-digital.md",
+    "title": "The Aha Moment in Digital Puzzle Games",
+    "folder": "Narrative & Game Design/Tabletop/corpus/digital-puzzle-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/apocalypse-world.md",
+    "title": "Apocalypse World",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/baba-is-you.md",
+    "title": "Baba Is You -- Mechanic as Language",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/blades-in-the-dark.md",
+    "title": "Blades in the Dark -- Exemplar Case Study",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/blood-on-the-clocktower.md",
+    "title": "Blood on the Clocktower -- Exemplar Case Study",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/blue-prince.md",
+    "title": "Blue Prince -- Exemplar Case Study",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/call-of-cthulhu.md",
+    "title": "Call of Cthulhu -- Exemplar Case Study",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/dungeons-and-dragons-5e.md",
+    "title": "Dungeons & Dragons 5th Edition -- Case Study",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/ironsworn.md",
+    "title": "Ironsworn -- Exemplar Case Study",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/magic-the-gathering-design.md",
+    "title": "Magic: The Gathering as Design Discipline",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/pandemic-and-cooperative-design.md",
+    "title": "Pandemic and Cooperative Design -- Exemplar Case Study",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/paranoia.md",
+    "title": "Paranoia (1984) -- Exemplar: Adversarial Comedy RPG",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/the-witness.md",
+    "title": "The Witness -- Exemplar Case Study",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/exemplars/thousand-year-old-vampire.md",
+    "title": "Thousand Year Old Vampire -- Exemplar Case Study",
+    "folder": "Narrative & Game Design/Tabletop/corpus/exemplars"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games/baron-munchausen-and-the-storytelling-tradition.md",
+    "title": "Baron Munchausen and the Storytelling Tradition",
+    "folder": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games/fiasco-and-the-playset-model.md",
+    "title": "Fiasco and the Playset Model",
+    "folder": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games/letter-writing-rpgs.md",
+    "title": "Letter-Writing RPGs",
+    "folder": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games/microscope-kingdom-and-fractal-collaboration.md",
+    "title": "Microscope, Kingdom, and Fractal Collaboration",
+    "folder": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games/narrative-authority-distribution-mechanics.md",
+    "title": "Narrative Authority Distribution Mechanics",
+    "folder": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games/ten-candles-and-physical-timer-mechanics.md",
+    "title": "Ten Candles and Physical Timer Mechanics",
+    "folder": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games/the-quiet-year-and-map-as-narrative.md",
+    "title": "The Quiet Year and Map as Narrative",
+    "folder": "Narrative & Game Design/Tabletop/corpus/gmless-storytelling-games"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/solo-journaling-rpgs/bookend-rituals.md",
+    "title": "Bookend Rituals -- Session-Opening and Session-Closing Scaffolding for Solo Play",
+    "folder": "Narrative & Game Design/Tabletop/corpus/solo-journaling-rpgs"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/solo-journaling-rpgs/genre-overview.md",
+    "title": "Solo Journaling RPGs -- Genre Overview",
+    "folder": "Narrative & Game Design/Tabletop/corpus/solo-journaling-rpgs"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/solo-journaling-rpgs/journaling-as-output.md",
+    "title": "The Journal as Artefact -- Journaling as Output in Solo RPGs",
+    "folder": "Narrative & Game Design/Tabletop/corpus/solo-journaling-rpgs"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/solo-journaling-rpgs/oracle-design.md",
+    "title": "Oracle Design in Solo Journaling RPGs",
+    "folder": "Narrative & Game Design/Tabletop/corpus/solo-journaling-rpgs"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/solo-journaling-rpgs/prompt-design.md",
+    "title": "Prompt Design in Solo Journaling RPGs",
+    "folder": "Narrative & Game Design/Tabletop/corpus/solo-journaling-rpgs"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design/campaign-arc-shapes.md",
+    "title": "Campaign Arc Shapes",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design/dungeon-design.md",
+    "title": "Dungeon Design",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design/faction-clocks-and-progress.md",
+    "title": "Faction Clocks and Progress Clocks",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design/hexcrawl-and-pointcrawl.md",
+    "title": "Hexcrawl and Pointcrawl -- Spatial Campaign Design",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design/sandbox-vs-railroad.md",
+    "title": "Sandbox vs Railroad -- The Campaign Design Axis",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design/westmarches-and-open-tables.md",
+    "title": "West Marches and the Open-Table Tradition",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-campaign-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-foundations/format-taxonomy.md",
+    "title": "Format Taxonomy",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-foundations/prep-economy.md",
+    "title": "Prep Economy",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-foundations/session-zero.md",
+    "title": "Session Zero",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-foundations/system-vs-setting.md",
+    "title": "System vs Setting",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-foundations"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-gm-craft/encounter-design.md",
+    "title": "Encounter Design",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-gm-craft"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-gm-craft/gm-role-models.md",
+    "title": "GM Role Models",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-gm-craft"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-gm-craft/npc-craft.md",
+    "title": "NPC Craft",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-gm-craft"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-gm-craft/pacing-in-sessions.md",
+    "title": "Pacing in Sessions",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-gm-craft"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-gm-craft/rulings-vs-rules.md",
+    "title": "Rulings vs Rules",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-gm-craft"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-system-design/mechanical-resolution-types.md",
+    "title": "Mechanical Resolution Types",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-system-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-system-design/moves-and-pbta.md",
+    "title": "Moves and PbtA -- The Move as a Design Pattern",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-system-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-system-design/playbook-design.md",
+    "title": "Playbook Design",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-system-design"
+  },
+  {
+    "path": "Narrative & Game Design/Tabletop/corpus/ttrpg-system-design/safety-systems-mechanical.md",
+    "title": "Safety Systems as Mechanical Layer",
+    "folder": "Narrative & Game Design/Tabletop/corpus/ttrpg-system-design"
+  }
+]

@@ -1,0 +1,14 @@
+---
+title: "Mixed-Ability Groups & Universal Design"
+aliases: []
+family: "Players & Social Dynamics"
+media: []
+facets:
+  effects: []
+  problems: []
+  components: []
+  genre: []
+provenance: ""
+---
+
+<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->

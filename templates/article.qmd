@@ -8,6 +8,7 @@ facets:
   effects: []        # What feeling or outcome does this create?
   problems: []       # What design roadblock does this solve?
   components: []     # What physical/mechanical parts are required?
+  genre: []          # Genre lens for routing: mystery, horror, fantasy, sci-fi, historical, children-ya, etc. (cross-cut, like media)
 provenance: ""       # corpus | researched | synthesis
 ---
 

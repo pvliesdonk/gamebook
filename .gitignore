@@ -11,3 +11,7 @@ _freeze/
 
 /.quarto/
 **/*.quarto_ipynb
+
+# Python
+__pycache__/
+*.pyc

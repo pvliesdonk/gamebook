@@ -5,7 +5,7 @@ type: exemplar
 medium: ""           # interactive-fiction | live-game | tabletop | puzzle-hunt
 year: ""             # Release year
 designer: ""         # Individual or studio
-mechanisms: []       # Links to canonical entries
+mechanisms: []       # Links to canonical articles
 provenance: ""       # corpus | researched | synthesis
 ---
 

@@ -23,7 +23,7 @@ High-level advice on navigating this terrain. [synthesis]
 ## Key Mechanisms
 
 <!-- Briefly introduce the load-bearing mechanisms of this family, 
-     linking to full entries. -->
+     linking to full articles. -->
 
 ## Related Exemplars
 <!-- Links to real-world works that showcase this family. -->

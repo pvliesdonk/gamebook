@@ -1,0 +1,14 @@
+---
+title: "QR & NFC Patterns"
+aliases: []
+family: "Space, Props & Materiality"
+media: []
+facets:
+  effects: []
+  problems: []
+  components: []
+  genre: []
+provenance: ""
+---
+
+<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->

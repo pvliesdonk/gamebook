@@ -1,0 +1,14 @@
+---
+title: "Euro vs Ameritrash: The Two Design Poles"
+aliases: []
+family: "Systems & Mechanics"
+media: []
+facets:
+  effects: []
+  problems: []
+  components: []
+  genre: []
+provenance: ""
+---
+
+<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
