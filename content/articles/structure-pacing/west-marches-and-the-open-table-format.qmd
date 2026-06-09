@@ -1,0 +1,14 @@
+---
+title: "West Marches & the Open-Table Format"
+aliases: []
+family: "Structure & Pacing"
+media: []
+facets:
+  effects: []
+  problems: []
+  components: []
+  genre: []
+provenance: ""
+---
+
+<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->

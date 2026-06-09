@@ -1,0 +1,14 @@
+---
+title: "Moral Dilemmas & Consequence Chains"
+aliases: []
+family: "Story, Character & Voice"
+media: []
+facets:
+  effects: []
+  problems: []
+  components: []
+  genre: []
+provenance: ""
+---
+
+<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->

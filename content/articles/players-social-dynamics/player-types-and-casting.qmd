@@ -1,0 +1,14 @@
+---
+title: "Player Types & Casting"
+aliases: []
+family: "Players & Social Dynamics"
+media: []
+facets:
+  effects: []
+  problems: []
+  components: []
+  genre: []
+provenance: ""
+---
+
+<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
