@@ -104,10 +104,22 @@ SUBCAT_DEFAULT = {
     "Tabletop/corpus/ttrpg-system-design": "Systems & Mechanics",
 }
 
+# IF authoring/tooling/workflow — out of scope for a design-mechanism guide (Gate B). Persists in corpus.
+IF_PRODUCTION_DROP = {
+    "if_platform_tools.md", "localization_considerations.md", "player_analytics_metrics.md",
+    "collaborative_if_writing.md", "creative_workflow_pipeline.md", "idea_capture_and_hooks.md",
+}
+# Cross-media design-process kernels -> a researched primer rather than a family article (Gate B).
+PRIMER_PQV = {"testing_interactive_fiction.md", "quality_standards_if.md", "research_and_verification.md"}
+
 def destination(n):
-    p, folder, b, c = n["path"], n["folder"], base(n["path"]), cat(n["folder"])
+    folder, b, c = n["folder"], base(n["path"]), cat(n["folder"])
     if b == "README.md" or folder == PREFIX + "Live Game Design":
         return "drop", "pillar overview / navigation / meta — superseded by the functional family structure"
+    if b in IF_PRODUCTION_DROP:
+        return "drop", "IF authoring tooling/workflow — out of scope for a design-mechanism guide; persists in corpus"
+    if b in PRIMER_PQV:
+        return "Primer: Playtesting, Quality & Verification", "cross-media design-process kernel -> researched primer (Phase 3)"
     if c.endswith("style-exemplars"):
         return "Style Specimen gallery", "prose specimen for the style gallery"
     if c.endswith("/exemplars"):

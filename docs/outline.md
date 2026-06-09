@@ -7,28 +7,29 @@
 
 ## Scope at a glance (for Gate B)
 
-- **~120 articles across 6 families**, plus a **32-profile Exemplars gazetteer** and the
+- **~118 articles across 6 families**, plus a **32-profile Exemplars gazetteer** and the
   **24-specimen Style gallery**. This is above the Gate-A projection of 65–85 — the growth
   is *earned* (you confirmed: keep genre; don't under-drop; accept emergent density) but it
   is a real Phase 4/5 commitment. **Trim candidates flagged below** if you want it smaller.
-- **Note→destination is verified**: all 234 corpus notes land exactly once (15 dropped as
-  pillar-overview/navigation/meta; 32 → exemplars; 24 → style gallery).
+- **Note→destination is verified**: all 234 corpus notes land exactly once (21 dropped as
+  pillar-overview/navigation/meta + out-of-scope IF tooling; 32 → exemplars; 24 → style
+  gallery; 3 → a process primer).
 
 ### Open flags for your Gate B decision
 
-1. **The IF authoring/production cluster (Systems group 6M — ~10 notes, 3 articles):**
-   `if_platform_tools`, `testing_interactive_fiction`, `quality_standards_if`,
-   `creative_workflow_pipeline`, `idea_capture_and_hooks`, `research_and_verification`,
-   `player_analytics_metrics`, `collaborative_if_writing`, `localization_considerations`.
-   These are **production process/tooling**, not design *mechanisms* — they fit the
-   design-function families awkwardly. Options: keep as a Systems group · move to a
-   "Production" appendix · **drop as out-of-scope** (the guide is about what to design, not
-   authoring-pipeline mechanics). My lean: appendix or drop. **Your call.**
-2. **Scale trim candidates** if ~120 is too many: Story's dramatic-pattern articles
-   (3C) could merge from 3→1; the IF-production cluster removal (above) cuts ~3.
+1. **RESOLVED (your call applied): the IF authoring/production cluster is dissolved.**
+   6 IF-tooling/workflow notes dropped as out-of-scope (`if_platform_tools`,
+   `localization_considerations`, `player_analytics_metrics`, `collaborative_if_writing`,
+   `creative_workflow_pipeline`, `idea_capture_and_hooks`); 3 cross-media process notes
+   promoted to the new primer "Playtesting, Quality & Verification"
+   (`testing_interactive_fiction`, `quality_standards_if`, `research_and_verification`);
+   the one real design note (`mechanics_design_patterns`) kept as Systems 6K. None fit
+   Space 5D/5E (those are physical props/materiality; this cluster is digital authoring).
+2. **Scale trim candidate** still open if ~118 is too many: Story's dramatic-pattern
+   articles (3C) could merge from 3→1.
 3. **Gap list is thin** — Puzzles/Story/Systems are corpus-rich. Genuine Phase-3 gaps are
-   the unbuilt cross-pillar maps (tabletop, puzzle-hunt) plus a handful of `gap`-tagged
-   articles; see `docs/gap-list.md`.
+   the unbuilt cross-pillar maps (tabletop, puzzle-hunt), the genre router, and the new
+   process primer; see `docs/gap-list.md`.
 
 ---
 
@@ -256,10 +257,9 @@
 ### Group 6L — Digital Infrastructure
 - **Digital Gating & State** — web-app gating; server-side answer checking; state management. ← web-app-gating, game-state-and-answer-checking
 
-### Group 6M — IF Authoring & Production  **[PROVISIONAL — Gate B: keep / appendix / drop?]**
-- **IF Authoring Tools & Platforms** — Twine/Ink/ChoiceScript/Inform; localisation. ← if_platform_tools, localization_considerations
-- **IF Production Pipeline & QA** — vision→export pipeline; testing; quality bars; idea capture; research posture. ← creative_workflow_pipeline, testing_interactive_fiction, quality_standards_if, idea_capture_and_hooks, research_and_verification
-- **Analytics & Collaboration** — player analytics; collaborative writing, story bibles, version control. ← player_analytics_metrics, collaborative_if_writing
+*(Former group 6M — IF Authoring & Production — dissolved at Gate B: 6 IF-tooling notes
+dropped as out-of-scope; the 3 cross-media process notes promoted to a primer; the one real
+design note kept as 6K above.)*
 
 ---
 
@@ -289,6 +289,7 @@ Short orientation pieces on the big terrain features (dip-in, not read-through):
 5. **Diegesis & the Magic Circle** — the in-world surface and the boundary of play.
 6. **The Social Contract & Safety** — trust, consent, and calibration before play.
 7. **Resolution & Randomness** — how games decide what happens.
+8. **Playtesting, Quality & Verification** — cross-media: testing, quality bars, research posture (researched up in Phase 3 from the IF process notes). *(gap)*
 
 ## Keys (routing facets)
 
@@ -296,7 +297,11 @@ Generated from article frontmatter, not hand-maintained. Facets: **effects**, **
 **components**, **genre** (new), plus **media** badges. Genre is a Key facet (mystery, horror,
 fantasy, sci-fi, historical, children-ya, …), not a family.
 
-## Dropped (15 — pillar overviews / navigation / meta)
+## Dropped (21 — pillar overviews / navigation / meta + out-of-scope IF tooling)
 
-The pillar `README`/index notes and the two `_research`/meta files are not carried: their
-navigational role is replaced by the family/group structure. (See `docs/coverage-map.md`.)
+The pillar `README`/index notes and the two `_research`/meta files (15) are not carried:
+their navigational role is replaced by the family/group structure. Plus 6 IF
+authoring/tooling/workflow notes dropped as out-of-scope for a design-mechanism guide
+(`if_platform_tools`, `localization_considerations`, `player_analytics_metrics`,
+`collaborative_if_writing`, `creative_workflow_pipeline`, `idea_capture_and_hooks`). All
+persist in the corpus. (See `docs/coverage-map.md`.)

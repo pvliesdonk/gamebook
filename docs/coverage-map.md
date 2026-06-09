@@ -14,18 +14,18 @@ article level in the outline.
 | Narrative & Game Design/Interactive Fiction/README.md | drop | drop | pillar overview / navigation / meta — superseded by the functional family structure |
 | Narrative & Game Design/Interactive Fiction/audience-and-access/accessibility_guidelines.md | merge | Players & Social Dynamics | routed by function (cross-family handoff) |
 | Narrative & Game Design/Interactive Fiction/audience-and-access/audience_targeting.md | merge | Story, Character & Voice | routed by function (cross-family handoff) |
-| Narrative & Game Design/Interactive Fiction/audience-and-access/localization_considerations.md | merge | Systems & Mechanics | routed by function (cross-family handoff) |
+| Narrative & Game Design/Interactive Fiction/audience-and-access/localization_considerations.md | drop | drop | IF authoring tooling/workflow — out of scope for a design-mechanism guide; persists in corpus |
 | Narrative & Game Design/Interactive Fiction/craft-foundations/audio_visual_integration.md | merge | Story, Character & Voice | routed by function (cross-family handoff) |
-| Narrative & Game Design/Interactive Fiction/craft-foundations/collaborative_if_writing.md | merge | Systems & Mechanics | primary functional home |
-| Narrative & Game Design/Interactive Fiction/craft-foundations/creative_workflow_pipeline.md | merge | Systems & Mechanics | primary functional home |
+| Narrative & Game Design/Interactive Fiction/craft-foundations/collaborative_if_writing.md | drop | drop | IF authoring tooling/workflow — out of scope for a design-mechanism guide; persists in corpus |
+| Narrative & Game Design/Interactive Fiction/craft-foundations/creative_workflow_pipeline.md | drop | drop | IF authoring tooling/workflow — out of scope for a design-mechanism guide; persists in corpus |
 | Narrative & Game Design/Interactive Fiction/craft-foundations/diegetic_design.md | merge | Story, Character & Voice | routed by function (cross-family handoff) |
-| Narrative & Game Design/Interactive Fiction/craft-foundations/idea_capture_and_hooks.md | merge | Systems & Mechanics | primary functional home |
-| Narrative & Game Design/Interactive Fiction/craft-foundations/if_platform_tools.md | merge | Systems & Mechanics | primary functional home |
+| Narrative & Game Design/Interactive Fiction/craft-foundations/idea_capture_and_hooks.md | drop | drop | IF authoring tooling/workflow — out of scope for a design-mechanism guide; persists in corpus |
+| Narrative & Game Design/Interactive Fiction/craft-foundations/if_platform_tools.md | drop | drop | IF authoring tooling/workflow — out of scope for a design-mechanism guide; persists in corpus |
 | Narrative & Game Design/Interactive Fiction/craft-foundations/mechanics_design_patterns.md | merge | Systems & Mechanics | primary functional home |
-| Narrative & Game Design/Interactive Fiction/craft-foundations/player_analytics_metrics.md | merge | Systems & Mechanics | primary functional home |
-| Narrative & Game Design/Interactive Fiction/craft-foundations/quality_standards_if.md | merge | Systems & Mechanics | primary functional home |
-| Narrative & Game Design/Interactive Fiction/craft-foundations/research_and_verification.md | merge | Systems & Mechanics | primary functional home |
-| Narrative & Game Design/Interactive Fiction/craft-foundations/testing_interactive_fiction.md | merge | Systems & Mechanics | primary functional home |
+| Narrative & Game Design/Interactive Fiction/craft-foundations/player_analytics_metrics.md | drop | drop | IF authoring tooling/workflow — out of scope for a design-mechanism guide; persists in corpus |
+| Narrative & Game Design/Interactive Fiction/craft-foundations/quality_standards_if.md | merge | Primer: Playtesting, Quality & Verification | cross-media design-process kernel -> researched primer (Phase 3) |
+| Narrative & Game Design/Interactive Fiction/craft-foundations/research_and_verification.md | merge | Primer: Playtesting, Quality & Verification | cross-media design-process kernel -> researched primer (Phase 3) |
+| Narrative & Game Design/Interactive Fiction/craft-foundations/testing_interactive_fiction.md | merge | Primer: Playtesting, Quality & Verification | cross-media design-process kernel -> researched primer (Phase 3) |
 | Narrative & Game Design/Interactive Fiction/emotional-design/conflict_patterns.md | merge | Story, Character & Voice | primary functional home |
 | Narrative & Game Design/Interactive Fiction/emotional-design/emotional_beats.md | merge | Story, Character & Voice | primary functional home |
 | Narrative & Game Design/Interactive Fiction/genre-conventions/children_and_ya_conventions.md | merge | Story, Character & Voice | primary functional home |
@@ -250,11 +250,12 @@ article level in the outline.
 
 - Exemplars gazetteer: 32
 - Players & Social Dynamics: 22
+- Primer: Playtesting, Quality & Verification: 3
 - Puzzles, Clues & Information: 28
 - Space, Props & Materiality: 19
 - Story, Character & Voice: 33
 - Structure & Pacing: 23
 - Style Specimen gallery: 24
-- Systems & Mechanics: 38
-- drop: 15
+- Systems & Mechanics: 29
+- drop: 21
 - **total: 234**

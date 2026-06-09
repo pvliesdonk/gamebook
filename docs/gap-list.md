@@ -17,6 +17,7 @@
 | item | type | family | why it is a gap | research direction |
 |------|------|--------|-----------------|--------------------|
 | A Taxonomy of Genre Conventions | article | Story (3E) | Router/map with no sole source note; synthesised from the 7 genre notes. | Light: distil a comparative table (genre × reader-contract × dominant-mechanic × key IF adaptation). |
+| Playtesting, Quality & Verification | primer | (cross-media) | The 3 source notes are IF-framed (`testing_interactive_fiction`, `quality_standards_if`, `research_and_verification`); the primer must generalise them across media. | Generalise IF playtesting/QA/research-posture into cross-media testing, quality bars, and provenance discipline. |
 
 ## Provisional-cluster decision (not a research gap — a Gate-B placement question)
 
