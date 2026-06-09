@@ -21,10 +21,14 @@
    function cuts across it cleanly. Within the calibration family alone, escape-room and
    scavenger notes redistribute to four different functional families (see Cross-family
    handoffs). This is the spine working as designed.
-3. **Granularity signal:** the calibration family yields **13 articles in 5 groups** from
-   ~25 claimed corpus notes (≈2 notes/article). If the other five families calibrate to
-   this density, the guide lands at roughly **60–80 articles** — a medium-coarse field
+3. **Granularity signal:** the calibration family yields **14 articles in 5 groups** from
+   ~25 claimed corpus notes (≈1.8 notes/article). If the other five families calibrate to
+   this density, the guide lands at roughly **65–85 articles** — a medium-coarse field
    guide. Flagged for the human to accept or retune at Gate A.
+5. **Taxonomy precedent (Gate A decision):** a comparative taxonomy becomes a *shallow
+   router article* (the "map") plus *deep type articles*, never one squashed entry. Set
+   when de-squashing Group 2B; fan-out agents should follow it wherever a note is a
+   sprawling multi-type taxonomy.
 4. **Puzzles is corpus-rich → few gaps.** This family is almost entirely `corpus`-backed.
    The gap list will be thin here; gaps should concentrate in under-covered families
    (tabletop and puzzle-hunt cross-pillar maps are unbuilt per the plan).
@@ -54,10 +58,19 @@ stage all three.*
 
 ### Group 2B — Puzzle Mechanics (the structures themselves)
 
-- **Puzzle Types: A Cognitive Taxonomy** — word, logic, observation, physical, knowledge,
-  meta; mixing types to manage fatigue. media: [puzzle-hunt, live-game, tabletop].
+- **A Taxonomy of Puzzles** — the comparative map, deliberately a shallow router. Two
+  complementary lenses: by **cognitive faculty** (word, logic, observation, physical,
+  knowledge, meta) and by **experiential job in a live room** (search, observation,
+  multi-step, parallel, meta, lateral, narrative-locked); the "atomic actions" idea; the
+  anti-pattern of a room or hunt leaning on one category. Points to the deep articles
+  below rather than deep-diving. media: [puzzle-hunt, live-game, tabletop, interactive-fiction].
   provenance: corpus.
-  - feeds: `puzzle-types.md`, `escape-room-design/puzzle-taxonomy.md`
+  - feeds: `puzzle-types.md` (split), `escape-room-design/puzzle-taxonomy.md` (split)
+- **Search, Observation & Lateral Thinking** — the "noticing and world-affordance" puzzle
+  types that the mechanism articles below do not cover: search, observation, lateral-thinking,
+  narrative-locked, and physical-manipulation puzzles, with their shine/fail conditions.
+  media: [live-game, puzzle-hunt]. provenance: corpus.
+  - feeds: `escape-room-design/puzzle-taxonomy.md` (split), `puzzle-types.md` (split)
 - **Ciphers & Codes** — selecting and fairly deploying ciphers and encodings.
   media: [puzzle-hunt, live-game]. provenance: corpus.
   - feeds: `cipher-selection.md`

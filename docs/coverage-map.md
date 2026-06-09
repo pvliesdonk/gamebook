@@ -15,8 +15,8 @@
 | Narrative & Game Design/Live Game Design/corpus/puzzle-design/cluing-principles.md | merge | Cluing & Fairness | Core cluing-craft source (every clue does work; fairness; indirection). |
 | Narrative & Game Design/Live Game Design/corpus/puzzle-design/clue-sequencing.md | merge | Clue Sequencing & Chains | Ordering clues / the calibration opening. |
 | Narrative & Game Design/Live Game Design/corpus/scavenger-and-treasure-hunts/clue-chain-design.md | merge | Clue Sequencing & Chains | Clue chains in trails — same function, different medium. |
-| Narrative & Game Design/Live Game Design/corpus/puzzle-design/puzzle-types.md | split | Puzzle Types: A Cognitive Taxonomy | Primary taxonomy; cross-ref Aha and Cluing. |
-| Narrative & Game Design/Live Game Design/corpus/escape-room-design/puzzle-taxonomy.md | merge | Puzzle Types: A Cognitive Taxonomy | Escape-room counterpart taxonomy; same cognitive categories. |
+| Narrative & Game Design/Live Game Design/corpus/puzzle-design/puzzle-types.md | split | A Taxonomy of Puzzles; Search, Observation & Lateral Thinking | Cognitive-faculty lens feeds the comparative map; its Observation/Physical type content feeds the deep noticing article. |
+| Narrative & Game Design/Live Game Design/corpus/escape-room-design/puzzle-taxonomy.md | split | A Taxonomy of Puzzles; Search, Observation & Lateral Thinking | Experiential-job lens feeds the map; its search/observation/lateral/narrative-locked types feed the deep article; Cipher/Meta/Multi-step sections cross-ref the dedicated mechanism articles. |
 | Narrative & Game Design/Live Game Design/corpus/puzzle-design/cipher-selection.md | merge | Ciphers & Codes | Sole source. |
 | Narrative & Game Design/Live Game Design/corpus/puzzle-design/meta-puzzles.md | merge | Extraction, Indexing & Meta-Puzzles | Meta depth. |
 | Narrative & Game Design/Live Game Design/corpus/puzzle-design/multistep-puzzles.md | merge | Extraction, Indexing & Meta-Puzzles | Multi-step / extraction craft at hunt scale. |
