@@ -1,14 +1,97 @@
 ---
 title: "Parallel Threads & Convergence"
-aliases: []
+aliases: ["Ensemble Convergence", "Parallel Storylines", "Braided Narrative", "Multi-Thread Structure"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [recontextualisation, pattern-recognition, earned-coincidence]
+  problems: [convergence-flattening, thread-collision, cognitive-overload]
+  components: [thread, convergence-node, connection-type, thread-access-model]
+  genre: [mystery, drama, heist]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: Several stories that run apart long enough for the reader to feel them snap together.*
+
+A braided story carries more than one line at once. Each line has its own person to follow and its own trouble pulling it toward an ending. For a while the reader holds them apart and wonders how they touch at all. Then a name said in one line turns out to belong to a face in another, and the wondering becomes the point. The pleasure is not any single thread. It is the shape the threads make when they meet.
+
+This is the structure behind *Pulp Fiction*, *Magnolia*, *Cloud Atlas*, and any tale where separate stories collide into one meaning. It is also the structure behind a four-character thriller you steer. And behind a treasure hunt where two teams hold half the map each, or a tabletop campaign that keeps several plots simmering so one is always near the boil. The medium changes what convergence is made of. The move underneath stays the same.
+
+This article is the map of convergence. It catalogues how threads connect, the shapes the meeting can take, and how a designer keeps the join from erasing the journeys that fed it. Its companion is [Branching Narrative Craft](branching-narrative-craft.qmd), where the felt-difference technique lives. That article asks how to make one merge feel earned; this one asks what kinds of merge there are to choose from.
+
+## The Mechanism (How it works)
+
+### A thread is not a character
+
+The first thing to get straight is what counts as a thread, because the word gets used loosely. An ensemble cast is one story told through many people. Ensemble convergence is many stories that become one. [corpus] The line between them is where the connections sit. A cast shares its situation from the opening; the audience tracks a single plot from several angles. A braid hides the connection and reveals it slowly; the audience tracks several plots at once and waits to learn how they bear on each other. [corpus]
+
+That distinction sets the load-bearing requirement. Every thread has to work on its own. It needs a protagonist with a goal and an obstacle, and an arc carrying stakes that protagonist genuinely cares about. [corpus] A thread that only makes sense once you know the others reads as thin and expository, a piece of scaffolding wearing a character's clothes. A thread that already satisfies on its own gets *richer* when the connection lands, because the connection adds to something that was already standing. [synthesis] This is the inversion that catches new designers out. The convergence is not what makes the threads worth reading. The threads being worth reading is what makes the convergence worth waiting for.
+
+Underneath their surface independence, though, the threads should share something. Not a plot link the reader can see yet, but a common grain. A theme each thread explores from a different angle. Story beats that arrive at similar moments so the parallel is felt before it is explained. Tones that comment on one another. [corpus] A comic thread running beside a tragic one is already telling the reader that both registers belong to the same world. The shared grain is what lets the eventual collision feel inevitable instead of arranged.
+
+### How threads connect
+
+When two threads finally bear on each other, the *kind* of connection sets the kind of meaning the reader takes from it. The corpus names five, and the strongest stories layer more than one. Threads joined by cause are joined by theme as well, and the character link reinforces the geographic one, until the convergence feels found rather than forced. [corpus]
+
+| Connection type | What links the threads | What it makes the reader feel |
+|---|---|---|
+| Causal | An action in one thread directly triggers an event in another | These stories are physically wired together [corpus] |
+| Character | A person in one thread is kin, colleague, or nemesis to a person in another | Both characters are redefined by who the other is [corpus] |
+| Geographic | The threads converge on one place | The world is smaller and tighter than it looked [corpus] |
+| Temporal | The threads sit in different eras around a shared place, object, or lineage | The past is still acting on the present [corpus] |
+| Thematic | No plot link at all, only the same idea seen from different sides | The pattern is one of meaning, not machinery [corpus] |
+
+The thematic link is the subtlest and the riskiest. With no causal wire to carry it, the convergence has to land as recognition: the reader sees that these stories were about the same thing all along. *Magnolia* ends on a rain of frogs that connects its whole ensemble without any character causing another's fate, a thematic convergence that asks the audience to feel the unity rather than trace it. [researched] When it works it is the most resonant join there is. When it misses, the threads just sit next to each other and the reader is left waiting for a click that never comes.
+
+### The shapes the meeting takes
+
+Connection type is what the join is made of. Convergence type is what the join *does* to the structure. There are four, and they are not interchangeable. [corpus]
+
+A **physical convergence** brings characters from different threads into one shared place, and the collision is literal: bodies in a single room, making a situation none of them planned. An **informational convergence** keeps the threads apart but lets their knowledge meet, so that what one protagonist learns from another completes a picture neither held alone. A **thematic convergence** never collides the threads at all; it lets their meanings arrive at a shared insight, the *Magnolia* move carried to the level of structure. A **temporal convergence** reveals that threads in different eras were telling one story the whole time, the present resolving the past or the past explaining the present, as in *Cloud Atlas* with its six nested lives reaching across centuries. [researched]
+
+The other axis is how much converges at once. Full convergence gathers every thread to one point. It is the most powerful effect available and the hardest to engineer without the seams showing. Partial convergence is the safer workhorse. Here two threads collide while a third keeps running, and only later does that third reach one of the first two. [corpus] This rolling collision keeps momentum, because the reader is never left waiting on a single distant climax for the whole structure to pay off. It also gives the designer room to stagger the recontextualisations instead of spending them all in one beat.
+
+That beat is worth naming on its own. The deepest effect in a braided story is the **recontextualisation cascade**: one reveal that makes several earlier scenes land differently at once. [corpus] The reader learns that one thread's hero is another thread's villain's brother, and three conversations they have already read quietly change meaning. Engineering it is a planting job. Drop details into early scenes that read as unremarkable on a first pass and turn telling after the reveal. Let characters reference offscreen people the reader will later meet as the leads of other threads. Reuse an object or a phrase across threads where it means different things each time. [corpus] The discipline that keeps this fair is that the cascade must reward attention without punishing inattention. A reader who caught the plant gets the deeper pleasure; a reader who missed it still follows the story. The moment the plot becomes *unintelligible* without the spotted clue, the cascade has crossed from craft into a trap. [synthesis]
+
+::: {.callout-note}
+### The Specimen
+Quantic Dream's *Heavy Rain* (2010) gives the player four threads to control by turns. Ethan the father. Scott the private investigator. Norman the FBI agent. Madison the photojournalist. None of them know each other at the start, and all are pulled toward the same Origami Killer case, a character-and-causal convergence the player assembles by alternating between leads. [researched] The boldest structural choice is what happens on death. If a playable character is killed, the game does not end. Control passes to another thread, and the loss is carried forward into the rest of the story rather than rewound. [researched] The braid survives the removal of a strand, which is only possible because each thread was built to hold up alone. It is ensemble convergence with the failure case designed in, not bolted on.
+:::
+
+### Letting the player walk the threads
+
+Everything so far holds for a story whose pacing the author controls. Interactive fiction breaks that control. The player decides which thread to follow and for how long, and they may chase one deep before touching another, or flit between them, or leave one alone entirely. [corpus] The author can no longer guarantee the reader meets the threads in the order that makes the connections land. So the access model becomes a real design decision rather than an afterthought.
+
+The corpus lays out four. **Linear alternation** switches threads at fixed points and gives the player no say in order; it is closest to film, simple to build, and spends the agency that the form otherwise offers. **Player-selected switching** lets the player choose which thread to follow at marked junctions, which buys agency at the price of having to make each thread legible whenever it is picked up. **Open-world threading** allows any thread at any time, the most agency and the most design load, because every thread now has to function regardless of what the player has done elsewhere. **Hub-and-spoke** routes the player back to a central frame between thread segments and lets them pick the next from there, which suits investigation naturally and is the same shape the puzzle family reaches for under [Information Architecture](../puzzles-clues-information/information-architecture.qmd). The wider catalogue of these graph silhouettes is [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd); the question of how player order interacts with authored shape runs through [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd) as well.
+
+Once the player holds the pacing, the convergence has to be protected against their freedom. Three techniques do the work, and they stack. Gate the convergence so it unlocks only after the player has seen enough of each feeding thread, which keeps a collision from firing before its setup exists. [corpus] Drive it from state, so the convergence scene reads back what the player has actually witnessed and references only that, staying coherent across every order of approach. [corpus] And set mandatory minimums, a floor of scenes in each thread the player must clear before the story advances, with free choice in the space above the floor. [corpus] This is the same dependency-tracking that makes a branching story remember the reader. So parallel threads and [Branching Narrative Craft](branching-narrative-craft.qmd) lean on the same machinery: a flag that records what was seen, read back where it matters.
+
+### Converging without flattening
+
+The danger at every join is the same one bottleneck convergence faces in a single-line branching story. Three threads pour into one scene that greets every arrival identically, and the reader who walked the hard thread feels their road count for nothing. The map of which shapes converge how is this article; the technique that keeps the merge from erasing the journey is the felt difference, which belongs to [Branching Narrative Craft](branching-narrative-craft.qmd). [corpus] The principle ports straight across. The convergence is the same event for every thread. *Who* arrives at it, carrying what, is not. A character lost on one thread is not spoken of as living on another. The knowledge a thread accumulated colours how its protagonist reads the shared scene. The join is a single spine wearing conditional clothes, and the clothes are where the threads keep their identity.
+
+Keeping the threads distinct in the reader's head is its own task, separate from keeping them distinct at the join. Multiple threads cost the reader tracking effort, and a braid that overloads that budget collapses into mush. [corpus] A couple of defences ease it. Each thread wants a sharp signature, so the reader knows within a sentence which one they are in, carried by protagonist, setting, tone, or texture. And a thread picked up after an absence is best re-established through action rather than summary, a protagonist caught mid-deed that reminds the reader of their situation without a paragraph stopping to explain it. Signposting sits underneath both. A connection wants to be visible enough for an attentive reader to catch, yet not so loud that an inattentive one has it forced on them. [corpus] The thread count itself is the first lever. A pair of threads risks reading as mere alternation. The reliable sweet spot is three, a real pattern for the reader to chase that is still light enough to follow, and a braid that climbs beyond five usually groups its threads into clusters rather than outrun what a reader can hold in mind. [corpus] How far a given project can push that count is the scope question of [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd).
+
+### The same braid in other rooms
+
+The structure travels well, and each medium teaches it something. In live play the braid becomes the **parallel convergent chain**. Two or more clue chains run at once, and sub-groups have to pool what each found before the finale opens. [corpus] This gives a large team split into parts a real job. The form also carries a sharp warning that the screen-and-page versions can quietly paper over. A single failed sub-chain leaves the finale locked, so a parallel convergent hunt needs a fallback or it strands everyone at the last door. [corpus] The puzzle hunt scales the same idea into rounds, parallel feeder threads converging on a meta, and inherits the same coordination tax: the more threads, the more an output from one risks being mistaken for an input to another. [corpus]
+
+Tabletop runs the braid as the campaign technique sometimes called the soap-opera model. The hook for the next thread gets planted before the current one resolves, so the table always has more than one live concern in rotation. [researched] The engine is a short interrogation of every person and faction. Name the thing they want, and the obstacle in its way. From there, settle on the move they make in response. Across a whole cast, that exercise leaves the threads already crossing, with no further authoring needed. A relationship map shows the crossings to the referee at a glance. [researched] The screenwriter reaches for the same insight from the other end. The screenwriter braids threads that were always going to meet; the referee braids threads and watches where they choose to. Both are managing the same structure: several stories kept apart long enough that their meeting means something. The cross-medium catalogue of these shapes sits in [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd), and the way a braid resolves at its end is the closure problem of [Endings & Structural Closure](endings-and-structural-closure.qmd).
+
+## Where this fits
+
+**The bigger picture.** Parallel threads is the structure that turns coincidence into design. On its own a story of several lives is just a crowd; the braid is what makes the crowd a pattern, and the convergence is what makes the pattern a meaning. It sits one layer up from [Branching Narrative Craft](branching-narrative-craft.qmd), which supplies the state-tracking and the felt-difference technique that any honest convergence runs on, and it draws its silhouettes from [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd). It also reaches sideways into the non-chronological reveal, because a braid that scrambles its threads in time is doing the work of [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd), and the two techniques are most powerful used together.
+
+**Next steps.** Once the threads and their convergence are mapped, the live questions are how to pace the cutting between them and how to land the meeting. The rotation and acceleration of thread segments, tightening as the collision nears, is the work of [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd) carried across multiple lines at once. A braid that releases its threads on a schedule rather than all at once becomes [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd), where each instalment advances several threads a step. And when the threads finally arrive, the craft of making the merge feel earned rather than flattening is the felt-difference technique of [Branching Narrative Craft](branching-narrative-craft.qmd), while making every arriving thread close cleanly is [Endings & Structural Closure](endings-and-structural-closure.qmd).
+
+## Sources
+
+- Anderson, Paul Thomas, dir. *Magnolia*. New Line Cinema, 1999. (Thematic convergence of an ensemble; the rain of frogs.) <https://en.wikipedia.org/wiki/Magnolia_(film)>
+- Tarantino, Quentin, dir. *Pulp Fiction*. Miramax, 1994. (Non-chronological convergence of separate threads.) <https://en.wikipedia.org/wiki/Pulp_Fiction>
+- Mitchell, David. *Cloud Atlas*. Sceptre, 2004. (Six nested stories; temporal convergence across centuries.) <https://en.wikipedia.org/wiki/Cloud_Atlas_(novel)>
+- Quantic Dream. *Heavy Rain*. Sony Computer Entertainment, 2010. (Four player-controlled threads; thread-switching and death-driven handoff.) <https://en.wikipedia.org/wiki/Heavy_Rain>
+- Joyce, Michael. *afternoon, a story*. Eastgate Systems, 1990 (written 1987). (Foundational reader-navigated hypertext fiction.) <https://en.wikipedia.org/wiki/Afternoon,_a_story>
+- Bordwell, David. "Mutual Friends and Chronologies of Chance." In *Poetics of Cinema*. Routledge, 2008. (Network-narrative analysis of converging-thread films.) <https://en.wikipedia.org/wiki/Hyperlink_cinema>
+- Ryan, Marie-Laure. *Narrative as Virtual Reality*. Johns Hopkins University Press, 2001. (Reader processing of complex multi-thread structures.)
+- "The Soap Opera as Play Structure." Grim Tokens. (The campaign-braid technique: want / obstacle / action, and relationship mapping.) <https://grimtokens.garden/Articles/The+Soap+Opera+as+Play+Structure>
+- Indigoextra. "Treasure Hunt Clues and Ideas." (Parallel-convergent chains, multi-group branching, fair convergence timing.) <https://www.indigoextra.com/blog/treasure-hunt-clues-and-ideas>

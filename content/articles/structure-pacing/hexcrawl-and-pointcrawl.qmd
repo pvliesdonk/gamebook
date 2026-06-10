@@ -1,17 +1,120 @@
 ---
 title: "Hexcrawl & Pointcrawl"
-aliases: []
+aliases: ["Wilderness Exploration", "Spatial Campaign Design", "Node-Path Travel"]
 family: "Structure & Pacing"
-media: []
+media: [tabletop, interactive-fiction, live-game, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [player-agency, earned-discovery, exploration-drive]
+  problems: [railroad-by-default, empty-content, frontloaded-prep]
+  components: [keyed-map, travel-procedure, encounter-table, node-graph]
+  genre: [adventure, fantasy, survival]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: A map you can walk in any direction, where the walking is the story.*
+
+Most narrative structures decide the order of events for the reader. A hexcrawl gives the players that decision. The story comes out of where they choose to go. The land is a grid of hexagons. Each one is keyed with terrain and content, and the party picks a direction to travel in. No plot waits for them. The events come from movement: what the party meets along the way, and what they run low on before they arrive.
+
+This is spatial structure doing the work of narrative structure. The shape of the map is the shape of the experience. A wide grid of open hexes produces drift and discovery; a tight graph of named sites joined by a few hard roads produces deliberate, weighed choices. The pointcrawl is that second shape, the node-and-path cousin of the hexcrawl, and choosing between the two is really a choice about how much the geography should constrain the players.
+
+This article is about how a travelled space becomes a told story, the procedures that keep it from collapsing into dice-rolling, and when to reach for the open grid versus the constrained graph. It is a tabletop tradition at heart, fifty years old and well documented, but the same structural choice turns up wherever a designer routes players through a world.
+
+## The Mechanism (How it works)
+
+### What makes a hexcrawl a complete structure
+
+A hexcrawl is not just a map with hexagons on it. Justin Alexander's account names four parts that together make it a *complete* game structure, one able to run indefinitely with no prepared storyline. The first part is a keyed map, with each hex assigned terrain and content. A movement rule says how far the party travels per unit of time. Trigger logic ensures that entering a hex reveals its terrain and fires whatever is keyed there. And a default action stays always available: pick a direction and move. [researched] That last part is what makes the structure self-sustaining. The players never run out of things to do, because the next decision is always in front of them.
+
+The form is old. In 1974 Gary Gygax did not call it a hexcrawl. He called it wilderness adventuring and told referees to use the map from a board game they probably already owned, Avalon Hill's *Outdoor Survival*. [researched] He listed that board game second in the recommended equipment for *Dungeons & Dragons*, ahead of dice. [researched] The map mattered more than the rules. Dave Arneson had already used the same board for overland travel in his Blackmoor campaign before *D&D* existed. [researched] The name came decades later, from the OSR blogs of the 2000s, but the structure was always how wilderness play worked.
+
+### Scale: how big is a hex
+
+The size of a hex is not cosmetic. It sets the rhythm of travel and decides how often the players face a choice. Two scales dominate practitioner writing, and the reasoning behind each is worth knowing before you draw a map.
+
+| Scale | Where it comes from | How it fits travel | How it nests |
+|---|---|---|---|
+| 5 miles | Original 1974 wilderness rules; the Welsh Piper toolkit | Roughly four to five hexes a day on foot | A 25-mile atlas hex holds 19 sub-hexes [researched] |
+| 6 miles | The modern OSR practitioner standard | One hex is a full day in hard terrain, half a day in clear, a third on a road | Divides into 1-mile sub-hexes, then smaller still [researched] |
+
+The 6-mile hex won out for a reason that is partly geometry. From the centre of a 6-mile hex, the horizon on flat ground sits about 3 miles off, so a major feature anywhere in a hex is naturally visible to anyone entering it. No special spotting rule is needed; the scale builds it in. [researched] The hex also maps cleanly onto fractions of a day's travel, and it nests, which lets a referee zoom from regional movement down to local exploration without changing systems. [researched] The 6-mile figure was never in any original rulebook. It emerged through practitioner refinement, the way much of this tradition did. [researched]
+
+### The travel turn
+
+The procedure is where a hexcrawl proves itself or dies of tedium. Each hex entered, or each watch of roughly four hours, runs through a loop. Settle the weather. Fix the direction and order of march. Check whether the party gets lost. Move into the hex and let the players mark it on their own map. Roll for a random encounter, then account for what was spent on rations, water, light, and strength. [researched] Getting lost is not a dead beat. It consumes movement and can trigger an extra encounter before forcing a re-orientation, which is exactly the kind of pressure that makes a navigation decision matter. [researched]
+
+The numbers underneath are mundane and load-bearing. Unencumbered travel across clear ground runs about 24 miles a day, roughly eight hours at walking pace. [researched] A mount's real advantage is carrying capacity, not raw speed; most riders walk their horses as much as they ride. [researched] Terrain scales the rest. A road runs faster than open ground, forest roughly halves the distance, and mountains and swamp cut it harder still. The travel turn is the engine that turns these logistics into tension, because every roll spends a resource and every resource spent narrows the party's options.
+
+### Keying the map: the information economy
+
+The temptation is to make every hex interesting. That is the fastest way to ruin a hexcrawl. If every hex holds a dungeon or a named figure, the wilderness stops being wilderness, and the decision *do we stop and look* loses all meaning, because the answer is always yes. [researched] Empty space is structural. It creates the pressure on resources, and it makes the keyed sites land because they stand out against the quiet.
+
+A useful frame sorts a hex's content by how it is found. A landmark is apparent on entry and visible from the hexes around it, so it doubles as a navigation reference. A hidden feature needs the party to spend a turn searching. A secret needs special conditions, luck, or a lead before it surfaces at all. [researched] This builds a layered information economy rather than a flat list of contents, and it answers the navigation problem directly: the landmark layer is what gives players a reason to choose one direction over another. A map of truly empty hexes leaves them with nothing to steer by, so they might as well roll dice to pick a way. [researched]
+
+The practical key is mostly thin. A single line is enough for a hex the party will pass through at speed. Full development is reserved for the handful of sites they will actually reach. [researched] This is the same prep discipline the tabletop tradition relies on elsewhere. Model the world as a web of information and redundant leads rather than a single line the players must follow. That is the lesson the [Three Clue Rule](../puzzles-clues-information/cluing-and-fairness.qmd) teaches for a medium where players can wander past your evidence.
+
+### Random encounters as the rhythm of a place
+
+A wilderness encounter table asks a different question from a dungeon table. The dungeon table asks what lives here. The wilderness table asks what this landscape does to travellers. [researched] An encounter roll that comes up empty is not wasted. It tells the players the area is quiet and that they are making progress, so the silence itself is information. [researched] The frequency of rolls should track the danger of the terrain, so a road through farmland gets one roll a day and a haunted forest gets one a watch.
+
+The strongest modern version of this ties the table to the character of a region. Kevin Crawford's *Worlds Without Number* tags each wilderness region (haunted, bandit-ridden, fey-touched) and generates encounters that stay thematically of a piece, so the table works at once as a source of danger, a rumour mill, and a tone-setter. [researched] An encounter is not an interruption of the story. In a hexcrawl it is the story, delivered one roll at a time.
+
+### The pointcrawl: when geography is the dungeon
+
+The hexcrawl gives the party a 360-degree choice almost every time they leave a hex. For open steppe and coastline that freedom is the point. For a mountain range, a swamp, or a ruined city it is a lie, because most directions are impassable and the real choices are which pass, which ford, which road. The pointcrawl, formalised by Chris Kutalik in 2014, answers this by throwing out the uniform grid. [researched] In its place is a graph. The nodes are the locations that matter. The edges are the routes between them: roads, rivers, ridgelines. Players choose which path to take from a node, not which way to face in undifferentiated space. [researched] The result is a dungeon-like decision structure laid over the open world, which is the same spatial-topology thinking applied overland that [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd) develops for the keyed interior.
+
+Neither structure is simply better. The fit depends on the terrain and on what kind of reward exploration is meant to give.
+
+| Structure | Stronger for | Weaker for |
+|---|---|---|
+| Hexcrawl | Open plains and coast; exploration as the reward; the players' own mapping as an activity | Constrained land where most routes are blocked; settings where the geography itself acts as the dungeon [researched] |
+| Pointcrawl | Passes, swamps, deep forest, city ruins, archipelagos; travel as a weighed choice | Wide-open regions, where the absence of constraint is exactly the point [researched] |
+
+The pointcrawl's own failure mode is what Kutalik calls straight-jacketing. Too few paths between too few nodes and the structure stops producing decisions and becomes a railroad. [researched] The fix is lateral connectivity: more than one viable route between any two important nodes, each with its own cost, danger, and scenery. Alexander's refinement is to stop treating the choice as all-or-nothing and run a hybrid, using hexes for open regions and dropping into a pointcrawl for an internally complex sub-region like a city or a mountain range. [researched] Match the structure to the ground rather than committing the whole campaign to one model.
+
+::: {.callout-note}
+### The Specimen
+*Dolmenwood* (Necrotic Gnome, completed 2024 to 2025) is the most complete modern hexcrawl shipped as a product. It keys 200 hexes, with 12 detailed settlements, over 280 named figures, and 7 factions running active agendas, plus explicit procedures for travel, getting lost, camping, weather, and foraging. The relatively small hex count is the design choice that matters: it lets every hex carry interconnected faction and adventure content rather than leaning on improvisation. [researched] Compare *The One Ring* (Free League, 2nd edition 2021), which models Tolkienian travel as ritual: the party assigns roles before setting out (Guide, Hunter, Look-out, Scout), and march tests decide whether they advance three hexes before an event fires or fewer. [researched] Two products, two answers to the same question of how a travelled map becomes a told story.
+:::
+
+### Spatial structure as narrative structure, across media
+
+The deep idea here travels well beyond the tabletop: let the player choose a route through a space, and the route becomes the plot. Interactive fiction reaches the same structure under the name modular storytelling. inkle's *80 Days* (2014) routes more than 150 cities as nodes, with content linear *within* a city but nonlinear in *which* cities the player visits and in what order. [researched] Geography doubles as orientation, so the player always knows roughly where they are even when the order is theirs to set. That is a pointcrawl in prose. The nodes are cities and the edges are the routes between them, so the story is assembled by traversal. [synthesis]
+
+Live and distributed events build the same graph over real ground. A treasure or scavenger hunt that routes players between physical waypoints, where location itself is a clue and a hub sends them out and back, is a pointcrawl walked rather than imagined. [synthesis] The DASH puzzle hunt runs a city-spanning walking route between waypoints, a pointcrawl across urban space, where the path between sites is part of the event rather than dead time. [synthesis] Each case repeats the hexcrawl's lesson. Once the players choose the route, the designer's job shifts from authoring a sequence to keying a space and letting movement generate the story. The shared-spine, divergent-route trade this sets up is the same one [Branching Narrative Craft](branching-narrative-craft.qmd) works through for authored choice.
+
+### The failure mode underneath all the others
+
+Strip away the specific traps and one cause sits beneath them. Without enough information for the players to choose where to go on purpose, a hexcrawl collapses into walking north until something happens, which is a random walk wearing the costume of a sandbox. [researched] Rumours, visible landmarks, directions from the locals, partial maps: this is the information ecosystem that makes route selection a real decision rather than a coin flip. The empty-hex problem and the railroad-by-default problem are the same problem seen from two sides, and the cure for both is the landmark-and-lead layer that lets players act on knowledge instead of guesswork.
+
+::: {.callout-warning}
+### The Hazard
+The other way a hexcrawl dies is in prep. Keying 200 hexes before the first session feels like diligence and is mostly waste, because a typical campaign visits 20 to 30 of them. [researched] The seductive version is the nesting spiral, hexes within hexes within hexes, until building the map becomes a task so large it never gets finished. [researched] The tell is a prep folder that grows faster than the campaign does. The fix is to invert the order. Most hexes get a single line. Only the handful the party is likely to reach in the next session or two earns full development, and random tables and region tags generate the rest at the table. Prep the situation the players are about to walk into, not the whole world they might someday cross. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** The hexcrawl is the clearest case in this family of spatial structure standing in for narrative structure. It sits at the open end of the [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd). The players rather than the designer decide the order of events, so the design work moves from authoring a plot toward keying a space and letting movement fill it. It depends on the information layer to function at all, because without leads to steer by the freedom curdles into a random walk. And it shares its spatial DNA with the keyed interior, so the loops-and-connections thinking of [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd) is the same craft applied indoors rather than across the wilderness.
+
+**Next steps.** A hexcrawl is rarely run as a one-shot, so the question of how it accumulates into a longer story is the work of [Campaign Arc Shapes](campaign-arc-shapes.qmd), and the way an open table of rotating players exploits a persistent keyed map is [West Marches & the Open-Table Format](west-marches-and-the-open-table-format.qmd). The distributed-event cousin, where the route is walked across real ground and the waypoints carry clues, is [Treasure & Scavenger Hunts](../puzzles-clues-information/treasure-and-scavenger-hunts.qmd). And the route-as-plot idea, once it is authored rather than explored, becomes the convergence problem that [Branching Narrative Craft](branching-narrative-craft.qmd) takes up.
+
+## Sources
+
+- Gygax, Gary, and Dave Arneson. *Dungeons & Dragons* (Original Edition), Vol. I and Vol. III. TSR, 1974. (The recommended use of the *Outdoor Survival* map for wilderness adventuring.)
+- "Outdoor Survival." Wikipedia. <https://en.wikipedia.org/wiki/Outdoor_Survival>
+- Wayne's Books. "Outdoor Survival (1972, Avalon Hill): Recommended in Original Dungeons & Dragons." 2022. <https://waynesbooks.games/2022/01/05/outdoor-survival-1972-avalon-hill-board-game-recommended-in-original-dungeons-dragons/>
+- Traverse Fantasy. "OD&D and Outdoor Survival." 2023. <https://traversefantasy.blogspot.com/2023/05/od-and-outdoor-survival.html>
+- Smale, Erin D. "Hex-Based Campaign Design, Part 1 & 2." The Welsh Piper. <https://welshpiper.com/hex-based-campaign-design-part-1/>
+- Alexander, Justin. "Game Structures, Part 6: Hexcrawls." The Alexandrian. <https://thealexandrian.net/wordpress/15156/roleplaying-games/game-structures-part-6-hexcrawls>
+- Alexander, Justin. "Hexcrawl" (series index) and "Hexcrawl Addendum: Designing the Hexcrawl." The Alexandrian. <https://thealexandrian.net/wordpress/17308/roleplaying-games/hexcrawl>
+- Alexander, Justin. "Pointcrawls." The Alexandrian. <https://thealexandrian.net/wordpress/48666/roleplaying-games/pointcrawls>
+- Kutalik, Chris. "Pointcrawl Series Index" (2014) and "Hexcrawls vs Pointcrawls" (2016). Hill Cantons. <http://hillcantons.blogspot.com/2014/11/pointcrawl-series-index.html>
+- Prismatic Wasteland. "Hexcrawl Checklist, Part One" (landmark/hidden/secret; the empty-hex and nesting-spiral traps). <https://www.prismaticwasteland.com/blog/hexcrawl-checklist-part-one>
+- The Retired Adventurer. "A Procedure for Exploring the Wilderness, Redux." 2015. <https://retiredadventurer.blogspot.com/2015/05/a-procedure-for-exploring-wilderness.html>
+- Crawford, Kevin. *Worlds Without Number*. Sine Nomine, 2020. (Tag-based wilderness tables.) <https://www.drivethrurpg.com/en/product/348791/worlds-without-number>
+- Norman, Gavin. *Dolmenwood*. Necrotic Gnome, 2024–2025. <https://necroticgnome.com/pages/about-dolmenwood>
+- *The One Ring*, 2nd edition. Free League Publishing, 2021. <https://freeleaguepublishing.com/games/the-one-ring/>
+- inkle. *80 Days*. 2014. (Modular geographic storytelling across 150-plus city nodes.)
+- DASH (Different Area, Same Hunt). Official site and FAQ. <https://playdash.org/>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 

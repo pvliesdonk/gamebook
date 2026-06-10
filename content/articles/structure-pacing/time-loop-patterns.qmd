@@ -1,14 +1,125 @@
 ---
 title: "Time Loop Patterns"
-aliases: []
+aliases: ["The Loop", "Groundhog Day Structure", "Reset Narrative", "Repetition with Variation"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [knowledge-progression, dramatic-irony, earned-transformation]
+  problems: [player-fatigue, repetition-tedium, arbitrary-exit]
+  components: [reset-trigger, loop-period, exit-condition, persistence-rule]
+  genre: [mystery, sci-fi, comedy]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The story that rewinds the world but not the person, so the only thing that moves forward is what they know.*
+
+A time loop tells a story where the clock keeps resetting and the character keeps the memory. The morning starts over, the same people say the same things, the same disaster arrives on schedule. What changes is the one who is living through it. They remember the last pass and the pass before that, and they carry all of it into a world that has forgotten them entirely.
+
+This makes knowledge the only currency. The character cannot stockpile gold or climb a hill, because the reset takes it all back. They can only learn. A loop story measures progress not by what the protagonist gathers but by what they come to understand and what they are finally willing to do with it. That single constraint shapes everything else, from the pacing to the irony to the way the ending has to be earned.
+
+This article is about how to build that engine. The loop turns up across the media under the same logic and different machinery. It is a save-and-restart in interactive fiction. It is a stated reset condition at the tabletop. It is a performance that runs three times for an audience moving through it twice. The shared move never changes. The world rewinds and the knowledge does not.
+
+## The Mechanism (How it works)
+
+### The loop arc and its phases
+
+A loop story is not just a story with repetition in it. It runs through a recognisable arc, and skipping a phase leaves the structure feeling thin. [corpus] The character begins inside the period unaware. The reset hits and they realise something is wrong. They start to test the loop and exploit what they now know. They reach a kind of mastery. Then they run into the thing mastery cannot fix, and the exit comes only when they change rather than simply optimise. [corpus]
+
+It helps to name the phases, because each one does a different job and each one fails differently. The table below is the working skeleton; the craft is in how long you dwell in each.
+
+| Phase | What happens | The job it does | The trap |
+|---|---|---|---|
+| Discovery and denial | The first reset; confusion, disbelief, testing reality | Teaches the loop's rules by watching the character learn them | Lingering: the audience grasps the loop fast, so keep this short [corpus] |
+| Experimentation | Using foreknowledge for gain; probing the loop's edges | The entertaining phase; shows what can and cannot be changed | The hedonism trap, where indulgence becomes the point instead of a stage [corpus] |
+| Mastery and its limits | Precise control; choreographed runs; then frustration | Reveals the one problem foreknowledge cannot touch | Treating the loop as a prison with no thematic exit in sight [corpus] |
+| Transformation and exit | Letting go of control; genuine change; the final pass | Earns the ending: the same period lived by a different person | Making the exit a puzzle solution that bypasses the change [corpus] |
+
+The phase that carries the meaning is the third. Every strong loop has one element that resists optimisation, and that element is the loop's real purpose. [corpus] Phil cannot make Rita love him by memorising her preferences in *Groundhog Day*. The sun explodes regardless of what the player does in *Outer Wilds*. The resistant problem is what forces the protagonist to stop perfecting their actions and start changing themselves. [researched] A loop without one becomes a stunt: clever, repeatable, and going nowhere.
+
+### What persists and what resets
+
+The single most consequential decision is what carries across the reset, because that line defines the whole fiction. [corpus] Some things always carry. The protagonist keeps their memory and their understanding, along with any skill they have practised into their hands. Some things never do. The world replays identically without intervention, and the other characters wake at their baseline knowing nothing. Between those two sits the author's real choice. [corpus]
+
+| Carries across the reset | Resets every loop | Author's choice |
+|---|---|---|
+| Protagonist memory and knowledge | World state and scheduled events | Physical objects (carried or reset) |
+| Skills learned through practice | Other characters' knowledge | Whether any NPC also remembers |
+| The protagonist's side of a relationship | The loop period itself (fixed length) | Consequences that reach past the loop's edge |
+
+The choice in the right-hand column is where loop stories find their identity. Letting another character remember turns isolation into partnership, and it introduces the possibility of disagreement about how the loop should be used. [corpus] *Russian Doll* runs two loopers who eventually find each other, and the second remembering protagonist is what breaks the first one out of solitude. [researched]
+
+This persistence rule also creates a quiet ethical problem the strongest loop stories refuse to ignore. Because the other characters reset, every relationship the protagonist builds is one-sided. The protagonist knows the other person intimately. The other person meets them fresh each pass. [corpus] Foreknowledge makes manipulation trivial. The protagonist says the rehearsed line and dodges the known danger so the scene bends their way. A story that takes its own premise seriously eventually forces the protagonist to notice that a rehearsed connection is not a real one. Genuine connection needs the vulnerability that optimisation was designed to avoid. [corpus] This is the same territory that [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd) maps, with foreknowledge as the thing that raises the moral stakes.
+
+### Knowledge as the only progression
+
+The loop's defining inversion is that the player learns while the character resets, and the fiction licenses the one as the other. [synthesis] When the player remembers that a bridge collapses at noon, the character remembers too. The loop dissolves the usual gap between what the player knows and what the character knows, because the structure has made them the same thing. [corpus]
+
+This is what makes the pattern fit interactive fiction so naturally. Games already run on repetition: the player dies, restarts, replays, tries another approach. The loop takes that mechanical fact and makes it diegetic, so the character's experience of repetition mirrors the player's experience of play. [corpus] *Outer Wilds* is the clean case. The sun goes supernova about 22 minutes in, the player wakes at the start with the ship and its upgrades gone, and the only thing carried back is what they have learned and what their ship log recorded. A first-loop player and a hundredth-loop player have identical capabilities. The entire difference is knowledge. [researched]
+
+Designing that knowledge space takes care, and it leans on the same dependency-mapping the puzzle family calls [Information Architecture](../puzzles-clues-information/information-architecture.qmd). Events run concurrently inside the period, so no single loop can witness everything and each pass observes a different corner of it. Those events have causes that can be traced backward across loops. Some knowledge also gates other knowledge, so the vault code is only reachable once the player has learned who holds it and where that person goes. [corpus] When the world shows the player its rules rather than stating them, the result is the loop's version of [Teaching Through Play](../puzzles-clues-information/teaching-through-play.qmd), where the player's growing competence is the only thing the structure tracks.
+
+### Managing repetition without being repetitive
+
+The central craft problem is obvious once stated. A loop repeats, and repetition bores. The fix is compression. Show the early loops in detail, then as the audience grows familiar, cut to only what is new in each pass. [corpus] By late in the story a single unexpected detail inside a familiar sequence carries enormous weight, precisely because everything around it is known.
+
+A handful of techniques do the load-bearing work here. The variation principle says every shown iteration must contain at least one thing the audience has not seen, and a loop that advances nothing should be skipped. [corpus] The anchor technique sets a few fixed points that appear in every pass (a recurring line, say, or a specific event), so the audience stays oriented and the variations stand out; when an anchor finally changes, that change reads as a major shift. [corpus] The montage compresses many loops into a rapid run of single moments, useful for conveying skill development or mounting exhaustion. [corpus]
+
+Repetition also carries the story's emotional register, and it moves. Repetition is inherently comic. The same pratfall and the same failure: this is the mechanical recurrence Bergson identified as the engine of laughter. [researched] But the same recurrence turns tragic when the character cannot escape it. Loop stories often travel that whole distance. They run comic in the early exploitation and heavier through the middle entrapment. Late on they turn tragic or transcendent, when a character who has lived the same hour a thousand times finds the simplest action has acquired a terrible weight. [corpus]
+
+### The exit condition
+
+How a loop ends decides whether the whole structure pays off. Two failure shapes sit at the edges. A purely mechanical exit (solve the puzzle, reach the place, perform the sequence) is clean and game-friendly but risks feeling arbitrary, disconnected from anything the loop was about. A purely thematic exit (the protagonist changes and the loop simply releases them) is more satisfying but harder to make legible. The strongest exits fuse the two: a mechanical action that only becomes possible through the character's growth, an act they could not have performed in an early loop because they lacked not the knowledge but the wisdom or courage. [corpus]
+
+The published loop stories sort into a few exit types, and naming them gives a designer a menu rather than a blank page. [researched]
+
+| Exit type | The loop ends because | Example |
+|---|---|---|
+| The Earned Day | There is nothing left to learn; the period is finally lived well | *Groundhog Day* |
+| The Sacrifice | The protagonist spends their knowledge to save others at personal cost | *Edge of Tomorrow* / *All You Need Is Kill* |
+| The Acceptance | The catastrophe cannot be stopped, and the need to control it is released | *Outer Wilds* |
+| The Connection | Isolation breaks; genuine understanding with another person is reached | *Russian Doll* |
+| The Discovery | The truth the loop concealed is uncovered; revelation was its purpose | *The Forgotten City* |
+
+The exit type is not a late decision. It is the thing the loop is secretly about, and the earlier phases should be laid down knowing where they have to arrive, the same backwards-from-the-ending discipline that [Endings & Structural Closure](endings-and-structural-closure.qmd) treats for narrative more broadly.
+
+::: {.callout-note}
+### The Specimen
+Paper Dino's *Save the Date* (Chris Cornell, 2013) turns the loop into an argument about player meta-knowledge. The player keeps trying to take Felicia on a date, and she keeps dying, every time, in escalating absurdity. Restarting unlocks dialogue that reflects the character's growing awareness of the loop. First he warns her. Next he insists he has foresight. At last he argues that she is a character in a game who is fated to die. The exit is not a save. Felicia asks the player to close the game and to imagine a happy ending for her. Then a meteor takes her. The loop here is the medium itself. The only real escape is to stop playing. It is the purest demonstration that in a loop the player's restart is the character's memory. [researched]
+:::
+
+### The loop at the tabletop
+
+The loop is a published tabletop tradition, not merely a campaign houserule. The form runs from GMless micro-games up to full campaign frames, with shipped titles structured entirely around diegetic reset. [researched] *Time To Drop* relives the same 24 hours to perfect a heist, with NPCs who retain impressions across loops so the reset is not total. *RESET* caps the cycles at a hard budget before the characters break down, so the loop count is itself the pressure. The spread is wide enough to have sub-genres. [researched]
+
+What makes the tabletop cell distinct is the absence of an engine for holding the state. Interactive fiction offloads the tracking and gating and change-diffing to code. The GM has to do all of it by hand, so the published craft advice is procedural. [synthesis] Four problems recur. The exit condition has to be stated up front rather than discovered, so the players know from the start what concrete thing breaks the loop. The published examples are blunt about it. Keep a creature alive. Deny an antagonist the MacGuffin they need. The reset trigger is a separate deliberate choice, since a loop that ends on sleep plays differently from one that ends on death or on a fixed clock. [researched] Player table-knowledge is licensed as character knowledge by fiat, so the scenario is run as a giant puzzle where party understanding is the only progress metric. Some GMs withhold mechanical experience until the mystery is solved, letting only investigative knowledge carry over. [researched]
+
+The other two problems are pacing and bookkeeping. Anti-tedium tooling is explicit. A fast-forward convention skips redundant sections but pauses where a prior attempt failed. Periodic anomalies break the monotony and double as loop hints. And a hard cap of roughly one reset per session holds, because more than that demands too much preparation. [researched] Tracking what changes is a GM discipline, a written timeline of NPC schedules and events and lost objects, kept consistent with pre-written NPC dialogue and a Chekhov's-gun rule that an out-of-place item must then recur at the same beat every loop. To restore the stakes the reset would otherwise erase, designers reintroduce permanence. Loop-aware NPCs remember and form opinions; cursed or blessed items leave the cycle for good; rival parties run their own loops to counterbalance the players' growing omniscience. [researched] The shared move with interactive fiction (knowledge persisting while the world rewinds) is identical; the tabletop surfaces it as a table contract instead of burying it in simulation. [synthesis]
+
+::: {.callout-tip}
+### The Field Note
+The reset is generous, and that generosity is the danger. Because nothing the player does sticks, it is tempting to let them brute-force the period, retrying the same plan until the dice cooperate. Resist it. The loop only means anything if knowledge, not repetition, is what advances. The practical test at the table or in the design doc is to ask what the player learned this loop. If the honest answer is "nothing, they just rolled better," the reset has become a respawn and the structure has stopped working. Gate progress behind understanding, fast-forward past the parts they have already proven, and the loop stays a loop. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** The time loop is one shape in the wider catalogue of [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd), and it sits close to branching because each loop is an implicit branch, a path the player runs and abandons, gated by what they have learned. The structural vocabulary it draws on is laid out in [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd): the loop is a hub the player returns to, with knowledge as the key that opens new spokes each pass. Where ordinary branching spends its budget on writing many endings, the loop spends almost nothing on structure and everything on variation and state, which makes it a cousin of [Branching Narrative Craft](branching-narrative-craft.qmd) that trades content breadth for depth of a single repeated space.
+
+**Next steps.** The loop's hardest practical problem is pacing across repeated content, which is the compression-and-release work of [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd) applied to material the audience has already seen. The accumulating tension across iterations, the rising line from comic exploitation to tragic entrapment, is the loop's version of [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd), with the failures stacking in the player's memory rather than on the page. And a loop told in instalments, where each release is one more pass through the same period, reaches for the drip-and-throughline craft of [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd).
+
+## Sources
+
+- Ramis, Harold (dir.) and Rubin, Danny (writer). *Groundhog Day*. Columbia Pictures, 1993.
+- Mobius Digital. *Outer Wilds*. Annapurna Interactive, 2019. (The 22-minute loop; knowledge as sole progression.) <https://www.mobiusdigitalgames.com/outer-wilds.html>
+- "Outer Wilds." Reverse Shot (analysis of the time-loop structure). <https://reverseshot.org/features/2984/outer_wilds>
+- Lyonne, Natasha, Headland, Leslye and Poehler, Amy (creators). *Russian Doll*. Netflix, 2019. (Dual-looper structure.)
+- Liman, Doug (dir.). *Edge of Tomorrow*. Warner Bros., 2014; adapted from Sakurazaka, Hiroshi. *All You Need Is Kill*. Shueisha, 2004. (The loop as military training, and the Sacrifice exit.)
+- Modern Storyteller. *The Forgotten City*. Dear Villagers, 2021. (The Discovery exit; loop as concealed-truth investigation.)
+- Cornell, Chris (Paper Dino). *Save the Date*. 2013. <https://paperdino.com/save-the-date/>
+- "Save the Date (video game)." Wikipedia. <https://en.wikipedia.org/wiki/Save_the_Date_(video_game)>
+- Short, Emily. "Save the Date (Paper Dino)." Emily Short's Interactive Storytelling, 25 October 2013. <https://emshort.blog/2013/10/25/save-the-date-paper-dino/>
+- Bergson, Henri. *Laughter: An Essay on the Meaning of the Comic*. 1900. (Mechanical repetition as the engine of the comic.)
+- Juul, Jesper. *Half-Real: Video Games Between Real Rules and Fictional Worlds*. MIT Press, 2005. (Temporal structures and replay in games.)
+- itch.io: physical games tagged "time-loop" (Time To Drop, RESET, Lo/oper, Too O'Clock, Dawn of the First Day, and others). <https://itch.io/physical-games/tag-time-loop>
+- Nerdarchy. "TTRPG Stock Sessions: The Time Loop" (exit-condition clarity, knowledge-as-progress, solve-too-fast contingency). <https://nerdarchy.com/ttrpg-stock-sessions-the-time-loop/>
+- TheGamer. "Dungeons & Dragons: 8 Tips To Design A Time Loop Campaign" (reset triggers, fast-forward, anomalies, loop timeline, rival parties). <https://www.thegamer.com/dungeons-dragons-dnd-time-loop-campaign-tips/>
+- Tribality. "How to: Time traveling in RPGs (Do Over: The Loop)" (one-reset-per-session cap, pre-written NPC dialogue, Chekhov's-gun consistency, restoring permanence). <https://www.tribality.com/2020/09/16/how-to-time-traveling-in-rpgs-do-over-the-loop/>
