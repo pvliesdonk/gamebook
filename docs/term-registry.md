@@ -1,9 +1,9 @@
 # Canonical Term Registry
 
-> **SETTLED (Initial)** — 2026-06-06. This registry is a **living document**. It will grow as entries are written in Phases 4 and 5.
+> **SETTLED (Initial)** — 2026-06-06. This registry is a **living document**. It will grow as articles are written in Phases 4 and 5.
 > See `docs/decisions.md` item #13.
 
-One canonical term per mechanism. Aliases listed. Agents must use canonical terms when writing entry prose.
+One canonical term per mechanism. Aliases listed. Agents must use canonical terms when writing article prose.
 
 ## Registry
 

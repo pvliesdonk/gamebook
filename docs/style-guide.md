@@ -3,6 +3,8 @@
 > **SETTLED** — 2026-06-06. This guide governs the voice, register, and navigational interactions for all authored content.
 > See `docs/decisions.md` item #14.
 
+> **Terminology register.** Production noun: **article** (what we write, and what we ask agents to write). Rendered display label: **entry** (the field-guide term shown in the built HTML/PDF output). Use "article" in all instructions and drafting.
+
 ## Voice & Persona
 
 The guide uses a **Practitioner-Mentor** voice.
@@ -16,7 +18,7 @@ The guide uses a **Practitioner-Mentor** voice.
 ### The Readable Head (The "Spark")
 - **Purpose:** Immediate inspiration and the "Silhouette" of the mechanism.
 - **Style:** Evocative prose. Imagine describing a species' jizz (general impression).
-- **The Silhouette:** Every entry starts with a single-line **Silhouette** definition (e.g., *Silhouette: A high-frequency loop for building competence*).
+- **The Silhouette:** Every article starts with a single-line **Silhouette** definition (e.g., *Silhouette: A high-frequency loop for building competence*).
 - **Constraints:** 1-3 short paragraphs. **No headers, no bullet points.**
 
 ### The Scannable Body (The "Blueprint")
@@ -27,7 +29,7 @@ The guide uses a **Practitioner-Mentor** voice.
 
 ## Interaction Patterns (Connectors)
 
-Entries are not islands; they are part of an ecosystem. Every entry must include these connectors:
+Articles are not islands; they are part of an ecosystem. Every article must include these connectors:
 
 - **Confusable With:** A "Comparison Plate" distinguishing the mechanism from look-alikes (e.g., *Dilemma vs. Choice*).
 - **Pairs Well With:** Mechanisms that frequently "flock" together or support each other.
@@ -62,5 +64,5 @@ Tag claims at the end of the load-bearing sentence or paragraph:
 ## What to Avoid (Negative Style)
 
 - **No Marketing Fluff:** (e.g., "unleash," "revolutionary").
-- **No Conclusion Blocks:** The entry ends when the information is complete.
+- **No Conclusion Blocks:** The article ends when the information is complete.
 - **No Bullet-Dumping:** Use structured, reflective prose instead of fragmented lists.
