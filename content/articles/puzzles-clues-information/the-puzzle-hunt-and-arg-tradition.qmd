@@ -1,14 +1,93 @@
 ---
 title: "The Puzzle Hunt & ARG Tradition"
-aliases: []
+aliases: ["Alternate Reality Games", "ARG Lineage", "Puzzle Hunt History"]
 family: "Puzzles, Clues & Information"
-media: []
+media: [puzzle-hunt, interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [shared-discovery, belief-in-the-fiction, community-formation]
+  problems: [audience-coordination, canon-drift, anticlimactic-payoff]
+  components: [rabbit-hole, puppetmaster, real-world-artefact, meta-puzzle]
+  genre: [mystery, conspiracy, horror]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #45. -->
+*Silhouette: The family tree that runs from a scrambled paperback to a film studio's phone line that answers in character.*
+
+Two traditions feed the modern puzzle hunt, and they grew up far apart. One is the print puzzle: a single object, a book or a grid, that holds more than it shows and rewards a solver who finds the method nobody handed them. The other is the alternate reality game, where the puzzle stops being an object and becomes a world that behaves as though it were real, refusing to admit it is a game at all. The first tradition is solitary and patient; the second is collective and live. The hunt as we know it is what happens where they meet.
+
+This article traces that descent. It is a history rather than a recipe, but the history is load-bearing: the conventions a hunt takes for granted, the cryptic clue, the layered illustration, the curtain the authors hide behind, all arrived from somewhere and carry their origins as habits. Knowing where a habit came from tells you when it still earns its place and when it is cargo. The lineage also explains a puzzle hunt's two faces, the cold competitive grid and the warm fictional frame, as the two parents showing through in the child.
+
+## The Mechanism (How it works)
+
+### The print line: one object, latent and self-verifying
+
+The oldest branch is the puzzle you hold in your hands. Across the armchair treasure hunt, the illustrated mystery book and the cryptic crossword, the same grammar recurs: the object contains more information than is visible, extraction needs a method the solver must discover rather than be told, and the correct answer verifies itself. [researched] Those three properties, latent information, discoverable method, self-verification, are also the defining properties of a good hunt puzzle, which is why the print line is an ancestor and not merely a neighbour.
+
+The cryptic crossword codified the discipline first. From the 1930s, setters such as Torquemada (Edward Powys Mathers) and Afrit insisted that every clue carry two independent routes to the answer, a definition and a piece of wordplay, so that the surface reading misleads while the components parse exactly and no word is wasted. [researched] That is the cluing contract the whole family later inherited, the demand that misdirection stay fair, and it is treated in its own right under [Cluing & Fairness](cluing-and-fairness.qmd). The British strain pushed further: the Listener crossword imposes a meta-theme the solver must uncover, a hidden quotation or an extra operation on the finished grid, before the answer counts as complete. [researched] That is the meta-puzzle in embryo, the structure that defines the modern hunt, here arriving decades early in print and treated as craft under [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd).
+
+The illustrated treasure hunt gave the form its romance and its print artefacts. Kit Williams's *Masquerade* (1979) buried a golden hare and hid its location across fifteen painted plates, selling over two million copies and naming a genre. [researched] Earlier, *Cain's Jawbone* (1934) printed a murder mystery with its hundred pages deliberately scrambled, asking the solver to become the editor and reconstruct the order, the reordering mechanic that recurs in hunts as the ordering step of a multi-stage puzzle. [researched] *Maze* (1985) placed the reader inside a forty-five-room labyrinth, one room per page, with a single shortest path and a riddle hidden in the final room. [researched] These are the solitary, patient, print-bound siblings of the hunt, and they have their own article in [Treasure & Scavenger Hunts](treasure-and-scavenger-hunts.qmd). Recreational mathematics added the last ingredient: through Dudeney, Loyd and above all Martin Gardner's long *Scientific American* column, print culture normalised the puzzle whose solution turns on noticing a constraint that reframes the whole problem, the insight reward the hunt later deploys at scale. [researched]
+
+### The ARG line: the world as the puzzle
+
+The second branch inverts the first. Instead of a single object the solver inspects, the alternate reality game spreads a fiction across the real world, websites, phone numbers, mailed packages, planted artefacts, and refuses any framing device that would mark it as fiction. The defining commitment, named at the 2002 Game Developers Conference and known ever since as TINAG, "This Is Not A Game," is that the fictional world behaves as though it were real and the authors never break that frame, even when asked directly. [researched] The practical consequence is total: any phone number mentioned answers, any email address replies, any website acknowledged exists. [researched]
+
+That commitment forces a particular authorial posture. The authors are puppetmasters who work behind a curtain, shaping the story in near real time in response to what the player community has solved or missed, but never speaking as themselves, only through characters and through the design. [researched] The entry point is the rabbit hole, an artefact players discover by accident that pulls them in. The whole machine is collective and live where the print line was solitary and patient, and the puppetmaster's problem of authoring a consistent world that only ever speaks in-character is the live-game cousin of interactive fiction's diegetic discipline, the craft of saying everything through the world rather than around it.
+
+### Where the lines cross: the competitive hunt
+
+Between the patient print object and the live fictional world sits the competitive puzzle hunt, which borrows mechanisms from both while committing to neither parent's extreme. From the print line it takes the self-contained, self-verifying puzzle and the meta that consumes prior answers. From the ARG line it takes layered cryptographic construction, distributed discovery and the occasional real-world component. What it drops is TINAG: a hunt is an acknowledged game with a registered start time, a leaderboard and an author who signs the work. The two traditions differ along a small set of axes that explain why a hunt feels different from an ARG even when the puzzles look identical.
+
+| Dimension | Print / armchair hunt | Competitive puzzle hunt | Alternate reality game |
+|---|---|---|---|
+| Unit | One object, held | A set of puzzles plus a meta | A world spread across channels |
+| Narrative role | Frame and flavour | Decorates the puzzles | Load-bearing; drives participation |
+| Solver | One person or a pair | Pre-formed registered teams | Emergent, self-organising crowd |
+| Duration | Open-ended, months | A defined event, hours to days | Weeks to months |
+| Author stance | Acknowledged compiler | Acknowledged puzzle author | Puppetmaster behind a curtain |
+| Verification | The object confirms itself | Automated answer checking | The fiction never confirms |
+
+The crossing is not only conceptual; the people crossed too. The cryptic setters' fairness discipline, the recreational mathematician's insight puzzle, the ARG veteran's layered extraction: practitioners carried these skills between forms, and after the commercial ARG market contracted around 2012 several ARG designers moved directly into hunt authorship. [researched] The MIT Mystery Hunt, DASH and the Galactic Puzzle Hunt all show ARG-influenced construction, cryptographic layering and multi-step extraction, without adopting the fictional frame. [researched] The craft this whole tradition produced, the actual business of building a balanced, solvable hunt, is the subject of [Puzzle Hunt Craft](puzzle-hunt-craft.qmd).
+
+### What the tradition demands of a world
+
+The ARG line bequeathed a specific worldbuilding problem that the print line never faced, because a book cannot contradict itself between Tuesday and Friday but a live multi-channel fiction can. Consistency in an ARG is not flavour, it is the load-bearing illusion, and it is maintained per artefact: every site and character must hold its own distinctive voice, because the moment identical voices answer all of a fictional company's phones the illusion breaks. [researched] The curtain is the structural device that protects this, the wall that keeps the authors from ever speaking out of world, so there is no out-of-world utterance to contradict the canon. [researched]
+
+The strain comes from co-authorship. Puppetmasters deliberately leave white space for players to fill, then adapt the story in response to the theories the community surfaces online, which means canon is a live negotiation rather than a fixed text. [researched] Players far outnumber the authors, so their collective scrutiny finds every seam, and long timelines accumulate continuity pressure: a gate planted in *The Secret World*'s ARG before 2009 went undiscovered until 2013, forcing the authors to retcon the scenario four years forward from where they had set it. [researched] This is canon drift in its sharpest form, and it is the dark twin of the discipline a hunt teaches its solvers, the habit of reading every artefact as potential signal, covered under [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd).
+
+::: {.callout-note}
+### The Specimen
+*The Beast* (2001) is the canonical launch and a clean cross-section of the form. Built by Jordan Weisman, Elan Lee and Sean Stewart for Microsoft and Warner Brothers to promote Spielberg's *A.I.*, it spread roughly a thousand pages across fifty websites alongside phone numbers, email addresses and voicemail systems, with no notice that any of it was fiction. [researched] Its primary community, the Cloudmakers, reached around 4,500 to 5,000 members, who repeatedly solved puzzle layers faster than the writers could generate new ones, the first documented case of players outpacing the authors. [researched] *A.I.*'s closing titles credited the team as "the Puppet Masters," the first public naming of the role. At the cryptographic far end of the lineage, Cicada 3301 (2012-2014) ran the same machinery, PGP-signed clues, steganography, physical notices at coordinates worldwide, with the fictional frame stripped away and the authorship and purpose never revealed, showing that the hunt's mechanisms survive even when the ARG's story does not. [researched]
+:::
+
+## Design Judgement
+
+::: {.callout-tip}
+### The Field Note
+Decide which parent you are working in before you build, because the two impose opposite obligations. If you are making an acknowledged hunt, the author signs the work, the start is a known moment, and the solver's trust rests on fair cluing and clean answer checking; the fiction can be as thin as you like. If you are making an ARG, the fiction is the product and the curtain is sacred, which means budgeting real white space up front so player-supplied canon is designed for rather than retconned around, and staffing the dynamic authorship that keeps every channel in character in near real time. The expensive mistake is wanting the ARG's depth of belief while running it on a hunt's fixed, pre-written content: the community will outpace you, and you will be forced to either break the curtain to correct the record or let the world go silent. [synthesis]
+:::
+
+::: {.callout-warning}
+### The Hazard
+The two recurring failures are the anticlimax and the let-down of the curtain. Sustained engagement is a promise the payoff has to honour; *The Jejune Institute* drew players through three chapters and a city, then closed on a finale its own completers called flat, the standard ARG failure when months of investment meet a thin conclusion. [researched] Worse is the moment the fiction admits it was a game, the "it's not real" letdown, because TINAG only works while a share of players treat the frame as genuine, and once the form is widely understood as a marketing technique audiences arrive in puzzle-solver mode, skip the story to strip out mechanisms, and publicly document the infrastructure. [researched] You cannot defeat that meta-awareness by trying harder to hide; you defeat it by making the world worth inhabiting even for someone who knows it is built. The tell that you have failed is a community that talks only about the puppetmasters and never about the characters. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** This tradition is the root system the rest of the puzzle-hunt material grows from. Two lineages, the patient self-verifying print object and the live world that refuses to admit it is a game, converge into the competitive hunt, and the conventions everyone now takes for granted, the cryptic's fair wordplay, the Listener's meta, the ARG's curtain and rabbit hole, are inheritances from one parent or the other. The cross-media reach is built into that ancestry: the print branch runs straight into tabletop and digital descent, with *Blue Prince* (2025) commissioning *Maze*'s original author and mapping its forty-five-room grid; the ARG branch shares its fictional-frame discipline with immersive theatre and Nordic live-action roleplay, and its diegetic, in-character authorship with interactive fiction. The hunt is the meeting point, not a third thing invented from nothing.
+
+**Next steps.** To turn this history into something you can build, move to [Puzzle Hunt Craft](puzzle-hunt-craft.qmd), the practical craft the tradition produced. For the print-bound, solo-or-pair sibling that the armchair line became, see [Treasure & Scavenger Hunts](treasure-and-scavenger-hunts.qmd). The single structural inheritance that most defines a hunt, the meta-puzzle that eats prior answers, has its own treatment in [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd), and the fairness contract that every branch of the lineage depends on is [Cluing & Fairness](cluing-and-fairness.qmd).
+
+## Sources
+
+- "The Beast (game)." Wikipedia. <https://en.wikipedia.org/wiki/The_Beast_(game)>
+- "I Love Bees." Wikipedia. <https://en.wikipedia.org/wiki/I_Love_Bees>
+- "The Jejune Institute." Wikipedia. <https://en.wikipedia.org/wiki/The_Jejune_Institute>
+- "42 Entertainment." Wikipedia. <https://en.wikipedia.org/wiki/42_Entertainment>
+- "Cicada 3301." Wikipedia. <https://en.wikipedia.org/wiki/Cicada_3301>
+- "Alternate reality game." Wikipedia. <https://en.wikipedia.org/wiki/Alternate_reality_game>
+- "This Is Not A Game and the TINAG Philosophy." ARGNet (Alternate Reality Gaming Network). <https://www.argn.com/2005/04/this_is_not_a_game/>
+- "Cain's Jawbone." Wikipedia. <https://en.wikipedia.org/wiki/Cain%27s_Jawbone>
+- "Masquerade (book)." Wikipedia. <https://en.wikipedia.org/wiki/Masquerade_(book)>
+- "Maze: Solve the World's Most Challenging Puzzle." Wikipedia. <https://en.wikipedia.org/wiki/Maze:_Solve_the_World%27s_Most_Challenging_Puzzle>
+- "Martin Gardner." Wikipedia. <https://en.wikipedia.org/wiki/Martin_Gardner>
+- "Listener crossword." Wikipedia. <https://en.wikipedia.org/wiki/Listener_crossword>

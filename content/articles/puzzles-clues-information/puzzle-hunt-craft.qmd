@@ -1,14 +1,113 @@
 ---
 title: "Puzzle Hunt Craft"
-aliases: []
+aliases: ["Hunt Design", "Puzzlehunt Construction", "Mystery Hunt Design"]
 family: "Puzzles, Clues & Information"
-media: []
+media: [live-game, puzzle-hunt, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [sustained-momentum, distributed-labour, communal-payoff]
+  problems: [single-bottleneck, unsolvable-puzzle, anticlimactic-finale]
+  components: [feeder-puzzle, meta-puzzle, unlock-graph, answer-checker, hint-queue]
+  genre: [mystery, adventure]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #45. -->
+*Silhouette: A weekend-sized machine that turns dozens of small answers into one shared journey, and lives or dies on whether it was solved before it shipped.*
+
+A puzzle hunt is not a pile of puzzles. It is a structure: small puzzles that each produce a word or short phrase, those answers feeding upward into larger puzzles, the whole thing wrapped in a story and released to teams who divide the labour and chase the finish together. The single puzzle is the brick. The hunt is the building, and most of the craft is in the architecture nobody solves directly.
+
+The format has a birthplace and a date. It started at MIT in 1981, and four decades later the MIT Mystery Hunt still runs over a January weekend while a global community builds smaller events on the same bones. Those bones are stable enough to name: feeders, rounds, metas, an unlock graph that decides who sees what when, a finale that gets people out of their chairs, and a hint queue that keeps a stuck team from losing the whole event to one puzzle. This article owns that whole-format view. The individual mechanisms (how a meta extracts, how clues stay fair, how answers get checked) each have their own article; the job here is how they assemble into something a team can spend a weekend inside.
+
+One discipline sits above all the others, and it is the one most often skimped: test-solving. A hunt is the rare design where you genuinely cannot tell whether it works by looking at it. You have to watch someone who does not know the answer try to reach it. Everything below leads back to that.
+
+## The Mechanism (How it works)
+
+### The parts and how they stack
+
+A hunt is built in layers, and naming them precisely is the first move because each layer has a different failure mode. At the bottom are **feeders**: individual puzzles, each yielding a single answer, usually a capitalised word or short phrase. [corpus] Feeders are grouped into **rounds**. Each round's feeder answers become the inputs to a **meta-puzzle**, a higher-level puzzle that cannot be solved on its own because it needs the answers below it. [corpus] In larger hunts a **super-meta** sits above the round metas, taking their answers as its inputs. The meta layer is what separates a hunt from a puzzle collection, and it is the hunt's spine: the mechanics of how answers become inputs are [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd), and the structural backbone is the meta.
+
+The reason the answer is almost always a single capitalised word is structural, not stylistic: a meta has to extract reliably from its feeder answers, so the feeders have to produce clean, uniform tokens. [corpus] A feeder that resolves to a messy phrase breaks the layer above it. The constraint propagates downward from the meta, which is why hunt construction so often runs in reverse: the meta author picks a mechanic, that fixes the shape of the answers the feeders must produce, and the feeder authors build toward those targets. [corpus]
+
+| Layer | What it is | Its job |
+|---|---|---|
+| Feeder | A standalone puzzle yielding one answer | Produce a clean token for the layer above |
+| Round | A grouped set of feeders | Bundle answers into one meta's input set |
+| Meta | A puzzle whose inputs are feeder answers | Tie a round together; reward the set, not the part |
+| Super-meta | A meta over metas | Tie the whole hunt together |
+| Runaround | The finale, often physical | Deliver the memory, not the hardest challenge |
+
+### The unlock graph: who sees what, when
+
+A hunt cannot hand every team every puzzle at once, or a single hard puzzle becomes a wall the whole event piles up behind. Instead puzzles **unlock progressively**: some are open to everyone at the start, and more appear as a team solves or as time passes, so no one bottleneck can freeze a team in place. [corpus] This unlocking structure is the hunt's [Information Architecture](information-architecture.qmd) made concrete: the graph of which solves open which puzzles is the thing that produces the hunt's rhythm, a sustained session where team members fan out across open puzzles in parallel.
+
+The graph also sets difficulty pacing. Because you know roughly how long each puzzle took in test-solving, you can place the long, brutal puzzles where a team will have other work in flight, so a stall on one does not starve the rest. The ordering of clues *within* a single puzzle is a separate craft ([Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)); the unlock graph is the same logic one level up, sequencing whole puzzles instead of clues inside one.
+
+### The runaround: spend the memory here, not the difficulty
+
+The finale of many hunts is a **runaround**: at MIT, literally a sequence of clues that walks the winning team around campus to a hidden coin. [corpus] Smaller hunts substitute a location reveal, a final decryption that names a physical place, or a ceremonial close. The design rule for the runaround is the opposite of the rule for a meta. The hardest intellectual work is already behind the team by the time they reach it. The runaround's job is the most *memorable* experience: movement, spatial discovery, the felt confirmation that the hunt is done. [corpus] The two reliable failures are an over-complicated runaround that reintroduces grind at the moment of celebration, and an anticlimactic destination that lets the air out of a weekend's work. [corpus]
+
+### Flavour text: pick a contract and hold it
+
+**Flavour text** is the prose wrapped around a puzzle. It can set the scene, hint at the mechanism without giving it away, or hide a mechanism inside itself (an acrostic in the first letters, a code in the narrative). [corpus] The single rule that matters is consistency. A hunt must decide whether flavour text can be load-bearing and then hold that decision across every puzzle, because solvers learn the convention and apply it everywhere. The 2014 MIT Mystery Hunt committed up front that flavour text would never be required to solve a puzzle, so solvers knew not to mine decorative prose for hidden signals. [corpus] Both conventions are legitimate; mixing them inside one event quietly burns solver trust and time. The same fairness contract, generalised across all four media, is [Cluing & Fairness](cluing-and-fairness.qmd).
+
+### Honest difficulty versus red herrings
+
+There is a sharp line between a puzzle that is hard and a puzzle that lies. **Honest difficulty** comes from a dense data set, an obscure mechanism, a multi-step extraction, or a subtle insight, and it always has a reachable answer. [corpus] A **red herring** is an element that looks intentional but pays off nowhere: a pattern that seems significant and leads to a dead end. Experienced hunt designers avoid red herrings, because the format carries an implicit contract that every element is there for a reason. [corpus] The corollary is a discipline, not a preference: anything that looks intentional *will* be investigated, so an accidental false pattern costs solver hours exactly as a deliberate one would. Auditing for accidental signals is part of the test-solve, not a separate nicety. [corpus]
+
+### Test-solving: the load-bearing practice
+
+Test-solving is the canonical discipline of hunt design, and the reason is structural. A hunt is the rare artefact whose central quality (is it solvable, and does the answer feel earned?) is invisible to its author, because the author already knows the answer. So before release, every puzzle is solved by independent test-solvers who do not know the answer, the intended mechanism, or the designer's intent. [corpus]
+
+A clean test-solve catches three distinct categories of failure, and they need different solver pools to surface:
+
+| Failure | What the test-solve exposes | What it needs |
+|---|---|---|
+| Bugs | The mechanism does not work; extraction yields nonsense | A solver who knows the answer, checking self-consistency |
+| Ambiguity | More than one answer is consistent with the materials | A fresh solver with no writer knowledge |
+| Miscalibration | The puzzle is far harder or easier than intended | Timed fresh solves, to read difficulty off the clock |
+
+Test-solve time is the primary calibration instrument for the whole hunt. [corpus] A puzzle that takes experienced testers 45 minutes will take a real team longer under sleep deprivation and divided attention, and that measured time is what tells the designer where in the unlock graph the puzzle belongs. The non-negotiable part is isolation: a tester who already knows the answer is testing whether the mechanism is self-consistent, which is a real and useful test, but it is *not* the test of whether a cold solver can reach the answer. Both matter; they are not interchangeable, and confusing them is how an unsolvable puzzle reaches release with a green tick beside it. [corpus]
+
+### Digital clue delivery and the answer-checker
+
+A hunt at any scale beyond a single room runs on infrastructure. The two load-bearing pieces are the **answer-checker** and the **clue-delivery channel**, and both have settled into community-standard patterns. The answer-checker normalises a submission (strip whitespace, uppercase, drop accents) and compares it against the stored answer, so that solvers get instant confirmation and the machine, not a human, adjudicates correctness. [corpus] That machine-as-judge is its own design surface, treated in [Self-Resolving Puzzles](self-resolving-puzzles.qmd); a hunt simply assumes it. This is the point where a hunt becomes partly a piece of software: the answer-checking and progression logic is exactly the server-side state-gating that interactive fiction and escape-room software depend on, which is [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd).
+
+Clue and hint delivery increasingly route through chat-platform bots, because the platform's own structure can carry the game's. On Discord, a channel hierarchy maps onto hunt structure: rounds become categories, puzzles become channels, and a clue can be locked behind a role granted only when a previous answer verifies, which builds a hard progression gate with no custom code beyond a role-assignment hook. [corpus] Open-source hunt bots formalise this: the answer-checked unlock pattern (a `!solve` command that normalises input, checks it, and grants the next role or channel) is shipped in community discord.py projects used by competitive teams. [researched] Telegram occupies the other end: no account barrier, so it suits public or street-level games, and crucially it offers server-side scheduling, where a `schedule_date` on a sent message hands timed clue drops to Telegram's own servers rather than relying on your process to stay alive. [researched] The hazard there is plain: if a scheduled drop is the only gate to the next puzzle, a bot outage silently halts the game, so every automated channel needs a game-master override that can push the same content by hand. [researched]
+
+That bot layer also doubles as the hint channel. Most hunts let a stuck team request a hint after a delay (commonly 30 to 90 minutes of work on a puzzle), with game control issuing a written nudge aimed at the team's specific point of confusion. [corpus] The hint queue keeps the experience of genuine challenge intact while preventing permanent blockage, and how to design that recovery without hollowing out the puzzle is [Hint Systems & Recovery](hint-systems-and-recovery.qmd).
+
+::: {.callout-note}
+### The Specimen
+The MIT Mystery Hunt is the format's reference implementation and its longest-running archive. It runs over a January weekend, scales to teams of a hundred or more working in software-org-like divisions of labour, and ends in the literal runaround: a chain of clues across the MIT campus to a hidden coin, whoever finds it wins, and gets to write next year's hunt. [corpus] The structure that makes it legible to study is exactly the layered one above: feeders into round metas into a super-meta, an unlock graph pacing the weekend, and a public post-mortem culture where each year's organisers document what broke. The hunt also seeds the conventions solvers carry between events: answers as all-caps tokens so metas can extract cleanly, and a grid of exactly 26 entries read as an invitation to index into the alphabet. The full archive lives at `puzzles.mit.edu` and is the primary corpus for anyone studying the craft historically. [corpus]
+:::
+
+## Design Judgement
+
+::: {.callout-tip}
+### The Field Note
+Build the meta first, then the feeders. The meta is the constraint that everything else has to satisfy, so designing it last means discovering at the end that your feeder answers do not fit the mechanic you wanted. Pick the meta's mechanic early, let it fix the shape and letters of the answers the feeders must produce, and brief the feeder authors toward those targets. [corpus] This is why hunt construction runs backwards from the answer, and it is also what gives you the best gift you can give a strong team: a meta that can be partly back-solved, where reading the mechanic early lets them predict a feeder answer and confirm it. A meta that rewards meta-reading skill creates a second solving path for free. [synthesis]
+:::
+
+::: {.callout-warning}
+### The Hazard
+Shipping without enough test-solving is the failure that no amount of clever construction survives, and it is seductive precisely because the hunt looks finished from the inside. You know every answer, so every puzzle reads as solvable to you; the gap between "I can see the path" and "a cold solver can find the path" is invisible until a stranger tries. A hunt released on writer knowledge alone reliably ships at least one puzzle with an unintended second answer, one with a mechanism that only works if you already know the trick, and one mis-paced badly enough to wall a team for hours. [synthesis] The tell is a test-solve roster made of people who were in the room when the puzzle was built. If your testers know the intent, you have tested self-consistency and called it solvability. Budget the calendar for fresh, timed, isolated solves of every single puzzle, treat their wall-clock times as your difficulty data, and accept that the puzzles which fail the test were never finished, only drafted. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Puzzle Hunt Craft is the hub of this family's hunt-shaped corner: it does not own any one mechanism so much as the assembly of many. The meta gives it a spine ([Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)), the unlock graph gives it a shape ([Information Architecture](information-architecture.qmd)), fairness gives it a floor ([Cluing & Fairness](cluing-and-fairness.qmd)), and the answer-checker gives it a judge ([Self-Resolving Puzzles](self-resolving-puzzles.qmd)). What the format adds on top of all of these is scale and time: dozens of puzzles, a team dividing labour, a weekend to fill, and a finale to land. Everything that makes a single puzzle good still has to be true, and then the format asks the further question of how a hundred good puzzles become one good event. The lineage this craft descends from, and how it shades into alternate-reality games, is [The Puzzle Hunt & ARG Tradition](the-puzzle-hunt-and-arg-tradition.qmd).
+
+**Next steps.** If you are designing a hunt, start at the meta and read [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd), because the meta's mechanic fixes everything downstream. Then lay out the unlock graph with [Information Architecture](information-architecture.qmd) and pace it using your test-solve times. Before release, treat [Cluing & Fairness](cluing-and-fairness.qmd) as the checklist every puzzle must pass and [Hint Systems & Recovery](hint-systems-and-recovery.qmd) as the safety net for the ones that still trip cold solvers. If the hunt runs online, the answer-checking and gating infrastructure is [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd), and the adjudication model behind it is [Self-Resolving Puzzles](self-resolving-puzzles.qmd).
+
+## Sources
+
+- Wilson, Dan. "Introduction to Writing Good Puzzle Hunt Puzzles." MIT. <https://www.mit.edu/~dwilson/puzzles/puzzlewriting.html>
+- Ni, Brian (betaveros). "Introduction to Puzzlehunts." Bounded-Error Log. <https://blog.vero.site/post/puzzlehunts>
+- Irpan, Alex. "Puzzlehunting 201." 30 April 2024. <https://www.alexirpan.com/2024/04/30/puzzlehunting-201.html>
+- Irpan, Alex. "Writing MIT Mystery Hunt 2023." 21 April 2023. <https://www.alexirpan.com/2023/04/21/mh-2023.html>
+- "Puzzle hunt." Wikipedia. <https://en.wikipedia.org/wiki/Puzzle_hunt>
+- "Metapuzzle." Puzzle Wiki. <https://www.puzzles.wiki/wiki/Metapuzzle>
+- "Indexing." Puzzle Wiki. <https://www.puzzles.wiki/wiki/Indexing>
+- MIT Mystery Hunt archive. <https://puzzles.mit.edu>
+- vEnhance/puzzlehunt-discordbot (open source). discord.py bot for competitive puzzle hunts: channel-per-puzzle, `!solve` answer-checking, Google Drive integration. <https://github.com/vEnhance/puzzlehunt-discordbot>
+- Pyrogram documentation. `send_message` with `schedule_date`; server-side scheduled delivery. <https://docs.pyrogram.org>
+- n8n documentation. Discord and Telegram integration nodes, Cron trigger. <https://n8n.io/integrations/discord/>
