@@ -42,6 +42,11 @@ The second principle is that nothing on the page is decorative by accident. Anyt
 
 This forces a choice about conventions, and the choice has to hold. If unusual capitals signal a hidden message in one puzzle, solvers will hunt for hidden messages every time they see unusual capitals. [corpus] Flavour text is the classic case. In some hunts it is pure scene-setting and never clues anything. In others every word of it counts. Both are legitimate. Mixing them inside one event quietly destroys solver trust, because the solver can no longer tell when to read closely. [corpus] The 2014 MIT Mystery Hunt resolved this by ruling that flavour text was never required to solve a puzzle: an explicit commitment, declared up front, so solvers knew where they stood. [corpus]
 
+::: {.callout-note}
+### The Specimen
+The MIT Mystery Hunt has spent decades building a shared cluing grammar that solvers carry between puzzles: answers arrive as all-caps phrases so that meta-puzzles can extract from them reliably, the structure of a grid is itself data (exactly 26 entries probably means the alphabet), and a puzzle's title often carries the only meta-clue it offers, seeded there as both theme and last-resort hint. [corpus] Evan Chen's puzzle-hunt guides document these conventions for incoming solvers, which makes them double as a designer's checklist of what solvers will already expect. [corpus]
+:::
+
 ### The cluing gradient
 
 Clues do not all point with the same directness, and the craft lives in choosing how indirect to be. A direct clue ("the answer is a colour") barely qualifies as a puzzle; it is really a hint. An indirect clue makes the solver identify the category first: a set of items that share a hidden colour, with no label telling them to look for one. A doubled-indirect clue hides the category itself, so the solver must first work out *what kind of thing* they are looking for before they can look for it. [corpus]
@@ -64,23 +69,13 @@ The same shape covers a chokepoint, where players need not a deduction but a way
 
 Interactive fiction inherits the same problem in digital form. Because the player chooses where to go, a crucial clue placed on one branch can be missed entirely. The fix is the same redundancy, plus the option to gate forward progress until the key evidence is in hand, so no branch can strand the player short of a solvable position. [corpus]
 
+A practical habit follows for the day a clue is not landing: resist the urge to add another. Ask first whether the clue you have is doing its work and whether the solver can even tell it is a clue, because a cleaner signal almost always beats a louder one. The fix for a stuck solver is rarely one more arrow on the flowchart; it is a sounder clue, or a redundant trail to the same conclusion. [synthesis]
+
 ### Fair play in the detective tradition
 
 The oldest written version of this contract is the detective story's "fair play" rule, and it is worth knowing because the puzzle forms quietly inherited it. The cardinal rule is that every clue needed to reach the solution is present in the text, findable by an attentive reader, and not dependent on anything the reader could not have known. [corpus]
 
 The Golden Age writers codified this into near-legal form. S.S. Van Dine's "Twenty Rules for Writing Detective Stories" (1928) opens by declaring the detective story a game in which the author must play fair, and insists the reader have equal opportunity with the detective to solve it. [researched] Ronald Knox's "Decalogue" (1929) added its own clauses: the criminal must be named early, the detective must declare every clue he finds, and no unaccountable intuition may hand him the answer. [researched] When the Detection Club formed in 1930, its members swore an oath, written by Dorothy L. Sayers, that their detectives would solve crimes "using those wits which it may please you to bestow upon them" and not by "Divine Revelation, Feminine Intuition, Mumbo Jumbo, Jiggery-Pokery, Coincidence, or Act of God." [researched] Strip the period humour and that is exactly the puzzle-hunt's "no tricks": no answer may depend on a rule the solver was never given.
-
-::: {.callout-note}
-### The Specimen
-The MIT Mystery Hunt has spent decades building a shared cluing grammar that solvers carry between puzzles: answers arrive as all-caps phrases so that meta-puzzles can extract from them reliably, the structure of a grid is itself data (exactly 26 entries probably means the alphabet), and a puzzle's title often carries the only meta-clue it offers, seeded there as both theme and last-resort hint. [corpus] Evan Chen's puzzle-hunt guides document these conventions for incoming solvers, which makes them double as a designer's checklist of what solvers will already expect. [corpus]
-:::
-
-## Design Judgement
-
-::: {.callout-tip}
-### The Field Note
-When a clue is not landing, resist the urge to add a new clue. Ask first whether the clue you have is doing its work and whether the solver can tell it is a clue at all. A cleaner signal usually beats a louder one. Then, separately, count your redundancy: if a single conclusion rests on a single clue, you have a single point of failure, whatever medium you are in. In a hunt that means a fresh-eyes test-solve; at a tabletop it means a second and third trail; in interactive fiction it means the clue appears on more than one branch. The fix for "they got stuck" is almost never one more arrow on the flowchart. [synthesis]
-:::
 
 ::: {.callout-warning}
 ### The Hazard

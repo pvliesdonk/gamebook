@@ -28,21 +28,21 @@ provenance: ""       # corpus | researched | synthesis
      which is [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)..."). Handle
      disambiguation in context, not as a list. Link the actual sibling .qmd file. -->
 
+<!-- CALLOUTS — sparing, to highlight the exceptional. AT MOST TWO per article, and only when a
+     point genuinely warrants being pulled out of the prose (not something that belongs in the
+     regular flow). There is NO fixed "Design Judgement" section and no fixed order or position:
+     a callout sits wherever its point lands in the article. Aim for ONE Specimen per article,
+     placed naturally. The Field Note and Hazard are OPTIONAL flavours, used only when the advice
+     or failure-mode is a genuine standout; otherwise weave that judgement into the prose.
+     Available flavours (place where warranted, do not stack a rote set):
+       ::: {.callout-note}   ### The Specimen   A real-world example. [corpus]
+       ::: {.callout-tip}    ### The Field Note  Standout mentor advice. [synthesis]
+       ::: {.callout-warning} ### The Hazard     A standout failure mode. [synthesis]
+-->
+
 ::: {.callout-note}
 ### The Specimen
-Observation of this mechanism in a real-world game. [corpus]
-:::
-
-## Design Judgement
-
-::: {.callout-tip}
-### The Field Note
-Practical "Mentor" advice on implementation and nuances. [synthesis]
-:::
-
-::: {.callout-warning}
-### The Hazard
-Known traps, failure modes, or anti-patterns to avoid. [synthesis]
+A real-world example of this mechanism in the wild, placed wherever it fits the article. [corpus]
 :::
 
 ## Where this fits

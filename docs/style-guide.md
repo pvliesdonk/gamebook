@@ -39,13 +39,14 @@ Articles are not islands, but their links belong **in the prose, where the reade
 
 Every article closes with one short **"Where this fits"** section: two paragraphs, prose not lists. **The bigger picture** (how the mechanism sits in its family / the wider design landscape: what it depends on, what depends on it) and **Next steps** (what a designer practically reaches for next, with inline links). This is orientation, not a summary recap.
 
-## Call-out Flavours (Design Judgement)
+## Call-outs (sparing, to highlight the exceptional)
 
-Use Quarto call-out blocks for "Mentor" wisdom. They should be brief and action-oriented.
+Call-outs exist to make the eye **stop** at something genuinely notable. They are not a structural scaffold. (Revised at the Phase-4 pilot, Gate D1: every article ending in a rote "Design Judgement" section of one tip plus one warning made call-outs into wallpaper and defeated their purpose.)
 
-- `::: {.callout-note}` **The Specimen:** A specific observation of the mechanism "in the wild."
-- `::: {.callout-tip}` **The Field Note:** Practical "Mentor" advice or hard-won wisdom.
-- `::: {.callout-warning}` **The Hazard:** Known traps, failure modes, or "anti-patterns."
+- **At most two call-outs per article**, and only when a point genuinely warrants being pulled out of the prose (not something that belongs in the regular flow).
+- **No fixed "Design Judgement" section, no fixed order or position.** A call-out sits wherever its point lands. Judgement that does not warrant a box is woven into the prose.
+- **Aim for one Specimen per article**, placed naturally (not always after The Mechanism).
+- Flavours, used where warranted: `::: {.callout-note}` **The Specimen** (a real-world example "in the wild"), `::: {.callout-tip}` **The Field Note** (standout mentor advice), `::: {.callout-warning}` **The Hazard** (a standout failure mode).
 
 ## Language & Regional Conventions
 

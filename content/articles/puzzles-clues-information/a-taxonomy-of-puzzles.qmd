@@ -25,6 +25,8 @@ A single list of puzzle types is a trap, because the same puzzle reads different
 
 Neither lens alone is enough. A puzzle that is varied across faculties can still be monotonous in its jobs (five different cognitive types that all serve as feeders, never a climax). A set that is varied in its jobs can still hammer one faculty (search, observe, decode, and a meta that all happen to be verbal). The two-lens reading is what lets you catch both. The table below crosses them: each row is a cognitive faculty, and the columns note the experiential jobs that faculty most naturally fills, plus where it tends to fail. This is the legitimate place for a table; the categories are genuinely data, and prose would only bury them.
 
+So the working habit is to audit your set with both lenses laid side by side before you build a single prop, in two separate passes. First, tag each puzzle by the cognitive faculty it leans on hardest, and look for a row that is empty or a row that is overloaded: a hunt that is all verbal exhausts linguistic working memory; a room that is all logic grids exhausts deductive patience. Then, separately, tag each puzzle by its experiential job (early momentum, mid-game chaining, parallel engagement, climactic synthesis) and check the arc has a real ending rather than five feeders and a door. The two passes catch different failures, which is the whole point of keeping them apart: a set can pass the faculty audit and fail the job audit, looking varied while feeling shapeless. Type variety is not only an anti-fatigue lever; it is an accessibility requirement, because different solvers have different cognitive strengths and a one-faculty set quietly casts most of them as spectators. [synthesis]
+
 | Cognitive faculty (what the mind does) | Typical experiential job | Where it shines | Where it fails |
 |---|---|---|---|
 | **Verbal / linguistic** (anagrams, wordplay, ciphers as recognition) | Final extraction; the satisfying click | High insight potential; the last step that feels like discovery | Pure manipulation banks fatigue fast; high cultural dependence locks out solvers [corpus] |
@@ -59,13 +61,6 @@ This same diagnostic crosses media without much translation. The digital single-
 ::: {.callout-note}
 ### The Specimen
 The MIT Mystery Hunt is the clearest living proof that the two lenses are real and separable. Across a single year's feeder set it deliberately mixes every cognitive faculty (word, logic, observation, physical, knowledge) so that no team burns out one kind of thinking before the weekend is over, then layers the experiential job on top: the feeders are feeders, and the meta-puzzle is the climactic synthesis whose inputs are those feeder answers read as data. [corpus] Room Escape Artist, drawing the lesson explicitly *from* the Hunt, urges escape-room designers to build more metas for exactly this reason: a strong meta makes an individual answer mean one thing in its own puzzle and reveal a second property in the meta's context, which is the cognitive abstraction step and the experiential climax in the same move. [researched]
-:::
-
-## Design Judgement
-
-::: {.callout-tip}
-### The Field Note
-Audit your set with both lenses laid side by side before you build a single prop. Make two passes. First, tag each puzzle by the cognitive faculty it leans on hardest, and look for a row that is empty or a row that is overloaded: a hunt that is all verbal exhausts linguistic working memory; a room that is all logic grids exhausts deductive patience. Then, separately, tag each puzzle by its experiential job (early momentum, mid-game chaining, parallel engagement, climactic synthesis) and check the arc has a real ending rather than five feeders and a door. The two passes catch different failures, which is the whole point of keeping them apart: a set can pass the faculty audit and fail the job audit, looking varied while feeling shapeless. Type variety is not only an anti-fatigue lever; it is an accessibility requirement, because different solvers have different cognitive strengths and a one-faculty set quietly casts most of them as spectators. [synthesis]
 :::
 
 ::: {.callout-warning}

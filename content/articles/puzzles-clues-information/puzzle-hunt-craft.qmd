@@ -27,6 +27,8 @@ A hunt is built in layers, and naming them precisely is the first move because e
 
 The reason the answer is almost always a single capitalised word is structural, not stylistic: a meta has to extract reliably from its feeder answers, so the feeders have to produce clean, uniform tokens. [corpus] A feeder that resolves to a messy phrase breaks the layer above it. The constraint propagates downward from the meta, which is why hunt construction so often runs in reverse: the meta author picks a mechanic, that fixes the shape of the answers the feeders must produce, and the feeder authors build toward those targets. [corpus]
 
+The practical instruction that falls out of this is to build the meta first, then the feeders. The meta is the constraint that everything else has to satisfy, so designing it last means discovering at the end that your feeder answers do not fit the mechanic you wanted. Pick the meta's mechanic early, let it fix the shape and letters of the answers the feeders must produce, and brief the feeder authors toward those targets. [corpus] Working in this order also yields the best gift you can give a strong team: a meta that can be partly back-solved, where reading the mechanic early lets a team predict a feeder answer and confirm it. A meta that rewards meta-reading skill creates a second solving path for free. [synthesis]
+
 | Layer | What it is | Its job |
 |---|---|---|
 | Feeder | A standalone puzzle yielding one answer | Produce a clean token for the layer above |
@@ -34,6 +36,11 @@ The reason the answer is almost always a single capitalised word is structural, 
 | Meta | A puzzle whose inputs are feeder answers | Tie a round together; reward the set, not the part |
 | Super-meta | A meta over metas | Tie the whole hunt together |
 | Runaround | The finale, often physical | Deliver the memory, not the hardest challenge |
+
+::: {.callout-note}
+### The Specimen
+The MIT Mystery Hunt is the format's reference implementation and its longest-running archive. It runs over a January weekend, scales to teams of a hundred or more working in software-org-like divisions of labour, and ends in the literal runaround: a chain of clues across the MIT campus to a hidden coin, whoever finds it wins, and gets to write next year's hunt. [corpus] The structure that makes it legible to study is exactly the layered one above: feeders into round metas into a super-meta, an unlock graph pacing the weekend, and a public post-mortem culture where each year's organisers document what broke. The hunt also seeds the conventions solvers carry between events: answers as all-caps tokens so metas can extract cleanly, and a grid of exactly 26 entries read as an invitation to index into the alphabet. The full archive lives at `puzzles.mit.edu` and is the primary corpus for anyone studying the craft historically. [corpus]
+:::
 
 ### The unlock graph: who sees what, when
 
@@ -74,18 +81,6 @@ A hunt at any scale beyond a single room runs on infrastructure. The two load-be
 Clue and hint delivery increasingly route through chat-platform bots, because the platform's own structure can carry the game's. On Discord, a channel hierarchy maps onto hunt structure: rounds become categories, puzzles become channels, and a clue can be locked behind a role granted only when a previous answer verifies, which builds a hard progression gate with no custom code beyond a role-assignment hook. [corpus] Open-source hunt bots formalise this: the answer-checked unlock pattern (a `!solve` command that normalises input, checks it, and grants the next role or channel) is shipped in community discord.py projects used by competitive teams. [researched] Telegram occupies the other end: no account barrier, so it suits public or street-level games, and crucially it offers server-side scheduling, where a `schedule_date` on a sent message hands timed clue drops to Telegram's own servers rather than relying on your process to stay alive. [researched] The hazard there is plain: if a scheduled drop is the only gate to the next puzzle, a bot outage silently halts the game, so every automated channel needs a game-master override that can push the same content by hand. [researched]
 
 That bot layer also doubles as the hint channel. Most hunts let a stuck team request a hint after a delay (commonly 30 to 90 minutes of work on a puzzle), with game control issuing a written nudge aimed at the team's specific point of confusion. [corpus] The hint queue keeps the experience of genuine challenge intact while preventing permanent blockage, and how to design that recovery without hollowing out the puzzle is [Hint Systems & Recovery](hint-systems-and-recovery.qmd).
-
-::: {.callout-note}
-### The Specimen
-The MIT Mystery Hunt is the format's reference implementation and its longest-running archive. It runs over a January weekend, scales to teams of a hundred or more working in software-org-like divisions of labour, and ends in the literal runaround: a chain of clues across the MIT campus to a hidden coin, whoever finds it wins, and gets to write next year's hunt. [corpus] The structure that makes it legible to study is exactly the layered one above: feeders into round metas into a super-meta, an unlock graph pacing the weekend, and a public post-mortem culture where each year's organisers document what broke. The hunt also seeds the conventions solvers carry between events: answers as all-caps tokens so metas can extract cleanly, and a grid of exactly 26 entries read as an invitation to index into the alphabet. The full archive lives at `puzzles.mit.edu` and is the primary corpus for anyone studying the craft historically. [corpus]
-:::
-
-## Design Judgement
-
-::: {.callout-tip}
-### The Field Note
-Build the meta first, then the feeders. The meta is the constraint that everything else has to satisfy, so designing it last means discovering at the end that your feeder answers do not fit the mechanic you wanted. Pick the meta's mechanic early, let it fix the shape and letters of the answers the feeders must produce, and brief the feeder authors toward those targets. [corpus] This is why hunt construction runs backwards from the answer, and it is also what gives you the best gift you can give a strong team: a meta that can be partly back-solved, where reading the mechanic early lets them predict a feeder answer and confirm it. A meta that rewards meta-reading skill creates a second solving path for free. [synthesis]
-:::
 
 ::: {.callout-warning}
 ### The Hazard

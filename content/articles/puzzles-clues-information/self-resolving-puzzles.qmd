@@ -61,6 +61,8 @@ The mitigations all live upstream, at the design layer, never by making the mech
 
 The hard truth is that there is no industry-standard protocol for what to do when a mechanism fires on an unintended path. Most venues either accept the verdict or have the operator intervene case by case. [corpus] The cheap fix is upstream, before the room opens.
 
+So before you wire a single relay, run the false-positive test in your head: list every input the mechanism would physically accept, not just the one you intended. If a second path reaches the same end state, the lock cannot tell them apart and neither can your camera. Fix it upstream by the one-answer rule or by lock mapping, never by trying to make the check cleverer at the moment of the solve, because the mechanism has no judgement to add. [synthesis]
+
 ### Reset is part of the mechanism
 
 A puzzle that resolves perfectly during play but cannot be reset inside the turnaround window is not self-resolving in any operational sense. It is GM-resolving with a delay. Elumir's Rule 9, that puzzles should have no destroyable states, is the design-level statement; the wiring choice that delivers it is the split between two kinds of sensor. [researched]
@@ -69,16 +71,11 @@ Monostable sensors (momentary buttons, an RFID tag on a hangable item, anything 
 
 The strongest version of reset discipline is a mechanism that refuses to call itself ready. The FrightProps EscapeKeeper, a purpose-built escape-room controller with eight inputs and three solid-state outputs, has a pre-game validation feature: when the operator arms the room, the controller checks that every input sits in its expected reset state and beeps and blinks the offending input if anything is already in a solved position. [researched] That is Rule 9 made operational. The mechanism that judges the solve also judges its own readiness to judge, and it will not start a game it cannot fairly run.
 
+Count your reset cost in the same breath as your false-positive check: a puzzle is only self-resolving if it resolves *and* returns to zero inside your turnaround window. Prefer monostable sensors that spring back on their own, reserve bistable parts for places where a checklist line will reliably catch them, and let an arming check refuse the room rather than trusting yourself to remember. The puzzle that grades itself should also grade its own readiness. [synthesis]
+
 ::: {.callout-note}
 ### The Specimen
 *Baba Is You* (Arvi Teikari, 2019) is the purest case of the mechanism judging itself, because in it the win condition is a movable object. The rules of each level are written in word tiles on the grid: the sentence `FLAG IS WIN` means touching a flag clears the level, and `BABA IS YOU` means you control whatever is labelled Baba. Both sentences are made of tiles you can push. The engine runs a continuous parse over the grid and revalidates every possible sentence whenever a tile moves, so the game state itself adjudicates whether you have won, and the solver wins by rewriting the very rule that defines winning. [researched] There is no separate verdict: the act of arranging the tiles into a winning configuration *is* the solve being checked. It is the false-positive problem inverted into a virtue, because here the only way to satisfy the judge is to understand the rule you are editing.
-:::
-
-## Design Judgement
-
-::: {.callout-tip}
-### The Field Note
-Before you wire a single relay, run the false-positive test in your head: list every input the mechanism would physically accept, not just the one you intended. If a second path reaches the same end state, the lock cannot tell them apart and neither can your camera. Fix it upstream by the one-answer rule or by lock mapping, never by trying to make the check cleverer at the moment of the solve, because the mechanism has no judgement to add. Then count your reset cost in the same breath: a puzzle is only self-resolving if it resolves *and* returns to zero inside your turnaround window. Prefer monostable sensors that spring back on their own, reserve bistable parts for places where a checklist line will reliably catch them, and let an arming check refuse the room rather than trusting yourself to remember. The puzzle that grades itself should also grade its own readiness. [synthesis]
 :::
 
 ::: {.callout-warning}

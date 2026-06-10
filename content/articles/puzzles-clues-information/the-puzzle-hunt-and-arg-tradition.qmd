@@ -48,6 +48,8 @@ Between the patient print object and the live fictional world sits the competiti
 
 The crossing is not only conceptual; the people crossed too. The cryptic setters' fairness discipline, the recreational mathematician's insight puzzle, the ARG veteran's layered extraction: practitioners carried these skills between forms, and after the commercial ARG market contracted around 2012 several ARG designers moved directly into hunt authorship. [researched] The MIT Mystery Hunt, DASH and the Galactic Puzzle Hunt all show ARG-influenced construction, cryptographic layering and multi-step extraction, without adopting the fictional frame. [researched] The craft this whole tradition produced, the actual business of building a balanced, solvable hunt, is the subject of [Puzzle Hunt Craft](puzzle-hunt-craft.qmd).
 
+Which parent you commit to has to be decided before you build, because the two impose opposite obligations. An acknowledged hunt has the author signing the work, a known start moment, and a solver's trust resting on fair cluing and clean answer checking; its fiction can be as thin as you like. An ARG makes the fiction the product and the curtain sacred, which means budgeting real white space up front so player-supplied canon is designed for rather than retconned around, and staffing the dynamic authorship that keeps every channel in character in near real time. The expensive mistake is wanting the ARG's depth of belief while running it on a hunt's fixed, pre-written content: the community will outpace you, and you will be forced either to break the curtain to correct the record or to let the world go silent. [synthesis]
+
 ### What the tradition demands of a world
 
 The ARG line bequeathed a specific worldbuilding problem that the print line never faced, because a book cannot contradict itself between Tuesday and Friday but a live multi-channel fiction can. Consistency in an ARG is not flavour, it is the load-bearing illusion, and it is maintained per artefact: every site and character must hold its own distinctive voice, because the moment identical voices answer all of a fictional company's phones the illusion breaks. [researched] The curtain is the structural device that protects this, the wall that keeps the authors from ever speaking out of world, so there is no out-of-world utterance to contradict the canon. [researched]
@@ -57,13 +59,6 @@ The strain comes from co-authorship. Puppetmasters deliberately leave white spac
 ::: {.callout-note}
 ### The Specimen
 *The Beast* (2001) is the canonical launch and a clean cross-section of the form. Built by Jordan Weisman, Elan Lee and Sean Stewart for Microsoft and Warner Brothers to promote Spielberg's *A.I.*, it spread roughly a thousand pages across fifty websites alongside phone numbers, email addresses and voicemail systems, with no notice that any of it was fiction. [researched] Its primary community, the Cloudmakers, reached around 4,500 to 5,000 members, who repeatedly solved puzzle layers faster than the writers could generate new ones, the first documented case of players outpacing the authors. [researched] *A.I.*'s closing titles credited the team as "the Puppet Masters," the first public naming of the role. At the cryptographic far end of the lineage, Cicada 3301 (2012-2014) ran the same machinery, PGP-signed clues, steganography, physical notices at coordinates worldwide, with the fictional frame stripped away and the authorship and purpose never revealed, showing that the hunt's mechanisms survive even when the ARG's story does not. [researched]
-:::
-
-## Design Judgement
-
-::: {.callout-tip}
-### The Field Note
-Decide which parent you are working in before you build, because the two impose opposite obligations. If you are making an acknowledged hunt, the author signs the work, the start is a known moment, and the solver's trust rests on fair cluing and clean answer checking; the fiction can be as thin as you like. If you are making an ARG, the fiction is the product and the curtain is sacred, which means budgeting real white space up front so player-supplied canon is designed for rather than retconned around, and staffing the dynamic authorship that keeps every channel in character in near real time. The expensive mistake is wanting the ARG's depth of belief while running it on a hunt's fixed, pre-written content: the community will outpace you, and you will be forced to either break the curtain to correct the record or let the world go silent. [synthesis]
 :::
 
 ::: {.callout-warning}
