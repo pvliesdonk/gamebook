@@ -1,0 +1,40 @@
+---
+title: "Making It Real"
+type: primer
+provenance: "synthesis"
+---
+
+*Silhouette: The craft of turning fiction into stuff a player can hold in the hand and walk through.*
+
+<!-- Primer: orientation to the Space, Props & Materiality family. Light authorial / Mentor voice. -->
+
+## The Terrain
+
+This family is the craft of making the fiction physical. The other families work in rules, in clues, in the shape of a story. This one works in matter. The object the player picks up, the room they step inside, the page that ages in the hand and the air that carries a scent: all of it is the world made touchable. When it works, the player stops being told about a place and starts handling a piece of it. [synthesis]
+
+Every made object signs two promises at once, and the family lives in the gap between them. The first is a promise to the senses: this is what it appears to be. The telegram reads as a 1920s telegram. The brass lock carries the weight of real brass, and the chest gives up its secret on cue. Call it the touch-real promise. The second is a promise to the operation: this thing survives, resets, and runs again. It takes being dropped, soaked, and forced. It comes back to its starting state in the twenty minutes before the next group arrives, run after run. [synthesis]
+
+The two promises pull against each other, and that pull is the spine of the whole family. The wax seal that signs a perfect threshold is single-use and cannot reset. The aged paper that ages most beautifully tears on its third handling. Push only for the senses and you build a room that breaks in week one. Push only for the operation and you build a room that survives forever and convinces no one, because the durable substitute reads as the plastic it is. Beauty that breaks and reliability that reads as fake are the twin failures, and almost every decision in this family is a position taken between them. [synthesis]
+
+So the work has a glamorous half and an unglamorous half, and they are the same work seen at two moments. The choice you make at the workbench is what shows up months later in the reset window, for better or for worse. A designer who treats the first promise as the whole job ships a beautiful thing that does not survive contact with players. A designer who treats the second as the whole job ships a thing nobody believes. The craft is holding both at once. [synthesis]
+
+::: {.callout-tip}
+### Mentor Wisdom
+Plan the reset before you plan the reveal. Count the handling first. An operator running four sessions a day will handle each prop something like fourteen hundred times a year. Any object built for careful use collapses under that count. Know in advance how the thing comes back to its starting state and who repairs it on a jam. Give every prop that can fail silently a fallback its operator can reach. Then build the beauty on top of a base you can actually run. A gorgeous prop you cannot reset is a one-night prop, however good the first night looks. [synthesis]
+:::
+
+## Key Mechanisms
+
+The family's organising idea, where belief is won or lost, is [Theme, Immersion & Sensory Environment](../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd). It is the integrative article: it decides what the world should feel like, sorts the diegetic from the merely on-theme, and names the single notes that break the spell. Everything else in the family is in service of the belief this article protects.
+
+The concrete other half of that work is artefact craft. [Artefact Design & Document Production](../articles/space-props-materiality/artefact-design-and-document-production.qmd) builds the things that carry the feeling into the player's hands: the coded letter and the coroner's report, the aged paper that has to read as genuinely old rather than dyed. None of it reaches a player without a props department, and the decision behind every object (buy it, make it, or commission it) is [Fabrication & Sourcing](../articles/space-props-materiality/fabrication-and-sourcing.qmd), the least glamorous craft in the family and the one that quietly decides whether the rest survives.
+
+Once an object exists, its packaging signs a contract before a word is read. [Physical Clue Formats](../articles/space-props-materiality/physical-clue-formats.qmd) is the family hub for that question: sealed envelope, booklet, card deck, or bare handout, each correct for a different production. The moment a prop gives up a secret it was built to hide is [Hidden Compartments & Reveal Mechanisms](../articles/space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd), where a torch, a magnet, or a fold turns solid into secret on purpose rather than by accident. The bluntest gate of all, the workhorse that turns a found answer into an opened box, is [Lock Taxonomy](../articles/space-props-materiality/lock-taxonomy.qmd), chosen less for its look than for how it behaves under repeated play.
+
+Some props earn their cost by holding a chip or a screen. [Digital Props](../articles/space-props-materiality/digital-props.qmd) covers the family of objects that do something no mechanical thing can: content that changes after a player acts, or state read from outside the room without opening the door. The cheapest bridge between a physical prop and the content behind it is [QR & NFC Patterns](../articles/space-props-materiality/qr-and-nfc-patterns.qmd), which turns a player's own phone into the key to the next piece. Whether a given object is worth the digital cost at all is a judgement made one prop at a time in [Physical vs Digital Puzzle Artefacts](../articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd), which weighs the texture in the hand against the years of maintenance the choice quietly commits you to.
+
+Behind the wall sits the room you never see. [Cue Management & GM Station](../articles/space-props-materiality/cue-management-and-gm-station.qmd) is the control layer: the desk where one operator watches the room and fires the cues, then judges the moment to reach in without breaking the world. The second promise gets its own treatment in [Materials, Durability & Reset](../articles/space-props-materiality/materials-durability-and-reset.qmd), the craft of building props that survive being dropped, soaked, and forced, then putting the room back together fast enough to run the next group. And the shape of the space itself, designed so that where the players can go is a decision and not a corridor, is [Dungeon & Spatial Topology](../articles/space-props-materiality/dungeon-and-spatial-topology.qmd).
+
+## Related Exemplars
+
+The Mysterious Package Company shows the artefact carrying the story rather than decorating it, with aged dossiers and a burned ship's-wheel fragment posted as the medium itself. Infocom's feelies are where the physical artefact was first commercialised, the coroner's report in the *Deadline* (1982) box doing double duty as fiction and copy protection. *Masquerade*'s golden hare is the physical pole proven across decades: buried in Ampthill Park in 1979 and sold at Sotheby's in 2025, intact. And *Caverns of Thracia* (1979) is the case for designed space, with three entrances to the first level and routes that fork and rejoin instead of marching the party down a corridor.

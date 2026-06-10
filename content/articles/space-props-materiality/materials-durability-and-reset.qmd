@@ -130,6 +130,7 @@ The cost lands exactly where this article predicts. A legacy game raises the que
 - [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
 - [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd)
 - [Lock Taxonomy](lock-taxonomy.qmd)
+- [Making It Real](../../primers/making-it-real.qmd)
 - [Physical Clue Formats](physical-clue-formats.qmd)
 - [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd)
 - [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd)

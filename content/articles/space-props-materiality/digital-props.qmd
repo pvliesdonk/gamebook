@@ -138,6 +138,7 @@ The seductive failure is to build the prop you find interesting rather than the 
 - [Cue Management & GM Station](cue-management-and-gm-station.qmd)
 - [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
 - [Lock Taxonomy](lock-taxonomy.qmd)
+- [Making It Real](../../primers/making-it-real.qmd)
 - [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd)
 - [QR & NFC Patterns](qr-and-nfc-patterns.qmd)
 - [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd)

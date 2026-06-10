@@ -104,6 +104,7 @@ The seductive failure is the reveal that fires before it is earned. A UV message
 - [Artefact Design & Document Production](artefact-design-and-document-production.qmd)
 - [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
 - [Lock Taxonomy](lock-taxonomy.qmd)
+- [Making It Real](../../primers/making-it-real.qmd)
 - [Materials, Durability & Reset](materials-durability-and-reset.qmd)
 - [Physical Clue Formats](physical-clue-formats.qmd)
 - [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd)
