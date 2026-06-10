@@ -2,7 +2,6 @@
 title: "How to Use This Guide"
 ---
 
-*Placeholder: fuller guidance written in a later phase.*
 
 This guide is organised by design function. The Keys section lets you search by
 the effect you want to create or the problem you are trying to solve.

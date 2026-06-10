@@ -2,6 +2,5 @@
 title: "Articles"
 ---
 
-*Placeholder: articles written in Phase 4 and Phase 5.*
 
 The main reference: one article per design mechanism, grouped by functional family.

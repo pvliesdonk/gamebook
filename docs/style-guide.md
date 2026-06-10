@@ -79,3 +79,4 @@ Provenance records *where we found it*; it is not a source. **The vault/corpus i
 - **No Marketing Fluff:** (e.g., "unleash," "revolutionary").
 - **No Conclusion Blocks:** No empty summary/recap that restates what was just said. (The "Where this fits" close is allowed and expected: it is forward-looking orientation — bigger picture + next steps — not a recap.)
 - **No Bullet-Dumping:** Use structured, reflective prose instead of fragmented lists.
+- **No Forward-References or Placeholders:** Finished prose never admits it is unfinished. Do not write that content is "written later", "for now", "TODO", "forthcoming", a "placeholder", or name a project phase ("in Phase 5"). These ship in the rendered book untagged and silently rot. Describe what exists in present tense, or omit it. Enforced by `Gamebook.NoForwardRefs` (error). Stub markers belong in `<!-- HTML comments -->`, which do not render.

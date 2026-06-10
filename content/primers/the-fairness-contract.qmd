@@ -33,4 +33,4 @@ At the scale of whole events the contract shapes formats: the feeders, rounds, a
 
 ## Related Exemplars
 
-The MIT Mystery Hunt is the deepest living laboratory of fair cluing at scale; *Cain's Jawbone* is the fairness contract turned inside out, a solver reconstructing the order the text demands; and the *Unlock!* series shows the contract enforced by a companion app that judges every answer. (Exemplar profiles are written in a later phase; these are pointers for now.)
+The MIT Mystery Hunt is the deepest living laboratory of fair cluing at scale; *Cain's Jawbone* is the fairness contract turned inside out, a solver reconstructing the order the text demands; and the *Unlock!* series shows the contract enforced by a companion app that judges every answer.
