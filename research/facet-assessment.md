@@ -26,3 +26,27 @@ hardest (concrete props), genre is already near-controlled. Clusters to collapse
 
 **Carry-forward for #54:** consider splitting `genre` into *genre* (mystery/horror/…) vs *format*
 (escape-room/legacy/outdoor-hunt). Components want a hierarchy, not a flat synonym map.
+
+## Structure & Pacing (18 articles)
+
+Distinct values: **effects 47, problems 50, components 68, genre 14.** Same free-form sprawl; the
+sprawl is now visibly cross-family-comparable (Space and Structure share `genre` spine
+mystery/horror/fantasy, confirming a controlled genre axis is viable at #54). Clusters to collapse:
+
+- **effects** — `player-agency` / `felt-consequence` / `meaningful-choice` cluster around *agency*;
+  `replay-value` / `replayability` (recurs from Space) → *replayability*; `structural-clarity` /
+  `orientation` / `legibility` → *legibility*; `emotional-arc` / `catharsis` / `earned-closure` →
+  *closure*.
+- **problems** — `combinatorial-explosion` / `content-waste` / `scope-creep` → *content-cost*;
+  `illusory-choice` / `false-agency` / `railroading` → *false-agency*; `middle-sag` / `anticlimax` /
+  `pacing-drag` → *pacing-failure*; `reader-disorientation` / `unmappable` → *disorientation*.
+- **components** — 68 distinct; structural primitives (`state-flag`, `choice-point`,
+  `convergence-node`, `branch`, `bottleneck`, `hub`, `scene`, `beat`) form a clean **structural-graph
+  vocabulary** that is more controlled than Space's prop sprawl. Likely the seed of a real component
+  ontology at #54.
+- **genre** — `mystery` / `adventure` / `fantasy` / `horror` / `romance` / `drama` spine; same
+  format-vs-genre split issue flagged for Space recurs.
+
+**Carry-forward:** the structural-graph component vocabulary (flag / node / branch / bottleneck /
+hub / scene / beat) is stable across both Structure and the Puzzles family's Information Architecture
+- a good candidate to fix early at #54. `replayability` and the genre spine recur across families.

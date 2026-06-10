@@ -60,3 +60,26 @@ One canonical term per mechanism. Aliases listed. Agents must use canonical term
 | Physical vs Digital Puzzle Artefacts | Artefact Modality, Physical-Digital Spectrum | Family 5 | The five-modality taxonomy; url-rot; durability horizons. |
 | Dungeon & Spatial Topology | Dungeon Design, Spatial Layout, Non-Linear Layout | Family 5 | The designed space; Jaquaying/Xandering; loops, connections, faction ecology. |
 
+### Structure & Pacing mechanisms (added Phase 5)
+
+| Canonical term | Aliases | Family | Notes |
+|----------------|---------|--------|-------|
+| Branching Narrative Craft | Choice Architecture, Branching Design, Meaningful Choice | Family 1 | Choice architecture; meaningful vs illusory choice; convergence and state-tracking. |
+| IF Graph Structures: A Taxonomy | Branching Topologies, Choice-Based Structures, Narrative Graph Shapes | Family 1 | Map of branching shapes: time cave, gauntlet, branch-and-bottleneck, hub-and-spoke, QBN. |
+| Scene & Sequel in Interactive Fiction | Scene-Sequel, Swain Structure | Family 1 | The scene/sequel micro-rhythm; the sequel as the reflection-and-choice beat. |
+| Scene Structure & Transitions | Scene Craft, Scene Breaks, Time-Skips | Family 1 | The beat-to-prose pipeline; cuts, transitions, scene breaks. |
+| Try-Fail Cycles & Escalation | Yes-But / No-And, Rule of Three, Stakes Ladder, Failing Forward | Family 1 | The four-outcome failure engine; escalation; failure as branch. |
+| Session Pacing & Energy Management | Session Rhythm, Difficulty Curve, Energy Curve, The Session Arc | Family 1 | The multi-hour arc; energy variation; the mid-session sag and its cures. |
+| Beat Taxonomies & Craft Models | Beat Sheets, Story Structure Frameworks | Family 1 | Save the Cat / Story Grid / Story Circle; mandatory vs branch-variable beats. |
+| Endings & Structural Closure | Endings, Closure, Multiple Endings, Finale Design | Family 1 | Multiple endings, earned closure, the live-game finale. |
+| Scope, Scale & Branching Depth | Project Scoping, Branch Budgeting, Scope Discipline | Family 1 | Estimating scale; how branching depth multiplies scope; cutting to finish. |
+| Escape Room Topologies | Room Structure, Escape Room Flow | Family 1 | Linear/open/multi-linear/hub-and-spoke rooms; why IF branching rarely survives a physical room. |
+| Nonlinear Narrative Structures | Non-Chronological Storytelling, Fragment Assembly | Family 1 | Reverse chronology, frame, mosaic assembly; Kishōtenketsu, Jo-ha-kyū. |
+| Time Loop Patterns | The Loop, Reset Narrative, Repetition with Variation | Family 1 | Loop arc phases; knowledge-as-progression; exit types. |
+| Parallel Threads & Convergence | Ensemble Convergence, Braided Narrative, Multi-Thread Structure | Family 1 | Parallel storylines; connection/convergence types; converging without flattening. |
+| Episodic & Serialised Structure | Episodic Design, Serial Narrative, The Telltale Model | Family 1 | Episodic vs serialised; state persistence across instalments; release cadence. |
+| Campaign Arc Shapes | Campaign Structure, Campaign Models | Family 1 | Episodic/arc-driven/sandbox/faction-driven/braid campaign shapes. |
+| Sandbox, Situation & the Railroad Spectrum | Sandbox vs Railroad, Illusionism, Player Agency Spectrum | Family 1 | The railroad-to-sandbox spectrum; prep situations not plots; the quantum ogre. |
+| Hexcrawl & Pointcrawl | Wilderness Exploration, Node-Path Travel | Family 1 | The hexcrawl as a complete exploration structure; the pointcrawl alternative. |
+| West Marches & the Open-Table Format | Open Table, Rotating Roster Campaign, Drop-In Drop-Out Play | Family 1 | Player-driven open-table play; persistent shared map; coordination at scale. |
+

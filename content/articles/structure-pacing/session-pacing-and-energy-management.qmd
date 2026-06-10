@@ -11,9 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "Session Pacing & Energy Management" is not yet in docs/term-registry.md.
-     Add at the family-end registry pass. Suggested aliases: Session Rhythm, Difficulty Curve,
-     Energy Curve, The Session Arc. -->
 
 *Silhouette: The art of spending a group's attention so the last hour is the best one.*
 
