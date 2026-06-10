@@ -49,21 +49,28 @@ primer, merged). Phase 5 repeats that pipeline five times. Everything needed is 
 
 ## The per-family loop
 
-For each family, in the D4 order:
+Each family runs on **its own branch off `main`**, merged to `main` at its gate (Q1 — five merges).
+In the D4 order:
 
-1. **Write the articles.** Fan out one writing subagent per article (Opus). Each agent:
+1. **Anchor article first (Q3).** Write **one** representative article for the family, self-Vale-clean,
+   and eyeball it before fanning out. Cheap insurance against family-specific surprises (a new
+   article type, a thin corpus area, a voice mismatch). Adjust the brief if needed, then:
+2. **Fan out the rest.** One writing subagent per remaining article (Opus). Each agent:
    reads the Puzzles **reference article** + `docs/style-guide.md` + `templates/article.qmd` +
    `docs/term-registry.md` + the article's section of the family **cross-link note** + its feeding
    corpus notes; **harvests** the corpus `## Research Basis` and **researches** the gap cells;
    writes to the stub; then runs **Vale and self-fixes to clean**. Anti-fingerprint guidance and the
    citation/callout/cross-ref policies are in the brief (per D1 and the pattern-lock doc).
-2. **Term-registry pass** for the family (batched, as in Phase 4).
-3. **Facet assessment** (D2): note the facet values coined; flag clusters for the eventual keys work.
-4. **Primer(s)** for the family (see primer mapping below).
-5. **Backlinks rebuild** (`scripts/backlinks.py`) + wire the family into `_quarto.yml`.
-6. **Build + Vale** both outputs clean.
-7. **Family review gate (HARD STOP)** — human reviews voice/depth/accuracy; on acceptance the family
-   merges (or accumulates on the Phase-5 branch) and its tracking issue closes.
+3. **Term-registry pass** for the family (batched, as in Phase 4).
+4. **Facet assessment** (D2): note the facet values coined; flag clusters for the eventual keys work.
+5. **Primer(s)** for the family — **duplication check first (Q2):** before writing any primer, confirm
+   it does not duplicate an existing *article* of the same/overlapping name (resolve, rename, or drop);
+   then write it. See primer mapping below.
+6. **Backlinks rebuild** (`scripts/backlinks.py`) + wire the family into `_quarto.yml`.
+7. **Build + Vale** both outputs clean.
+8. **Family review gate (HARD STOP)** — human reviews voice/depth/accuracy; on acceptance the family
+   **branch merges to `main`** (`--no-ff`) and its tracking issue closes. The merge gate is the
+   natural per-session boundary (Q4): one family per run.
 
 ### Families and their tracking issues
 Space #48 · Structure #44 · Players #47 · Systems #49 · Story #46. (Puzzles #45 closed — done in
@@ -109,18 +116,16 @@ grow a lot across five families).
 Five **family review gates** (D3), one per family in D4 order. The fifth passing **is** the Phase-5
 milestone (#6 closes). Then Phase 6 (Assembly) and Phase 7 (Polish/release).
 
-## Open questions (for the human)
+## Resolved (2026-06-10)
 
-- **Q1 — Branch strategy:** one long `phase-5-scale-out` branch with a family review gate before
-  each family merges to it, then one merge to `main` at the end? Or a branch + merge to `main` per
-  family (five merges)? (Per-family merges give earlier integration; one branch is simpler.)
-- **Q2 — Primer mapping + the Information Architecture overlap** (above): confirm before the
-  families that own those primers are written.
-- **Q3 — Anchor-article check:** for each family, write **one** article first and eyeball it before
-  fanning out the rest (cheap insurance against family-specific surprises), or trust the locked
-  patterns and fan out the whole family, catching issues at the family gate?
-- **Q4 — Compute scale:** 102 articles + self-fix loops is a very large run. Confirm appetite, or
-  cap to N families per session.
+- **Q1 — Branch strategy:** ✅ **Branch per family, merged to `main` at its gate (five merges).**
+- **Q2 — Primer duplication:** ✅ **Before writing every primer, check it does not duplicate an
+  existing article** (resolve/rename/drop). Applies to the Information Architecture primer/article
+  overlap and any other.
+- **Q3 — Anchor-article check:** ✅ **Yes** — write one article per family first and eyeball it
+  before fanning out.
+- **Q4 — Compute scale:** ✅ **One family per session**, bounded naturally by the per-family merge
+  gate.
 
 ---
 
