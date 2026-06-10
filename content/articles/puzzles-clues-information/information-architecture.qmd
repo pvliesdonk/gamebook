@@ -63,7 +63,6 @@ The largest scale adds a third differentiator. Megagames in the *Watch the Skies
 
 The skeleton underneath is a three-layer briefing: a public setting briefing for everyone, a partly-public faction briefing, and an individual briefing handed out on game day to stop players over-preparing in advance. [corpus] This role-and-venue pattern is what lets a clue-driven structure scale to hundreds of players without collapsing into either chaos or a single dominant knower. The naming here is unsettled in the source community, so use it as shorthand rather than house vocabulary.
 
-<!-- TERM-FLAG: epistemic tier: the role-and-venue-differentiated knowledge layer in large live games has no settled canonical name; the corpus flags it as an analytical label, not community usage. Needs a registry decision before it is used as a fixed term in prose. -->
 
 ### What the architecture costs
 

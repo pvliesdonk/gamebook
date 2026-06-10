@@ -91,7 +91,6 @@ The two failures sit at opposite ends and both are quiet. Convention overload is
 
 **Next steps.** Once the conventions are established, the craft turns to pacing their reveal across a whole event, which is [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd), and to engineering the collision between an owned rule and a configuration that stretches it, which is [The Aha Moment](the-aha-moment.qmd). To decide which conventions a given kind of puzzle most needs to teach up front, start from [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd). In live and mixed-ability play, where the opening calibration puzzle has to teach the group's conventions before the challenge proper begins, that onboarding is part of designing for [Mixed-Ability Groups & Universal Design](../players-social-dynamics/mixed-ability-groups-and-universal-design.qmd). And when teaching by demonstration is not enough and a solver is still stuck for reasons no convention will fix, the graceful exit is [Hint Systems & Recovery](hint-systems-and-recovery.qmd).
 
-<!-- TERM-FLAG: No canonical term in docs/term-registry.md for the "teaching by demonstration / nonverbal tutorial / convention establishment / mechanic-revelation curve" cluster owned by this article. Used plain descriptive language ("teaching through play", "show the mechanic", "convention", "mechanic-revelation curve"). Recommend adding a canonical term during the Phase-4/5 registry pass. -->
 
 ## Sources
 

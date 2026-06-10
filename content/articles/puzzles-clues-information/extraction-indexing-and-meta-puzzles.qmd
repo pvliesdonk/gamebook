@@ -11,7 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: This article uses puzzle-hunt standard terms not yet in docs/term-registry.md: "meta-puzzle" (canonical, not "metapuzzle"/"meta"), "feeder" / "feeder answer", "extraction", "indexing", "backsolving". These are established craft terms harvested from the corpus and external sources, not coinages. They should be added to the registry before the next puzzles article reuses them. -->
 
 *Silhouette: The puzzle whose clues are other puzzles' answers.*
 
