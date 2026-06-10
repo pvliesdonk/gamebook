@@ -1,0 +1,64 @@
+---
+title: "Cluing & Fairness"
+aliases: [Fair Play, Information Delivery]
+family: "Puzzles, Clues & Information"
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
+facets:
+  effects: [Aha Moment, Epiphany]
+  problems: [Information Architecture, Guesswork, Dead Ends]
+  components: [Information, State Gating]
+  genre: [mystery, investigation]
+provenance: "synthesis"
+---
+
+*Silhouette: The precise calibration of information that allows a player to solve a problem through deduction rather than guesswork.*
+
+Information delivery in a mystery or puzzle is a carefully constructed illusion. When a player examines a room or parses a cryptic text, they enter an implicit contract with the designer. The contract stipulates that the solution is knowable, and the path to it exists entirely within the provided material. The designer acts as a silent architect, leaving the keys in plain sight and trusting the player to assemble the lock themselves.
+
+This exchange rests on absolute trust. If the information is too obscure, the player resorts to random action and frustration sets in. If the guidance is too heavy-handed, the intellectual satisfaction of discovery vanishes. Cluing is the art of balancing that tension, ensuring the eventual breakthrough feels both entirely surprising and completely inevitable.
+
+## The Mechanism
+
+### The Fairness Contract
+A puzzle requires the player to believe the system is rationally solvable. This belief is sustained by a strict information economy where every necessary fact is present in the game world and findable by an observant player [synthesis]. In interactive fiction, this manifests as the fair-play mystery convention. It inherits heavily from the Van Dine and Christie tradition: all clues must be present and available to the attentive reader [corpus]. The game state must never demand a logical leap that the embedded information cannot objectively support. 
+
+### Clue Density and Redundancy
+Because human attention is highly variable, an investigation must account for missed details. A single piece of evidence forming a chokepoint often leads to a stalled game. In tabletop design, this fragility is resolved by the Alexandrian Three Clue Rule: for every conclusion the players need to reach, the scenario must provide at least three distinct clues leading to it [corpus]. This node-based scenario design ensures that if the players ignore the first clue and misinterpret the second, they will still encounter the third [synthesis].
+
+### The Economy of Signals
+The presentation of information demands rigorous filtering. In live games and puzzle hunts, a foundational principle is that every clue must do work [corpus]. The MIT Mystery Hunt cluing conventions emphasise that structural puzzle data should be clearly distinguishable from decorative flavour. This clarifies the boundary between cluing and gating [corpus]. When a player examines an object, the signal must separate from the noise. The designer controls the density of the information field, ensuring that interactive affordances guide the player toward relevant data without outright stating the solution [synthesis].
+
+::: {.callout-note}
+### The Specimen
+In the digital investigation game *Return of the Obra Dinn*, the identities of the crew are deduced through cross-referencing a crew manifest, a sketch, and dialogue snippets. The game never hides the necessary information. It simply presents it out of chronological order, relying on the player to synthesise the data. The fairness contract is strictly upheld: every identity has at least one unambiguous logical path to discovery [researched][^1].
+:::
+
+## Design Judgement
+
+::: {.callout-tip}
+### The Field Note
+When distributing information across a physical or digital space, group clues so they point toward the same node from different angles [synthesis]. A visual clue (a smudge of paint on a 5 cm key), an auditory clue (a recorded conversation timestamped at 14:00), and a textual clue (a torn receipt) engaging different senses will ensure that a diverse group of players can reach the same Aha Moment together.
+:::
+
+::: {.callout-warning}
+### The Hazard
+The single point of failure. Locking critical narrative progress behind a lone clue hidden in an obscure location guarantees that some players will stall entirely. If a piece of information is strictly required to continue, it must be robustly redundant [synthesis].
+:::
+
+## Interactions
+
+**Confusable With:** 
+Clue Sequencing & Chains: Fairness governs the validity and visibility of information, whereas sequencing dictates the strict temporal or structural order in which those clues are revealed.
+
+**Pairs Well With:** 
+Aha Moment: The cognitive reward that pays off a fairly constructed trail of evidence.
+Progress Clock: Visualising the accumulation of clues or the closing window to solve a mystery before the state changes.
+
+**Common Transitions:** 
+Once a player has gathered enough information through fair cluing, they typically move to action. In a tabletop context, this often triggers a PbtA Move to act on their findings.
+
+**Implementation Interlocks:** 
+Diegetic journals, inspectable props, database queries, and dialogue trees serve as the physical or digital widgets that house and dispense the clues.
+
+## Sources
+[^1]: Pope, Lucas. *Return of the Obra Dinn*. 3909 LLC, 2018.
