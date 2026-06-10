@@ -29,14 +29,15 @@ The guide uses a **Practitioner-Mentor** voice.
 - **Navigation:** Use "Portals" in the margins (on wiki) or sidebars (in PDF) to link to Exemplars.
 - **Constraints:** No bullet points in the primary prose flow. **Data-dense lists must be moved to Tables or Insets.**
 
-## Interaction Patterns (Connectors)
+## Cross-References (Connectors) — inline, in context
 
-Articles are not islands; they are part of an ecosystem. Every article must include these connectors. **Link them.** All 116 article stubs already exist, so each connector points at the actual sibling file with a real markdown link (e.g. `[Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)`) — never dead plain text. Links resolve to stubs now and fill in as the family is written; the backlink graph populates from them. Connectors to exemplars/primers link the same way.
+Articles are not islands, but their links belong **in the prose, where the reader needs them**, not collected in a relational appendix. (Revised at the Phase-4 pilot, Gate D1: the old four-bucket "Interactions" section read as bolted-on metadata and made the article feel un-actionable.)
 
-- **Confusable With:** A "Comparison Plate" distinguishing the mechanism from look-alikes (e.g., *Dilemma vs. Choice*).
-- **Pairs Well With:** Mechanisms that frequently "flock" together or support each other.
-- **Common Transitions:** The "Transport" layer. Where a designer typically goes *after* this mechanism.
-- **Implementation Interlocks:** The "Crunch." Which mechanical widgets (clocks, dice, PbtA moves) typically drive this effect.
+- **Link inline.** Wherever another mechanism becomes genuinely *of import to the reader at that point*, link it right there with a real markdown link to the sibling file: e.g. "...this is about whether each clue is sound, not the *order* they arrive, which is [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)." All 116 stubs exist, so links resolve now (to stubs) and fill in later; the backlink graph populates from them. Exemplars/primers link the same way.
+- **Disambiguation in context, not as a list.** Distinguish a look-alike mechanism *in the prose* where the confusion would arise, not in a "Confusable With" bucket.
+- **No relational metadata lists.** There is no "Pairs Well With / Common Transitions / Implementation Interlocks" section. Those relationships are expressed inline, or in the closing.
+
+Every article closes with one short **"Where this fits"** section: two paragraphs, prose not lists. **The bigger picture** (how the mechanism sits in its family / the wider design landscape: what it depends on, what depends on it) and **Next steps** (what a designer practically reaches for next, with inline links). This is orientation, not a summary recap.
 
 ## Call-out Flavours (Design Judgement)
 
@@ -75,5 +76,5 @@ Provenance records *where we found it*; it is not a source. **The vault/corpus i
 ## What to Avoid (Negative Style)
 
 - **No Marketing Fluff:** (e.g., "unleash," "revolutionary").
-- **No Conclusion Blocks:** The article ends when the information is complete.
+- **No Conclusion Blocks:** No empty summary/recap that restates what was just said. (The "Where this fits" close is allowed and expected: it is forward-looking orientation — bigger picture + next steps — not a recap.)
 - **No Bullet-Dumping:** Use structured, reflective prose instead of fragmented lists.

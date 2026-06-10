@@ -21,8 +21,12 @@ provenance: ""       # corpus | researched | synthesis
 ## The Mechanism (How it works)
 
 <!-- THE SCANNABLE BODY (THE BLUEPRINT) -->
-<!-- Use Diagnostic Headers (e.g. ## The Trigger) to group reflective prose. 
-     No bullets in main prose flow. Move data-dense lists to Tables or Insets. -->
+<!-- Use Diagnostic Headers (e.g. ## The Trigger) to group reflective prose.
+     No bullets in main prose flow. Move data-dense lists to Tables or Insets.
+     CROSS-REFERENCES GO HERE, INLINE: wherever another mechanism becomes of import
+     to the reader at that point, link it in the prose ("...the order they arrive,
+     which is [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)..."). Handle
+     disambiguation in context, not as a list. Link the actual sibling .qmd file. -->
 
 ::: {.callout-note}
 ### The Specimen
@@ -41,19 +45,19 @@ Practical "Mentor" advice on implementation and nuances. [synthesis]
 Known traps, failure modes, or anti-patterns to avoid. [synthesis]
 :::
 
-## Interactions (The Connectors)
+## Where this fits
 
-**Confusable With:** 
-<!-- Comparison plate: distinguish from look-alike mechanisms. -->
+<!-- A short, practical close (two paragraphs, one section). Prose, not lists.
+     Cross-references are links, as in the body. This is orientation, NOT a recap. -->
 
-**Pairs Well With:** 
-<!-- Symbiosis: mechanisms that flock together. -->
+**The bigger picture.**
+<!-- How this mechanism sits in the wider design landscape / its family: what it
+     depends on, what depends on it, the role it plays. -->
 
-**Common Transitions:** 
-<!-- Transport: where a designer typically goes after this. -->
-
-**Implementation Interlocks:** 
-<!-- Crunch: mechanical widgets (clocks, dice, etc.) that drive this. -->
+**Next steps.**
+<!-- What a designer practically reaches for next, with inline links to those articles. -->
 
 ## Sources
-<!-- Footnote citations for [researched] claims. -->
+<!-- Real EXTERNAL citations (books, essays, the works themselves) for every factual
+     [corpus]/[researched] claim. The vault is never cited. Harvest the feeding corpus
+     note's Research Basis; research the gaps. -->
