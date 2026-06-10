@@ -1,14 +1,122 @@
 ---
 title: "Cluing & Fairness"
-aliases: []
+aliases: ["Fair Play", "Clue Construction", "Solvability"]
 family: "Puzzles, Clues & Information"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [earned-discovery, solver-trust, forward-momentum]
+  problems: [unsolvable-puzzle, dead-end, unearned-reveal]
+  components: [clue-text, evidence, answer-key, convention-set]
+  genre: [mystery, detective]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #45. -->
+*Silhouette: The contract that says a solver who pays attention can get there from here.*
+
+Cluing is the craft of handing over exactly enough to reach the answer and no more. A puzzle with no clues is a locked box with no keyhole. A puzzle with the wrong clues is a box with the answer painted on the lid. The work sits between those two failures. Every clue must do real work. The whole set must point at one answer while leaving the last step to the solver.
+
+Fairness is the promise underneath. It says that an attentive person, working only with what the puzzle gave them, can get to the solution without guessing and without secret knowledge. Break that promise and the solver stops trusting you. Once trust is gone they stop reasoning and start flailing, and a puzzle they cannot trust is one they cannot enjoy.
+
+This article is about the promise and how to keep it. The same promise turns up under different names across the media: "fair play" in a detective story, the "Three Clue Rule" at a tabletop, "no tricks" in a puzzle hunt. They are one idea wearing four coats.
+
+## The Mechanism (How it works)
+
+### What makes a puzzle fair
+
+A puzzle is fair when a sufficiently attentive solver can reach the right answer using only what the puzzle provides. To that you can add any convention the solver had a way to find first, whether it sat inside the puzzle itself or somewhere across the event or out in the wider solving community. [corpus] The test is reachability, not ease. A fair puzzle can still be hard, and a hard puzzle is not unfair just because it is hard. Fairness is a property of the clues themselves: whether each one is sound and whether the set makes the answer reachable. That is a different question from the order the clues arrive in, which is [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd). A puzzle can be perfectly fair and still badly sequenced; it can be elegantly sequenced and still unfair. Fix fairness first.
+
+It helps to name the ways fairness breaks, because each one has a fix. The list below is drawn from puzzle-hunt practice, but every line has a cousin in the detective story and the tabletop mystery.
+
+| Failure | What it looks like | Why it is unfair |
+|---|---|---|
+| Underdetermination | The clues fit several answers and nothing settles which | The solver cannot confirm they are right [corpus] |
+| Obscure-without-recourse | A fact is needed but there is no signposted way to look it up | The path is closed, not just hidden [corpus] |
+| Arbitrary selection | "Take the third item" when nothing marks the third | The choice is unmotivated [corpus] |
+| Inconsistency | The same kind of clue behaves differently in the same puzzle, unsignalled | The solver cannot rely on what they learned [corpus] |
+
+Notice what is not on the list: misdirection. Leading a solver's attention to the wrong thing is fair so long as that wrong thing has an exit and the exit can be reached. [corpus] In a detective story this is the red herring, and the rule holds there too. A red herring is not a lie. It is something true that points the wrong way until the story accounts for it. [researched] Christie's technique was to keep the dramatic focus on the herring while the real clue sat in plain view. [corpus]
+
+### Every clue does work
+
+The second principle is that nothing on the page is decorative by accident. The flavour text, the order of a list, an odd capital letter, the title: anything a solver might take for a clue should either do real work or be deliberately neutral. [corpus] A clue that does nothing is worse than no clue, because it sends the solver down a path that goes nowhere.
+
+This forces a choice about conventions, and the choice has to hold. Let unusual capitals signal a hidden message in one puzzle and afterwards solvers will hunt for hidden messages every time they see unusual capitals. [corpus] Flavour text is the classic case. In some hunts it is pure scene-setting that never clues anything; in others every word of it counts. Both are legitimate. Mix the two inside a single event and you quietly destroy solver trust. The solver can no longer tell when to read closely. [corpus] The 2014 MIT Mystery Hunt settled this by ruling that flavour text was never required to solve a puzzle. The commitment was explicit and declared up front. Solvers knew where they stood. [corpus]
+
+::: {.callout-note}
+### The Specimen
+The MIT Mystery Hunt has spent decades building a shared cluing grammar that solvers carry between puzzles: answers arrive as all-caps phrases so that meta-puzzles can extract from them reliably, the structure of a grid is itself data (exactly 26 entries probably means the alphabet), and a puzzle's title often carries the only meta-clue it offers, seeded there as both theme and last-resort hint. [corpus] Evan Chen's puzzle-hunt guides document these conventions for incoming solvers, which makes them double as a designer's checklist of what solvers will already expect. [corpus]
+:::
+
+### The cluing gradient
+
+Clues do not all point with the same directness, and the craft lives in choosing how indirect to be. A direct clue ("the answer is a colour") barely qualifies as a puzzle; it is really a hint. An indirect clue makes the solver identify the category first: a set of items that share a hidden colour, with no label telling them to look for one. A doubled-indirect clue hides the category itself, so the solver must first work out *what kind of thing* they are looking for before they can look for it. [corpus]
+
+Most puzzle hunts live at the indirect and doubled-indirect level. The line that matters is between indirection and obscurity. Under indirection the solver has to work, yet every step reads clearly as a step once it is found. Under obscurity the path stays hidden even from full attention. [corpus] The discipline is to make each move hard to *make* but easy to *recognise* once made. How far you dare go toward obscurity is set by the attention you can reasonably expect from a solver. That is the other half of this craft: [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd).
+
+### Clue versus gate
+
+A clue enables progress. A gate blocks it until a condition is met. [corpus] "The initials spell a word" is a clue: the solver can find it from the materials in front of them. "Enter the previous answer to continue" is a gate: it needs something from outside this puzzle.
+
+Gates are fine. Puzzle hunts run on them, and so do escape rooms, where finding the key opens the lock that reveals the code. The rule is that a gate must look like a gate. A puzzle that seems solvable from its own materials but secretly needs another puzzle's answer is not clever. It is misleading. [corpus] In an escape room the same principle says each gate's condition should be legible. Solvers ought to know what they need before they can get it, so that they chase it on purpose instead of tripping over it by luck. [corpus] In interactive fiction and escape-room software the clue-versus-gate line is drawn in code rather than on paper, which is its own craft: [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd).
+
+### Redundancy: the Three Clue Rule
+
+The puzzle-hunt principles above assume one solver chewing on one puzzle. At a tabletop investigation the players roam freely and can simply walk past your evidence. There fairness needs a second mechanism: redundancy.
+
+The Alexandrian's Three Clue Rule states it plainly. For any conclusion you want the players to reach, include at least three clues pointing at it. [corpus] The reasoning is hard-won and slightly cynical. The players will probably miss the first clue and ignore the second; they will misread the third and only then make the leap you wanted all along. [corpus] One clue is a single point of failure. Three is a fair chance.
+
+The same shape covers a chokepoint, where players need not a deduction but a way through: for any chokepoint, prepare at least three ways past it. [corpus] The preparation cost is genuine, since a mystery that turns on one deduction needs three independent trails of evidence, not one, and you have to budget the time to lay all three. [corpus] So node-based scenario design treats a scenario as a web of information nodes rather than a flowchart (the scenario-wide map of which clues feed which conclusions is [Information Architecture](information-architecture.qmd)): every arrow on a flowchart is a chokepoint, and if the players do not follow it the game stalls. Redundant paths between nodes remove the single points of failure. [corpus]
+
+Interactive fiction inherits the same problem in digital form. Because the player chooses where to go, a load-bearing clue placed on one branch can be missed entirely. The fix is the same redundancy. You can also gate forward progress until the deciding evidence is in hand, so that no branch strands the player short of a solvable position. [corpus]
+
+A practical habit follows for the day a clue is not landing. Resist the urge to add another. Ask first whether the clue you have is doing its work and whether the solver can even tell it is a clue at all. A cleaner signal almost always beats a louder one. The fix for a stuck solver is rarely one more arrow on the flowchart. It is a sounder clue, or else a second trail to the same conclusion. [synthesis]
+
+### Fair play in the detective tradition
+
+The oldest written version of this contract is the detective story's "fair play" rule, and it is worth knowing because the puzzle forms quietly inherited it. The cardinal rule is that every clue needed to reach the solution is present in the text and findable by an attentive reader. None of it may depend on anything the reader could not have known. [corpus]
+
+The Golden Age writers codified this into near-legal form. Van Dine's "Twenty Rules for Writing Detective Stories" (1928) opens by declaring the detective story a game of fair play between author and reader. The reader is to have equal opportunity with the detective to solve it. [researched] Ronald Knox's "Decalogue" (1929) added its own clauses. The criminal had to be named early. The detective had to declare every clue he found. No unaccountable intuition was allowed to hand him the answer. [researched] The Detection Club, formed in 1930, bound its members by an oath written by Dorothy L. Sayers, that their detectives would solve crimes "using those wits which it may please you to bestow upon them" and not by "Divine Revelation, Feminine Intuition, Mumbo Jumbo, Jiggery-Pokery, Coincidence, or Act of God." [researched] Strip the period humour and that is exactly the puzzle-hunt's "no tricks": no answer may depend on a rule the solver was never given.
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is the clever rule only you know. You invent an elegant step and fall in love with it, then forget the solver was never told it exists. From the inside it reads as inevitable; from the outside it is a wall with no handholds. The tell is when your own playtest notes say "they should have realised" more than once. "Should have realised" is the designer's voice covering an unfair gap. The solver does not owe you the leap. If the path was not reachable from the materials, then the puzzle was not fair, however beautiful the intended solution. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Fairness is the floor the rest of this family stands on. Every other puzzle concern assumes it. It assumes the clues are sound and the answer is reachable. This is the one property you cannot trade away for cleverness. The moment a solver stops trusting the puzzle they stop reasoning, and a puzzle nobody reasons about has no craft left to admire. How the clues are ordered and themed and how the payoff lands: all of it is built on top of this contract. Get the contract wrong and none of the rest can save the puzzle; get it right and all of it becomes possible.
+
+**Next steps.** Once a puzzle is fair, the craft turns to the payoff that fair cluing has earned: [The Aha Moment](the-aha-moment.qmd). When fair clues still leave solvers stuck for reasons no extra clue will fix, the graceful exit is [Hint Systems & Recovery](hint-systems-and-recovery.qmd). To learn which fairness pitfalls a given kind of puzzle is most prone to, so you know what to check before you build, start from [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd). And in tabletop or live play, where redundant clue trails have to keep paying off as the world shifts around them, those trails are tracked against [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd).
+
+## Sources
+
+- Wilson, D. "Introduction to Writing Good Puzzle Hunt Puzzles." MIT. <http://web.mit.edu/dwilson/www/puzzles/puzzlewriting.html>
+- "Thinking About A Puzzle." MIT Mystery Hunt / Puzzle Club. <https://puzzles.mit.edu/resources/thinkingaboutpuzzles.html>
+- Chen, Evan. "Puzzlehunting" guides. <https://web.evanchen.cc/puzzlehunt.html>
+- Selinker, Mike and Snyder, Thomas. *Puzzlecraft*. Lone Shark Games, 2012. Chapters on clue construction.
+- Alexander, Justin. "The Three Clue Rule." The Alexandrian, 8 May 2008. <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
+- Van Dine, S. S. "Twenty Rules for Writing Detective Stories." *The American Magazine*, September 1928. <http://gaslight-lit.s3-website.ca-central-1.amazonaws.com/gaslight/vandine.htm>
+- Knox, Ronald. "The Detective Story Decalogue," introduction to *The Best English Detective Stories of 1928* (1929). Wikipedia summary: <https://en.wikipedia.org/wiki/Ronald_Knox>
+- "Detection Club" (Sayers's initiation oath and fair-play conventions). Wikipedia. <https://en.wikipedia.org/wiki/Detection_Club>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd)
+- [Ciphers & Codes](ciphers-and-codes.qmd)
+- [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
+- [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)
+- [Hint Systems & Recovery](hint-systems-and-recovery.qmd)
+- [Information Architecture](information-architecture.qmd)
+- [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
+- [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd)
+- [Self-Resolving Puzzles](self-resolving-puzzles.qmd)
+- [Teaching Through Play](teaching-through-play.qmd)
+- [The Aha Moment](the-aha-moment.qmd)
+- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
+- [The Puzzle Hunt & ARG Tradition](the-puzzle-hunt-and-arg-tradition.qmd)
+- [Treasure & Scavenger Hunts](treasure-and-scavenger-hunts.qmd)
+
+<!-- BACKLINKS:END -->

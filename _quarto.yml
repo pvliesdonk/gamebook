@@ -10,9 +10,24 @@ book:
     - part: "Primers"
       chapters:
         - content/primers/index.qmd
+        - content/primers/the-fairness-contract.qmd
     - part: "Articles"
       chapters:
         - content/articles/index.qmd
+        - content/articles/puzzles-clues-information/cluing-and-fairness.qmd
+        - content/articles/puzzles-clues-information/clue-sequencing-and-chains.qmd
+        - content/articles/puzzles-clues-information/information-architecture.qmd
+        - content/articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd
+        - content/articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd
+        - content/articles/puzzles-clues-information/ciphers-and-codes.qmd
+        - content/articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd
+        - content/articles/puzzles-clues-information/self-resolving-puzzles.qmd
+        - content/articles/puzzles-clues-information/the-aha-moment.qmd
+        - content/articles/puzzles-clues-information/teaching-through-play.qmd
+        - content/articles/puzzles-clues-information/hint-systems-and-recovery.qmd
+        - content/articles/puzzles-clues-information/puzzle-hunt-craft.qmd
+        - content/articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd
+        - content/articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd
     - part: "Keys"
       chapters:
         - content/keys/index.qmd

@@ -1,14 +1,120 @@
 ---
 title: "Information Architecture"
-aliases: []
+aliases: ["Information Design", "Knowledge Distribution", "The Dependency Graph", "Who-Knows-What-When"]
 family: "Puzzles, Clues & Information"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [collaborative-sensemaking, earned-discovery, distributed-criticality]
+  problems: [single-point-of-failure, dominant-player, premature-deduction, information-stall]
+  components: [clue-set, dependency-graph, character-briefing, epistemic-state]
+  genre: [mystery, detective]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #45. -->
+*Silhouette: The map of who knows what and when. The gaps in that map drive the play.*
+
+Every clue-driven game is built on top of a hidden structure. That structure is the decision about what each player holds at each moment and how they came by it, weighed against what stays out of reach and from whom. Most of the time it stays invisible, scattered across the character sheets and the briefing notes and even the order props come out of the box. Naming it lets you design it on purpose. Hand one player the deciding fact. Route the forensic evidence through a separate room. Withhold a confession until the third act. Each of these is an architectural choice, and together they decide whether the game holds together or quietly falls apart.
+
+Information architecture is the layer between the story you want to tell and the individual puzzles that tell it. It sits one level above cluing. [Cluing & Fairness](cluing-and-fairness.qmd) asks whether a single clue is sound and reachable; information architecture asks how all the clues fit together into a graph of dependencies and who sits at which node. It also asks what happens to the whole structure when a player is missing, distracted, or simply unwilling to share. A perfectly fair clue placed at a single point of failure can still strand the game. This article is about the structure that holds the clues, not the clues themselves.
+
+The same problem wears different clothes across the media. A detective novelist worries about giving the reader equal footing with the sleuth. A megagame controller worries about which room sees the alien evidence. A jubensha host worries about which envelope opens in which act. An interactive-fiction author worries about which branch a deciding memory lives on. Underneath, they are all drawing the same map: who knows what and when, and through whom.
+
+## The Mechanism (How it works)
+
+### From one reader to many players
+
+The oldest written version of this craft assumes a single mind on the receiving end: the reader of a detective story. The fair-play tradition of the 1920s codified what that reader is owed. The "Twenty Rules" (1928) of Van Dine open by declaring the detective story a game and insisting the reader have equal opportunity with the detective, with all clues plainly stated. [researched] Ronald Knox's "Decalogue" (1929) added the clue-simultaneity rule: the detective may light on no clue that is not instantly produced for the reader's inspection, so the two hold the same information at every moment. [researched] Van Dine's fifteenth rule sharpens it further: in retrospect, every clue should have been visible from the start. [researched]
+
+That contract is built for one reader. The moment a clue-driven game has more than one player, it changes shape. The information must now be fair to *each* player, not to the room treated as a single mind. [corpus] A fact that is technically present in the room is not present for the player who never walked into the room it sits in. This translation, from one reader to many players, is the architectural problem that the rest of this article takes up. It is the same contract that [Cluing & Fairness](cluing-and-fairness.qmd) keeps at the level of the individual clue.
+
+### The dependency graph
+
+The structure shows up most cleanly in the escape room, where every puzzle and clue forms a directed graph. Each node is an object or clue. Each arrow says "this must come before that." The 2020 *Analog Game Studies* paper "Computing Models of Escape Rooms" formalises this as the Object Graph Model, treating the room as a kind of machine whose state the players advance by moving through the graph. [researched] Once the graph is visible, two design decisions fall out of it. Both recur in every other medium.
+
+The first is serial against parallel flow. A linear room, where one puzzle gates the next in a single chain, creates a bottleneck. One stuck puzzle halts everyone while most of the team stands idle. Parallel threads, the separate chains that converge later, spread the cognitive load and let the group work several fronts at once. [researched] The practitioner rule is that for any team above three or four, parallel is the default, and serial moments are reserved for the beats where the designer genuinely wants the whole group together for a reveal. Strange Bird Immersive calls these deliberate serial moments intentional bottlenecks: a bottleneck you build on purpose, not one you left in by accident. [researched] This is the same shape as a tabletop chokepoint, where a single required deduction stalls the game if missed, and the fix is the same redundancy the [Three Clue Rule](cluing-and-fairness.qmd) prescribes. The order in which the graph is traversed, rather than its shape, belongs to [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd). The physical and digital shapes the graph can take are [Escape Room Topologies](../structure-pacing/escape-room-topologies.qmd).
+
+The second decision is whether to design red herrings into the graph at all. The escape-room consensus, citing designer Eric Harshbarger, is not to. Players generate more than enough misdirection by misreading what is already there, so designer-placed dead ends only waste time and erode trust. [researched] This inverts the detective story's red herring, which stays fair precisely because it is a true thing pointing the wrong way that later gets explained. The difference is the exit. A herring with a signposted exit teaches the solver something; a dead end with no exit just punishes attention.
+
+### The jigsaw: distributing the graph across people
+
+Move from the escape room, where the graph sits in objects, to the murder mystery, where it sits in people. The dominant pattern across published kits and freeform events (anywhere from eight players up to roughly thirty) is the jigsaw. Every essential clue belongs to at least one character. Each character holds something the case needs. [corpus] Freeform Games' published practice is the most explicit source. Each character sheet keys that player into the main plot. Secrets cross-reference, so that one player knows a fact and another holds the clue that points at it. When the cast grows beyond the core, clues are deliberately duplicated so that an overlooked player does not strand the mystery. [corpus] Above the core count, redundancy is the design.
+
+The named risk is the single point of failure: a clue held by exactly one player. If that player is absent, disengaged, or decides to hoard, the case cannot resolve. [corpus] The mitigations are well-established and worth stating plainly, because they recur in every medium that distributes information across people.
+
+| Mitigation | What it does | Where it shows up |
+|---|---|---|
+| Distributed criticality | Every player holds something essential, but no player holds the *only* copy of anything essential | Jigsaw mysteries, megagames [corpus] |
+| Multiple paths to a conclusion | Three independent lines of evidence implicate the same answer; any two suffice | The Three Clue Rule, node-based design [corpus] |
+| Forced articulation | Tribunals, votes, scheduled press conferences surface private knowledge through public action | Jubensha, megagames [corpus] |
+
+This is the same redundancy logic that the [Three Clue Rule](cluing-and-fairness.qmd) applies to a single conclusion, scaled up to a whole cast. The tabletop expression of the graph is Justin Alexander's node-based scenario design, where a scenario is built not as a plot but as a web of information nodes. Reaching one node yields information that points at others. The prep effort goes into making sure every conclusion can be reached by more than one route. [researched] A flowchart's every arrow is a chokepoint; a node web's redundant arrows remove the single points of failure.
+
+The practical habit this licenses is to draw the graph before writing a single clue. Put every conclusion you want reached on the page. Then draw at least two independent arrows into each one, from different sources and, in a multi-act game, from different acts. The moment a conclusion has exactly one arrow, you have found a single point of failure, and the medium tells you the fix. In a jigsaw, duplicate the clue across a second character or split its components across three so any two suffice. In a parallel escape room, make sure no convergence point depends on one thread alone. In interactive fiction, make the deciding fact reachable on more than one branch. That same diagram doubles as the reset checklist for a multi-act game, because the arrows tell you which envelope has to open in which act, and the cheapest way to ruin an evening is a single-pivot character whose absence severs the only path to the answer. [synthesis] The social half of this, the difference between hiding information and hiding roles, is [Information Asymmetry](../players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd).
+
+### The temporal axis: progressive revelation
+
+So far the graph has been static, and the question was simply who holds what. The second axis is time, meaning when each node opens. A multi-act mystery is a controlled release of information, and the schedule is the game. [corpus] Jubensha, the Chinese scripted-mystery format, makes this most visible. Players read only the first section of a private packet, then unlock later sections at the host's signal as fresh clue cards arrive across four to six acts. [corpus] The mechanism that makes the format run for hours rather than minutes is recontextualisation: each later packet does not stack new facts on old ones, it reframes what came before. A theory formed in act one is undermined in act two; a character who seemed honest is caught in act three having lied about one specific thing. The picture only resolves when several layers are read in combination. [corpus]
+
+::: {.callout-note}
+### The Specimen
+A jubensha session runs three to five hours across four to six acts precisely because its information architecture forces multiple passes over the same evidence at different epistemic states. [corpus] Two conventions do the structural work. First, scripts deliberately omit facts a character would logically know, so a player can learn something about their *own* character only from another player's testimony: this turns communication from a convenience into a mechanic. [corpus] Second, the physical clue stack is ordered so the spiciest clues sit at the bottom, with the safer contextual clues handed out first and the decisive ones reserved for later acts. [corpus] Escalation is built into the pile itself. The result is that no single packet section is solvable on its own, which is the structural reason a de facto dominant player struggles to emerge: the design makes each player's private knowledge necessary but insufficient. [corpus]
+:::
+
+This recontextualisation is exactly the structure of contradictory testimony, the Rashomon pattern, where the same event is told by several viewpoints that disagree and the player must assemble the truth from incompatible accounts. [corpus] In interactive fiction the natural state to track is not the world but the *epistemic state*. For each claim you record who asserts it and who contradicts it, alongside the evidence that bears on it and whether the player has yet hit the contradiction. [corpus] That epistemic state, rather than an inventory or a stat block, gates the questions a player may pose and the conclusions on offer. Her Story is the landmark case. It is a database of interview clips searched by keyword. The player's own search terms decide which fragments surface and in what order, so the investigation itself is the play. [researched] The branch-by-branch shape this state lives inside is [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd), and the machinery that enforces it in code is [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd).
+
+The release admits two anchoring methods, and most designs end up combining them. A time-anchored reveal opens envelope B at thirty minutes in. It runs reliably and keeps the pace, though it stays indifferent to whether the group is ready. A trigger-anchored reveal hands over the cipher key only once the team names the murder weapon. It matches the actual state of the group. The trade is more host workload and the risk of a trigger that never fires. [corpus] The working principle is to time-anchor the act structure so the game keeps moving, then trigger-anchor the within-act reveals, where deductive readiness matters more than the clock. [corpus] Subscription formats such as Hunt A Killer push time-anchoring to its limit, gating instalments by postal cadence; the documented failure is the absence of any in-session feedback loop, so the wait becomes frustration rather than anticipation. [researched]
+
+### Tiers: differentiating by role and venue
+
+The largest scale adds a third differentiator. Megagames in the *Watch the Skies* tradition, first run in London in 2013, distribute information not just per player and per moment but per *role* and per *venue*. [corpus] The head of state sees the full team picture; the chief scientist alone sees the physical evidence from alien encounters, generated in a separate science conference room; the foreign minister works the treaty intelligence in the UN room; the press rove between all of them and publish a curated newspaper to every nation. [corpus] No single person ever holds the whole picture. The press serve as the structural mediator that carries verified or surfaced secrets across the gaps. Information transits between tiers. The scientist produces evidence that the military then interprets, and only afterwards does the press broadcast it. [corpus]
+
+The skeleton underneath is a three-layer briefing. A public setting briefing goes to everyone, and a partly-public faction briefing goes to each faction. On top of those sits an individual briefing, handed out on game day to stop players over-preparing in advance. [corpus] This role-and-venue pattern is what lets a clue-driven structure scale to hundreds of players without collapsing into either chaos or a single dominant knower. The naming here is unsettled in the source community, so use it as shorthand rather than house vocabulary.
+
+
+### What the architecture costs
+
+The structure is not free, and its costs are predictable enough to plan around. A jigsaw mystery is cheap to run (the host just keeps things moving and makes no live rulings) but carries high single-point-of-failure risk if any unique clue sits with one player. A multi-act jubensha needs a host who times the acts and redistributes private cards in order, so its main hazard is reset: the material order matters between runs, and most run-time mishaps happen there. [corpus] An epistemic-tier megagame is expensive in control overhead and venue setup, but degrades gracefully, since a vacant role just severs one channel rather than stalling the whole game, and it replays better than the others because the negotiation layer survives knowing the facts. [corpus] The general rule across all of them: the static-fact layer of a clue game does not replay once solved, but the emergent layer (negotiation, deception, performance) does. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is the packet that knows too much. You write one character so richly that their briefing quietly contains most of the solution, and at the table a dominant player emerges who solves on behalf of everyone while the others slide into spectating. [corpus] It feels generous while you are writing it and reads as a flat evening at the table. The tell is in playtest. When one player consistently leads the deductions while the rest stop contributing, the imbalance lives in the information, not in the group. The fix is structural rather than motivational. Design each packet so its private knowledge is necessary but insufficient. The picture can only converge once every player contributes something no one else has. [corpus] Watch equally for the opposite, the herring you fell in love with. An object distributed to players that never connects to anything teaches them the wrong lesson about how your information space works. It trains them to ignore the next clue. [corpus]
+:::
+
+## Where this fits
+
+**The bigger picture.** Information architecture is the load-bearing layer of this whole family, the structure the individual puzzles hang from. [Cluing & Fairness](cluing-and-fairness.qmd) keeps each clue sound; information architecture decides where each clue sits in the graph and who reaches it, and whether the structure survives a player going missing. Here the family's two oldest principles meet. The detective story's fair-play contract scales from one reader to many players, while the redundancy of the Three Clue Rule scales from one conclusion to a whole cast. Get the graph wrong and no amount of clue polish saves the evening, because the solver never reaches the polished clue. Get it right and every other concern in the family, sequencing, theming, the payoff, becomes a question of craft rather than survival.
+
+**Next steps.** Once the graph is drawn, the order in which players traverse it is [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd), and the moment of insight the structure is built to deliver is [The Aha Moment](the-aha-moment.qmd). Where a puzzle hunt stacks answers-as-inputs on top of the graph, that meta layer is [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd); where a machine rather than a host adjudicates the players' progress through it, that is [Self-Resolving Puzzles](self-resolving-puzzles.qmd). And when a well-built graph still leaves a group stranded for reasons no extra arrow will fix, the graceful exit is [Hint Systems & Recovery](hint-systems-and-recovery.qmd).
+
+## Sources
+
+- Knox, Ronald. "A Detective Story Decalogue," preface to *The Best English Detective Stories of 1928* (Faber and Faber / Horace Liveright, 1929). The clue-simultaneity rule and the early-suspect rule. Wikipedia summary: <https://en.wikipedia.org/wiki/Ronald_Knox>
+- Van Dine (pseudonym of Willard Huntington Wright). "Twenty Rules for Writing Detective Stories." *The American Magazine*, September 1928. The reader-equal-opportunity contract and the truth-apparent-in-retrospect rule. <http://gaslight-lit.s3-website.ca-central-1.amazonaws.com/gaslight/vandine.htm>
+- Doelle, Mark, and Mukerji, Souvik. "Computing Models of Escape Rooms." *Analog Game Studies*, December 2020. The Object Graph Model of escape-room dependencies. <https://analoggamestudies.org/2020/12/computing-models-of-escape-rooms/>
+- Strange Bird Immersive. "Bottlenecks: Designing for Focus Mid-Experience" (Immersology). Intentional bottlenecks as deliberate serial moments. <https://strangebirdimmersive.com/>
+- Room Escape Artist. "Red Herrings in Escape Rooms" (2019, citing Eric Harshbarger). The case against designed dead ends. <https://roomescapeartist.com/>
+- Freeform Games. "Writing a Murder" and "How to Write an Extra Character." Distributed-clue practice and the redundancy rule when scaling above the core cast. <https://www.freeformgames.com/>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. The scenario as a web of information nodes. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
+- Alexander, Justin. "The Three Clue Rule." The Alexandrian, 8 May 2008. Redundant clues per conclusion; the chokepoint. <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule>
+- Hon, Adrian. "Here's What Makes Jubensha Different." mssv.net, 26 March 2025. Collaborative sensemaking; packet structure; the detective-and-suspect dual role. <https://mssv.net/2025/03/26/heres-what-makes-jubensha-different/>
+- Hong et al. "The Collaborative Sensemaking Play of Jubensha Games." *Games: Research and Practice*, ACM, 2025. DOI 10.1145/3721121. The multi-act release as the format's defining cognitive structure.
+- Twist n Turn Studios. "The Jubensha Structure Explained." The "spiciest clues at the bottom of the pile" ordering convention. <https://www.twistnturnstudios.ca/blog/jubensha-structure-and-free-jubensha>
+- Wallman, Jim. *Watch the Skies* (first run London, 2013). Role-and-venue exclusive-information mapping; press as mediator. <https://watchtheskies.net/>
+- Annison, Becky. "How to Write a Megagame Part 5: Briefings." BeckyBecky Blogs. The three-layer briefing structure. <https://beckybeckyblogs.wordpress.com/>
+- Barlow, Sam. *Her Story* (2015). Searchable contradicting interview clips; investigation as play. Cited in Wayne C. Booth, *The Rhetoric of Fiction* (1961) for the originating "unreliable narrator." <https://en.wikipedia.org/wiki/Her_Story_(video_game)>
+- Kurosawa, Akira. *Rashomon* (1950). The original multi-perspective contradiction structure.
+- Room Escape Artist. Critique of Hunt A Killer's first season (no in-session feedback loop). <https://roomescapeartist.com/>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd)
+- [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
+- [Cluing & Fairness](cluing-and-fairness.qmd)
+- [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)
+- [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
+- [Self-Resolving Puzzles](self-resolving-puzzles.qmd)
+- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
+
+<!-- BACKLINKS:END -->

@@ -17,11 +17,11 @@ open — do not build on them. If a `draft` item blocks your work, stop and ask.
 | 8 | Graph view for the wiki | proposed | | phase-six nice to have |
 | 9 | Consistency: LLM style guide primary, thin Vale backstop | settled | 2026-06-06 | Vale + ai-tells + pre-commit configured. |
 | 10 | Repo: independent, new; corpus = point-in-time input | settled | — | |
-| 11 | Entry template / anatomy (Head, Body, Judgement call-outs) | settled | 2026-06-06 | |
+| 11 | Article template / anatomy (Head, Body, Judgement call-outs) | settled | 2026-06-06 | Production noun "article"; "entry" is the rendered display label (Phase 4). Template provisional pending Phase-4 pilot. |
 | 12 | Frontmatter schema and routing facets (keys) | settled | 2026-06-06 | Added `genre` facet 2026-06-09 (Phase 2): genre is a cross-cutting lens like media, not a family. |
 | 13 | Canonical term registry | settled (initial) | 2026-06-06 | Seeded; living document mandate in GEMINI.md |
-| 14 | Voice: neutral body, Mentor call-outs, Practitioner head | settled | 2026-06-06 | Defined in style-guide.md. Uses en-NL/Metric conventions. |
-| 15 | Provenance markers (corpus / researched / synthesis) | settled | 2026-06-06 | |
+| 14 | Voice: neutral body, Mentor call-outs, Practitioner head | settled | 2026-06-06 | Defined in style-guide.md. Uses en-NL/Metric conventions. Phase-4 D1: added "Readability (plain by default)" directive. |
+| 15 | Provenance markers (corpus / researched / synthesis) | settled | 2026-06-06 | Phase-4 D1: provenance ≠ citation. Vault is never cited; factual claims resolve to a real external source in `## Sources`, harvested from the corpus note's Research Basis or researched. See style-guide.md. |
 | 16 | Primer set and count | settled | 2026-06-09 | 8 primers (Phase 2 outline): Structure & Branching Topologies; Pacing & Tension Curves; The Fairness Contract; Information Architecture; Diegesis & the Magic Circle; The Social Contract & Safety; Resolution & Randomness; Playtesting, Quality & Verification. |
 | 17 | PDF scope: curated over exhaustive | settled | — | curation by frontmatter flag |
 | 18 | Illustrations / diagrams | proposed | | parked, possibly phase two |

@@ -1,14 +1,100 @@
 ---
 title: "Search, Observation & Lateral Thinking"
-aliases: []
+aliases: ["Noticing Puzzles", "Perceptual Puzzles", "World-Affordance Puzzles", "Spot-the-Difference"]
 family: "Puzzles, Clues & Information"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [earned-discovery, recognition-reward, momentum]
+  problems: [pixel-hunt, sub-threshold-cue, designers-mind]
+  components: [set-dressing, hidden-object, visible-anomaly, world-affordance]
+  genre: [mystery, adventure]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #45. -->
+*Silhouette: The puzzle whose whole difficulty is noticing the thing that was in front of you the entire time.*
+
+Most puzzles hand you a problem and ask for the answer. This family hands you a room, or a page, or an image, and asks a quieter question first: did you see it? The thing you need is already present. It just does not stand out. A key under the rug. A wallpaper with one bird too many. A fireplace whose flue has never once been opened. Nothing is encoded and nothing is locked. The barrier is attention.
+
+That makes these puzzles feel different from the inside. There is no grinding and no working-out, only a flat surface that suddenly resolves into signal, the way a word swims out of a magic-eye picture. The reward is recognition itself, not the labour after it. And because the reward is so cheap to deliver and so satisfying to receive, this faculty does some of the most useful work in the hour. An opened room, a team with its hands already in motion and all of them able to look at once: that is what noticing buys you early.
+
+It is also the faculty most prone to a specific, ugly failure. The line between a fair noticing puzzle and an unfair one runs thin. And the designer, who already knows where the thing is, makes the worst-placed person alive to judge it. This article is about that faculty and that line: how perceiving-the-unobvious works as a designed skill, and how to keep it on the right side of fair.
+
+## The Mechanism (How it works)
+
+### Three motions, one faculty
+
+The faculty this article owns is perception: noticing what is present but easy to overlook. [corpus] It shows up in three related motions, and it helps to keep them apart because each fails differently.
+
+**Search** is finding a thing that is hidden but not disguised. A number on the underside of a vase. A message that only shows under ultraviolet light. A key taped behind a drawer. [corpus] The thing is genuinely out of sight, so the work is physical coverage, looking everywhere. **Observation** is the opposite: the thing is in plain sight and was never hidden at all, but you have to notice a pattern or relationship in it. One painting differs from its neighbours. The first letter of each book spells a word. The constellations on the ceiling match the paintings on the wall. [corpus] **Lateral thinking** is the leap past an assumed constraint. The answer is to shake the frame. Or to breathe on the cold mirror. Or to tilt the lampshade: an action the world quietly affords but the solver did not think to try. [corpus]
+
+The three share a signature that sets them apart from the rest of [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd): they are almost all recognition and almost no calculation. Errol Elumir's working split between the *aha* (the flash of recognition) and the *process* (the manual work once you know the answer) sorts them cleanly. [researched] A search puzzle is nearly all process and very little aha. Once you decide to look under the rug, the looking itself is trivial, so its value lies in momentum rather than insight. An observation puzzle is the exact inverse, almost all aha and almost no process. Here the recognition supplies the reward, and whatever decode follows amounts to bookkeeping. [researched] Lateral puzzles concentrate the whole experience into the single instant the constraint dissolves. Knowing which motion you are building tells you where its payoff lives, and so what you must protect.
+
+### What each motion is for
+
+Because these puzzles carry so little process, they earn their place by the *job* they do in the hour rather than the thinking they demand, which is the experiential reading laid out in [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd). Search is the opener. It dominates the first ninety seconds of almost every escape room and produces the cheap early "we found something" hit that gets a team talking before any real thinking has started. [corpus] That early win matters out of all proportion to its difficulty. It is a task rather than a test, and its purpose is to break the ice and put hands in motion. [researched]
+
+Observation does a different job. Because the cue sits in the visible set, an observation puzzle reuses set dressing the designer already paid for. One painting now does double duty, working as atmosphere and as puzzle. [corpus] It also lets several solvers work at once, each scanning a different wall, which makes it a natural antidote to the single-threaded bottleneck where one person solves while the rest watch. [corpus] Lateral thinking is the rarest and the most volatile. Done well it produces the single most-quoted moment from a room, the action nobody expected that the world turned out to support. [corpus] Done badly it is the failure this whole article exists to warn against, so it is the one to handle with the most care.
+
+So the aha-versus-process split is not just a way to describe these puzzles but a placement tool you reach for before you set them down. Sort your perceptual puzzles by Elumir's split first. A search puzzle is process: it belongs early, where its job is momentum. An observation puzzle is aha, and can carry a real beat. Putting a pure search where you needed an insight, or a delicate observation where you needed a quick win, wastes both. [synthesis]
+
+### The line between fair noticing and a pixel-hunt
+
+Here is the crux. A noticing puzzle is fair when a systematically attentive solver, looking where the puzzle invites them to look, will perceive the cue. [corpus] It is unfair, a *pixel-hunt*, when the cue sits below the threshold a first-time solver can actually perceive, so that finding it is a matter of luck or exhaustive brute force rather than attention rewarded. The general fairness contract that all puzzles owe their solvers is [Cluing & Fairness](cluing-and-fairness.qmd); this is the form that contract takes for the perceptual faculty, and it has its own characteristic way of breaking.
+
+The break has a single root cause, and it is structural rather than careless. The designer cannot un-see the difference. Once you know one painting is subtly altered, you cannot recover the eyes of someone who does not, and so you systematically overestimate how visible your own cue is. [corpus] First-time solvers never see what you can no longer not-see. This is the *designer's mind* failure, and it is the reason perception puzzles cannot be validated from the inside: the only instrument that measures cue salience is a solver who has never seen the puzzle, and you have spent that instrument on yourself. The fix is not cleverness but fresh eyes, the same test-solve discipline that [Cluing & Fairness](cluing-and-fairness.qmd) demands, except that here it is the *only* available measurement, because nothing about the cue's salience can be reasoned out from the designer's chair.
+
+So the test-solve is not a nice-to-have here, it is the one instrument that measures the thing you cannot. Watch a genuinely fresh solver, and watch silently. If they sweep the right wall and still do not see it, the cue is too quiet. The fix is to make the cue easier to spot, not to add a hint that points at it. A hint that has to point at a cue is a confession that the cue does not work. [synthesis]
+
+Two corollaries follow. First, search difficulty has to come from where to look, never from how hard the looking is. A clue hidden under a small object indistinguishable from set dressing is not a harder puzzle, only a more tedious one. The consensus from escape-room practice is blunt about not making the searching itself hard. [corpus] Difficulty that lives in tedium is not difficulty at all. Second, the cue has to win against the noise. In an environment where most things carry weight, solvers treat everything as a possible signal, so decorative elements become suspects. The designer has to ensure that ambient texture, the extra books and colourful tiles and objects of varying height that fill a room, cannot be "solved" as a puzzle even though none of it was ever meant to be one. [researched] This is the perceptual face of the principle that every clue should do real work or be deliberately neutral, which the [Cluing & Fairness](cluing-and-fairness.qmd) article treats in full. When intentionality holds at every step, solvers come to trust that signal truly dominates noise, and that trust is what lets them keep looking instead of flailing. [researched]
+
+### Lateral thinking and the honest affordance
+
+Lateral puzzles deserve their own treatment because their failure mode is the sharpest. The leap is fair only when the world genuinely affords the action and the affordance is reasonably visible. A fireplace that plainly has a flue worth opening invites the reach. A heat-activated display that expects players to rub their hands across it does not, because rubbing displays is not a thing people do. [researched] The test, drawn straight from escape-room rule-making, is that the correlation between action and effect should make sense in terms of real life or common sense. [researched] A solve that respects this feels satisfying. One that breaks it has quietly turned into a demand that the solver guess the designer's private intuition, the same designer's-mind failure wearing a more theatrical costume.
+
+Two further constraints keep lateral puzzles honest. The action cannot depend on outside knowledge the solver has no way to possess. Anything people would need to look up does not belong in the puzzle. [researched] A second constraint asks for reversibility, so that no state can be destroyed by a wrong guess. A lateral puzzle that the wrong guess breaks for good will punish the very experimentation it was built to reward. [researched] The deeper point is that "lateral" is not a licence for arbitrariness. The leap should feel inevitable in hindsight, hard to *make* yet obvious once *made*. That is the indirection-not-obscurity line that [Cluing & Fairness](cluing-and-fairness.qmd) draws for clues in general. A lateral puzzle that fails that line does not read as clever; it reads as a wall with no handholds.
+
+### Noticing as the opening move, not the whole puzzle
+
+In its richest use, perception is not a standalone puzzle at all but the first step of a longer one. The natural shape of a hunt puzzle begins with observation (what is the input data?), then runs through logic or knowledge (what does it mean?), and ends in a verbal extraction (index into a word for the answer), and that ordering is deliberate because it makes the final step feel like discovery rather than calculation. [corpus] Read this way, observation is the move that *identifies the input*: before you can decode a thing you have to notice that the thing is the thing. The article that takes the downstream extraction step in full is [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd); the recognition that opens the chain is what this faculty supplies.
+
+That opening move reaches further than the visible surface. The standing MIT Mystery Hunt advice is that a puzzle always arrives on a *medium*, and the solver should start by concentrating on the medium itself. A web page has a source file. An image has metadata, along with several ways of representing its pixels. A sound has a spectrogram as well as a waveform. [researched] The hidden thing is often not in the picture but in the bytes that carry it. This is observation aimed at the substrate rather than the scene, and it is what makes steganography (a message concealed in an image's colour channels, an audio clip's spectrogram, a document's metadata) a perception puzzle and not a cipher: the work is noticing that there is something there to read, and the reading that follows is process. The same fairness line applies in this digital register, only sharper, because the MIT principle insists the hidden element stay findable by a systematic solver. A pixel-level encoding that surfaces only at one exact zoom level is no longer a designed puzzle but an arbitrary threshold test. [corpus]
+
+::: {.callout-note}
+### The Specimen
+*The Witness* (Thekla, 2016) is the purest demonstration of observation-as-faculty in a single-player game. For its first hours it teaches the solver to trace line puzzles on wall-mounted panels, and then it reveals, without a word, that the panels were training wheels: the island itself is full of puzzles, circle-and-line shapes hiding in the architecture and landscape that resolve only when the player stands at exactly the right spot so the pieces align into one unbroken path from their point of view. [researched] From that moment the solver views the whole world as a potential puzzle, perceiving outside the frame the interface drew for them. It is the noticing faculty made into a game's central revelation: the puzzle was never on the panel, it was in learning to look. [synthesis]
+:::
+
+::: {.callout-warning}
+### The Hazard
+The signature failure of this whole family is the sub-threshold cue: the difference you can see and the first-timer cannot. It arrives in two costumes. As a *pixel-hunt*, it is the search whose object is hidden so well, or rendered so nearly identical to set dressing, that finding it is luck rather than attention. The room then stalls, and the team stalls with it, not for any failure of thought but because they failed to win a lottery. As the *designer's mind*, it is the lateral leap that was obvious only to you: the action you find natural and the solver finds unguessable, defended in your playtest notes by the phrase "they should have noticed." That phrase is the tell, the same one [Cluing & Fairness](cluing-and-fairness.qmd) warns about in its general form. "They should have noticed" is your voice covering an unfair gap. The solver owes you no leap you did not make perceptible. If an attentive person looking where you invited them could not find the cue, then the puzzle failed the fairness test no matter how elegant the thing they were meant to see. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** This is the article that owns perception in the puzzle family: the faculty that asks the solver to notice rather than to compute, and the one [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd) routes here for depth. It sits close to [Cluing & Fairness](cluing-and-fairness.qmd) because its central concern is a special case of fairness: the line between fair noticing and an unfair pixel-hunt. That line is unusual in being unmeasurable from the designer's chair. Where most fairness questions can be reasoned out, perceptual fairness can only be observed in a fresh solver. This makes the test-solve not a check on the work but a constitutive part of it. The faculty also runs quietly underneath much of the rest of the family, because noticing is frequently the first move of a longer puzzle: before a clue can be sequenced, decoded, or extracted, the solver has to perceive that it is a clue at all.
+
+**Next steps.** Once a solver has noticed the input, the work usually turns to what that input *means*, which is the indexing and extraction handled by [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd). The reward you are engineering toward, the recognition that makes a noticing puzzle worth building, is [The Aha Moment](the-aha-moment.qmd), and observation puzzles are its most direct delivery vehicle because in them the aha and the answer are the same instant. When the cue turns out to be too quiet and a fresh solver stalls, the graceful exit is [Hint Systems & Recovery](hint-systems-and-recovery.qmd), though the better fix is almost always to raise the cue rather than to point at it. And in a physical room, the set dressing that an observation puzzle reuses is itself a design surface, where what reads as atmosphere and what reads as signal are decided together with [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd).
+
+## Sources
+
+- Elumir, Errol. "13 Rules for Escape Room Puzzle Design." The Codex. <https://thecodex.ca/13-rules-for-escape-room-puzzle-design/>
+- Elumir, Errol. "How Escape Rooms Do Difficulty Wrong: The Player Loop." The Codex. <https://thecodex.ca/how-escape-rooms-do-difficulty-wrong-the-player-loop/>
+- Room Escape Artist. "What Escape Rooms Can Learn from Puzzle Hunts," 28 August 2025. <https://roomescapeartist.com/2025/08/28/what-escape-rooms-can-learn-from-puzzle-hunts/>
+- Spira, David. "Red Herrings in Escape Rooms." Room Escape Artist, 10 February 2019. <https://roomescapeartist.com/2019/02/10/red-herrings/>
+- "Thinking About A Puzzle." MIT Mystery Hunt / Puzzle Club. <https://puzzles.mit.edu/resources/thinkingaboutpuzzles.html>
+- Selinker, Mike and Snyder, Thomas. *Puzzlecraft: The Ultimate Guide to the Construction of Every Kind of Puzzle*. Lone Shark Games, 2012. Taxonomy of puzzle types with constructor guidance.
+- Lock Paper Scissors. "63 DIY Escape Room Puzzle Ideas." <https://lockpaperscissors.co/escape-room-puzzle-ideas>
+- "Environmental Puzzles." The Witness Wiki. <https://thewitness.fandom.com/wiki/Environmental_Puzzles>
+- "The Witness (2016 video game)." Wikipedia. <https://en.wikipedia.org/wiki/The_Witness_(2016_video_game)>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd)
+- [Cluing & Fairness](cluing-and-fairness.qmd)
+- [The Aha Moment](the-aha-moment.qmd)
+- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
+- [The Puzzle Hunt & ARG Tradition](the-puzzle-hunt-and-arg-tradition.qmd)
+
+<!-- BACKLINKS:END -->

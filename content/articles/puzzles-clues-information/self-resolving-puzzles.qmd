@@ -1,14 +1,115 @@
 ---
 title: "Self-Resolving Puzzles"
-aliases: []
+aliases: ["Mechanism as Judge", "Self-Validating Puzzles", "Machine-Checked Solutions", "Auto-Adjudicating Puzzles"]
 family: "Puzzles, Clues & Information"
-media: []
+media: [live-game, interactive-fiction, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [felt-feedback, earned-confidence, operator-relief]
+  problems: [false-positive-solve, gm-load, reset-failure, disputed-call]
+  components: [lock, sensor, controller, answer-checker, relay-output]
+  genre: [escape-room, mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #45. -->
+*Silhouette: The puzzle that grades itself, so the lock either opens or it does not.*
+
+A self-resolving puzzle is one where the mechanism is the judge. A combination clicks open, a panel lights, an electromagnet drops a drawer, an audio cue plays. Nobody walks in to confirm the answer. The apparatus that holds the reward is the same apparatus that checks the solution, and it checks by responding to a specific input and nothing else.
+
+This is the most physical promise a puzzle can make. The visceral click of a padlock and the thunk of a maglock releasing are what separate a live puzzle game from a quiz night: the solver does not wait for a verdict, they receive one in the same instant they act. But a judge that cannot be argued with is also a judge that cannot use judgement. It confirms that the input matched; it cannot confirm that the solver understood. That gap is where the craft of this article lives.
+
+The choice to let the mechanism adjudicate is one of the most consequential in a live game. It sets how much the operator has to do and shapes the solver's felt rhythm of feedback. It also decides whether two groups in the same room get the same outcome on the same input.
+
+## The Mechanism (How it works)
+
+### The mechanism as judge
+
+The defining move is that verification and reward collapse into one event. A clue tells the solver what to do; this article is about what happens at the moment they do it, when the apparatus itself decides whether they were right. That makes self-resolution a special case of the line between a clue and a gate, drawn not on paper but in hardware: the lock is a gate whose condition is "the correct code," and the gate enforces itself. The general version of that line, and why a gate must look like a gate, is [Cluing & Fairness](cluing-and-fairness.qmd).
+
+The mechanism does two jobs at once: it verifies the input and it produces the diegetic effect of solving. The cleanest designs fuse these into a single moment, so the lock opens and in opening exposes its contents. The worst ones split them, so the mechanism beeps approval and then a person walks in to physically open the cupboard. A beep alone is not the click. If verification and reward are separated, the operator is back in the loop and the puzzle is only self-resolving on paper. [corpus]
+
+Errol Elumir's *13 Rules for Escape Room Puzzle Design* names the ideal directly. Rule 10 asks that puzzles give feedback. Rule 4 asks for a self-validating answer, where the solver knows they are right before entering it. The mechanism then confirms what they already know rather than teaching it to them. [researched] The mechanism is the feedback, and good feedback confirms rather than reveals.
+
+### Why a designer reaches for it
+
+Three forces pull a designer toward self-resolution, and naming them tells you when the pull is real.
+
+The first is operator load. A puzzle that adjudicates itself releases the operator to do everything else: watching the room and running hints while perhaps overseeing a second room. Commercial control systems market multi-room supervision from one operator as a built-in capability. That is only feasible because no individual puzzle needs a person to verify correctness. [researched] When operator availability is the scarce resource, every self-checking puzzle buys it back.
+
+The second is feedback rhythm. A door that physically opens the instant the code is right is a reward the solver feels in the body, delivered with zero latency and inside the fiction. No GM announcement can match the immediacy, which is exactly why some moments should not be self-resolving (more on that below).
+
+The third is auditability, and it is the one designers forget until it bites. A mechanism that fires on a specific input produces the same outcome for every group, every session, with no variance from operator interpretation, fatigue, or leniency. This is invisible until a group disputes a call, and then it is decisive. The lock does not have a bad day. [corpus]
+
+### The shape of the apparatus
+
+The judge takes many physical forms, but they sort into two layers. One thing senses the input; another produces the effect. On the input side the options span a wide range. At one end sit purely mechanical parts such as a combination padlock or a directional lock. In the middle comes object-placement sensing through RFID readers that detect the right item in the right place, plus weight pads and magnetic catches. At the other end are programmable controllers, an ESP32 or Arduino with a keypad, or a purpose-built unit. On the output side a relay fires a maglock, a solenoid, a UV reveal, a sound or video cue, or a magic-mirror panel. [corpus] The mechanical lock types, sourcing, and the directional-lock sensitivity that affects reliability are the province of [Lock Taxonomy](../space-props-materiality/lock-taxonomy.qmd); the relays, maglocks, solenoids and controller boards are [Digital Props](../space-props-materiality/digital-props.qmd).
+
+The output side carries a wiring rule that is also a failure-mode choice. A solenoid wants a short pulse at the moment of unlock, on the order of 100 ms; hold it powered and the coil overheats and burns out within minutes. A maglock is the opposite, continuously powered and released by cutting power, which makes it fail-safe by default: a power cut opens it. So the choice between them is a choice of how the puzzle breaks. A stuck solenoid traps the reward; a maglock releases everything the moment the room loses power. [corpus]
+
+### When the mechanism should not be the judge
+
+Self-resolution is right when the puzzle has one unambiguous correct input, when operator bandwidth is scarce, when the designer wants auditability, when the reward needs to be instant and diegetic, and when the mechanism can be reset cleanly between sessions. [corpus] Reverse those and a human judge is the better tool.
+
+A person should adjudicate when the solution is subjective or performative. The solver acts out a scene or recites a phrase with feeling; perhaps they read meaning into an ambiguous image. No sensor can grade that. A person should adjudicate when the human voice carries the reveal, in a theatrical setpiece where the announcement is the payoff. The murder-mystery dinner is the clean case: the host naming the killer at the end is not something an electromagnet can do. [corpus] And a person should adjudicate in low-volume contexts where the overhead is trivial and hand-adjudication preserves the dramatic pacing. The same instinct that makes self-resolution feel modern can flatten a moment that wanted a human in it.
+
+### The false-positive: a wrong answer the mechanism accepts
+
+Here is the failure mode that defines the whole topic. The mechanism only checks whether the input matches the design value. It cannot check whether the solver solved the puzzle. So a wrong path that happens to produce the right input passes, and the judge reports success it did not earn.
+
+Room Escape Artist's writing on the "wrong MacGyver solution" documents the canonical version. A group lands on the correct end state by an unplanned route. The mechanism, with eyes only on that end state, waves them through. [researched] The textbook illustration is a word lock. Give it the letters E, F, H, L and S and the intended answer is the anagram SHELF, but the same five tiles also spell FLESH, and the lock opens on both. A group that notices the puzzle is literally sitting on a shelf can open it by spatial association without ever solving the anagram. The lock cannot tell the difference, and an operator watching on a camera cannot tell a clean solve from a lucky one. [corpus]
+
+The mitigations all live upstream, at the design layer, never by making the mechanism stricter at the moment of the check. The first is the one-answer rule (Elumir's Rule 3). Eliminate the alternative inputs the same mechanism would accept: if E, F, H, L, S spells SHELF or FLESH, change the puzzle. [researched] The second is lock mapping. Give each lock available at a given moment a distinct physical structure, a 3-digit beside a 4-digit beside a word lock beside a directional. Then a solver cannot accidentally open the wrong lock with a right answer, and a wrong code is far less likely to match by coincidence. Room Escape Artist's case for lock mapping is that it also protects momentum. A solver who derives a 3-digit number intuitively knows the one place to try it. Variety in lock type is itself information architecture. [researched] The third is cardinality. A 4-digit code has ten thousand possibilities, whereas a three-step directional sequence has only sixty-four, so a longer and more specific input drives down the accidental-match rate. And the fourth is contextual uniqueness. Design so the solver grasps the reason an answer is right, not merely the bare fact of it; that is Rule 4 turned into a defence. The mapping of which clues feed which conclusions, so that you can see where two paths might converge on one input, is [Information Architecture](information-architecture.qmd).
+
+No industry-standard protocol exists for what to do when a mechanism fires on an unintended path. Most venues either accept the verdict or have the operator intervene case by case. [corpus] The cheap fix is upstream, before the room opens.
+
+So before you wire a single relay, run the false-positive test in your head. List every input the mechanism physically accepts rather than only the one you had in mind. Where a second path reaches the same end state, the lock cannot tell the two apart; your camera fares no better. The fix is upstream, through the one-answer rule or lock mapping, and never through a cleverer check at the moment of the solve, since the mechanism has no judgement to add. [synthesis]
+
+### Reset is part of the mechanism
+
+A puzzle that resolves perfectly during play but cannot be reset inside the turnaround window is not self-resolving in any operational sense. It is GM-resolving with a delay. Elumir's Rule 9, that puzzles should have no destroyable states, is the design-level statement; the wiring choice that delivers it is the split between two kinds of sensor. [researched]
+
+Monostable sensors (momentary buttons, an RFID tag on a hangable item, anything that springs back when released) return to their default state on their own and so need no manual reset. Bistable sensors (toggle switches, latching relays, anything that *stays* where it was put) hold their state and must be physically returned. Bistable parts can still appear in a self-resolving puzzle. Each one becomes an explicit line on the reset checklist, and a missed line leaves the next group walking into a half-solved room. [corpus] The operational reset pass that catches this is tracked against the room's state, which on the digital side is [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd).
+
+The strongest version of reset discipline is a mechanism that refuses to call itself ready. The FrightProps EscapeKeeper, a purpose-built escape-room controller with eight inputs and three solid-state outputs, has a pre-game validation feature. When the operator arms the room, the controller confirms that every input sits in its expected reset state. Any input already in a solved position draws a beep and a blink. [researched] That is Rule 9 made operational. The mechanism that judges the solve also judges its own readiness to judge, so it will not start a game it cannot fairly run.
+
+Count your reset cost in the same breath as your false-positive check: a puzzle is only self-resolving if it both resolves and returns to zero inside your turnaround window. Prefer monostable sensors that spring back on their own, reserve bistable parts for places where a checklist line will reliably catch them, and let an arming check refuse the room rather than trusting yourself to remember. The puzzle that grades itself should also grade its own readiness. [synthesis]
+
+::: {.callout-note}
+### The Specimen
+*Baba Is You* (Arvi Teikari, 2019) is the purest case of the mechanism judging itself, because in it the win condition is a movable object. The rules of each level are written in word tiles on the grid: the sentence `FLAG IS WIN` means touching a flag clears the level, and `BABA IS YOU` means you control whatever is labelled Baba. Both sentences are made of tiles you can push. The engine runs a continuous parse over the grid and revalidates every possible sentence whenever a tile moves, so the game state itself adjudicates whether you have won, and the solver wins by rewriting the very rule that defines winning. [researched] There is no separate verdict: arranging the tiles into a winning configuration counts as the solve being checked. It is the false-positive problem inverted into a virtue, because here you satisfy the judge precisely by understanding the rule you are editing.
+:::
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is to trust the verdict. A self-resolving mechanism gives such clean, confident feedback that designers start treating "the lock opened" as proof the puzzle worked, when all it proves is that some input matched. The tell is a playtest where a group sails through a puzzle in seconds and everyone laughs, and nobody writes down *how* they got the code. They MacGyvered it. A wrong path produced the right input, and a mechanism that has no judgement of its own rewarded it anyway. A human adjudicator would have caught the empty solve by watching the reasoning; the machine cannot, because watching reasoning is exactly the thing you traded away for auditability. Self-resolution does not remove the need to verify understanding. It moves that work upstream into the puzzle's design, and a beautiful mechanism wired to an ambiguous puzzle merely automates the unfairness. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Self-resolution is the hardware end of a line this whole family draws: the line between a clue that enables progress and a gate that holds progress back until its condition is met. A self-resolving mechanism is a gate that enforces its own condition, so it inherits everything [Cluing & Fairness](cluing-and-fairness.qmd) demands of gates and adds a constraint of its own, that the condition be machine-checkable without ambiguity. It is also where puzzle design meets production. The choice rests on [Lock Taxonomy](../space-props-materiality/lock-taxonomy.qmd) and [Digital Props](../space-props-materiality/digital-props.qmd) for the apparatus, and it shapes operator load, reset cost, and the felt rhythm of feedback all at once. Get the one-answer property and the reset story right and the mechanism quietly runs the room; get either wrong and it reliably automates a flaw.
+
+**Next steps.** The success case is only half of it. A self-resolving mechanism handles the group that solves; the group that gets stuck needs the complementary path, which is [Hint Systems & Recovery](hint-systems-and-recovery.qmd). The recovery problem is sharpest exactly where self-resolution is unforgiving, when a near-miss is rejected with no partial credit and the solver cannot tell how close they were. The same machine-checking generalises beyond the physical lock: server-side answer validation in interactive fiction and the automated answer checkers of puzzle hunts (with their normalisation and fuzzy-matching) are the digital expression of the same judge, and the state machine behind them is [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd). To make sure the input the mechanism checks really has one source, trace the convergence of clue paths in [Information Architecture](information-architecture.qmd).
+
+## Sources
+
+- Elumir, Errol. "13 Rules for Escape Room Puzzle Design." The Codex. <https://thecodex.ca/13-rules-for-escape-room-puzzle-design/> (Rule 3: one answer; Rule 4: self-validating answer; Rule 9: no destroyable states; Rule 10: feedback.)
+- "Errol Elumir's 13 Rules of Escape Room Puzzle Design." Room Escape Artist, 19 August 2018. <https://roomescapeartist.com/2018/08/19/errol-elumirs-13-rules-of-escape-room-puzzle-design/>
+- "The Wrong MacGyver Solution [Room Design]." Room Escape Artist, 17 March 2018. <https://roomescapeartist.com/2018/03/17/the-wrong-macgyver-solution-room-design/>
+- "Lock Mapping & Why It's Essential in Escape Rooms." Room Escape Artist, 2 May 2026. <https://roomescapeartist.com/2026/05/02/lock-mapping-essential-in-escape-rooms/>
+- "WordLock: All Possible 4 & 5 Letter Words." Room Escape Artist, 25 February 2018. <https://roomescapeartist.com/2018/02/25/wordlock-all-possible-4-5-letter-words/>
+- "EscapeKeeper." FrightProps. <https://www.frightprops.com/escapekeeper.html> (Eight inputs, three solid-state outputs, puzzle modes, and the pre-game validation feature.)
+- "EscapeKeeper & EscapeKeeper JR Operating Manual." FrightIdeas. <https://www.frightideas.com/downloads/docs/EscapeKeeper_Manual.pdf>
+- "Baba Is You." Wikipedia. <https://en.wikipedia.org/wiki/Baba_Is_You>
+- "Designing Baba Is You's rule-writing system." Game Developer (on the on-grid sentence parser and continuous revalidation). <https://www.gamedeveloper.com/design/designing-i-baba-is-you-i-s-delightfully-innovative-rule-writing-system>
+- "Unlock!" (companion app: clue delivery and code checking). Space Cowboys / Asmodee. <https://store.asmodee.com/products/unlock-game-adventures>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Hint Systems & Recovery](hint-systems-and-recovery.qmd)
+- [Information Architecture](information-architecture.qmd)
+- [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
+- [The Aha Moment](the-aha-moment.qmd)
+- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
+
+<!-- BACKLINKS:END -->

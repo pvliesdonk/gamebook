@@ -21,39 +21,43 @@ provenance: ""       # corpus | researched | synthesis
 ## The Mechanism (How it works)
 
 <!-- THE SCANNABLE BODY (THE BLUEPRINT) -->
-<!-- Use Diagnostic Headers (e.g. ## The Trigger) to group reflective prose. 
-     No bullets in main prose flow. Move data-dense lists to Tables or Insets. -->
+<!-- Use Diagnostic Headers (e.g. ## The Trigger) to group reflective prose.
+     No bullets in main prose flow. Move data-dense lists to Tables or Insets.
+     CROSS-REFERENCES GO HERE, INLINE: wherever another mechanism becomes of import
+     to the reader at that point, link it in the prose ("...the order they arrive,
+     which is [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)..."). Handle
+     disambiguation in context, not as a list. Link the actual sibling .qmd file. -->
+
+<!-- CALLOUTS — sparing, to highlight the exceptional. AT MOST TWO per article, and only when a
+     point genuinely warrants being pulled out of the prose (not something that belongs in the
+     regular flow). There is NO fixed "Design Judgement" section and no fixed order or position:
+     a callout sits wherever its point lands in the article. Aim for ONE Specimen per article,
+     placed naturally. The Field Note and Hazard are OPTIONAL flavours, used only when the advice
+     or failure-mode is a genuine standout; otherwise weave that judgement into the prose.
+     Available flavours (place where warranted, do not stack a rote set):
+       ::: {.callout-note}   ### The Specimen   A real-world example. [corpus]
+       ::: {.callout-tip}    ### The Field Note  Standout mentor advice. [synthesis]
+       ::: {.callout-warning} ### The Hazard     A standout failure mode. [synthesis]
+-->
 
 ::: {.callout-note}
 ### The Specimen
-Observation of this mechanism in a real-world game. [corpus]
+A real-world example of this mechanism in the wild, placed wherever it fits the article. [corpus]
 :::
 
-## Design Judgement
+## Where this fits
 
-::: {.callout-tip}
-### The Field Note
-Practical "Mentor" advice on implementation and nuances. [synthesis]
-:::
+<!-- A short, practical close (two paragraphs, one section). Prose, not lists.
+     Cross-references are links, as in the body. This is orientation, NOT a recap. -->
 
-::: {.callout-warning}
-### The Hazard
-Known traps, failure modes, or anti-patterns to avoid. [synthesis]
-:::
+**The bigger picture.**
+<!-- How this mechanism sits in the wider design landscape / its family: what it
+     depends on, what depends on it, the role it plays. -->
 
-## Interactions (The Connectors)
-
-**Confusable With:** 
-<!-- Comparison plate: distinguish from look-alike mechanisms. -->
-
-**Pairs Well With:** 
-<!-- Symbiosis: mechanisms that flock together. -->
-
-**Common Transitions:** 
-<!-- Transport: where a designer typically goes after this. -->
-
-**Implementation Interlocks:** 
-<!-- Crunch: mechanical widgets (clocks, dice, etc.) that drive this. -->
+**Next steps.**
+<!-- What a designer practically reaches for next, with inline links to those articles. -->
 
 ## Sources
-<!-- Footnote citations for [researched] claims. -->
+<!-- Real EXTERNAL citations (books, essays, the works themselves) for every factual
+     [corpus]/[researched] claim. The vault is never cited. Harvest the feeding corpus
+     note's Research Basis; research the gaps. -->

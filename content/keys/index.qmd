@@ -2,6 +2,5 @@
 title: "Keys"
 ---
 
-*Placeholder — keys generated from article frontmatter in Phase 2 onwards.*
 
-Routers from intent to mechanism: by effect or feeling, by problem, by component.
+Routers from intent to mechanism: find an article by the effect you want or the problem you face.

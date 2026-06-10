@@ -2,7 +2,6 @@
 title: "Exemplars"
 ---
 
-*Placeholder — exemplar profiles written in Phase 5 and Phase 6.*
 
 Profiles of real works as consistent stat blocks, cross-linked to the mechanisms
 they illustrate.

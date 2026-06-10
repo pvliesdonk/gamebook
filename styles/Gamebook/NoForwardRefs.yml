@@ -1,0 +1,17 @@
+extends: existence
+message: "Forward-reference / placeholder prose in rendered content ('%s'). Write present-tense content or remove it; never ship 'written later' / 'for now' / process meta-references in finished prose."
+level: error
+ignorecase: true
+# Catches the dangerous class: untagged admissions that prose is unfinished or will be
+# done later, which ship in the book and silently rot. Stub HTML comments (<!-- STUB ... -->)
+# are not flagged (Vale does not lint comment bodies). Run as `vale content/`.
+tokens:
+  - '(later|future|next) phase'
+  - 'in phase \d'
+  - 'for now'
+  - '(will|to|yet to) be (written|added|filled in|completed|expanded|assembled)'
+  - 'not yet (written|added|complete)'
+  - 'coming soon'
+  - 'forthcoming'
+  - 'placeholder'
+  - '\b(TODO|TBD|FIXME)\b'
