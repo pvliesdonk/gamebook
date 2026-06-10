@@ -1,14 +1,115 @@
 ---
 title: "Cue Management & GM Station"
-aliases: []
+aliases: ["Control Booth", "Game Master Station", "Cue Stack", "Control Desk", "Show Control"]
 family: "Space, Props & Materiality"
-media: []
+media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [immersion, atmosphere, safety, run-consistency]
+  problems: [immersion-break, gm-overload, missed-distress, cue-misfire]
+  components: [control-desk, cctv, boundary-mic, cue-automation, hint-script]
+  genre: [horror, heist, mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The desk behind the wall where one operator watches the room and fires the cues, and judges the moment to reach in without breaking the world.*
+
+Every immersive room has a second room you never see. It sits behind a wall or down a corridor, and it holds one person at a desk with a bank of screens, a microphone, and a stack of cues waiting to fire. From here the operator watches the players and listens harder than they watch. The music drops when the safe opens. The right hint goes out to nudge a stuck team back on track. The set sells the world. The desk keeps it running.
+
+Two jobs live at that desk and they are not the same job. One is automation. This covers the audio and lighting and the timed shifts that happen on a trigger and need no judgement once they are built. The other is the operator. This is the watching and the listening and the choice of when and how to intervene, which no script can make for you. Confuse the two and you either over-automate a room that needed a human in the loop, or you chain a skilled operator to button-pushing that a machine should have handled. The craft is knowing which cue belongs to the machine and which belongs to the person.
+
+This article is about that control layer and the desk it runs from. It is most fully realised in the live escape room, where the operator is called a game master, but the same split between the firing of cues and the watching of state turns up wherever someone runs a session from outside the fiction. It is the hint desk at a puzzle hunt. It is the screen on a tabletop GM's side of the table. The thing it most directly protects is the thing the set worked to build, the wrapper that keeps a player inside the fiction, which is [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd).
+
+## The Mechanism (How it works)
+
+### Two layers: the cue machine and the operator
+
+The first cut to make is between the automation layer and the human-control layer, because they fail in different ways and want different tools. The cue machine handles scripted events. A sound effect lands on a solved puzzle. A lighting shift runs on a timer. A wash of red arrives as the ritual nears its end. Once built and tested, these fire the same way every run. The operator handles the events that need a person in the room's loop. Spotting that a team is stuck. Hearing distress before it becomes a problem. Choosing the moment a hint lands. [researched]
+
+Consumer smart-home hardware has collapsed the cost of the automation layer. A single operator can now run layered audio and lighting that once needed dedicated AV technicians. A few Sonos speakers and Philips Hue bulbs sit alongside a Home Assistant install on a small local computer and a handful of NFC stickers. Together they produce the feel of a professionally scored experience for a fraction of the old price. [researched] Home Assistant runs locally, so a cue does not depend on the venue's internet staying up. An automation listens for a trigger such as a door contact closing or a timer expiring or an NFC tag scanned under a prop. It then fires audio and lighting together in one parallel action so the sound and the light change land on the same beat rather than one after the other. [researched]
+
+The trigger that matters most for immersion is the one the player never notices was a trigger. An NFC tag (the practical standard is the NTAG215, holding 504 bytes and costing under one euro in bulk) hides under the base of an object the player is told to pick up. It sits behind a picture frame or inside a drawer handle. The player lifts the object and a hidden reader fires the event, so the room responds within a fraction of a second. [researched] The cue feels like the world reacting rather than a button being pressed. This is the automation cousin of the diegetic reveal, and it shares its discipline with the puzzles that confirm their own solutions, [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd), and the trigger surfaces of [Digital Props](digital-props.qmd) and [QR & NFC Patterns](qr-and-nfc-patterns.qmd).
+
+### What the cue machine gets wrong
+
+Automation is reliable until it is not, and the failure modes are specific enough to design against. The dominant one is connectivity loss. Wi-Fi speakers and bulbs drop out when the router restarts. They drop out when the 2.4 GHz band is congested by neighbouring networks, or when a device reboots itself for a firmware update mid-run. The defences are threefold. Put the cue devices on a dedicated network of their own. Switch automatic firmware updates off during active event periods. Keep a wired fallback for any cue that the show cannot survive losing. [researched]
+
+| Failure | What it looks like | Defence |
+|---|---|---|
+| Connectivity loss | A Wi-Fi speaker drops off seconds before a reveal | Dedicated IoT network; wired fallback for critical cues [researched] |
+| Battery depletion | A hidden speaker or NFC reader dies mid-run | Pre-run checklist; automated low-battery alert [researched] |
+| Cloud dependency | A cloud-routed trigger silently fails when the venue link drops | Run the automation locally, not through a cloud service [researched] |
+| Race condition | Two players tap the same tag and the cue fires twice | A short cooldown lock after the first fire [researched] |
+
+Cloud-routed triggers (the kind that ride through an external automation service) add seconds of latency and fail silently the moment the venue's internet goes down. They suit scene-setting, not a cue that has to land on an exact beat. [researched] The lesson the failure table teaches is that the automation layer earns its reliability through a pre-run pass rather than through good intentions. A checklist that verifies battery state and network health before every session is the price of trusting the machine during one. That per-session verification belongs to the same operational discipline as the reset between groups, which is [Materials, Durability & Reset](materials-durability-and-reset.qmd).
+
+### The desk: watching and listening
+
+Above the cue machine sits the operator's desk, and its job is observation. The desk sits outside the play space almost without exception. Once IP cameras and software audio replaced analogue cabling, physical proximity stopped mattering, so the station can sit anywhere on the network. Direct observation windows have become rare in commercial builds. A window breaks the room's theming. It leaves sightline dead zones with larger groups and pins the desk to one position. Closed-circuit cameras are now the standard. [researched]
+
+The commercial convention is three monitors. One carries the camera feed from the room, usually a four-camera split with one wide-angle low-light camera per quadrant. A second carries the operator's dashboard with the timer, the hint script and the music control on it. A third previews whatever the in-room player display is showing, so the operator sees what the players see. [researched]
+
+What the desk most needs is not the picture but the sound. Audio matters more than video, and the reason is safety rather than atmosphere. It is easier to spot an impending problem by listening to what the players say than by watching them, so dedicated audio monitoring is a safety function and not a convenience. [researched] The practitioner-standard chain is a boundary microphone (the AKG PZM11) ceiling-mounted at the centre of the room, where it flush-mounts into a gang box and reads like a light switch, run into a small XLR-to-USB preamp at the desk for monitoring on headphones with no perceptible delay. Microphones built into the cameras are a fallback only: they add compression artefacts and latency that blunt the one signal the operator most relies on. [researched] The role this watching-and-deciding desk plays in the social architecture of a live game, and where its authority sits relative to the players, is [GM Role Models & Stances](../players-social-dynamics/gm-role-models-and-stances.qmd).
+
+### Hint discipline: read, do not improvise
+
+The most consequential thing the operator does is deliver hints, and the craft here is narrow and well-tested. Each puzzle gets a ladder of pre-written hint text, drafted before opening day rather than improvised in the moment. A first rung is a directional nudge ("have you examined everything in the chest?"). A second clarifies the mechanic ("the four symbols are a code: where else have you seen four symbols?"). A third comes near the answer without giving it ("the symbols match the painting; read top-left to bottom-right"). The operator reads the first rung and watches for a few minutes, then climbs only if the team is still stuck. [researched]
+
+The reason to read from a script rather than improvise is that improvisation under pressure over-hints or lands opaque, while a written ladder keeps the delivery consistent across operators and across shifts. [researched] Two rules sharpen it further. The first is to redirect rather than solve. "Have you looked at the back of that card?" beats "the answer is seven," because the first returns the work to the players and the second takes it away. [researched] The second is to treat a puzzle that almost always needs a hint as a broken puzzle rather than a weak team. A high hint rate is a design signal pointing back at the puzzle, and the fix belongs in the build rather than at the desk. [researched]
+
+This desk-level discipline is the operational end of a craft that has its own full treatment in the puzzles family. How a hint is paced, escalated, and recovered from across the whole experience is [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd), and whether a given hint reads as fair (reachable from what the player already has, rather than a rule sprung on them) is the contract set out in [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). The station is where that craft meets the live run: the place the written ladder is read aloud and the moment to read it is chosen.
+
+::: {.callout-note}
+### The Specimen
+The hobbyist and commercial operator communities have converged on a recognisable kit and a recognisable desk. At the small end, an operator runs one room from a laptop, a single cheap IP camera, a USB headset, and free or low-cost dashboard software, all in for a few hundred euro. A single-room commercial build adds a second and third monitor, four networked cameras into a four-channel recorder, the boundary-microphone-and-preamp audio chain, a small amplifier feeding in-room speakers for the operator's voice, and a paid dashboard such as Escape Room Command Center or HintControl. The dashboards themselves have matured into a small market. ERCC bundles a timer, multimedia hints and music with multi-room support. COGS reaches into full show control with DMX, OSC and MIDI. Node-RED gives the same flexibility free on a small board for anyone willing to wire the flows themselves. The shape is consistent across the tiers. Cameras and a boundary microphone do the watching. A dashboard carries the timer and the hint ladder. A voice channel reaches into the room and a player-display preview sits alongside it. Throughout, audio is the safety-critical feed. [researched]
+:::
+
+### The same desk, scaled up and scaled down
+
+The control layer is not unique to the escape room. It is the live-game articulation of a problem that turns up wherever someone runs a session from outside the fiction, and the cross-media reading sharpens what the desk is actually for.
+
+At a puzzle hunt the desk becomes the hint queue and the unlock board, and the constraint is bandwidth rather than carpentry. Every adaptive decision the organising team makes demands the same four things the operator's desk demands. It must monitor the state of each team. It must decide the right response and pass it to the right person before they give up waiting. It must hold that choice in mind for the rest of the event. [researched] The practical ceiling for one person handling adaptive decisions without dedicated tooling is roughly two or three teams at once. [researched] Post-mortems of the MIT Mystery Hunt return repeatedly to the same overload, where too many simultaneous hint requests and an unclear round structure swamp the staff. [researched] The fix is to externalise state off the operator's memory and onto something the desk can read. That might be scorecards stamped in the field, colour-coded clue envelopes, or a dedicated decision log kept by someone other than the person making the calls. [researched] That state-tracking craft is the live cousin of [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd).
+
+At the tabletop the control surface shrinks to what one referee can reach across a table. It becomes a genuine materiality concern. The GM screen is the hub. Behind it the referee keeps notes and rolls private. Across its inner face runs a reference panel of rules tables and names. The screen increasingly takes clip-on accessories. Magnetic initiative trackers attach to its edge and it holds wet-erase strips and printable reference cards. [researched] Initiative tracking alone spans a small tooling spectrum. At one end are physical cards prized for needing no technology at all. Erasable acrylic toppers sit on the screen itself. At the far end are 3D-printed clip trackers. [researched] Handouts work as a control tool here too. They frame a scene and steer its direction, and the table-tested practice is to pre-sort them into labelled envelopes by scene so the referee can deploy one without breaking the narrative flow. [researched] The provenance and ageing of those handouts as physical objects is [Artefact Design & Document Production](artefact-design-and-document-production.qmd). The tabletop screen makes the abstraction plain: concealment, quick reference, turn-order state, and staged props, all on one surface within arm's reach, which is the escape room's whole control booth folded down to a cardboard tri-fold.
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is to let an intervention break the very world the desk exists to protect. The classic break is the operator who steps into a Mayan temple in a logo T-shirt to reset a jammed prop, or whose hint arrives as a flat out-of-character announcement over a speaker the player had forgotten was there. The fix is to design the operator's reach into the room before it is needed, so that when the operator must intervene it still reads as part of the fiction. The reach might be a handler's voice on a radio that the story already established. It might be a hint that arrives as a developing photograph or a message from an in-world character. It might be an in-character maintenance role for the moment a person physically has to enter. The desk holds the wrapper together only if its interventions are written in the same ink as the set. An operator who improvises the break under pressure undoes in one sentence what the whole room was built to sustain. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** The control booth is the family's operational layer, the place where the built world stops being a static set and becomes a run. Everything else in the family makes objects and spaces, whether a prop or a lock or a document or a topology. The desk is what watches those things in use and judges when a person has to reach in. It leans most directly on the wrapper it protects, since an intervention that breaks the fiction wastes everything the set spent to build. It also inherits the cue surfaces of the digital props and tagged objects it fires. The live run itself is what leans on the desk. A room can be beautifully built and still come apart in the running. That happens when the operator never sees the stuck team. It happens when a hint cannot reach a player without breaking the spell. This is the seam where physical and material craft meets live operation. It is the one article in the family that is about the session rather than the set.
+
+**Next steps.** The desk fires cues into the sensory world it sits behind, so the wrapper it protects is [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd), and the surfaces it triggers are [Digital Props](digital-props.qmd) and [QR & NFC Patterns](qr-and-nfc-patterns.qmd). The hint craft the desk executes against is [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd), and the fairness contract every hint has to honour is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). The per-session verification the cue machine demands runs alongside the between-group work of [Materials, Durability & Reset](materials-durability-and-reset.qmd). And the operator's place in the social architecture of a live game, where authority and stance are set, is [GM Role Models & Stances](../players-social-dynamics/gm-role-models-and-stances.qmd).
+
+## Sources
+
+- Spira, David. "An Exploration of Escape Room Hint Systems." Room Escape Artist, 24 October 2019. <https://roomescapeartist.com/2019/10/24/escape-room-hint-systems/>
+- "Escape Room Design: Safety Basics." Room Escape Artist, 2017. <https://roomescapeartist.com/2017/06/12/escape-room-design-safety-basics/>
+- "What is the Best Microphone Setup for Monitoring an Escape Room?" AV Design Guide. <https://avdesignguide.com/escape-room-microphone/>
+- "Control Room, Hint Policy and Audio/Video Installations." Buy Escape Games. <https://www.buyescapegames.com/control-room-hint-policy-and-audiovideo-installations/>
+- "Control Room to Escape Room Communications." Twisted Room Escapes (practitioner build log). <https://twistedroomescapes.com/>
+- Home Assistant. "Sonos integration" (media_player services, local automation). <https://www.home-assistant.io/integrations/sonos/>
+- Home Assistant. "Tags" (NFC tag_scanned events and automation triggers). <https://www.home-assistant.io/integrations/tag/>
+- "NTAG213/215/216 NFC Forum Type 2 Tag" product data (504-byte user memory). NXP Semiconductors. <https://www.nxp.com/products/NTAG213_215_216>
+- Escape Room Command Center (ERCC), feature and pricing pages. <https://www.escaperoomcommandcenter.com/>
+- HintControl, escape-room game master software. <https://hintcontrol.com/>
+- COGS show-control (DMX/OSC/MIDI). <https://cogs.show/>
+- Node-RED, flow automation. <https://nodered.org/>
+- EscapeKeeper safety timer and door-release unit. FrightProps. <https://www.frightprops.com/>
+- Alman, Josh. "Thoughts about the 2021 MIT Mystery Hunt." 2021. <https://joshalman.com/>
+- Puzzlvaria. "2021 MIT Mystery Hunt, Part 1: Big Picture Pros and Cons." 2021. <https://puzzlvaria.wordpress.com/>
+- Shea, Mike (Sly Flourish). "Making Great Handouts." <https://slyflourish.com/making_great_handouts.html>
+- "Best Initiative Trackers for TTRPGs." TTRPG Games. <https://www.ttrpg-games.com/blog/top-10-initiative-trackers-for-ttrpgs>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Digital Props](digital-props.qmd)
+- [Making It Real](../../primers/making-it-real.qmd)
+- [Materials, Durability & Reset](materials-durability-and-reset.qmd)
+- [QR & NFC Patterns](qr-and-nfc-patterns.qmd)
+- [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd)
+
+<!-- BACKLINKS:END -->

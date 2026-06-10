@@ -112,6 +112,7 @@ The cipher-as-unfair-gate is the failure that ends runs. It arrives two ways. Th
 ## Referenced by
 
 - [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd)
+- [Artefact Design & Document Production](../space-props-materiality/artefact-design-and-document-production.qmd)
 - [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)
 - [The Fairness Contract](../../primers/the-fairness-contract.qmd)
 

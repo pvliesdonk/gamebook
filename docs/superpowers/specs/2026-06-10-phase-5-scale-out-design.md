@@ -87,22 +87,26 @@ Phase 4.)
 
 ## Primers (7 remaining)
 
-Settled set is 8 (#16); "The Fairness Contract" is done. The remaining 7 map to families roughly as
-below — **the mapping needs confirming in planning, and one overlap must be resolved:**
+**Rule (settled 2026-06-10): every family ships a primer.** One primer per family is mandatory; if
+the originally-listed primer does not fit a family, a replacement is written for it. Additional
+primers beyond the one-per-family set are cross-cutting, not family-bound.
 
-| Primer | Likely family |
-|---|---|
-| Structure & Branching Topologies | Structure & Pacing |
-| Pacing & Tension Curves | Structure & Pacing |
-| Information Architecture | Puzzles? (overlaps the *article* of the same name — **resolve**) |
-| Diegesis & the Magic Circle | Story / Space |
-| The Social Contract & Safety | Players & Social Dynamics |
-| Resolution & Randomness | Systems & Mechanics |
-| Playtesting, Quality & Verification | cross-cutting (process; uses the Phase-3 primer research) |
+| Primer | Family | Status |
+|---|---|---|
+| The Fairness Contract | Puzzles, Clues & Information | done (Phase 4) |
+| Making It Real | Space, Props & Materiality | done (Phase 5) — replaced "Diegesis & the Magic Circle", which restated the Theme/Immersion anchor here |
+| Structure & Branching Topologies | Structure & Pacing | the family primer |
+| Diegesis & the Magic Circle | Story, Character & Voice | its natural home (next to the Diegetic Design article) |
+| The Social Contract & Safety | Players & Social Dynamics | the family primer |
+| Resolution & Randomness | Systems & Mechanics | the family primer |
+| Pacing & Tension Curves | cross-cutting (2nd Structure theme) | optional, not family-bound |
+| Information Architecture | cross-cutting | **overlaps the IA *article*** (Puzzles, written) — broaden/rename/drop; do not duplicate |
+| Playtesting, Quality & Verification | cross-cutting (process) | uses the Phase-3 primer research |
 
-**Open item:** the "Information Architecture" *primer* collides with the Information Architecture
-*article* (Puzzles family, already written). Decide whether the primer is broader orientation, gets
-renamed, or is dropped, before writing it.
+**Resolved:** "Diegesis & the Magic Circle" belongs to **Story** (writing it for Space would restate
+the Theme, Immersion & Sensory Environment article). Space's primer is **Making It Real** (the
+material layer: every made object promises both the senses and the operation). The "Information
+Architecture" primer/article overlap is still open and handled at first encounter.
 
 ## Build & tooling
 

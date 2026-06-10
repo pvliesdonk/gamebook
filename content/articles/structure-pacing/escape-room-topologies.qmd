@@ -17,6 +17,7 @@ provenance: ""
 
 ## Referenced by
 
+- [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
 - [Information Architecture](../puzzles-clues-information/information-architecture.qmd)
 
 <!-- BACKLINKS:END -->

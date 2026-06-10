@@ -43,3 +43,20 @@ One canonical term per mechanism. Aliases listed. Agents must use canonical term
 | Backsolving | Back-solving | Family 2 | Deriving a feeder answer from the meta rather than from the feeder itself. |
 | Epistemic Tier | Knowledge Tier | Family 2/4 | Analytical label for role/venue-differentiated knowledge in large live games (settled here as the canonical term; corpus flagged it as a label, not settled community usage). |
 
+### Space, Props & Materiality mechanisms (added Phase 5)
+
+| Canonical term | Aliases | Family | Notes |
+|----------------|---------|--------|-------|
+| Theme, Immersion & Sensory Environment | Theme, Atmosphere, Sensory Design, Immersion | Family 5 | Making a built space feel like a real world and keeping the player there. |
+| Artefact Design & Document Production | Narrative Objects, Props & Feelies, Document Forgery, Handout Production | Family 5 | Designing and producing narrative objects (feelies, aged documents, dossiers). |
+| Fabrication & Sourcing | Buy vs Make, Prop Sourcing, Prop Fabrication, Workshop Tiers | Family 5 | The buy/make/commission decision; workshop tiers; 3D printing; print-on-demand. |
+| Physical Clue Formats | Clue Packaging, Consumable vs Reusable Clues | Family 5 | The envelope/booklet/card/container taxonomy and the unsealing beat. |
+| Hidden Compartments & Reveal Mechanisms | Reveals, Invisible Ink, False Bottoms | Family 5 | UV / heat / magnetic / layered-paper reveals; the reveal-as-state-change beat. |
+| Lock Taxonomy | Locks, Padlock Taxonomy, Lock Selection | Family 5 | Combination/key/directional/word/magnetic/electronic locks; reliability, reset, theme fit. |
+| Digital Props | Embedded Electronics, Smart Props, Diegetic Devices | Family 5 | Embedded screens/microcontrollers; companion apps; diegetic interfaces / fake OS in IF. |
+| QR & NFC Patterns | QR Codes, NFC Tags, Scan-to-Unlock | Family 5 | The physical-digital bridge; anti-spoiler gating; tag placement; connectivity fallbacks. |
+| Cue Management & GM Station | Control Booth, Show Control, Cue Stack | Family 5 | Audio/lighting automation and the human operator's control surface and hint discipline. |
+| Materials, Durability & Reset | Prop Durability, Weatherproofing, Resetability | Family 5 | Material palette; weatherproofing; the reset hierarchy and pre-run checklist. |
+| Physical vs Digital Puzzle Artefacts | Artefact Modality, Physical-Digital Spectrum | Family 5 | The five-modality taxonomy; url-rot; durability horizons. |
+| Dungeon & Spatial Topology | Dungeon Design, Spatial Layout, Non-Linear Layout | Family 5 | The designed space; Jaquaying/Xandering; loops, connections, faction ecology. |
+

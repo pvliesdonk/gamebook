@@ -1,22 +1,147 @@
 ---
 title: "Digital Props"
-aliases: []
+aliases: ["Embedded Electronics", "Smart Props", "Diegetic Devices", "In-World Screens"]
 family: "Space, Props & Materiality"
-media: []
+media: [live-game, tabletop, puzzle-hunt, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [immersion, dynamic-state, telemetry, presence]
+  problems: [non-diegetic-screen, mid-session-failure, reset-overhead, immersion-break]
+  components: [microcontroller, screen, addressable-led, rfid-reader, companion-app, themed-enclosure]
+  genre: [sci-fi, horror, mystery, heist, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The family of props with a chip or a screen inside, paying for the trouble by doing something no mechanical object can.*
+
+A digital prop is an object the player handles that has a computer inside it. The computer might be a microcontroller the size of a postage stamp driving a relay. It might instead be a string of addressable lights behind a translucent map, or a tablet dressed as an in-world terminal. What unites them is not the technology but the bargain. A digital prop costs more to build and more to maintain than a padlock does. It is also far harder to keep inside the fiction. So it has to repay that cost by doing something the padlock cannot.
+
+The trouble is real, and it is mostly hidden. A combination lock fails rarely and fails gracefully. A crashed microcontroller breaks a puzzle silently, with no tactile signal to the player that anything is wrong. So this article is about two things at once. The first is when the bargain pays off. The payoff comes when content has to change after a player acts. It comes when state has to be read from outside the room without opening the door. It comes when several props must agree on a solve. And it comes when the designer needs a window into what the room is doing. The second thing is how to keep the prop running and keep it inside the fiction, because a digital prop that breaks immersion or breaks mid-session has cost you more than the cheap object it replaced.
+
+The clearest sibling of this idea lives on the screen rather than behind it. In a text game the prop is the interface: the player is cast as the operator of a simulated terminal, and the device they handle exists only as pixels. The reasoning turns out to be the same on both sides of the glass.
+
+## The Mechanism (How it works)
+
+### When digital is worth it
+
+The first question is never which board to buy. It is whether the prop should be digital at all. The honest default is mechanical. A three-digit padlock costs a few Euros and suits almost any theme. It also cannot crash. Digital is justified by the mechanic it enables, not by its own novelty. [researched] The practitioner failure arc is consistent enough to name. A first-time builder discovers the world of microcontrollers and keeps adding to the prop. Wi-Fi sync arrives first. Over-the-air updates and an animated light sequence soon follow. A group of eight then breaks the prop in two sessions. The maker-community rule of thumb is to use the simplest platform that does the job. [researched]
+
+There are four requirements a mechanical prop genuinely cannot meet, and each is a reason to go digital. The first is content that has to change after a player action, like a terminal that shows fresh cipher text once a code is entered. The second is state that has to persist and be read from outside the room, so the host knows a prop is solved without opening the door. The third is several props that have to agree, like a radio that activates only after three separate puzzles complete. The fourth is remote, zero-touch reset, where a single host action returns every locked prop to default and saves the slowest minutes of the changeover between groups. [researched] To these add telemetry, the quiet one: an instrumented prop reports which puzzle stalls groups and how often hints are pulled, where a mechanical lock stays opaque. Whether a given prop is worth the digital cost is the same physical-versus-digital judgement made one object at a time in [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd).
+
+The decisive failure to design against is the silent one. A mechanical lock that jams gives the player a stuck shackle to rattle and the host a key to fix it. A tripped relay or a hung Raspberry Pi gives nobody anything. The puzzle is simply dead, and the group stares at a prop that looks fine. So every production digital prop needs a documented fallback before it ships, whether a host override code or a physical bypass. A reset button the host can reach is the simplest of all. [researched] The view of the relay and maglock from the puzzle-design side, including the false-positive failure where the prop reports a solve that did not happen, is [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd).
+
+### The platform ladder
+
+The open-hardware community has settled on a short ladder of platforms, and most props sit on one of three rungs. The choice follows from what the prop has to do, not from preference. Simple switch-and-relay logic with no networking wants the cheapest microcontroller. Networked logic that syncs props or reports state wants Wi-Fi or Bluetooth on board. Anything that needs a full operating system, such as looping video or a kiosk browser, wants a small Linux computer. [researched]
+
+| Platform | Use it when | Approx. unit cost | Complexity |
+|---|---|---|---|
+| Arduino Uno / Nano | Switches, relays, keypad logic; no networking | EUR 4–25 (clone vs genuine) | Low |
+| ESP32 / ESP32-C3 | Networked props: Wi-Fi or Bluetooth sync, MQTT, RFID, addressable LEDs | EUR 2–8 | Low–medium |
+| Raspberry Pi 3B / 4 | Linux tasks such as looping video or a kiosk-browser terminal | EUR 35–55 (board only) | Medium |
+| Raspberry Pi Zero 2 W | Small hidden node, low-footprint media | EUR 15 | Medium |
+| E-paper display (e.g. Inky Impression) | A screen that has to read as printed paper | ~EUR 80 | Medium |
+| Commercial controller (EscapeKeeper, BooBox) | Operator wants no programming | EUR 130–380 | Low |
+
+The wired-versus-wireless choice is not academic. Wi-Fi is convenient until 2.4 GHz congestion or a noisy radio environment turns it into the single point of failure for the whole room, so some commercial operators deliberately avoid Wi-Fi for prop networking and run wired LAN instead. [researched] When several props do need to talk, the open-source orchestration layer worth knowing is Node-REDscape, which runs on Node-RED, speaks to microcontrollers over Wi-Fi, Ethernet, or serial, and gives the host a dashboard with remote solve and reset. It has become the de facto standard for networked prop control in the maker community. [researched] The dashboard side of that, where the host watches state and intervenes without leaving the booth, is [Cue Management & GM Station](cue-management-and-gm-station.qmd).
+
+A note on the wiring that separates a prop that works from one that ruins a solenoid. A solenoid lock needs a short pulse of around 100 ms at the moment of unlock, because continuous power overheats and destroys it within minutes; the latch then falls under gravity. A maglock is the opposite. It is held by continuous power and released by cutting it, which makes it fail-safe by default. [researched]
+
+### Prop archetypes
+
+A handful of shapes recur often enough to design from. Each pairs a hardware spine with an in-fiction role, and naming them shortens the path from idea to build.
+
+| Archetype | Hardware spine | Note |
+|---|---|---|
+| Codebreaker terminal | Pi or ESP32 + display or e-paper; keypad | Answer-check happens server-side; telemetry to the host |
+| Keypad-and-relay lock | ESP32 or Arduino + keypad + relay + maglock or solenoid | Normally-closed relay for fail-secure; physical host reset button |
+| Diorama with light reveal | ESP32 or Arduino + addressable LED strip | One data wire for the whole chain; triggered by a solve signal |
+| Smart map with lit locations | ESP32 + LED matrix behind a translucent map | Each location is a pixel; the whole map resets on one command |
+| In-game tablet | Tablet in kiosk lockdown; Pi as local server | App is a web app; a local server gives offline resilience |
+| E-paper "printed paper" | E-paper panel + Pi Zero 2 W | Refreshes in about 12 s; image persists unpowered; no glow |
+| In-fiction phone | ESP32 or Pi + audio + themed enclosure | Rings on trigger, plays audio; can carry a voice character |
+| RFID object placement | Arduino or ESP32 + RFID readers + relay | Hidden tags in objects; correct arrangement triggers the solve |
+
+The keypad-and-relay lock is the digital twin of the combination padlock, and reading it next to its mechanical cousin in [Lock Taxonomy](lock-taxonomy.qmd) shows what the electronics buy and what they cost. The RFID archetype shares its tag-reading front end with the trigger craft in [QR & NFC Patterns](qr-and-nfc-patterns.qmd): the reader and tag are the same components, pointed at a different job.
+
+### Keeping the screen inside the fiction
+
+A glowing glass tablet does not belong in a 1923 seance room, and the player's eye knows it before the mind does. A backlit screen draws attention in a way a padlock never will, so a modern display is often more out of place in a period set than a modern lock. [researched] The diegetic check that decides whether a screen belongs in the room at all is the upstream concern of [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd); the prop level is where that decision turns into hardware.
+
+Three working approaches recur, and the right one depends on how far the theme sits from modernity. A themed enclosure hides the device inside period-appropriate housing, a Bakelite telephone body or a brass instrument case, so the player never meets bare plastic. A screen overlay mounts a printed bezel over the display, leaving only the active area visible and reframing it as a porthole readout or an ancient artefact; this is the cheapest route and suits sci-fi and steampunk well. Technology substitution swaps the backlit screen for one that does not read as modern at all. E-paper is the usual choice. It looks printed and gives off no glow, and the image stays visible even without power, which makes it credible in many period settings. For a purely static reveal, UV-reactive or thermochromic ink does the job with no electronics visible. [researched]
+
+The cost of the immersion break rises with the ambition of the theme. Sci-fi and modern-office settings absorb screens with no friction. Victorian and 1920s occult settings pay a real penalty unless the enclosure work convinces or the substitution is honest, and a half-measure reads worst of all. [researched] For a tablet that has to stay an in-world terminal, the lockdown is its own discipline. On iOS the standard is Single App Mode on a supervised device, which survives a power cycle, rather than Guided Access, which does not and is not acceptable for commercial use. On Android the equivalent is a managed kiosk profile. [researched] Why the prop is on a screen at all, when a physical artefact would also serve, is the trade examined object by object in [Artefact Design & Document Production](artefact-design-and-document-production.qmd).
+
+### The prop as interface: the text-game cousin
+
+Strip away the physical object and the idea survives intact. In a text game the digital prop is the interface itself. The screen is not hiding inside a brass case; the screen is the whole world, and the player is cast as someone operating a device in the fiction. A diegetic interface is one whose elements exist within the game world rather than as an authorial overlay, and the "fake OS" form takes this to its limit, simulating a whole desktop or phone or terminal as the entire game. [researched]
+
+*Her Story* is the load-bearing example. The whole game is a simulated late-1990s police database terminal, and the conceit makes the computer itself the prop: the player's real device plays the part of the fictional one, and even the instructions arrive diegetically, as a ReadMe file on the simulated desktop. The search is framed as an in-world act modelled on Google, and the fiction is enforced by the interface's own limits, since a keyword returns at most the first five matching clips, so the narrative is gated by the prop's rules rather than by a menu. [researched] *Hypnospace Outlaw* pushes the same move further, taking place entirely inside a simulated 1990s operating system that boots with an audible whir and can be infected by viruses that corrupt the interface, turning the prop's malfunctions into authored beats. [researched] *Return of the Obra Dinn* shows the craft outside a fake OS: the player's deduction tool is the in-fiction *Memento Mortem* logbook, whose blank pages they fill in as the diegetic pocket-watch reveals each death, so the interface and the detective's own notebook are the same object. [researched]
+
+The lesson carries straight back to the physical prop. The interface's own constraints, the search cap, the boot quirk, the glitch, should carry the gating and the drama, rather than an out-of-world menu doing it. [synthesis] That is the same instinct as the live-game rule that a prop's malfunction should never be silent: in a text game the designer makes the malfunction mean something; in a live room the designer makes sure it cannot happen unnoticed. The deeper question of whether the interface is part of the fiction or a layer on top of it belongs to [Diegetic Design](../story-character-voice/diegetic-design.qmd), and the state the interface reads and writes is held by [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd).
+
+::: {.callout-note}
+### The Specimen
+*Chronicles of Crime* puts the digital prop on the tabletop. Every location, character, and item carries a QR code, and more than half the game is delivered through a companion app. When a player scans a component, the app's Scan and Play system returns different clues for each scenario. The same physical cards drive entirely different cases from one mission to the next. The app also folds in a virtual-reality scene where players "search" a 360-degree crime scene through a phone. New cases arrive later as app updates, with no new physical components shipped. [researched] The board game has discovered the *Her Story* trick from the other direction. The cards are diegetic evidence, the app is the diegetic detective's database, and the QR scan is the in-world act of examining a thing, so the digital layer is not bolted onto the box but cast as a character in the fiction.
+:::
+
+### The lighter touch: companion apps and located triggers
+
+Not every digital prop is a built object. On the tabletop the common form is the companion app that holds state the cardboard cannot. WingMate tracks the hidden birds and eggs of *Wingspan* and totals each scoring category for the players, while the *Terraforming Mars* assistants automate production between generations and walk the table through end-game scoring. [researched] These apps are mostly unofficial and they make a quiet trade. Lifting bookkeeping off the table can speed a heavy game. The cost is that the phone pulls attention away from the shared board. This is the same immersion-versus-convenience tension the live-room screen poses, met in a lower key. [synthesis]
+
+In an outdoor puzzle hunt the digital prop dissolves into the location itself. Platforms such as PlayTours and Locatify trigger content from where the player is standing. A GPS check-in unlocks the next stage; a short-range Bluetooth transmitter fires a clue as a team comes within range; the phone is the reader for both. [researched] This is the embedded chip turned inside out. Rather than hiding a microcontroller in a prop the player carries, the hunt scatters invisible triggers through real space and lets the phone read them, the located cousin of the tag-reading front end in [QR & NFC Patterns](qr-and-nfc-patterns.qmd).
+
+### Reliability is the whole craft
+
+A digital prop is only as good as its worst session, and the failures are well catalogued because the community keeps relearning them. Battery dependency is the most common silent killer. Anything on batteries eventually dies between sessions, so the discipline is to run wired wherever possible, or else to instrument the battery so the host gets a warning before the group arrives rather than during it. [researched] Automatic updates are the second trap, since an operating-system or library update can break working firmware overnight. Production devices should have auto-updates disabled and firmware pinned, with changes made only in a deliberate maintenance window on a spare. [researched]
+
+The physical failures are just as predictable. Hobby tactile buttons rated for 100,000 cycles fail in weeks under daily commercial use because players hammer them, so any daily-use control wants an industrial-rated switch, and hobby connectors that pull out under rough handling want soldering or a locking type. Dust accumulates on bare displays and LED strips, which an easily replaced acrylic cover panel defends against. [researched] Above all, a physical reset button the host can reach is a first-class hardware feature and not an afterthought: when the network or software layer has failed, the physical button is the fallback that the software reset path cannot be. How this survives across a full day of repeated groups, and how the prop returns to its start state in under two minutes, is the operational discipline of [Materials, Durability & Reset](materials-durability-and-reset.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is to build the prop you find interesting rather than the prop the room needs. The microcontroller, the synced lights and the telemetry dashboard are each genuinely satisfying to make. Together they produce an object that is a joy in the workshop and a liability in production. The tell is when the build's complexity has outrun the mechanic it serves. Think of a prop that needs a reflash to reset. It has no fallback when it crashes. It trusts an over-the-air update on the night before a busy day. The discipline is to start from the requirement and stop at the simplest platform that meets it. Design the reset and the fallback before the clever part. A prop that fails silently has cost you more than the padlock it replaced, because the padlock would still be working. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Digital props are the family's most expensive objects to get right, and the place where the family's central tension shows most sharply. Every other prop concern, the lock, the document, the hidden compartment, asks whether the object fits the world and survives the day; the digital prop asks both questions under harder conditions, because its immersion break is louder and its failure is quieter. It depends on the theme work above it to decide whether a screen belongs in the room at all, and it answers downward to the reliability and reset discipline that keeps it alive across a day of groups. Get the bargain right and a digital prop does what no mechanical object can; get it wrong and it is the costliest way yet found to break a puzzle.
+
+**Next steps.** The first decision, whether this object should be digital at all, is the per-object trade in [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd), with the upstream diegetic check in [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd). Once the prop is built, its mechanical cousin sits in [Lock Taxonomy](lock-taxonomy.qmd) and its trigger front end in [QR & NFC Patterns](qr-and-nfc-patterns.qmd). The host dashboard that monitors and resets it in flight is [Cue Management & GM Station](cue-management-and-gm-station.qmd), and the day-long survival of the object is [Materials, Durability & Reset](materials-durability-and-reset.qmd). The puzzle-design view of its relay and maglock, including the false-positive solve, is [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd); the state it reads and writes is [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd); and its screen-only cousin in text games is [Diegetic Design](../story-character-voice/diegetic-design.qmd).
+
+## Sources
+
+- er-ecodecor.com. "ESP32-C3 Super Mini vs Arduino Nano." 2024. (Platform comparison; wired-LAN-over-Wi-Fi reliability in commercial operation.)
+- Playful Technology. "Node-REDscape" prop-orchestration project and ESP32 prop tutorials. GitHub. <https://github.com/playfultechnology>
+- mbparks. "OSER0001_RFIDGadget" (Arduino Uno + PN532 reference with operator reset button). GitHub. <https://github.com/mbparks>
+- EscapeRoomTechs learn portal (relay basics, the 100 ms solenoid pulse rule, normally-closed maglock wiring). <https://escaperoomtechs.com/>
+- Escape Room Supplier. "Escape Room Generations" (the mechanical-to-digital generation framing). <https://www.escaperoomsupplier.com/>
+- Pimoroni. "Inky Impression 7.3in (Spectra 6)." <https://shop.pimoroni.com/products/inky-impression-7-3>
+- Kiosk Group. "iOS Single App Mode vs Guided Access" knowledge base. <https://www.kioskgroup.com/>
+- "Chronicles of Crime review: augmented reality?" Big Boss Battle. <https://bigbossbattle.com/chronicles-of-crime-review-augmented-reality/>
+- "Chronicles of Crime." Elderwoods (Scan and Play, QR-driven scenarios, app delivery). <https://elderwoodscc.com/products/chronicles-of-crime>
+- "WingMate Companion." Apple App Store (unofficial *Wingspan* companion; tracks hidden state and scoring). <https://apps.apple.com/us/app/wingmate-companion/id1482429144>
+- "Terraforming Assistant." Apple App Store (*Terraforming Mars* generation and resource automation). <https://apps.apple.com/us/app/terraforming-assistant/id1419254320>
+- PlayTours. "Scavenger Hunt" (GPS check-in triggers; no-install phone reader). <https://www.playtours.app/scavenger-hunt>
+- Locatify. "The Complete Guide to Scavenger Hunt Apps" (location and proximity triggers, including Bluetooth transmitters). <https://locatify.com/the-complete-guide-to-scavenger-hunt-apps/>
+- Nelson, Graham. *The Inform Designer's Manual* (DM4), §50, "The design of puzzles" (IF fairness; locked door before key). <http://inform-fiction.org/manual/html/s50.html>
+- "Diegetic Interface." TV Tropes. <https://tvtropes.org/pmwiki/pmwiki.php/Main/DiegeticInterface>
+- "150+ Developers Push to Define a New 'Fake OS' Genre on Steam." 80.lv. <https://80.lv/articles/150-developers-push-to-define-a-new-fake-os-genre-on-steam>
+- "Barlow's (Her) Story: Interactivity, Immersion, and Authorship." Interactive Media Archive. <https://interactivemediaarchive.wordpress.com/barlows-her-story-interactivity-immersion-and-authorship/>
+- Short, Emily. "Her Story (Sam Barlow)." Emily Short's Interactive Storytelling. <https://emshort.blog/2015/06/24/her-story-sam-barlow/>
+- "Hypnospace Outlaw." Steam store page. <https://store.steampowered.com/app/844590/Hypnospace_Outlaw/>
+- "Return of the Obra Dinn." Wikipedia. <https://en.wikipedia.org/wiki/Return_of_the_Obra_Dinn>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
+- [Artefact Design & Document Production](artefact-design-and-document-production.qmd)
+- [Cue Management & GM Station](cue-management-and-gm-station.qmd)
+- [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
+- [Lock Taxonomy](lock-taxonomy.qmd)
+- [Making It Real](../../primers/making-it-real.qmd)
+- [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd)
+- [QR & NFC Patterns](qr-and-nfc-patterns.qmd)
 - [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd)
+- [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd)
 
 <!-- BACKLINKS:END -->

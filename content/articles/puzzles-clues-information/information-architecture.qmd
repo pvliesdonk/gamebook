@@ -112,6 +112,7 @@ The seductive failure is the packet that knows too much. You write one character
 - [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd)
 - [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
 - [Cluing & Fairness](cluing-and-fairness.qmd)
+- [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
 - [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)
 - [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
 - [Self-Resolving Puzzles](self-resolving-puzzles.qmd)

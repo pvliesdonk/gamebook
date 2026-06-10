@@ -1,14 +1,124 @@
 ---
 title: "QR & NFC Patterns"
-aliases: []
+aliases: ["QR Codes", "NFC Tags", "Scan-to-Unlock", "Phone-Unlocks-Clue"]
 family: "Space, Props & Materiality"
-media: []
+media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [physical-digital-bridge, presence-proof, discovery]
+  problems: [sequence-breaking, spoiler-leak, connectivity-failure, immersion-break]
+  components: [qr-code, nfc-tag, companion-app, scannable-prop]
+  genre: [mystery, heist, treasure-hunt]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The print or chip that turns a player's own phone into the key that opens the next piece of the game.*
+
+A QR code or an NFC tag is the cheapest bridge between a physical prop and the digital content behind it. The player already carries the reader in their pocket. Print a square of dots on a card; laminate a coin-sized chip inside a prop. A phone does the rest. It reads the payload and follows it to whatever waits behind, which might be a clue or a recording, a web page or a signal that opens a lock. The whole technology costs a few cents per tag and asks the player only to point or tap.
+
+That cheapness hides two hard problems. The first is keeping players from reading ahead. A scan that fires at the wrong moment hands out an unearned clue, and in group play that clue then reaches everyone within seconds. The second problem is what happens when the network is gone. On an outdoor course or in an old building that is most of the time. Get either wrong and the bridge collapses under the players standing on it.
+
+This article is about how to choose between the two technologies and place them so they read as part of the game, then build the fallbacks that keep the experience standing when connectivity drops away.
+
+## The Mechanism (How it works)
+
+### QR against NFC: the same job, two physical contracts
+
+Both technologies do one thing. Each holds a small payload (a URL, a contact card, or a few words of raw text) ready for a phone on demand. [researched] The difference is in how the phone gets at it, and that difference reshapes pacing, agency, and the chance of a player breaking sequence.
+
+A QR code stores its data in the printed image itself. A static QR code carries its whole destination inside the pattern, so it works with no server and lasts as long as the ink, though it is trivially photographed and passed on. A redirecting QR code (from a service such as Bitly or Uniqode) stores only a short pointer. You can repoint the destination after printing while the service logs every scan. The catch is that the redirect needs a live server to answer. [researched] A camera does the reading, so the code scans from across a room and prints on almost any surface.
+
+An NFC tag is a small chip and antenna that wakes up only inside a reader's radio field at very short range, typically under 40 mm. [researched] The NXP NTAG family is the usual choice for game work. A tag carries no visible mark. It can sit hidden inside a prop or laminated within a sheet of paper, stuck under a surface with nothing to announce it. That invisibility is the design lever. A tag suits a hidden moment far better than a signposted waypoint, because finding that an interface exists at all becomes part of the puzzle.
+
+The social difference matters as much as the physical one. Photograph a QR code once, drop it into a group chat, and a single player's scan has handed the clue to everyone who never visited the spot. An NFC tag has to be tapped by each phone at the tag itself. That makes it a far stronger proof-of-presence gate for anything that turns on a player really being somewhere. [researched]
+
+| Property | QR code | NFC tag |
+|---|---|---|
+| Read by | Camera, at a distance | Tap, under 40 mm |
+| Visibility | Printed, visible | Can be fully hidden |
+| Works offline | Static yes; redirecting no | Yes, payload sits on the chip |
+| Editable after print | Static no; redirecting yes | Yes, until lock bits are set |
+| Shareable by photo | Yes (a spoiler risk) | No (each phone must tap) |
+| Cost per unit | Near zero (ink) | A few cents (chip) |
+| Best fit | Waypoints, signposted scans | Hidden interfaces, presence gates |
+
+The on-chip capacity sets what a tag can hold offline, and the variants trade memory against cost. An NTAG213 gives you 144 bytes for a short URL or a five-word clue. An NTAG215 stretches to 504 bytes and holds a paragraph of instructions. An NTAG216 reaches 888 bytes for longer records. The NTAG424 DNA adds cryptographic anti-cloning for the case where a forged tap would break the game. [researched] All three of the cheaper variants carry one-time lock bits that freeze the payload so neither a curious player nor a stray writer app can overwrite it. Locking tags before deployment is not optional; an unlocked tag in the field is content waiting to be corrupted. [researched]
+
+This whole choice is one instance of the larger question of when a thing belongs on a screen at all, which is [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd), and what a phone-mediated object does to the felt world of the game, which is [Digital Props](digital-props.qmd).
+
+### Stopping the scan-ahead
+
+The single biggest failure mode is the player who scans ahead. Someone working stage three stumbles on the code for stage seven and scans it, and out comes a clue with no context. In group play they share it at once, and the careful sequence you built is gone. [researched] The print is only half a gate. A code or tag that hands over its content to anyone who reads it has no idea where in the game that reader is.
+
+The durable fix is to gate the content on game state at the server, not on possession of the code. A URL that resolves to a clue only once the server has registered the team checking in at the previous stage stays useless to anyone who finds it early. The scan still happens; the content simply is not there yet. [researched] Physical concealment is the cheap first layer underneath that. Print the code inside a sealed envelope or under a pull-tab on the inside face of a lid so that the player has to reach the intended moment before the code becomes visible at all. [researched] A time-locked redirect shows a holding page until the unlock window opens. This covers the multi-day course laid out days ahead, where every station is in place from the start. [researched]
+
+NFC has its own versions of the same discipline. Lock the tag so its payload cannot be rewritten, then point that locked payload at a gated page rather than at the clue itself. Append a short-lived token to the tag's URL. The server then refuses content the moment it sees the same token used twice or out of order, which catches the "dump the tag and share it" exploit with no extra hardware. [researched] This is the materiality-side expression of a contract the puzzle family treats at length. A gate has to look like a gate. The player reaches the content behind it only once that content is earned. The general form is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). The server logic that enforces it is [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd).
+
+The sequential lock chain is the cleanest structural answer. Each stage holds only a stage-identifier token, never the clue. Loading it registers the team's progress and reveals the next stage's URL on screen, generated server-side and printed nowhere. A player cannot skip ahead because the next address never exists in their hands until the current stage is done. [researched]
+
+### Holding the game together when the network drops
+
+Outdoor events and old buildings destroy connectivity assumptions on contact, so the design has to plan for the degraded state from the first sketch rather than bolt a fallback on at the end. [synthesis]
+
+A static QR code that encodes the clue text directly, rather than a URL, works with no internet at all; you trade editing and analytics for a code that cannot fail to a dead server. For a short clue that trade is worth it. [researched] NFC carries the same property natively: a plaintext payload sits on the chip and reads back with the phone in airplane mode, so an NTAG213 holds a one-line clue and an NTAG215 a paragraph, both available with no signal. [researched]
+
+The strong pattern combines the two. Run redirecting QR codes as the primary path for the richer, editable content, and store a short offline payload on an NFC tag at the same station. A player with good signal scans the QR code; a player whose phone cannot reach the server taps the tag and still moves on. The two payloads need not be identical, only good enough to keep the game going. [researched] Where even that is too much hardware, a sealed envelope at each station labelled "open only if your phone cannot scan" holds the clue in plain text, which adds staff overhead but removes the total-block scenario outright. [researched] If the content runs through a web app, a service worker can pre-cache every clue at registration, so a player offline during the game still gets the right page and the server is needed only to validate state at check-in. [researched]
+
+::: {.callout-warning}
+### The Hazard
+The seductive plan is the all-redirect course. Every code becomes a tidy editable pointer with analytics on every scan and content you fix from your phone mid-event. It demos beautifully in the office where the signal is full. Then the players reach the venue basement or the far corner of the field. The redirect server cannot be reached, and the clue that lived behind it is simply gone. The codes are fine and so are the phones. Still the game has stopped. The tell is that you tested the build at your desk and never at the site. Static fallbacks and on-chip payloads and sealed envelopes feel like belt-and-braces until the one stage with no signal is the stage that strands every team. Test on the course at the dead spot before the players ever do. [synthesis]
+:::
+
+### Placing the tag so it reads as part of the game
+
+Where a scannable surface sits decides both whether it works and whether it breaks the fiction. A visible QR code on a sign tells the player plainly that a scan is expected. A hidden tag inside a prop demands they discover it first. That raises the friction and is worth it only when the discovery itself is part of the puzzle. [researched] Reach matters too. Put scannable surfaces at roughly the height of a phone held at arm's length, around 110 to 130 cm above the floor. A placement that forces a crouch or a climb reads as arbitrary unless the physical challenge is meant. [researched]
+
+Materials fight you in specific ways worth knowing before you build. An NFC tag fails on or near metal, which detunes its antenna, so a tag inside a metal prop needs an on-metal variant with a ferrite spacer. [researched] QR codes degrade on glossy or sharply curved surfaces, with matte laminate at moderate curve the practical limit. [researched] Two NFC tags closer than about 50 mm interfere, and a phone reads only one per tap with no way to predict which, while QR codes tile a surface freely because the camera frames the one it wants. [researched] For any tag that carries a stage on its own, a backup tag directly behind the first, with the same payload, doubles the material cost and roughly halves the on-site failures from a weathered or cracked chip. [researched]
+
+There is a quieter limit on how often you reach for the mechanism at all. More than six to eight scan-to-unlock moments in a two-hour game turns the interaction into a chore. The scan is best saved for a genuine discovery or a puzzle payoff rather than spent on routine content delivery. [researched] Phones are the last operational trap. An iPhone reads NFC URL tags in the background on current iOS and opens the link itself. Android behaviour varies by maker. Some phones need NFC switched on by hand, so the pre-game brief has to tell players what state their phone needs to be in. [researched]
+
+Every one of these placements also answers to the fiction. A bare QR code on a card in a Victorian seance room announces the game by several centuries, the same break a modern padlock makes on a medieval chest. The resolution is the family's standing one: give the scan a diegetic home, or accept the cost plainly, but never split the difference. That craft is [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd), and the prop the tag hides inside has its own provenance reasoning in [Artefact Design & Document Production](artefact-design-and-document-production.qmd).
+
+### The same bridge in the hunt and on the table
+
+The pattern reaches well past the escape room. In an outdoor puzzle hunt a QR code anchored to a real surface replaces the GPS waypoint that drifts by several metres and fires in the wrong place; the scan proves the player reached the exact spot in a way a satellite fix cannot. [synthesis] NFC raises that proof higher still, since each phone has to physically tap the tag and no one can satisfy the gate from the car park. Either way the scan doubles as authentication and delivery in one motion. That is why hunts lean on it for the phone-unlocks-the-next-clue chains that move solvers through space. The lineage of those distributed trails is [Treasure & Scavenger Hunts](../puzzles-clues-information/treasure-and-scavenger-hunts.qmd).
+
+On the tabletop the same bridge splits into two distinct shapes. The first is QR-gated companion content. Chronicles of Crime prints a unique QR code on every location board and character card and on every piece of evidence. Scanning is how a player surfaces what a witness says or what a clue holds. The app needs no internet once installed, and a whole new scenario ships as an app update with nothing physical to post. [researched] The second is the read-write NFC token, the "toys-to-life" figurine. Skylanders was the first mainstream NFC product in 2011, with a tag in each figure and a reader (the Portal of Power) that both reads and writes, so the figure carries and updates its own changing stats. Nintendo's amiibo generalised the same read-write protocol across its platforms. [researched]
+
+That contrast names the deeper design axis. A QR code is read-only. It is an index, a key that points into content held somewhere else. An NFC tag can be read-write. It holds game state on the object itself. The figurine is then not just a key but a save file you can carry. [synthesis] Both make a manufactured physical thing the access token for digital content. Only the writable tag stores the game's state inside the artefact, and that single property is what separates a scannable card from a living component.
+
+::: {.callout-note}
+### The Specimen
+Chronicles of Crime (Corentin Lebrat and Wenceslas, 2018) runs an entire investigation board game off QR codes and one shared phone. Every location and character carries its own printed code, and so does every category of evidence. To question a witness you scan their card; to ask them about a piece of evidence you scan the evidence too. The app then returns what that pairing reveals and charges in-game minutes for the scan and the journey across London. The codes are the whole interface between the cardboard and the branching story, so the game can hold an open choose-your-path structure that no fixed card text could. The app installs from a store but needs no connection during play. The bridge keeps working at a kitchen table with the wifi off. New cases arrive as app content rather than new boxes. That turns a printed component set into a platform the publisher can keep extending. [researched]
+:::
+
+## Where this fits
+
+**The bigger picture.** QR and NFC are the load-bearing hardware under the family's whole physical-digital seam. Wherever a prop has to reach digital content (a clue, a recording, a state change in software), one of these two carries the signal, and the choice between them sets the discovery feel, the spoiler risk, and the offline behaviour of everything built on top. The patterns sit downstream of two larger contracts and serve both. One is the fairness contract, because a scan that hands out unearned content is just an unfair gate wearing new clothes. The other is the immersion contract, since a code that reads as a game part by several centuries breaks the world as surely as any anachronistic lock. Get the technology choice and its gating right and the bridge is invisible: players feel only that their phone knew what to do. Get it wrong and the seam is all they see.
+
+**Next steps.** The server-side logic that makes state-gated scanning actually hold is [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd), and the fairness reasoning behind why a gate must look like a gate is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). Whether a given moment wants a phone at all, against a purely physical artefact, is [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd), and what a phone-mediated prop does to presence is [Digital Props](digital-props.qmd). When a tap triggers an event the operator has to watch and time, that control function is [Cue Management & GM Station](cue-management-and-gm-station.qmd). And the diegetic home a visible code needs, so it reads as part of the world rather than a sticker on it, is [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd).
+
+## Sources
+
+- NXP Semiconductors. "NTAG213/215/216 NFC Forum Type 2 Tag" datasheet, 2022 (memory 144/504/888 bytes, 13.56 MHz, range up to 40 mm, scan endurance 50k/200k/500k). <https://www.nxp.com/docs/en/data-sheet/NTAG213_215_216.pdf>
+- RFIDCard. "Find Your Perfect NFC Match: Guide to NXP NTAG 213/215/216" (variant comparison for interactive and gaming use). <https://www.rfidcard.com/find-your-perfect-nfc-match-guide-to-nxp-ntag-213-215-216/>
+- NXP Semiconductors. "NTAG 424 DNA" product page (cryptographic authentication / anti-cloning tap). <https://www.nxp.com/products/rfid-nfc/nfc-hf/ntag-for-tags-and-labels/ntag-424-dna-424-dna-tagtamper-advanced-security-and-privacy-for-trusted-iot-applications:NTAG424DNA>
+- Scanova. "Static vs Dynamic QR Codes," 2026 (offline static codes; redirect-server dependence; scheduled and time-window redirects). <https://scanova.io/blog/static-vs-dynamic-qr-codes/>
+- MacMost. "How To Create a Treasure Hunt Game With Your iPhone and NFC Tags" (placement and hiding strategies). <https://macmost.com/how-to-create-a-treasure-hunt-game-with-your-iphone-and-nfc-tags.html>
+- NFCWork. "Building NFC-Connected Escape Rooms: A Technical Guide" (tags in props, backup-tag strategy, on-metal tags, player interaction patterns). <https://nfcwork.com/building-nfc-connected-escape-rooms-a-technical-guide-for-enterprises/>
+- Apple. "Core NFC" developer documentation (background NDEF URL tag reading on iOS 13+). <https://developer.apple.com/documentation/corenfc>
+- Big Red Barrel. "Review: Chronicles of Crime," 2019 (per-card QR codes; one shared phone; offline after install; scenarios as app content). <https://www.bigredbarrel.com/2019/12/02/review-chronicles-of-crime/>
+- UltraBoardGames. "How to play Chronicles of Crime: Official Rules" (scanning locations, characters, and evidence; time costs). <https://www.ultraboardgames.com/chronicles-of-crime/game-rules.php>
+- "Toys-to-life." Wikipedia (Skylanders 2011 as the first mainstream NFC product; Portal of Power reader). <https://en.wikipedia.org/wiki/Toys-to-life>
+- "Amiibo." Wikipedia (Nintendo's read-write NFC figures generalising the toys-to-life protocol across platforms). <https://en.wikipedia.org/wiki/Amiibo>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Artefact Design & Document Production](artefact-design-and-document-production.qmd)
+- [Cue Management & GM Station](cue-management-and-gm-station.qmd)
+- [Digital Props](digital-props.qmd)
+- [Making It Real](../../primers/making-it-real.qmd)
+- [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd)
+
+<!-- BACKLINKS:END -->

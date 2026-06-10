@@ -80,11 +80,11 @@ resolved).
 
 | Family | Anchor article (F1) | Primer(s) (F5, dup-check first) | Special handling |
 |---|---|---|---|
-| **Space, Props & Materiality** (#48) | Theme, Immersion & Sensory Environment | Diegesis & the Magic Circle *(confirm family)* | Family is physical-craft; lean on the cross-link note's Tabletop-gap research. |
+| **Space, Props & Materiality** (#48) | Theme, Immersion & Sensory Environment | **Making It Real** (the material layer; replaced "Diegesis & the Magic Circle") | Family is physical-craft; lean on the cross-link note's Tabletop-gap research. |
 | **Structure & Pacing** (#44) | Branching Narrative Craft | Structure & Branching Topologies; Pacing & Tension Curves | IF-heavy home pillar; many ◐ to Live/Tabletop/Hunt. |
 | **Players & Social Dynamics** (#47) | Trust, Conformity & Social Pressure | The Social Contract & Safety | Safety/consent material — handle with care. |
 | **Systems & Mechanics** (#49) | Mechanical Resolution Types | Resolution & Randomness | **Boardgame Appendix 6Z** (Mechanism Vocabulary, Euro vs Ameritrash, Deckbuilders) is **Tabletop-only** per the Gate-C1 rescope — write scoped as the reference appendix. |
-| **Story, Character & Voice** (#46) | Character Voice | Diegesis & the Magic Circle *(if not placed in Space)* | **Genre block:** the 7 genre articles write from `research/gaps/genre-conventions-router.md`; the map-article **"A Taxonomy of Genre Conventions"** is where the **map-variant template is validated** (Q3 carry-over; see the `<!-- TEMPLATE-NOTE -->` in `a-taxonomy-of-puzzles.qmd`). |
+| **Story, Character & Voice** (#46) | Character Voice | **Diegesis & the Magic Circle** (its natural home) | **Genre block:** the 7 genre articles write from `research/gaps/genre-conventions-router.md`; the map-article **"A Taxonomy of Genre Conventions"** is where the **map-variant template is validated** (Q3 carry-over; see the `<!-- TEMPLATE-NOTE -->` in `a-taxonomy-of-puzzles.qmd`). |
 
 **Cross-cutting primers to place deliberately (with dup-check):**
 - **Information Architecture** primer — **overlaps the Information Architecture *article*** (Puzzles,

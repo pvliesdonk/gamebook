@@ -91,8 +91,10 @@ The two recurring failures are the anticlimax and the let-down of the curtain. S
 
 ## Referenced by
 
+- [Physical vs Digital Puzzle Artefacts](../space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd)
 - [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
 - [The Fairness Contract](../../primers/the-fairness-contract.qmd)
+- [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd)
 - [Treasure & Scavenger Hunts](treasure-and-scavenger-hunts.qmd)
 
 <!-- BACKLINKS:END -->

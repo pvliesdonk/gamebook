@@ -95,6 +95,8 @@ The armchair hunt's signature failure is the clue that is unsolvable or fatally 
 
 ## Referenced by
 
+- [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd)
+- [QR & NFC Patterns](../space-props-materiality/qr-and-nfc-patterns.qmd)
 - [The Fairness Contract](../../primers/the-fairness-contract.qmd)
 - [The Puzzle Hunt & ARG Tradition](the-puzzle-hunt-and-arg-tradition.qmd)
 

@@ -1,22 +1,141 @@
 ---
 title: "Artefact Design & Document Production"
-aliases: []
+aliases: ["Narrative Objects", "Props & Feelies", "Document Forgery", "Handout Production"]
 family: "Space, Props & Materiality"
-media: []
+media: [live-game, interactive-fiction, puzzle-hunt, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [tactile-belief, narrative-weight, period-authenticity, discovery]
+  problems: [fake-looking-prop, anachronism, illegible-handout, decorative-object-mistaken-for-clue]
+  components: [aged-paper, period-font, wax-seal, letterlock, evidence-document, feelie]
+  genre: [mystery, horror, historical, heist]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The object the player holds and believes, and the craft of making a printed sheet carry a whole act of story.*
+
+A prop is the point where the fiction becomes a thing the player holds in the hand. Take a coded letter, a coroner's report, a burned fragment of a ship's wheel. Each one asks the player to accept that the world it came from is real. A convincing object does narrative work no description rivals, because the player is no longer being told about the world but is handling a piece of it. When the object fails to convince, the failure is loud. A bright-white sheet pretending to be a 1920s telegram reads as a printout the moment it reaches the hand.
+
+The gap between the two is almost always one specific layer gone wrong. The usual culprits are a wrong paper baseline or an anachronistic typeface; ageing applied so evenly it looks sprayed on; a digital component that exposes the production behind it. [researched] This article is about closing that gap. It treats the artefact as a narrative object first and a manufactured thing second, and it covers the full stack from raw paper to finished seal, plus the harder question that sits underneath all of it: who, inside the story, made this object, and why.
+
+This is the concrete other half of the family's theme work. Where [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd) decides what the world should feel like, artefact design builds the things that carry that feeling into the player's hands.
+
+## The Mechanism (How it works)
+
+### The object as the primary carrier
+
+The first decision is whether the object illustrates the text or the text explains the object. Most amateur props get this backwards, writing the story first and then adding a prop to decorate it. The stronger inversion, which the Mysterious Package Company made its house style, lets the object carry the meaning while the text contextualises the object rather than the other way round. [researched] Co-founder Tim Sullivan frames the whole enterprise as telling stories in the medium of the postal service, and the artefacts bear that weight directly. One box holds aged blood-streaked dossiers; another a ritual scroll that needs runic translation; another a burned ship's-wheel fragment, aged to a 150-year appearance and fitted with an engraved brass plate. [researched] Reviewing one of their boxes, Emily Short judged the production quality to be out-competing most of the Infocom feelies, which is the highest praise the form has. [researched]
+
+That comparison is not incidental. The feelie is interactive fiction's physical artefact, and it is where this craft was first commercialised. Infocom packed its text adventures with physical extras from *Deadline* (1982) onward. Sealed in that box were a police interview transcript and a coroner's report, along with pills lifted from the crime scene. [researched] The items did double duty. Each one deepened the fiction and doubled as copy protection. Because it held information the game needed, a pirated disk on its own could not be played. [researched] The lineage matters because it shows the artefact is not decoration bolted onto a digital story. It can be the part of the story the player trusts most, precisely because it is the part they can hold.
+
+### Always print first, then age
+
+The single most common ordering mistake is ageing the paper before printing on it. A stained or crumpled sheet jams the printer and takes toner unevenly. Print on flat fresh stock, then age the printed sheet. [researched] Laser toner is fused with heat and survives every wet treatment immediately; inkjet ink sits on the surface and needs around 24 hours to cure (or a sealing coat of matte medium) before it meets water. [researched] The fabrication sequence the Mysterious Package Company uses for its three-dimensional objects follows the same rule one step out: objects are manufactured, varnished, burned, and aged, in that order, never aged during fabrication. [researched]
+
+### Substrate before technique
+
+The instinct is to reach for tea and a candle. The more important choice is made before any of that, at the paper itself. Modern bright-white office paper contains optical brighteners, added since the late 1940s to make paper look whiter, and those brighteners actively fight a warm stain. Tea on bright-white stock produces something that looks dyed, not aged. [researched] The fix is to start from a substrate that was never bright. Unbleached kraft or newsprint serves at the cheap end. For higher fidelity, cotton rag papers such as Fabriano Artistico or Hahnemühle hold stain the way genuine old paper does. [researched]
+
+The brighteners carry a second risk that catches designers off guard. Modern papers fluoresce blue-white under ultraviolet light, which is exactly how forensic document examiners spot a modern forgery. [researched] If your game hands players a UV torch for an invisible-ink mechanic, the base paper of every "antique" prop glows modern the instant the torch sweeps across it. Cotton rag papers without brighteners carry no such tell. There is a related period check in the paper's structure. Laid paper, with its visible gridiron watermark, was universal before roughly 1755, while smooth wove paper came later, so a document claiming to predate 1755 on smooth wove stock is quietly anachronistic to anyone who knows to look. [researched]
+
+The ageing methods themselves trade effort against effect, and it helps to see them side by side rather than as a single "distress the paper" step.
+
+| Method | Effort | Output | Best for |
+|---|---|---|---|
+| Tea soak | Low | Warm yellow, even | First-coat baseline [researched] |
+| Coffee soak / crystals | Low | Darker; spot foxing | Ledgers, maps, blotching [researched] |
+| Oven bake (~95°C, 5–8 min) | Low | Dries and browns evenly | Fast finishing pass [researched] |
+| Walnut ink | Medium | Rich complex brown | Cotton rag stock [researched] |
+| Scorched edges | Medium | Graduated brown edge | Edge distressing [researched] |
+| Steel-wool oxidation | High | Grey-to-black | Newspaper, ledger [researched] |
+
+Whatever method you choose, the discipline is to age unevenly. Real documents wear most at the edges and the fold points and the back, so treatment applied flat and even across a sheet reads as applied. [researched] The cheapest convincing trick is to carry the finished prop in a pocket for several days, where body heat and humidity and fabric abrasion together produce wear that is very hard to fake any other way. [researched]
+
+### Period type and period ink
+
+Typography is where a player with any visual literacy catches the fake. Setting a 1680 document in a Didone typeface fails because that style did not exist until the 1780s; putting Times New Roman on a 1926 newspaper fails because Times was not cut until 1932. [researched] The trope is common enough that forensic examiners use font anachronism as a forgery test, and TV Tropes catalogues it at length. [researched] The fix is to match the typeface to the period, and free options carry surprisingly far. IM Fell English, a digitisation of a 17th-century Oxford typeface, has an irregular baseline that reads as genuinely old, and period practice was to set a blackletter or display face in the heading over a readable serif for the body. [researched] Handwriting follows the same rule through its ink, since blue or blue-black fountain-pen ink reads as modern at a glance, so period correspondence wants iron gall, walnut, or sepia tones instead. [researched]
+
+### Letterlocking: the fold as security and as puzzle
+
+Before the gummed envelope, a letter was folded so that it became its own envelope and carried built-in evidence of tampering. This is letterlocking, a term coined by MIT Libraries conservator Jana Dambrogio after she noticed the technique in 15th- and 16th-century letters in the Vatican archives. The taxonomy she and her collaborators built runs to 64 categories from six core manipulations (fold, tuck, slit, adhere, and three kinds of lock), documented in full in *Letterlocking: The Hidden History of the Letter*. [researched] For the prop designer the history is also a toolbox. The triangle lock, the most common European form between the 15th and 18th centuries, threads a triangle cut from the letter through a slit in the fold and seals it. [researched] The spiral lock, used by Mary, Queen of Scots, runs to more than thirty steps and tears if forced. [researched] A dagger-trap lock, documented in a 1601 intelligence letter, is disguised as a weaker lock and rips its own message if an unwary opener unfolds it wrong, producing permanent tamper evidence. [researched]
+
+What makes this more than reenactment is that letterlocking cleanly separates two puzzles. There is the access puzzle (how do you open this without destroying it) and the content puzzle (what does it say), and they can be designed to reinforce each other or to run independently. [researched] A dagger-trap lock that tears the message in half if opened carelessly fuses the two; a simple triangle lock keeps them apart and just makes the unfolding part of the experience. Either way the act of opening becomes part of the game rather than a thing the player does before the game starts. The locking hardware (wax seals, document grommets threaded with cord) belongs to the same craft of physical security as the locks in [Lock Taxonomy](lock-taxonomy.qmd), and the reveal-on-opening shares its logic with [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd).
+
+::: {.callout-note}
+### The Specimen
+The H. P. Lovecraft Historical Society's Prop Collection ships around 100 printable 1920s–30s props (passports, telegrams, asylum paperwork, stock certificates) built on period-correct embedded fonts: an HPLHS Telegram face styled on 1920s Western Union, softened-edge newspaper headline faces, period blackletter. Their newspaper clippings are printed on one of the few remaining newspaper presses still running. [researched] It is a working illustration of the whole stack at once. The type is period and the substrate is right and the production problem is already solved, so the designer downloads a believable artefact rather than rebuilding the craft from raw paper. Forensic props lean on the same realism from the other direction. A real paper evidence bag carries correct printed chain-of-custody fields and reads as authentic because it is, while "chain of custody" on the label is genuine legal terminology rather than flavour text. [researched]
+:::
+
+### Who made this object: provenance inside the fiction
+
+The technical stack produces a convincing object. It does not make that object mean anything. Meaning comes from a question asked before any paper is stained: who, inside the story, made or placed this thing, and why? An evidence bag in a detective's office makes sense, because a detective bags evidence. The same bag dropped in a hallway is on-theme but not immersive, because no character had a reason to leave it there. The Strange Bird Immersive test is blunt and useful: is that a thing a human would do? [researched] An object that passes it earns a place in the world; an object that fails it reads as a game part wearing a costume. This is the in-world provenance reasoning that [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd) treats from the world side and that [Physical Clue Formats](physical-clue-formats.qmd) carries into the choice of which format a given clue should take.
+
+The same discipline governs the legibility tradeoff. A handwritten cursive letter aged to perfection is authentic and, for many players, unreadable. Hunt A Killer ran into this directly and shipped its *Curtain Call* season with a virtual desktop website giving typed transcriptions of the handwritten props, letting the player choose fidelity or function. [researched] The cleaner move is to design both into the fiction from the start: the authentic prop plus a diegetically motivated legible copy ("I have transcribed Detective Gray's notes below for clarity"), so the readable version is itself an in-world object rather than an admission that the prop failed.
+
+### Production scale changes the object
+
+A prop that works in a run of five is often the prop that cannot survive a run of five hundred unchanged. [researched] This is the axis that splits the craft. At the table or in a single live game, ageing is artisanal: one-off staining, hand-distressing, a prop carried in a pocket. At commercial scale it becomes art-directed printing. Hunt A Killer began with bespoke objects (genuine alligator teeth, rags soaked in fake blood and wrapped in cellophane to stay wet) and deliberately migrated to mass-producible substitutes as it scaled to tens of thousands of boxes a month, discontinuing the blood shipments and printing documents on period-matched stock instead, with typewritten letters carrying the indentations a real typewriter would leave. [researched] Neither approach is the right one. The production run is itself a design input, decided early, because variable data (a unique name or serial on each of 500 sheets) costs real money that identical sheets do not, and because the detail that sells a one-off is often the first thing value-engineered out of a print run. [synthesis]
+
+Tabletop play sits at the artisanal pole and has built its own vocabulary for it. In a tabletop role-playing game an in-world document (a letter, a contract, a mission briefing, a torn map) is treated as a deliberate craft rather than an undifferentiated component. A handout puts in front of the player the very thing their character sees in the fiction. No spoken description delivers that. [researched] The named techniques are the same reduced stack. The sheet goes onto parchment or résumé paper in a period font. It takes a tea or coffee soak. Its edges are distressed with a tear or a singe, and a final scrunch-and-flatten weathers the surface. The guiding rule is authenticity over perfection, since aged paper and messy handwriting read as more real than clean output. [researched] Practitioners go a step further into staging. They pre-sort handouts into labelled envelopes by scene so a prop reaches the table at the right beat without breaking the flow, which makes the document a tool of pacing as well as fiction. [researched] Boardgames meet the same objects from the manufactured side, where feelies and sealed letters are budgeted as components in a print run rather than hand-aged at the table. That is the same split between artisanal and art-directed production seen across every medium here. [synthesis] The mechanical question of whether an object is better physical or on a screen is [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd), and how any of these survive repeated play is [Materials, Durability & Reset](materials-durability-and-reset.qmd).
+
+### When the artefact stands alone
+
+The purest form of this craft is the artefact that is the entire game, with no host or room or screen behind it. The puzzle-hunt tradition has produced two landmarks. *Cain's Jawbone* (1934) is a 100-page murder mystery printed with its pages deliberately out of order; the reader must reconstruct the single correct sequence out of the 100-factorial possibilities, with each page ending on a complete sentence so no half-sentence can be matched across a join. [researched] *Maze* (1985) is a book of 45 rooms, one per page, that hides its path in the illustrations. A door numbered 17 is concealed in room 29 by a perspective trick, so the route opens only to the player who reads the pictures as closely as the text. [researched] In both, every production choice is load-bearing. The binding and the page order and the very picture on the page are the puzzle rather than a frame around it. These take the document-production craft to its limit, where nothing is left but the artefact. They belong beside the print-clue work in [Physical Clue Formats](physical-clue-formats.qmd) and the format question in [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd).
+
+### The digital component must explain itself
+
+The moment a physical artefact carries a digital element, the period can break. A QR code on an aged 1920s letter is a visible contradiction, a stamp of the present pressed onto the past. [researched] The workable patterns all preserve the artefact's integrity rather than the convenience of the code. Keep QR codes off period objects entirely and put them only on diegetically modern elements; or hide the code in a sealed envelope the player opens only after they have accepted the artefact, so it reads as a player tool and not an artefact feature; or laminate an NFC tag invisibly between two sheets so there is no visible indicator at all. [researched] Hunt A Killer's cleanest version frames its digital layer as the player's own computer holding the case file, so the physical props stay in-period and the digital extension is the detective's real-world tool rather than an anachronistic appendage of the prop. [researched] The governing rule is twofold: the digital component must reveal something the physical alone cannot, and its existence must be explicable within the fiction. [researched] How those triggers are built is [QR & NFC Patterns](qr-and-nfc-patterns.qmd), and the digital object as a class is [Digital Props](digital-props.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The decorative object that looks like a clue is the quiet killer of an evidence pack. Hunt A Killer's first season shipped a promotional pencil with no designed role, and players burned real investigation time on it, because nothing in the set let them separate a clue from a souvenir. [researched] Once a player has accepted that the objects are real, they take every object to mean something. An item that means nothing then reads as a puzzle the player is failing to solve. The rule that follows is strict. Every object in the set should solve a puzzle or raise a narrative question, and anything that does neither has to be framed openly as atmosphere. There is no fourth category of "just there." The same trap waits on the ARG side, where a correct solution must be obviously correct and any leap of faith must immediately succeed, so an artefact that needs real-world knowledge the fiction never supplied breaks for every player who lacks it. [researched] The discipline is the same one the whole craft rests on: an object the player cannot place is an object the player cannot trust. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Artefact design is where the family's abstractions become things with weight. Theme decides the world and spatial layout decides where the player stands in it, while locks and reveals decide what opens; the artefact is what the player actually holds while all of that happens. It depends on theme to tell it what to be (an object with no in-world author is decoration, however well aged) and on materials and durability to survive contact with real hands. What depends on it is trust. The artefact is usually the most concrete promise the fiction makes, the part the player tests by touch. A prop that fails the test takes the surrounding fiction down with it. So the craft runs from the chemistry of a tea stain all the way up to the question of who, inside the story, made the thing. Both ends have to hold, because the player feels the wrong paper and notices the missing author even when unable to name either.
+
+**Next steps.** With the object designed, the work branches to its neighbours. What it is made of and how it survives repeated play is [Materials, Durability & Reset](materials-durability-and-reset.qmd); where the raw stock and the period hardware come from is [Fabrication & Sourcing](fabrication-and-sourcing.qmd). The choice of which physical form a clue should take is [Physical Clue Formats](physical-clue-formats.qmd), and whether that clue is better physical or digital is [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd). The locks and tamper-evidence the fiction has to justify are [Lock Taxonomy](lock-taxonomy.qmd) and [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd). The world that tells every object what to be is [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd). When an artefact carries a cipher, the fairness of that cipher belongs to [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd) and its construction to [Ciphers & Codes](../puzzles-clues-information/ciphers-and-codes.qmd).
+
+## Sources
+
+- Mysterious Package Company, "About Us" (Tim Sullivan, postal-storytelling principle). <https://mysteriouspackage.com/pages/about>
+- Short, Emily. "The Century Beast (Mysterious Package Company)." June 2015 (production "out-competing most of the Infocom feelies"; "manufactured, varnished, burned, and aged"). <https://emshort.blog/2015/06/12/the-century-beast-the-mysterious-package-company/>
+- "Feelie." Wikipedia (Infocom feelies; *Deadline* 1982; copy-protection function). <https://en.wikipedia.org/wiki/Feelie>
+- Inc. magazine. "This Business Made a Killing by Mailing Murder Mysteries" (Hunt A Killer scale, alligator-teeth-to-substitute migration). <https://www.inc.com/magazine/202009/kevin-j-ryan/hunt-killer-murder-mystery-subscription-box-game-2020-inc5000.html>
+- How-To Geek. "Hunt A Killer Curtain Call Review" (virtual-desktop handwritten-letter transcriptions). <https://www.howtogeek.com/143430/hunt-a-killers-curtain-call-box-set-review-an-exciting-mystery/>
+- Cycleback, David. "Identifying and Dating Paper." February 2013 (optical brighteners, UV fluorescence, laid vs wove pre-1755). <https://davidcycleback.com/2013/02/10/identifying-and-dating-paper/>
+- Cephalopod Productions. "Paper Ageing Techniques." 2009 (oxidation, physical distressing, pocket-carry wear). <https://cephalopodprods.wordpress.com/2009/02/09/paper-ageing-techniques/>
+- Homeschooling-ideas.com. "How to Age Paper" (oven method temperatures). <https://www.homeschooling-ideas.com/how-to-age-paper.html>
+- Bausenhardt, Julia. "How to Make Walnut Ink." <https://juliabausenhardt.com/how-to-make-walnut-ink/>
+- TV Tropes. "Font Anachronism." <https://tvtropes.org/pmwiki/pmwiki.php/Main/FontAnachronism>
+- Google Fonts / Notebook and Penguin. "Old English, Blackletter and Gothic Google Fonts" (IM Fell English; period pairing). <https://www.notebookandpenguin.com/old-english-blackletter-gothic-google-fonts/>
+- MIT News. "The Art and Science of Letterlocking." 2014. <https://news.mit.edu/2014/art-and-science-letterlocking>
+- MIT News. "Researchers Virtually Open Sealed Historic Letters." March 2021 (Mary, Queen of Scots spiral lock). <https://news.mit.edu/2021/researchers-virtually-open-sealed-historic-letters-0302>
+- Dambrogio, Smith and the Unlocking History Research Group. *Letterlocking: The Hidden History of the Letter.* MIT Press, 2025. ISBN 9780262049276. <https://mitpress.mit.edu/9780262049276/letterlocking/>
+- iBookBinding. "The Lost Art of Letterlocking" (triangle, dagger-trap, butterfly locks). <https://www.ibookbinding.com/blog/the-lost-art-of-letterlocking-tutorials-personal-experience-and-application-in-bookbinding/>
+- Immersology. "On-Theme vs Immersive" (Strange Bird; "is that a thing a human would do?"). <https://www.immersology.com/on-theme-vs-immersive/>
+- NIJ. "Documentation: Chain of Custody." <https://nij.ojp.gov/nij-hosted-online-training-courses/crime-scene-and-dna-basics-forensic-analysts/evidence-crime-scene/documentation-chain-custody>
+- HPLHS Store. "Prop Collection Vol. 1" (period prop fonts; newspaper-press printing). <https://store.hplhs.org/products/hplhs-prop-collection-vol-1>
+- Game Developer. "Alternate Reality Game Puzzle Design" ("any leaps of faith must immediately succeed"; decorative-object hazard). <https://www.gamedeveloper.com/design/alternate-reality-game-puzzle-design>
+- "Cain's Jawbone." Wikipedia (1934 out-of-order 100-page murder puzzle; 100-factorial orderings). <https://en.wikipedia.org/wiki/Cain%27s_Jawbone>
+- "Maze: Solve the World's Most Challenging Puzzle." Wikipedia (Christopher Manson, 1985; 45 rooms; hidden door 17 in room 29). <https://en.wikipedia.org/wiki/Maze:_Solve_the_World%27s_Most_Challenging_Puzzle>
+- Shea, Mike (Sly Flourish). "Making Great Handouts" (handouts as the thing the character sees; envelope pre-sorting). <https://slyflourish.com/making_great_handouts.html>
+- TTRPG Games. "Ultimate Guide to TTRPG Props and Handouts" (tea/coffee/singe ageing; authenticity over perfection). <https://www.ttrpg-games.com/blog/ultimate-guide-to-ttrpg-props-and-handouts/>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
 - [Ciphers & Codes](../puzzles-clues-information/ciphers-and-codes.qmd)
+- [Cue Management & GM Station](cue-management-and-gm-station.qmd)
+- [Digital Props](digital-props.qmd)
+- [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
+- [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd)
+- [Making It Real](../../primers/making-it-real.qmd)
+- [Materials, Durability & Reset](materials-durability-and-reset.qmd)
+- [Physical Clue Formats](physical-clue-formats.qmd)
+- [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd)
+- [QR & NFC Patterns](qr-and-nfc-patterns.qmd)
+- [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd)
 
 <!-- BACKLINKS:END -->
