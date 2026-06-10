@@ -1,14 +1,94 @@
 ---
 title: "A Taxonomy of Puzzles"
-aliases: []
+aliases: ["Puzzle Types", "Puzzle Categories", "Kinds of Puzzle"]
 family: "Puzzles, Clues & Information"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [variety, cognitive-range, earned-discovery]
+  problems: [solver-fatigue, one-note-design, mismatched-difficulty]
+  components: [puzzle-set, feeder-mix, difficulty-curve]
+  genre: [mystery, adventure]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #45. -->
+*Silhouette: The map of what a puzzle asks the mind to do, and what job it does in the hour around it.*
+
+Lay a cryptogram, a logic grid, and a hidden key on the same table and you have three objects that look like siblings and behave like strangers. One wants you to hear a word inside a string of letters. One wants you to grind constraints until a single answer survives. One just wants you to look under the rug. They share a family name, "puzzle," and almost nothing else. The work of a taxonomy is to make those differences legible before you build, so you can choose them on purpose instead of reaching for the same shape three times in a row.
+
+This article does not teach one mechanism. It maps the space. The reliable failure it guards against is not a broken puzzle but a flat set: an hour that asks the solver to do the same kind of thinking again and again until attention drains away. To see that coming you need two readings of every puzzle at once. What faculty does it exercise, and what job does it do in the experience around it. Those two questions are the two lenses below, and most of the craft lives in the gap between them.
+
+## The Mechanism (How it works)
+
+### Two lenses, not one list
+
+A single list of puzzle types is a trap, because the same puzzle reads differently depending on the question you ask of it. Ask "what is the solver's mind doing?" and you get a **cognitive faculty** lens: the kind of thinking the puzzle demands, from verbal manipulation to deduction to perception. [corpus] Ask "what is this puzzle for, here, now?" and you get an **experiential job** lens: the role it plays in the hour, from the cheap early win that gets a team talking to the climactic synthesis that ends the room. [corpus] The cognitive lens is medium-neutral; a cryptogram is verbal work whether it sits in a printed hunt or a parser game. The experiential lens is medium-shaped, because "the first ninety seconds" means something concrete in an escape room and something looser on a page.
+
+Neither lens alone is enough. A puzzle that is varied across faculties can still be monotonous in its jobs (five different cognitive types that all serve as feeders, never a climax). A set that is varied in its jobs can still hammer one faculty (search, observe, decode, and a meta that all happen to be verbal). The two-lens reading is what lets you catch both. The table below crosses them: each row is a cognitive faculty, and the columns note the experiential jobs that faculty most naturally fills, plus where it tends to fail. This is the legitimate place for a table; the categories are genuinely data, and prose would only bury them.
+
+| Cognitive faculty (what the mind does) | Typical experiential job | Where it shines | Where it fails |
+|---|---|---|---|
+| **Verbal / linguistic** (anagrams, wordplay, ciphers as recognition) | Final extraction; the satisfying click | High insight potential; the last step that feels like discovery | Pure manipulation banks fatigue fast; high cultural dependence locks out solvers [corpus] |
+| **Logical / deductive** (sudoku, nonograms, logic grids, constraint nets) | Stable feeder; the handhold before the strange step | Culturally neutral, globally solvable; a shared grid a team gathers round | Bookkeeping without a midpoint reveal drifts attention [corpus] |
+| **Perceptual / observational** (spot-the-difference, steganography, visual extraction) | The "aha" of recognition; theme reuse | Reuses set dressing; lets several solvers look at once | Sub-threshold cues; the designer cannot un-see what first-timers never see [corpus] |
+| **Spatial / motor** (assembly, folding, mirrors, mechanical puzzles) | The body-and-team moment; an early task win | Collaborative in a way a crossword never is; tactile | Dexterity gates exclude; one solver monopolises while the rest watch [corpus] |
+| **Knowledge / recall** (trivia, reference identification) | Entry barrier or research-as-you-go | Bounded identification sets can be a pleasant completionist task | Pure recall gives no insight; high barrier reads as exclusionary [corpus] |
+| **Abstraction / pattern** (the meta-puzzle) | Climactic synthesis; the structural backbone | Highest payoff; cannot be brute-forced | Degenerates to "type the five numbers" if the discovery moment is missing [corpus] |
+
+The rows are the cognitive taxonomy. The "job" and "shines/fails" columns are the experiential reading laid over them. Read down the first column to balance what minds you are exercising; read down the job column to balance what the puzzles are *for*.
+
+### The cognitive lens: what the mind is doing
+
+The cognitive faculties sort cleanly because they draw on genuinely different machinery. Verbal puzzles run on language: phonology, spelling, the cultural web of idiom, the trick of holding two meanings of one string at once, which is exactly what a cryptic crossword clue demands. [corpus] Logical puzzles run on deduction and constraint satisfaction; their defining property is that a patient agent with no cultural knowledge at all can in principle solve them, which makes them the most globally accessible type and the one that scales most predictably with density. [corpus] Perceptual puzzles run on attention: the solver must notice something present but not salient, and in a digital hunt that "something" is often the medium itself (the page source, the image metadata, the audio spectrogram), not the visible surface. [corpus]
+
+Spatial and motor puzzles ask the hands to do, or the mind to simulate doing: folding a grid until printed dots align, fitting tiles, reasoning about a burr. [corpus] Knowledge puzzles gate on what the solver knows or can look up, and the puzzle-hunt consensus is that pure trivia is low-quality work because it rewards encyclopaedic breadth over clever thinking. The skilled use of knowledge is as a *first-step gate* with research available as you go, not as a barrier on every step. [corpus] And the meta-puzzle sits apart: its inputs are the answers to other puzzles, so it asks the solver to stop seeing answers as solutions and start seeing them as data. That is top-down pattern reasoning, a different motion from the bottom-up matching most other types reward, which is why it is treated in full as [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd). [corpus]
+
+Two of these faculties have whole articles of their own, because the craft inside them runs deep. Perception as a designed skill, including the line between fair noticing and a pixel-hunt, is [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd). The cipher subset of verbal work, where the barrier is recognising and applying a system, is [Ciphers & Codes](ciphers-and-codes.qmd). The taxonomy points at them; it does not replace them.
+
+### The experiential lens: what job the puzzle does
+
+The second lens ignores the mind and asks what the puzzle is *for* in the hour around it. This reading comes most sharply from escape-room practice, where time is a hard wall and every puzzle has to earn its minutes. Errol Elumir's working distinction is the cleanest tool here: separate the *aha* (the moment of recognition, the reward) from the *process* (the manual work that follows once you know the answer). [researched] A search puzzle is almost all process and almost no aha, yet it is precious anyway, because it produces the cheap early "we found something" hit that gets a team talking before any real thinking has started. [corpus] An observation puzzle is the opposite: the recognition *is* the reward, and the decode afterwards is just process. [researched]
+
+Read this way, the jobs form a rough arc. Early: the search and the physical task, low on insight, high on momentum and getting hands moving. [corpus] Middle: the multi-step chain that builds narrative beats, and the parallel puzzles that keep a six-to-eight-player team from queueing behind one bottleneck. [corpus] Late: the meta, which is most rooms' best and often only chance at a real climax instead of an anticlimactic open-the-door. [corpus] A puzzle's faculty is fixed, but its job is a placement decision, and the same cipher can be a warm-up or a wall depending on where in the arc you set it and how long the ciphertext runs. The arc as a designed object, rather than a happy accident, is [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd), and the dependency graph that decides what unlocks what is [Information Architecture](information-architecture.qmd).
+
+### Atomic actions, not pure categories
+
+The honest complication is that very few real puzzles are one type. Most combine two or three atomic actions: find, observe, decode, combine, manipulate, recall. [corpus] A single hunt puzzle commonly runs observation (what is the input data?), then logic or knowledge (what does it mean?), then a verbal extraction (index into a word for the answer), and that ordering is not arbitrary: it mirrors the natural shape of problem-solving and makes the final step feel like discovery rather than calculation. [corpus] So the taxonomy is a vocabulary for the *moves inside a puzzle*, not a set of boxes each puzzle must fall into. Its value is diagnostic. When you tag the actions in your set and find the same one in every box, you have found your flat spot before the solver does. Nicholson's survey of 175 escape-room facilities catalogued thirty-one distinct common puzzle types in active use, which is the empirical answer to anyone who suspects the space is small. [researched]
+
+This same diagnostic crosses media without much translation. The digital single-player tradition (the lineage running through *The Witness* and *Baba Is You*) is built on the cognitive lens almost exactly: insight types against execution types, perception puzzles that ask you to look outside the frame, rule-manipulation that reads as logic. [corpus] A puzzle hunt mixes the faculties deliberately across its feeder set so that no single kind of thinking is exhausted before the meta, and that feeder mix *is* the cognitive taxonomy put to work as a production schedule. [corpus] Interactive fiction inherits the same cognitive menu through its examine-and-affordance loop, where noticing is itself the puzzle. [corpus] The lenses are portable; only the production constraints around them change.
+
+::: {.callout-note}
+### The Specimen
+The MIT Mystery Hunt is the clearest living proof that the two lenses are real and separable. Across a single year's feeder set it deliberately mixes every cognitive faculty (word, logic, observation, physical, knowledge) so that no team burns out one kind of thinking before the weekend is over, then layers the experiential job on top: the feeders are feeders, and the meta-puzzle is the climactic synthesis whose inputs are those feeder answers read as data. [corpus] Room Escape Artist, drawing the lesson explicitly *from* the Hunt, urges escape-room designers to build more metas for exactly this reason: a strong meta makes an individual answer mean one thing in its own puzzle and reveal a second property in the meta's context, which is the cognitive abstraction step and the experiential climax in the same move. [researched]
+:::
+
+## Design Judgement
+
+::: {.callout-tip}
+### The Field Note
+Audit your set with both lenses laid side by side before you build a single prop. Make two passes. First, tag each puzzle by the cognitive faculty it leans on hardest, and look for a row that is empty or a row that is overloaded: a hunt that is all verbal exhausts linguistic working memory; a room that is all logic grids exhausts deductive patience. Then, separately, tag each puzzle by its experiential job (early momentum, mid-game chaining, parallel engagement, climactic synthesis) and check the arc has a real ending rather than five feeders and a door. The two passes catch different failures, which is the whole point of keeping them apart: a set can pass the faculty audit and fail the job audit, looking varied while feeling shapeless. Type variety is not only an anti-fatigue lever; it is an accessibility requirement, because different solvers have different cognitive strengths and a one-faculty set quietly casts most of them as spectators. [synthesis]
+:::
+
+::: {.callout-warning}
+### The Hazard
+The category is not the design. A taxonomy tells you a puzzle *is* an observation puzzle; it does not tell you the cue is above the threshold a first-time solver can actually perceive, and "it is an observation puzzle" is no defence when nobody observes the thing. Every category carries its own signature failure, and naming the category does not buy you out of it: the verbal puzzle that locks out anyone outside its culture, the cipher that is unmotivated or whose ciphertext runs too long, the physical puzzle gated on dexterity rather than thought, the meta that degenerates into "type the five numbers in order" because the discovery moment was never built. The deeper trap is treating the table as a checklist to fill: a set with one of every type is balanced on paper and can still be a flat hour if each puzzle is mediocre at the job it was placed to do. The taxonomy diagnoses; it does not absolve. Whichever category a puzzle lands in, it still has to be fair, and which fairness pitfall it is most prone to is read straight off its type, which is why this map feeds directly into [Cluing & Fairness](cluing-and-fairness.qmd). [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** This is a map article, so it sits above the individual mechanisms in its family rather than beside them. It is the index you consult before building: a way to see the whole puzzle space at once, balance what you are about to make, and route to the specific article that goes deep on each type. The two lenses keep it honest. The cognitive faculty lens answers "what am I asking the mind to do, and have I asked too narrowly?"; the experiential job lens answers "what is each puzzle for, and does the hour have a shape?" Everything downstream assumes you have already chosen your types deliberately. Difficulty curves, fairness checks, and the engineering of the payoff all act *on* puzzles whose kind you settled here first.
+
+**Next steps.** With a type chosen, the next question is almost always fairness, because each category is prone to its own pitfalls and the map tells you which to check before you build: start from [Cluing & Fairness](cluing-and-fairness.qmd). To go deep on the two faculties that earned their own articles, reach for [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd) and [Ciphers & Codes](ciphers-and-codes.qmd); for the abstraction type that ends most sets, [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd). To turn a flat list of types into a paced arc, the order they arrive in is [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd) and the dependency web beneath them is [Information Architecture](information-architecture.qmd). And whatever the type, the reward you are ultimately engineering toward is [The Aha Moment](the-aha-moment.qmd).
+
+## Sources
+
+- Selinker, Mike and Snyder, Thomas. *Puzzlecraft: The Ultimate Guide to the Construction of Every Kind of Puzzle*. Lone Shark Games, 2012. Taxonomy of puzzle types with constructor guidance.
+- "Thinking About A Puzzle." MIT Mystery Hunt / Puzzle Club. <https://puzzles.mit.edu/resources/thinkingaboutpuzzles.html>
+- MIT Mystery Hunt Puzzle Index (category data and historical corpus). <https://devjoe.appspot.com/huntindex/>
+- Nicholson, Scott. "Peeking Behind the Locked Door: A Survey of Escape Room Facilities." White Paper, 2015. <https://scottnicholson.com/pubs/erfacwhite.pdf>
+- Elumir, Errol. "13 Rules for Escape Room Puzzle Design." The Codex. <https://thecodex.ca/13-rules-for-escape-room-puzzle-design/>
+- Elumir, Errol. "How Escape Rooms Do Difficulty Wrong: The Player Loop." The Codex. <https://thecodex.ca/how-escape-rooms-do-difficulty-wrong-the-player-loop/>
+- Room Escape Artist. "What Escape Rooms Can Learn from Puzzle Hunts," 2025. <https://roomescapeartist.com/2025/08/28/what-escape-rooms-can-learn-from-puzzle-hunts/>
+- Spira, David. "Red Herrings in Escape Rooms." Room Escape Artist, 2019. <https://roomescapeartist.com/2019/02/10/red-herrings/>
+- Lock Paper Scissors. "63 DIY Escape Room Puzzle Ideas." <https://lockpaperscissors.co/escape-room-puzzle-ideas>
+
+<!-- TEMPLATE-NOTE: Map variant largely fits the standard anatomy, with three honest strains worth flagging for the map-variant validation. (1) THE TABLE IS LOAD-BEARING, NOT DECORATIVE. In a single-mechanism article the body is pure prose; here the cross of cognitive-faculty x experiential-job is genuinely two-dimensional data and only a table shows both axes at once. The prose sections around it deliberately do NOT restate the table cells (to avoid recap); instead they explain each lens and the join between them. A validator expecting "no tables, prose only" will mis-flag this. (2) THE SPECIMEN STRAINS toward "proof the framework is real" rather than "a single mechanism observed in the wild." Because the article has no one mechanism, the MIT Mystery Hunt specimen had to demonstrate the two-lens split itself (feeder-faculty-mix + meta-as-climax) rather than a lone behaviour. It works but reads more like an exemplar of the thesis than a field sighting. (3) "NEXT STEPS" IS UNUSUALLY LINK-DENSE (six outward articles) because a map's job is precisely to route onward; this is correct for the shape but pushes against the style guide's "two short paragraphs, orientation not a directory" intent. Kept it prose and motivated each link rather than listing, but it is near the ceiling of how many links a close can carry before it reads as an index. Everything else (Silhouette, readable head, diagnostic headers, Field Note, Hazard, real-citation Sources, inline cross-refs, cross-media woven not listed) fit the map shape without strain. -->
