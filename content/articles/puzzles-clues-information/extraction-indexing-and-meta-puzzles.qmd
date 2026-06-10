@@ -1,14 +1,100 @@
 ---
 title: "Extraction, Indexing & Meta-Puzzles"
-aliases: []
+aliases: ["Meta-Puzzle", "Metapuzzle", "Answers as Data", "Multi-step Puzzle"]
 family: "Puzzles, Clues & Information"
-media: []
+media: [puzzle-hunt, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [sustained-insight, revelation-cascade, earned-payoff]
+  problems: [flat-difficulty, no-capstone, all-or-nothing-extraction]
+  components: [feeder-answer, answer-key, extraction-step, round-structure]
+  genre: [mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #45. -->
+<!-- TERM-FLAG: This article uses puzzle-hunt standard terms not yet in docs/term-registry.md: "meta-puzzle" (canonical, not "metapuzzle"/"meta"), "feeder" / "feeder answer", "extraction", "indexing", "backsolving". These are established craft terms harvested from the corpus and external sources, not coinages. They should be added to the registry before the next puzzles article reuses them. -->
+
+*Silhouette: The puzzle whose clues are other puzzles' answers.*
+
+Most puzzles end at their answer. A meta-puzzle begins there. It takes the answers that other puzzles produced and treats them not as endpoints but as raw material: a column of words waiting to be read down, a set of lengths waiting to be counted, a list with one member conspicuously missing. The solver who reaches a meta-puzzle has to perform a small act of mental rotation, seeing answers they worked hours to earn as mere data, ingredients for a dish they have not yet been shown.
+
+That rotation is the whole trick, and it is also the spine of the puzzle-hunt format. A hunt is not a pile of unrelated puzzles; it is a structure in which the small solves feed the large ones, and the large ones feed a final solve that crowns the event. Extraction is the verb that runs through all of it: the disciplined act of pulling a signal out of material that was not obviously a message. It is what turns ten answers into one, and ten ones into a coin hidden somewhere on a campus.
+
+This article is about answers-as-data: the meta-puzzle that consumes them, the extraction mechanics that read them, and the multi-step chains that stack one extraction on the next. The promise underneath all of it is the same promise the rest of this family rests on, that the path is reachable, which is [Cluing & Fairness](cluing-and-fairness.qmd). Here the question is narrower and structural: once the answers exist, how do you make them mean something more.
+
+## The Mechanism (How it works)
+
+### The shift from answer to input
+
+A meta-puzzle sits at the top of a round. Below it sit the round's feeder puzzles, typically somewhere between five and twenty of them, each producing an answer in its own right. [researched] The meta receives those answers and produces a further answer, the round's solution. [researched] The cognitive demand it makes is specific: the solver must stop treating each feeder answer as a destination and start treating it as a value, something to be counted, indexed, sorted, or completed.
+
+The constraint that makes meta design genuinely hard is that the feeder answers are arbitrary from the meta's point of view. A feeder author picks an answer that suits their own puzzle's mechanic. The meta author must build a mechanic that works with answers chosen by other people, often known only in their general shape during early design (five letters, a compound word) or not at all. [researched] This is the reverse of ordinary puzzle construction, where the author owns the answer and clues toward it. Here the author owns the *destination* and has to engineer a route from inputs they did not select. The discipline that keeps this tractable, fixing the meta answer first and designing the mechanic to reach it, is a sibling of [Information Architecture](information-architecture.qmd), which is the round-level question of which feeders feed which meta and how the whole graph hangs together.
+
+Two broad flavours describe how a meta reads its inputs. A *semantic* meta cares what the answers mean: they are all chemical elements, all national capitals, all associated with a colour. A *syntactic* meta cares only about their form: take the third letter of each, measure their lengths, find the word hidden inside each. [researched] Most real metas mix the two, using meaning to decide which letters to pull and form to carry the message. The classification you reach for to predict which extraction a given answer set invites is the abstraction faculty trained by [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd): knowing that twenty-six entries probably means the alphabet, that a column of state names probably wants their capitals, is the same recognition skill applied one level up.
+
+### Extraction patterns
+
+Extraction is the act of pulling the meta's hidden message out of the feeder set. A small number of patterns recur across the craft, familiar enough to experienced solvers that recognising them is itself a learned skill. They are data-dense enough to warrant a table, but each one is a *move* a solver makes, not a rule to memorise.
+
+| Pattern | What the solver does | Typical signal that it applies |
+|---|---|---|
+| Indexing | Each answer yields a number (its length, a thematic count, a prior step) that selects a letter from a string or list | Numbers paired with words; "index" implied by a second column of text [researched] |
+| Ordering | Answers are arranged in a sequence (alphabetical, by a discoverable property) and selected characters are read in that order | A sortable property; positions that only resolve once sorted [researched] |
+| Set completion | The answers are all members of a set with one or more members missing; naming the absent member is the answer | A near-complete, recognisable group with a gap [researched] |
+| Hidden words | Each answer contains a buried string (a substring, every other letter, a fixed position) | Over-long answers; answers that share an odd internal feature [researched] |
+| Transformation | Each answer is altered by a stated rule (reverse it, apply a cipher, map to a number) and the results combine | A thematic instruction to transform; see [Ciphers & Codes](ciphers-and-codes.qmd) [researched] |
+| Pattern recognition | The answers collectively form a pattern, all sharing a property or mapping onto a grid or one missing concept | No single extraction fits; the set "is about" something [researched] |
+
+The signal column matters as much as the pattern column. A meta that gives no hint at all of which extraction to try produces guessing rather than solving, and guessing is not the experience the format is for. [researched] The presentation does not have to announce the mechanic, but the mechanic must be *findable*: there should be something about the feeder set, often its title or the shape of the answers, that tells an attentive solver what kind of thing to look for. The line between an extraction that is hard to *make* and one that is impossible to *find* is exactly the indirection-versus-obscurity line drawn in [Cluing & Fairness](cluing-and-fairness.qmd), now operating on answers instead of clue text.
+
+### Multi-step puzzles: extraction stacked
+
+A meta is the most visible case of a wider structure: the multi-step puzzle, where the output of one stage becomes the input to the next, and the final answer emerges only after every stage is done. [researched] A cipher yields a phrase, the phrase names a place, the place hides a code, the code indexes a word. Each link is an extraction; the meta is simply a multi-step puzzle whose first stages happen to be entire other puzzles.
+
+Stacking stages buys two things. It buys a *revelation cascade*, a sequence of intermediate payoffs where a partial answer reveals something, reframes the puzzle, or confirms the solver is on track. [researched] And it buys *escalating mastery*, where an early stage teaches a mechanic and a later stage demands it back under pressure, so the final solve lands as competence rather than luck. [researched] The sustained version of that final landing, an insight held across several beats rather than a single flash, is [The Aha Moment](the-aha-moment.qmd): meta-resolution is the family's longest-burning instance of it.
+
+The price of stacking is that errors propagate. Misread one letter in stage one and stage two produces a wrong input, stage three produces nonsense, and the solver cannot tell where the chain broke. [researched] This is worse than a one-stage error, where the full input is visible and the discrepancy can be spotted; in a chain the fault hides behind the stages downstream of it. The countermeasure is that every stage should produce an intermediate answer that is *recognisably* right: a real word, a clean phrase, a number in an expected range. If reaching LIGHTHOUSE at stage three tells the solver they are correct, the stage boundary is doing its job. If the intermediate looks like random letters, it is not. The puzzle-hunt community's name for the failure is *all-or-nothing extraction*: a chain that yields nothing meaningful until every prior step is exactly right. [researched] A reliable tell of it is finding yourself trying to anagram a bag of letters into a phrase, which is a recognised sign that you have missed something rather than a legitimate final step. [researched]
+
+A good stage transition needs no instruction sheet. The *form* of the intermediate answer should suggest the next move on its own: a string of coordinates invites a map, a column of numbers between one and twenty-six invites reading them as letters, a phrase with blanks invites filling them. [researched] When the intermediate's shape implies the follow-on mechanic, the solver flows through the transition; when it does not, they either stop too early, treating an intermediate as the final answer, or grind on past a stage they have already cleared without noticing. [researched] Designing the transition means designing the intermediate answer's *form* to carry the instruction that no text gives.
+
+### Redundancy and partial progress
+
+Because the meta consumes many inputs, it can be built to tolerate missing or wrong ones, and the best metas are. A solver should not need every feeder to crack the mechanic. Experienced solvers commonly identify and solve a meta from seventy to eighty per cent of its feeder answers, and metas have been solved from as few as two of seven. [researched] That tolerance is a deliberate redundancy: more letters in the extraction than the message strictly needs, so a single mistake is caught by context rather than fatal. [researched] The same redundancy logic that protects a tabletop investigation, the Three Clue Rule's insistence that no conclusion rest on a single clue, reappears here as the rule that no meta rest on a single feeder being perfect. The format-scale version of arranging rounds, feeders, and metas so this holds across a whole event is [Puzzle Hunt Craft](puzzle-hunt-craft.qmd).
+
+Redundancy's twin is *partial progress*. A meta that yields nothing until all feeders are present is a binary experience: the team is either blocked or done, with no middle. [researched] A well-built meta lets a team confirm the direction early, ideally after four to six of fifteen feeders, so they can pursue the hypothesis while solving the rest. [researched] That intermediate confidence is what keeps a team engaged across the hours a hunt round can take, and it is also what enables *backsolving*: once the mechanic is clear, a team can reason backward from the meta's constraint to predict what a missing feeder answer must be, then enter it without solving that feeder directly. [researched] Backsolving is prized rather than penalised, because it rewards meta skill and opens a second path through the round.
+
+::: {.callout-note}
+### The Specimen
+The MIT Mystery Hunt, run every January since 1981, is the canonical home of the meta-puzzle. [researched] The very first hunt was a single sheet of twelve subclues, including a Vigenère cipher and a short runaround, whose answers gave the location of a coin hidden on campus; the winning team earns the right to write the next year's hunt. [researched] Over four decades that seed grew into the architecture the whole community copies and argues about: round-level metas, super-metas that consume the round metas, and a final physical runaround across MIT. The convention that makes it all work is upstream of any single meta: feeder answers arrive as all-caps phrases precisely so metas can extract from them reliably. Alex Irpan's post-mortem of the 2023 hunt is a frank account of what happens when the structure is pushed too hard. A cyclic round design, in which each round's meta answer became a pre-solved feeder for the next, propagated constraints upward until a pool of fifty-three feeders slipped two to four weeks, leaving the hunt in what he calls "complexity debt." [researched] The fix was telling: a meta-puzzle disguised as an ordinary feeder, solvable from zero feeder answers yet still allowing the round's feeders to be backsolved.
+:::
+
+## Design Judgement
+
+::: {.callout-tip}
+### The Field Note
+Know the answer before you know the feeders. Fix the meta's final answer early, then design the extraction to reach it from whatever shape the feeders will take; a meta reverse-engineered from whatever the feeders happened to produce reads as a post-hoc rationalisation, and solvers feel the difference. Then pressure-test for the failure modes that hide in chains. Hand a test-solver feeder answers that are roughly right but carry a deliberate error or two: a robust meta is still solvable with effort, a brittle one turns any deviation into noise. Ask, separately, at what point a team can know they are on the right track, and if the honest answer is "only when it is fully solved," build in partial progress before you build anything else. The same instinct that says "add another clue" at the feeder level says "tighten the mechanic" here; resist it, and widen the tolerance instead. [synthesis]
+:::
+
+::: {.callout-warning}
+### The Hazard
+The degenerate meta is the one where the discovery moment is missing. You have ten feeder answers, each of them a number, and the "meta" is to type those five numbers into a lock in the order the rounds were presented. Nothing is extracted, nothing is recognised, no answer becomes data; the solver merely transcribes. In an escape room this is the puzzle that fails the seven-minute rule from the wrong end, trivial to execute and empty to discover, and it teaches the room's designers nothing about whether their players can *think*. [researched] The tell is that you cannot describe an "aha" anywhere in the solve, only a sequence of copying. The fix is upstream and it is partly the feeder authors' job: clean answer-word discipline. If feeder answers are tidy, single words or short phrases with no stray punctuation, the meta author can index, order, and hide messages in them cleanly; if the feeders arrive as ragged strings, every extraction the meta tries to run on them produces the kind of random-letter intermediate that the solver cannot tell from an error. A meta is only as clean as the answers feeding it. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** The meta-puzzle is what makes a puzzle hunt a hunt rather than a worksheet. It is the structural feature that turns a set of independent solves into a single ascending experience, and it is the reason the format has a shape at all: feeders at the bottom, metas above them, a super-meta or a runaround at the top. Everything in this family that concerns a single puzzle, its cluing, its fairness, its payoff, is a precondition for the meta rather than a rival to it, because a meta can only consume answers that the feeders below it delivered cleanly and fairly. The mechanism lives almost entirely in two of our media. It is native and central to the puzzle hunt, where it is the spine of the form, and it appears in live and escape-room design wherever a finale gathers earlier solves into one. It is genuinely absent from interactive fiction and the tabletop as a board-or-text mechanism, because answers-as-data needs a population of discrete prior answers to consume, and a single branching text or a roaming investigation does not produce that population in the same way.
+
+**Next steps.** A designer who has the meta's structure in hand reaches next for the format that surrounds it: how rounds, feeders, and metas are scheduled and paced across a whole event is [Puzzle Hunt Craft](puzzle-hunt-craft.qmd), and the round-level map of which feeders feed which meta is [Information Architecture](information-architecture.qmd). To tune the payoff the meta has earned, so that resolution lands as sustained insight rather than a shrug, turn to [The Aha Moment](the-aha-moment.qmd). To choose extractions that are hard to make but easy to recognise, and to keep the line between indirection and obscurity, return to [Cluing & Fairness](cluing-and-fairness.qmd) and to the recognition skill trained by [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd).
+
+## Sources
+
+- MIT Mystery Hunt. Puzzle archives and structure. <https://puzzles.mit.edu>
+- "History of the Mystery Hunt." MIT Mystery Hunt / Puzzle Club. <https://www.mit.edu/~puzzle/history.html>
+- "MIT Mystery Hunt." Wikipedia (origin, 1981, coin, winner-writes-next convention). <https://en.wikipedia.org/wiki/MIT_Mystery_Hunt>
+- Irpan, Alex. "Writing MIT Mystery Hunt 2023." 21 April 2023 (complexity debt, feeder delay, meta-as-feeder). <https://www.alexirpan.com/2023/04/21/mh-2023.html>
+- Irpan, Alex. "MIT Mystery Hunt 2020, Part 2" (all-or-nothing extraction, single-point-of-failure metas). <https://www.alexirpan.com/2020/02/27/mh-2020-part2.html>
+- Vero, Brian. "Introduction to Puzzlehunts" (extraction methods, "no random anagram," 70-80% feeder solving). <https://blog.vero.site/post/puzzlehunts>
+- "The Four Stages of Puzzle Game Mastery." Game Developer (escalating mastery through stages). <https://www.gamedeveloper.com/design/the-four-stages-of-puzzle-game-mastery>
+- Constructed Adventures. "Structures to Follow When Building a Puzzly Adventure" (linear and bottleneck chain structure). <https://www.constructedadventures.com/how-to-build-a-treasure-hunt>
+- Elumir, Errol. "The seven-minute rule" / Codex escape-room design (execution-length and compounding-ambiguity failure in multi-step chains). Codex magazine, River City Games.
+- "Glossary of Puzzle Hunt Terms." Puzzles Wiki (feeder, meta, backsolving terminology). <https://www.puzzles.wiki/wiki/Glossary_of_Puzzle_Hunt_Terms>
+- Selinker, Mike and Snyder, Thomas. *Puzzlecraft*. Lone Shark Games, 2012. Chapters on extraction and meta construction.

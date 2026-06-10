@@ -1,14 +1,115 @@
 ---
 title: "Ciphers & Codes"
-aliases: []
+aliases: ["Encryption Puzzles", "Decipherment", "Cryptography Puzzles"]
 family: "Puzzles, Clues & Information"
-media: []
+media: [interactive-fiction, live-game, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [earned-discovery, recognition-click, thematic-resonance]
+  problems: [unfair-gate, anticlimax, mismatched-difficulty]
+  components: [ciphertext, cipher-key, indicator, reference-chart]
+  genre: [mystery, spy, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #45. -->
+*Silhouette: The encoded message that is only a puzzle if the solver can tell it is one and can get inside it.*
+
+A cipher is the most recognisable puzzle in popular culture, and for that reason the easiest to get wrong. Strings of shifted letters, dot-and-dash patterns, grids of symbols: they read as "secret" on sight, which is exactly the trap. The recognisability does half the designer's work and hides the other half. A cipher that any solver spots and decodes in seconds is a lock, not a puzzle. A cipher with no key in reach is a wall.
+
+The craft is not in the cryptography. It is in the fit: matching the cipher to who is solving, making sure the solver can tell something is encoded and which something it is, and leaving them a way in that does not depend on knowledge they were never given. Get the fit right and the moment of recognition (this is Morse, this is Pigpen) is its own small reward, before the decoding even starts. Get it wrong and the cipher becomes the part of your puzzle that solvers resent.
+
+This article is about choosing a cipher and deploying it fairly. The cipher is a subset of the verbal-faculty puzzles catalogued in [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd), and everything here rests on the contract set out in [Cluing & Fairness](cluing-and-fairness.qmd): a solver who pays attention can get there from here.
+
+## The Mechanism (How it works)
+
+### Three questions before you pick a cipher
+
+A cipher choice is not free. Before reaching for one, answer three questions, because each one changes which cipher is right. [corpus]
+
+The first is recognition. Working out *that* a thing is encoded, and *which* cipher it uses, is itself a puzzle step. [corpus] For solvers new to ciphers, that recognition is most of the challenge and most of the satisfaction: spotting the dot-dash rhythm of Morse or the boxed symbols of Pigpen and naming it. For seasoned puzzle-hunt solvers, recognition of the common ciphers is near-instant, so the encoding type is effectively a given and the challenge has to live in what the decoded text then demands. This is why the same cipher lands as a fair test for one audience and as filler for another. The recognition step is a form of cluing, and the indicators that drive it (covered below) are cluing in the sense of [Cluing & Fairness](cluing-and-fairness.qmd): they have to point.
+
+The second is tooling. A Vigenère cipher that takes thirty minutes by hand falls to under two minutes with an online identifier like Boxentriq or dCode. [corpus] Paper-and-pencil solving with no internet is a different world from open-access online solving where automated cipher-identification tools are a tab away. In a live escape room phones are often confiscated; in an online hunt they are assumed. Decide which world your solvers are in, because it sets the real difficulty of every cipher you might choose. [corpus]
+
+The third is role. Is the cipher the puzzle, or a gate in front of one? [corpus] A cipher that takes forty minutes to crack and yields a three-word answer that merely feeds a separate puzzle is too expensive as a gate; the cost and the payoff are mismatched. Calibrate the cipher's difficulty to the job it is doing. A cipher carrying the whole climactic challenge can afford to be a Vigenère; a cipher that is just the doorway should be cheap. The clue-versus-gate distinction itself belongs to [Cluing & Fairness](cluing-and-fairness.qmd); here it sets the budget.
+
+### A working palette
+
+There is no single right cipher, only a cipher that fits a particular audience, theme, and tooling context. The table below is the data-dense exception to this guide's no-lists rule: it pairs common ciphers with the indicator that lets a solver recognise them, the audience they suit, and the way each most often fails. Difficulty is given for hand-solving; assume an online identifier collapses most of it. [corpus]
+
+| Cipher | Solver-facing indicator | Best fit | Failure mode |
+|---|---|---|---|
+| Caesar / ROT13 | Short text, plausible letter frequencies, one fixed shift | Beginners, Roman themes, a cheap gate | Anticlimax: spotted and solved in seconds by anyone experienced [corpus] |
+| Atbash | Mirror substitution (A↔Z); frequency-analysable on any length | Biblical or historical flavour, a component | Trivial once named; almost no challenge alone [corpus] |
+| A1Z26 | Numbers all between 1 and 26 | A final extraction step, not a cipher in its own right | Too trivial as a standalone encoding [corpus] |
+| Pigpen | Distinctive boxed and dotted geometric symbols | Family or younger solvers, Masonic and historical themes | Mechanical once the grid is known; pure gate to experienced solvers [corpus] |
+| Polybius square | Two-digit number pairs, each digit 1 to 5 | Spy or telegraph themes, intermediate solvers | Multiple valid grids, so it needs the grid given or a standard assumed [corpus] |
+| Morse | Dots and dashes; iconic, lookup against a chart | Spy, military, maritime; strongest delivered as sound | A flat lookup task when shown as static dots on paper [corpus] |
+| Semaphore | Images of flag (or arm) positions | Nautical and military themes; high visual impact | Unrecognisable without a chart; the whole difficulty is recognition [corpus] |
+| Simple substitution | Scrambled but stable letter-for-letter mapping | Cryptography-themed events, intermediate solvers | Unsolvable on short text, where frequency analysis fails [corpus] |
+| Vigenère | Substitution that resists single-shift frequency analysis | Advanced, climactic cipher with a keyword to find | A pure barrier when the keyword is a random string with no hook [corpus] |
+| Book cipher | (page, line, word) triples pointing into a text | Spy, literary, treasure-hunt themes | Broken if the key text is undisclosed; unbreakable without it [corpus] |
+| Bacon's cipher | Two typefaces or cases carrying a hidden 5-bit code | Advanced, academic and Elizabethan steganography themes | Invisible: solvers must first notice the text has hidden structure at all [corpus] |
+
+Two threads in that table are worth pulling out, because they show how a cipher's difficulty actually works. A Vigenère is a Caesar cipher whose shift changes letter by letter under a repeating keyword, so the standard hand attack is to recover the keyword length first (the Kasiski examination spots repeated ciphertext sequences and factors the gaps between them; the index of coincidence confirms the guess by testing whether splitting the text at that length yields English-like letter frequencies), then frequency-analyse each position separately. [researched] That is a genuine boss-level challenge by hand and a two-minute job with tooling, which is the whole point of the tooling question. A Vigenère is most satisfying when the keyword means something, recoverable from the puzzle's theme or another part of the chain, rather than a random string that turns the cipher into a flat barrier. [corpus]
+
+Bacon's cipher pulls the opposite way. Francis Bacon's biliteral scheme encodes each letter as a five-symbol sequence of two states, then hides those states in a carrier text using two typefaces, roman and italic, or two letter-cases, so the secret is not that the message is encrypted but that a message exists at all. [researched] Its difficulty is almost entirely in noticing that the typeface variation is meaningful; once seen, the decoding is mechanical. That makes it the rare cipher that is fresh to nearly every audience, and also the one most able to slip past solvers entirely if nothing nudges them to look.
+
+### The indicator: telling solvers a cipher is there
+
+A cipher is only fair if the solver can find their way to recognising it. The indicator is the signal that does that work, and it is where the cipher meets cluing. Some ciphers carry their own indicator in their surface form: Pigpen's symbols, Morse's dots and dashes, semaphore's flag positions all announce *that* something is encoded and narrow down *which*. [corpus] Others hide even the fact of encoding, which is precisely why Bacon's cipher needs an external nudge and a substitution on a three-word fragment does not (a substitution at least looks like scrambled letters; Bacon's looks like ordinary prose).
+
+The designer's job is to make the recognition step reachable without making it free. For a new audience, the cipher should be identifiable from inspection, so the satisfaction is in naming it and then decoding it. For an experienced audience, the common ciphers are transparent, so the challenge moves to unusual encodings (Bacon, Polybius, an odd semaphore variant) or to what the plaintext then demands. [corpus] Either way the indicator must point, in exactly the sense that every clue must do work: an encoded message with no findable indicator is the obscure-without-recourse failure from [Cluing & Fairness](cluing-and-fairness.qmd), wearing a cryptographic costume.
+
+Theme is the most elegant indicator of all, because it does double duty. A Caesar cipher in a Roman setting, Pigpen in a Masonic lodge, semaphore on a ship, a book cipher in a spy story: the fiction itself tells the solver what kind of code to expect, so recognition flows from the world rather than from a bolted-on hint. [corpus] A thematically motivated cipher is one of the surest signs you have chosen well.
+
+### When a cipher is cliché, and when that is fine
+
+A cipher is cliché when its appearance produces no reaction beyond "oh, it's Pigpen again." [corpus] The tells are consistent: the cipher is instantly recognisable and the decoding is mechanical, it is the entire puzzle rather than a component, the decoded text is already the final answer with no further insight to extract, or the key is simply handed over with no challenge in finding it. [corpus] When all four hold, the cipher is functioning as a lock, not a puzzle.
+
+Cliché is not always wrong. A Pigpen cipher in an introductory set for ten-year-olds is well chosen; the same cipher as the climactic reveal in a competitive hunt is a let-down. [corpus] Context and audience decide. The reliable fixes all push the cipher from lock back toward puzzle: motivate it thematically, make recognising the type part of the challenge, require further work on the decoded message, hide the key so that finding it is a puzzle step, or pick a cipher unusual enough to demand genuine thought. [corpus] A book cipher is the clean illustration: retrieving the key text can itself be a link in the chain, which is the move that turns the meta-puzzle of [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd) into the engine that delivers a cipher its key.
+
+### Ciphers across the media
+
+In a live game or escape room, the cipher is usually a physical artefact: a printed grid, a Caesar wheel, a slide rule, a message hidden in a prop, and the tooling question turns on whether solvers have their phones. This is the cipher's home ground, where the corpus on cipher selection lives. [corpus]
+
+At the high end sit the puzzle hunts, where the cipher stack runs all the way up to genuine modern cryptography. Cicada 3301, the self-concealing recruitment hunt that ran on 4 January in 2012, 2013 and 2014, layered classical ciphers (Caesar, Vigenère, Atbash) with steganography, prime-number mathematics, and a book cipher, and authenticated every genuine clue with a consistent OpenPGP key, so that learning PGP verification was itself a precondition for trusting any clue. [researched] That is the cipher pushed to its limit: not one encoding but a whole toolkit, where recognising which technique applies is the recurring puzzle. The book-cipher tradition it drew on is old and well documented, the Beale ciphers of 1885 being the canonical case, where the second of three messages was decoded against the Declaration of Independence and the other two remain unsolved and are widely thought to be a hoax. [researched]
+
+Interactive fiction inherits the cipher as an *in-text* puzzle rather than a printed artefact, and here the governing constraint shifts from the craftsmanship of the object to fairness inside normal play. The standard IF fairness test is that an ideally perceptive player could win on a first attempt without recourse to saved games, which means every fact a cipher demands must be discoverable in play, not from outside knowledge or trial-and-error reloads. [researched] A cipher keyed on a visual pun, an obscure reference, or an inside joke is the classic IF failure: when that familiarity is needed to solve the puzzle, the game can become unplayable. [researched] The structural defence is Mike Roberts' old IF rule, usually quoted as the player should always be able to find a locked door before the key: the solver should meet the encrypted text before being expected to produce the decoding, so the cipher motivates exploration instead of blocking it. [researched] The exemplary fair pattern is the substitution code in the game *Avon*, which is insoluble in full but allows partial deductions, just enough to solve the immediate problem, so a stuck player can still progress on a fragment without ever fully breaking the cipher. [researched] Decipherment and constructed-language puzzles are an established IF tradition on the same principle, from the invented Nalian language of *Edifice* to the hieroglyphics of *Infidel*. [researched] What digital IF can offer that a printed artefact cannot is an in-fiction decoding helper: a found cipher key, a partial-decode command, an optional hint tier. The fairness literature implies it usually should, because gating progress on a fully manual break is the cipher equivalent of the unfair locked door. [synthesis]
+
+The tabletop is the one place a cipher does not naturally belong. A cipher is a solver-facing encoding problem, not a board-and-table mechanism, so where investigation reaches a table it is carried by the redundant clue trails of [Cluing & Fairness](cluing-and-fairness.qmd) rather than by a code to break. A printed cipher can of course be handed to players as a prop, but at that point it is a live-game artefact resting on the table, not a tabletop mechanism. [synthesis]
+
+::: {.callout-note}
+### The Specimen
+Cicada 3301 is the cipher pushed to its structural extreme, and worth studying precisely because it breaks the rules a smaller puzzle cannot. Across three annual rounds it demanded competence in cryptography, classical literature, linguistics, and operational security at once: an OutGuess-hidden message on an image board led through PGP-signed clues, Mayan numerals, Welsh and Latin passages, and GPS coordinates to physical QR codes posted on street corners across several continents, each pointing onward to a Tor hidden service. [researched] The recognition step (which technique is this clue using?) recurred at every stage, which is the cipher-selection problem turned into the entire game. It also shows the format's hazard plainly: the 2014 Liber Primus remains only partly deciphered, and a cipher that may or may not encode anything sits exactly on the line between an unsolved puzzle and a puzzle with no answer. [researched]
+:::
+
+## Design Judgement
+
+::: {.callout-tip}
+### The Field Note
+Before you choose a cipher, decide what job it is doing, then spend on it accordingly. If it is the gate to the real puzzle, pick something cheap and recognisable and put the difficulty in the recognition or the key-finding, not in forty minutes of hand-decoding that buys three words. If it is the climax, you can afford a Vigenère, but give its keyword a reason to exist: recoverable from the theme or from an earlier answer, never a random string. And run the tooling check honestly. If your solvers have phones, an online identifier will name the cipher and halve the difficulty you think you built, so the satisfying work has to be in what the plaintext demands next, not in the decode itself. The cipher you fell in love with for its elegance is often the one your solvers will meet through a cipher-identifier tab. [synthesis]
+:::
+
+::: {.callout-warning}
+### The Hazard
+The cipher-as-unfair-gate is the failure that ends runs. It arrives two ways. The first is the missing key: a cipher whose decoding needs a fact, a chart, or a book the solver was never given and cannot find, which is the obscure-without-recourse failure dressed in cryptography. A book cipher with an undisclosed key text is simply a broken puzzle. [corpus] The second is the wall of ciphertext: a long encrypted block that has to be fully broken before anything moves, with no partial progress possible. The IF tradition has the cleaner answer here than the live-game one, which is to let the solver make partial deductions, to break only the fragment the immediate problem needs, so a stuck solver still inches forward. [researched] When your playtest notes say a solver "just had to crack it," check whether they had a route in and whether they could win on a fragment. If the cipher only opens at full break, you have built a wall, however handsome the code. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** A cipher is a narrow, recognisable species within the verbal-faculty puzzles of [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd), and it is unusual in carrying its own reputation: solvers arrive with expectations a cipher either honours or disappoints. Everything that makes a cipher work is a special case of fairness. The indicator that lets a solver recognise the encoding is cluing; the question of whether the cipher is a clue or a gate is the clue-versus-gate line; the missing-key failure is obscure-without-recourse. So a cipher is best understood not as a cryptographic object but as a fairness problem with a cryptographic surface, which is why it depends utterly on [Cluing & Fairness](cluing-and-fairness.qmd) and adds little if that contract is broken.
+
+**Next steps.** Once the cipher is chosen and fair, the craft turns to its place in the chain. If the cipher's output feeds an answer or its key is recovered from elsewhere, that wiring is [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd). If recognising the cipher type is the moment you are designing toward, the payoff you are engineering is [The Aha Moment](the-aha-moment.qmd). When fair solvers still stall on a cipher in a way no redesign will fix, the graceful exit is [Hint Systems & Recovery](hint-systems-and-recovery.qmd). And where the cipher lives as a physical instrument on the table (a Caesar wheel, a grille, a printed grid), its making belongs to [Artefact Design & Document Production](../space-props-materiality/artefact-design-and-document-production.qmd).
+
+## Sources
+
+- Singh, Simon. *The Code Book*. Fourth Estate, 1999. Historical and technical reference for the classical ciphers.
+- Selinker, Mike and Snyder, Thomas. *Puzzlecraft*. Lone Shark Games, 2012. Cipher puzzle construction guidance.
+- Boxentriq. "Cipher Identifier and Analyzer." <https://www.boxentriq.com/code-breaking/cipher-identifier>
+- "Pigpen Cipher." Wikipedia (Masonic associations and grid construction). <https://en.wikipedia.org/wiki/Pigpen_cipher>
+- "Kasiski examination." Wikipedia (Vigenère key-length recovery; index of coincidence). <https://en.wikipedia.org/wiki/Kasiski_examination>
+- "Bacon's cipher." Wikipedia (biliteral steganography; two typefaces). <https://en.wikipedia.org/wiki/Bacon%27s_cipher>
+- Lock Paper Scissors. "13 Escape Room Cipher Ideas." <https://lockpaperscissors.co/ciphers-playbook>
+- Geocaching Association of Great Britain. "Solving Geocaching Puzzles." <https://www.gagb.org.uk/puzzles.php>
+- Nelson, Graham. *The Inform Designer's Manual*, 4th edition, §50 "The design of puzzles" (IF fairness; the *Avon* substitution code; *Edifice* and *Infidel*). <http://inform-fiction.org/manual/html/s50.html>
+- "Cicada 3301." Wikipedia (rounds, PGP authentication, cipher stack, Liber Primus). <https://en.wikipedia.org/wiki/Cicada_3301>
+- "Beale ciphers." Wikipedia (Declaration of Independence book cipher; unsolved messages). <https://en.wikipedia.org/wiki/Beale_ciphers>
