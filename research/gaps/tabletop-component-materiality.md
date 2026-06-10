@@ -1,0 +1,55 @@
+# Tabletop & Hunt Component Materiality — Phase 3 gap research
+
+> Phase 3 Task 4 research note. Corpus-silent cells: Artefact·Tabletop, Fabrication·Tabletop,
+> Physical-Clue-Formats·Tabletop, Hidden-Compartments·Tabletop, QR/NFC·Tabletop,
+> Cue/GM-Station·Tabletop, Materials/Durability·Tabletop, Lock-Taxonomy·Puzzle-Hunt.
+> Provenance: [researched] (cited) · [synthesis]. Not rendered.
+
+## Artefact Design & Document Production · Tabletop
+
+In TTRPGs, in-world documents — letters, scrolls, contracts, mission briefings, lore fragments, maps — are treated as a deliberate artefact-production craft, not undifferentiated components [researched][1]. The named techniques are concrete and reproducible: print on parchment or resume paper in a period font, soak in tea or coffee for a rustic tone, tear or singe edges, and scrunch-then-flatten to weather the sheet [researched][2]. The guiding principle is "authenticity over perfection" — aged paper and messy handwriting read as more real than polished output [researched][2], and a handout that shows "the thing their character would see" produces immersion a verbal description cannot [researched][1]. This contrasts with boardgame practice, where the same physical objects ("feelies," sealed letters, decoder props) are designed and budgeted as manufactured components rather than hand-aged props [synthesis]. The craft therefore splits by production scale: artisanal one-off aging at the table versus reproducible art-directed printing for a print run [synthesis].
+
+## Fabrication & Sourcing · Tabletop
+
+Print-on-demand services formalize tabletop fabrication into a fixed component catalogue with published material specs. The Game Crafter prints custom card stock as 12pt / 320gsm black-core stock in fixed slug sizes (mini 2.5"×3.5", small 3.25"×5.25", up to large 8.25"×10.5") [researched][3], and manufactures custom dice on demand in any quantity — acrylic or wood, full-color printed D6 from roughly $2 each, plus D4/D8 shapes [researched][4]. POD removes minimum-order-quantity barriers, letting a designer fabricate tokens, punchouts, pawns, and dice singly for prototyping or self-publishing [researched][3]. For at-home TTRPG fabrication the sourcing craft is lighter-weight: large-format maps via FedEx/Staples blueprint printing run under $2 (18"×24") to under $4 (24"×36"), and black-and-white line art costs roughly a tenth of color [researched][1]. The sourcing decision is thus a tradeoff between unit cost, material durability (card weight, core), and run size [synthesis].
+
+## Physical Clue Formats · Tabletop
+
+Tabletop escape/clue games cluster into a small taxonomy of component formats with distinct tradeoffs. EXIT: The Game ships a clue book, three card decks (riddles, answers, hints), a decoder wheel, and "strange objects," and is explicitly one-time-use because solving consumes and destroys components [researched][5][6]. Unlock pairs a single non-destructible card deck with a companion app, where cards reference other cards and the app adjudicates [researched][6]. Deckscape uses only a card deck structured as a progressive story, with puzzles constrained to a few cards at a time [researched][6]. The legacy/envelope format adds sealed envelopes or boxes opened in sequence as the campaign gates content [researched][5]. The core tradeoff axis is destructible-versus-preservable: card-and-app formats (Unlock, Deckscape) keep components intact and shareable after completion, while EXIT's decoder-and-destruction model trades replayability for tactile payoff [researched][6][synthesis].
+
+## Hidden Compartments & Reveal Mechanisms · Tabletop
+
+Tabletop reveal mechanisms gate information through physical change to components. Legacy games make permanent, ordered reveals: placing stickers on the board, writing on cards, and tearing up cards — Risk Legacy and Pandemic Legacy both destroy paid-for components, and the first card-tear is cited as a signature emotional beat [researched][7][8]. Escape-room boxes use sealed/layered reveals: boxes packed with encoded letters, plastic gears, wooden locks, and nested envelopes that must be physically opened in order [researched][5]. Sealed "do not open until" envelopes and scratch-off or destructible surfaces act as one-way reveal gates [researched][5][7]. The shared design property is irreversibility: the reveal is the state change, so the mechanism enforces a one-time ordering the players cannot rewind [synthesis]. This couples directly to the durability/reset concern below, since every irreversible reveal subtracts from replayability [synthesis].
+
+## QR & NFC Patterns · Tabletop
+
+The physical-digital bridge appears in tabletop as two distinct patterns. QR-gated companion apps: Chronicles of Crime prints a unique QR code on every location, character, and evidence card; scanning is the only way to surface clues, the required app runs offline after install, and new scenarios ship as app updates with no new physical shipping [researched][9][10]. NFC "toys-to-life" figurines: Skylanders was the first mainstream NFC implementation, using an RFID/NFC tag in each figure plus a reader ("Portal of Power") that performs two-way data transfer — the figure carries and updates its own stats — and Nintendo's amiibo generalized the same read/write protocol across platforms [researched][11][12]. The design distinction is read-only identity-gating (QR indexes into app content) versus read/write stateful tokens (NFC figures persist evolving data on the component itself) [synthesis]. Both make a manufactured physical object the access key to digital content, but only NFC stores game state in the artefact [synthesis].
+
+## Cue Management & GM Station · Tabletop
+
+The TTRPG GM's physical control surface is a materiality concern organized around the GM screen as hub. The screen provides privacy and a reference panel (rules tables, NPC lists), and increasingly carries clip-on or magnetic accessories: initiative trackers with magnetic backing that attach to the screen, wet/dry-erase strips, and printable hangers, tents, and reference cards [researched][13]. Initiative tracking specifically spans a tooling spectrum — physical cards prized for "zero tech reliance," erasable acrylic toppers that sit on the screen, and 3D-printed clip trackers [researched][13]. Handouts also function as a GM cue-management tool: they "frame the game and steer its direction," and the recommended table practice is to pre-sort them into labeled manila envelopes per scene so they can be deployed without breaking narrative flow [researched][1]. The station is thus a layered surface combining concealment, quick-reference, turn-order state, and staged-prop release [synthesis].
+
+## Materials, Durability & Reset · Tabletop
+
+Component durability and reset are explicit tabletop design concerns, sharpest in the legacy genre. A legacy game changes permanently across sessions via stickers, writing, and destruction, which raises "what do you do with the box after the campaign ends?" — the single-use $80-box-to-landfill problem [researched][7][8]. Documented mitigations include refill/reset packs, non-permanent stickers, designs that remain playable in their final altered state, and "cognitive legacy" approaches that unlock via player knowledge rather than physical change [researched][8]. Material spec drives durability at the component level: black-core card stock resists wear and prevents see-through, which is why POD card stock defaults to 320gsm black-core [researched][3][synthesis]. Reset and organization (box inserts, storage, re-sorting consumed components) is therefore a first-class design axis trading permanence and tactile drama against reusability [synthesis].
+
+## Lock Taxonomy · Puzzle-Hunt
+
+For distributed/outdoor hunts, physical lock selection is a taxonomy with explicit tradeoffs. Keyed locks pair a hidden key with a container but demand crystal-clear instructions and a backup key against loss [researched][14]. Number/letter combination locks are preferred over dial locks because they resist brute-forcing while staying solvable, and integrate cleanly with a puzzle that yields the code [researched][14]. Directional (arrow-sequence) locks support multi-step combinations and ship with reprogrammable letter/number/symbol stickers, making them highly reusable across adventures [researched][14]. Multi-lock setups require finding several keys first — effective but the guidance warns to tell players explicitly, or they get frustrated [researched][14]. Lockpick locks add novelty but have unpredictable solve times (10 seconds to 20 minutes) and suit low-time-pressure framing [researched][14]. Theme fit matters (antique-style locks for period feel) and word locks pair naturally with riddles [researched][14]. Reset/reuse favors reprogrammable combination and directional locks over keyed ones, and combination locks' hardware-store availability lowers sourcing cost [researched][14][synthesis]; outdoor weather-resistance is a recognized gap in the consulted guidance and should be treated as a separate sourcing question [synthesis].
+
+## Sources
+
+[1] Mike Shea (Sly Flourish), "Making Great Handouts". https://slyflourish.com/making_great_handouts.html  (accessed 2026-06)
+[2] TTRPG Games, "Ultimate Guide To TTRPG Props And Handouts". https://www.ttrpg-games.com/blog/ultimate-guide-to-ttrpg-props-and-handouts/  (accessed 2026-06)
+[3] The Game Crafter, "Custom Punchouts and Card Stock". https://help.thegamecrafter.com/article/201-custom-punchouts-and-card-stock  (accessed 2026-06)
+[4] The Game Crafter, "Custom Dice". https://help.thegamecrafter.com/article/370-custom-dice  (accessed 2026-06)
+[5] Tabletop escape room overview, "Exit, Unlock, Deckscape: An escape-room board game guide" (Don't Eat the Meeples). https://www.donteatthemeeples.com/exit-unlock-deckscape-escape-room-board-games/  (accessed 2026-06)
+[6] Don't Eat the Meeples, "Exit, Unlock, and Deckscape compared". https://donteatthemeeples.substack.com/p/exit-unlock-deckscape-escape-room-board-games  (accessed 2026-06)
+[7] Wikipedia, "Legacy game". https://en.wikipedia.org/wiki/Legacy_game  (accessed 2026-06)
+[8] Neutronium Games, "Best Legacy Board Games 2026: Permanent Change, Lasting Stories". https://neutronium.games/blog/legacy-board-games-2026  (accessed 2026-06)
+[9] Big Red Barrel, "Review: Chronicles of Crime". https://www.bigredbarrel.com/2019/12/02/review-chronicles-of-crime/  (accessed 2026-06)
+[10] UltraBoardGames, "How to play Chronicles of Crime — Official Rules". https://www.ultraboardgames.com/chronicles-of-crime/game-rules.php  (accessed 2026-06)
+[11] Wikipedia, "Toys-to-life". https://en.wikipedia.org/wiki/Toys-to-life  (accessed 2026-06)
+[12] Wikipedia, "Amiibo". https://en.wikipedia.org/wiki/Amiibo  (accessed 2026-06)
+[13] TTRPG Games, "Best Initiative Trackers for TTRPGs". https://www.ttrpg-games.com/blog/top-10-initiative-trackers-for-ttrpgs  (accessed 2026-06)
+[14] Josh Glanc (Constructed Adventures), "Let's Talk Locks!". https://www.constructedadventures.com/how-to-build-a-treasure-hunt/2021/10/11/lets-talk-locks  (accessed 2026-06)
