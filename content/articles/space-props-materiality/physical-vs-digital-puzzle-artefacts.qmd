@@ -1,14 +1,108 @@
 ---
 title: "Physical vs Digital Puzzle Artefacts"
-aliases: []
+aliases: ["Artefact Modality", "Physical-Digital Spectrum", "Durability Horizon"]
 family: "Space, Props & Materiality"
-media: []
+media: [live-game, puzzle-hunt, interactive-fiction, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [discovery, durability, solver-accountability, sense-of-place]
+  problems: [url-rot, server-dependency, artefact-loss, reset-overhead]
+  components: [printed-book, buried-object, verification-server, qr-code, gps-coordinate]
+  genre: [mystery, treasure-hunt]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The choice of what a puzzle is made of and the years of maintenance that choice quietly commits you to.*
+
+Every puzzle the player picks up is made of something. Perhaps a buried bronze chest. Perhaps a printed book whose pages hold the whole puzzle. Perhaps a web page that checks the answer, or just a coordinate on a map. The choice feels like a question of texture, of how the thing feels in the hand. It is really a question of time. The form of an artefact is a bet on how long the puzzle stays solvable, who has to feed it, and what happens to it when nobody is watching.
+
+A treasure hunter who buries a metal casket is signing up for decades of land that may be paved over and a custodian who may die before the prize is found. A designer who prints a verification URL on a page is signing up to keep a server alive for as long as a single second-hand copy circulates. Neither cost shows up on launch day. Both come due later, when the original enthusiasm has cooled and the thing has to keep working anyway.
+
+This article maps that spectrum from the object you can hold in the hand to the page that exists only as bits. It asks what each end costs over a multi-year horizon. The richest experience and the lowest maintenance burden sit at opposite poles. Most of the craft is knowing which one you can afford to keep paying for.
+
+## The Mechanism (How it works)
+
+### Five modalities along one spectrum
+
+The forms a puzzle artefact can take sit along a single axis from wholly physical to wholly digital. Five points on that line cover most of what designers actually make. Each one carries its own bundle of costs to build and to run, plus its own way of failing into a puzzle nobody can solve. [corpus] The table below is the spine of the whole decision. The costs are first-order estimates from the case record rather than precise figures. A real design often straddles rows: a buried object whose location is confirmed by a printed book and a web checker spans three of them at once. [corpus]
+
+| Modality | Canonical example | Running cost over ten years | What makes it unsolvable |
+|---|---|---|---|
+| Pure physical artefact | Masquerade golden hare, Fenn's bronze chest | Low if the site is stable; high if it needs monitoring | Land access changes, site disturbed, custodian dies |
+| Pure-print self-contained | The Maze, Cain's Jawbone | Near zero, no infrastructure | Nothing, while copies survive |
+| Hybrid print plus server | Journal 29 | Ongoing server and domain upkeep | Total loss if the server lapses |
+| Fully digital | MIT Mystery Hunt, web hunts | Hosting plus active archiving | Partial as external assets die; total if hosting lapses |
+| GPS hybrid | Geocaching, PlayTours | Platform fees plus container replacement | Platform shuts down; container lost |
+
+The tension running down the table is between how rich the experience is and how heavy the institution behind it has to be. The forms that deliver the most resonant moment of discovery, an object pulled from the ground after years, are the ones that demand the most custodianship. The forms that need no custodian at all cannot deliver place or weather or physical find. [corpus] Picking a point on this line is one of the hardest decisions to undo once a hunt is in the wild.
+
+### The physical pole holds up better than you fear, for the wrong reasons
+
+The first surprise from the historical record is that the material almost never fails. Metal and ceramic survive burial for decades in good condition. The *Masquerade* golden hare spent two and a half years underground at Ampthill Park from 1979 and came up sound; the same object sold at Sotheby's in London in November 2025 for £82,550, forty-six years on, intact and exhibitable. [researched] Forrest Fenn's bronze chest sat in the Wyoming wilderness for roughly a decade before its recovery in June 2020, structurally whole, its contents preserved well enough to authenticate and later auction. [researched] Byron Preiss buried twelve hand-painted ceramic casques in 1982; the three recovered so far came up readable, and one cracked open by a construction excavator still yielded its key from the mud. [researched]
+
+So the binding constraint on a buried artefact is never the artefact. It is institutional continuity. Who holds the standing to authorise a dig when the time comes? Who confirms a claimed find? And what becomes of the site over the hunt's intended life? [corpus] The Milwaukee casque of *The Secret* is most likely under concrete in Lake Park after decades of development, with no documented plan for that case and a parks department that treats amateur excavation permits as a nuisance. [researched] Fenn was lucky to be alive when his chest was found; had he died first, the location would have stayed as opaque as the nine *Secret* casques still in the ground. A pattern that travels well decouples the two risks. *The Secret* put a cheap ceramic key in the field as proof of find and held the actual gemstone prize off-site, so the field artefact's durability and the prize's value never had to share a fate. [corpus] The same move scales down. A cheap token goes in the field while the prize stays at the host's location, and the token is what the finder trades for it at the exchange.
+
+### The cheapest form gives up the most
+
+At the other pole, a self-contained printed puzzle needs no server, no land, and no custodian beyond whoever holds the canonical solution. Christopher Manson's *The Maze* (1985) is the type case. It is a forty-five-room illustrated book whose entire puzzle lives between its covers, still unsolved in full nearly forty years later. [researched] *Cain's Jawbone*, first published in 1934 and reissued by Unbound in 2019, works the same way, except the Laurence Sterne Trust holds the answer and confirms submissions privately, which has kept the solution from leaking across more than 500,000 copies sold. [researched]
+
+Self-containment is the lowest-burden modality there is, and the trade is plain. As long as one copy survives, the puzzle is solvable, but the experience is bounded by what fits between two covers. Place, weather, and the act of physical discovery are off the table. [corpus] This is the print craft of the artefact itself, the unbound loose cards of *Cain's Jawbone* or the interactive book that *Journal 29* turns out to be, which belongs to [Physical Clue Formats](physical-clue-formats.qmd) and to the wider production craft of [Artefact Design & Document Production](artefact-design-and-document-production.qmd).
+
+### The middle is where the hidden bill lives
+
+The hybrid that prints a verification URL on the page buys the richest engagement and embeds the heaviest hidden liability. *Journal 29* (2018) carries roughly sixty-three puzzles. Each one is answered at a URL printed on the page or reached through a code, and a correct answer returns a key that unlocks later puzzles. [researched] The keys are chained, so losing one blocks all forward progress, and the printed book on its own cannot verify a thing. If the server goes dark, every copy in circulation becomes unsolvable at once. [corpus] The publisher then owes that infrastructure for the entire commercial life of every copy, second-hand ones included, and the obligation passes to whoever inherits the title from the original author.
+
+The link-rot literature gives the bet its odds, and they are not comfortable. A 2014 study found more than 70% of URLs cited in the *Harvard Law Review* and more than 50% in US Supreme Court opinions no longer reached the original material. [researched] Brewster Kahle of the Internet Archive has put the average lifespan of a web page before it changes or vanishes at around 100 days. [researched] A 2024 study reports root URLs with a half-life near nine years against roughly one year for deep links, with only 35% of archived URLs still active in 2023. [researched] A printed book carrying a verification URL is betting against those distributions, and without active upkeep the link has roughly even odds of being dead within ten years. A redirecting QR code is worse still, since it adds a third-party redirect service to the chain of things that can lapse; a plain code that carries its destination inside the printed image needs no server but cannot verify anything either. [researched] That split between a self-contained code and a redirecting one, and the dependency it hides, is the heart of [QR & NFC Patterns](qr-and-nfc-patterns.qmd). The server-side answer-checking the hybrid leans on is the same apparatus that lets a puzzle confirm its own solution, [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd), implemented here as state and gates in code, which is [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd).
+
+### Fully digital decays unless an institution holds it
+
+A wholly digital puzzle can outlast its designer by decades or else rot inside a few years. The difference comes down almost entirely to who hosts it. The MIT Mystery Hunt has run since 1981 and self-hosts its archive on an institutional domain. That archive still has real gaps all the same. The year 1988 is missing entirely. Several early years have no solutions. The 1998 hunt was almost wholly absent until donated personal archives surfaced. [researched] The single most consistent failure mode is a puzzle that originally relied on a third-party URL for its assets or interaction and could not be reproduced once that link died. [researched] Wayback Machine snapshots preserve the static surface of a page but generally not its interactive verification or scoring, so the playable layer is the first thing lost. [researched]
+
+The practical lessons for a digital artefact follow directly. Self-host on an institutional domain where you can, because university or foundation backing produces far better half-lives than commercial hosting. Avoid embedding third-party URLs for puzzle content, since each one is a future decay vector. Keep a static-archive plan from the start so the text and images survive even when the interactive layer does not. And plan succession explicitly: MIT's institutional ownership is the model, where a personal domain registered for ten years is only a starting point. [corpus] This wholly digital, web-native pole is also where the puzzle hunt meets interactive fiction, the form whose artefacts exist only as bits and inherit url-rot wholesale; the lineage that runs from web-based hunts into alternate reality games is [The Puzzle Hunt & ARG Tradition](../puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd), and the hunt-construction craft itself is [Puzzle Hunt Craft](../puzzles-clues-information/puzzle-hunt-craft.qmd). Even a commercial digital puzzle that ships as a sealed product rather than a hosted service feels the pull of this pole. *Blue Prince* (2025) builds its entire puzzle, a mansion drafted room by room, purely in software, and it stays playable only as long as the platform that runs it survives. [researched]
+
+::: {.callout-note}
+### The Specimen
+*Journal 29* shows the hybrid bargain in its purest form. The book is handsome and the puzzles chain elegantly, and the answer-to-key-to-next-puzzle loop is exactly what makes the experience work. That same loop is what makes the whole thing hostage to journal29.com. As of mid-2026 the site is still live, with its solutions and hints portals running and a copyright footer that reads 2017 to 2025. A reviewer flagged the structural risk plainly, calling the design "incomplete" without the server, because the printed book carries no way to verify an answer by itself. Every copy sold is a quiet promise that someone will keep paying the hosting bill. The chained-key architecture leaves no room for graceful degradation either. On the day the domain lapses the puzzle does not get harder; it simply becomes impossible to finish past the first answer the server can no longer confirm. [researched]
+:::
+
+### Digital props earn their keep only where the design needs them
+
+Inside a live room the same spectrum reappears as a choice between electronics and laminated paper, and here the deciding factor is reset overhead rather than durability. Professional-grade escape-room electronics report around 70% fewer technical failures than consumer kit, at a custom-room cost that runs from roughly $25,000 to $150,000 or more. [researched] What they buy is one-touch reset: physical props get misplaced, pocketed, or left half-closed and cost staff time every booking, while electronic automation clears that labour. The cost is quarterly deep maintenance and a need to fix critical faults within hours. [researched] Laminated paper is the baseline they are weighed against, so cheap to reprint that the practitioner literature barely treats it as a technology at all. [corpus]
+
+So the rule for digital props is to add them only where the puzzle genuinely demands them. Theatrical state changes of light and sound, state-aware multi-stage interactions, and tightly coordinated multi-player puzzles justify the overhead. Plain information display, lock-and-key chains, and simple combination puzzles do not. [corpus] Which props belong on a screen at all, and what each one costs the fiction, is the companion question of [Digital Props](digital-props.qmd), and the immersion cost of a visible screen in a period set is weighed in [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd).
+
+### The GPS hybrid anchors on place, which outlives any platform
+
+The most durable digital-adjacent form keeps the permanence on the ground and lets software handle only the logistics. The geocaching pattern, a physical location plus digital coordination, has run since the first cache was hidden in May 2000 and now spans more than three million active caches across 191 countries. [researched] Container longevity varies sharply: ammo cans survive long-term outdoor placement and are often waterproof, while nano and micro caches typically fail within a single season. [researched] The location is the permanent artefact; the container is consumable. That durability comes from the container craft and weatherproofing of [Materials, Durability & Reset](materials-durability-and-reset.qmd).
+
+The structural advantage is that the place outlives the platform. Hosted services such as PlayTours run hunts triggered by GPS coordinate, scanned code, or short-range radio tag on monthly subscriptions, and if one shuts down, the hunts built on it go dark until rebuilt. [researched] A coordinate with a physical clue at it can still be re-run under a different coordination system. Here content and delivery are two separate things rather than the single fused thing they become in a purely digital puzzle. [corpus] So the GPS hybrid's risk profile sits closer to pure-physical than to pure-digital. The location outlasts the platform, provided you have kept platform-specific logic out of the puzzle itself.
+
+## Where this fits
+
+**The bigger picture.** This article is the temporal floor under the rest of the family's material craft. A lock or a document or a hidden compartment is good or bad on its own terms, yet the choice of what it is made of governs how long it lasts and who has to look after it. That choice answers to three questions. How long must the puzzle stay solvable? Does the experience need a specific place? And what institutional continuity really stands behind it? A designer with no successor and no backing should default to pure-print self-contained as the only form that survives the designer's complete withdrawal. A designer with a university or trust behind them has the muscle for servers and hosting. One with a documented successor can carry a buried artefact at scale. The honest version of this decision is made before launch rather than discovered when the server bill or the excavation permit comes due.
+
+**Next steps.** Once the modality is chosen, the craft turns to building the thing well. The physical artefact's ageing, integrity, and document production is [Artefact Design & Document Production](artefact-design-and-document-production.qmd); its format on the page is [Physical Clue Formats](physical-clue-formats.qmd); its weatherproofing and reset is [Materials, Durability & Reset](materials-durability-and-reset.qmd). On the digital side, the screen-bound props are [Digital Props](digital-props.qmd) and the trigger layer is [QR & NFC Patterns](qr-and-nfc-patterns.qmd). The immersion cost of letting any digital element show is [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd). And the hunt traditions that exercise every point on this spectrum are [Puzzle Hunt Craft](../puzzles-clues-information/puzzle-hunt-craft.qmd) and [The Puzzle Hunt & ARG Tradition](../puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd).
+
+## Sources
+
+- Sotheby's London. "The Masquerade Hare" lot listing, November 2025. <https://www.sothebys.com/en/buy/auction/2025/fine-jewelry-l25051/the-masquerade-hare>
+- "Masquerade (book)." Wikipedia. <https://en.wikipedia.org/wiki/Masquerade_(book)>
+- "Fenn treasure." Wikipedia. <https://en.wikipedia.org/wiki/Fenn_treasure>
+- MeatEater. "Photos: First Look at Forrest Fenn's Treasure." <https://www.themeateater.com/conservation/public-lands-and-places/public-lands-and-waters/photos-first-look-at-forrest-fenns-treasure>
+- "The Secret (treasure hunt)." Wikipedia. <https://en.wikipedia.org/wiki/The_Secret_(treasure_hunt)>
+- "Maze: Solve the World's Most Challenging Puzzle." Wikipedia. <https://en.wikipedia.org/wiki/Maze:_Solve_the_World%27s_Most_Challenging_Puzzle>
+- "Cain's Jawbone." Wikipedia. <https://en.wikipedia.org/wiki/Cain%27s_Jawbone>
+- Journal 29 official site. <https://www.journal29.com/>
+- CJ Leo. "Journal 29 Review: A Tedious, Incomplete Puzzle Book." <https://cjleo.com/blog/journal-29-review-a-tedious-incomplete-puzzle-book/>
+- Zittrain, Albert and Lessig. "Perma: Scoping and Addressing the Problem of Link and Reference Rot in Legal Citations." *Harvard Law Review* Vol. 127, 2014. <https://harvardlawreview.org/forum/vol-127/perma-scoping-and-addressing-the-problem-of-link-and-reference-rot-in-legal-citations/>
+- "Some URLs Are Immortal, Most Are Ephemeral." iPRES 2024, Zenodo. <https://zenodo.org/records/13687116>
+- Library of Congress. "The Average Lifespan of a Webpage," 2011 (Brewster Kahle estimates). <https://blogs.loc.gov/thesignal/2011/11/the-average-lifespan-of-a-webpage/>
+- "MIT Mystery Hunt." Wikipedia. <https://en.wikipedia.org/wiki/MIT_Mystery_Hunt>
+- MIT Mystery Hunt archive. <https://puzzles.mit.edu/huntsbyyear.html>
+- Escape Room Supplier. "Why Escape Room Owners Choose Professional Electronics." <https://www.escaperoomsupplier.com/why-escape-room-owners-choose-professional-electronics-a-decade-of-innovation-in-escape-room-puzzle-systems/>
+- A-Props. "Reset Article" (per-booking reset labour). <https://a-props.com/reset_article>
+- SearchLogistics. "Geocaching Statistics." <https://www.searchlogistics.com/learn/statistics/geocache-statistics/>
+- "Geocaching." Wikipedia. <https://en.wikipedia.org/wiki/Geocaching>
+- PlayTours. "Pricing." <https://www.playtours.app/pricing>
+- Locatify. "How Scavenger Hunt Apps Work: GPS, Offline Mode, and Device Compatibility." <https://support.locatify.com/hc/en-us/articles/31318014510237-How-Scavenger-Hunt-Apps-Work-GPS-Offline-Mode-and-Device-Compatibility>
+- "Blue Prince." Wikipedia. <https://en.wikipedia.org/wiki/Blue_Prince>
+- Hon, Adrian. "Blue Prince is a Roguelike Puzzle Masterpiece." mssv.net, 7 April 2025. <https://mssv.net/2025/04/07/a-puzzle-designer-on-blue-prince-a-roguelike-puzzle-masterpiece/>

@@ -1,14 +1,109 @@
 ---
 title: "Dungeon & Spatial Topology"
-aliases: []
+aliases: ["Dungeon Design", "Spatial Layout", "Map Topology", "Non-Linear Layout"]
 family: "Space, Props & Materiality"
-media: []
+media: [tabletop, live-game, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [exploration, agency, replayability, orientation, emergent-play]
+  problems: [linear-corridor, chokepoint, no-meaningful-choice, unmappable-space]
+  components: [map, loops, connections, factions, restock-table]
+  genre: [fantasy, mystery, horror, adventure]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The shape of the space itself, designed so that where the players can go is a decision and not a corridor.*
+
+A dungeon is not a backdrop for the action. It is the action, expressed as geography. Which door to open. Whether to press on or circle back. Whether to risk the flooded passage instead of the guarded stair. These are the decisions the layout sets in front of the players, and a layout that offers none of them is a hallway wearing a map. The oldest unit in tabletop play is also the clearest demonstration that space can be designed the way a puzzle is designed, with connections and loops and dead ends that mean something.
+
+This article is about the topology of a place, the connective tissue rather than the dressing on its walls. Where [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd) asks what a space feels like, this one asks what shape it is. How do its rooms connect, and what does that pattern of connection do to a party moving through them? The dungeon is the home of the question, but the same question of shape governs an escape room's floor plan, the route through a city hunt, and the way a story's geography lets a reader pick their own order.
+
+## The Mechanism (How it works)
+
+### Player skill lives in the layout
+
+The founding insight of dungeon design is that the space tests the players, not their characters. Dave Arneson invented the form in 1971 when his Blackmoor players found the castle basement and went down the stairs, and within a year exploring the underground had become the main activity of the game. [researched] What made it work was a set of demands that sat outside any rulebook. The players had to draw a map from spoken description and husband their light and supplies against a ticking clock, then decide where to go next under real uncertainty. Ability scores barely mattered. The dungeon measured what the players knew and decided. [researched] That split between player skill and character skill is the fault line the whole discipline still runs along.
+
+Time is the engine that makes the space dangerous. Gary Gygax formalised the exploration turn as ten minutes of game time, with a die rolled at the end of each turn for a wandering encounter, and torches that burn out after six turns. [researched] None of this is bookkeeping. It is what turns a floor plan into a pressure system. Rushing costs accuracy. Lingering costs light and invites company. Every junction becomes a real choice with a cost attached. A modern reworking, Arnold K's Underclock, makes that pressure visible to the players: a counter starts at 20, time-consuming actions subtract a die roll, and at zero an encounter fires and the clock resets, with rests in the dungeon escalating the die size so the place grows more hostile the longer anyone stays. [researched] The deeper point is that attrition is the story the dungeon tells. Each room entered and each resource spent is a beat. How that pressure paces a session is the temporal side of the same craft, [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd).
+
+### Xandering the dungeon: loops over corridors
+
+The single most consequential decision in a layout is linear or non-linear. A linear dungeon is a sequence. One room leads to the next, and every group walks the same path in the same order. A non-linear one is a graph whose junctions fork and rejoin. The party picks its own route through them. Justin Alexander named the non-linear approach after the designer Jennell Jaquays, first as "Jaquaying" and later "Xandering" at her preference, after her Judges Guild modules showed how different the play felt. [researched] *Caverns of Thracia* (1979) is the demonstration: three separate entrances to the first level and at least eight unconventional or secret routes to the depths below. [researched]
+
+Alexander catalogues a dozen techniques for breaking the corridor, and they are worth seeing as a toolkit rather than a checklist.
+
+| Technique | What it does for the player |
+|---|---|
+| Multiple entrances | A strategic choice before the party even sets foot inside |
+| Loops | Connected branches that let the party circle a threat instead of charging it |
+| Multiple level connections | Several routes between floors, so no single stair is a chokepoint |
+| Discontinuous connections | A route that skips a level, opening non-adjacent access |
+| Secret and unusual paths | Hidden routes (cave-ins, submerged bypasses) that reward curiosity |
+| Sub-levels | Off-sequence areas holding shortcuts and discoveries |
+| Midpoint entry | Entering in the middle forces the question: up first, or down? |
+
+The contrast case Alexander uses is a dungeon that offers pseudo-choices resolving to one predetermined route, which is a railroad with rooms. [researched] The practical consequence is the whole argument in one line. In a linear dungeon every group has the same experience; in a Xandered one every group has a different experience. [researched] That difference is the spatial expression of a structural concern this family shares with the structure-and-pacing family, where the same fork-and-rejoin question is treated as graph shape in [Hexcrawl & Pointcrawl](../structure-pacing/hexcrawl-and-pointcrawl.qmd) and, for digital narrative, [IF Graph Structures: A Taxonomy](../structure-pacing/if-graph-structures-a-taxonomy.qmd).
+
+The loop is the load-bearing element. A loop removes the single point of failure that a corridor creates, because a party blocked at one junction has another route around. This is the spatial twin of redundancy in cluing. There, a conclusion is protected by more than one trail of evidence, so a missed trail does not stall the game. The reasoning is the same here, run over rooms instead of clues. The general version of that principle is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+::: {.callout-note}
+### The Specimen
+*Caverns of Thracia* (Jennell Jaquays, Judges Guild, 1979) is the article every later writer points at. Its four levels of caverns hold three factions in live tension. Revolted slaves, surviving cultists, and the lizard-folk who first dwelt there all share the same dark. The party allies with one of them or plays one against another. A clumsy intervention pulls a faction apart. [researched] The layout refuses to behave. There are three ways into the first level and at least eight routes downward, with elevation shifts that quietly desynchronise the players' map from where they actually are. The result is that two parties exploring the same module produce two different campaigns, because the space hands each of them a different sequence of choices. The dungeon's identity is its politics, and its politics are legible only because its geography lets the factions move. [researched]
+:::
+
+### The space as a living system: faction ecology
+
+A layout becomes a place when something lives in it that responds to the players. The liveliest dungeons put several intelligent factions in the same space with conflicting goals, so that clearing a room is never the end of it. Cleared areas get reoccupied, an alliance with one group turns another hostile, and the place is never the same on a second visit. [researched] *Caverns of Thracia* is the historical precedent; the modern megadungeons build entire campaigns on it. Stonehell Dungeon (Michael Curtis, 2009) carves over 700 rooms into the warring kingdoms of former prison gangs, with a kobold trading post and a medusa information-broker as neutral hubs. [researched] The Halls of Arden Vul (2020), the largest published example at roughly 2,000 keyed areas and a dozen major factions, is designed so it cannot be cleaned out: it is deliberately too large for any campaign to exhaust. [researched]
+
+The mechanism that keeps a faction dungeon alive is the restock procedure. After a session or a set interval, the designer rolls for each cleared room, and on a hit the room gains new occupants drawn from the wandering table or from faction logic. [researched] The restock table is itself a design artefact. It encodes the ecology of the place, which group preys on which and which moves into a cleared room once the party has gone. A goblin tribe that depended on a troll for protection behaves very differently after the troll dies than a simple headcount would suggest. [researched] The cheapest version of all this is a faction tracker, a short table of each faction's goal, its current disposition toward the party, and its current status, which produces more emergent play than scripted encounters and costs less to maintain. [researched] This is the spatial cousin of the live-play state that progress clocks and faction tracks watch over time, [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd).
+
+### Mythic or naturalistic: what the shape is allowed to be
+
+Two traditions licence two different kinds of layout. The naturalistic dungeon is an actually-built structure with a history: a former fortress, tomb, or mine, whose rooms are where they are for reasons, and whose stocking follows from who moved in and how long ago. The mythic underworld, articulated by Jason Cone writing as Philotomy Jurament, treats the dungeon as a hostile realm where normal reality bends. Doors open for monsters and resist players; the place need not have been built by anyone; it simply exists, vast and dangerous at depth. [researched] This is not a clean split. Even *Tomb of Horrors*, the canonical hostile-personality dungeon, rests on a coherent naturalistic premise (a demi-lich's paranoid tomb), so the distinction marks a tone and a permission set rather than two sealed categories. [researched]
+
+The choice matters because it decides how strange the topology is allowed to be. A naturalistic dungeon answers to the player's map; a mythic one is free to break it. The classic unmapping tools all exploit the player-drawn record itself. A passage slopes so imperceptibly that the party's map ends up a level above where they actually stand. A teleporter or one-way door drops them somewhere with no spatial relation to the entry. Two identical rooms read as one room until they prove otherwise. One connection opens onto a space that has no business fitting. [researched] Each of these is an unmapping device, and each works only because the players are doing the mapping. The discipline that connects spatial confusion to fair recovery, so that a disoriented party still has a route back to certainty, is the navigational form of [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd).
+
+### Room density and the empty room
+
+A layout where every room holds a loaded encounter feels like a test, not a place. The Moldvay Basic ruleset (1981) encodes the corrective as a heuristic. Roughly a third of a dungeon's rooms ought to be empty or low-content. [researched] "Empty" here means no keyed content, not literally bare. An empty room still carries atmosphere or a clue about the dungeon's history. Its real job is pacing. A dungeon with no empty rooms collapses the session into a sequence of decisions with no breathing space between them; the inverse failure, corridor after corridor of nothing, produces a dungeon that is really a forest, where the word "dungeon" has stopped describing any structural property at all. [researched] The empty room is the spatial equivalent of rest in music. It is the silence that lets the loud parts land.
+
+### The same shape in other media
+
+Strip away the dungeon and the topology survives, which is the surest sign it was never about dungeons. The live-game version is the escape room's floor plan, where the same linear-versus-non-linear choice reappears under its own names. Scott Nicholson's survey gives the base split. An open room makes everything available at once. A sequential room offers one puzzle at a time, each unlocking the next. A path-based room is a directed graph, where solves open several branches that later converge. [researched] Practitioners elaborate these into a working vocabulary: linear, multi-linear (parallel chains converging on a meta), hub-and-spoke (a central area that gates and reintegrates short loops, doubling as the orientation device), and hourglass (parallel chains funnelling into a single whole-team bottleneck, then reopening). [researched] The shapes carry the same trade-offs the dungeon does. A linear room bottlenecks a large team into watchers and one solver; an open room overwhelms beginners and ends anticlimactically when the last puzzle solved is merely the hardest. [researched] The hub-and-spoke layout is the one that solves orientation directly, because a player who loses the thread can return to the hub and read the state. [researched] The full treatment of these floor plans as temporal structures is [Escape Room Topologies](../structure-pacing/escape-room-topologies.qmd).
+
+In interactive fiction the space is made of regions and routes, and geography substitutes for the timeline the author has given up. *80 Days* (inkle, 2014) routes more than 150 cities so the content is linear within a city but non-linear in which cities and in what order, and the geography itself tells the player roughly where they are even when sequence is theirs to set. [researched] The hub-and-spoke layout reappears as a way to reconstruct a fixed past: in *Return of the Obra Dinn* (Lucas Pope, 2018) the ship is the reference frame, and the player's knowledge of the space stands in for knowledge of the sequence, the way a memory palace does. [researched] Space here is doing the orientation work that the dungeon's player-drawn map does, and so both media reward redundancy: load-bearing information delivered through more than one route, so that no single missed fragment breaks comprehension. The order-of-arrival craft this depends on is [Nonlinear Narrative Structures](../structure-pacing/nonlinear-narrative-structures.qmd).
+
+The puzzle-hunt version is the clue chain that moves solvers through real space, and its most elegant form is location-as-clue, where one puzzle's answer is a place the solver arrives at and recognises. [researched] The recognition needs redundant confirmation. Give the solver several independent ways to know they are in the right spot. The building's silhouette matches the booklet, and the plaque carries the number they need, so that misreading one signal does not strand the team. [researched] A wrong solution lands somewhere with no confirmation, and the wrongness of the place is itself the error message. This only works when wrong answers lead somewhere obviously unconnected rather than somewhere plausible. [researched] A place that serves as both destination and clue is the spatial face of clue chains generally, [Clue Sequencing & Chains](../puzzles-clues-information/clue-sequencing-and-chains.qmd), and the map of which clue feeds which conclusion is [Information Architecture](../puzzles-clues-information/information-architecture.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The failure that hides in plain sight is the linear-but-flavoured dungeon. It is a single path of rooms, each holding a different kind of content (a fight in one, a puzzle in the next), which feels varied while offering no actual routing choice. The tell is a one-question diagnostic. Can the players go anywhere except forward? If every door leads to the next setpiece in the same order for every group, the variety is cosmetic and the space is a corridor of setpieces rather than a place. [researched] The same trap waits in the other media as false freedom, the escape room whose branches always reconverge, the IF whose non-linearity the player eventually detects as a decoration over a fixed track. [synthesis] The cure is not more content. It is a loop: one genuine alternate route that makes the party's choice of path change what they meet. A single real fork does more for the feeling of a place than a dozen dressed-up rooms on one rail. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Spatial topology is where this family's concern with materiality turns structural. A prop or a lock or a document is a thing; the layout is the relationship between things, the connective shape that fixes what the player reaches and the order of reaching it. That makes it the spatial member of a question shared across families. The structure-and-pacing family meets the same fork-and-rejoin shape as narrative graph and temporal rhythm. The puzzles family meets it as the dependency map of who-knows-what-when. This article holds the version of that question that is built rather than written. It is a floor plan, a room map, the route a hunt walks through a city. Get the topology right and the dressing has somewhere to hang; get it wrong and the finest set is a corridor with good wallpaper.
+
+**Next steps.** Once the shape of the space is decided, the work turns to what fills it and how it reads. The dressing and sensory world that makes the layout a believed place is [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd), and whether a given puzzle object in that space is better physical or on a screen is [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd). For the temporal counterpart, where the same non-linear instinct is treated as the rhythm of a session rather than the shape of a map, reach for [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd) and the escape-room treatment in [Escape Room Topologies](../structure-pacing/escape-room-topologies.qmd). And where the layout has to stay legible to a party that has lost its bearings, the recovery craft is [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd).
+
+## Sources
+
+- Alexander, Justin. "Running Castle Blackmoor." The Alexandrian. <https://thealexandrian.net/wordpress/40789/roleplaying-games/running-castle-blackmoor>
+- "A Case for the Return of The Dungeon Turn." The RPG Gazette, 20 February 2026. <https://therpggazette.wordpress.com/2026/02/20/a-case-for-the-return-of-the-dungeon-turn/>
+- Old-School Essentials SRD, "Encounters" (exploration turn and wandering-monster procedure). <https://oldschoolessentials.necroticgnome.com/srd/index.php/Encounters>
+- Alexander, Justin. "Xandering the Dungeon" (Part 1). The Alexandrian. <https://thealexandrian.net/wordpress/13085/roleplaying-games/xandering-the-dungeon>
+- Alexander, Justin. "Jaquaying the Dungeon, Part 2: The Jaquays Techniques." The Alexandrian. <https://thealexandrian.net/wordpress/13103/roleplaying-games/jaquaying-the-dungeon-part-2-the-jaquays-techniques>
+- "The Caverns of Thracia." Wikipedia. <https://en.wikipedia.org/wiki/The_Caverns_of_Thracia>
+- Maliszewski, James. "Retrospective: Caverns of Thracia." Grognardia, December 2008. <http://grognardia.blogspot.com/2008/12/retrospective-caverns-of-thracia.html>
+- Curtis, Michael. *Stonehell Dungeon* (2009). Vintage RPG retrospective. <https://www.vintagerpg.com/2024/07/stonehell-2009-2015/>
+- Barton, Richard. *The Halls of Arden Vul* (Expeditious Retreat Press, 2020). <https://ardenvul.com/>
+- Cone, Jason (Philotomy Jurament). "Philotomy's Musings" (the mythic underworld). <https://www.grey-elf.com/philotomy.pdf>
+- "Tomb of Horrors." Wikipedia. <https://en.wikipedia.org/wiki/Tomb_of_Horrors>
+- K, Arnold. "The Underclock: Fixing the Random Encounter." Goblin Punch, April 2023. <https://goblinpunch.blogspot.com/2023/04/the-underclock-fixing-random-encounter.html>
+- "How Big Should Your Open World Be?" (Moldvay one-third-empty heuristic). A Distant Chime. <https://espharel.blogspot.com/2020/11/osr-how-big-should-your-open-world-be.html>
+- Nicholson, Scott. "Peeking Behind the Locked Door: A Survey of Escape Room Facilities" (2015). <https://scottnicholson.com/pubs/erfacwhite.pdf>
+- Mystery Soup Games. "Linear vs. Non-Linear Game Flow in Escape Rooms." <https://mysterysoupgames.com/linear-vs-non-linear-game-flow-in-escape-rooms/>
+- The Escape Revolution. "Guide to Linear vs. Multi-Linear Escape Rooms." <https://theescaperevolution.com/linear-vs-non-linear-escape-rooms/>
+- inkle. *80 Days* (2014); Kennedy, Alexis and Ingold, Jon, "modular storytelling" (2015). <https://www.inklestudios.com/80days/>
+- Pope, Lucas. *Return of the Obra Dinn* (2018). <https://obradinn.com/>
+- Watson Adventures (location-as-clue city-hunt design philosophy). <https://www.watsonadventures.com/>
+- Geocaching multi-cache and waypoint guidelines. <https://www.geocaching.com/play/guidelines>

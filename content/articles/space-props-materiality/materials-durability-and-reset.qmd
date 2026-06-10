@@ -1,17 +1,124 @@
 ---
 title: "Materials, Durability & Reset"
-aliases: []
+aliases: ["Prop Durability", "Weatherproofing", "Reset & Pre-Run Checklists", "Resetability"]
 family: "Space, Props & Materiality"
-media: []
+media: [live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [reliability, replayability, operational-throughput, run-to-run-consistency]
+  problems: [prop-failure, immersion-break, slow-reset, weather-damage, single-use-waste]
+  components: [material-palette, sealant, container, reset-checklist, consumable-stock]
+  genre: [escape-room, outdoor-hunt, legacy-game]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The craft of building props that survive being dropped, soaked, and forced, then putting the room back together fast enough to run the next group.*
+
+A guide prop does not get one careful use. It gets hundreds of forced ones. Players grip, drop, yank, and over-torque anything that does not visibly move, often under time pressure, and an outdoor placement adds sunlight, rain, and heat on top. The set you spent a month dressing has to come back to its starting state in the twenty minutes before the next group arrives, run after run, without losing the dressing that made it believable in the first place. This is the unglamorous half of physical design, and it decides whether a beautiful room is also a room you can actually operate.
+
+Two questions sit underneath. The first is a material question. Which stock and finish will take the abuse? And what is your fallback where the budget cannot stretch to a durable version? The second question is operational. It is the ordered sweep that returns the room to its known-good state between sessions. The upstream design choices behind a fast sweep belong to the same question. The two are the same conversation seen at different moments. The material choice you make at the workbench is what shows up months later in the reset window, for better or for worse.
+
+## The Mechanism (How it works)
+
+### The dropped-and-forced principle
+
+The starting assumption for any handled prop is brutal and worth stating plainly: every prop will be dropped on a hard floor at least once per session, and players will apply more force than expected to anything that does not obviously move. [corpus] Design from that assumption and most failures never happen. Design from the assumption of careful use and the prop fails in week one.
+
+Material choice is where most prop failures originate, and most of them are avoidable. [corpus] The palette has a rough order of toughness against handling, and a separate order against the outdoors, because the two are not the same axis. A material can survive daily indoor abuse and rot the first time it meets rain.
+
+| Material | Indoor handling | Outdoor | Primary failure |
+|---|---|---|---|
+| Marine / exterior plywood | High | Good with sealant | Edge delamination, face splitting on impact |
+| MDF | Medium (indoor only) | Poor: swells and crumbles | Edge crumbling when wet |
+| Cast acrylic | Medium (brittle) | Good (UV-stable, does not yellow) | Crack propagation from stress points |
+| EVA foam | Low uncoated, high when sealed | Poor uncoated | Paint flaking off unsealed surfaces |
+| Polyurethane resin | High (rigid grades) | Moderate (aliphatic grades for UV) | Foaming from moisture during cure |
+| Paper / card | Low unprotected, medium laminated | Poor unless laminated | Tearing, soaking, ink smear |
+| Metal (steel / aluminium) | Very high | Good with coating | Bare steel rusts |
+
+Two materials never go outdoors regardless of how you seal them. Standard MDF crumbles at the cut edge because the end-grain absorbs moisture faster than any topcoat can seal it. For outdoor structure the substitute is exterior plywood or PVC sheet. [corpus] Polymer clay has a different weakness. It softens around 40 C, a temperature reached inside a parked car on a summer day. That rules it out for any warm-climate outdoor prop. [corpus]
+
+### Sealing and ageing that survive the hand
+
+Some materials are not finished until they are sealed, and skipping the step is the most common avoidable failure. EVA foam is porous, so paint applied directly soaks in unevenly and flakes off under handling inside a single session. A sealer coat is not optional. The community-tested options are a rubber spray such as Plasti-Dip and a brush-on flexible PVA such as Flexbond, or a hard epoxy shell where rigidity is wanted. Apply it before any paint. [corpus] Printed surfaces have the same trap. Inkjet on uncoated card smears within a few sessions, so a matte fixative handles light use, a pouch laminate handles heavier handling, and a bar-top epoxy topcoat gives a glass-hard finish for the most-touched surfaces. Mod Podge is not waterproof under repeated wet handling; epoxy is. [corpus]
+
+Ageing has its own version of the rule, and it ties straight back to immersion. The aged look that sells a document as real, the tea-soak and the singed edge and the walnut-ink stain, is water-soluble and rubs off under the very folding and unfolding that a handled prop invites. The fix is to age completely, lock the chemistry with a fixative spray, then add a thin matte sealer over the areas players touch most. [corpus] An unsealed prop that looks perfect on the build table is the thing that betrays the staged world three groups later, the cross-modal jolt that [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd) warns is read by the brain as proof the world is fake. The upstream ageing craft itself, before this sealing step protects it, is [Artefact Design & Document Production](artefact-design-and-document-production.qmd). The structural side of toughness, the hinges and box joints and reinforced mountings that decide whether a container survives being yanked open, belongs with the building craft in [Fabrication & Sourcing](fabrication-and-sourcing.qmd) and with the openings themselves in [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd).
+
+There is an honest escape hatch when durability is uneconomic. If a prop cannot be made durable within the build budget, a delicate paper component or a wax seal that has to break, design it as explicitly single-use and stock a pile of identical replacements. [corpus] The reset note to the operator reads "replace the wax seal each run, spares in the reset envelope," and that is better engineering than a faux-wax seal that never breaks. This consumable-by-design decision is the hinge between the material half of this article and the operational half: every consumable you accept is a line item in the reset.
+
+### Weatherproofing and the outdoor horizon
+
+The moment a prop lives outdoors the failure set changes. Now it faces UV, water, and thermal cycling, and the two protections needed are independent specifications that people routinely conflate. Water ingress is rated by the IP (Ingress Protection) scale from IEC 60529, where IP65 (resists low-pressure jets from any direction) is the practitioner minimum for outdoor electronics and IP67 (temporary immersion) suits flood-prone ground. [corpus] UV resistance is a separate property entirely. A plastic IP67 box can keep every drop of water out and still go brittle and crack from sunlight, so a long-duration outdoor housing wants UV-stabilised ABS or polycarbonate on top of its IP rating. [corpus]
+
+The closest practitioner analogue to a long-lived outdoor prop is the geocache: a container hidden in a public space and expected to survive years untended. The community's verdict is settled. Military surplus ammo cans (steel, rubber-gasketed) last years and often decades with minimal upkeep, and rectangular Lock-and-Lock containers with four-sided latches hold their seal nearly as well, while standard food containers fail their seals within a season and uncoated camo tape degrades to tatters within about two years. [researched] Any logbook or note inside wants Rite in the Rain paper against condensation, with a Ziploc bag as a secondary barrier and silica gel for anything that must stay dry. [corpus] This is the same durability axis a distributed puzzle hunt runs on, where a planted container has to outlast the event by years and replacement is a maintenance schedule rather than a between-runs reset. That ten-year horizon, and the container-replacement discipline it demands, is the materials face of [Treasure & Scavenger Hunts](../puzzles-clues-information/treasure-and-scavenger-hunts.qmd) and of the physical-versus-digital choice in [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd).
+
+### The reset hierarchy
+
+Indoors, durability surfaces in the reset window, the operational gap between sessions that decides how many groups a room runs in a day. Commercial escape rooms allow fifteen to thirty minutes between sixty-minute sessions, and up to forty-five for complex rooms. Booking platforms insert that gap as a hard block after every session. [researched] Cutting a thirty-minute reset to fifteen on a sixty-minute game buys roughly one extra session across a ten-hour day, which is real revenue, so the pressure to reset fast is constant.
+
+A reset is not one sweep but an ordered sequence, and the order is load-bearing. Doing it out of sequence leaves an exit unlocked or a prop staged where it misleads the next group. The order below comes from published operator procedures.
+
+| Step | Action | Why it sits here |
+|---|---|---|
+| 1. Safety sweep | Confirm every player has left and is well, then re-enter | Player safety comes before everything |
+| 2. Belongings check | Collect forgotten phones, keys, bags | A lost house key near a padlock can mislead the next group into a false solve |
+| 3. Consumable audit | Replace what was used up or destroyed from stock | Do it first so you never disturb a reset puzzle later to swap a forgotten battery |
+| 4. Reset puzzles in reverse-solve order | Reset the final puzzle first, work back to the opening | Re-lock the exit before placing the key that opens it, so an interrupted reset cannot leave a door open upstream of an unset lock |
+| 5. Electronics and reveal test | Actuate every sensor, solenoid, relay, and reveal; confirm it returns to initial state | Verified self-reset today is not the same as self-resetting in theory |
+| 6. Clean visible surfaces | Wipe fingerprints, smears, stray marks | A smear can read as an unintended clue or break immersion |
+| 7. Comms and hint check | Confirm cameras, two-way audio, and hint delivery are live | Last, because it can only be verified from the operator position |
+
+Step five turns on a distinction worth carrying in your head from the build stage. A monostable element (an arcade button, a momentary switch) self-returns to its default; a bistable one (a toggle, a latch) needs a manual reset. [corpus] Bistable elements earn an explicit checklist line. Monostable ones still get tested, because a sensor that should reset itself is not the same as a sensor verified to have reset today. This same self-validation logic, the apparatus confirming its own correct state before play, is exactly the discipline of [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd) applied to the room rather than the puzzle: a reset is the operator running the puzzle's own check from the outside. The operator desk where step seven comes online, the cameras and audio and hint channel, is [Cue Management & GM Station](cue-management-and-gm-station.qmd).
+
+::: {.callout-note}
+### The Specimen
+A+ Props built their "Space Pirates" escape room to require zero manual reset between groups. The philosophy is plain: items that do not move cannot be mis-placed, so the cheapest reset is the one you never have to do. [researched] The reset hierarchy still runs (safety, belongings, a working test of the electronics), but the puzzle-placement step that eats most of a manual reset is designed out rather than sped up. The contrast with a conventional room is instructive. Mission Escape Games' published procedure has the operator record the exact original location of every prop and clue, down to which direction a handle faces and the angle of an item, because in a manual-reset room the checklist is the only thing standing between a rushed turnaround and a mis-set that strands the next group. [researched] The two rooms answer the same operational question, one by removing the work and one by scripting it.
+:::
+
+### Design for resetability, and the checklist as truth
+
+The reset window is downstream of choices made at the workbench, which means the fastest reset is bought in design, not in the turnaround. The moves are concrete. Build toward props that do not need to move between sessions, since items that do not move cannot be mis-placed. Prefer monostable elements to bistable ones wherever the design allows. Forbid destroyable states, or give any moveable element an obvious reset anchor, an outline or a labelled position, which roughly halves the time it takes to verify everything is home. Secure loose decorative props with hot glue or screws so the reset only handles the things that genuinely move. Duplicate critical small items (keys, code cards) behind the desk so a borrowed or lost piece does not strand the next session. [corpus] When the checklist will not fit the reset window, the right move is rarely to rush it; it is to remove a manual-placement step at the design level or accept a smaller session count. [corpus]
+
+Whatever the room's design, the reset depends on the document and not on the operator's memory. The target every operator source repeats is a checklist any trained staffer can run without you present. It is paired with reference photographs of the room at known-good state taken at build time. [corpus] Treat any departure from those photos at the start of a session as a reset failure to investigate before the door opens. There is a deeper payoff hidden in the routine. Every reset puts a trained eye on every puzzle in the room. That makes the window the lowest-cost moment to catch wear before it surfaces as a player-visible failure. The operator guidance is to replace an item at the first sign of wear rather than after it breaks. [corpus] The reset is the continuous-inspection layer riding on top of the room. The economy of all this prep at run scale, the trade between time spent preparing and time spent running, is the systems-family concern of [Prep Economy](../systems-mechanics/prep-economy.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The reset window is not a substitute for graceful-failure design, and treating it as one is the seductive mistake. The grounding truth from operators who have run rooms for years is blunt. Pair the best operator in the world with the most precise reset script behind the best padlock and you will still hit a failure eventually. [researched] A flawless checklist lowers the rate of mis-sets. It does not drive them to zero. The script is a human procedure run against the clock, after all. The room has to degrade gracefully when a reset is imperfect. A puzzle that survives a missed clue is the model. Lean entirely on the reset to keep play fair and the first interrupted turnaround leaves a door unlocked upstream of an unset combination. A group then walks into a broken game. The reset reduces the failure rate. The design has to absorb the failures that get through. [synthesis]
+:::
+
+### Permanence as a feature: the tabletop case
+
+Everything so far treats wear as the enemy. The tabletop legacy genre inverts it, and so the family looks different on the table. A legacy game changes permanently across a campaign through stickers placed on the board, writing on cards, and the deliberate tearing-up of components, and the first card-tear is cited as a signature emotional beat. [researched] Here irreversibility is the design, not the failure mode. The reveal and the state change are one and the same event, so the mechanism enforces an ordering the players cannot rewind, the same property an escape-room sealed envelope uses as a one-way gate. [researched]
+
+The cost lands exactly where this article predicts. A legacy game raises the question every reset answers in reverse: what do you do with the eighty-euro box once the campaign ends and the components are spent? [researched] The documented mitigations are the tabletop echo of consumable-by-design thinking: refill and reset packs that restock spent components, non-permanent stickers, designs that stay playable in their altered final state, and "cognitive legacy" approaches that unlock through player knowledge rather than physical destruction. [researched] At the component level, durability is bought in the material spec the same way a prop's is: print-on-demand card stock defaults to 320gsm black-core because the black core resists wear and stops light showing through. [researched] Box inserts, storage, and the re-sorting of consumed components are a first-class design axis on the table, trading permanence and tactile drama against reusability. [researched] The legacy genre's mechanical side, where permanent change drives the campaign engine, sits with [Cooperative & Legacy Genres](../systems-mechanics/cooperative-and-legacy-genres.qmd); whether the destruction is load-bearing fiction or a gimmick is the [Theme-Mechanism Integration](../systems-mechanics/theme-mechanism-integration.qmd) question met from the materials side.
+
+## Where this fits
+
+**The bigger picture.** Durability and reset are the layer that decides whether physical design survives contact with repeated play. Every other concern in this family, the theme, the artefacts, the locks, the hidden compartments, assumes the parts keep working and keep returning to their starting state, and this is the article that makes that assumption true. It is the operational floor the family stands on, the way [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd) is the floor under the puzzle family: get it wrong and the finest set becomes a maintenance liability that breaks mid-run and a turnaround that drains revenue. The material choice and the reset procedure are one decision seen at two moments, the workbench and the reset window. The discipline is to make the second cheap by getting the first right.
+
+**Next steps.** The structural building that makes a prop tough in the first place is [Fabrication & Sourcing](fabrication-and-sourcing.qmd), and the ageing whose finish this article seals is [Artefact Design & Document Production](artefact-design-and-document-production.qmd). When a prop cannot be made durable and goes consumable instead, the format choice it sits inside is [Physical Clue Formats](physical-clue-formats.qmd), and whether to make it physical at all or move it to a screen that never wears is [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd). The operator desk that runs the comms check and watches state between groups is [Cue Management & GM Station](cue-management-and-gm-station.qmd). And the run-scale economy of all this preparation, weighed against the time spent actually running the game, is [Prep Economy](../systems-mechanics/prep-economy.qmd).
+
+## Sources
+
+- IEC 60529 (IP ratings), summarised by Polycase Tech Talk. "What Do IP Ratings Mean?" <https://www.polycase.com/techtalk/electronics-tips/what-do-ip-ratings-mean.html>
+- Vinawood. "Marine Plywood vs Exterior Plywood." <https://vinawoodltd.com/marine-plywood-vs-exterior-plywood/>
+- Punished Props Academy. "How to Seal EVA Foam Props and Costumes." <https://www.punishedprops.com/2017/02/15/seal-foam-tutorial/>
+- Xometry. "Acrylic (PMMA): Properties, Uses, and Laser Cutting Design." <https://www.xometry.com/resources/materials/acrylic-pmma/>
+- Smooth-On. "Mold Making & Casting FAQ" (platinum vs tin-cure silicone, cure inhibition). <https://www.smooth-on.com/support/faq/>
+- ArtResin. "ArtResin vs Mod Podge" (epoxy topcoat durability over handled surfaces). <https://www.artresin.com/blogs/artresin/art-resin-vs-mod-podge>
+- Blue Bottle Tree. "Sealing Polymer Clay" (sealer compatibility and pitfalls). <https://thebluebottletree.com/best-sealants-for-polymer-clay/>
+- Geocaching Today. "Best Geocache Container Types." <https://geocachingtoday.com/best-geocache-container-types/>
+- PodCacher. "Ammo Boxes vs Lock N Locks." <https://www.podcacher.com/ammo-boxes-vs-lock-n-locks/>
+- A+ Props. "Reset in Escape Rooms" ("Space Pirates" zero-manual-reset room; the design-for-no-reset philosophy). <https://a-props.com/reset_article>
+- Escape Room Supplier. "Auto-resettable Puzzles" (monostable vs bistable sensors). <https://escaperoomsupplier.com/blog/auto-resettable-puzzles/>
+- Mission Escape Games. "What Do Game Masters Do?" (exact positional reset, checklist as source of truth). <https://missionescapegames.com/blog/what-do-game-masters-do/>
+- The Logic Escapes Me. "When Escape Rooms Go Wrong: Handling Breakages and Mis-Sets" (the reset script; "best of everything and still get a failure"). <https://thelogicescapesme.com/opinion/when-escape-rooms-go-wrong-handling-breakages-and-mis-sets/>
+- SchedulingKit. "Escape Room Booking Software." (15-30 minute reset buffer, booking-buffer blocking). <https://schedulingkit.com/scheduling-software/escape-rooms>
+- Homebase. "How to Start an Escape Room Business" (reset checklist your team can run without you; daily capacity). <https://joinhomebase.com/blog/start-escape-room-business/>
+- VRcave. "Reduce Your Escape Room Reset Time." <https://blog.vrcave.ca/blog/reduce-your-escape-room-reset-time-and-support-more-patrons>
+- The Codex. "13 Rules for Escape Room Puzzle Design" (no destroyable states; reset anchors). <https://thecodex.ca/13-rules-for-escape-room-puzzle-design/>
+- Wikipedia. "Legacy game" (permanent change, sticker/write/tear mechanics). <https://en.wikipedia.org/wiki/Legacy_game>
+- Neutronium Games. "Best Legacy Board Games 2026: Permanent Change, Lasting Stories" (the spent-box problem and reset/refill mitigations). <https://neutronium.games/blog/legacy-board-games-2026>
+- The Game Crafter. "Custom Punchouts and Card Stock" (320gsm black-core default). <https://help.thegamecrafter.com/article/201-custom-punchouts-and-card-stock>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
