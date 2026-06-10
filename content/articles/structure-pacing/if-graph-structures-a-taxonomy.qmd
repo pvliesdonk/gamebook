@@ -93,6 +93,15 @@ The shape is not the story. Naming a structure tells you its silhouette and its 
 
 ## Referenced by
 
+- [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
+- [Branching Narrative Craft](branching-narrative-craft.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
+- [Escape Room Topologies](escape-room-topologies.qmd)
+- [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
+- [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
+- [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
+- [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
+- [Time Loop Patterns](time-loop-patterns.qmd)
 
 <!-- BACKLINKS:END -->

@@ -19,6 +19,7 @@ provenance: ""
 
 - [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd)
 - [Digital Props](../space-props-materiality/digital-props.qmd)
+- [IF Graph Structures: A Taxonomy](../structure-pacing/if-graph-structures-a-taxonomy.qmd)
 - [Information Architecture](../puzzles-clues-information/information-architecture.qmd)
 - [Physical vs Digital Puzzle Artefacts](../space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd)
 - [Puzzle Hunt Craft](../puzzles-clues-information/puzzle-hunt-craft.qmd)

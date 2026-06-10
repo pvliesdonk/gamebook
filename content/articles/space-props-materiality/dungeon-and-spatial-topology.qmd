@@ -112,7 +112,10 @@ The failure that hides in plain sight is the linear-but-flavoured dungeon. It is
 
 ## Referenced by
 
+- [Escape Room Topologies](../structure-pacing/escape-room-topologies.qmd)
+- [Hexcrawl & Pointcrawl](../structure-pacing/hexcrawl-and-pointcrawl.qmd)
 - [Making It Real](../../primers/making-it-real.qmd)
 - [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd)
+- [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)
 
 <!-- BACKLINKS:END -->

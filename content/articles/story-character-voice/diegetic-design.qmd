@@ -18,6 +18,7 @@ provenance: ""
 ## Referenced by
 
 - [Digital Props](../space-props-materiality/digital-props.qmd)
+- [Nonlinear Narrative Structures](../structure-pacing/nonlinear-narrative-structures.qmd)
 - [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd)
 
 <!-- BACKLINKS:END -->

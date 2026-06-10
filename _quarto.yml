@@ -12,6 +12,7 @@ book:
         - content/primers/index.qmd
         - content/primers/the-fairness-contract.qmd
         - content/primers/making-it-real.qmd
+        - content/primers/the-shape-of-time.qmd
     - part: "Articles"
       chapters:
         - content/articles/index.qmd
@@ -41,6 +42,24 @@ book:
         - content/articles/space-props-materiality/materials-durability-and-reset.qmd
         - content/articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd
         - content/articles/space-props-materiality/dungeon-and-spatial-topology.qmd
+        - content/articles/structure-pacing/branching-narrative-craft.qmd
+        - content/articles/structure-pacing/if-graph-structures-a-taxonomy.qmd
+        - content/articles/structure-pacing/scene-and-sequel-in-interactive-fiction.qmd
+        - content/articles/structure-pacing/scene-structure-and-transitions.qmd
+        - content/articles/structure-pacing/try-fail-cycles-and-escalation.qmd
+        - content/articles/structure-pacing/session-pacing-and-energy-management.qmd
+        - content/articles/structure-pacing/beat-taxonomies-and-craft-models.qmd
+        - content/articles/structure-pacing/endings-and-structural-closure.qmd
+        - content/articles/structure-pacing/scope-scale-and-branching-depth.qmd
+        - content/articles/structure-pacing/escape-room-topologies.qmd
+        - content/articles/structure-pacing/nonlinear-narrative-structures.qmd
+        - content/articles/structure-pacing/time-loop-patterns.qmd
+        - content/articles/structure-pacing/parallel-threads-and-convergence.qmd
+        - content/articles/structure-pacing/episodic-and-serialised-structure.qmd
+        - content/articles/structure-pacing/campaign-arc-shapes.qmd
+        - content/articles/structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd
+        - content/articles/structure-pacing/hexcrawl-and-pointcrawl.qmd
+        - content/articles/structure-pacing/west-marches-and-the-open-table-format.qmd
     - part: "Keys"
       chapters:
         - content/keys/index.qmd

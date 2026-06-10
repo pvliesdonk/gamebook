@@ -107,6 +107,24 @@ Hatch Escapes' *The Ladder* (Los Angeles, 2024) is the clearest published branch
 
 ## Referenced by
 
+- [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
+- [Campaign Arc Shapes](campaign-arc-shapes.qmd)
+- [Endings & Structural Closure](endings-and-structural-closure.qmd)
+- [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd)
+- [Escape Room Topologies](escape-room-topologies.qmd)
+- [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd)
+- [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd)
 - [Information Architecture](../puzzles-clues-information/information-architecture.qmd)
+- [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
+- [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
+- [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
+- [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
+- [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
+- [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)
+- [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
+- [Time Loop Patterns](time-loop-patterns.qmd)
+- [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
+- [West Marches & the Open-Table Format](west-marches-and-the-open-table-format.qmd)
 
 <!-- BACKLINKS:END -->

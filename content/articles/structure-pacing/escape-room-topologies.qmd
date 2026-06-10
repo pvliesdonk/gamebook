@@ -112,7 +112,11 @@ The selection logic reduces to two inputs. The first is how many solvers you exp
 
 ## Referenced by
 
+- [Branching Narrative Craft](branching-narrative-craft.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
+- [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd)
 - [Information Architecture](../puzzles-clues-information/information-architecture.qmd)
+- [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
 
 <!-- BACKLINKS:END -->
