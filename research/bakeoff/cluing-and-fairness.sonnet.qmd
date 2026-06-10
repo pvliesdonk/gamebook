@@ -1,0 +1,100 @@
+---
+title: "Cluing & Fairness"
+aliases: ["fair play", "clue density", "cluing contract"]
+family: "Puzzles, Clues & Information"
+media: ["live-game", "interactive-fiction", "tabletop", "puzzle-hunt"]
+facets:
+  effects: ["trust", "satisfaction", "deduction reward", "aha moment"]
+  problems: ["solver frustration", "unfair stumping", "decorative noise", "dead-end investigation"]
+  components: ["clue objects", "information packets", "puzzle text", "flavour text", "environment dressing"]
+  genre: ["mystery", "horror", "historical", "children-ya"]
+provenance: "corpus"
+---
+
+*Silhouette: The contract between designer and solver that every piece of information placed in the game either does genuine work or is explicitly neutral — and that the answer is reachable by any player who pays full attention.*
+
+<!-- THE READABLE HEAD (THE SPARK) -->
+
+There is a particular species of frustration reserved for the player who has been attentive, thorough, and logical — and is still stuck. Not stuck because the problem is hard, but stuck because the designer withheld something, or buried a crucial thread in set dressing, or used a convention in one puzzle that contradicts the convention in another. That frustration is the feeling of a broken contract. The solver came in good faith; the designer did not hold up their end.
+
+Cluing and fairness is the mechanism that keeps that contract intact. It governs not just where information is placed, but what that placement promises. A clue that sits in plain sight but telegraphs nothing is a lie. A clue that leads confidently in the wrong direction and is never explained is a worse lie. The discipline of cluing says: every element that could be read as meaningful either is meaningful or is explicitly neutral, and you hold that convention consistently throughout. The discipline of fairness says: an attentive solver, applying the conventions you have established, can reach the answer without luck and without information you have withheld.
+
+This is not the same as making puzzles easy. Indirection is legitimate; obscurity is not. A clue that points at the category of the answer rather than the answer itself is good craft. A clue that points nowhere coherent, even in hindsight, is a failure mode. The distinction matters because it determines whether your solver's aha moment is a reward for thinking or merely for guessing. [synthesis]
+
+## The Mechanism
+
+### The Fairness Contract
+
+Fairness in puzzle design means, precisely: one correct answer, reachable without undisclosed rules, by a solver who pays full attention and uses the conventions the designer has established. [corpus]
+
+The puzzle hunt community encodes this as the phrase "no tricks." This does not mean no misdirection. Misdirection is not only legitimate but desirable — it is what makes the puzzle a puzzle rather than an exercise. What "no tricks" prohibits is misdirection with no exit: an interpretation path the solver can follow all the way to a dead end with no signal that they have gone wrong. A fair misdirection always has an exit. That exit may require work to find, but it is there. [corpus]
+
+Four failure modes recur across every medium and deserve names. The first is underdetermination: the clues are consistent with multiple answers and nothing distinguishes the correct one. The second is obscure-without-recourse: the puzzle requires knowing a fact the solver could not have encountered in normal play, with no path to look it up. The third is arbitrary selection: the answer requires a choice the puzzle does not motivate — "take the third item from each group" when nothing marks the third item as significant. The fourth is inconsistency: the same clue type operates differently in different parts of the puzzle without signalling the shift. All four produce the same outcome: a solver who has done nothing wrong but cannot proceed. [corpus]
+
+In the escape room context, Errol Elumir formalises this as an operational standard: "Fair means a random element won't punish them with a loss. Fair means the players have all the available resources and it is up to their intellect and skill to win." His corollary rules require self-validating answers (so players know they are right without trying every combination), single answers per puzzle (when playtesting reveals an alternative solution, adjust the cluing), and consistency in whatever patterns you establish. [corpus]
+
+### Clue Density and the Every-Clue-Does-Work Rule
+
+The positive formulation of the fairness contract is the rule that every clue does work: every element of a puzzle that could be read as meaningful should either be meaningful or be explicitly neutral, and the convention for what is neutral must be held throughout. [corpus]
+
+This rule has teeth in both directions. A designer who places decorative elements that resemble clues trains solvers to chase false paths. A designer who places genuine clues but holds them to inconsistent conventions trains solvers to ignore signal. Both failures erode trust. The puzzle hunt community builds its conventions on this: if unusual capitalisation in one puzzle signals an acrostic, solvers will look for acrostics in every puzzle with unusual capitalisation. Committing to a convention and holding it throughout is not just good manners — it is part of the puzzle's grammar. [corpus]
+
+Flavour text is the site of the most common convention decision. In many hunts, flavour text is thematic dressing that contains no clues — it establishes context and stakes, but the solver does not need it to reach the answer. In others, every word of flavour text is informational. Both conventions are legitimate. Mixing them within the same event, or worse within the same puzzle, destroys solver trust and produces exactly the underdetermination failure mode: the solver cannot know whether an element is signal or noise. The 2014 MIT Mystery Hunt committed explicitly to the non-cluing flavour-text convention and announced it to solvers — a design gesture that itself tells us how common the mixed-convention error is. [corpus]
+
+The same grammar extends to titles, ordering, capitalisation, grid dimensions, and enumerations. Structure is a clue: a puzzle with exactly 26 entries is probably mapping to the alphabet; a British cryptic crossword always provides letter counts in parentheses because that is a convention solvers rely on. The MIT Mystery Hunt often omits enumerations deliberately, making answer length part of the puzzle — but this too is a convention, and it is held consistently within the event. [corpus]
+
+### The Clue-vs-Gate Distinction
+
+A clue enables progress by giving the solver information to work with. A gate blocks progress until a condition is met. The two are structurally different things, and conflating them is a specific failure mode. [corpus]
+
+A puzzle that appears solvable from its own materials but actually requires knowing the answer to a different puzzle is not a clue relationship — it is a disguised gate. Disguised gates are unfair because the solver cannot tell what they are missing or where to look. A gate that is legible as a gate is fair: "to proceed here, complete the puzzle in the north room and use its answer." The solver knows what they need and can pursue it. [corpus]
+
+In escape room design, gating is pervasive and appropriate: finding the key opens the padlock, which reveals the code, which opens the next area. The design standard is that each gate's condition is clearly legible. Solvers should know what they need before they can proceed, so they pursue it intentionally rather than stumble onto it by accident. When the legibility is removed — when the gate looks like an unsolvable clue — the solver spends effort on a problem that is structurally not yet a problem, and the effort is wasted. [corpus]
+
+### Redundancy and the Three-Clue Rule
+
+The single most practical piece of cluing architecture is the Three-Clue Rule: for every conclusion you want players to reach, include at least three independent pieces of evidence pointing at it, distributed across different sources and moments. [corpus]
+
+Justin Alexander, who named the chokepoint failure mode (a single missed clue blocks all further progress), articulates this as a structural principle for tabletop investigation scenarios: if any one of three independent clue paths is missed, misread, or hoarded by one player and not shared, the other two still reach the conclusion. The rule does not weaken the mystery; it makes the mystery resilient against the predictable failure modes of real play. Players miss things. Players misinterpret things. In multi-player formats, players sometimes withhold things (accidentally or otherwise). Three independent routes means none of those failures is fatal. [corpus]
+
+In the live mystery context, this rule resolves a tension that haunts every multi-act format: you must withhold information to sustain the mystery, but you must deliver all necessary information before the accusation phase, or you have violated the fair-play contract. The Three-Clue Rule is the engineering answer to that tension. Distribute the redundant clues across acts and characters, so no single act or character is a chokepoint, and the dramatic withholding is compatible with practical completeness. [corpus]
+
+::: {.callout-note}
+### The Specimen
+
+The 2014 MIT Mystery Hunt illustrates the flavour-text convention decision made explicit. The design team announced in advance that flavour text in that year's hunt would not be required to solve any puzzle — a commitment to the non-cluing convention for the event. This explicit statement is itself evidence of how consequential the convention choice is: without it, experienced solvers would spend time hunting for information in flavour text that was never there, producing exactly the "obscure-without-recourse" failure mode. The announcement functioned as a meta-clue: it told solvers how to allocate their attention. It also highlights that the convention is a choice, not a default — and that the choice must be communicated. [corpus]
+:::
+
+## Design Judgement
+
+::: {.callout-tip}
+### The Field Note
+
+Before playtesting, do a cluing audit. Go through every element in your puzzle or scenario — every object, every piece of text, every unusual formatting choice — and classify it: load-bearing clue, red herring (with a resolvable explanation), or explicitly neutral. If you cannot confidently classify an element, it is ambiguous, and ambiguity is a fairness violation in waiting. Fix the classification before testers arrive; playtesting will surface the symptoms, but it will not tell you where the design decision went wrong. The audit is faster than debugging solver confusion after the fact. [synthesis]
+
+For investigation scenarios with multiple players, apply the Three-Clue Rule to every necessary conclusion, then stress-test it: if one of your three independent clue paths is removed, does the conclusion still hold? If not, that path is not truly independent — it is sharing a dependency with another path. Find the dependency and break it. [synthesis]
+:::
+
+::: {.callout-warning}
+### The Hazard
+
+The two most common cluing failures are mirrors of each other. The first is the single-point-of-failure clue: a single piece of evidence that must be found, correctly interpreted, and retained for a necessary conclusion to be reachable. If the evidence is missed, the investigation stalls. If it is misread, the investigation goes wrong. If one player holds it and does not share it, the group cannot proceed. Single-point-of-failure clues feel like good design in solo authorship — the clue is placed, the conclusion is reachable — but fail in real play with real humans. Apply the Three-Clue Rule.
+
+The second failure is the late clue: introducing evidence that is necessary for the solution after the point at which players can act on it. In IF, this typically appears as a clue hidden on a path the player cannot revisit or in a late scene that reveals the identity of the murderer without the player having enough prior information to have suspected them. In live mystery formats, it appears as evidence held back until the final act that contradicts every working theory. Van Dine's fair-play rules are explicit: the criminal must be introduced early, and all decisive evidence must be available to the reader. Withholding it to produce a dramatic late reveal is not cleverness — it is a broken contract. [synthesis]
+:::
+
+## Interactions
+
+**Confusable With:** *Clue Sequencing & Chains* (see the adjacent article in this family). Cluing and fairness governs whether individual clues are present, load-bearing, and reachable. Clue Sequencing & Chains governs the order in which clues arrive and the dependency graph between them. A puzzle can be clued fairly but sequenced badly (clues arrive out of the order that makes them legible), or sequenced sensibly but clued unfairly (only one path reaches a necessary conclusion). The distinction matters for diagnosis: if players are stuck and confused, ask which failure it is. Confusion about what a clue means is a cluing problem. Confusion about what to do next is often a sequencing problem.
+
+**Pairs Well With:** The Aha Moment. Fair cluing is the structural precondition for a satisfying aha: the solver can only experience genuine discovery — the "of course!" recognition — if the clues were there to be found. A solution reached through luck rather than reasoning produces relief, not insight. The Aha Moment is the payoff that fair cluing makes possible.
+
+**Pairs Well With:** Hint Systems & Recovery. Hint systems are the runtime correction for cluing failures that survive playtesting. A hint system calibrated as a gradient (vague, then directional, then specific) mimics the Rule of Three in reverse: the inverse of the progressive clue-introduction sequence is a progressive hint-delivery sequence. Understanding cluing fairness helps designers write better hints, because a good hint restores the solver to the cluing contract rather than bypassing the puzzle.
+
+**Common Transitions:** Designers who master cluing fairness often move next to Information Architecture: once individual clues are load-bearing and reachable, the question becomes how the full set of clues is organised across the puzzle space. Dependency graphs, unlock sequences, and node-based scenario design are all downstream of the fairness-at-the-clue-level question. Solving one reveals the next. [synthesis]
+
+**Implementation Interlocks:** In tabletop investigation scenarios, the node-based scenario structure is the architectural implementation of the Three-Clue Rule at the scene level: each node (location or NPC) points to at least two other nodes, so no single node is a chokepoint. [corpus] In puzzle hunts, the answer-checking convention (a single correct answer, confirmed by automated or referee-mediated checking) is the mechanism that enforces the "one answer" fairness standard at scale: if the system accepts multiple answers, the puzzle is underdetermined by design. [corpus] In IF, the Rule of Three clue-introduction sequence (subtle first mention, more noticeable second mention, clear in hindsight third mention) implements graduated clue legibility so no single moment of inattention loses a necessary thread. [corpus]
+
+## Sources
+
+The Three-Clue Rule and chokepoint failure mode terminology are attributed to Justin Alexander and are cited in the corpus at `Narrative & Game Design/Live Game Design/corpus/immersive-and-live-action/progressive-revelation.md`. The Elumir rules are cited in the corpus at `Narrative & Game Design/Live Game Design/corpus/escape-room-design/failure-modes.md` (footnote `codex13`). MIT Mystery Hunt cluing conventions and Evan Chen's solver guides are documented in `Narrative & Game Design/Live Game Design/corpus/puzzle-design/cluing-principles.md`, citing Wilson, D. "Introduction to Writing Good Puzzle Hunt Puzzles," MIT (web.mit.edu/dwilson/www/puzzles/puzzlewriting.html) and Chen, E. (web.evanchen.cc/puzzlehunt.html). IF fair-play conventions are documented in `Narrative & Game Design/Interactive Fiction/genre-conventions/mystery_conventions.md`.

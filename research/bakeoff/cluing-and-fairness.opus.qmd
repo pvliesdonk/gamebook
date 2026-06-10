@@ -1,0 +1,86 @@
+---
+title: "Cluing & Fairness"
+aliases: ["Fair Play", "Clue Economy", "Solvability Contract"]
+family: "Puzzles, Clues & Information"
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
+facets:
+  effects: ["earned discovery", "trust", "solver confidence", "the surprising-yet-inevitable click"]
+  problems: ["players stuck with no recourse", "solutions that feel arbitrary or unfair", "dead-end investigations", "decorative noise mistaken for signal"]
+  components: ["clues", "answer", "red herrings", "flavour text", "a designer's convention held consistently"]
+  genre: [mystery, horror, historical]
+provenance: "corpus"
+---
+
+*Silhouette: the unwritten contract that an attentive solver, given only what the game has shown them, can reach the answer without luck.*
+
+Cluing is the craft of handing a solver exactly enough to think with, and not one word more. Done well, it is invisible: the player feels clever, not handled, and the answer arrives as something they earned rather than something they were told. Done badly, it curdles into one of two opposite disappointments. Too little, and the solver stalls in front of a locked box with no keyhole. Too much, and they are reading the answer off the outside of the box and wondering why they bothered.
+
+Fairness is the contract underneath all of it. The solver agrees to pay full attention; in return, the game agrees that attention is sufficient. No undisclosed rule, no fact they could not have known, no leap that only the designer was positioned to make. When that contract holds, a solver who gets stuck blames themselves and keeps going. When it breaks, they blame you, and they are right to: a fairness violation is felt as a betrayal long before it is understood as a design flaw.
+
+This is the home concept of the family, the discipline every clue-bearing form shares. A live puzzle hunt, an interactive-fiction whodunnit, and a tabletop investigation scenario differ in almost everything except this: each lives or dies on whether the path from clue to answer is genuinely walkable by the person in front of it.
+
+## The Mechanism (How it works)
+
+### Every Clue Does Work
+
+The first principle is an economy, not an aesthetic. Every element a solver could read as a clue, the flavour text, the ordering of a list, the capitalisation, the length of entries, the title, must either do genuine work or be deliberately neutral. There is no neutral middle ground that the solver can detect: a clue that does nothing is not harmless, it is actively misleading, because it teaches the solver to spend attention on a false path. [corpus] A designer who scatters decorative detail across a puzzle is training solvers to chase dead ends; a designer who omits a clue that should do work leaves them stuck with nowhere to look. [corpus]
+
+The corollary is consistency of register. If unusual capitalisation signals an acrostic in one place, solvers will hunt acrostics wherever capitalisation looks unusual, so the designer must choose a convention and hold it throughout. [corpus] Flavour text is the sharpest case. In some events it is pure thematic dressing that never carries information; in others every word is load-bearing. Both are legitimate, but mixing them inside one event erodes the solver's trust in the whole information space. The 2014 MIT Mystery Hunt resolved this by adopting an explicit rule that flavour text should never be necessary to solve a puzzle: a public commitment to the non-cluing convention so solvers knew where they stood. [corpus]
+
+### The Fairness Contract
+
+A puzzle is fair when a sufficiently attentive solver can reach the correct answer using only what the puzzle provides, together with conventions already established (within the puzzle, the event, or the wider solving community). [corpus] The contract is mechanical, not sentimental: fairness is not about being kind, it is about reachability. The recurring violations are worth naming precisely, because each fails the contract in a distinct way.
+
+| Violation | What the solver experiences | Why it breaks the contract |
+|---|---|---|
+| Underdetermination | The clues fit several plausible answers with nothing to choose between them | Attention cannot resolve it; only guessing can [corpus] |
+| Obscure-without-recourse | A required fact with no signalled domain and no research path | The solver could not have known, and could not find out [corpus] |
+| Arbitrary selection | "Take the third item" when nothing distinguishes the third | The puzzle did not motivate the step it demands [corpus] |
+| Inconsistency | The same clue type behaves differently without signalling it | The established convention is silently revoked mid-solve [corpus] |
+
+The community shorthand for a fair puzzle is "no tricks": no answer depends on a rule the designer invented but never disclosed. [corpus] This emphatically permits misdirection. A red herring is not a lie; it is artful misdirection that has an exit, and the exit is reachable. [corpus] The distinction between hard and unfair lives exactly here: a hard puzzle makes you work along a coherent path, an unfair one offers no coherent path to find.
+
+### Indirection Without Obscurity
+
+Cluing operates along a gradient of directness. A direct clue ("the answer is a colour") is nearly useless as a puzzle though serviceable as a hint; an indirect clue makes the solver identify the category without being told to look for it; doubled indirection points at the category of the answer while hiding the category itself. [corpus] Hunts live mostly in the indirect and doubled-indirect band, where the path from clue to answer passes through several interpretive steps that constitute the challenge.
+
+The load-bearing craft distinction is between indirection and obscurity. Indirection requires that each step, once identified, is clearly a step: the solver works, but the path is coherent and each move verifiable on its own terms. [corpus] Obscurity is indirection with no coherent exit, a clue that makes no sense at any level of attention. The most codified expression of this standard is the crossword tradition, where every step must be independently verifiable: a solver should confirm each move without leaning on the final answer to validate the ones before it. [corpus]
+
+### Cluing Versus Gating
+
+A clue enables progress; a gate blocks it until a condition is met. Both are legitimate, and confusing them is a common own-goal. Gates are structurally necessary: puzzles unlock in sequence, a meta requires its feeder answers, a padlock wants its code. The principle is legibility. A gate's condition should be plainly readable as a gate, so the solver knows what they need and can pursue it on purpose rather than stumble across it. [corpus] The failure is the disguised gate: a step that looks solvable from its own materials but secretly depends on something the solver has not yet got. That is not clever, it is a clue the solver cannot complete and cannot tell they cannot complete. [corpus]
+
+### Redundancy as the Engineering Answer
+
+The hardest tension in cluing is that you must withhold to sustain the mystery yet give everything by the end to honour fair play. The practical resolution, formalised in tabletop investigation design, is redundancy. Justin Alexander's Three Clue Rule states: for any conclusion you want the players to reach, include at least three independent clues pointing at it.[^alexander] The rationale is empirical rather than theoretical: the players will probably miss the first, ignore the second, and misinterpret the third before making some leap that lands them where you wanted. [corpus] Three is not padding. It is structural insurance against the three predictable failure modes, missing a clue, misreading it, or failing to share it, and it does not weaken the mystery, because a solver who finds all three simply converges faster. [corpus] The same logic governs chokepoints: for any point the players must pass, prefer at least three routes through. [corpus]
+
+::: {.callout-note}
+### The Specimen
+Interactive-fiction mystery inherits this contract almost unchanged and then has to defend it against branching. The cardinal rule is that all necessary pieces are present to the reader: you may misdirect attention but you may not withhold information, and the climax must land as surprising and inevitable at once. [corpus] The structural hazard is unique to the medium: because the player chooses their path, a crucial clue placed on one branch is, for a player who took another, simply absent, and absence is a silent fairness violation. The corpus solution is to make crucial evidence reachable by multiple paths, back it with a notebook or recap so a clue seen early is not lost, and preserve the option to accuse the wrong suspect as a meaningful failure state rather than a dead end. [corpus] This is the Three Clue Rule rediscovered as a routing constraint: redundancy across branches is what keeps a branching mystery fair.
+:::
+
+## Design Judgement
+
+::: {.callout-tip}
+### The Field Note
+Audit your puzzle as a hostile solver, not a proud author. Point at every readable element in turn, the title, the ordering, a stray capital, the flavour text, and answer one question for each: does this do work, or is it explicitly neutral? Anything you cannot place in one of those two boxes is noise that reads as signal, and it is costing your solver attention they needed elsewhere. Then run the inverse pass: for the one conclusion you most need them to reach, count the independent clues that point there. If the count is one, you have built a single point of failure, and the first solver to overlook it stalls with no recourse. Three independent trails is not generosity, it is the load-bearing minimum. [synthesis]
+:::
+
+::: {.callout-warning}
+### The Hazard
+Two failure modes recur, and both feel fine to the designer who already knows the answer. The first is the **single-point-of-failure clue**: one decisive object or line that the whole solution hinges on, placed once. It tests perfectly in playtests run by people who built it and collapses the moment a real solver misses it. The second is the **unfair late clue**: decisive evidence withheld past the point at which the solver can still act on it, the murderer introduced after the trail pointed elsewhere, the alibi-break revealed in the denouement. [corpus] Both register to players not as difficulty but as betrayal, and a betrayed solver stops trusting every clue you place afterward. The quieter cousin is the decorative red herring that never resolves: a suspicious detail that connects to nothing teaches the solver that your clues do not reliably mean anything, which is the most expensive lesson a puzzle can teach. [corpus]
+:::
+
+## Interactions (The Connectors)
+
+**Confusable With:** *Clue Sequencing & Chains*. The two are routinely conflated because both govern clues across a structure, but they answer different questions. Cluing and fairness is the **solvability contract**: is the answer reachable at all, from what the solver has, without luck? Sequencing is the **ordering problem**: in what arrangement, at what cadence, do clues arrive, the subtle-then-noticeable-then-clear introduction, the eight-to-twelve-feeders-then-a-meta shape of a hunt. A perfectly sequenced chain can still be unfair if its decisive clue is underdetermined; a perfectly fair clue set can still be badly sequenced if everything arrives at once. Fairness asks whether the path exists; sequencing asks what shape the path takes. Also distinguish from *Hint Systems & Recovery*, which is the out-of-band channel for a solver who is stuck despite a fair puzzle, not part of the in-puzzle contract itself.
+
+**Pairs Well With:** *Information Architecture*, which lays out who knows what when across players and acts and is the larger frame that the fairness contract operates inside. *The Aha Moment*, because the surprising-yet-inevitable click is precisely what fair cluing makes possible and unfair cluing forecloses. *Search, Observation & Lateral Thinking*, where fairness governs whether the thing to be noticed was genuinely noticeable.
+
+**Common Transitions:** A designer who has settled the fairness contract for a single puzzle typically moves next to *Clue Sequencing & Chains* to arrange a fair clue set into a paced experience, then to *Extraction, Indexing & Meta-Puzzles* when feeder answers must themselves become fair inputs to a higher puzzle, where the every-clue-does-work principle reasserts itself one level up. [synthesis]
+
+**Implementation Interlocks:** In live and hybrid play, the legibility of a gate is often enforced by the answer-checking layer, a decoder wheel, an app-as-judge, a bot's `!solve` command, which makes "you need a code here" explicit rather than hidden. In tabletop, the redundancy minimum is operationalised through node-based scenario design, where each conclusion is a node fed by at least three independent clue-trails laid across different scenes. [corpus] In interactive fiction, the notebook or evidence-log widget is the interlock that defends fairness against the player's own forgetfulness across a long branching path. [corpus]
+
+## Sources
+
+[^alexander]: Justin Alexander, "The Three Clue Rule," The Alexandrian, published 8 May 2008. <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule>. The canonical formulation ("For any conclusion you want the PCs to make, include at least three clues") and its empirical rationale.
