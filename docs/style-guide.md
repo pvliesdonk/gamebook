@@ -13,6 +13,8 @@ The guide uses a **Practitioner-Mentor** voice.
 - **The Engineer (The "Body"):** Objective, precise, and structural. It handles complexity with "Layered Reflection" rather than simple density.
 - **The Mentor (The "Call-outs"):** Experiential, opinionated, and advisory.
 
+**Readability (plain by default).** Write so a designer new to the medium can follow it on first read. The Engineer body is *precise, not academic*: prefer the plain word over the technical one, unpack jargon the first time it appears (or avoid it), and keep sentences short-to-medium. Depth comes from clear reasoning, not dense vocabulary or nested clauses. If a sentence needs two readings to parse, split it. (Locked at the Phase-4 pilot, Gate D1.)
+
 ## Register Split
 
 ### The Readable Head (The "Spark")
@@ -29,7 +31,7 @@ The guide uses a **Practitioner-Mentor** voice.
 
 ## Interaction Patterns (Connectors)
 
-Articles are not islands; they are part of an ecosystem. Every article must include these connectors:
+Articles are not islands; they are part of an ecosystem. Every article must include these connectors. **Link them.** All 116 article stubs already exist, so each connector points at the actual sibling file with a real markdown link (e.g. `[Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)`) — never dead plain text. Links resolve to stubs now and fill in as the family is written; the backlink graph populates from them. Connectors to exemplars/primers link the same way.
 
 - **Confusable With:** A "Comparison Plate" distinguishing the mechanism from look-alikes (e.g., *Dilemma vs. Choice*).
 - **Pairs Well With:** Mechanisms that frequently "flock" together or support each other.
@@ -60,6 +62,15 @@ Tag claims at the end of the load-bearing sentence or paragraph:
 - `[corpus]` — From the Obsidian vault.
 - `[researched]` — New material with a footnote citation.
 - `[synthesis]` — Authorial synthesis or opinion.
+
+### Provenance is not a citation (locked at Gate D1)
+
+Provenance records *where we found it*; it is not a source. **The vault/corpus is never cited as a source** — it is an internal research input, not a public reference.
+
+- Every **factual** claim (tagged `[corpus]` or `[researched]`) must resolve to a **real external source** in the article's `## Sources`.
+- **Harvest first.** Each feeding corpus note carries its own sources — usually a `## Research Basis` section (e.g. `cluing-principles.md` cites *Puzzlecraft*, the MIT puzzle-writing guides, Evan Chen's guides). Pull those into the article's Sources and cite them directly.
+- **Research the gaps.** Where a corpus note has no source for a claim (some notes, e.g. the IF genre notes, have only internal See-Also), find a real citation. Only downgrade to `[synthesis]` if the claim is genuinely authorial opinion, not a fact.
+- `[synthesis]` claims need no citation.
 
 ## What to Avoid (Negative Style)
 
