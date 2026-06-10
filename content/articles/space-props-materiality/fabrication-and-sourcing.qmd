@@ -1,14 +1,129 @@
 ---
 title: "Fabrication & Sourcing"
-aliases: []
+aliases: ["Buy vs Make", "Prop Sourcing", "Prop Fabrication", "Workshop Tiers"]
 family: "Space, Props & Materiality"
-media: []
+media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [authenticity, tactility, reset-durability]
+  problems: [budget-pressure, lead-time, run-size, prop-breakage]
+  components: [props, card-stock, dice, tokens, 3d-prints, containers]
+  genre: [mystery, heist, fantasy, sci-fi, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The decision behind every physical object a player touches: where it came from, and what it cost to put it in their hands.*
+
+Every game with a physical part is a small props department. Before a player picks anything up, someone decided where that object came from. It was bought ready-made off a shelf or built on a workbench, and the third option is to commission a maker who can do what you cannot. The decision repeats for each prop, and it is rarely the same answer twice. A brass padlock pulls one way and a custom cipher wheel another. A budget that ignores the difference runs out before opening night.
+
+This is the least glamorous craft in the family and the one that quietly decides whether the rest of it survives contact with players. A document that ages beautifully but tears on its third handling is a sourcing failure, not a design one. The work is mostly arithmetic done early: unit cost against lead time against how many copies you need against how many times each must survive being used.
+
+It is a live-game problem first, where the build is most ambitious and the handling most punishing. It runs into the outdoor puzzle hunt, where the object has to survive weather and finders rather than a controlled room. It runs onto the tabletop too, where fabrication has been packaged into a print-on-demand catalogue with a published price list. The interactive-fiction medium sits this one out: words have no fabrication cost.
+
+## The Mechanism (How it works)
+
+### Buy, make, or commission
+
+Five variables settle the choice, and they pull against each other. There is unit cost and there is lead time. There is the number of identical copies you need against the uniqueness the object demands, and underneath both, the number of resets it must survive. [corpus] No single rule covers them, but each route has a centre of gravity.
+
+**Buy** when the object's weight, material, or history is part of its authority and expensive to fake. Think of a solid brass padlock or a glass vial. A leather-bound book or an antique key carries the same real-world heft that plastic cannot replicate. [corpus] Buying also wins for commodity dressing such as candles and bottles and aged books, which a charity shop or a salvage yard undercuts on price. And it usually wins on durability, because a real brass lock outlasts a theatrical plastic substitute that fails within weeks of daily handling. [corpus]
+
+**Make** when the shape is unique to the game and has no retail equivalent, when you need six or more identical copies, when the prop is consumable and replaced often (so unit cost beats craft polish), or when a surface treatment you control (period ageing, custom livery, your own iconography) is inseparable from the object's identity. [corpus]
+
+**Commission** when the skill required exceeds your own, when the quantity is too small to justify buying the tools, or when a one-off piece has to clear a quality bar your workbench cannot reach. [corpus] Skilled prop makers in Europe and North America price at materials plus a craft hourly rate. A figure of EUR 30 to 80 per hour circulates in practitioner discussion, but treat it as a planning estimate rather than a quoted rate. [researched]
+
+Reset durability bends the whole calculation. An operator running four sessions a day handles each prop around fourteen hundred times a year, and any decision that ignores that count collapses under it. Paint chips off untreated foam and prints fade, while props that need re-rigging between groups pile up operational debt. [corpus] One commercial vendor formalises this into a design rule, to prefer props that never move between sessions and to let electronics carry whatever state has to reset. [corpus] The longer the planned life, the more "buy genuine" and "commission to spec" beat "make it cheaply", so this decision is inseparable from [Materials, Durability & Reset](materials-durability-and-reset.qmd).
+
+### Where to source it
+
+The buy route is really a set of channels, each with its own speed, cost, and risk. The table below is the working shortlist for live-game props.
+
+| Channel | Good for | Lead time | Cost | Risk |
+|---|---|---|---|---|
+| Amazon | Commodity props, duplicate hardware | 1 to 3 days | Low to mid | No uniqueness; one tier of quality [corpus] |
+| AliExpress, Temu | Bulk dressing, mechanisms, electronic modules | 2 to 6 weeks | Very low | Variable quality; documented scam vendors [corpus] |
+| Etsy | Handmade puzzle props, cipher wheels, bespoke pieces | 5 to 14 days | Mid to high | Vet the seller's reviews [corpus] |
+| Charity shops, thrift | Ambient dressing, genuine vintage, aged books | Immediate | Very low | Cannot source multiples [corpus] |
+| Salvage, markets, car boots | Larger props, antiques, architectural pieces | Immediate to days | Low to mid | One of a kind; condition varies [corpus] |
+| Escape-room vendors | Reliable mechanisms, themed electronics | 3 to 10 days | Mid to high | Narrower aesthetic; built for operators [corpus] |
+| Theatrical prop houses | Period set pieces, furniture, costume-grade items | Days to weeks | Mid to high | Mostly rental; rentals restrict modification [corpus] |
+| Cosplay and replica community | Bespoke fabrication, kits, commissions | 2 to 6 weeks | Variable | Vet by portfolio and reputation [corpus] |
+
+Two cautions sit underneath the table. The very cheap end saves money but spends it back as lead time and quality variance, so if you need six matching props, order eight from one batch and accept that some will be culled. [corpus] The escape-room trade has also documented outright scam vendors on that cheap end. These are operators who take payment and never ship, so stick to suppliers with a verifiable history. [corpus]
+
+### The workshop, in three honest tiers
+
+If you make rather than buy, the tools scale with how often you build. Three tiers cover almost everyone, and the jump between them is real money, so size the workshop to the work.
+
+| Tier | Spend | What it adds | What it handles |
+|---|---|---|---|
+| Kitchen table | Under EUR 50 | Craft knife, cutting mat, hot glue, PVA and cyanoacrylate, acrylics, sandpaper, gloves | Paper, card, foamcore, light foam, finishing bought props [corpus] |
+| Hobbyist workstation | EUR 150 to 500 cumulative | Heat gun, rotary tool, airbrush and compressor, vinyl cutter, soldering station | EVA foam shaping, custom labels and stencils, basic LED work [corpus] |
+| Small production | EUR 1,500 to 5,000+ cumulative | Laser cutter, sewing machine, resin casting setup, dedicated ageing station | Cut and engraved parts, cast multiples, period distressing at volume [corpus] |
+
+Most one-off rooms launch from the kitchen table and never leave it. The airbrush is the single upgrade that transforms paint quality, and the vinyl cutter (a Cricut or Silhouette) becomes useful fast for custom labels and decals. [corpus]
+
+There is no need to own the expensive end. Public libraries and community hackerspaces give access to a laser cutter or vinyl cutter, a 3D printer or sewing machine, for a library card or a modest fee, usually after a short tool induction. The international Fab Lab network offers the same, with free public access written into its membership terms. [corpus] For a designer who needs a laser cutter twice a year this is the right call. Tools used rarely are a fast route to a cluttered workshop. [corpus] EVA foam deserves a mention as the dominant low-cost material for shaped props. Interlocking gym-mat tiles cut with a knife and shape under a heat gun. Any structural join wants contact cement rather than hot glue. Seal the surface before painting so the finish does not crack as the foam flexes. [corpus]
+
+Two parts of this stack carry their own risk and their own craft. Several tools are genuinely dangerous, and the safety minimums are not optional.
+
+::: {.callout-warning}
+### The Hazard
+The fabrication shortcuts that hurt people are the quiet ones. Never cut PVC on a laser cutter, because it releases chlorine gas. MDF needs strong extraction because it gives off formaldehyde. [researched] Uncured casting resin is a sensitiser, and a single unprotected session can produce a lifelong allergy. Wear an organic-vapour respirator with P100 cartridges (not a dust mask) and nitrile gloves (not latex). [researched] The same respirator rule covers solvent-based spray paint and airbrush work. [corpus] None of this is visible in the slicer or the design file. The harm stays invisible until it becomes a chronic condition. That invisibility is exactly why the precautions get skipped, and exactly why they must not be. [synthesis]
+:::
+
+### When 3D printing is the right tool
+
+Consumer FDM and resin printers crossed a threshold in the early 2020s: reliable, fast, and cheap enough that a run of six to twelve identical pieces costs less than buying commercial alternatives, and prints shapes no shop even stocks. [corpus] That changes the make decision for a narrow but valuable set of props. The choice turns on three variables: shape specificity, quantity, and how cheaply a piece must be replaceable. [corpus]
+
+Print when the shape is custom and has no retail supply (a key blank that opens only your prop lock, a container with a cavity sized for one hidden object), when you need six or more copies with consistent tolerances, or when a themed surface detail is part of the puzzle mechanic rather than decoration. [corpus] The standout trick is the internal channel. Because FDM builds layer by layer, a void enclosed inside a solid object is trivial to design. It comes out sealed on all sides except the one opening a player must find. [corpus] Resin (MSLA) takes over below about 120 mm where surface fidelity matters, for wax-seal matrices and finely engraved tiles, at the cost of being brittle. [corpus] The concealment side of this craft is its own article, [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd), and the key blanks and locks it produces feed [Lock Taxonomy](lock-taxonomy.qmd).
+
+Buy instead when off-the-shelf weight and tactility matter more than custom shape, when print time exceeds purchase-and-delivery for a one-off, or when the prop must survive handling beyond what PLA or PETG tolerates. [corpus] Material choice follows handling. Use PLA for indoor props that get handled but not stressed. It softens above 50 to 55 degrees and so belongs away from sun-facing windows and hot storage vans. Switch to PETG for anything repeatedly grabbed or dropped. The trade-off is two extra priming steps because PETG resists paint adhesion. [corpus]
+
+| Object | Material | Approximate print time |
+|---|---|---|
+| Single key blank (80 mm) | PLA | 15 to 25 min [corpus] |
+| Set of six identical keys | PLA | 1.5 to 2 hr [corpus] |
+| Small sealed container (60×60×40 mm) | PLA or PETG | 45 to 90 min [corpus] |
+| Three-dial combination lock | PLA | 2.5 to 3.5 hr [corpus] |
+| Decorative candlestick prop (150 mm) | PLA | 3 to 5 hr [corpus] |
+| Wax-seal matrix (30 mm) | Resin | 20 to 40 min [corpus] |
+
+One trap is purely legal and easy to walk into. Models on Printables, MakerWorld, Thingiverse, and Cults3D carry Creative Commons licences, and many default to non-commercial (CC BY-NC), which a paying customer's room violates even if you modify the design. [corpus] For any prop in a paid experience, either design your own in free tooling such as Tinkercad or Fusion 360, which gives full ownership, or buy a commercial licence. [corpus] The time cost of finding a clean-licence alternative is far below the legal exposure of ignoring it. [corpus]
+
+### The puzzle hunt: fabricating for the open world
+
+Move outdoors and the sourcing question changes shape, because the object no longer lives in a controlled room. It has to survive weather, finders, and time, often unattended for years. The geocaching tradition has settled this into a container decision with a clear durability gradient. An ammo can with an intact rubber gasket is effectively indestructible and waterproof even when submerged. That anchors the durable end of the gradient. [researched] At the fragile end sits the nano cache. It keeps a tiny log dry only while its gasket survives. Because a small gasket is easily dropped and lost for good, the waterproofing goes with it. [researched] Older ammo cans without a gasket leak as well. The damp then rusts the contents over time. [researched] The sourcing decision here is the trade between concealability and the durability horizon, and it feeds directly into how a hunt plans replacement over a multi-year life, which is the materials axis of [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd).
+
+### The tabletop: fabrication as a catalogue
+
+The tabletop solves the same problem from the other end, by turning fabrication into a published price list. Print-on-demand services formalise it into a fixed component catalogue with material specs you can read before you commit. The Game Crafter prints custom cards as 12pt, 320 gsm, black-core stock in fixed slug sizes, from a mini at 2.5 by 3.5 inches up to a large at 8.25 by 10.5 inches, and manufactures custom dice on demand in any quantity, with full-colour printed D6 from roughly two dollars each. [researched] Black-core stock is the durability default because it resists wear and prevents see-through. [researched]
+
+What this removes is the minimum-order barrier. A designer can fabricate tokens, punchouts, pawns, and dice singly, for a prototype or a self-published short run, without tooling up. [researched] At the lighter end, large-format maps run under two dollars for an 18 by 24 inch blueprint print, with black-and-white line art costing roughly a tenth of colour. [researched] The decision is the same trade the live game makes, now expressed in a vendor's units. It weighs unit cost against material durability (card weight and core) against run size. [synthesis] Where that fabricated component is consumed permanently in play, as in the legacy genres, sourcing and reset collide head-on, which is the subject of [Cooperative & Legacy Genres](../systems-mechanics/cooperative-and-legacy-genres.qmd).
+
+::: {.callout-note}
+### The Specimen
+The Game Crafter, a print-on-demand manufacturer, publishes its component specifications as a fixed catalogue rather than quoting per job: custom card stock is 12pt, 320 gsm, black-core, die-cut with rounded corners and printed full-colour both sides, offered in named slug sizes from mini (2.5 by 3.5 inches) upward; custom dice are made on demand in any quantity, acrylic or wood, full-colour printed D6 from around two dollars each, with D4 and D8 shapes available. [researched] The effect is that a tabletop designer never makes the buy/make/commission decision in the abstract. The catalogue has already resolved it into a line item carrying a unit price and a material spec, with no minimum order to clear. This is how print-on-demand reshaped self-publishing. The fabrication question became a checkout. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Fabrication and sourcing is the supply layer beneath everything else in this family. A lock, a document, a hidden compartment, a themed prop. Each of these is designed somewhere else in the family. But each one has to be physically obtained before a player can touch it. That obtaining is the craft this article covers. Done well it stays mostly invisible. Done badly it turns catastrophic. A sourcing failure does not announce itself in the design review. It surfaces on the third group through the room. That is the moment the cheap substitute fails. The discipline is to make the buy/make/commission call early and to keep reset durability in the arithmetic from the start, so the object that reaches the player is the one that survives meeting them.
+
+**Next steps.** Once you know where a prop comes from, the question becomes whether it lasts, which is [Materials, Durability & Reset](materials-durability-and-reset.qmd), and whether it is better realised in the hand or on a screen, which is [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd) and [Digital Props](digital-props.qmd). The narrative reasoning that tells you what a prop should be before you source it is [Artefact Design & Document Production](artefact-design-and-document-production.qmd), and the specific case of paper and card props is [Physical Clue Formats](physical-clue-formats.qmd). What all this fabrication is in service of, the believed world it builds, is [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd). And because every one of these decisions spends a finite budget of money and time, the surrounding question of where that budget goes is [Prep Economy](../systems-mechanics/prep-economy.qmd).
+
+## Sources
+
+- A+ Props. "Reset and Automation" (prefer props that do not move between sessions; let electronics handle state). <https://a-props.com/>
+- Exit The Room. "How to deal with escape room prop breakage" (genuine objects outlast plastic under daily handling). <https://exittheroom.com/>
+- Punished Props Academy (Bill Doran). *Foamsmith* series; EVA foam, finishing, and respirator selection. <https://punishedprops.com/>
+- 405th Infantry Division. Prop-building and resin-safety community guide (NIOSH-referenced respirator standards). <https://www.405th.com/>
+- Cricut and Silhouette product documentation (vinyl-cutter capability tiers). <https://cricut.com/> and <https://www.silhouetteamerica.com/>
+- fablabs.io, the international Fab Lab network (free public access as a condition of membership). <https://www.fablabs.io/>
+- Resin Obsession. "Resin safety: respirators and ventilation." <https://www.resinobsession.com/resin-tips-techniques/resin-safety/>
+- "Polylactic acid" and "Polyethylene terephthalate glycol" (PLA and PETG heat-deflection ranges). Xometry. <https://www.xometry.com/resources/3d-printing/petg-vs-pla-3d-printing/>
+- Printables escape-room tag and Creative Commons licence terms (CC BY, CC BY-NC, CC BY-NC-ND). <https://www.printables.com/tag/escaperoom>
+- Bambu Lab Wiki (printer specifications, filament compatibility, slicer print-time profiles). <https://wiki.bambulab.com/>
+- The Game Crafter. "Custom Punchouts and Card Stock" (12pt 320 gsm black-core stock; slug sizes). <https://help.thegamecrafter.com/article/201-custom-punchouts-and-card-stock>
+- The Game Crafter. "Custom Dice." <https://help.thegamecrafter.com/article/370-custom-dice>
+- Sly Flourish (Mike Shea). "Making Great Handouts" (large-format map printing costs). <https://slyflourish.com/making_great_handouts.html>
+- The Geocaching Junkie. "How Tough is My Geocache?" (ammo can vs nano durability and gasket dependence). <https://thegeocachingjunkie.com/2016/10/31/how-tough-is-my-geocache/>

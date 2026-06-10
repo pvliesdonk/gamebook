@@ -1,17 +1,112 @@
 ---
 title: "Lock Taxonomy"
-aliases: []
+aliases: ["Locks", "Padlock Taxonomy", "Lock Selection"]
 family: "Space, Props & Materiality"
-media: []
+media: [live-game, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [tactile-payoff, gated-progress, legible-challenge]
+  problems: [jammed-mechanism, lost-key, combination-drift, unsettable-answer, non-diegetic-hardware]
+  components: [combination-lock, key-lock, directional-lock, word-lock, magnetic-lock, electronic-lock]
+  genre: [mystery, heist, horror, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The workhorse prop that turns a found answer into an opened box, chosen for how it resets and whether it fits the world.*
+
+A lock is the most honest gate a designer owns. It states its terms in metal. There is a code to find, or a key, or a sequence, and until the player has it the shackle stays shut. That bluntness is the appeal. A lock cannot be argued with and it cannot be half-solved, so the moment it springs is a clean reward the player earns with their own hands.
+
+The choice of which lock is rarely glamorous, and it is where rooms quietly go wrong. A jammed shackle mid-session, a code that slipped during reset, a mechanism so unfamiliar that players spend their first five minutes learning to operate it before they can even begin to solve the puzzle: each is a lock chosen by aesthetics and paid for in friction. The families below sort the common hardware by how it behaves under repeated play, because that is the property a designer lives with long after the theme is decided.
+
+This article is the home of the physical lock. It lives in live play, where padlocks hang on hasps and chests, and it reaches out to the distributed hunt, where a lock sits in a box at the end of a trail with no host standing by to fix it. The board game and the text game gate progress too, but they do it in cardboard or code rather than in a shackle, so the hardware questions here do not reach them.
+
+## The Mechanism (How it works)
+
+### The lock is a gate, not a clue
+
+Before any hardware question, one distinction settles what a lock is for. A clue helps the player work towards an answer. A lock does the opposite. It holds progress shut until the answer arrives, then it judges whatever answer the player offers. That makes a lock a gate, and the rule for gates is that a gate must look like a gate. The player should know a code is needed before they have it. Then they go after it on purpose rather than tripping over an open shackle by luck. A puzzle that secretly needed a number the player had no route to is unfair, and the lock is the place where that unfairness turns physical. The deeper treatment of where this line sits is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). [synthesis]
+
+The lock also does a second job that is easy to miss. It confirms the solution. When the shackle springs, the player knows beyond doubt they were right, with no host needed to adjudicate. The lock is the apparatus that checks the answer, which is the mechanism-as-judge craft of [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd). So the mapping between answer and lock has to be exact. A four-digit answer wants a four-digit lock, and a lock with a different number of dials than the answer has elements is a quiet invitation to a false positive or a stuck player. [synthesis]
+
+### Combination locks: the legible default
+
+Combination padlocks are the entry point of the category because they announce themselves. A dial of digits on a hasp telegraphs "there is a code to find here," which is usually a feature rather than a bug. [corpus] A three-digit lock such as the common Master Lock or ABUS bodies presents 1,000 possible codes; a four-digit lock steps that to 10,000. [researched] Both numbers are far more than a puzzle needs for security, so the digit count is chosen for the shape of the answer rather than for resistance to guessing. Three digits suit a beginner or family room where the mechanism should read at a glance. Four digits give the designer room to encode a four-element clue: the values of four playing cards, say, or a set of map coordinates. [corpus]
+
+Reset is low effort. Most resettable bodies open with a tool supplied in the box or a documented shim-and-dial step, and the procedure is the same in principle across digit counts. [corpus] The failure mode to watch is combination drift, where the wheels of a cheap rotary lock slip slightly over hundreds of cycles until the set code no longer opens it. The fix is a habit rather than a part. On a weekly test, set and reopen every combination lock, then retire any that shows drift. [corpus] This durability gap between price bands is the materials question that runs under every lock choice, treated fully in [Materials, Durability & Reset](materials-durability-and-reset.qmd).
+
+### Key locks: the answer becomes an object
+
+A key lock shifts the puzzle from finding a number to finding a thing. That changes the pacing of the whole scene. The player must find a physical key and carry it. Sometimes it gets handed across the team. That introduces inventory logic and a small social handoff a number never asks for. [corpus] A key might be hidden inside a prop or released by a solved mechanism. A coloured tag on the key can match a tag on its lock. These are viscerally satisfying to use, and they photograph well for promotional material. [corpus]
+
+The cost is an operational one that bites at reset. Keys get lost. The discipline is to buy enough spares that at least two copies of every key exist on a fixed rack away from the play space. Then account for every key before the next group enters. [corpus] In a hosted room a lost key is a recoverable annoyance. On a distributed hunt, where a container sits unattended at the end of a trail, a lost key is a dead puzzle, so hunt guidance treats the keyed lock as the option that most demands a backup key and crystal-clear instructions to the player. [researched]
+
+### Directional and word locks: the specialist hardware
+
+Two families trade familiarity for expressive range, and both carry a catch the designer has to plan around.
+
+The directional lock accepts a sequence of up, down, left, and right pushes rather than digits. The canonical model is the Master Lock 1500iD, which takes a sequence of between three and ten directions. [corpus] That makes it the natural lock for an answer shaped as compass bearings, dance steps, arrows traced on a map, or a directional message. The catch is twofold. The mechanism is unusual enough that first-time players need a brief orientation, so a small visual legend beside the lock is worth the space. [corpus] And the model itself is now hard to source: Master Lock discontinued the 1500iD in 2022 once the underlying patent expired and the licensing arrangement lapsed, so surviving stock trades at a premium and a designer planning around it should secure units before committing a puzzle to the format. [researched]
+
+The word lock presents wheels of letters and opens on a set word. Its catch is the more dangerous because it hides until late. Each wheel carries only part of the alphabet, so not every word is settable. The Master Lock 1535DWD and its siblings share one fixed letter distribution, which is narrow enough that escape-room designers circle back to the same handful of valid words: BURY, STAR, SAND. [researched] The rule that follows is firm. Choose the puzzle answer first, then verify the lock in hand can actually be set to it. Designing a beautiful puzzle around a word the wheels cannot spell is a failure found only when the prop arrives. [corpus] A wider class of letter locks cycles letters without enforcing a real word. These suit a short code word or acronym and step around the dictionary constraint. [corpus]
+
+### Magnetic and electronic locks: the hidden and the powered
+
+The last two families leave the visible-padlock model behind. A magnetic cabinet lock has no lock body the player can see. It is concealed inside a drawer or cabinet and released by a magnet held against the outside, so the puzzle is not "find the code" but "discover that the drawer is held by something, and that the something is a magnet hidden elsewhere in the room." [corpus] The magnet can be disguised as any prop. A picture-frame backing or a decorative tile will do. This makes magnetic locks unusually strong for narrative integration, since the tool is itself a planted object with its own in-world reason for being there. The same invisibility is the GM's worry. A player who knows magnetic locks exist may sweep every surface methodically and bypass the intended path. [corpus] Concealing the mechanism this way is the craft of [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd).
+
+Electronic locks add digital verification and, with it, power. An RFID or key-card cabinet lock opens to a card or fob, or to a code typed on a keypad. It typically needs a 12V supply, so it has to be built into a fixed installation or a powered prop box. [corpus] A fingerprint padlock carries a biometric angle that suits a beat about a specific character's identity. A planted actor often presses their finger at the right moment to resolve it. [corpus] The whole electronic category buys puzzle types and visual spectacle that mechanical locks cannot reach. It pays for that reach in wiring and battery life, plus a manual override for when a lock fails mid-session. The keypad-and-relay end of this, where the lock becomes a programmed state, is [Digital Props](digital-props.qmd). [corpus]
+
+::: {.callout-note}
+### The Specimen
+For over a decade the Master Lock 1500iD directional lock was the iconic specialist lock of the escape-room trade. Its up/down/left/right mechanism let designers encode directions no digit lock could, at a low price. Then the patent behind it (held by Knollan) expired in 2022. Master Lock's exclusive licence lapsed with it, and the company dropped the model. Designers who had built rooms and whole puzzle conventions around the lock found themselves buying out the remaining stock at rising prices. The episode is a standing lesson in prop dependency. A puzzle format welded to one discontinued piece of hardware inherits that hardware's mortality. The safe move is to treat any single-source lock as a sourcing risk to hedge before the puzzle is locked in. [researched]
+:::
+
+### Selecting for a distributed hunt
+
+Move the lock out of the hosted room and onto an outdoor or distributed trail and the selection criteria reorder, because there is no GM standing by to fix a jam or hand over a spare. Hunt guidance built for exactly this setting reaches a clear order of preference. Number and letter combination locks are favoured over dial-spun models, because they resist idle brute-forcing while staying solvable and they pair cleanly with a puzzle that yields the code. [researched] Keyed locks work but carry the highest operational risk on an unattended trail. A backup key and unambiguous instructions become essential, because a player who cannot find the key has no host to ask. [researched] A multi-lock setup gathers several keys before a container opens. It is effective, yet it has to be flagged to the player up front. Otherwise the missing keys read as a broken puzzle rather than a designed one. [researched]
+
+Reusability and theme then break the tie. Directional locks ship with reprogrammable letter, number, and symbol stickers, which makes them reset cleanly and carry across many adventures, and reprogrammable combination locks share that advantage over keyed bodies that need physical key management between runs. [researched] Lockpick locks add novelty but take an unpredictable amount of time. A solve can run anywhere from ten seconds to twenty minutes. That suits only a low-time-pressure framing. [researched] Theme fit is the last filter and a real one. An antique-style lock sells a period setting. A word lock pairs naturally with a riddle that delivers its answer as a word. [researched] One gap is worth flagging plainly. The consulted guidance does not close it: outdoor weather resistance is a separate sourcing question. A lock chosen for theme and reset still has to survive rain and cold on an exposed trail. [synthesis]
+
+### Theme fit: the lock the world would own
+
+A lock is not neutral hardware. It is a visible object in a built world, and the wrong one breaks the fiction as surely as a fluorescent tube. A modern combination padlock clamped on a medieval chest announces that the player is in a game rather than a story. [researched] The principle that governs this is that every lock and every code needs a reason to be there that fits the story's logic, with the fiction answering who hid the key and why. The fuller treatment of how theme constrains the choice of mechanism is [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd). [researched]
+
+This pulls against the operational virtues above, and the tension is real rather than resolvable by formula. The most resettable, most reliable lock is often a plain modern combination body, which is also the most jarring in a pre-modern set. A magnetic lock vanishes into the furniture and so never offends the period, but it hides the mechanism and can defeat the intended path. The designer's move is to settle the era first and then work only within the locks that era permits. Full thematic substitution is cheaper than the half-measure of one bare padlock in an otherwise convincing room. The clue the lock carries (whether the shape of its dials or the era of its body) is itself a [Physical Clue Format](physical-clue-formats.qmd), and reading it should feel like part of the world rather than a tax on it. [synthesis]
+
+| Lock type | Reliability | Reset effort | Thematic fit |
+|---|---|---|---|
+| 3-digit combination | Medium (brand-dependent) | Low (tool or dial) | Universal, beginner-friendly |
+| 4-digit combination | Medium-high | Low | Four-element clue puzzles |
+| Key padlock | High (metal body) | Low, plus key management | Physical discovery, object puzzles |
+| Directional (Master 1500iD) | Medium (handle gently) | Low (reset hole) | Direction sequences, novelty |
+| Word lock (4-5 letter) | Medium | Low | Thematic word reveals |
+| Letter combination | Medium | Low | Code words, acronyms |
+| Magnetic cabinet | High (no shackle) | None (install only) | Hidden-mechanism, narrative surprise |
+| RFID / electronic | Medium (power-dependent) | Medium (power supply) | High-tech narrative, card or fob props |
+| Fingerprint | Medium (battery) | Low | Character-identity puzzles |
+
+: A practical lock taxonomy for live-game and hunt use. Reliability and reset notes assume a room running several sessions a day; price bands track durability, so a body in the EUR 10-20 range outlasts a EUR 2-5 generic across hundreds of cycles. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is to choose the lock for how it looks and discover its operational cost only in production. The word lock whose wheels cannot spell the planned answer is the classic case, found the day the prop arrives rather than the day the puzzle was designed. Its cousins are the cheap dial lock that drifts out of true by the third week, the keyed lock whose only spare went missing on a busy Saturday, and the gorgeous discontinued directional lock with no replacement when it finally jams. Each began as an aesthetic decision that skipped the question every lock has to answer before it goes in. Can this be reset and verified by whoever is on shift inside the window between two groups, every single time? A lock that cannot is not a prop. It is a stoppage waiting on a clock the designer has not yet heard ticking. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** The lock is where several of this family's concerns meet in one small piece of metal. It is a gate, so it inherits the fairness contract that governs every gate. It is a judge, so it carries the self-resolving puzzle's promise that the apparatus confirms the answer. It is a visible object, so it answers to theme. And it is a thing that has to survive hundreds of resets, so it answers to durability. A designer who picks a lock well has quietly satisfied all four at once. A designer who picks for looks alone meets the other three later, as friction at the table or a group stuck on a jammed shackle. The lock is humble, but it is load-bearing, and the rooms that run smoothly are the ones that chose their hardware as carefully as their puzzles.
+
+**Next steps.** Once the lock is chosen, the work turns to what it guards and how it opens. The reveal the shackle releases (the drawer, the panel, the nested box) is [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd). The clue the lock presents and the answer it expects sit on either side of the fairness line drawn in [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd), and the lock as the thing that judges that answer is [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd). Whether the lock should be a physical body at all or a powered keypad is [Digital Props](digital-props.qmd). The era and logic that decide which locks the world can hold belong to [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd). The durability and reset discipline that keeps every lock opening reliably across a long run is [Materials, Durability & Reset](materials-durability-and-reset.qmd).
+
+## Sources
+
+- Glanc, Josh. "Let's Talk Locks!" Constructed Adventures. <https://www.constructedadventures.com/how-to-build-a-treasure-hunt/2021/10/11/lets-talk-locks>
+- "15 Lock Variations for Your Low Cost Escape Room." Summer Camp Pro. <https://www.summercamppro.com/15-lock-variations-low-cost-escape-room/>
+- "Fun Locks For Your DIY Escape Room." Lock Paper Escape. <https://lockpaperescape.com/fun-locks-for-your-diy-escape-room/>
+- "From the RECON Observer: Who Killed The Directional Lock." Room Escape Artist, 2 June 2025. <https://roomescapeartist.com/2025/06/02/recon-observer-who-killed-directional-lock/>
+- "Available Now: The Discontinued Directional Locks Are Cheap On Amazon." Room Escape Artist, 9 September 2022. <https://roomescapeartist.com/2022/09/09/available-now-the-discontinued-directional-locks-are-cheap-on-amazon/>
+- "Master Lock: All Possible 4 Letter Words." Room Escape Artist, 11 February 2018. <https://roomescapeartist.com/2018/02/11/master-lock-all-possible-4-letter-words/>
+- "WordLock: All Possible 4 & 5 Letter Words." Room Escape Artist, 25 February 2018. <https://roomescapeartist.com/2018/02/25/wordlock-all-possible-4-5-letter-words/>
+- "1500iD Combination Lock." Master Lock product page. <https://www.masterlock.com/products/product/1500iD>
+- "1535DWD Combination Lock." Master Lock product page. <https://www.masterlock.com/products/product/1535DWD>
+- ABUS Combination Locks (product range). <https://www.abus.com/int/Consumer/Padlocks/By-series/Combination-Locks>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 

@@ -1,14 +1,98 @@
 ---
 title: "Hidden Compartments & Reveal Mechanisms"
-aliases: []
+aliases: ["Reveals", "Invisible Ink", "False Bottoms", "Hidden Messages"]
 family: "Space, Props & Materiality"
-media: []
+media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [discovery, earned-reveal, tactile-payoff, surprise]
+  problems: [accidental-reveal, unreliable-reveal, missed-compartment, no-reset]
+  components: [uv-ink, invisible-ink, neodymium-magnet, false-bottom, layered-paper, sealed-envelope]
+  genre: [mystery, heist, horror, fantasy]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The moment a prop gives up a secret it was built to hide, and the craft of making that moment land on purpose rather than by accident.*
+
+A hidden compartment is a promise the object makes before the player knows it is there. The box looks solid. The page looks blank. Then a torch sweeps across it, or a magnet finds the right spot, or a sheet folds along a crease nobody noticed, and the thing the world was keeping turns up in the player's hands. That switch from solid to secret is one of the most satisfying beats a physical game can offer, and it is almost entirely about timing.
+
+The danger is that the reveal is a single event. It happens once, cleanly, or it happens early by accident, or it never happens at all because the player swept the torch the wrong way. Unlike a clue printed on a card, which sits there waiting, a reveal has a trigger and the trigger can misfire. So this craft has two jobs. One is choosing a mechanism whose physics actually deliver the secret under your real venue conditions. The other is controlling when the secret arrives, so the player earns it instead of stumbling into it.
+
+This work lives most fully in live play, where a player holds the prop and the room can be dimmed for a UV sweep. The same beat carries into print puzzle hunts, where a page hides what folding or a torch will surface. On the tabletop a sealed envelope or a torn card opens the next chapter of a campaign. The mechanism changes; the reveal beat does not.
+
+## The Mechanism (How it works)
+
+### The reveal is a state change, and most are one-way
+
+Before choosing a technique, decide what kind of event the reveal is. Almost every method here is irreversible in practice. Heat-revealed lemon juice browns and stays browned. A turmeric wash stains the page red-orange and cannot be undone. A torn legacy card is gone. [researched] This irreversibility is the source of both the drama and the cost. The reveal is the state change, so the mechanism enforces a one-time ordering the players cannot rewind, which is exactly what makes it feel like a real discovery. [synthesis] It also means the prop is spent, and a spent prop is a reset problem the next group inherits. That trade between tactile drama and reuse is the through-line that ties every choice below to [Materials, Durability & Reset](materials-durability-and-reset.qmd).
+
+A reveal also differs from a lock. A lock blocks progress until a condition is met and then opens to a known interior; the player knows the box is locked and goes looking for the key. A hidden compartment hides that there is anything to open at all, so its first job is to be found. The two often stack (a magnetic latch is a lock you cannot see), and the selection of the latch itself belongs to [Lock Taxonomy](lock-taxonomy.qmd). A reveal's distinct problem is discovery, not opening.
+
+The families below sort by what supplies the trigger: light, heat or chemistry, magnetism, or the physical structure of paper.
+
+### UV reveals: the workhorse, and its one enemy
+
+UV reveal is the most widely used hidden-message technique in live puzzle games. UV-reactive ink is invisible under normal light and fluoresces under a 365 nm or 395 nm source, so a message written in it stays hidden until a torch crosses it. [researched] The cheap consumer "spy pen" pairs a writing tip with a small UV LED, and a bulk pen costs under one euro. For prop work that has to survive repeated handling, the better build separates the two: a dedicated 365 nm torch plus any reasonable UV marker, because a 365 nm source gives a crisper reveal than the 395 nm LEDs in cheap pens. [researched]
+
+The one enemy is ambient light. A UV message is hard to read in a bright room. The 395 nm ink glows faintly under ordinary LED lighting, so players sometimes find it before they were meant to. [researched] The fix is either to control the light or to control the trigger. To control the light you need a room you can dim. Failing that, a lightproof inspection box or a drawer lets the player check the object out of the room glare. A free torch in the player's hand makes a searching game instead. That works well when finding the message is the puzzle, but it turns tedious when players must then sweep the whole room to confirm nothing else is hidden. Wiring the UV source to power on only after a solved step removes that exhaustive sweep. [researched] At that point the fixture confirms the answer by itself, which is the live-game face of [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd).
+
+### Heat and chemistry: dramatic, but test the specific stock
+
+Heat-reveal and chemical-reveal inks trade reliability for needing no special light at all. They split sharply by how dependable they are, and the difference is worth a table.
+
+| Ink | Trigger | Result | Reliability |
+|---|---|---|---|
+| Lemon juice | Heat (iron or lamp) | Light brown | Variable; can need 20-plus minutes [researched] |
+| Milk | Heat (iron or lamp) | Light brown | Moderate; denser than lemon |
+| Baking soda + turmeric wash | Brush turmeric-alcohol solution | Red-orange on yellow | High; under 10 seconds [researched] |
+| Red cabbage water | Vinegar (acid) or soda (alkali) | Pink or green | Good; works as a pH indicator |
+
+Heat reveals carry a sourcing trap in Europe. Incandescent bulbs are now hard to buy under energy rules, so the practical reveal tool is a clothes iron kept moving with no steam. A heat gun on its lowest setting does the same job. [researched] Lemon juice is the romantic choice and the unreliable one; a field test found it sometimes needed twenty minutes of heat to show anything. Milk performs better because its fat and protein are denser. [researched]
+
+The baking-soda-and-turmeric reveal is the dependable showpiece. Write with a baking-soda solution, let it dry, then brush the whole page with turmeric dissolved in rubbing alcohol. Turmeric carries a natural indicator (curcumin) that is yellow in neutral conditions and shifts to vivid red-orange against the alkaline soda, so the message appears in high contrast in seconds. [researched] It stains hands and surfaces, so the turmeric goes in a sealed dropper, not an open cup, and the revealed page cannot be reset. [researched] Whichever ink you pick, the discipline is the same. Test the exact paper stock before you commit it. Heavier card scorches before the message browns, and coated stock blocks organic inks and UV markers alike. [researched]
+
+### Magnetic catches and false bottoms: the silent compartment
+
+Where ink hides a message, magnetism hides a space. A rare-earth (neodymium) magnet embedded in the prop holds a steel pin or a second magnet as a latch; bring an external magnet to the right spot and the latch lets go, so a drawer slides or a panel swings that showed no seam under normal handling. [researched] The standard EU source is Supermagnete (it ships from Germany with clear grade and size labelling and a pull-force calculator), with N52-grade discs around 10 mm by 3 mm a reliable starting point. Neodymium is brittle, so you drill to fit and glue the magnet in rather than hammering it. [researched]
+
+Two failure modes define the build. A latch magnet that is too strong means the player cannot feel the compartment give even with the key magnet in the right place, so use the weakest magnet that still holds against accidental bumps. [researched] A false bottom betrays itself by weight. If the box is suspiciously heavy the player suspects a chamber before earning it, so either keep the build as light as possible or add ballast that masks the secret weight. [researched] The honest move on theme is to make the external magnet a narrative prop, a ring with a magnet set in the bezel or a wand with a magnet in the tip, rather than handing someone a bare lump of ferrite. That keeps the fiction intact in the sense that [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd) demands. Who hid the compartment and why is the provenance question that [Artefact Design & Document Production](artefact-design-and-document-production.qmd) answers for the object as a whole.
+
+### Layered paper: reveals with no chemistry at all
+
+The cheapest reveals exploit the structure of paper itself, and they reset more kindly than the chemical ones because nothing is consumed. A sealed inner envelope hides a second layer inside the first, so a player who opens the outer letter the expected way must still realise there is more to open. A folded-map reveal prints a partial image that only resolves along a specific fold. The design rule there is that the partial image should look like it might already be complete, so the player has to question whether they are seeing everything. [researched] A light-table reveal prints faintly on tracing paper or vellum that shows nothing on a white card until held to a window or lamp. Stacked acetate overlays split a diagram across transparent sheets that mean nothing alone and complete the message when aligned. [researched]
+
+The recurring failure of paper reveals is that players simply do not think to fold, stack, or backlight the sheet. [researched] These are physical-clue formats first, so the choice between loose cards, bound pages, and envelopes is shared with [Physical Clue Formats](physical-clue-formats.qmd). The cue that tells a player to manipulate the page is a noticing problem, which is the perceptual craft of [Search, Observation & Lateral Thinking](../puzzles-clues-information/search-observation-and-lateral-thinking.qmd).
+
+::: {.callout-note}
+### The Specimen
+*Journal 29* is a print puzzle book that runs entirely on physical manipulation of the page plus an online answer check. Solvers write on the pages, fold them and draw across them, then combine sheets to extract each answer and type a numeric key into a website that opens the next puzzle. The book carries no app and no battery; the page is the prop and the website is the lock. [researched] It shows the reveal beat surviving the move from a built room into bound paper. The physical layer hides what folding and close looking surface, and the online key is the self-confirming gate, so a solver alone at a table gets the same earned-discovery moment a live room delivers through a torch sweep. The trade is the live craft's too. Every page worked on is a page consumed, so the book is effectively one-time-use. [researched]
+:::
+
+### The same beat on the tabletop: the reveal as a campaign gate
+
+The tabletop turns reveals from a discovery mechanism into a pacing one. Legacy games make permanent, ordered reveals part of the rules. Players place stickers on the board, write on cards and tear cards up. The first card-tear in *Risk Legacy* and *Pandemic Legacy* is cited as a signature emotional beat precisely because it destroys a paid-for component. [researched] Tabletop escape boxes such as the *EXIT* series ship sealed and layered. One box holds encoded letters and plastic gears and wooden locks, with nested envelopes that have to be opened in order. The game is openly one-time-use because solving destroys the components. [researched] A "do not open until" envelope is the simplest one-way gate of all. It holds a chapter of content sealed until the campaign earns it. [researched]
+
+The shared property across all of these is irreversibility, the same one-way state change that drives the live reveal, now deliberately used to gate a story rather than to hide a clue. [synthesis] It also exposes the cost most cleanly: a legacy box raises the question of what you do with an eighty-euro game once the campaign has used up its surprises, and the documented answers (reset packs, non-permanent stickers, designs that stay playable in their altered state) are the same reset problem live props face, met from the consumer-product side. [researched] That cost is the subject of [Materials, Durability & Reset](materials-durability-and-reset.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is the reveal that fires before it is earned. A UV message visible under the room lights, a false bottom betrayed by weight, a sealed envelope a curious player tears open three steps early: in each case the secret arrives without the discovery that was supposed to precede it, and the beat is spent with no payoff. The tell is a playtest where someone finds the compartment by accident and shrugs. The fix is rarely a better-hidden secret. It is a controlled trigger. Wire the UV source to power on only after a solved step. Point the fiction at where the magnet goes. Build the campaign gate so it resists casual opening. A reveal you cannot time is a reveal you do not control, and an uncontrolled reveal is just a prop falling open. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Hidden compartments and reveals are where the material craft of this family produces its sharpest single moment. A lock, a document, a set-dressed shelf: each does steady work across a session, but a reveal concentrates that work into one event and asks the designer to land it on cue. It sits on top of nearly everything else in the family. It needs a believable object to hide inside ([Artefact Design & Document Production](artefact-design-and-document-production.qmd)), a theme that justifies why the secret is there ([Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd)), and it borrows the latch logic of [Lock Taxonomy](lock-taxonomy.qmd). Its defining cost, irreversibility, hands straight to [Materials, Durability & Reset](materials-durability-and-reset.qmd), because almost every good reveal is a thing you only get to spend once.
+
+**Next steps.** Once the mechanism is chosen, the next question is whether the reveal confirms its own answer, which is [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd). Whether the player will even spot the cue that triggers it is [Search, Observation & Lateral Thinking](../puzzles-clues-information/search-observation-and-lateral-thinking.qmd). The format the reveal is built into, whether a loose card or a bound page or a sealed envelope, is [Physical Clue Formats](physical-clue-formats.qmd), and planning when the secret may fairly surface sits inside the wider contract of [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). After the first run, the reset and re-prep of a consumed reveal is [Materials, Durability & Reset](materials-durability-and-reset.qmd).
+
+## Sources
+
+- Escape the Review. "How to use UV well." <https://escapethereview.co.uk/>
+- McKay, Brett and Kate. "How to Make Invisible Ink" (lemon-juice field test). The Art of Manliness. <https://www.artofmanliness.com/skills/outdoor-survival/how-to-make-invisible-ink/>
+- Science Buddies. "Secret Messages with Invisible Ink." <https://www.sciencebuddies.org/stem-activities/invisible-ink>
+- American Chemical Society. "Appearing & Disappearing Ink" (turmeric / baking soda pH reveal). <https://www.acs.org/education/activities/appearing-and-disappearing-ink.html>
+- Supermagnete. Neodymium magnet product documentation and pull-force calculator. <https://www.supermagnete.de/eng/>
+- Glanc, Josh. "How to use Heat-Reactive Pens in your Next Adventure." Constructed Adventures. <https://www.constructedadventures.com/how-to-build-a-treasure-hunt/2021/9/19/how-to-use-heat-reactive-pens-in-your-next-adventure>
+- Journal 29. "Interactive Book Game." <https://journal29.com/>
+- "Legacy game" (Risk Legacy / Pandemic Legacy card-tear; reset mitigations). Wikipedia. <https://en.wikipedia.org/wiki/Legacy_game>
+- Don't Eat the Meeples. "Exit, Unlock, Deckscape: an escape-room board game guide." <https://www.donteatthemeeples.com/exit-unlock-deckscape-escape-room-board-games/>
+- Neutronium Games. "Best Legacy Board Games 2026: Permanent Change, Lasting Stories." <https://neutronium.games/blog/legacy-board-games-2026>

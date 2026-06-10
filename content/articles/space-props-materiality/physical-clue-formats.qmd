@@ -1,17 +1,97 @@
 ---
 title: "Physical Clue Formats"
-aliases: []
+aliases: ["Clue Packaging", "Envelope and Deck Formats", "Consumable vs Reusable Clues"]
 family: "Space, Props & Materiality"
-media: []
+media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [threshold-ritual, tactile-payoff, progressive-reveal, world-weight]
+  problems: [reset-cost, immersion-break, lost-handout, non-replayable]
+  components: [sealed-envelope, booklet, card-deck, container, letterlock, loose-handout]
+  genre: [mystery, detective, heist, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The packaging a clue arrives in, and the contract that packaging signs before a word is read.*
+
+Format is the wrapper that reaches the player before the puzzle does. The same sentence delivered as a wax-sealed letter, a laminated card, or a loose sheet on the table signs three different contracts. The sealed letter says this has never been seen and opening it cannot be undone. The laminated card says this is a game piece, handle it freely. The loose sheet says here is everything at once, sort it how you like. None of these is the right answer on its own. Each is correct for a different production, and choosing among them is the first design decision in any physical clue, made before the puzzle inside it is even written.
+
+This is a family hub. It pulls together every way a physical clue can be packaged. A single question decides between them all. Does the object survive play? A clue is consumed when solving it means destroying it. That destruction is often the whole point. A clue is reusable when it wipes clean and resets in ten minutes. That economy is its own kind of point. Most of the craft below is the working-out of that single tension across envelopes, booklets, decks, containers, and the bare handout.
+
+## The Mechanism (How it works)
+
+### The consumable / reusable axis
+
+The most consequential property of a clue format is whether it survives being solved. [corpus] Consumable formats treat irreversible opening as a designed beat. A sealed envelope torn open, a booklet page cut away, a cracked wax seal. In each, the act marks a threshold the player cannot step back across, and that crossing is what earns the content. [corpus] Reusable formats optimise instead for economics and circulation. A laminated card or an unmarked numbered deck runs for group after group and can be lent or gifted onward while staying intact. [corpus] Neither position is better. They fit different production contexts, and the format question is really the question of which context you are in.
+
+Consumable wins when the puzzle geometry needs physical destruction (a page folded or cut or torn or marked), when the experience is sold as a one-time gift, or when the business model is direct-to-consumer per box. Exit: The Game is the clearest case. Its booklet pages carry the puzzle surface and become the puzzle's sacrificed body. The designers are explicit that the freedom to destroy is what lets those puzzle geometries exist at all. [researched] Reusable wins in the opposite situation. One copy might need to serve an operational escape room or a school event for many groups in a row. A between-group reset might need to take ten minutes. Heavy playtesting must not be allowed to destroy the only prototype. A *Shut Up & Sit Down* review chose Unlock! over Exit on exactly this ground, because the deck could be passed on rather than recycled. [researched]
+
+The cleanest compromise is hybrid: a reusable physical layer carrying a consumable knowledge layer. Unlock! pairs a re-sortable card deck with a companion app that validates each combination, so the cards survive while the experience spends itself once per player. [researched] This consumable-or-not decision is the same trade the legacy board-game genre makes with stickers and torn cards, and it feeds directly into how a themed kit survives repeated play, which is [Materials, Durability & Reset](materials-durability-and-reset.qmd).
+
+### The format taxonomy
+
+Underneath the consumable axis sits a small catalogue of formats, each with its own feeling, reset cost, and fit. The table is the reference; the prose after it picks out the ones whose trade-offs are not obvious.
+
+| Format | Feeling it signs | Reset cost | Fits |
+|---|---|---|---|
+| Sealed envelope (wax) | Threshold, period authority | High (single-use seal) | One-off, historical, gift [corpus] |
+| Sealed envelope (tamper-strip) | Procedural, forensic | Medium (re-sticker) | Crime and evidence framing [corpus] |
+| Numbered sequential envelopes | Progressive unlock without a host | Low (re-seal) | Self-gating mail kits [corpus] |
+| Booklet or zine | Dossier weight, leaf at own pace | Zero if unaltered | Case files, consolidated reference [corpus] |
+| Laminated card | Game-component clarity | Zero (wipe clean) | Operational repeat play [corpus] |
+| Numbered card deck | Progressive reveal, flow control | None to near-zero | Sequenced reveals at scale [corpus] |
+| Folded / letterlocked | Historical intimacy, structural seal | None (single-use) | Period correspondence [corpus] |
+| Container | Discovery, weight, inventory | Zero if it survives | Hidden-inside-object reveals [corpus] |
+| Loose handout | Simultaneous access | Zero | Parallel deduction at a table [corpus] |
+| Tactile artefact | World-weight, authenticity | Variable, fragile | Premium one-off, subscription [corpus] |
+
+The sealed envelope is the fundamental unit of live-game information, and the one thing print can do that a screen cannot. What is inside has genuinely not been seen. [corpus] Its seal options climb a ladder of theatricality. A gummed flap is the cheap and quiet bottom rung. A wax seal in the middle adds audible breakage and visible debris. At the procedural top is a forensic tamper-strip evidence bag. Numbered envelopes turn the format into a gating system on their own. A stack labelled one, two, three lets a player earn the next envelope by solving the current one, a sequential reveal that needs no host to police it. [corpus] The catch is the reset. Wax and tamper-strips are single-use by definition, and replacing them across forty groups is a real production commitment, so multi-run designers often substitute Velcro under the flap or a ribbon-tied bundle that copies the visual grammar of tamper evidence without the destruction. [corpus]
+
+The booklet consolidates clues, narrative, and reference into one handled object, a dossier or journal players leaf through at their own pace and share without taking apart. [corpus] Its risk mirrors its strength. An investigation-only booklet that is read but never marked stays fully reusable, but the moment a puzzle wants a page cut or folded, the booklet is consumed. That destruction is exactly the Exit move, where destructible pages buy puzzle geometries no reusable format permits. [researched]
+
+The laminated card is the reusable workhorse, surviving handling and spilled drinks and resetting at zero cost. [corpus] Its tax is tactile coldness. A laminated card reads as game component, never as artefact from 1923, and for any format whose value is diegetic authenticity that coldness is an immersion break. The Mysterious Package Company designs against lamination for precisely this reason. Their props reward close physical inspection, and a laminated surface will not hold a tea stain. [researched] The choice is production context, not quality, and it is the same diegetic-versus-decorative judgement that runs through [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd); the ageing that earns the tea stain is [Artefact Design & Document Production](artefact-design-and-document-production.qmd).
+
+### The unsealing beat
+
+The numbered card deck deserves its own note because it is the format the modern tabletop escape genre is built on, and the three commercial models split cleanly along the consumable axis. Exit: The Game uses three named decks. A riddle deck carries the puzzles. An answer deck is checked against a decoder wheel. Players escalate their own hints through a third deck. All of it is consumed because the game is built for a single play. [researched] Unlock! uses one numbered deck whose cards combine by number to draw further cards under a companion app's adjudication. The deck survives intact because nothing on it is ever marked. [researched] Deckscape is the purest version. A single deck of roughly sixty oversized cards is the whole game. Each card is answered and then flipped to check. A reset means only sorting the deck back into order. [researched] What the deck format buys across all three is flow control. Drawing a card is a discrete action. A rhythm of small reveals is easier to pace than a tabletop of everything-at-once. The legacy and envelope formats add a heavier register on top of this, sealed boxes opened in campaign sequence that gate content permanently. [researched]
+
+If the deck industrialises the reveal, letterlocking purifies it. A letterlocked clue is a flat sheet folded to become its own envelope, the seal structural rather than added, so any attempt to open it leaves visible traces in the folds. [researched] For a historical-setting clue this is the most diegetically pure tamper evidence available, because the tamper evidence is the object. The unsealing moment is the beat these formats are really selling. Four of them produce four different versions of it. The wax seal gives an audible irreversible crack. The perforated strip-tear borrows the procedural grammar of pharmaceutical and evidence packaging. The numbered security seal lets a host verify the clue set against a manifest. The letterlocked fold builds its breakage into the paper itself. [corpus] All are single-use in their primary form, and the reset question above decides whether a production pays for fresh seals each group or migrates to an approximation. Where the seal hides not just information but a physical mechanism, the construction craft is [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd).
+
+::: {.callout-note}
+### The Specimen
+The print-only tradition shows the same taxonomy with no live host at all. *Cain's Jawbone*, Edward Powys Mathers's 1934 murder puzzle, was reissued by Unbound in 2019 as a boxed set of 100 unbound page-cards in scrambled order, with the solve being to reconstruct the single correct sequence: the loose page-card format is the puzzle, because a bound book could not be reordered. [researched] *Journal 29* takes the opposite pole of the same axis, a consumable puzzle book the solver writes in directly, each answer checked against a companion website, so the marked-up pages are spent the way an Exit booklet is. [researched] Between them they map the consumable-versus-preservable choice onto pure paper: one survives because it is never marked and can be reshuffled, the other is consumed because solving means writing on it. [synthesis]
+:::
+
+### When the wrapper outweighs the puzzle
+
+Two formats sit at the edges of the taxonomy and behave differently from the rest. The loose handout is the most operationally flexible. Unbound sheets spread across a table and sort into working piles. That makes them the backbone of the murder mystery dinner, where evidence has to reach every player at once. [corpus] Their strength is simultaneous access, which favours deduction over progressive unlock. The matching weakness comes from the same property. A loose sheet is easy to lose, awkward to secure before play, and impossible to gate behind a sequential reveal. Where everything-at-once is the design goal they are correct; where the design wants gating, an envelope or a deck is the better tool. [corpus]
+
+At the far end sits the tactile artefact. A Hunt A Killer evidence key or a Mysterious Package Company carved token or a Society of Curiosities gold coin barely carries a puzzle in any conventional sense. [corpus] What an object like this does is testify that the fiction exists. It is the production-investment tier with the highest remembered value and the worst operational durability. [corpus] Almost always it is unique or limited-run, expensive to replicate and fragile under repetition, so it lands as the emotional core of a subscription box and the brittle, loss-prone tier to use sparingly in a room running forty groups a week. The deeper this end of the table goes, the more the question stops being about the clue and starts being about the world the clue belongs to, which is where this article hands off to the rest of its family.
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is to fall in love with the consumable beat and forget who pays to reset it. A wax seal cracked open is a real threshold, and it is genuinely irreplaceable for a one-off gift. Specify it across an operational escape room and you have signed up for re-sealing forty envelopes a week, every week, by hand, or for the slow degradation of an experience as a tired staffer reaches for a sticker that says less each time. The tell is a format chosen for how it feels in a single demo run, with the per-group reset cost never costed out. Decide where on the consumable axis the production actually lives before you choose the seal, not after the first group has destroyed the only copy. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Physical clue formats are the packaging layer of this family, the decision that comes before fabrication and before ageing because it sets what those later choices are serving. The format signs a contract with the player (threshold, game-piece, or simultaneous access) and commits the production to a reset cost, and almost everything else in the material craft is built on top of that commitment. It depends on the theme above it, which decides whether a laminated card is acceptable or an immersion break, and it constrains the durability work below it, which has to make the chosen format survive however many groups the business model demands. Get the format wrong and a beautifully aged document is sealed in a wrapper nobody can afford to reset, or a one-off threshold beat is wasted on a card that should have wiped clean.
+
+**Next steps.** Once the format is chosen, the concrete production work begins with the object inside it: the provenance and ageing of the document is [Artefact Design & Document Production](artefact-design-and-document-production.qmd), and the formats that hide a mechanism rather than just information are [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd). Whether a given clue is better as a physical object at all, or belongs on a screen, is [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd). The reset cost every consumable format incurs is tracked across repeated play in [Materials, Durability & Reset](materials-durability-and-reset.qmd), and the diegetic test that decides between a wax seal and a laminate sits in [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd). What the clue inside has to promise the solver, whatever it is wrapped in, remains [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+## Sources
+
+- Brand, Inka and Markus. *Exit: The Game*. Kosmos, 2016. Designer interview, Mojo Nation; review, Meeple Mountain.
+- "Exit vs Unlock!" comparison. *Shut Up & Sit Down*, 2017. <https://www.shutupandsitdown.com/>
+- Demaegd, Cyril. *Unlock!*. Space Cowboys (Asmodee), 2017.
+- Chiacchiera, Martino and Silvano Sorrentino. *Deckscape: Test Time*. dV Giochi, 2017.
+- "Exit, Unlock, and Deckscape compared." Don't Eat the Meeples. <https://www.donteatthemeeples.com/exit-unlock-deckscape-escape-room-board-games/>
+- Mysterious Package Company (Colin Bolton, Misha Schneider, Tim Sullivan, 2013). Dave Starr interview, Escape Puzzler (artefact density, opposition to lamination). <https://www.mysteriouspackage.com/>
+- Hunt A Killer (Ryan Hogan and Derrick Smith, 2016). <https://www.huntakiller.com/>
+- Mathers, Edward Powys ("Torquemada"). *Cain's Jawbone*. Victor Gollancz, 1934; Unbound, 2019 (boxed set of 100 unbound page-cards). "Cain's Jawbone." Wikipedia. <https://en.wikipedia.org/wiki/Cain%27s_Jawbone>
+- Chassapakis, Dimitris. *Journal 29*. Rain Projects, 2017 (consumable puzzle book with per-puzzle online answer-check). <https://www.journal29.com/>
+- Dambrogio, Jana and Daniel Starza Smith. *Letterlocking: The Hidden History of the Letter*. MIT Press, 2025. "Letterlocking: A new look at a centuries-old practice." MIT News, 4 March 2025. <https://news.mit.edu/2025/new-look-centuries-old-practice-letterlocking-0304>
+- Society of Curiosities, *Madok's Lost Treasure*. Reviewed at Room Escape Artist, 2020. <https://roomescapeartist.com/>
+- "A Guide to Tabletop Escape Rooms." Islay the Dragon. <https://islaythedragon.com/>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
@@ -20,3 +100,5 @@ provenance: ""
 - [Treasure & Scavenger Hunts](../puzzles-clues-information/treasure-and-scavenger-hunts.qmd)
 
 <!-- BACKLINKS:END -->
+</content>
+</invoke>

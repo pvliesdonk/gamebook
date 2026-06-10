@@ -1,17 +1,130 @@
 ---
 title: "Theme, Immersion & Sensory Environment"
-aliases: []
+aliases: ["Theme", "Atmosphere", "Sensory Design", "Immersion"]
 family: "Space, Props & Materiality"
-media: []
+media: [live-game, interactive-fiction, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [immersion, presence, belief, emotional-memory]
+  problems: [pasted-on-theme, immersion-break, sensory-overload, generic-space]
+  components: [set-dressing, lighting, soundscape, scent, costume, in-world-host]
+  genre: [horror, heist, mystery, fantasy, sci-fi]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #48. -->
+*Silhouette: The work of making a built space feel like a real world the player has stepped inside, and keeping them there.*
+
+Theme is more than the wallpaper. A strong theme decides what the puzzles can be, how a hint reaches a stuck player, what the room smells of, and whether the people inside it feel they are solving a sequence of challenges or living inside a story. A weak theme is decoration painted around a generic frame, and players feel the difference even when they cannot name it. They walk out saying the room was "a bunch of puzzles" rather than "the night we cracked the captain's safe."
+
+Immersion is the state this article is trying to produce and protect: the sense that the fiction is real enough to act inside without self-consciousness. It is fragile. A fluorescent fixture overhead will do it. So will a phone buzzing against what looks like marble and turns out to be foam. The brain reads the mismatch as proof the world is fake. So the craft has two halves. One is positive: building a world dense and coherent enough to pull belief. The other is defensive: hunting down the single notes that break it.
+
+This article is about that built sensory world and the discipline of keeping it whole. It lives most fully in live play, where the player's whole body is inside the set, but the same problem turns up wherever a designer asks an audience to believe in a place. It is the atmosphere of a text room. It is the load-bearing theme of a board game, and the fictional frame an alternate reality game has to hold across the real world.
+
+## The Mechanism (How it works)
+
+### Diegetic, mimetic, on-theme, immersive
+
+The first distinction the craft needs is whether a thing belongs to the world the characters inhabit. A diegetic element exists organically inside the fiction: the pirate is unsurprised to find a coded message in the captain's log, and the medieval scholar expects a star chart in the astronomer's tower. A non-diegetic element is visibly a game part. A modern combination padlock on a medieval chest, a QR code in a Roman temple, a tablet computer in a Victorian seance room: each announces that you are playing a game, not living in one. [researched]
+
+A second cut runs underneath that one. A puzzle is diegetic if it fits the theme; it is mimetic if its existence and its solution reflect how the real world actually works. A maze-shaped lock on a captain's chest is diegetic (locks belong on chests) but not mimetic (no real captain would secure anything with a maze-lock). The usable position for most designers is to aim for diegetic, apply mimetic logic where it sharpens a scene, and accept that fun beats realism when the two pull apart. [researched]
+
+The distinction that matters most in practice is between a space that is merely on-theme and one that is immersive. An on-theme room looks like a Victorian study; its puzzles are standard escape-room fare dressed in Victorian costume. An immersive room is a Victorian study whose puzzles are activities a Victorian inhabitant of that study might actually have done. The test Strange Bird Immersive applies before any puzzle goes in is plain: is that a thing a human would do? [researched] On-theme is cheaper and produces serviceable rooms. Immersive is harder to design and more expensive to build, because the set has to support world logic rather than aesthetic alone. The choice is not automatic. A puzzle-focused room with strong on-theme dressing can serve its audience better than a theatrical room with weaker puzzles, since the two segments want different things.
+
+| Concept | What it means |
+|---|---|
+| Diegetic | Fits the world the characters inhabit |
+| Non-diegetic | Visibly a game mechanic |
+| Mimetic | Solution reflects real-world logic |
+| On-theme | Aesthetic match; puzzles dressed up |
+| Immersive | World-logic match; puzzles motivated by the world |
+
+This whole vocabulary is the live-game articulation of a problem that also belongs to writing and to systems design. The text-game version of the diegetic question, where the interface itself is either part of the fiction or a layer on top of it, is [Diegetic Design](../story-character-voice/diegetic-design.qmd). The board-game version, where the question becomes whether the theme is load-bearing or pasted on, is [Theme-Mechanism Integration](../systems-mechanics/theme-mechanism-integration.qmd).
+
+### Theme constrains the puzzle, the hint, and the lock
+
+Once a theme is chosen it stops being neutral background and starts ruling out options. A Caesar cipher belongs in a Roman setting (Caesar is associated with the cipher, and decoding a senator's letter is a believable scene). Pigpen symbols read as an old code and suit a pirate or Masonic room. A QR code suits neither, by centuries. The principle Palace Games states directly: every lock and every code needs a reason to be there that fits the story's logic, with the fiction suggesting who hid the key and why. [researched]
+
+The hint channel inherits the same constraint, and breaks the same way. A computer monitor used to deliver hints in a Victorian room is worse than a padlock there, because the screen draws the eye: displays are often wildly out of place in the set. [researched] The fix is to make the channel diegetic too, a magic mirror or a developing photograph or an in-character handler's voice, or to accept the cost and hide the screen behind a thematic frame. Which puzzle types a given theme can carry, and which it cannot, is the cross-cutting concern that ties this article to the rest of its family; the choice of lock has its own craft in [Lock Taxonomy](lock-taxonomy.qmd).
+
+Some themes are simply friendlier to mechanism than others. Modern settings make non-diegetic technology cheap and acceptable, since combination locks and screens and radios all fit. Pre-modern settings demand either committed substitution of every modern element or honest acceptance of the breakage, and half-measures read worst of all. A Victorian study with a bare modern padlock is more jarring than full substitution would be, and more jarring than full acceptance. Science fiction is the most forgiving theme, because "future technology" justifies almost any mechanic. Horror is the hardest, because the tension it depends on fights the calm that puzzle-solving needs. A frightened player cannot think well, while a thinking player is not frightened. Most horror rooms turn out to be atmospheric horror laid over non-horror puzzling. Heist themes are unusually puzzle-friendly, because a heist structurally is puzzle-solving (crack the safe, evade detection, beat the alarm clock). [researched]
+
+### The set as the cluing layer
+
+A strong theme does more than justify the puzzles; it carries information through the objects the world already wants to contain. This is signposting made diegetic. Rather than a flashing arrow, the cue is built into the scene. An owl figurine on a shelf otherwise dressed with owls. A red-spined book in a row of brown ones. A single open drawer where the rest are closed, a lit lamp among dark ones, footprints leading toward a hidden panel. [researched] What separates this from an accidental red herring is intent and rehearsal. The designer means for players to notice; the noticing fits the world; and a playtest confirms that players do in fact notice without being told to.
+
+A heuristic keeps this honest. Every prop has an author inside the world: some character placed it or hid it or wrote it. Asking who that character is and why they did it produces objects that fit. [researched] In Strange Bird's *The Man From Beyond*, props come from five distinct in-world sources (items belonging to the character Madame Daphne, things she stole, historical objects she knew of, undiscovered artefacts, and supernatural manifestations), which gives players layers to discover because each object has a believable provenance. [researched] Rooms that violate the principle, where one character supposedly built the space but the puzzles use mechanics that character would never touch, read as games-with-theme rather than theme-with-puzzles. The provenance reasoning behind individual objects is the craft of [Artefact Design & Document Production](artefact-design-and-document-production.qmd); placing the cue diegetically rather than as a label is the perceptual side of [Search, Observation & Lateral Thinking](../puzzles-clues-information/search-observation-and-lateral-thinking.qmd).
+
+### Sensory layering, and the cost of each channel
+
+Theme is not only what the eye sees. The dense theatrical rooms layer several channels at once, and each carries a different cost and a different payoff.
+
+| Channel | Cost | Memorability |
+|---|---|---|
+| Lighting | High (fixtures, control desk) | Very high; sets the tone |
+| Sound | Medium (speakers, score) | High |
+| Scent | Low (programmable diffusers) | Disproportionately high |
+| Tactile | Variable | High when novel |
+| Kinaesthetic | Set-dependent | High; embodied memory |
+
+Scent is the quiet outlier. It costs less than scenic carpentry yet lands hard, because smell connects directly to the limbic system that handles memory and emotion, so a themed scent leaves a stronger trace than a visual alone. Vendors such as Olorama and AromaPrime sell scent systems into the escape-room trade for exactly this reason. [researched] Kinaesthetic design (crouching through a tunnel, kneeling at an altar) writes the room into the body the same way.
+
+The discipline here is restraint, not maximisation. Pushing every channel to full intensity at once produces fatigue rather than immersion. The working rule is purposeful layering. Commit fully to two or three channels and hold the rest at a baseline that does not contradict them. [researched] Whatever you do commit to has to keep its promise across senses. Sherlocked's touch-real principle states it plainly. If a fireplace looks like marble, it has to feel like marble, cold to the hand. [researched] A surface that promises stone by sight but gives foam to the fingers creates a small jolt of disbelief. The brain reads that cross-modal conflict as proof the world is staged. Where the budget cannot deliver marble, the move is to choose a material whose feel matches what its look promises rather than to fake the expensive one badly.
+
+::: {.callout-note}
+### The Specimen
+Punchdrunk's *Sleep No More* ran at the McKittrick Hotel in New York from 2011 to 2025, staging an almost wordless *Macbeth* across roughly 9,300 square metres of converted warehouse, with audiences masked and free to roam around 100 rooms. Felix Barrett's rule was that every surface a visitor can touch must be real. Real dust settles on real shelves. Real paper fills filing cabinets that genuinely open. A fake wall or a prop drawer would be felt at once. The dream would break. The rooms are built to activate several senses together. Sound bleeds between spaces and scent arrives at chosen moments, so the world reads as "so thick" that nothing pulls a visitor back to ordinary consciousness. The detail does narrative work too. A single room can carry period, character, what happened there, and what its occupant wanted hidden. Each level needs different evidence, the last carried by things locked away or conspicuously absent. [researched]
+:::
+
+### The threshold and the wrapper
+
+A room cannot do this work alone, because immersion does not begin at the puzzle. It begins, or fails to begin, at the point where the player crosses from the ordinary world into the fiction. Everything around the puzzle core is the theatrical wrapper. It runs from the booking email through the lobby and its costumed greeter, the in-character briefing, the reveal, and the exit. If the wrapper is generic, fluorescent and commercial and staffed by a branded polo shirt, the puzzle content never fully recovers, because the player never crossed over in the first place. If the wrapper is strong, players forgive mediocre puzzles. [researched]
+
+The largest single decision is where to set that threshold, the point where the ordinary world ends and the game world begins. Set it at the game-room door and the lobby stays cheap but is wasted as fiction. Set it at the venue's front door and immersion runs highest. The cost is that every staff member everywhere has to stay in character from then on. That commitment is both expensive and fragile. Set it earlier still and an in-character confirmation email after booking puts the player partly in role before they leave home. [researched] Pushing the threshold earlier does work that no on-the-day staffer can. By the time players reach the venue they have already accepted the fiction exists, so the lobby's job becomes confirmation rather than persuasion. The Mysterious Package Company splits the wrapper across two mailings weeks apart, an atmosphere-only invitation first and the puzzle-dense main experience later, using the gap itself as designed anticipation. [researched]
+
+The defensive half of wrapper craft is anticipating the breaks. The most-cited one is the out-of-character host. Picture a game master in a logo T-shirt explaining rules inside a Mayan temple, or the same host stepping in mid-game to reset a puzzle. The fix is to design in-world roles for failure before it happens, so the intervention stays inside the fiction. When a technical fault forced a game master into the room at Bewilder Box, they entered in character as a maintenance worker, turning the break into an extra encounter. [researched] The non-diegetic timer is the other classic. A digital display visible in the set pulls attention out at every glance. The remedies are a period-appropriate clock, a fictional in-world deadline ("the ritual completes in"), or no visible timer at all with the host delivering time warnings by voice. [researched] This control function, the host watching state and choosing when and how to intervene without breaking the frame, is its own discipline: [Cue Management & GM Station](cue-management-and-gm-station.qmd). The waivers and safety briefings the law requires can themselves be folded into the fiction rather than read out under fluorescent light; at *The Man From Beyond*, guests crumple the waiver and toss it into a birdcage as an in-character act. [researched]
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is to over-invest in atmosphere and forget it has to wrap something. Secret Cinema's Bridgerton edition drew criticism for exactly this. It had elaborate set and costume with no overarching story underneath, which produced a string of beautiful but unconnected scenes. [researched] The wrapper cannot substitute for an absent core. The matching trap on the sensory side is to read "immersive" as "more", pushing scent and sound and light all to full at once, until the player is fatigued rather than transported. Both failures share a root, which is treating immersion as a quantity of stimulus rather than a coherence of one. The question is never how much you have layered on, but whether every channel is voting for the same world. [synthesis]
+:::
+
+### The same problem in text, on the table, and across the real world
+
+Strip away the physical set and the problem survives in thinner media, which is the surest sign it is about belief rather than carpentry.
+
+In interactive fiction the built space is made of words, and the same economy applies in reverse. Each word carries more weight under the attention a reader gives a parser, so mood is best built from a few very particular details rather than a catalogue of generic ones. The richest immersion comes when the player discovers the room by examining and touching it rather than being handed it in a wall of opening text. [researched] Setting there is not backdrop but an active force. A claustrophobic submarine generates a different story than an open desert, the environment exerting pressure that shapes what the characters can do. [corpus] That craft of place-as-active-participant is its own article in the writing family, [Environmental Storytelling & Setting as Character](../story-character-voice/environmental-storytelling-and-setting-as-character.qmd).
+
+On the tabletop the question sharpens into whether the theme is load-bearing or pasted on. The reskin test asks whether a skilled designer could swap the setting without rewriting the rules. A yes means the theme is doing no mechanical work. [researched] Settlers of Catan reskinned as Star Trek Catan with identical mechanics shows an engine indifferent to its fiction. Spirit Island sits at the other pole. Its Blight cascade enacts colonial contamination as a mechanical process. Each poisoned territory poisons its neighbours, so the theme cannot be separated from the system. [researched] That is the same diegetic-versus-decorative axis the escape-room vocabulary names, met from the mechanics side.
+
+In a puzzle hunt or an alternate reality game the set is the real world itself, and immersion becomes the discipline of holding a fictional frame across genuine artefacts and websites and locations. The governing principle, "this is not a game" (TINAG), was laid out by Elan Lee, lead developer of *The Beast* and *I Love Bees*, at the 2002 Game Developers Conference: don't tell anyone it is a game, don't define the game space, and above all don't build something that admits it is a game. [researched] A rabbit-hole website is dressed so its fictional content reads as real. That is the same belief-or-it-breaks contract the escape room defends with set dressing, now stretched across the open world; its history and lineage are [The Puzzle Hunt & ARG Tradition](../puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd).
+
+## Where this fits
+
+**The bigger picture.** Theme and immersion are the layer that decides whether the physical and material craft of this family adds up to a world or just a kit of parts. A prop, a lock, a document, a spatial layout. Any of these is built well or badly on its own terms. The theme is then what tells them what to be, and the sensory environment is what binds them into one felt place. This is the integrative concern of the family, the question every other article in it eventually answers to. It also reaches sideways. The diegetic question is shared with the writing family's voice and interface craft, and the load-bearing-theme question is shared with the systems family's view of mechanics as argument. Get the theme right and a mediocre puzzle still lands inside a believed world; get it wrong and the finest puzzle is just a puzzle.
+
+**Next steps.** Once the theme is set, the concrete work begins with the objects that carry it. The provenance and production of those objects is [Artefact Design & Document Production](artefact-design-and-document-production.qmd), and the locks and reveals the fiction has to justify are [Lock Taxonomy](lock-taxonomy.qmd) and [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd). Whether a given prop is better physical or on a screen, and what each choice costs in immersion, is [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd) and [Digital Props](digital-props.qmd). The shape of the space the player moves through is [Dungeon & Spatial Topology](dungeon-and-spatial-topology.qmd). The practical question of how a themed environment survives repeated play, and how it resets between groups without losing its dressing, is [Materials, Durability & Reset](materials-durability-and-reset.qmd). And the control booth that holds the wrapper together in live play, watching state and intervening in character, is [Cue Management & GM Station](cue-management-and-gm-station.qmd).
+
+## Sources
+
+- The Codex. "Mimesis vs Diegesis in Escape Rooms." <https://thecodex.ca/mimesis-vs-diegesis-in-escape-rooms/>
+- Strange Bird Immersive. "On-theme vs. Immersive Design." <https://strangebirdimmersive.com/immersology/on-theme-vs-immersive/>
+- Strange Bird Immersive. "Hard Mode: Making an Immersive Theatre Escape Room." <https://strangebirdimmersive.com/immersology/immersive-theatre-escape-room/>
+- Strange Bird Immersive. "The Magic Circle." <https://strangebirdimmersive.com/immersology/magic-circle/>
+- Palace Games. "The Art of Narrative Puzzle Design." 2025. <https://palace-games.com/2025/11/art-of-narrative-puzzle-design/>
+- Spira, David. "An Exploration of Escape Room Hint Systems." Room Escape Artist, 2019. <https://roomescapeartist.com/2019/10/24/escape-room-hint-systems/>
+- Mystery Soup Games. "The Essential Role of Signposting in Escape Room Design." <https://mysterysoupgames.com/the-essential-role-of-signposting-in-escape-room-design/>
+- Olorama. "Sense Scape Room: Allowing immersion with all five senses." <https://olorama.com/scented-escape-rooms-immersion-with-all-five-senses/>
+- AromaPrime. "The Best Escape Rooms are Using Themed Scents!" <https://aromaprime.com/blog/the-best-escape-rooms-are-using-themed-scents/>
+- Sherlocked. "Designing Escape Rooms for Emotion" (Francine Boon; touch-real principle). <https://www.sherlocked.nl/blog/designing-escape-rooms-for-emotion>
+- Punchdrunk handbook (via WXO). "Immersive pioneers share 20 years of learnings." <https://worldxo.org/punchdrunk-handbook-immersive-pioneers-share-20-years-of-learnings/>
+- Future of Storytelling. "Behind the Mask with Punchdrunk" (Felix Barrett on tactile authenticity). <https://futureofstorytelling.org/video/felix-barrett-behind-the-mask>
+- "Sleep No More (2011 play)." Wikipedia. <https://en.wikipedia.org/wiki/Sleep_No_More_(2011_play)>
+- Escape the Roomers. "The Mysterious Package Company: HASTUR" (two-mailing wrapper). <https://www.escapetheroomers.com/post/the-mysterious-package-company-hastur>
+- The Logic Escapes Me. "When Escape Rooms Go Wrong" (Bewilder Box in-character recovery). <https://thelogicescapesme.com/opinion/when-escape-rooms-go-wrong-handling-breakages-and-mis-sets/>
+- Wave to Mummy. "Secret Cinema Bridgerton review." 2022. <https://www.wavetomummy.com/2022/04/secret-cinema-bridgerton-review-tips-ideas.html>
+- Short, Emily. "The Prose Medium and IF" (detail economy; discovery over front-loaded description). <https://emshort.blog/how-to-play/writing-if/my-articles/the-prose-medium-and-if/>
+- "Root (board game)" and reskin/theme-mechanism context. Wikipedia. <https://en.wikipedia.org/wiki/Root_(board_game)>
+- "Spirit Island: Considering the theme." Played by the Past. <https://historyprofnichols.wordpress.com/2021/04/07/spirit-island-the-board-game-considering-the-theme/>
+- Szulborski, Dave. *This Is Not A Game: A Guide to Alternate Reality Gaming* (TINAG; Elan Lee's rules). <https://archive.org/details/TINAG>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
