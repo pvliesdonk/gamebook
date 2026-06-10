@@ -19,6 +19,8 @@ provenance: ""
 
 - [Clue Sequencing & Chains](../puzzles-clues-information/clue-sequencing-and-chains.qmd)
 - [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd)
+- [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)
+- [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
 - [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd)
 
 <!-- BACKLINKS:END -->

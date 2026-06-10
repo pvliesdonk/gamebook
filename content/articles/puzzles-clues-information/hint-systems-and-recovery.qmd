@@ -124,6 +124,8 @@ The hint that solves the puzzle *for* the solver kills the aha it was meant to r
 - [Ciphers & Codes](ciphers-and-codes.qmd)
 - [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
 - [Cluing & Fairness](cluing-and-fairness.qmd)
+- [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)
+- [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
 - [Information Architecture](information-architecture.qmd)
 - [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
 - [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd)

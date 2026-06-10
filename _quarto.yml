@@ -28,6 +28,18 @@ book:
         - content/articles/puzzles-clues-information/puzzle-hunt-craft.qmd
         - content/articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd
         - content/articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd
+        - content/articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
+        - content/articles/space-props-materiality/artefact-design-and-document-production.qmd
+        - content/articles/space-props-materiality/fabrication-and-sourcing.qmd
+        - content/articles/space-props-materiality/physical-clue-formats.qmd
+        - content/articles/space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd
+        - content/articles/space-props-materiality/lock-taxonomy.qmd
+        - content/articles/space-props-materiality/digital-props.qmd
+        - content/articles/space-props-materiality/qr-and-nfc-patterns.qmd
+        - content/articles/space-props-materiality/cue-management-and-gm-station.qmd
+        - content/articles/space-props-materiality/materials-durability-and-reset.qmd
+        - content/articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd
+        - content/articles/space-props-materiality/dungeon-and-spatial-topology.qmd
     - part: "Keys"
       chapters:
         - content/keys/index.qmd

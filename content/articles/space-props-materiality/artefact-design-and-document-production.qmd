@@ -127,5 +127,14 @@ The decorative object that looks like a clue is the quiet killer of an evidence 
 ## Referenced by
 
 - [Ciphers & Codes](../puzzles-clues-information/ciphers-and-codes.qmd)
+- [Cue Management & GM Station](cue-management-and-gm-station.qmd)
+- [Digital Props](digital-props.qmd)
+- [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
+- [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd)
+- [Materials, Durability & Reset](materials-durability-and-reset.qmd)
+- [Physical Clue Formats](physical-clue-formats.qmd)
+- [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd)
+- [QR & NFC Patterns](qr-and-nfc-patterns.qmd)
+- [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd)
 
 <!-- BACKLINKS:END -->

@@ -130,6 +130,17 @@ In a puzzle hunt or an alternate reality game the set is the real world itself, 
 
 ## Referenced by
 
+- [Artefact Design & Document Production](artefact-design-and-document-production.qmd)
+- [Cue Management & GM Station](cue-management-and-gm-station.qmd)
+- [Digital Props](digital-props.qmd)
+- [Dungeon & Spatial Topology](dungeon-and-spatial-topology.qmd)
+- [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
+- [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd)
+- [Lock Taxonomy](lock-taxonomy.qmd)
+- [Materials, Durability & Reset](materials-durability-and-reset.qmd)
+- [Physical Clue Formats](physical-clue-formats.qmd)
+- [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd)
+- [QR & NFC Patterns](qr-and-nfc-patterns.qmd)
 - [Search, Observation & Lateral Thinking](../puzzles-clues-information/search-observation-and-lateral-thinking.qmd)
 
 <!-- BACKLINKS:END -->
