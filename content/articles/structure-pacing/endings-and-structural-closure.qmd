@@ -1,14 +1,119 @@
 ---
 title: "Endings & Structural Closure"
-aliases: []
+aliases: ["Endings", "Closure", "Multiple Endings", "Finale Design"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [earned-closure, emotional-payoff, felt-consequence]
+  problems: [anticlimax, pointless-convergence, unearned-ending]
+  components: [ending-state, denouement, verification, finale-beat]
+  genre: [mystery, adventure, horror]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The last beat, where the story stops being a path and becomes a thing the player will retell.*
+
+An ending is the only part of a story everyone reaches, even the readers who reach a different one. It is where the promise made at the opening either pays out or quietly defaults. A good ending feels surprising in the moment and inevitable on reflection. It is unforeseen as it lands, yet obviously the only place the story could have gone once you look back. [researched] A bad one feels like the writer got bored, or like a door slammed shut on a room still half-furnished.
+
+The difficulty in an interactive medium is that there is rarely one ending. There are several, and each must feel earned by the path that reached it. That doubles the craft. The closure has to land, and it has to land *differently* depending on what the player did, without the designer writing a wholly separate story for every combination of choices. And in a live game the ending is not even a piece of text. It is an event in a room, with props and a host and a moment where the group realises they have won.
+
+This article is about that last beat across the media. It covers what makes closure feel earned, how multiple endings stay distinct without multiplying past what a project can pay for, and why solving the final puzzle and *feeling* like you finished are two separate design problems.
+
+## The Mechanism (How it works)
+
+### What makes closure feel earned
+
+The deepest failure an ending can commit is to arrive from nowhere. The classic name for it is the deus-ex-machina ending. A solution drops in that the story never set up. The payoff is then unearned because nothing in the plot caused it. [researched] A story that has asked the reader to invest in a complex conflict cannot resolve it from outside that conflict without reading as a cheat, however neatly it ties things off. [corpus]
+
+The standard defence is the principle Chekhov framed for the stage. A rifle on the wall in act one must fire by act three. A rifle that fires in act three must have hung on the wall in act one. [researched] The element that resolves the ending has to have been visible earlier. The reader recognises it when it pays off instead of meeting it cold. [corpus] An ending can be earned through several kinds of seed, and the strongest endings plant more than one kind. There is the physical piece set in play early (perhaps a tool or a key the character was shown to have). There is the moral choice whose consequence the ending simply collects. And there is the thematic motif the resolution resonates with. [corpus] The common thread is that the designer builds backwards from the ending so the seeds can be planted on the way in. You cannot foreshadow a destination you have not yet chosen. [corpus]
+
+Closure itself is not one thing. It comes in three layers that can be satisfied separately, so an ending can feel complete on one axis and hollow on another. [corpus]
+
+| Layer | What it resolves | What it feels like when missing |
+|---|---|---|
+| Narrative closure | The plot: the central conflict, the major loose threads | A thread teased for the whole story drifts off unanswered [corpus] |
+| Emotional closure | The feeling: where the characters and the reader land | A lively story ends flat, as if the writer lost interest [corpus] |
+| Thematic closure | The meaning: the question the story was really asking | The events conclude but the point of them never resolves [corpus] |
+
+A tragic ending can satisfy deeply if its emotional and thematic layers close cleanly, even when its narrative layer ends in defeat. The layers are independent. Naming which one a draft ending is missing is usually faster than rewriting the whole beat.
+
+The other half of earning an ending is restraint after the climax. The denouement needs breathing room. Racing to the finish the moment the conflict resolves dilutes the payoff the climax just bought. [corpus] But lingering past the point where the last note is still ringing does the opposite damage. The craft is to give a glimpse of the new normal and then leave. This is a pacing problem as much as a structural one, and it is the tail end of [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd): the energy curve has to come down on purpose, not just stop.
+
+### Resolution against ambiguity
+
+Not every thread should be tied off. A story that resolves everything feels pat, and readers tend to like just enough left open that the world seems to continue past the final page. [corpus] The opposite error is worse: a major conflict left genuinely unanswered reads as the writer dodging the hard part rather than trusting the reader.
+
+The line between good and bad ambiguity is whether the ambiguity is doing work. *Inception* ends on a spinning top that may or may not fall. Both readings resolve the protagonist's real conflict. That conflict was never about the top. [researched] The ambiguity enriches the theme instead of standing in for an answer. Bad ambiguity leaves the central question of the plot unresolved and calls it depth. The test is simple to state and uncomfortable to apply. Does the open ending finish the story? Or does it merely stop? [corpus] If the reader needs an author's note afterwards to explain what happened, the ending stopped.
+
+### Multiple endings without multiplying the work
+
+An interactive story usually has several endings, and the first discipline is to know them before plotting the paths that reach them. [corpus] You cannot lay track toward a destination you have not chosen, and the foreshadowing each ending needs has to be planted along the specific path that arrives there. Every ending is its own promise with its own setup. [corpus]
+
+The structural problem is that distinct endings pull against affordable content. The shapes that manage this are the same ones that manage branching generally, applied to the final beat. The dominant answer is branch and bottleneck. Paths fan out and then rejoin at events every version passes through. Divergence stays bounded. The endings differ at the seams rather than all the way down. The technique of carving those shapes is [Branching Narrative Craft](branching-narrative-craft.qmd); how much divergence a given project can pay for is [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd). What the endings article adds on top is the recognition that the convergence near the close is the most dangerous convergence in the whole structure.
+
+Here is the trap. Suppose several paths merge into a single ending that handles every arrival the same way. The player who walked the hard road feels their choices evaporate at the exact moment those choices were supposed to matter most. [corpus] This is pointless convergence. It is most painful at the ending, because the ending is where the reader is judging whether their agency was ever real. The repair is the felt difference. The shared ending still names which path the reader walked and which ally lived through it. The state the player carries in colours the same final scene without the designer writing a separate scene. [corpus] State-tracking is what lets one ending wear many faces. It is the same machinery the rest of the story runs on, reaching its highest-stakes use here. Where divergent paths recombine and how to make the merge feel earned is [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd).
+
+Scale gives a rough budget for how many endings a project can carry. The numbers below come from interactive-fiction practice. Treat them as something to argue with rather than obey. They capture a real relationship. Ending count tracks total scope, and most of that content goes unseen. [corpus]
+
+| Scale | Play time | Endings | Note |
+|---|---|---|---|
+| Micro | 5 to 15 min | 2 to 4 | One central dilemma; endings are close variations [corpus] |
+| Short | 15 to 60 min | 3 to 8 | A complete arc fits; endings can genuinely differ [corpus] |
+| Medium | 1 to 3 hours | 5 to 15 | State-tracking starts to pay; a few major endings, many variations [corpus] |
+| Long | 3 to 8 hours | 8 to 25 | Distinct storylines; endings cluster into a handful of true outcomes [corpus] |
+| Epic | 8 to 20+ hours | 15 to 50+ | Series scope; most players see one path through [corpus] |
+
+The honest reading of the table is the 80/20 rule that sits under it. Roughly four readers in five will see one ending in five, so the polish belongs on the endings the likely paths actually reach. [corpus] An exquisitely written secret ending that almost nobody finds is a gift to completionists and a misallocation of the budget if the common ending is thin.
+
+A useful distinction inside the count separates the major ending from the variation. A major ending is a genuinely different outcome, of which most stories want only three to six. A variation is the same outcome wearing the details of how the player got there, of which there can be many for almost no extra structure. [corpus] Counting variations as endings inflates the marketing and deflates the experience, because the player who replays expecting a new outcome finds a reskin.
+
+### Failure and death endings
+
+The early ending is a special case worth its own handling. A death or failure state ends the story short of the main arc, and it carries two opposite risks. Used freely it becomes a save-scumming nuisance that trains the reader to distrust choices. Used well it makes the world feel like it has teeth. [corpus] The gauntlet structure leans hardest on this: a strong central thread whose side-branches mostly end in death or a quick rejoin. Horror and survival reach for it because the failure ending is the genre's main tool for making constraint felt. The structural reasoning behind the gauntlet is in [Branching Narrative Craft](branching-narrative-craft.qmd).
+
+A failure ending still has to be earned, by the same rule as any other. The most satisfying deaths are the ones the reader can trace back to a choice they made and own as theirs. The unsatisfying death is an arbitrary trap that punishes a guess the puzzle never let them make fairly. [synthesis] That is the same fairness contract the puzzle family lives by, now carried into the consequence of a choice. A failure the reader could not have avoided through attention is the structural cousin of an unfair clue, which is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+### The live finale: solving is not the same as finishing
+
+A live game makes the gap between resolution and closure physical. Solving the final puzzle and producing a satisfying payoff are two distinct design problems, and a designer who solves only the first ships a hunt whose climax is a flat "we worked it out" followed by an awkward handover. The space between "we know the answer" and "we feel like we won" has to be designed, not assumed. [corpus]
+
+The finale is its own beat with its own staging, props, verification, and host choreography. It is not the conclusion of the puzzle chain so much as the event that turns the chain into a memory. [corpus] The case literature of long-form treasure hunts converges on a small set of finale shapes. One is the single revealed location with a physical dig. Another is the single revealed text answer. A third reconvenes teams at a known time and place for a scoring ceremony, sometimes by way of an artefact-exchange or a digital verification layer. [corpus] What they share is that the ending is staged. Every team has a visible conclusion, so nobody is left wondering whether the game is over.
+
+That "have we finished?" problem is a real and documented failure mode. It is awkward when players do not realise they have reached the end and keep hunting for clues that are not there. The fix is a clear completion signal. A password handed to a named host works. So does a physical key that triggers an exchange. So do the plain words "this is the final clue" printed on the artefact. [corpus] Two more failure modes recur. Anticlimax, where the hardest puzzle is solved early and the last steps are trivial, which the escape-room field knows as the long tail after the climax. And the same-shape ending, where the final puzzle is indistinguishable from the puzzles before it, so players solve it and then wait for something more to happen. The fix for both is to make the final beat visibly different. A larger physical object does it, and so does a moment of group convergence in place of continued solving. Mathematical and logic puzzles make poor climaxes precisely because they produce no theatrical resolution. [corpus]
+
+::: {.callout-note}
+### The Specimen
+Verification is where the highest-stakes finales fail, and the canonical case is Kit Williams's *Masquerade* (1979), the picture-book treasure hunt that buried a golden hare in Ampthill Park. Williams had no verification protocol beyond personally reading claimants' letters. The hare was eventually claimed by "Ken Thomas," a pseudonym for Dugald Thompson, who had never solved the puzzle. His partner's connection to a former girlfriend of Williams gave him an approximate location, and a metal detector did the rest. Two physicists who had genuinely solved the whole puzzle had dug at the right spot six days earlier and missed the casket. Williams later acknowledged them as the true winners. The 1988 exposé drove him out of public artistic life for two decades. [corpus] The design lesson is blunt: the ability to dig is not evidence of having solved. A sound finale makes the claimant reproduce the full solution chain before any prize is released, the way *Cain's Jawbone* gives solvers percentage feedback that only a complete page order can drive to 100%. [corpus]
+:::
+
+### Endings the players wrote: designed against emergent
+
+The interactive ending raises a question the linear story never has to answer. Whose ending is it? A tabletop campaign offers two routes to it. The first is a designed closure. That is a planned finish with foreshadowing planted across an explicit arc. It is the novel-or-TV-season mould that the Dragonlance modules made a prestigious template. [corpus] Or the closure can be emergent. It is then the place the players' own choices happen to arrive at. The GM frames that arrival as an ending after the fact. Most campaigns that land well do both. The designer prepares what the antagonist wants and will do. The ending then forms out of the collision between that situation and the players' choices, rather than arriving as a scripted outcome the players merely walk toward. [corpus] An over-prepped ending is the campaign-scale version of pointless convergence. A finish fixed before the players chose makes their choices decoration. They will feel it the same way a reader feels a bottleneck that forgot their journey. The macro-scale version of this craft is [Campaign Arc Shapes](campaign-arc-shapes.qmd).
+
+The full-circle ending is one move that pays off especially well in any medium that tracks state. The close echoes the opening with new context. The character stands back at the same train station where they once dithered, resolute this time. [corpus] In an interactive story the echo can be conditional and reflect which version of the opening the player actually lived. That makes the callback feel like the story was paying attention the whole time. The long-fuse payoff (a thing planted early and collected late) is the same delayed-consequence technique branching stories run on, now turned to closing the loop. A related specialised case is the time-loop story. There the ending is an exit condition the player has to satisfy rather than a destination they reach, which is [Time Loop Patterns](time-loop-patterns.qmd).
+
+## Where this fits
+
+**The bigger picture.** Endings are where every other structural decision in this family comes due. Branching decides how many endings you can afford. Convergence decides whether they stay distinct or collapse into one. Pacing decides whether the last beat lands or fizzles, and state-tracking decides whether the ending remembers the path. An ending is not a separate problem from those. It is the bill for all of them, presented at the worst possible moment to discover you cannot pay it. The working rule that follows is to choose the ending first and lay the structure back from there. The ending is also the one beat with no recovery. A weak middle can be redeemed by a strong finish. A weak finish is the last thing the player carries out of the experience, and it recolours everything that came before.
+
+**Next steps.** Once the endings are chosen, the structure flows backward from them. The branch architecture that reaches them is [Branching Narrative Craft](branching-narrative-craft.qmd). The budget that bounds them is [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd), and the convergence craft that keeps them distinct is [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd). To make the final beat land rather than fizzle, the energy management of the denouement is [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd). And where the ending is the payoff of a puzzle rather than a plot, the moment of closure it delivers is the family-two cousin of [The Aha Moment](../puzzles-clues-information/the-aha-moment.qmd); in a built space, the sensory staging that makes a finale feel like an event is [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd).
+
+## Sources
+
+- Aristotle. *Poetics*, on the surprising-yet-inevitable plot (events that come by surprise yet follow as cause and effect). Discussed in "How to Write an Ending that is Surprising Yet Inevitable," Electric Literature. <https://electricliterature.com/surprising-yet-inevitable-ending-read-like-a-writer/>
+- "Better Endings: Surprising Yet Inevitable, and Astonishing." Writers.com. <https://writers.com/feature/better-endings-surprising-yet-inevitable-and-astonishing>
+- "Chekhov's Gun." Wikipedia (the rifle-on-the-wall principle and its origin). <https://en.wikipedia.org/wiki/Chekhov%27s_gun>
+- "Deus Ex Machina: What It Is and How to Avoid It." Chapter Blog. <https://blog.chapter.pub/deus-ex-machina/>
+- "Chekhov's Gun: Definition, Examples, and Tips." Scribophile. <https://www.scribophile.com/academy/what-is-chekhovs-gun>
+- Coyne, Shawn. *The Story Grid*. Black Irish Entertainment, 2015. (Building the ending backwards; the climax as the earned payoff of setup.)
+- "Inception" (the ambiguous spinning-top ending and its thematic reading). Wikipedia. <https://en.wikipedia.org/wiki/Inception>
+- Wikipedia. "Masquerade (book)." (Ampthill Park burial 1979, Thompson resolution 1982, 1988 Sunday Times exposé.) <https://en.wikipedia.org/wiki/Masquerade_(book)>
+- The Digital Antiquarian. "Kit Williams's Golden Hare, Parts 1 and 2" (2016). <https://www.filfre.net/2016/05/kit-williamss-golden-hare-part-1-the-contest/>
+- Wikipedia. "Cain's Jawbone." (Finnemore solve 2020, Laurence Sterne Trust verification, percentage feedback.) <https://en.wikipedia.org/wiki/Cain%27s_Jawbone>
+- EscapeRoomSupplier. "Anatomy of the Final Escape Room Puzzle" (final puzzle as thematically conclusive, non-administrative climax). <https://www.escaperoomsupplier.com/anatomy-of-the-final-escape-room-puzzle/>
+- Analog Game Studies. "Computing Models of Escape Rooms" (Scott Nicholson et al., December 2020). <https://analoggamestudies.org/2020/12/computing-models-of-escape-rooms/>
+- Room Escape Artist. "Picture-Perfect Escape Room Team Photos Guide" (June 2025). <https://roomescapeartist.com/2025/06/07/picture-perfect-escape-room-team-photos-guide/>
+- PlayTours. "From Clues to Prizes: Making Your Scavenger Hunt Rewarding" (clear completion signal; ceremony over prize value). <https://www.playtours.app/post/from-clues-to-prizes-making-your-scavenger-hunt-rewarding>
+- Wikipedia. "Dragonlance." (The DL module series as the first commercial pre-planned campaign arc.) <https://en.wikipedia.org/wiki/Dragonlance>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. (Prep situations, not scripted outcomes.) <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
+- Choice of Games. "Vignette Structure as a Means of Controlling Branching." 2010. (State-based variation under shared structure.) <https://www.choiceofgames.com/2010/01/vignette-structure-as-a-means-of-controlling-branching/>

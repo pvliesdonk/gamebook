@@ -1,14 +1,105 @@
 ---
 title: "Beat Taxonomies & Craft Models"
-aliases: []
+aliases: ["Beat Sheets", "Story Structure Frameworks", "Beat Functions"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [structural-clarity, emotional-arc, shared-vocabulary]
+  problems: [middle-sag, hollow-branch, structural-blindness]
+  components: [beat-function, beat-sheet, value-shift, branch-arc]
+  genre: [adventure, fantasy, mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The borrowed maps that tell you what a story moment is for, and why most of them assume a road the reader cannot leave.*
+
+A beat is a story moment with a job. Not a line of dialogue or a feeling, but a function. It is the thing that knocks the hero out of their old life. It is the moment the floor drops at the halfway mark. Screenwriters and novelists have spent a century naming these jobs and pinning them to positions on a page count. Save the Cat puts the inciting disruption at the tenth percentile and the low point at three-quarters. Freytag drew a pyramid. Campbell drew a circle. Each one is a map of the same territory, traced by someone who could assume every reader walked the road end to end.
+
+Interactive work breaks that assumption. When the reader chooses, the road forks, and a map drawn for one road has to be read differently. Some beats still have to happen on every path or the story falls apart. Others can differ from branch to branch, and that difference is often the whole point of letting the reader choose. The craft is knowing which is which.
+
+This article is about the borrowed maps and how to use them once the road stops being a line. It catalogues the major craft models and sorts what they agree on from what they fight about. Then it draws the one distinction the linear models never had to make: the line between a beat the structure requires everywhere and a beat the branch is free to vary. The shapes those branches take are the subject of [Branching Narrative Craft](branching-narrative-craft.qmd); this is the vocabulary for what has to be true inside each one.
+
+## The Mechanism (How it works)
+
+### Three things the word "beat" means
+
+The word "beat" names three different scales, and people argue past each other when they mix them. [corpus] At the smallest scale a beat is a unit of prose, a single action or a line of dialogue. At the middle scale it is a named story event with a dramatic job, the inciting disruption or the midpoint. At the largest it is an emotional target, a moment built to land a specific feeling. [corpus]
+
+A single moment is usually all three at once. A character opens a letter that says her father is alive. As prose that is an action followed by a reaction. As structure it is the inciting disruption, the event that makes the old life unsustainable. As emotion it is a shock meant to reframe everything she thought she knew. [corpus] None of these readings is wrong, and none replaces the others. This article works at the middle scale, the structural beat with a function. The prose-level rhythm of action and reaction is [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd); the feeling a beat is engineered to produce is [Emotional Beats & Investment](../story-character-voice/emotional-beats-and-investment.qmd).
+
+Holding the scale steady matters because the fix lives at the scale. Told that the middle of a story is boring, a writer has nowhere to start. Told that the midpoint lacks a stakes reversal, they know what to build. The function name carries the diagnosis, which is the whole reason to learn the vocabulary. [synthesis]
+
+### What the function name buys you
+
+There are two ways to describe a story moment. "The hero learns the village is threatened" is content. "Catalyst" is function. [corpus] Content tells you what happens on this occasion. Function tells you what the moment does for the story, and that holds steady whether the trigger is a threatened village, a letter, or a job in another city. The same structural slot wears a thousand different events.
+
+So the names are worth the trouble for two reasons. They diagnose, because a named gap is a fixable gap, and they let collaborators be precise. [corpus] "Move the Catalyst earlier" cannot be misread. "Make the opening more exciting" can be misread a dozen ways. A shared taxonomy is how a writing team stops wasting iterations on each other's vaguer instincts. [synthesis]
+
+### The models, and where they pull apart
+
+The craft literature offers several maps, and they are not rivals so much as lenses ground for different distances. The table sets them side by side at the structural positions every story has to pass through. The mappings are approximate by nature: Campbell's Ordeal is not exactly Snyder's Midpoint, but they occupy the same stretch of road and do related work. [corpus] (A comparison table is the right home for this, because the whole point is to read across models at a glance, which prose cannot do.)
+
+| Story position | Save the Cat (Snyder) | Story Grid (Coyne) | Hero's Journey (Campbell) | Three-act / Freytag |
+|---|---|---|---|---|
+| Opening state | Opening Image + Setup | Beginning Hook | Ordinary World | Act I opening / exposition |
+| Inciting event | Catalyst | Inciting Incident | Call to Adventure | Act I turning point |
+| Commitment | Break into Two | End of the Hook | Crossing the Threshold | Act II begins |
+| Midpoint shift | Midpoint | Middle Build turn | Ordeal / Innermost Cave | Act II midpoint / climax |
+| Low point | All Is Lost | All Is Lost | Death and Rebirth | Act II turning point |
+| Resolution | Finale | Climax | Return with the Elixir | Act III / denouement |
+
+Each map was made for a purpose and shows its grain. Blake Snyder's *Save the Cat!* (2005) prescribes fifteen named beats at fixed page percentages, built for the rigid timing of a 110-page screenplay, and Jessica Brody later adapted the same fifteen for novels. [researched] Shawn Coyne's *Story Grid* (2015) is diagnostic rather than prescriptive. It asks which elements must be present and leaves genre to set the rest. [researched] The mythological map is Joseph Campbell's monomyth. Christopher Vogler later popularised it for writers, and it suits adventure and coming-of-age far better than an intimate domestic story. [researched] Freytag's pyramid is the oldest of these. It is a five-part shape that runs from exposition through rising action and climax to falling action and denouement. Gustav Freytag drew it in 1863 to describe what he saw in Shakespeare and Greek tragedy rather than to instruct anyone. [researched]
+
+The models agree most at the ends. Every one of them names the opening disruption and the closing resolution. The disagreement is about the middle, the long sag between commitment and crisis that Syd Field bluntly called the problem with the second act. [researched] Snyder fills it with Fun and Games giving way to Bad Guys Close In, split by a clear midpoint. Coyne uses a run of progressive complications building toward a crisis. Campbell populates it with tests, allies, and enemies. How a model structures that stretch is where its priorities show. [synthesis]
+
+A second axis of disagreement is scale. Coyne's hierarchy is fractal, the same shape from beat to scene to act to whole story, and at every level it turns on a value shift, a movement from safe to endangered, or trusted to betrayed. [corpus] A beat without a shift is dead weight; a scene without one is a candidate for the cut. Robert McKee made the same argument from the other direction. The value turn is the engine, and once you know a beat's function and its value shift you have its structural role and its emotional content fixed before a word of prose. [researched] This fractal thinking is why Story Grid diagnoses a single scene with the same vocabulary it uses on a whole book. The practical upshot is layered. Reach for Save the Cat to plan the macro shape, then switch to Story Grid to diagnose a scene that is not landing, with scene-and-sequel underneath for the prose rhythm. No single map covers every distance well. [synthesis]
+
+### Mandatory beats and branch-variable beats
+
+Here the borrowed maps stop fitting, and the interactive form has to add its own line. In a linear story every reader meets every beat, so the question never arises. A branching story is different. Some beats have to appear on every path or that path collapses. Others can differ from branch to branch. That difference is frequently the reason the branch exists at all. [corpus]
+
+The governing principle is that every path through the story carries a complete emotional arc on its own. A reader who takes any single route still meets a disruption to start the path and an escalation to raise it. They still reach a low point that tests them before a resolution closes the path off. A path that skips the low point reads as hollow. A path that skips the climax reads as abandoned. [corpus] So a small set of functions is mandatory everywhere. Mandatory does not mean identical. The Catalyst is mandatory because no path has a reason to begin without one. Each branch can still carry its own triggering event. A midpoint stakes shift is mandatory or the middle of that path sags. A climax is mandatory because a branch without one is an abandoned thread. Mandatory means presence rather than sameness. [corpus]
+
+The variable beats are where branches earn their keep. The low point usually should differ by path. The darkest moment of the confrontation route is not the darkest moment of the route that fled. [corpus] The reflection after a loss depends on what exactly was lost. It varies by branch and is often where a branch's distinct voice surfaces most strongly. The Fun and Games stretch is the content that delivers on the premise. This is almost pure branch-variable territory. It is the reason to take this path rather than another. A branch whose Fun and Games could belong to any other branch is only a cosmetic variation. [corpus] This is the structural face of the agency question that [Branching Narrative Craft](branching-narrative-craft.qmd) treats as choice design: a real choice has to lead somewhere with its own beats, not the same beats repainted.
+
+::: {.callout-warning}
+### The Hazard
+The branch that reads as tourism. The reader picks the abandoned mine, and the path walks them through its history and some interesting rock, introduces a minor character, then lets them out safely. Nothing went wrong, so nothing was at stake. It has Fun and Games content and no low point, no crisis, no transformation, and it reads as a pleasant side trip rather than a story. [corpus] The tell is that you cannot name the worst moment on the branch, because there isn't one. The fix is not better mine description. Collapse the entrance behind them, fail their light, reveal that the trusted character caused it, then force a choice that costs something. The same content gains a spine the moment it carries the mandatory functions. A branch that is only ever pleasant is a branch the reader will not remember choosing. [synthesis]
+:::
+
+### The branch as its own beat sheet
+
+The working method that falls out of this is to treat each major branch as a small beat sheet and check it before any prose is written. [corpus] No branch needs all fifteen Save the Cat beats; that would be unaffordable. But each one needs a minimum set. There has to be a disruption that explains why the path exists. There has to be Fun and Games to justify taking it. There has to be a crisis where things are at their hardest. And there has to be a resolution that reveals what the path was about. Walk each path from start to finish and ask whether it would read as a complete story on its own. When a branch reads flat, the diagnosis is usually a missing function. A missing function label is far cheaper to fix than a missing chapter. [corpus]
+
+Done at scaffolding time, this becomes a structural map and a validation tool at once. Outline the passages and the branching shape, label each passage with a beat function, then walk every path and look for gaps. A branch with no passage labelled "low point" probably has no genuine low point. [corpus] The map also exposes pacing differences as deliberate choices rather than accidents. A path that reaches its low point early and resolves fast is a shorter, sharper experience by design, visible and adjustable before the expensive prose exists. [synthesis] The ordering constraint matters more than the positions here. A branch may reach its inciting disruption at five per cent or twenty, but a branch that runs its finale before its midpoint has a real structural fault wherever the percentages land. [corpus] The escalation that carries a branch from its opening up to its low point is [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd); how the function labels turn into actual passage transitions is [Scene Structure & Transitions](scene-structure-and-transitions.qmd).
+
+One caution sits under all of this. A beat sheet is a checking tool, not a generating one. Filling fifteen named slots produces a structurally complete story that can still be lifeless, because the names guarantee the skeleton and not the flesh. Coyne's crisis is the useful corrective: the strongest version is a best bad choice where every option costs something, or a pair of goods that cannot both be had. [researched] A crisis where one option is obviously right is not a crisis, and the reader resents being asked. That same shape is the test for a real choice in [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd). Use the taxonomy to find what is missing, then write the missing beat as if no taxonomy existed. [synthesis]
+
+::: {.callout-note}
+### The Specimen
+Dan Harmon built the Story Circle while stuck on a screenplay in the late 1990s, boiling Campbell's seventeen-stage monomyth down to eight plain steps arranged on a ring: you, need, go, search, find, take, return, change. [researched] He called the filled-in circles embryos, each one carrying everything a satisfying story needs, and he used them to structure television under brutal time pressure where there was no room to plan a fresh architecture each week. The reduction is the lesson. Campbell described the shape. Harmon needed something fast enough to apply under deadline, so he kept the eight functional turns and threw out the mythology. For interactive work the circle has a further use. Its brevity makes it a clean per-branch checklist. Eight steps are easy to walk down a single path. You confirm that it begins somewhere ordinary and returns somewhere changed. That is the test a branch has to pass to avoid reading as tourism. [synthesis]
+:::
+
+### The same skeleton at campaign scale
+
+The borrowed maps travel beyond the page. Arc-driven tabletop campaigns import named structure beats (setup, escalation, climax) as the macro skeleton of a months-long game, and the shape of a single session becomes a beat sheet in miniature. [synthesis] The tabletop tradition makes the interactive caveat sharper than the screenwriting books ever do. A planned arc that prescribes what the players will do, rather than what the situation is, turns every prepped beat into a chokepoint the players can simply walk past. That is the campaign-scale version of the railroad. [corpus] The craft answer is to prep the situation and let the beats emerge from it. This is the campaign cousin of branch-variable design. The mandatory shape is the villain's escalation; the variable content is whatever the players do in response. The full survey of those campaign shapes is [Campaign Arc Shapes](campaign-arc-shapes.qmd). The escape-room and live-game forms inherit the same rhythm under different names, a tension beat then a breather then the next push, which is the pacing read of these structural beats rather than their naming.
+
+## Where this fits
+
+**The bigger picture.** Beat taxonomies are the shared language the rest of the Structure & Pacing family is spoken in. They sit one level of abstraction above the concrete shapes: a beat sheet says what has to be true at each point in a story, while [Branching Narrative Craft](branching-narrative-craft.qmd) and [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd) say what the road that carries those points can look like. The borrowed models were all drawn for a single road, and their one real limitation for this work is that they assume the reader cannot leave it. The mandatory-versus-variable distinction is the patch that makes them usable once the reader can. Get it wrong and a branching story either forks pointlessly, repeating the same beats down every path, or strands the reader on a path missing the beats that would have made it a story.
+
+**Next steps.** With the function map in hand, the work turns to filling it. To carry a branch from its opening disruption up through its low point, the rising-and-falling motion is [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd). To turn the labelled functions into actual passages and the cuts between them, the technique is [Scene Structure & Transitions](scene-structure-and-transitions.qmd), with the prose-level action-and-reaction underneath it in [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd). When the beats do not arrive in a single straight order, because the story is assembled or told out of sequence, the structures that bend the timeline are [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd). And because every path's last mandatory beat is its resolution, the craft of making each ending feel earned rather than abandoned is [Endings & Structural Closure](endings-and-structural-closure.qmd).
+
+## Sources
+
+- Snyder, Blake. *Save the Cat! The Last Book on Screenwriting You'll Ever Need*. Michael Wiese Productions, 2005.
+- Brody, Jessica. *Save the Cat! Writes a Novel*. Ten Speed Press, 2018.
+- Coyne, Shawn. *The Story Grid: What Good Editors Know*. Black Irish Entertainment, 2015.
+- Campbell, Joseph. *The Hero with a Thousand Faces*. Pantheon Books, 1949.
+- Vogler, Christopher. *The Writer's Journey: Mythic Structure for Writers*. Michael Wiese Productions, 1992.
+- Field, Syd. *Screenplay: The Foundations of Screenwriting*. Dell, 1979.
+- McKee, Robert. *Story: Substance, Structure, Style, and the Principles of Screenwriting*. ReganBooks, 1997.
+- Swain, Dwight V. *Techniques of the Selling Writer*. University of Oklahoma Press, 1965. (Scene and sequel as prose-level beats.)
+- Freytag, Gustav. *Die Technik des Dramas* (1863). On the five-part dramatic pyramid. See <https://en.wikipedia.org/wiki/Dramatic_structure>.
+- Harmon, Dan. "Story Structure 101–104." Channel 101 wiki. Discussion: Myers, Scott. "Dan Harmon, The Hero's Journey, and the Circle Theory of Story." <https://scottdistillery.medium.com/dan-harmon-the-heros-journey-and-the-circle-theory-of-story-b64bb77d6976>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>

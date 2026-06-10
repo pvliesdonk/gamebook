@@ -1,17 +1,112 @@
 ---
 title: "Escape Room Topologies"
-aliases: []
+aliases: ["Room Structure", "Escape Room Flow", "Puzzle Macro-Structure"]
 family: "Structure & Pacing"
-media: []
+media: [live-game, interactive-fiction, puzzle-hunt, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [parallel-engagement, climactic-convergence, throughput]
+  problems: [bottleneck, team-idle, anticlimax, reset-overhead]
+  components: [puzzle-chain, meta, hub, gate]
+  genre: [mystery, heist, adventure]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The shapes a physical room can take when branching has to be paid for in plywood.*
+
+An escape room is a story told through locks, and its topology is the order in which those locks can be opened. Stand in the doorway of a finished room and the structure is already decided. One puzzle waits. Or five do. Or a central board sits ready to swallow the outputs of work happening in several corners at once. That arrangement is the room's spine. It governs how many people can act at once and where the team will stall. It also shapes the ending, whether the finish arrives with a bang or simply because the last lock happened to be the hardest.
+
+The same vocabulary that interactive fiction uses for branching stories applies here, but the economics are turned upside down. A branching story pays for an unseen path in words, and words are cheap enough to waste. A room pays in built sets, props, and the reset checklist the staff run between groups. So the shapes that dominate physical rooms are the convergent ones, the structures that let many hands work in parallel and then funnel back to a single finish. True divergence, where the team's choices leave the room in genuinely different states, is the rarest shape of all, and for a reason you can read straight off the balance sheet.
+
+This article maps those shapes and the forces that select between them. It is the physical-room counterpart to [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd), which catalogues the same silhouettes in software. Its companion is [Branching Narrative Craft](branching-narrative-craft.qmd), whose central lesson, that divergence is expensive so you converge, lands hardest of all when the medium is concrete.
+
+## The Mechanism (How it works)
+
+### The question every topology answers
+
+There is one diagnostic question behind all of this. At any given minute, what is there for the team to do? [corpus] A good structure keeps roughly as many puzzles open as the team has able solvers and no more. Then it narrows to a single focus at the moments that are meant to feel climactic. [corpus] Too few open puzzles and most of the team stands watching. Too many and a small team scatters, pinging between locks and finishing none of them.
+
+This is throughput, and it is the reason team size drives the whole design. The working rule from the trade is one puzzle for every two or three solvers. [researched] A pair is its own single thread and wants a line to walk. A team of eight wants several lines running at once or it will spend the hour queuing. The topology is the machine that matches available work to available hands, and a room tuned for the wrong team size fails no matter how good its individual puzzles are.
+
+### The base shapes
+
+Scott Nicholson's survey of escape room facilities gives the cleanest starting split: open, sequential, and path-based. [researched] Almost every other published typology is an elaboration of those three, and the naming across the industry is unsettled (linear, multi-linear, non-linear in one house style; sequential, multi-linear, hybrid in another). [researched] What matters is not the label but where the climax sits and where the team can stall. The table below is the working catalogue. It is dense on purpose, because choosing a topology is choosing a row.
+
+| Topology | Mental model | Best team size | Where it stalls | Where the climax sits |
+|---|---|---|---|---|
+| Linear | One puzzle at a time, each unlocking the next | 2-3 | Any single gating puzzle holds the whole team [corpus] | The final puzzle |
+| Open | Every puzzle available from the start, no gating | 6-10 | A small team pings and finishes nothing [corpus] | Wherever the hardest puzzle happens to fall (anticlimax risk) [corpus] |
+| Multi-linear | Parallel chains converging on a shared meta | 4-8 | Outputs from one chain collide with another's locks [corpus] | The meta after the chains [corpus] |
+| Hub-and-spoke | A central board gating short loops that return outputs to it | 4-8 | Players drift between zones without committing [corpus] | The hub state filling up [corpus] |
+| Hourglass | Multi-linear, one whole-team bottleneck, multi-linear again | 4-6 | The bottleneck, where every earlier success becomes worthless if the team can't pass [corpus] | The bottleneck reveal [corpus] |
+| Branching tree | Choices diverge the room's state and its endings | 6-10 | Coordination collapses; agency goes to waste if too small [corpus] | A per-ending finale [corpus] |
+
+In practice almost every commercial 60 to 90 minute room is a path-based hybrid rather than a pure form. [corpus] Pure open and pure linear rooms do exist, but they are minority designs. The reasons they stay minority are instructive.
+
+### Linear and the bottleneck
+
+A linear room presents one solvable puzzle at a time, and each solve produces the next. [corpus] Its virtues are clarity and control. A beginner always knows what to work on next. The designer can time story beats with precision, since the team's progress is never in doubt. Build cost stays low too. One puzzle's output is simply the next puzzle's input. [corpus] PanIQ's *Houdini's Workshop* in New York is described by players as very linear, with the next step almost always following logically from the last. [researched]
+
+What linear breaks is throughput. A single-threaded gating puzzle holds the whole team hostage. While one person works the lock, everyone else waits. [researched] A team of four in a linear room produces, again and again, three watchers and one solver. So linear works best for teams of two or three, where the team is the natural single thread anyway. [corpus] This is the same single-point-of-failure logic that the tabletop tradition meets with redundancy, the principle behind the Three Clue Rule and node-based scenario design covered in [Information Architecture](../puzzles-clues-information/information-architecture.qmd): every arrow on a flowchart is a place the game can stall.
+
+### Open, multi-linear, and the parallel ideal
+
+Open rooms make every puzzle reachable from the start and let players choose what to attack. [corpus] They suit large teams with many able solvers. They also reward scoring or replay-driven designs. What they do badly is end. When the hardest puzzle happens to be the last one standing, the room finishes at random rather than at a climax. [corpus] And a pair dropped into ten open puzzles will scatter. [corpus]
+
+Multi-linear is the answer most designers reach for, and it is worth dwelling on because it is the live form of the structure that dominates long-form interactive fiction. Two or more chains run alongside each other, each internally linear, none gating the others, all converging on a shared finale that is usually a meta puzzle. [corpus] Engagement now scales with team size. Each lane absorbs a solver or two, and each chain carries its own moment of triumph, so different members get the credit for different solves. [corpus] Palace Games' *The Edison* in San Francisco is a documented example, a design that encouraged parallel puzzling and group solves while branching back together repeatedly into shared challenges. [researched]
+
+This is the **branch and bottleneck** pattern of [Branching Narrative Craft](branching-narrative-craft.qmd) and [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd), built in physical space. The convergent meta is the bottleneck; the parallel chains are the divergence between seams. None of it is free. Each chain needs its own arc, and the meta has to consume every chain's output sensibly. The outputs themselves must not collide either. A four-digit code from one chain that fits a four-digit lock on another sends the team down a false path. So varied lock types, proximity, and colour-coding become load-bearing once chains run in parallel. [corpus]
+
+### Hub-and-spoke and the hourglass
+
+Two refinements of the parallel idea earn their own names. Hub-and-spoke puts a central board in the middle of the room, gating several short loops that each return an output to it; once enough spokes complete, the hub itself becomes the final puzzle. [corpus] Its great virtue is orientation. A player who has lost the thread can always return to the hub and read the current state, which makes it the natural home for teaching a new mechanic safely before it returns in compound form. [corpus] It is the room-scale version of the visible meta board that puzzle hunts use to anchor a round, and it shares the spatial topology concerns of a designed physical space, the loops and connections discussed in [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd).
+
+The hourglass opens multi-linear, converges hard into a single whole-team bottleneck in the middle, then reopens multi-linear for the endgame. [corpus] It is named far less often than it is used, because almost every act break in a 90 minute room is one without saying so. Act one is several parallel chains. The door to the next zone is the bottleneck. Act two is parallel again. [corpus] The bottleneck is the emotional pivot, the place the team must regroup and unify what they know. Its danger is sharp. Let the bottleneck puzzle defeat the team and every parallel success from act one turns worthless, because nobody can move past it. [corpus] There are two fixes. Make the bottleneck certain to land through an aggressive hint policy. Or make it redundant by design: a meta where any three of five chain outputs suffice. [corpus] That is the Three Clue Rule wearing a different coat: redundancy at the point of failure.
+
+### Why IF-style branching rarely survives a physical room
+
+Here is where the contrast with the anchor article becomes the whole point. In interactive fiction, branching is expensive but affordable: a branch the player never opens still ships, costing only the words spent on it. A room pays differently. Three forces push escape rooms relentlessly toward convergence. [corpus]
+
+The first is reset cost. A 60 to 90 minute room with a 15 to 30 minute reset window cannot hold multiple physical states. Suppose one branch leaves the painting on the wall and another hides it behind a curtain. Now the staff's reset checklist multiplies, and the day's booking schedule cannot absorb it. [corpus] The second is set cost. Real branching means content the team will not see on a single playthrough. A branch with its own zone gets built, lit, and propped, then used in maybe a third of bookings. [corpus] The economics are unforgiving: the cost of unused content is the cost of the content. [corpus] The third is throughput. Most rooms run 6 to 12 sessions a day, and genuine branching lengthens sessions and complicates the handoff between groups. [corpus]
+
+So "branching" in the escape-room trade almost always means one of three weaker things: chains that diverge but reconverge before any state actually splits, apparent branching where the decisions are theatrical only, or soft branching where every path uses the same physical content in a different order. [corpus] The IF patterns map across with this same discount applied. The gauntlet, a linear path that branches only into failure, is just the standard win, time-out, fail trichotomy that almost every room already is. [corpus] The time cave, pure divergence with no convergence, is almost never built, because its asset cost is multiplicative. [corpus] What survives the translation is branch and bottleneck, because the convergence point absorbs the divergence and bounds its cost.
+
+::: {.callout-note}
+### The Specimen
+Hatch Escapes' *The Ladder* (Los Angeles, 2024) is the clearest published branching escape room, and it is instructive for how little it branches in plywood. Each player picks one of five avatars; the team moves through five decade-themed rooms; endings turn on puzzle completion, money earned in side mini-games, and moral choices locked in through buttons in the set, yielding eight or nine outcomes. Yet Adrian Hon's analysis lands on the compromise that makes it tractable: it is not that you get entirely different rooms based on your choices. The branching lives in difficulty, scoring, ending text, and character outcome, all absorbed by decision trees, while the durable physical sets stay shared. Even the boldest branching room varies the consumables and converges the assets. That is branch and bottleneck reasoning carried out in concrete. [researched]
+:::
+
+### What the other media see in the same shapes
+
+The topology vocabulary is shared across the four media, so a designer fluent in one reads the others quickly. Interactive fiction supplies the parent taxonomy, the time cave, gauntlet, and branch-and-bottleneck silhouettes that [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd) catalogues and that the physical room then has to afford or refuse. [synthesis] The tabletop cousin is dungeon layout, where the linear-versus-non-linear question is the same spatial-topology decision played out in corridors and rooms rather than locks, the loops-and-connections craft of [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd). [synthesis] And the puzzle hunt runs the identical linear, parallel, and hub-and-spoke shapes at the scale of a round, with the hub-as-meta-board pattern more visible there than anywhere. [synthesis]
+
+There is a second model worth naming because it sits outside the Western 60-minute convention entirely. The Japanese Real Escape Game tradition, founded by Takao Kato's SCRAP in 2007, often runs large casts, dozens of teams in one venue, with outcomes computed per team across the room. [researched] That is genuinely branching at the team level, closer to a tournament than to a small-team room, and it shows that the convergence pressure is a property of the small-room economic model, not of live play itself. [synthesis] When the set is shared across fifty teams at once, the per-branch cost amortises in a way a single private room can never manage.
+
+### Choosing a topology
+
+The selection logic reduces to two inputs. The first is how many solvers you expect. The second is how much you can spend on content nobody is guaranteed to see. Team size sets the parallel width. A pair belongs in a linear room. A crowd needs multi-linear or hub-and-spoke and will otherwise queue. The content budget sets how far toward real divergence you can go, and for most rooms in most markets the honest answer is not far. Genuine branching only pays when its variable content can be amortised over enough enthusiast revisits. So the documented examples cluster in high-profile city-centre rooms with strong word of mouth. [corpus] Everywhere else the room converges, and the craft is in making convergence feel earned rather than flattening, the felt-difference technique of [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd). The throughput consequences of all this, how the chosen shape paces the hour and where the team's energy peaks and sags, are the subject of [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd).
+
+## Where this fits
+
+**The bigger picture.** Escape room topology is where this family's central economic law meets its most literal medium. [Branching Narrative Craft](branching-narrative-craft.qmd) argues that divergence is expensive and convergence is the craft; the room proves it in lumber and lock hardware, because here the unseen branch is not a few wasted words but a built and reset-managed zone. The shapes themselves come from [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd). How much depth any medium can sustain is the subject of [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd). The physical room is that question's strictest possible answer. Topology also reaches into the materiality family, because a structure is only as reliable as the locks and props that enforce it. That reliability is the territory of [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd) and [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd).
+
+**Next steps.** Once the shape is chosen, the live questions become pacing and recovery. How the chosen topology distributes energy across the hour, and where the team will flag, is [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd). What happens at the bottleneck when the redundancy was not enough, and how a watching operator pulls a stalled team through, is handled at the control surface in [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd). To make convergent endings land without erasing the parallel work that led to them, the technique is [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd). And how much divergence a given build can carry before the reset budget breaks is the working model in [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd).
+
+## Sources
+
+- Nicholson, Scott. "Peeking Behind the Locked Door: A Survey of Escape Room Facilities." 2015. <https://scottnicholson.com/pubs/erfacwhite.pdf>
+- "Computing Models of Escape Rooms." Analog Game Studies, December 2020. <https://analoggamestudies.org/2020/12/computing-models-of-escape-rooms/>
+- Mystery Soup Games. "Linear vs. Non-Linear Game Flow in Escape Rooms." <https://mysterysoupgames.com/linear-vs-non-linear-game-flow-in-escape-rooms/>
+- The Escape Revolution. "Guide to Linear vs. Multi-Linear Escape Rooms." <https://theescaperevolution.com/linear-vs-non-linear-escape-rooms/>
+- Elumir, Errol. "13 Rules for Escape Room Puzzle Design." The Codex. <https://thecodex.ca/13-rules-for-escape-room-puzzle-design/>
+- Room Escape Artist. "Palace Games: The Edison Escape Room Review." 10 September 2018. <https://roomescapeartist.com/2018/09/10/palace-games-the-edison-escape-room-review/>
+- Room Escape Artist. "Lock Mapping and Why It's Essential in Escape Rooms." 2 May 2026. <https://roomescapeartist.com/2026/05/02/lock-mapping-essential-in-escape-rooms/>
+- PanIQ Escape Room NYC. "Houdini's Workshop." <https://paniqescaperoom.com/nyc/en/escape-rooms/houdinis-workshop>
+- Hatch Escapes. "The Ladder." <https://www.hatchescapes.com/the-ladder>
+- Room Escape Artist. "Hatch Escapes: The Ladder Review." 26 June 2024. <https://roomescapeartist.com/2024/06/26/hatch-escapes-ladder-review/>
+- Hon, Adrian. "The Ladder: A Hilariously Absurd, Surprisingly Replayable Escape Room." Published on mssv.net (6 July 2025). <https://mssv.net/2025/07/06/the-ladder-a-hilariously-absurd-surprisingly-replayable-escape-room/>
+- Room Escape Artist. "Sherlocked: The Vault [Review]." 7 June 2017. <https://roomescapeartist.com/2017/06/07/sherlocked-the-vault-review/>
+- Room Escape Artist. "The Brilliance of Japanese Puzzle Culture." 21 January 2026. <https://roomescapeartist.com/2026/01/21/brilliance-japanese-puzzle-culture/>
+- Room Escape Artist. "What Escape Rooms Can Learn from Puzzle Hunts." 28 August 2025. <https://roomescapeartist.com/2025/08/28/what-escape-rooms-can-learn-from-puzzle-hunts/>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 

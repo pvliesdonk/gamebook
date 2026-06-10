@@ -1,14 +1,111 @@
 ---
 title: "Scope, Scale & Branching Depth"
-aliases: []
+aliases: ["Project Scoping", "Word-Count Budgeting", "Branch Budgeting", "Scope Discipline"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [finishable-project, sustainable-pace, realistic-expectations]
+  problems: [overscoping, combinatorial-explosion, content-waste, unfinished-project]
+  components: [word-budget, passage-count, branch-depth, ending-count]
+  genre: [adventure, mystery, romance]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The arithmetic that decides whether you will finish the thing you started.*
+
+Most interactive projects die the same way. Not from a bad idea or weak prose, but from a scope the author never measured against the hours they actually had. The work looks the same on day one whether it is a weekend Twine piece or a three-year epic. The difference shows up months later, when one is finished and the other is a folder of half-written branches nobody will ever read.
+
+Scope is the discipline of knowing how big a thing is before you build it. It means putting numbers on the work. How many words. How many passages. How deep the branches run, and how many endings you owe the reader. And it means the harder part, which is cutting those numbers back to something a person can actually finish. Branching is the multiplier that makes this dangerous. Every fork you add does not cost one more scene. It costs every scene that comes after, twice over.
+
+This article is about the sizing and the cutting. It is the budget that [Branching Narrative Craft](branching-narrative-craft.qmd) spends. That article shows how to make a fork pay its way; this one is about how many forks you can afford to lay in the first place.
+
+## The Mechanism (How it works)
+
+### Sizing a project before you build it
+
+The first move is to name the scale you are actually working at. Each category carries its own expectations. Most authors pick one two sizes too large. Interactive fiction falls into rough bands by word count, and the band fixes nearly everything else about the piece. How long it plays and how many passages it holds both follow from the band, as does the number of endings it can support without strain. [corpus] The table below is the standard sizing chart from interactive-fiction practice. Read it as a reality check rather than a target. The numbers that matter most are the ones in the rightmost columns, because those are the work.
+
+| Scale | Total words | Play time | Passages | Endings |
+|---|---|---|---|---|
+| Micro | 1,000–5,000 | 5–15 min | 10–30 | 2–4 |
+| Short | 5,000–20,000 | 15–60 min | 30–100 | 3–8 |
+| Medium | 20,000–60,000 | 1–3 hours | 100–300 | 5–15 |
+| Long | 60,000–150,000 | 3–8 hours | 300–700 | 8–25 |
+| Epic | 150,000–500,000+ | 8–20+ hours | 700–2,000+ | 15–50+ |
+
+A first project belongs in the Micro or Short band, and a solo author should think hard before committing past Medium. [corpus] The constraint here is arithmetic rather than ambition. A medium-scale interactive novel is about as long as a short print novel. The difference is that much of it is conditional. Every passage of it needs both a draft and a test pass. All of it has to sit in your head as one conditional web while you work. A long one is a six-to-eighteen-month commitment of real working time. An epic is measured in years and usually needs a team. [corpus] These figures count the actual hours the words take, not the quality you hope to reach.
+
+The figures hold a second, sharper diagnostic for once writing is underway: the ratio of an average playthrough to the total word count. Choice of Games publishes long-form branching fiction, and it asks for games of at least 100,000 total words with an average single playthrough of at least 20,000. That puts the healthy ratio between 0.2 and 0.4. [researched] Below that range you are writing a great deal that almost nobody reads. A game with a 200,000-word total but a 20,000-word playthrough is spending most of its effort on content a tiny fraction of readers will ever see. [researched] Above the range the opposite fault appears: every playthrough feels the same because the choices barely move anything, which is the hollow branching that [Branching Narrative Craft](branching-narrative-craft.qmd) warns against. The ratio is a cheap instrument for catching both failures early.
+
+### How branching multiplies the budget
+
+Branching is the one structural decision that changes how many words exist rather than how they are arranged. A pure tree, where every choice forks and nothing ever rejoins, grows its content as a power of two. Three binary choices already demand eight distinct paths; ten demand over a thousand. [researched] This is the combinatorial explosion, and it is why the pure tree (the [Time Cave](nonlinear-narrative-structures.qmd)) is viable only at micro scale. [corpus] Past a handful of choices, the tree asks you to write a library that each reader meets a hundredth of.
+
+So the working budget is set less by the choices the reader sees than by the structure underneath them. The same number of decision points can cost wildly different amounts depending on whether paths rejoin. The four models below sit on a clear cost gradient, and the practical content of scope discipline is choosing the cheapest model that still delivers the agency you promised. [corpus]
+
+| Branching model | How it grows | Content cost | Scales to |
+|---|---|---|---|
+| Pure tree | Power of two per choice | Highest; most goes unseen | Micro only |
+| Parallel tracks | 2–4 distinct storylines, limited crossover | Moderate multiplication | Medium to long |
+| Bottleneck | Diverge, then reconverge at shared beats | Sustainable; bounded between seams | Any size |
+| State-based | One spine, variation by accumulated flags | Lowest; most efficient | Any size, excellently |
+
+The bottleneck is the workhorse precisely because it caps the explosion: divergence is real but bounded, so the story can differ wildly between two seams and be identical at each one. [corpus] The architecture of how those merges feel earned rather than flattening is the subject of [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd). For scope, what counts is simpler. Every seam you add is a place where the branch count resets, and a story that converges every few passages stays affordable at any length while one that never converges does not.
+
+Branch depth is the other dial. Depth is how many choices deep the structure runs before it reconverges, and the affordable depth rises with scale: two or three deep at micro, up to six or ten at epic. [corpus] Push past what the scale supports and two failures arrive together. The testing burden outgrows what any one person can manage. And most of the content you paid for goes unreached by readers anyway.
+
+### Branches cost testing, not just words
+
+The word count is the visible half of a branch's price. The hidden half is verification, and it scales the same brutal way. Every independent path is a path someone has to play through to confirm it works, so two paths roughly double the testing burden, four quadruple it, and sixteen demand the kind of effort that needs a team. [corpus] A branch nobody tested is a branch that ships with bugs, which means the testing time is not optional padding. It is part of the branch.
+
+So experienced interactive-fiction practice reserves a fifth to a third of the whole development schedule for testing alone. [corpus] An author who budgets words but not test passes has under-costed the project by that margin, and the gap usually surfaces at the worst time, near the intended ship date, when the untested branches start failing.
+
+The live-game world makes this cost physical, and that is what makes it the clearest teacher of branch economics. An escape room cannot fork cheaply the way a Twine file can. A real branch needs to be built and propped, and it also needs its own slot in the reset the staff run between every booking. [corpus] The published taxonomy of escape-room structures lines them up on exactly the cost-versus-payoff axis that interactive fiction faces, only with the costs denominated in plywood and reset minutes.
+
+| Escape-room structure | Designer cost | Replayability |
+|---|---|---|
+| Linear | Low | None |
+| Open (non-linear) | Medium | Low |
+| Multi-linear | Medium-high | Low |
+| Hub-and-spoke | Medium-high | Low-medium |
+| Hourglass | High (two acts) | Low |
+| Branching tree | Very high | High |
+
+Genuine state-divergent branching sits at the bottom row for a reason. It buys real replayability and costs more than almost any room can bear, because each branch multiplies both build expense and the reset overhead that has to fit inside a fixed turnaround between groups. [corpus] The IF lesson and the escape-room lesson are the same lesson. Unused content is not free content. It is content you paid for and the player threw away.
+
+::: {.callout-note}
+### The Specimen
+Hatch Escapes' *The Ladder* (Los Angeles, 2024) is the boldest published branching escape room, and it is instructive for how carefully it rations the branching. Players pick avatars and move through themed rooms toward roughly a dozen endings driven by money earned and moral choices, yet Adrian Hon's analysis lands on the compromise that makes it shippable: "it's not like you get entirely different rooms based on your choices." The divergence lives in scoring, difficulty, and ending text, all absorbed by decision trees, while the expensive physical sets stay shared across every path. [corpus] Even at the frontier of physical branching, the durable assets converge and only the cheap-to-vary layer forks. That is branch budgeting carried out in concrete.
+:::
+
+### Calibrating scope to the format you are building
+
+Different media measure scope in different currencies, and knowing the local unit keeps a project honest. Interactive fiction counts words and passages. The escape room counts built zones and reset minutes. The puzzle hunt counts puzzles and solving hours, and the spread there is instructive. A DASH event holds eight to twelve puzzles calibrated for a six-to-eight-hour walking day. A major online hunt in the MIT lineage can carry well over a hundred puzzles across one or two weekends. [corpus] That is the same craft an order of magnitude apart in scale. The larger event needs a whole crew and a hint team rather than a single author. [corpus] The tabletop tradition stretches the same axis from the one-shot to the multi-year campaign. The failure mode at the large end is identical across all of them: the project begun with enthusiasm that never reaches its ending. [corpus]
+
+The tool that holds this together is honest triage. A project gets to optimise for two of three things and never for all three at once. Breadth is many branches and paths. Depth is polished prose and characters. Speed is a timeline that actually ends. Reaching for it forces one of the other two to give way. [corpus] Going after all three at once is the reliable route to either burnout or thin work. The discipline is to pick two and let the third give. The same constraint forces the production tactics that make branching affordable. Branch late, so early chapters stay shared. Converge often, so divergence stays bounded. And where the reader would not feel the difference, reach for a flagged variation of a shared passage rather than a whole new branch. [corpus] These are the same techniques [Branching Narrative Craft](branching-narrative-craft.qmd) reaches for, seen here from the budget side rather than the craft side. The prep-cost version of this trade, where the currency is the designer's hours rather than the player's words, is [Prep Economy](../systems-mechanics/prep-economy.qmd); when scope is denominated in physical objects, the buy-or-build half of it is [Fabrication & Sourcing](../space-props-materiality/fabrication-and-sourcing.qmd).
+
+::: {.callout-warning}
+### The Hazard
+Scope creep is the project killer that feels like progress while it happens. It arrives one reasonable addition at a time. Just one more branch. A bit of backstory promoted into playable content. A feature added halfway through, or a low-traffic path polished to a shine almost nobody will see. [corpus] Each decision is defensible on its own, which is exactly why the total goes unnoticed until the finish line has quietly receded out of reach. The tell is that your remaining work keeps growing faster than you complete it. The fix is unglamorous and has to be made before you start. Set the scale early and put the budget in writing, then let any expansion become the next project rather than this one. A finished small thing can always grow later. An unfinished large thing grows into nothing. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Scope is the constraint the rest of the Structure & Pacing family operates inside. The shapes a story can take, along with every clever convergence and delayed consequence, are affordable only within a budget this article tries to make visible before the writing starts. It is the economic floor under [Branching Narrative Craft](branching-narrative-craft.qmd): that article decides how a fork pays its way, and this one decides how many forks the project can carry at all. The catalogue of shapes those forks compose is [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd). The physical limit case, where a branch costs a built set rather than a passage, is [Escape Room Topologies](escape-room-topologies.qmd). Get the scope wrong and none of the craft downstream can save the project, because the project will not exist to be judged.
+
+**Next steps.** Once the budget is set, the question turns to spending it well. Which shape best fits the agency you promised is the work of [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd); making the convergences your budget forces feel earned rather than cheap is [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd). The ending count your scale supports is not just a number to hit but a design problem in its own right, which is [Endings & Structural Closure](endings-and-structural-closure.qmd). And for the longest projects, where scope is spread across instalments rather than spent at once, the structure that paces a large commitment over time is [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd).
+
+## Sources
+
+- Ashwell, Sam Kabo. "Standard Patterns in Choice-Based Games." These Heterogenous Tasks, 26 January 2015. <https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/>
+- Choice of Games. "Length and Coding Efficiency." 2017. <https://www.choiceofgames.com/2017/07/length-and-coding-efficiency/>
+- Choice of Games. "Vignette Structure as a Means of Controlling Branching." 2010. <https://www.choiceofgames.com/2010/01/vignette-structure-as-a-means-of-controlling-branching/>
+- Short, Emily. "Small-Scale Structures in CYOA." Emily Short's Interactive Storytelling, 5 November 2016. <https://emshort.blog/2016/11/05/small-scale-structures-in-cyoa/>
+- Nicholson, Scott. "Peeking Behind the Locked Door: A Survey of Escape Room Facilities." 2015. <https://scottnicholson.com/pubs/erfacwhite.pdf>
+- "Computing Models of Escape Rooms." Analog Game Studies, 2020. <https://analoggamestudies.org/2020/12/computing-models-of-escape-rooms/>
+- Mystery Soup Games. "Linear vs. Non-Linear Game Flow in Escape Rooms." <https://mysterysoupgames.com/linear-vs-non-linear-game-flow-in-escape-rooms/>
+- Hon, Adrian. "The Ladder" (a structural analysis of Hatch Escapes' branching escape room). mssv.net, 6 July 2025. <https://mssv.net/2025/07/06/the-ladder-a-hilariously-absurd-surprisingly-replayable-escape-room/>
+- Room Escape Artist. "Hatch Escapes: The Ladder Review." 26 June 2024. <https://roomescapeartist.com/2024/06/26/hatch-escapes-ladder-review/>
+- DASH (Different Area Same Hunt). Official site and FAQ. <https://playdash.org/>
+- "Galactic Puzzle Hunt." Puzzle Wiki. <https://www.puzzles.wiki/wiki/Galactic_Puzzle_Hunt>
+- "Puzzle hunt." Wikipedia. <https://en.wikipedia.org/wiki/Puzzle_hunt>

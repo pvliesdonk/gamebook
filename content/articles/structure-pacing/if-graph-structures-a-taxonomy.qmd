@@ -1,17 +1,93 @@
 ---
 title: "IF Graph Structures: A Taxonomy"
-aliases: []
+aliases: ["Branching Topologies", "Choice-Based Structures", "Narrative Graph Shapes"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [replay-value, felt-agency, narrative-shape]
+  problems: [combinatorial-explosion, illusory-choice, shapeless-middle]
+  components: [node, branch, bottleneck, state-flag, storylet]
+  genre: [adventure, mystery, horror]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The catalogue of shapes a branching story can take, read off its graph from a distance.*
+
+Draw the passages of a choice-based story as dots and the choices as lines between them, then step back until the words blur. What is left is a shape. One story fans out into a thousand twigs that never touch again. Another is a single rope, its frayed ends either dead or looped straight back to the spine. A third pinches in and out like a string of beads. The shape is not decoration. It governs how much you have to write and how free the reader feels. It also decides whether the middle of the story has a spine at all.
+
+Most designers reach for the same shape by reflex, usually the one their tools make easiest, and only later notice it fought the story they wanted to tell. This article is the map that lets you choose on purpose instead. It names the handful of silhouettes a branching narrative settles into and reads each one's trade-offs straight off the graph. It does not teach you to carve any single shape well. That is the work of its companion, [Branching Narrative Craft](branching-narrative-craft.qmd): the taxonomy names the silhouettes, the craft article is how you actually cut one. Read this to pick the shape; read that to build it.
+
+## The Mechanism (How it works)
+
+### Reading a structure from its graph
+
+The cleanest published map of these shapes is Sam Kabo Ashwell's "Standard Patterns in Choice-Based Games," and the whole field has quietly standardised on his vocabulary. [researched] His insight is that topology alone classifies a branching story almost entirely, and two questions do most of the sorting. How wide is the graph, meaning how many distinct states can the reader be in at once? And how often do separate paths collapse back into a shared node? A shape that branches wide and never rejoins is a different animal from one that branches wide and rejoins constantly, even when both offer the reader the same count of choices.
+
+The table below is the load-bearing part of this article, and it earns the exception to the usual prose-only rule because the data is genuinely two-dimensional. Each row is a shape, and the columns set its silhouette beside its gains, its costs, and the situation it suits best. A reader choosing a structure needs all four facts side by side, and prose would scatter them across paragraphs where no glance can compare them. The prose around the table does not restate its cells. It explains how to recognise each shape and where each one breaks.
+
+| Shape | Silhouette (the graph) | What it buys | What it costs | Reach for it when |
+|---|---|---|---|---|
+| **Time Cave** | Branches wide, never rejoins; a tree of unique endings | Maximum felt freedom; high replay; no state-tracking at all | Content grows as a power of two; the reader sees a fraction [researched] | The piece is short and replay is the point [corpus] |
+| **Gauntlet** | One central rope; side-branches die or rejoin fast | Cheap; one strong authored line; minimal state | Little real agency; branches are mostly failure | The protagonist is meant to feel trapped (horror, survival) [corpus] |
+| **Branch and Bottleneck** | Fans out, then pinches back at shared beats, over and over | Sustainable at any length; real divergence between seams | Early stretches feel alike; needs heavy state-tracking [researched] | Most long-form work: different journeys, shared destinations [corpus] |
+| **Hub and Spoke / Loop and Grow** | A central node the reader keeps returning to | Reader-set order; exploration; bounded, reusable content | Less forward drive; each spoke must earn the return trip | The fiction is a place to roam or a cycle to repeat [corpus] |
+| **Quality-Based Narrative** | No fixed tree; fragments unlock on accumulated stats | Scales without exponential growth; emergent chains | Heavy bookkeeping; the spine can vanish during authoring [researched] | Stat-driven, open-ended, modular stories [researched] |
+
+Read down the silhouette column to recognise what you are already building. Read across any single row to weigh one shape before you commit to it.
+
+### The two open shapes: Time Cave and the explosion it pays for
+
+The **Time Cave** is the oldest shape and the purest. Every choice forks and nothing ever rejoins, so the graph is a tree that widens at every level until it ends in a field of distinct endings. [researched] Ashwell ties it to "narratives about freedom and open possibility, adventures that could go anywhere," and that openness is no illusion. With no convergence, every choice becomes permanent, and the reader feels that permanence. [researched] The price comes due in words. Three binary choices already demand eight endings; ten need over a thousand, and no one writes a thousand endings well. [researched] Content grows as a power of two while any single reader meets a hundredth of it. So the time cave suits short, sharp, replay-hungry pieces and nothing long. Push it past a few choices and it stops being a structure and becomes a writing sentence you cannot finish. This is the structure the wider family treats as the cautionary baseline, and it shows up again under [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd) as the form that trades coherence for raw possibility.
+
+### The two closed shapes: how convergence buys scale
+
+The remaining shapes all earn their length by rejoining, and they differ mainly in *how* they rejoin.
+
+The **Gauntlet** rejoins by pruning. A single strong thread runs the length of the story, and the side-branches mostly end in death or snap back to the main line within a passage or two. [corpus] It is the cheapest honest branching there is. Most of its branches are short and terminal, so it carries almost no state, since no passage has to remember another path. The feeling it produces is constraint, and that is why horror and survival reach for it: a tightening noose reads as tension, not as a missing feature. [corpus] The hazard is candour. A gauntlet that pretends to offer freedom while quietly funnelling every reader to one fate will be caught, and Ashwell notes the reader who "realises they're on rails" can find the whole thing "punishing or depressing." [researched]
+
+The **Branch and Bottleneck** rejoins on a schedule. Paths fan out and run free for a stretch, then pinch back at a beat every version of the story passes through before fanning out again. [corpus] Because divergence is bounded between seams, the story can be wildly different in the middle of a stretch and identical at its edges, which is exactly what lets it scale to any length. [researched] It is the dominant shape in commercial interactive fiction for that reason. The cost is state. A bottleneck that handles every arrival the same way silently undoes the choices that led into it. The shape only works when the shared node still reads back which path the reader walked. The map of which threads converge how is [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd), and the technique of making a merge feel earned rather than flattening belongs to [Branching Narrative Craft](branching-narrative-craft.qmd).
+
+### The roaming shapes: hub, spoke, and the loop that grows
+
+Where the gauntlet and the bottleneck keep forward drive, the **Hub and Spoke** trades it for exploration. Several branches originate at and return to one central node, so the reader sets their own order through the spokes rather than being carried along a line. [researched] The close cousin is **Loop and Grow**, where the central thread is not a place but a cycle the reader repeats, and accumulated state unlocks new options on each return so the repetition pays off instead of grating. [corpus] Both shapes bound their content, because the spokes are reused rather than multiplied, and both suit fiction that is a place to inhabit or a situation to wear down. The natural home of the loop variant is the time-loop story, where the repetition is the premise rather than an apology for it, treated on its own in [Time Loop Patterns](time-loop-patterns.qmd). The weakness of the roaming shapes is momentum. No line pulls the reader forward, so each spoke must earn the trip back to the hub. Without that, the structure sags into a menu.
+
+### Quality-Based Narrative: the shape with no tree
+
+The last shape is the odd one, because it abandons the graph-of-passages model entirely. **Quality-Based Narrative** was named by Failbetter Games for the structure behind Fallen London, and it replaces the authored tree with a pool of small story fragments, each tagged with the conditions under which it becomes available. [researched] A fragment, often called a storylet, is a beat plus a choice plus an outcome. The qualities are numerical variables that move up and down during play. A quality stands in for almost anything a story records, such as the items a character carries or the current state of a relationship. [researched] At any moment the reader sees only the fragments their current state has opened up, so play itself sets the order rather than a tree drawn in advance. The win is scale without explosion. A new fragment leaves everything downstream untouched. The chain a reader ends up walking is one no author ever wrote out. [researched] The loss is twofold. The bookkeeping is heavy, and the narrative spine goes nearly invisible during authoring, because there is no longer a single line to point at and call the story. It is the structure to reach for when the fiction is genuinely open and modular rather than a journey with a destination, and it sits one step from the systems layer, where the same stat-gated unlocking is the subject of [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd).
+
+### The shapes are not pure, and they are not only for IF
+
+Two honest complications close the mechanism. The first is that real stories mix shapes. Ashwell's own point is that most successful work is a hybrid: a sorting-hat opening that branches hard and rejoins, then runs each track as a near-gauntlet; state-based variation laid over a bottlenecked spine; a hub whose spokes are each small gauntlets. [researched] The taxonomy is a vocabulary for the moves a structure makes, not a set of boxes each story must fall into. Its value is diagnostic. Name the shape you have and its signature failure becomes visible, which is what lets you decide whether to keep the shape or change it. How much of any shape a given project can actually afford is the budgeting question of [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd).
+
+The second is that these silhouettes are not unique to the screen. The same vocabulary describes a physical escape room, where a linear layout gives you a gauntlet, an open one a hub, and a multi-linear one a branch-and-bottleneck. The contrast against built space is drawn in [Escape Room Topologies](escape-room-topologies.qmd). [synthesis] A tabletop scenario built as a web of information nodes joined by redundant paths is a hub-and-spoke graph wearing a referee's notation, and the megadungeon with its looping connections is the same topology rendered in corridors. [synthesis] A puzzle hunt sequences its feeders as a linear chain, parallel threads, or a hub feeding a central meta, which is this taxonomy applied to puzzles rather than passages. [synthesis] The graph is medium-neutral. Only the cost of a node changes: an unread passage is cheap, a built room is not.
+
+::: {.callout-note}
+### The Specimen
+*Fallen London* (Failbetter Games, 2009 onwards) is the clearest living proof that a branching story need not be a tree at all. It holds thousands of storylets, each gated on qualities the player accumulates, and the engine surfaces whatever the current state unlocks rather than walking a predrawn path. [researched] The result reads as an open city the player wanders for years, yet structurally it is a flat pool of conditional fragments with no spine drawn anywhere. It is the existence proof for the bottom row of the table. A time cave would need an impossible tree of endings to feel this open; the quality-based shape reaches the same openness with modular fragments and a stat check, paying for it in bookkeeping instead of word count. [researched]
+:::
+
+::: {.callout-warning}
+### The Hazard
+The shape is not the story. Naming a structure tells you its silhouette and its signature failure; it does not tell you whether this particular instance has fallen into that failure. A branch-and-bottleneck on the diagram can still flatten every choice at the merge if the shared node ignores which path arrived. A hub-and-spoke can still be a lifeless menu if no spoke earns its return. A quality-based pool can still read as random noise if the qualities never cohere into a felt arc. The deeper trap is treating the table as a menu to pick from once and forget. The graph is a starting silhouette, not a guarantee; what makes any of these shapes feel responsive is the conditional text and state that the [Branching Narrative Craft](branching-narrative-craft.qmd) article is about. The taxonomy diagnoses the shape. It does not build the story inside it. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** This is a map article, so it sits above the individual structure mechanisms in its family rather than beside them. It is the index you consult before you commit to a shape, with the whole branching space visible at once. That overview lets you weigh the silhouettes against each other rather than defaulting to whichever one your tools make easy. Everything downstream assumes the shape is already chosen. The craft of carving it, the budget for how much of it you can afford, the techniques for an earned convergence: each works on a structure whose silhouette you settled here first. The one shape the family treats as a baseline rather than a recommendation is the time cave, because its honesty about choice is exactly what makes it unaffordable at length.
+
+**Next steps.** With a shape in mind, the next question is almost always how to build it well. That is the work of [Branching Narrative Craft](branching-narrative-craft.qmd), where weighty choice meets the state that backs it and the earned difference at a merge. The question of how much of that shape your project can sustain is mapped in [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd). To see the same silhouettes rendered in physical space rather than passages, read [Escape Room Topologies](escape-room-topologies.qmd). For the open and non-chronological end of the catalogue, where coherence is traded for possibility, go to [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd); for the loop variant taken as a premise in its own right, [Time Loop Patterns](time-loop-patterns.qmd); and for the convergence problem the bottleneck shapes all share, [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd).
+
+## Sources
+
+- Ashwell, Sam Kabo. "Standard Patterns in Choice-Based Games." These Heterogenous Tasks, 26 January 2015. <https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/>
+- Short, Emily. "Small-Scale Structures in CYOA." Emily Short's Interactive Storytelling, 5 November 2016. <https://emshort.blog/2016/11/05/small-scale-structures-in-cyoa/>
+- Short, Emily. "Beyond Branching: Quality-Based, Salience-Based, and Waypoint Narrative Structures." Emily Short's Interactive Storytelling, 12 April 2016. <https://emshort.blog/2016/04/12/beyond-branching-quality-based-and-salience-based-narrative-structures/>
+- Failbetter Games. *Fallen London*. 2009 onwards. <https://www.fallenlondon.com/>
+- Kennedy, Alexis. "Storynexus and Quality-Based Narrative." Failbetter Games developer writing (StoryNexus / quality-based narrative). <https://www.failbettergames.com/news/storynexus>
+- Choice of Games. "Vignette Structure as a Means of Controlling Branching." 2010. <https://www.choiceofgames.com/2010/01/vignette-structure-as-a-means-of-controlling-branching/>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
+
+<!-- TEMPLATE-NOTE: Map variant. Same three accommodations the puzzle-taxonomy map flagged for Q3 validation, recorded here for the structure family. (1) THE TABLE IS LOAD-BEARING, NOT DECORATIVE. A single-mechanism article keeps its body in prose; here the five shapes crossed against silhouette / buys / costs / when-to-use are genuinely tabular, and only a table lets a reader choosing a structure compare all four facts in one glance. The surrounding prose deliberately does NOT restate the cells (it teaches recognition and failure modes instead), so a validator expecting "no tables, prose only" will mis-flag this. (2) THE SPECIMEN IS A THESIS PROOF, NOT A LONE SIGHTING. Because the article has no single mechanism, the Fallen London specimen had to demonstrate that the most surprising row of the table (Quality-Based Narrative, the no-tree shape) is real and shippable, rather than capturing one isolated behaviour in the wild. It reads as an existence proof of the taxonomy more than a field note. (3) "NEXT STEPS" IS LINK-DENSE (six outward articles) because routing onward is precisely a map's job; kept prose with each link motivated rather than listed, but it sits near the ceiling the style guide allows before a close reads as a directory. The explicit boundary against Branching Narrative Craft (this names the shapes; that carves them) is stated in the head, reinforced in the mechanism, and is the first Next-Steps link, since the two articles are companions and the reader must not confuse catalogue with technique. Everything else (Silhouette, readable head, diagnostic headers, one Specimen + one Hazard within the two-callout cap, real-citation Sources, inline cross-refs, cross-media woven not listed) fits the standard shape without strain. -->
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
