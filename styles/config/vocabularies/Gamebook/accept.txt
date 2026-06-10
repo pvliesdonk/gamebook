@@ -324,3 +324,9 @@ tag_scanned
 teleporter
 unmapping
 wifi
+Ashwell
+Kabo
+Coyne
+Heterogenous
+boolean
+bottlenecked

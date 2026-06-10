@@ -1,17 +1,107 @@
 ---
 title: "Branching Narrative Craft"
-aliases: []
+aliases: ["Choice Architecture", "Branching Design", "Meaningful Choice"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [player-agency, felt-consequence, replay-value]
+  problems: [combinatorial-explosion, illusory-choice, content-waste]
+  components: [choice-point, state-flag, convergence-node, branch]
+  genre: [adventure, mystery, romance]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The craft of making a choice cost something without making the story cost everything.*
+
+A branching story makes a promise the moment it offers the reader a choice. The promise is that the decision is real and will leave a mark, and that the path not taken was a genuine path. Keeping it is the whole job. Break it and the reader feels the floor go soft. They cannot always name the fault. They sense only that the wheel is not connected to the rudder.
+
+The trouble is that honest branching is ruinously expensive. Every fork doubles the work, and the doublings compound. Three binary choices already need eight endings; ten need over a thousand. [researched] No one can write a thousand endings well, so the craft is not really about branching at all. It is about deciding where divergence earns its cost and where paths can rejoin without the reader feeling cheated. And it is about making a story remember what the reader did without writing a separate story for every combination of things they might have done.
+
+This article is about that technique: how to build branching stories that feel responsive without collapsing under their own weight. It is the companion to [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd), which catalogues the shapes a branching story can take. The taxonomy names the silhouettes; this article is about how you actually carve one.
+
+## The Mechanism (How it works)
+
+### Meaningful choice versus the illusion of it
+
+A choice carries weight when removing it would change something. That is the whole test. It is worth stating plainly because so much branching design fails it. [researched] When both options lead to one passage in one state, the choice was decoration. The reader may not catch it the first time. They catch it on replay. And replay is exactly when a branching story is asking to be judged.
+
+Choices come in a rough ladder of weight. A cosmetic choice changes the flavour of a line and nothing else. A tactical choice settles the next scene. A strategic choice bends the long arc of the story. A moral choice asks the reader who their character is, and pays nothing back except the answer. [corpus] The weight a choice carries should match the weight it appears to carry. A decision framed as agonising that turns out to be cosmetic is a small betrayal; a throwaway click that silently determines the ending is a different kind of unfairness, because the reader was never told it mattered.
+
+The strongest choices are dilemmas, not puzzles with a right answer. "Save the village or don't bother" is not a choice; one option is obviously correct and the reader resents being asked. "Save the village but lose the kidnapper's trail, or chase the kidnapper while the village burns" is a choice, because both options cost something the reader wanted. [corpus] This is the same instinct the Story Grid calls the crisis. It takes one of two shapes. The first is a best bad choice, where every option carries a real price. The second is a pair of goods that cannot both be had. [researched] A choice outside those two shapes will read as filler however nicely it is written.
+
+Tabletop design names the failure mode with unusual precision. The **quantum ogre** is the encounter the players will meet down whichever road they pick, because the referee decided the ogre was happening before anyone chose. [corpus] The roads are real; the destination was fixed before the fork. Players sense this the way readers do. The cost runs the same. It is not just a flat scene but a loss of trust that cheapens every earlier choice they believed was theirs. This is the tabletop face of what interactive fiction calls false freedom. The cure is identical. Let the choice actually reach into the world and move something.
+
+::: {.callout-warning}
+### The Hazard
+The seductive shortcut is the choice that looks consequential and quietly is not. Picture two doors with the same room behind both. It is cheap to build, and from the inside it feels like you are offering agency. You drew two doors after all. But the reader is a better detective than you expect. The tell here is structural rather than textual. If you cannot say in one sentence what state each option changes or what content it gates, the choice is probably hollow. No amount of vivid door-description will fill it. The fix is not to write the doors better. It is to make one of them lead somewhere the other does not. Otherwise you drop the pretence of choice and let the moment be a scene. [synthesis]
+:::
+
+### Why branching explodes, and what the explosion costs
+
+The structure where every choice forks and nothing ever rejoins is the [Time Cave](nonlinear-narrative-structures.qmd). It branches heavily into many endings and needs no state-tracking at all. No path ever has to remember another. [researched] It is the most honest structure imaginable and the least sustainable. Content grows as a power of two. Most of it goes unseen, and a writer who commits to the form past a few choices is signing up to write a library that each reader meets a hundredth of. [corpus] Time caves suit short, sharp, replay-hungry pieces. They do not suit anything long.
+
+So almost all real branching is the craft of avoiding the explosion. You let the story diverge where divergence matters and converge everywhere else. The escape-room industry shows the limit case. There the cost is measured not in words but in built sets. A branch with its own physical zone gets built and propped and then used in maybe a third of bookings. Every divergent ending also lengthens the reset checklist the staff run between groups. [corpus] Interactive fiction can afford a branch the player never opens; an escape room pays rent on it. The constraint is sharper, but all branching media learn the same lesson from it. Unused content is the cost of the content. Few stories can afford much of it. [corpus]
+
+### Convergence: the bottleneck and the felt difference
+
+The workhorse answer is the bottleneck. Paths fan out, run for a while, then rejoin at a beat every version of the story passes through, and fan out again. [corpus] This is **branch and bottleneck**, and it scales to any length precisely because divergence is bounded: the story can be wildly different in the middle of a stretch and identical at its seams. [researched] It is the dominant structure in commercial interactive fiction for the same reason it dominates escape rooms once a team grows past three or four people, where it shows up as the multi-linear room whose parallel chains all feed one finale. [corpus]
+
+The danger of convergence is that it can quietly undo the choices that led into it. Suppose three paths merge into one passage that handles every arrival the same way. The reader who took the hard road feels their effort evaporate. The repair is the felt difference. Where paths rejoin the prose still acknowledges which one the reader walked. [corpus] The bottleneck is the same event for everyone. Who arrives at it and in what condition is not. A character that died on one branch is not mentioned as alive on another. An ally remembers the betrayal. The reader reaches the same castle while the wounds and alliances they bring through the gate stay their own. This is the line between a bottleneck that respects the journey and one that erases it. The difference is almost entirely a matter of conditional text laid over a shared spine. The map of which shapes converge how is [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd); the technique of making the merge feel earned is the work here.
+
+The same trade-off plays out across the three shapes a designer reaches for most. The table is the quick version; the craft is in choosing deliberately rather than defaulting.
+
+| Shape | What it buys | What it costs | Reach for it when |
+|---|---|---|---|
+| Gauntlet | One strong authored story; cheap; minimal state | Limited agency; branches are mostly failure and rejoin | The protagonist's situation is meant to feel constrained (horror, survival) [corpus] |
+| Branch and bottleneck | Sustainable at any length; real divergence between seams | Early stretches feel similar; needs heavy state-tracking | Most long-form work, where journeys differ but destinations are shared [researched] |
+| Hub and spoke | Player-set order; exploration; bounded content | Less forward drive; spokes must each justify the return trip | The fiction is a place to roam, not a line to walk (investigation, open settings) [corpus] |
+
+The gauntlet, worth naming on its own, is the structure that branches only to prune. A strong central thread runs the length of it, and the side-branches mostly end in death or a quick rejoin. [researched] It reads as constraint, and so horror and survival reach for it. It is also the cheapest honest branching there is, because most of its branches are short and terminal. The cost is candour about agency. A gauntlet should feel like a tightening noose, or the reader will notice the walls.
+
+### State, flags, and the story that remembers
+
+Convergence on its own flattens. What keeps a bottlenecked story feeling responsive is state: the flags, counters, and categories that record what the reader did so that later passages can read them back. [corpus] A boolean flag remembers a fact (the queen was met; the secret is known). A counter accumulates a quantity (trust, corruption, gold). A category records a commitment (the rebel path, the mage class). Branch and bottleneck almost always rests on heavy state-tracking, because state is what lets a single shared passage wear a hundred faces without being written a hundred times. [researched] The Choice of Games house style is built on exactly this trade. Progress between vignettes runs nearly linear, while variables inside them record the consequences that matter. The next scene can then react without the structure having to fork. [researched]
+
+State is also the discipline that keeps the technique from becoming its own kind of waste. The rule runs both ways. Track what you use, and use what you track. [corpus] A flag that is set but never read is bookkeeping that pays nothing, and a consequence the reader earns but never sees is a promise quietly broken. The combinatorial-explosion problem is, underneath, a state problem. You tame it by tracking the few variables that genuinely steer the story and declining to fork on the rest. The tabletop tradition reached the same insight from the opposite direction: model the world as a web of information nodes joined by redundant paths rather than a flowchart of single arrows, because every arrow is a chokepoint where one missed step stalls the game. [corpus] The Three Clue Rule, that any conclusion the story needs the players to reach should have at least three independent trails pointing at it, is state-thinking for a medium where the reader can wander. [corpus] The graph parallel runs straight into the puzzle family, where the same dependency-mapping is [Information Architecture](../puzzles-clues-information/information-architecture.qmd).
+
+### Delayed consequence
+
+The most satisfying use of state is the long fuse. A choice in chapter two changes a flag and shows nothing; in chapter five the flag is read and the consequence lands, and the reader connects a cause they had half-forgotten to an effect they did not see coming. [corpus] This is the pattern that makes a story feel like it has been quietly paying attention all along. It costs almost nothing structurally, which is part of its appeal: no new branch, just a flag set early and read late.
+
+It does demand two things, and both are easy to skip. The original choice has to be memorable enough to recall when its consequence arrives, or the payoff lands on a reader who does not remember setting it up. And the connection has to be signposted when it pays off, because a consequence the reader cannot trace back to its cause reads as arbitrary rather than earned. [corpus] The escalation that delayed consequences feed into, the rising line of stakes across a branching story, is [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd); the way consequences chain into one another over a long arc is [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd).
+
+### The writing cost, stated plainly
+
+Branching is the only structural choice in this family that multiplies the prose. Every other decision about shape changes the order of the words; branching changes how many words there are. A designer who does not budget for that ships either a thin branching story or an unfinished one. [synthesis]
+
+The practical defences all spend the budget where it shows. Branch late rather than early, so that opening choices set state instead of structure and the expensive forking happens after the reader is invested. [corpus] Converge often, so divergence stays bounded between seams. Reach for state-based variation (the same passage in conditional clothes) over structural divergence wherever the reader would not feel the difference. [researched] And design backwards from the endings. In a branching story you cannot know what paths to lay until you know where they have to arrive. [corpus] The hunt designers put this most bluntly when they build parallel-convergent clue chains. Two trails feeding one finale buy coordination and texture. But if either trail alone can break the finale, the whole structure needs a fallback. A branch that can strand the reader is not a feature. [corpus]
+
+::: {.callout-note}
+### The Specimen
+Hatch Escapes' *The Ladder* (Los Angeles, 2024) is the clearest published branching escape room, and it is instructive precisely for how little it branches physically. Each player picks one of five avatars; the team moves through five decade-themed rooms; endings depend on puzzle completion, money earned, and moral choices locked in through buttons in the set, yielding eight or nine outcomes. But Adrian Hon's analysis lands on the key compromise: "It's not like you get entirely different rooms based on your choices." The branching lives in text, difficulty, scoring, and ending, absorbed by decision trees, while the durable physical sets stay shared. Even the boldest branching room varies the consumables and converges the assets, which is branch and bottleneck reasoning carried out in concrete and plywood. [corpus]
+:::
+
+## Where this fits
+
+**The bigger picture.** Branching craft is where the Structure & Pacing family meets its hardest economic limit. Every other article in the family shapes a story that already exists; this one decides how many versions of the story you can afford to write, and that decision constrains all the others. The shapes you can reach for are catalogued in [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd) and contrasted against physical rooms in [Escape Room Topologies](escape-room-topologies.qmd); the question of how much branching a given project can sustain is [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd). Branching also sits one step away from the systems layer, because state-tracking is where structure becomes machinery: the moment a flag gates a passage, you have crossed from narrative shape into the fiction-and-mechanics loop that [Moves & the Fiction–Mechanic–Fiction Loop](../systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd) describes.
+
+**Next steps.** Once the branch architecture is set, the live question becomes whether the choices inside it are genuine or cosmetic, which is the railroad-versus-agency axis of [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd). To make convergence feel earned rather than flattening, the technique sits in [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd). And to keep each branch from reading as a flat side-tour, every path needs its own rising and falling arc, which is the work of [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd) carried down into the individual branch.
+
+## Sources
+
+- Ashwell, Sam Kabo. "Standard Patterns in Choice-Based Games." These Heterogenous Tasks, 26 January 2015. <https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/>
+- Short, Emily. "Small-Scale Structures in CYOA." Emily Short's Interactive Storytelling, 5 November 2016. <https://emshort.blog/2016/11/05/small-scale-structures-in-cyoa/>
+- Choice of Games. "Vignette Structure as a Means of Controlling Branching." 2010. <https://www.choiceofgames.com/2010/01/vignette-structure-as-a-means-of-controlling-branching/>
+- Choice of Games. "How We Plan a ChoiceScript Game." 2010. <https://www.choiceofgames.com/2010/05/planning-a-choicescript-game/>
+- Coyne, Shawn. *The Story Grid*. Black Irish Entertainment, 2015. (The crisis as best-bad-choice or irreconcilable goods.)
+- Alexander, Justin. "Don't Prep Plots." The Alexandrian, 23 March 2008. <https://thealexandrian.net/wordpress/1124/roleplaying-games/dont-prep-plots>
+- Alexander, Justin. "The Three Clue Rule." The Alexandrian, 8 May 2008. <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
+- Campbell, -C. "On Slaying the Quantum Ogre." Hack & Slash, September 2011. <http://hackslashmaster.blogspot.com/2011/09/on-slaying-quantum-ogre.html>
+- Hon, Adrian. "The Ladder" (a structural analysis of Hatch Escapes' branching escape room). mssv.net, 6 July 2025. <https://mssv.net/2025/07/06/the-ladder-a-hilariously-absurd-surprisingly-replayable-escape-room/>
+- Hatch Escapes. "The Ladder." <https://www.hatchescapes.com/the-ladder>
+- Room Escape Artist. "Hatch Escapes: The Ladder Review." 26 June 2024. <https://roomescapeartist.com/2024/06/26/hatch-escapes-ladder-review/>
+- Indigoextra. "Treasure Hunt Clues and Ideas" (parallel-convergent chains, multi-group branching, backwards planning). <https://www.indigoextra.com/blog/treasure-hunt-clues-and-ideas>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
