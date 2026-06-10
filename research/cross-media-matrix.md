@@ -157,4 +157,9 @@ Theme-Mechanism Integration, Elegance/Emergence, Replayability, Solo Modes, and 
 social / co-op genre articles) are well-integrated and should be kept. The three *catalogue*
 articles (Boardgame Mechanism Vocabulary, Euro vs Ameritrash, Deckbuilders) are genuinely
 isolated from the other three media and are the candidates for cut, merge into a single
-reference appendix, or explicit "Tabletop-only" scoping. **Human decision required at Gate C1.**
+reference appendix, or explicit "Tabletop-only" scoping.
+
+**Gate C1 decision (applied):** RESCOPE. The 3 catalogue articles are kept but demoted to a
+**Tabletop-only reference appendix** (outline `Appendix 6Z`); the 7 boardgame design-principle
+articles stay as cross-media articles. No corpus notes moved; article count unchanged (116 =
+113 cross-media + 3 appendix). See `docs/outline.md` Family 6.

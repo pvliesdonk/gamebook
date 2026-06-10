@@ -232,8 +232,7 @@
 ### Group 6F — Safety as Mechanical Layer
 - **Safety Systems as Mechanical Layer** — safety baked into rules; Trophy Dark dice; Monsterhearts Strings. ← safety-systems-mechanical
 
-### Group 6G — Boardgame Mechanics Craft
-- **Boardgame Mechanism Vocabulary** *(map)* — 15 mechanism families with canonical titles. ← mechanism-vocabulary
+### Group 6G — Boardgame Design Principles *(cross-media)*
 - **Decision Space & Choice Design** — Meier's interesting decisions; dominant strategies; metagame health. ← decision-space-and-choice-design
 - **Elegance, Emergence & Randomness** — minimal rules/maximal behaviour; input vs output randomness. ← elegance-and-emergence, randomness-and-luck-management
 - **Theme-Mechanism Integration** — pasted-on vs load-bearing; mechanism-as-argument. ← theme-mechanism-integration
@@ -242,11 +241,9 @@
 - **Replayability** — variable setup, asymmetry, legacy, metagame. ← replayability
 - **Solo Modes** — Automa, bot decks, difficulty calibration. ← solo-modes
 
-### Group 6I — Boardgame Genre Traditions
-- **Euro vs Ameritrash: The Two Design Poles** — the two traditions and the hybrid era. ← eurogame-tradition, american-style
+### Group 6I — Boardgame Genre Traditions *(cross-media)*
 - **Cooperative & Legacy Genres** — co-op structure & quarterbacking; legacy permanence. ← co-op-games, legacy-games
 - **Social Performance Genres** — social deduction (hidden roles) and party games. ← social-deduction, party-games
-- **Deckbuilders** — Dominion lineage; deck-as-strategic-object; hybrids. ← deckbuilders
 
 ### Group 6J — Collaborative Narrative Control
 - **Distributing Narrative Authority** — token economies, scene-framing rights, rotating roles (mechanisms; the games are exemplars). ← narrative-authority-distribution-mechanics
@@ -256,6 +253,19 @@
 
 ### Group 6L — Digital Infrastructure
 - **Digital Gating & State** — web-app gating; server-side answer checking; state management. ← web-app-gating, game-state-and-answer-checking
+
+### Appendix 6Z — Boardgame Reference *(Tabletop-only)*
+- **Boardgame Mechanism Vocabulary** *(map)* — 15 mechanism families with canonical titles. ← mechanism-vocabulary
+- **Euro vs Ameritrash: The Two Design Poles** — the two traditions and the hybrid era. ← eurogame-tradition, american-style
+- **Deckbuilders** — Dominion lineage; deck-as-strategic-object; hybrids. ← deckbuilders
+
+*(Gate C1 decision — boardgame block rescoped. The Phase-3 cross-media matrix
+(`research/cross-media-matrix.md`, "Boardgame integration finding") showed these 3 articles
+are Tabletop-only islands (● Tabletop, – every other medium), while the boardgame **design
+principles** (6G Decision Space, Elegance/Emergence, Theme-Mechanism Integration; 6H
+Replayability, Solo Modes; 6I Cooperative & Legacy, Social Performance) cross-connect to IF/Live
+and stay as cross-media articles. These 3 are kept but demoted to a Tabletop-only reference
+appendix rather than cut. Article count unchanged (116): 113 cross-media + 3 appendix.)*
 
 *(Former group 6M — IF Authoring & Production — dissolved at Gate B: 6 IF-tooling notes
 dropped as out-of-scope; the 3 cross-media process notes promoted to a primer; the one real
