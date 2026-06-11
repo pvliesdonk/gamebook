@@ -17,7 +17,6 @@
   systems:   "The Engine Room",
 )
 #let fg-part-count = counter("fg-part-count")
-#let fg-primer-page = state("fg-primer-page", (:))  // family id -> primer page
 
 #set heading(numbering: none)
 
@@ -42,14 +41,14 @@
   #text(font: "Adobe Jenson Pro", size: 26pt, weight: "semibold", fill: ink-deep)[Contents]
   #v(1.2em)
   #context {
-    let primer-pages = fg-primer-page.final()
-    let leader = box(width: 1fr, inset: (x: 4pt), repeat[#text(fill: ink-faint)[.]#h(3pt)])
     let last = none
     for art in query(heading.where(level: 1)) {
       let loc = art.location()
       if not fg-in-body.at(loc) { continue }
       let f = fg-family.at(loc)
       let c = fam.at(f, default: amber)
+      let num = fg-article.at(loc).first()
+      let pg = counter(page).at(loc).first()
       if f != last {
         block(above: 1.1em, below: 0.45em)[
           #text(font: "Cronos Pro", size: 10pt, weight: "semibold", fill: c, tracking: 1.2pt)[#upper(fam-label.at(f))]
@@ -58,16 +57,14 @@
         block(below: 0.35em)[
           #box(width: 1.6em)[]
           #text(size: 10pt, style: "italic", fill: ink-muted)[#fg-primer-name.at(f, default: "") #text(font: "Cronos Pro", size: 8pt, tracking: 1pt)[· PRIMER]]
-          #leader
-          #text(font: "Letter Gothic Std", size: 8.5pt, fill: ink-muted)[#primer-pages.at(f, default: "")]
         ]
         last = f
       }
       block(below: 0.35em)[
-        #box(width: 1.6em)[#text(font: "Letter Gothic Std", size: 8.5pt, fill: c)[#fg-article.at(loc).first()]]
+        #box(width: 1.6em)[#text(font: "Letter Gothic Std", size: 8.5pt, fill: c)[#num]]
         #text(size: 10pt)[#art.body]
-        #leader
-        #text(font: "Letter Gothic Std", size: 8.5pt, fill: ink-muted)[#counter(page).at(loc).first()]
+        #box(width: 1fr, inset: (x: 4pt), repeat[#text(fill: ink-faint)[.]#h(3pt)])
+        #text(font: "Letter Gothic Std", size: 8.5pt, fill: ink-muted)[#pg]
       ]
     }
   }
@@ -133,10 +130,6 @@
 
   // The primer opener (the part's first reading, on the next page). Mirrors
   // the article opener but labelled "Primer" and unnumbered.
-  context {
-    let pg = here().page()
-    fg-primer-page.update(m => { m.insert(id, pg); m })
-  }
   block(width: 100%, above: 0pt, below: 0.9em, breakable: false)[
     #set par(justify: false)
     #line(length: 100%, stroke: 2pt + c)
