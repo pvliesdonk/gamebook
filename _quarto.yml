@@ -13,6 +13,7 @@ book:
         - content/primers/the-fairness-contract.qmd
         - content/primers/making-it-real.qmd
         - content/primers/the-shape-of-time.qmd
+        - content/primers/the-social-contract-and-safety.qmd
     - part: "Articles"
       chapters:
         - content/articles/index.qmd
@@ -60,6 +61,26 @@ book:
         - content/articles/structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd
         - content/articles/structure-pacing/hexcrawl-and-pointcrawl.qmd
         - content/articles/structure-pacing/west-marches-and-the-open-table-format.qmd
+        - content/articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd
+        - content/articles/players-social-dynamics/the-session-zero-playbook.qmd
+        - content/articles/players-social-dynamics/pre-game-workshop-design.qmd
+        - content/articles/players-social-dynamics/safety-tools-as-design-layer.qmd
+        - content/articles/players-social-dynamics/bleed-aftercare-and-debriefing.qmd
+        - content/articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd
+        - content/articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd
+        - content/articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd
+        - content/articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd
+        - content/articles/players-social-dynamics/team-splitting-strategies.qmd
+        - content/articles/players-social-dynamics/parallel-team-architectures.qmd
+        - content/articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd
+        - content/articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd
+        - content/articles/players-social-dynamics/player-types-and-casting.qmd
+        - content/articles/players-social-dynamics/spectator-friendly-design.qmd
+        - content/articles/players-social-dynamics/one-on-one-scene-design.qmd
+        - content/articles/players-social-dynamics/accessibility-in-live-and-interactive-games.qmd
+        - content/articles/players-social-dynamics/mixed-ability-groups-and-universal-design.qmd
+        - content/articles/players-social-dynamics/gm-role-models-and-stances.qmd
+        - content/articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd
     - part: "Keys"
       chapters:
         - content/keys/index.qmd

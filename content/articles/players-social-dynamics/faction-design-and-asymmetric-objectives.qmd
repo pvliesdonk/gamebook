@@ -1,14 +1,125 @@
 ---
 title: "Faction Design & Asymmetric Objectives"
-aliases: []
+aliases: ["Faction Structure", "Asymmetric Win Conditions", "Teams Within the Game"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [sustained-conflict, faction-loyalty, intra-team-tension, designed-drama]
+  problems: [we-all-win-equilibrium, dominant-player, irrelevant-faction, coalition-collapse]
+  components: [faction-brief, win-condition, role-separation, control-team]
+  genre: [political, sci-fi, thriller]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: Teams inside one game, each chasing a different prize and held apart by win conditions that cannot all come true at once.*
+
+A faction is a team that lives inside a larger game and wants something the other teams do not. Hand thirty people one shared goal and you get a committee. Split them into six factions with a private objective each, and you get a story that runs itself for six hours without a script. The drama is not authored beat by beat. It is set up at the start, in who wants what, and then released when those wants collide.
+
+The hard part is the collision. Players left to themselves will negotiate the conflict away, because for any one person the safe move is to trade rather than fight. A faction game that lets them do that deflates into a quiet afternoon of everyone agreeing. So the real craft is not inventing colourful teams. It is, first, designing objectives that cannot all be satisfied at once. It is then distributing the information that makes each faction worth its secrets. And it is keeping every faction causally wired into the game so none of them becomes scenery. This article is about that engineering. It treats factions as teams-within-the-game and looks at the asymmetric objectives that set those teams against each other. Its centre of gravity is the win-condition design that keeps every faction still playing when the clock runs out.
+
+## The Mechanism (How it works)
+
+### The faction as a team-within-the-game
+
+The clearest model comes from the megagame, a large structured live game of thirty to three hundred players running across a single day in discrete turns of twenty to forty minutes. [researched] Players are grouped into three to twelve factions, each with its own goals, internal structure, and private information. [corpus] The form grew out of the British wargaming community of the 1970s and 1980s, and Jim Wallman is its primary architect, with over eighty designs to his name. [researched] It reached a much wider audience in 2014 when Shut Up and Sit Down filmed a 300-player run of Wallman's *Watch the Skies*, and a community of hundreds became one of thousands. [researched]
+
+*Watch the Skies* is the canonical template for how a faction is built. A nation team holds four or five players, and each player holds a specialised role with its own information and its own decision rights. The Head of State controls the budget while the Foreign Minister works the United Nations table; the Chief of Defence runs the military map; the Chief Scientist sits at the science conference. [corpus] The split is physical as well as functional. Each turn those players sit at different tables across the room, so a teammate literally cannot watch what the others are doing. [corpus] That is the first design lever and the least obvious one. The faction is not a label on a name badge. It is a set of roles that can only act through the person holding them, which is what stops one loud player from swallowing the whole team. The structural question of who knows what, and how that knowledge is partitioned, is its own craft: [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd).
+
+### Asymmetric objectives: each faction wants something different
+
+The engine of the form is that no two factions are playing for the same thing. Wallman's design philosophy rejects a single source of victory points outright. The working rule, drawn from his principles, is at least three distinct victory conditions per faction, so a player makes real tradeoffs instead of grinding one optimal path. [researched]
+
+The most useful model for drafting those conditions borrows from Thucydides by way of megagame designer Tony Lock: Fear, Interest, and Honour, three orthogonal motivations every faction can carry at once. [researched]
+
+| Dimension | What it is | What it does at the table |
+|---|---|---|
+| Fear | A condition the faction will spend almost anything to prevent | Gives the faction a line it defends, and a lever rivals can threaten [researched] |
+| Interest | A material or positional gain the faction actively pursues | The competitive axis: the thing it fights another faction to get [researched] |
+| Honour | A behavioural constraint, a method or ally it will not abandon | Creates negotiating space, because it can coexist with a rival's success [researched] |
+
+The Honour dimension is the quiet one that makes the whole thing work as drama rather than arithmetic. An objective the faction holds as a constraint, rather than a prize, can be satisfied alongside another faction's victory. [researched] That overlap is what gives players something to trade short of betraying their own side, and it keeps the game from collapsing into pure resource extraction.
+
+Real briefs also tend to pair a hard target with a soft one. In *Watch the Skies 2*, France carried the concrete, measurable objective of preventing the United Kingdom from gaining a technological edge, while the United States carried the open-ended charge of remaining "the leading voice and guardian of freedom in the world." [corpus] One gives the player a scoreboard to chase; the other gives them an interpretive frame for everything else they do. The pairing recurs across runs because it serves both kinds of player, the optimiser and the role-player, from the same sheet of paper. [corpus]
+
+### Enforcing asymmetry fairly
+
+Asymmetric objectives only matter if a faction's advantages are real and held only by that faction, which means the secret information behind them has to be genuinely hard to reach. Megagames enforce this through several layers working together rather than any single rule. [corpus] Physical separation puts different sub-games at different tables so a player cannot stumble onto what they have no business knowing. Role-gating ties a briefing or a map to the one role allowed to touch it. And a Control team, the only party with a full view of the board, mediates what espionage actually reveals, deciding turn by turn what a successful spy mission hands over. [corpus]
+
+The most cited mechanism here is the double-blind master map. Control holds the complete picture while each faction sees only its own assets; everyone else's positions surface only through action. [corpus] The fairness it buys is the same contract that governs any honest game of hidden information, that a player can trust what the game tells them and reach what the game says is reachable. A puzzle hunt names that contract directly; a faction game inherits it. The shared promise that pressure and stakes only hold while players believe the game is run in good faith is the throughline of [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd).
+
+The same calibration cuts the other way as a hazard.
+
+::: {.callout-warning}
+### The Hazard
+The faction whose secret leaks too early stops playing the game you designed and starts playing a different one. A spy roll in the first act can expose a fact the structure meant to release in the third. Now the exposed faction is improvising in a hole nobody planned for. [corpus] The fix lives upstream in the Control brief rather than in the moment of the leak. Every secret should carry a note of how secret it is and who currently knows it. The brief should also set a ceiling on how much a single successful mission can let slip. [corpus] The Den of Wolves after-action report shows the flip side of the same lever. A Communications Officer held all the jump coordinates and doled them out selectively. This built an illusion of security that was fragile on paper but solid in play. Nobody had the slack time to cross-check it. [corpus] Information power scales with how unique a role's knowledge is and how busy everyone else is. To make a role load-bearing you keep its information genuinely scarce and leave the other players no spare moment to route around it. [synthesis]
+:::
+
+### Intra-faction versus inter-faction tension
+
+A faction game runs on two tensions at once, and they are tuned separately. The tension between factions is the obvious one, the competition the objectives create. The tension inside a faction is the subtler material, and the better megagames design it on purpose rather than hoping it emerges.
+
+The simplest source is shared scarcity under one roof. In *Watch the Skies* the Head of State distributes a fixed budget each turn, so the Chief Scientist wanting more for research and the Defence Chief wanting more for intercepts are in genuine, designed disagreement before any rival faction enters the picture. [corpus] Beyond that, intra-faction conflict comes in grades. The mildest grade is complete unity. A team that shares one objective can feel flat for exactly that reason. A step up is deliberate planted discord. Here a traitor or a rival sub-branch keeps tension alive from inside the team. The hottest grade is the team in name only. Its members openly pursue divergent goals, for the highest drama and the highest design cost. [corpus] The PAXsims Iran-Iraq War megagame ran the planted-discord grade hard, splitting a single nation into rival military branches with incentives to promote their own over the others, which produced realistic backstabbing as a feature rather than an accident. [corpus] The practitioner warning attached to all of this is worth repeating plainly: allow any intra-team conflict and you will very likely get more than you bargained for. [corpus]
+
+This internal structure is itself a design pattern with its own variants, the strict hierarchy, the flat team with a designated leader, the fully flat team with none, covered in [Parallel Team Architectures](parallel-team-architectures.qmd). The choice among them is mostly a choice about where the dominant-player problem will bite.
+
+### Keeping every faction in the game
+
+The win condition has one more job beyond driving competition: it has to keep all the players playing until the end. Several failure modes attack that, and each has a counter.
+
+The deepest is the "we all win" equilibrium, the dominant trap of the form. Given a choice, players negotiate competition away, because trading is individually rational even when it deflates the collective game. [corpus] No amount of exhortation fixes it. The structural counter is to embed objectives that cannot all be fulfilled at once. Scarce resources and exclusive territory do this, and so does a public ranking only one faction can top. The rule of thumb is that at least one win condition per faction must put it in resource competition with at least one other faction, so that even cooperative-minded players are eventually forced to compete. [corpus]
+
+::: {.callout-note}
+### The Specimen
+*Crisis in Elysium* (Alex Beck, SW Megagames) builds inter-faction conflict into the objectives so it needs no rule to enforce it. On a colonised Mars, four Earth governments compete with five radical factions whose aims are mutually exclusive in most combinations. Red Mars would keep the planet pristine. Green Mars would see it independent. One Humanity opposes an independent Mars outright. [corpus] Every faction plays the same four role types. What differs is venue access. Government Team Leaders sit on the Martian Council while other factions may have no council seat at all. [corpus] That single asymmetry in which doors a faction can walk through differentiates the experience without adding a line of differential rules. A player report from inside the game records the council buckling under eleven divergent positions and a corrupt officer sabotaging his own Governor unseen. In one beat an assassinated Governor learned who had ordered the hit, only to lose that knowledge on resurrection. None of it was scripted; it fell out of faction composition and information architecture grinding against each other. [corpus]
+:::
+
+Two more failure modes round out the set. The irrelevant faction is one whose actions never causally touch the game's main tensions. The test, applied at design time, is whether you can trace a path from that faction's actions to an outcome mattering to at least one other faction. A faction that fails the test is decorative. [corpus] The dominant faction is one that accumulates resources or territory faster than the rest. First-mover advantage then compounds. The counters are to stagger information access and to hand smaller teams a speed advantage so they can decide faster. Objectives that reward ongoing activity rather than a one-time capture also help. [corpus]
+
+A useful trick across all of these is to give a faction its own broadcasting infrastructure and a win condition that runs on exposure. The press team in *Watch the Skies 2*, three competing news organisations, is not a neutral chronicler. It chases the biggest story and trades interview access for favourable coverage through a PR score, and it can carry cards that reveal a nation's hidden alien technology. [corpus] In one documented run a media team gathered enough evidence of alien activity to go public, forcing every government to disclose before it was ready. [corpus] A faction whose victory is measured in revelation converts other factions' secrets into public events on a schedule the designer shapes indirectly, which is a clean way to keep private information from sitting inert all day.
+
+### The same shape in hidden-role games and in solo play
+
+Scale the faction down to a hidden minority at a single table and you have the social-deduction game, the tabletop manifestation of the same asymmetric-objective design. [corpus] Mafia (Dmitry Davidoff, 1986) set the template of an informed minority against an uninformed majority. *The Resistance* (Don Eskridge, 2010) kept everyone in the game by removing elimination. *Secret Hitler* (Temkin, Boxleiter and Maranges, 2016) and *Blood on the Clocktower* (Steven Medway, 2022) later added policy tracks and a licenced Storyteller. [corpus] The faction here is the traitor team, and its win condition is asymmetric by construction. The loyal majority wins by exposure, the hidden minority by reaching its own threshold undetected. The traitor role even carries a characteristic failure of its own, a drift toward passive obstruction rather than dramatic sabotage, because active sabotage risks exposure while quiet obstruction is hard to detect and just as effective. [corpus] One megagame answer comes from the Megagame Assembly's McCarthy-era *Are You Now Or Have You Ever Been*. It gives every player a compromising secret, so that everyone is a potential traitor at once. The result is a paranoid equilibrium richer than any single designated defector. [corpus] Where a game sits between cooperation and outright betrayal, and the failure modes specific to each, is its own axis: [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd).
+
+Single-player media reach the same effect without the room. An interactive narrative can simulate faction loyalty through a relationship matrix that records who is aligned with whom and lets those alliances shift as the player learns more. It works the way a confined-cast thriller fractures its ensemble as each revelation lands. The live state of those factions, their standings rising and falling as play proceeds, is tracked mechanically through [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd), the same widget that keeps a tabletop investigation's clue trails honest as the world shifts.
+
+### The relational alternative: factions without victory
+
+There is a whole tradition that builds faction-like structures and deliberately withholds the win condition. Nordic LARP large political games replace tracked objectives with overlapping social clusters and personal obligation, so conflict comes from character loyalty rather than scorekeeping. [corpus] *Just a Little Lovin'* (Tor Kjetil Edland and Hanne Grasmo, 2011) organises players into friendship circles rather than power blocs, and its competitive axis is not which faction wins but who survives and who is left at the end. [corpus] *Allegiance* (2022) staffs each embassy with players from that country and makes the question of loyalty, to country, ideology, relationship or self, the game's central design problem rather than a victory metric. [corpus] The choice between this and the megagame's clear scorekeeping is a values choice, not a quality one. The scoreboard generates strong commitment and visible drama at some emotional cost. The relational structure generates richer feeling, at the cost of outcomes that are harder to track. [corpus] A designer reaching for relational factions is picking the harder thing to measure and the more humane thing to feel, and should know that is the trade being made. [synthesis]
+
+## Where this fits
+
+**The bigger picture.** Faction design is the structural hub of this family. It is where the social pressure the family studies gets a frame to act inside. Hidden roles and information asymmetry supply the secrets, and the trust contract makes the stakes legitimate; faction objectives are what turn all of that into sustained conflict instead of a single tense moment. The asymmetric win condition is the load-bearing piece. Let every objective be satisfiable at once and the cleverest role distribution in the world will still deflate into the "we all win" handshake. Put at least one objective per faction in genuine competition with another's and the game develops its own drama with no further help from the designer. The other social mechanisms generate and govern the pressure; faction design is what aims it.
+
+**Next steps.** To build the secrets a faction's advantage rests on, start from the structural choice of what to hide in [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd), then decide where the game sits between cooperation and betrayal through [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd). To structure the team itself and contain the dominant-player problem, work through [Parallel Team Architectures](parallel-team-architectures.qmd). The pressure those collisions create rests on the same consent foundation as the rest of the family, which is [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd). And where factions persist across a longer game, their shifting standings are tracked against [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd) and shaped over time by [Campaign Arc Shapes](../structure-pacing/campaign-arc-shapes.qmd).
+
+## Sources
+
+- "Megagame." Wikipedia. (30 to 300 players, discrete turns, double-blind master map convention.) <https://en.wikipedia.org/wiki/Megagame>
+- Megagame Makers UK. (Genre definition; Jim Wallman as primary designer, 80-plus designs.) <https://megagamemakers.uk/>
+- Shut Up and Sit Down. "We Play a Megagame" (Watch the Skies 2 at the Camden Centre with 300 players). <https://www.shutupandsitdown.com/videos/susd-play-megagame-2-pt1/>
+- "Watch the Skies Ten Years On." megagamemaker.com, May 2024. <https://megagamemaker.com/2024/05/07/watch-the-skies-ten-years-on/>
+- Sutton and Wandsworth Megagames. "Watch the Skies Roles Guide" (role separation, press team composition). <https://www.swmegagames.co.uk/watch-the-skies-roles-guide>
+- Mechanics Are Easy. "Drafting Objectives in Megagames" (the Fear / Interest / Honour model from Thucydides via Tony Lock). <https://texarkana23.wordpress.com/2020/09/30/drafting-objectives-in-megagames/>
+- Mechanics Are Easy. "Objectives and Problem-Solving in Megagames" (avoiding a single victory-point source; at least three win conditions). <https://texarkana23.wordpress.com/2024/05/09/objectives-and-problem-solving-in-megagames/>
+- MSSV. "Playing Press at Watch the Skies," April 2018 (PR score and blackmail-card mechanics; the press as a faction). <https://mssv.net/2018/04/05/playing-press-at-watch-the-skies-megagame/>
+- Sutton and Wandsworth Megagames. "Crisis in Elysium Roles Guide" (four government and five radical factions; shared role types, asymmetric venue access). <https://www.swmegagames.co.uk/crisis-in-elysium-roles-guide>
+- BeckyBecky Blogs. "Crisis in Elysium" and "How to Write a Megagame, Teams (Part 8)" (team command structures; the dominant-player problem). <https://beckybeckyblogs.com/game-design/megagame-design-8-teams/>
+- Megagame Assembly. "The Traitor Problem" and "Megagame Designer Thoughts: Are You Now Or Have You Ever Been" (passive obstruction; the everyone-is-a-potential-traitor model). <https://www.megagameassembly.com/blog/the-traitor-problem>
+- Patrick Rose. "Den of Wolves After-Action Report" (role-gated information as exploitable power; the illusion of security). <https://www.patrickrosemusic.co.uk/blog/megagame-after-action-report-den-of-wolves>
+- PAXsims. "Game Design Challenges in Building a Megagame Simulation of the Iran-Iraq War," November 2017 (rival military branches within one nation as designed intra-faction conflict). <https://paxsims.wordpress.com/2017/11/23/game-design-challenges-in-building-a-megagame-simulation-of-the-iran-iraq-war/>
+- Davidoff, Dmitry. *Mafia* (1986); Eskridge, Don. *The Resistance* (2010); Temkin, Boxleiter and Maranges. *Secret Hitler* (2016); Medway, Steven. *Blood on the Clocktower* (2022). The social-deduction lineage and its asymmetric traitor win conditions. <https://en.wikipedia.org/wiki/Blood_on_the_Clocktower>
+- Nordic Larp Wiki. "Just a Little Lovin'" (Edland and Grasmo, first run 2011); "Culture, Community and Layers of Reality: Playing Allegiance," October 2022. <https://www.nordiclarp.org/wiki/Just_a_Little_Lovin'>
+- Stoddard, Brandes. "LARP Design: Factions and Goals," July 2019 (campaign-LARP faction retention mechanics). <https://www.brandesstoddard.com/2019/07/larp-design-factions-and-goals/>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd)
+- [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd)
+- [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd)
+- [Parallel Team Architectures](parallel-team-architectures.qmd)
+- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
+
+<!-- BACKLINKS:END -->

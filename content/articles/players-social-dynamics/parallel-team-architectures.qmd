@@ -1,22 +1,118 @@
 ---
 title: "Parallel Team Architectures"
-aliases: []
+aliases: ["Multi-Team Design", "Convergent vs Competitive Teams", "Megagame Faction Architecture"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [inter-team-drama, designed-interdependence, shared-world-state, event-scale-play]
+  problems: [isolated-parallel-teams, runaway-leader-team, control-overload, idle-winners]
+  components: [team-relationship, shared-space, control-team, master-state]
+  genre: [thriller, historical, sci-fi]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: The choice of how many teams in one room relate to each other, from polite strangers to rival powers sharing a board.*
+
+The moment a live game holds more than one team, a question opens that decides almost everything after it. What are these teams to each other? Answer that they ignore each other and you have several small games sharing a venue. Answer that they need each other and the room fills with traders and brokers. Answer that they are rivals on one board and you get diplomacy, betrayal, and a story nobody wrote down in advance.
+
+That single relationship is the architecture. It sets the social texture players will feel and, quietly, the operational bill the people running the game will pay. A racing format barely needs a referee once it starts but costs a fortune to build. A faction game needs almost no scenery but burns a Control team alive keeping every thread alive at once. This article is about those four shapes, how teams come to share or fight over one world, and what each one asks of the people holding it together.
+
+## The Mechanism (How it works)
+
+### The four shapes
+
+There are four architectures worth naming, and the difference between them is the relationship they force between teams rather than the theme painted over it. The table sets them side by side; the sections after it work through what each one costs to run. The structure of a single team, its size and how it splits its labour internally, is a separate craft covered in [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd) and [Team Splitting Strategies](team-splitting-strategies.qmd). What concerns us here is the layer above that: how whole teams relate.
+
+| Architecture | What teams are to each other | Information between teams | Control load | Suits |
+|---|---|---|---|---|
+| Convergent | Mutually dependent; nobody can finish alone | Horizontal, traded and negotiated | Medium to high: seeding and arbitration [corpus] |  Long events, relationship-building |
+| Competitive | Rivals racing one finish line | Minimal; interaction is optional | Low in play, high to build [corpus] | Selection events, skill benchmarking |
+| Hybrid | Cooperate inside the team, compete between teams | Vertical within, adversarial across | Medium [corpus] | Mid-size events, mixed goals |
+| Faction (megagame) | Nested rivalries on one shared board | Multilateral, split by role | High: many subsystems at once [corpus] | Large events, 60-plus players |
+
+### Convergent: nobody finishes alone
+
+In a convergent architecture no single team holds enough to progress. Each one carries a fragment, and the full picture only assembles when teams seek each other out and trade. [corpus] The reward is social investment. A team that builds relationships early can call in favours later; one that cheats on a trade earns a reputation that closes doors for the rest of the event. [corpus]
+
+The failure mode is legibility. If a team cannot easily see that it needs what another team holds, the trading loop never starts and the room goes quiet. So Control has to seed the information gaps loud enough to send players looking, yet not so loud that the trade feels scripted. [corpus] The usual levers are held-information fragments (each team gets part of an answer, the whole needs assembly across the room), resource complementarity (what one team makes, another consumes), and neutral spaces that physically put strangers in the same place, such as a market floor or a United Nations chamber. [corpus] A shared room is the cheapest interaction mechanic there is. The megagame learned that the hard way, and the puzzle hunt arrives at it from the other direction in [Puzzle Hunt Craft](../puzzles-clues-information/puzzle-hunt-craft.qmd).
+
+### Competitive: the scoreboard is the drama
+
+A competitive architecture points every team at the same finish line and ranks them by speed or score. Interaction is optional and mostly hostile. The clearest case is the escape-room tournament: identical or near-identical rooms run together, with teams ranked by completion time. The World Escape Room Championship runs a two-stage version. An online qualifying round filters more than seven hundred teams down to the dozen who meet in a physical final. Separating the speed filter from the prestige finale spares the organisers the ruinous cost of building enough identical rooms for everyone. [researched]
+
+The appeal is clarity. A player always knows where they stand, and the scoreboard carries the tension on its own. The cost is isolation. Run teams in parallel with no contact and you are running several single-team games in one building, with the shared space supplying atmosphere but no interdependence. [corpus] Room Escape Artist puts the failure plainly. Parallel challenges are like parallel lines that run alongside each other without ever crossing. The split that was meant to create interaction then generates none. [researched] Competition pays off in a few specific cases. It suits an event that is itself a selection mechanism, or one where raw speed is the skill being tested. It also suits a player population that turns up already sorted into rival teams. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The structural trap in a pure race is the idle winner. The fastest team finishes early and then has nothing to do. It sits and watches the slower teams grind on, demoralised by a scoreboard that has already named the loser. The cheaper the format looked on paper, the worse this bites, because the saving came from stripping out the very interactions that might have kept a finished team busy. Time-banking is the usual softener. A fast finish unlocks bonus content rather than an early exit, so extra speed still earns more play for the team that earned it. [corpus] An architecture that leaves a winning team with nothing to do but spectate is not finished.
+:::
+
+### Hybrid: cooperate inside, compete outside
+
+The hybrid layers cooperation within a team against competition between teams, and it is probably the most common shape for a medium event of twenty to eighty players because it keeps a team cohesive while giving the wider game a competitive spine. [corpus] Inside a team, resources are pooled and everyone wins or loses together; between teams it is zero-sum.
+
+The craft is making the boundary between the cooperative layer and the competitive one explicit and stable. When players cannot tell whether a rival's offer is genuine or a trap, the mental load spikes and trust drains out of the room. [corpus] One reliable fix hands teams non-overlapping domains of competition, so the game's own geography keeps the layers apart rather than leaning on player goodwill. The escape-room world reaches the same conclusion at small scale with what Room Escape Artist calls the symmetrical perpendicular split. Two sub-groups work separate puzzle sets and have to exchange information to progress. Each side gets roughly the same volume of game. [researched] That symmetry is the point. It mandates interaction instead of merely permitting it. It also gives each side equal content, so neither is left waiting. The logic carries straight up to the multi-team event. Make the interaction structurally required and the hybrid holds even with players who would otherwise keep to themselves.
+
+### Faction: nested rivalries on one board
+
+The richest parallel architectures come from the megagame, the large structured live game of fifty to three hundred players running interlocking systems under a full Control team. [corpus] The relevant move here is not the design of any single faction, which is the subject of [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd), but how the factions are wired to each other across the board. Becky Annison's writing on megagame teams names three internal structures, and each one produces a different texture between factions. [researched]
+
+A strict hierarchy with command layers, as in Jim Wallman's *Not Over By Christmas*, concentrates decisions. The faction moves decisively and its behaviour is legible from outside, which makes diplomacy between factions easier, at the cost of players near the bottom feeling underused. [researched] A flat structure with a designated leader, the pattern of *Watch the Skies* and *Mirrorshades*, spreads action across role-specific subsystems (defence, science, diplomacy) while keeping one face for negotiation, so other factions know whom to approach. This is the dominant megagame shape because it satisfies the everyone-has-something-to-do constraint and stays legible to outsiders. [researched] A fully flat faction with no official leader turns internal negotiation into a gameplay layer of its own, narratively rich but slow to commit, because no single player can bind the faction to a deal. [researched]
+
+The relationships between factions can be nested several layers deep. A coalition format can run rivalry inside a coalition (players competing for a loyalty bonus) alongside rivalry between coalitions, with every coalition also measured against a shared endgame metric none of them controls alone. [corpus] Faction asymmetry adds another axis. *Watch the Skies* deliberately sizes nations unequally, a large United States against a small Fiji, to model real power gaps. The historical resonance is real, but a smaller team must be handed a compensating edge of some kind, whether agility or a unique resource or control of a bottleneck. Otherwise it is simply under-resourced and stops mattering. [corpus] Why asymmetry between teams generates durable drama rather than a foregone conclusion is the throughline of [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd).
+
+::: {.callout-note}
+### The Specimen
+*Watch the Skies*, first run by Jim Wallman in London in 2013, is the seminal alien-contact megagame and the canonical demonstration of a shared-board faction architecture. Each nation's cabinet collaborates internally while diplomacy between nations runs adversarial by default, the textbook hybrid. The design then opens a deliberate seam in that rivalry. Scientific progress is free to share, which runs a sub-layer of cooperation between otherwise hostile nations. The alien threat then hands every faction a common metric none of them can beat alone. The United Nations chamber is the load-bearing piece of staging. It is a neutral space that physically gathers rival players each turn. A building full of separate tables becomes one negotiating world. The architecture does the work that no amount of player goodwill would manage on its own. [researched]
+:::
+
+### How teams share one world state
+
+Under every multi-team architecture sits one question of bookkeeping: who holds the authoritative state of the world, and how do teams act on a board they cannot fully see. The standard answer in the faction game is the double-blind master state. Control holds the complete picture while each team sees only its own assets, and everyone else's positions surface only through action. [corpus] That is what lets teams genuinely compete over a shared world without any one of them being able to read the whole thing off the table. The same hidden-state machinery sits under the structural side of social play in [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd).
+
+Keeping that shared state synchronised and fair is most of what Control actually does in play. When teams trade information, Control has two jobs. It checks that what gets traded is plausible, so a single wild lie cannot destabilise the whole board. It also keeps seeding fresh information at a rate that holds the trading loops open for the full length of the event. [corpus] The fairness this protects is the same contract that governs any honest game of hidden information: a player can trust what the game tells them and reach what the game says is reachable. A faction game inherits that promise from the puzzle hunt, where the trust runs between designers and a whole community rather than across a single room, the subject of [Designer-Community Trust in Long-Form Hunts](designer-community-trust-in-long-form-hunts.qmd).
+
+### Coordination overhead: the bill nobody budgets
+
+Every parallel architecture generates coordination cost, and a designer who does not budget for it explicitly will watch it eat the event's energy without producing any play. [corpus] The cost shows up in three places.
+
+| Where the cost lands | What drives it | What it asks of the design |
+|---|---|---|
+| Within a team | Scales with team size and how distributed the roles are | A dedicated team-time window each turn so information cascades back from players out at subsystem tables [corpus] |
+| Between teams | Scales with the number of interaction points | Structured shared spaces (a chamber, a market) rather than only bilateral channels, so players address many parties at once [corpus] |
+| On Control | Scales with trading and with the number of live subsystems | Verifying traded information and seeding new information across the whole event [corpus] |
+
+The within-team figure is concrete. Annison notes that a four-person team needs at least a five-minute team window every turn for information to cascade from players who have been out at subsystem tables back to the team as a whole, and a larger or more distributed team needs proportionally longer. Skip that window in the turn structure and teams fragment into individuals chasing local goals with no shared plan. [researched] Between teams, structured shared spaces earn their keep because they scale better than bilateral mechanics: five factions with no meeting space generate at most ten bilateral channels a round, but a single chamber lets a player address several parties at once without adding to that fatigue. [corpus]
+
+Control overhead is the line most often underestimated, and it falls hardest on exactly the convergent and faction designs that look cheapest because they need no built scenery. [corpus] The relationship is worth stating plainly. A competitive race front-loads its cost into infrastructure (identical rooms, synchronised scoring) and then runs almost unattended, while a convergent or faction game front-loads almost nothing and then demands constant live arbitration. The architecture you can afford depends as much on whether you have build budget or staff hours as on what social texture you want. That running burden itself, and why the person holding the game usually cannot also play it, is [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd).
+
+## Where this fits
+
+**The bigger picture.** Parallel team architecture is the structural frame the rest of multi-team social design hangs on. It sits one level above the single team, where it decides the relationship between teams before any individual faction or role or objective is drafted. It sits one level below the event as a whole, where it turns a designer's intent for social texture into an operational cost the Control team carries. Pick the architecture wrong and no amount of clever faction writing rescues it. A convergent game whose dependencies are illegible stays silent. Idle winners deflate a competitive one. A faction game falls into confusion when Control cannot keep the state synchronised. The right pick matches the social texture you want against the resources you actually have, whether those run to build budget or to hours of staff time. Get that match right and the whole charged range of event-scale play becomes runnable.
+
+**Next steps.** Once the architecture is chosen, the design moves down a level into the teams themselves: how big each one should be in [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd) and how it divides internally in [Team Splitting Strategies](team-splitting-strategies.qmd). To draft the objectives that make a faction architecture generate drama rather than a stalemate, work through [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd), and to decide how cooperative or adversarial the whole thing should feel, [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd). The running load every architecture here lands on the people holding it is [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd). Where the same parallel-thread logic shapes a persistent shared map rather than a single event, the open-table tradition handles it in [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd).
+
+## Sources
+
+- Wallman, Jim. *It's Only A Game: Game Design Methodology* (2007 edition). Chestnut Lodge Wargames Group. (Convergent multi-faction design in political crisis games; the megagame design method and Control's role.)
+- Annison, Becky. "How to Write a Megagame Part 8: Teams." BeckyBecky Blogs. <https://beckybeckyblogs.com/> (Faction hierarchy models, the team-time window, and coordination tradeoffs.)
+- "Last Turn Madness: Jim Wallman on megagames." PAXsims, October 2016. <https://paxsims.wordpress.com/2016/10/> (Wide-area megagame architecture and inter-city communication design.)
+- "Escape Room Design Tip: Split Team Challenge Structures." Room Escape Artist, 27 November 2023. <https://roomescapeartist.com/2023/11/27/escape-room-design-tip-split-team-challenge-structures/> (Parallel vs perpendicular splits; the "symmetrical perpendicular" model and the "parallel lines never touching" critique.)
+- "About the Championship." ER Champ (World Escape Room Championship). <https://erchamp.com/about-the-championship> (Two-stage online-qualifier-plus-physical-final format for parallel competitive escape-room play.)
+- "World Escape Room Championship Online Qualifiers." Room Escape Artist, 18 June 2025. <https://roomescapeartist.com/2025/06/18/world-escape-room-championship-online-qualifiers-set-for-june-28-2025/> (Field of 700-plus teams filtered to a 12-team physical final.)
+- "About." Watch the Skies. <https://watchtheskies.net/about/> (National team roles, the UN chamber as forced-interaction space, and the 2013 London debut.)
+- "Megagame." Wikipedia. <https://en.wikipedia.org/wiki/Megagame> (Wallman's "rules as a framing structure" philosophy and the designer-as-Dungeon-Master Control stance.)
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
+- [Designer-Community Trust in Long-Form Hunts](designer-community-trust-in-long-form-hunts.qmd)
+- [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd)
+- [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd)
+- [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd)
+- [Team Splitting Strategies](team-splitting-strategies.qmd)
+- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [Treasure & Scavenger Hunts](../puzzles-clues-information/treasure-and-scavenger-hunts.qmd)
 - [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)
 

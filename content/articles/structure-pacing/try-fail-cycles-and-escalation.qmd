@@ -109,5 +109,6 @@ The escape-room industry runs the same engine in physical space, where it shows 
 - [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
 - [The Shape of Time](../../primers/the-shape-of-time.qmd)
 - [Time Loop Patterns](time-loop-patterns.qmd)
+- [Trust, Conformity & Social Pressure](../players-social-dynamics/trust-conformity-and-social-pressure.qmd)
 
 <!-- BACKLINKS:END -->

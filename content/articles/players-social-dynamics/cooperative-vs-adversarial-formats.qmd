@@ -1,14 +1,120 @@
 ---
 title: "Cooperative vs Adversarial Formats"
-aliases: []
+aliases: ["Co-op vs Competitive", "Format Spectrum", "Traitor Mechanics"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [shared-fate-bonding, paranoia, faction-identity, table-temperature]
+  problems: [quarterbacking, player-elimination, kingmaking, uneven-teams]
+  components: [win-condition, hidden-objective, traitor-role, team-structure]
+  genre: [mystery, thriller, party]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: The choice of who plays with whom and against whom, which sets the social temperature before a single rule is written.*
+
+Before you pick a puzzle or a scene, you make one decision that colours everything after it. Are the players with each other, against each other, or some measured mix of both? It looks like a difficulty dial. It is not. The format is the social architecture of the evening. It decides whom a player trusts, how they talk to the people beside them, and what they feel when the game ends. [corpus]
+
+A cooperative escape room and a competitive megagame can run the same puzzles and produce completely different evenings. One sends strangers home as a bonded team; the other sends them home with stories of who betrayed whom. The puzzles did not do that. The format did. [corpus]
+
+So the working order is backwards from how most people reach for it. Choose the social experience you want first, then build the challenge to fit it. The most common mistake is the reverse: picking a format for the puzzle difficulty it allows rather than the relationships it creates. [corpus]
+
+## The Mechanism (How it works)
+
+### Five positions on one spectrum
+
+Most live designs land on one of five positions, and the interesting ground is rarely at either extreme. The table below is the map. Each row is a different answer to the question of who is allied with whom, and each carries its own signature failure mode that the rest of this article works through.
+
+| Format | Social temperature | Where it fits | Signature failure |
+|---|---|---|---|
+| Fully cooperative | Shared-fate bonding, safety for the unsure | Escape rooms, mission LARPs, collaborative hunts | The Alpha Player / quarterbacking [corpus] |
+| Team versus team | Faction identity, diplomacy, rivalry | Megagames, faction LARPs, competitive hunts | Uneven teams; runaway internal conflict [corpus] |
+| One versus many | Asymmetric challenge, a natural spotlight | Megagame control, hidden-movement hunts | The "one" burns out; the many feel railroaded [corpus] |
+| Social deduction | Suspicion, performance, public accusation | Party-scale games, murder mysteries | Elimination removes a guest from the event [corpus] |
+| Semi-cooperative / hidden traitor | Paranoia, betrayal, the mid-game reveal | Larger narrative games, embedded-antagonist LARPs | Kingmaking; pacing collapse; objective imbalance [corpus] |
+
+The spectrum runs from full alliance at the top to full opposition further down, with the hidden traitor as the deliberate scrambling of the two. What the format hides and from whom is the structural engine underneath these positions, and that engine has its own article: [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd). This article is about what each position does to the room.
+
+### Fully cooperative play and the Alpha Player
+
+Cooperation bonds people through a shared obstacle. It is the natural format for escape rooms, mission-driven LARPs, and collaborative scavenger hunts, where the pleasure is a group finding it is more capable together than apart. It is also the safest format for a less confident player, so team-building events and beginner experiences favour it. [corpus]
+
+Its signature failure is well documented, and it is structural rather than a personality flaw. The Alpha Player problem, also called quarterbacking, is the moment one experienced participant starts piloting everyone else, narrating the optimal move until the others become hands executing one person's plan. [corpus] Pandemic designer Matt Leacock has said the problem is intrinsic to open-information cooperative games and can be reduced but never fully removed. [researched] The designer Erik Twice frames it as a symptom of three root causes rather than a single fault: the game is too shallow, so one mind can compute the best play for the whole group; the players differ too much in skill; or the social behaviour at the table simply licenses one person to take over. [researched]
+
+Every effective mitigation is a way of making total optimisation by one person impossible. The cleanest is to give each player private knowledge nobody else holds. Hanabi (Antoine Bauza, 2010) makes you hold your own cards facing away from yourself, so you are an expert on everyone but yourself and literally cannot quarterback. [researched] Restricting communication does the same work from another angle: The Crew (Thomas Sing, 2019) allows a single signal token per round, so nobody can dictate another player's hand. [researched] Simultaneous commitment removes the chance to sequence the table at all. A clock does it by brute force, so most physical escape rooms resist quarterbacking simply by running in real time, with no room for the long directive monologue. [corpus] And deep role asymmetry overloads the would-be pilot: Spirit Island (R. Eric Reuss, 2017) gives each player a distinct spirit with its own powers, so no single mind has the bandwidth to model every seat. [researched]
+
+There is a useful corrective to the idea that good cooperation means harmony. A study of escape-room teams found that the more successful groups communicated more tensely, not less, keeping a low but steady rate of friction and disagreement to the end. [researched] Productive cooperation involves renegotiation. Design for frictionless consensus and you produce the Alpha Player collapse, because friction is exactly what keeps several minds engaged instead of deferring to one. The Alpha Player is the cooperative cousin of the Alpha Player problem in social deduction, where reading skill rather than planning skill is what dominates, treated in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd).
+
+::: {.callout-note}
+### The Specimen
+Sherlock Holmes Consulting Detective (Raymond Edwards, Suzanne Goldberg and Gary Grady, 1981) shows cooperation and free investigation coexisting with no referee at all. The team works a casebook, a London directory, and a newspaper archive in whatever order it likes, then scores its path against Holmes's hundred-point benchmark and loses points for every extra location it consulted. As the first cooperative game to win the Spiel des Jahres (1985) it is the historical anchor for the no-host, open-investigation format that later campaign and legacy mysteries inherit. [researched] Its quarterbacking risk is real, since one dominant reader can drive the whole case, so the practical move is to hand the documents out so every player is reading and investigating something. [corpus]
+:::
+
+### Team versus team
+
+Splitting a large group into competing teams is the most reliable way to manufacture identity and stakes. Inside a team you get loyalty and a shared language and tight cooperation; between teams you get rivalry, diplomacy, and the occasional betrayal. The megagame is the mature form. Watch the Skies (Jim Wallman, first run 2013) seats several national factions of three to five players, each with distinct ministerial roles, who cooperate internally while they negotiate, deceive, and sometimes fight each other, all against a structural alien antagonist. [researched]
+
+Two design notes carry across the whole family. First, fixed internal roles, a defence minister and a science lead and a foreign minister, prevent quarterbacking inside a team by spreading the authority around, the same mechanism that defuses it in pure cooperation. Second, internal conflict is volatile. The megagame designer Becky Annison warns that if you permit any betrayal from within, you get more than you planned for, because real social friction compounds once it is licensed. [researched] So you calibrate how much internal treachery the format invites and you brief the players on it rather than leaving it to chance.
+
+The principal risk is uneven team composition. One stacked or experienced team can run away with it and deflate everyone else. The fix has two parts. Seed the teams by hand rather than letting them form along lines of friendship. Then hand the trailing teams an asymmetric lever of their own. A piece of private information or a standing alliance or a swing in some scheduled event keeps the final outcome genuinely live. [corpus] That asymmetric-objective surface is its own craft: [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd). How many players each team can hold before it splinters is a separate constraint, covered in [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd).
+
+### One versus many
+
+A single adversary against the group gives you asymmetric challenge and a natural spotlight: the control team in a megagame, the hidden mover in Scotland Yard (1983), the monster in a hidden-movement hunt. It works on two conditions. The asymmetry has to run through information or capability rather than raw statistical advantage, so the many feel outwitted rather than merely outnumbered. And the many have to keep genuine agency, because if their choices cannot meaningfully threaten the one, they feel railroaded. The mirror risk sits on the other side of the table, where the lone player carries the cognitive and emotional load for everyone and burns out, so that role wants rotating or supporting in any long event. [corpus]
+
+### Social deduction and player versus player
+
+Pure adversarial party formats, the Mafia and Werewolf lineage (Dmitry Davidoff, 1986), run entirely on suspicion and performance. Their classic flaw in a live context is player elimination. A guest voted out in round two then sits silent for the rest of the evening, which is a design failure at a social event rather than a feature of it. [corpus] The Resistance (Don Eskridge, 2009) is the influential fix, replacing elimination with mission success or failure so every player stays active the whole game. [researched] Any live design that borrows the social-deduction engine should inherit that lesson. Removing a guest from the event must never be a core mechanic. The usual substitutes keep the removed player in the room with something to do. A ghost role can still influence the table. A second character lets them back into the fiction. A session short enough that the wait never bites does the same job by another route. [corpus] These formats run on live social pressure. The way co-presence makes an accusation land in the body is the subject of [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd).
+
+### Semi-cooperative and the hidden traitor
+
+The most generative social territory sits where a shared goal is quietly undermined from inside, either by a concealed defector or by private objectives that may conflict with the group win. Battlestar Galactica (Corey Konieczka, 2008) is the template, with hidden Cylon loyalty and a mid-game sleeper activation that delivers a second dramatic reveal partway through. [researched] Dead of Winter (Jonathan Gilmour and Isaac Vega, 2014) softens the format by giving every player a secret personal objective and only an optional traitor, so a player can quietly succeed while the group fails without anyone having to be an active saboteur. [researched] Nemesis (Adam Kwapinski, 2018) defuses one of the format's worst tendencies by making "nobody wins" a common and valid outcome, which removes the incentive for a doomed player to wreck the game for everyone. [researched]
+
+The failure modes here are specific and worth naming before play rather than discovering during it. Kingmaking is the first: a player who can no longer win is left holding the power to decide who does. Pacing collapse is the second: suspicion and investigation swallow the whole session and the narrative goes nowhere. The third is a hidden objective so badly weighted that the traitor's job becomes either trivial or impossible. When the format does land, though, the payoff is unmatched in live play, the genuine paranoia of real people in a real room. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The hidden traitor is the most fragile format to balance, and its quiet killer is kingmaking. Once a player works out they cannot win, a badly built game leaves them with nothing to do but decide someone else's fate, and they will usually do it out of spite or boredom rather than fiction. The tell during playtesting is a player who has gone silent and is watching the clock rather than the table. The structural fix is not table etiquette. It is to make sure that "nobody wins" is always a real and respectable outcome, so a losing player still has a goal worth playing toward to the final beat, instead of a free hand to ruin the evening. [synthesis]
+:::
+
+### How the spectrum reaches the screen
+
+These formats are live-game native, but their grammar carries into single-player work, where a relationship matrix stands in for the room. Interactive fiction simulates the hidden-traitor table through NPC loyalties the player has to read without a tell to watch, and runs the cooperative-deduction feel through a cast that investigates alongside the player. The competitive and cooperative genres that this whole spectrum feeds into, treated as systems rather than as social temperature, sit in [Cooperative & Legacy Genres](../systems-mechanics/cooperative-and-legacy-genres.qmd). A non-Western hybrid worth studying directly is jubensha, the Chinese script-based mystery games that took off from around 2016, where each player is at once a cooperative detective and a self-protective suspect. Adrian Hon observes that the social-type variant is rarely about solving the mystery at all. It runs instead on competition between players, on faction-forming, and on hard negotiation, which makes it the closest small-group cousin to the megagame's blend of alliance and rivalry. [researched]
+
+## Where this fits
+
+**The bigger picture.** Format is the first social decision and the one the rest of this family inherits. It sets the table's temperature, and every other mechanism here then operates within that temperature. Trust and accusation only bite once a format has decided who is opposed to whom; safety tooling and the session-zero agreement matter most precisely where the format manufactures real friction; faction and team structure are how a chosen format is built out into seats and objectives. Choose the format for the relationships you want, because no clever puzzle or role distribution rescues a format picked for the wrong reason. Get the format right and the whole social range, from frictionless bonding to genuine paranoia, opens up to be built deliberately.
+
+**Next steps.** To build the engine underneath whichever format you chose, start from what it hides and from whom in [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd). For team-versus-team and hidden-traitor designs, the objective surface is [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd), and the seating constraints are [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd). Where the format generates real social pressure, as the adversarial and traitor formats do by design, the live dynamics and their consent layer are [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd).
+
+## Sources
+
+- Leacock, Matt. *Pandemic* (Z-Man Games, 2008). Designer commentary that quarterbacking is intrinsic to open-information co-ops and can only be mitigated. <https://www.leacock.com/pandemic>
+- Twice, Erik. "The 'alpha player' in coops is a symptom, not the disease." eriktwice.com, 12 March 2021. <https://eriktwice.com/en/2021/03/12/alpha-player-cooperative-games-symptom/>
+- Bauza, Antoine. *Hanabi* (Cocktail Games / R&R Games, 2010). Cards held facing away as a structural anti-quarterbacking mechanism; Spiel des Jahres 2013. <https://en.wikipedia.org/wiki/Hanabi_(card_game)>
+- Sing, Thomas. *The Crew: The Quest for Planet Nine* (Kosmos, 2019). Single-token communication restriction.
+- Reuss, R. Eric. *Spirit Island* (Greater Than Games, 2017). Deep per-player role asymmetry against quarterbacking.
+- O'Szabo, Rebeka, Sandeep Chowdhary, David Deritei and Federico Battiston. "The anatomy of social dynamics in escape rooms." *Scientific Reports* 12 (2022): 10498. Successful teams keep a low but steady rate of tense communication. <https://www.nature.com/articles/s41598-022-13929-0>
+- Edwards, Raymond, Suzanne Goldberg and Gary Grady. *Sherlock Holmes Consulting Detective* (Sleuth Publications, 1981; Space Cowboys edition 2017). Landmark no-host open-investigation co-op; first cooperative game to win the Spiel des Jahres (1985).
+- Wallman, Jim. *Watch the Skies* (megagame, first run 2013). Team-versus-team faction structure with fixed internal ministerial roles. <https://watchtheskies.net>
+- Annison, Becky. "How to Write a Megagame Part 8: Teams." beckybeckyblogs.com. Internal conflict compounds once licensed.
+- Davidoff, Dmitry. *Mafia* (1986); Eskridge, Don. *The Resistance* (2009). The elimination failure mode and its no-elimination fix.
+- Konieczka, Corey. *Battlestar Galactica: The Board Game* (Fantasy Flight Games, 2008). Hidden loyalty and the mid-game sleeper reveal.
+- Gilmour, Jonathan and Isaac Vega. *Dead of Winter* (Plaid Hat Games, 2014). Secret personal objectives with an optional traitor.
+- Kwapinski, Adam. *Nemesis* (Awaken Realms, 2018). "Nobody wins" as a valid outcome that defuses kingmaking.
+- Hon, Adrian. "Here's what makes jubensha different." mssv.net, 2025. The cooperative-competitive small-group mystery hybrid. <https://mssv.net>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd)
+- [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd)
+- [Parallel Team Architectures](parallel-team-architectures.qmd)
+- [Player Types & Casting](player-types-and-casting.qmd)
+- [Spectator-Friendly Design](spectator-friendly-design.qmd)
+- [Team Splitting Strategies](team-splitting-strategies.qmd)
+- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
+- [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
+
+<!-- BACKLINKS:END -->

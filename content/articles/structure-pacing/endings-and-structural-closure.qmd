@@ -123,6 +123,7 @@ The full-circle ending is one move that pays off especially well in any medium t
 ## Referenced by
 
 - [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
+- [Bleed, Aftercare & Debriefing](../players-social-dynamics/bleed-aftercare-and-debriefing.qmd)
 - [Campaign Arc Shapes](campaign-arc-shapes.qmd)
 - [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd)
 - [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)

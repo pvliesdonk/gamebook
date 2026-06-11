@@ -112,7 +112,9 @@ Puzzle hunts meet it as the roster-based distributed event. A long-form hunt sus
 
 - [Campaign Arc Shapes](campaign-arc-shapes.qmd)
 - [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd)
+- [Parallel Team Architectures](../players-social-dynamics/parallel-team-architectures.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
+- [Spectator-Friendly Design](../players-social-dynamics/spectator-friendly-design.qmd)
 - [The Shape of Time](../../primers/the-shape-of-time.qmd)
 
 <!-- BACKLINKS:END -->

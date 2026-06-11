@@ -1,14 +1,98 @@
 ---
 title: "Pre-Game Workshop Design"
-aliases: []
+aliases: ["Pre-Larp Workshop", "Calibration Workshop", "Relation Workshop"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, tabletop, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [shared-fiction, group-trust, calibrated-intensity, emotional-coherence]
+  problems: [unsafe-pressure, cold-start, untaught-safety-tools, bleed-carryover]
+  components: [calibration-mechanic, relation-exercise, safety-contract, de-role-ritual]
+  genre: [horror, drama, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: The hour before the game where strangers become a group that can trust each other enough to go somewhere hard together.*
+
+A run that asks players to grieve, betray, or love each other in fiction cannot start cold. If the first scene is also the first time these people have spoken, the relationships have no weight and nobody knows yet whether the room is safe to feel things in. The Nordic larp tradition answers this by treating the time before play as part of the design rather than a queue at the door. Players arrive, and for the next few hours they learn the tools that will let them steer the intensity of a scene. They build the history their characters are supposed to already share. They rehearse, too, how they will come back out of it at the end.
+
+This is the pre-game workshop. It is where the group is assembled as a group: a set of people who have agreed what the game will ask of them and practised the moves that let them regulate it, with the shared fiction warmed up enough that the first real scene already has somewhere to stand. The claim underneath is humane and practical at once. A tool taught here gets used; a tool printed in a rulebook does not. The trust the game will later spend has to be built before there is anything to spend it on.
+
+## The Mechanism (How it works)
+
+### The workshop is the first act, not the orientation
+
+Nordic larp does not treat the pre-game session as an optional briefing. It is a structural component of the designed experience, run before a multi-day event and typically lasting between two and six hours. [corpus] Its job is to assemble the social conditions the run depends on, and the design assumption is that those conditions will not assemble themselves once play starts. The Danish tradition pushes this furthest. The workshop becomes a co-creative layer that runs across a full weekend, where organisers and players develop the game together and part of the design is produced in the room rather than handed down finished. [researched]
+
+This reframes a question many designers answer by accident. The default in a lot of play cultures is that orientation is overhead to be minimised, so the briefing shrinks toward a quick rules summary and a wave toward the start. The workshop view inverts the priority. What happens before the run shapes what is possible in the run, so the time is spent rather than saved. [corpus] The cost is real, since several hours of guided preparation is a genuine ask of players' time, and a design has to decide that the run earns it.
+
+### Calibration mechanics: the tools that let pressure go further
+
+The heart of the workshop is a small set of mechanics that let a player adjust the intensity of a scene in real time without having to argue for it. These are the same tools as the broader [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd), but the workshop is where they stop being a list and become muscle memory. The Nordic kit forms a layered system, from a hard stop down to a quiet exit, and the layering is the point: a player reaches for the lightest tool that does the job. [corpus]
+
+| Mechanic | What it does | The signal | Origin |
+|---|---|---|---|
+| Cut | Halts all play immediately; co-players step back and check what the person needs | The word "Cut", said aloud | Borrowed from film; the Norwegian "kutt" predates the English spread [researched] |
+| Brake (or Largo) | Reduces intensity without stopping the scene | The word "Brake", or "Largo" | Nordic community; "Largo" adopted at New World Magischola, 2016, to avoid clashing with ordinary speech [researched] |
+| OK Check-In | A discreet welfare check between two players mid-scene | The "OK" gesture; reply thumbs-up, thumbs-down, or flat palm | Emerged in US practice 2009 to 2015; the three-response form was set by Maury Brown, Sarah Lynne Bowman and Harrison Greene at New World Magischola, 2016 [researched] |
+| Lookdown | Leaves a scene with no explanation and no support asked for; others treat the player as absent | Shield the eyes, walk away | Created by Trine Lise Lindahl and Johanna Koljonen, 2016 [researched] |
+
+Two of these are easy to confuse and worth separating, because the workshop has to teach the difference. The OK Check-In is a request for information: one player is asking another whether they are alright, and it expects an answer. The Lookdown asks for nothing. It is a player removing themselves from a scene for any reason, in- or off-game, with no welfare claim attached and no help wanted. [corpus] Teaching them as a pair, and naming that one is a question and the other is not, prevents the common error of treating every exit as a crisis.
+
+The reason these are taught by doing rather than telling is that an untaught tool is an unused tool. The Safety Contract toolkit is part of the designed experience precisely because players physically perform Cut, Brake and Lookdown in the workshop before they ever need them in play. [corpus] The deeper logic is the one the trust literature keeps returning to. Safety is what lets pressure go further; it is not a brake on it. A player who trusts that the intensity is theirs to regulate will accept more of it, and so the workshop's calibration drills are what make the run's hardest scenes possible. This is the live-room form of the consent floor described in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd).
+
+### Relation workshops: building the history the fiction assumes
+
+A scene between two characters who are supposed to be old friends falls flat if the players meet at the door. The relation workshop fixes this by building actual relational history between players before the event begins, so an in-game relationship carries emotional weight from the first scene. [corpus] The technique is structured improvisation: players are paired or grouped and given tasks that establish backstory, shared memory and a bit of texture. Questions like "what did our characters argue about last summer?" or "what does your character know about mine that mine does not know you know?" cost nothing and pay out through the whole run. [corpus]
+
+Chemistry between players is buildable rather than given. It is not something that either exists or does not; it can be workshopped, by doing certain things together in a graded sequence from distant to close and from non-verbal to verbal. [researched] Practitioner methods formalise this. One is a six-step progression that adds interaction by degrees. Another reaches for eye-contact exercises or a length of string between two players to explore physical proximity before any character words are spoken. [researched] What they share is the sequencing. Trust between the people comes first. Only then can the characters' relationship be built on top of it. A player will not invest in a fictional bond until they feel safe with the person across from them. [researched]
+
+This is the live-room cousin of the agreement-setting work in [The Session Zero Playbook](the-session-zero-playbook.qmd). The two shade into each other. Session zero in a tabletop campaign and the larp relation workshop are the same act wearing different coats. Both are a structured pre-game session that settles tone and expectations and hands over the safety tools, then ties the characters into a shared social world before the first real scene. [synthesis] The tabletop version is usually a conversation around a table. The larp version is more often on its feet, with physical exercises. The function is one function.
+
+::: {.callout-note}
+### The Specimen
+*Just a Little Lovin'* (Tor Kjetil Edland and Hanne Grasmo, Norway 2011) is a larp about desire and the fear of death set across three Fourth of July parties in early-1980s New York, in the first years of the AIDS crisis. Its three-act structure puts an act break each in-game morning, during which players learn which characters have sickened or died, so accumulated loss and dramatic irony are designed features rather than accidents. [researched] A run like this is unplayable cold. The grief only lands because the relation workshop has already given these characters a shared past to lose, and the calibration mechanics let players carry genuine uncertainty about death without carrying genuine distress. The workshop is what licenses the run to aim that high. It has run six times internationally, including a 2017 staging in Minnesota. [researched]
+:::
+
+### De-roling rehearsal: practising the way out
+
+A workshop that only prepares the entrance leaves players to find the exit on their own. Intense play creates bleed. The Nordic tradition uses the word for the leak between character feeling and player feeling (it is credited to Emily Care Boss). [corpus] Negative bleed can be residual hostility toward a player whose character did harm. It can be grief that outlasts a character's death. The slow transfer of an antagonist's manner into a player's own after long immersion is another form of it. Managing it is a design responsibility, not a player's personal failing. [researched]
+
+The workshop's contribution is to rehearse the way back. A de-roling ritual marks the return from character to self, and rehearsing it before the run means the move is familiar when it is needed, when players are tired and full of feeling. [corpus] The rituals are deliberately simple: going around the group with each player stating their character's name and then their own, or a physical gesture that signals the frame is closed. [corpus] The closing debrief that follows the run is its own craft, covered in [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd); the workshop's job is the rehearsal, so that the exit is practised rather than improvised. It helps to name bleed during the pre-game calibration. Something as plain as "this one might be close to home for some of us, so we will check in afterward" makes it ordinary. A player is then less likely to be left handling an unexpected emotion in private. [corpus]
+
+### What ports down to a small group
+
+These conventions were built for events of thirty to a hundred-plus people across several days. That scale can make them look like infrastructure a kitchen-table game cannot afford. Most of it is not. The calibration mechanics need no infrastructure at all. Four players in a living room can adopt the lot for the price of ten to fifteen minutes of teaching and practice, which is the single highest-value import from the tradition. [corpus] A thirty-minute relation conversation before play lifts the emotional coherence of a session substantially. A closing de-role of one sentence each reduces carryover. Designating one person as the welfare contact for the evening gives players someone to speak to without it becoming a scene. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The mandatory part is mandatory for a reason, and the failure mode has a documented shape. When New World Magischola ran four hours of pre-game workshops in 2016, with six recommended, a single player who skipped the sessions went on to create interpersonal conflicts across the whole event. The team's response was a policy of mandatory make-up sessions before any latecomer could enter play. [researched] The lesson generalises past larp. A workshop builds a shared baseline: the same safety tools and calibrated expectations for everyone, and the same relational groundwork underneath. A player who misses it is not merely under-briefed. They are working from a different contract than everyone else. That gap surfaces as friction exactly when the pressure is highest. Letting one person opt out quietly undermines the floor for the whole room. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** The pre-game workshop is where this family's separate strands are bundled into one usable hour. The consent agreement and the safety tools are each their own mechanism. So is the social groundwork that makes trust spendable. The workshop is the one occasion on which a group actually installs them together before play. It sits upstream of almost everything else in live and intense play. The pressure of an accusation, the weight of a betrayal, a scripted death and its grief: none of this lands well if the group was never assembled as a group first, and none of it lands safely. Treat the workshop as the first act of the design and the run inherits a foundation; treat it as a queue at the door and the run starts on sand.
+
+**Next steps.** To set the content and tone agreement the workshop installs, work through [The Session Zero Playbook](the-session-zero-playbook.qmd), and to choose and teach the in-the-moment tools themselves, [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd). The pressure all this preparation is meant to make bearable is the subject of [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd), and the closing half of the same arc, the de-role and debrief the workshop rehearses, is [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd). Where the workshop's relation-building scales down to charged two-person play, the calibration applied to intimate scenework is [One-on-One Scene Design](one-on-one-scene-design.qmd).
+
+## Sources
+
+- Stenros, Jaakko, and Markus Montola, eds. *Nordic Larp*. Fëa Livia, 2010. (Diana Jones Award 2012; the tradition's emotional-design principles and the workshop-as-design-layer view.) <https://nordiclarp.org/wiki/Nordic_Larp_(book)>
+- Brown, Maury. "Creating a Culture of Trust through Safety and Calibration Larp Mechanics." nordiclarp.org, 9 September 2016. (Cut, Brake/Largo, the OK Check-In, and Lookdown; origins and use.) <https://nordiclarp.org/2016/09/09/creating-culture-trust-safety-calibration-larp-mechanics/>
+- Koljonen, Johanna. "Safety and Calibration Design Tools and Their Uses." nordiclarp.org, 24 January 2018. (The layered tool set and how it is taught.) <https://nordiclarp.org/2018/01/24/safety-calibration-design-tools-uses/>
+- Bowman, Sarah Lynne, and Maury Brown. "Safety and Calibration in Larps." Knutepunkt 2017 proceedings. nordiclarp.org. <https://nordiclarp.org/wp-content/uploads/2017/02/Safety-Calibration-in-Larps-Knutepunkt-2017.pdf>
+- "Pre-larp Workshop." Nordic Larp Wiki. (Workshop functions; the Danish co-creative-layer tradition.) <https://nordiclarp.org/wiki/Pre-larp_Workshop>
+- "Building Player Chemistry." nordiclarp.org, 17 July 2024. (Chemistry as buildable; the graded six-step progression from distant to close.) <https://nordiclarp.org/2024/07/17/building-player-chemistry/>
+- Edland, Tor Kjetil, and Hanne Grasmo. *Just a Little Lovin'* (Norway, 2011). "Just a Little Lovin'." Nordic Larp Wiki. (Three-act structure; designed loss; international runs.) <https://nordiclarp.org/wiki/Just_a_Little_Lovin%27>
+- "Bleed: The Spillover Between Player and Character." nordiclarp.org, 2015. (Bleed-in, bleed-out, negative bleed, de-roling as a design responsibility. Term credited to Emily Care Boss, Ropecon 2007.) <https://nordiclarp.org/2015/03/02/bleed-the-spillover-between-player-and-character/>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd)
+- [One-on-One Scene Design](one-on-one-scene-design.qmd)
+- [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
+- [The Session Zero Playbook](the-session-zero-playbook.qmd)
+- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
+
+<!-- BACKLINKS:END -->

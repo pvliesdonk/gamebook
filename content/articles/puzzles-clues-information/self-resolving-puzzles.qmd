@@ -110,6 +110,7 @@ The seductive failure is to trust the verdict. A self-resolving mechanism gives 
 - [Digital Props](../space-props-materiality/digital-props.qmd)
 - [Hidden Compartments & Reveal Mechanisms](../space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd)
 - [Hint Systems & Recovery](hint-systems-and-recovery.qmd)
+- [Host Roles & the Host-Cannot-Play Problem](../players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)
 - [Information Architecture](information-architecture.qmd)
 - [Lock Taxonomy](../space-props-materiality/lock-taxonomy.qmd)
 - [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd)

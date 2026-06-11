@@ -1,24 +1,126 @@
 ---
 title: "The Session Zero Playbook"
-aliases: []
+aliases: ["Session 0", "The Pre-Game Agreement", "Group Contract", "Campaign Setup Session"]
 family: "Players & Social Dynamics"
-media: []
+media: [tabletop, live-game, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [shared-expectations, consent-foundation, group-buy-in, fewer-mid-campaign-ruptures]
+  problems: [mismatched-tone, undiscussed-commitment, unsafe-content, strangers-at-table]
+  components: [campaign-pitch, content-calibration, safety-tool, character-link, feedback-round]
+  genre: [mystery, horror, fantasy, sci-fi]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: The hour before play where the group settles what the game is and what it is not, and agrees how anyone can change their mind once it starts.*
+
+Every charged game runs on an agreement the players made before anyone rolled a die or read the first scene. The agreement is usually invisible. It only shows itself when it is missing. A player wrote a comedy character for what turned out to be a grim survival game. A table hits a topic one person cannot stand and has no way to say so. A group quietly dissolves three weeks in because nobody ever asked whether everyone could actually make it on Tuesdays. None of those are play problems. They are the residue of a conversation that never happened.
+
+A session zero is that conversation, held on purpose. It is the meeting before the campaign where the group sits down and settles the things play cannot settle for itself. What kind of story is this. What content is welcome and what is barred. How do the characters even know each other, and what does a person do when something stops being fun. Run well, it is the most productive hour a group spends. Skipped, its absence does not vanish. It surfaces later as conflict, and later is always a worse time to have the conversation.
+
+This article is the playbook for that hour. It is also the foundation the rest of this family stands on. The charged social play covered elsewhere, the accusation table and the manufactured pressure of [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd), is only legitimate because the players agreed to it here first. That agreement is what this article delivers.
+
+## The Mechanism (How it works)
+
+### The pre-game agreement, and why it is not optional
+
+A session zero produces one thing: a shared, explicit understanding of the game before the game starts. The practice is older than the name. Aaron Allston's *Strike Force* (1988) carried an explicit "group contract", and the first published roleplaying game to dedicate half an opening session to group worldbuilding and half to group character creation was Luke Crane's *Burning Empires* (2006). [researched] The term "Session 0" itself traces to forum posts from around 2003 and settled into common community use over the following years. [researched] It went mainstream slowly, reaching official guidance only when *Tasha's Cauldron of Everything* (2020) gave it three pages and the 2024 *Dungeon Master's Guide* folded it into the standard front matter with a game-expectations sheet. [researched]
+
+The reason it matters is not ceremony. The game system itself encodes values, and the players each arrive with their own. A session zero is where those are surfaced and reconciled before they collide in play. The same need shows up wherever people build something together under emotional load, and the structure recurs far outside the tabletop. A Nordic-larp pre-game workshop runs two to six hours of the same calibration before a multi-day event. [researched] An improvisation troupe's warm-up agrees the game and checks the room's energy before the first scene. [researched] A project team's charter settles working norms and how disputes get handled before the work starts. [researched] All of them are doing the session-zero job: agree the thing before you are inside it, because once you are inside it the cost of disagreeing has gone up.
+
+The agreement is also live for the single-player forms. Interactive fiction cannot hold a meeting, so its session zero is asynchronous and author-side: the content warning on the title screen, the spoiler-hygiene and welfare checks the author builds in instead of a room to read. [synthesis] The agreement is the same; only its delivery moves from a conversation to a notice.
+
+### The seven components
+
+A working session zero covers seven areas. Not every campaign needs each one in depth, but dropping one should be a choice the group makes on purpose rather than an omission they discover later. [researched]
+
+| Component | What it settles | The failure if skipped |
+|---|---|---|
+| The campaign pitch | Premise, tone, and what content to expect frequently versus rarely | Players build for the wrong game |
+| Schedule and logistics | Cadence, session length, the missed-session protocol, the channel | Attendance conflict three weeks in |
+| Content calibration | What is barred from the fiction, and what happens off-screen | A topic blindsides someone with no protocol |
+| Safety tools | Which in-play tools the group will use, taught by practice | The tool exists on paper and nobody reaches for it |
+| Character integration | How the characters already know each other | Session one opens with strangers and no reason to cooperate |
+| House rules and parameters | Sources, character-creation method, the decision norm for disputes | Rules arguments stall play with no agreed referee |
+| Conflict-resolution norms | How the group handles friction between people, characters, and the table | A small rupture escalates into a campaign-ending one |
+
+The pitch sets the tone, and it pays to make it concrete. A short premise of roughly sixty words, paired with three reference works that signal the register and a frank list of what the game will touch often versus rarely, does more than three paragraphs of world-lore. [researched] Saying a game is one thing crossed with another conveys a moral register that exposition cannot. [researched] The logistics item is the most mundane and the most neglected. Attendance that nobody talks through is a primary failure mode. Most groups never ask each other how reliably they can really show up, so the gap surfaces as resentment once the pattern emerges. [researched]
+
+Character integration is the quietly load-bearing one. Without it, session one opens on a group of strangers with no reason to act together, the problem of the party assembled by a convenient stranger. Several systems build the fix into their structure. *Apocalypse World*'s History questions produce asymmetric connection scores spoken aloud at the table; *Dungeon World* turned that into bonds; *Blades in the Dark* goes furthest, with a crew sheet the whole group makes together as a shared character before any individual play. [researched] For a system without such a mechanic, one round of the table answering "how does your character know one other person here, and what do they want from them?" does the work, as long as the answer is a specific relationship and not vague backstory overlap. [researched]
+
+### Calibrating content, and the toolkit it sits on
+
+Two of the seven components carry the consent load, and they work as a pair. The first is calibration: agreeing, before play, what the fiction will and will not contain. The standard frame is the Line-and-Veil technique, introduced by Ron Edwards in *Sex and Sorcery* (2003), the first treatment of emotional safety in a published roleplaying text. [researched] A Line is a topic barred from the game entirely. If it surfaces, the scene stops and the content leaves the fiction. A Veil is a topic that may exist in the story but is never shown on the page. It is faded to black and taken as having happened off-screen. [researched] The Line is an absolute limit. The Veil is an editorial choice about what stays out of view. The frame is sharper with two more categories. An "ask first" bucket holds content that needs a quick check before it enters. A "green light" bucket holds the themes players want the game to reach for. [researched] The point of the green light is easy to miss. Calibration is not only subtraction. It tells the person running the game what to aim at, alongside what to avoid.
+
+The second component is the toolkit that lets a player change the calibration once play has started. This is the **Safety Contract**: the set of in-play tools the group agrees to use, taught here and reached for later. The tap-out card, designed by John Stavropoulos (2013), is an index card marked with an X that any participant, the host included, can tap to remove content with no explanation owed. [researched] Stavropoulos's own framing is the whole philosophy in two sentences: we are here together, and the people playing matter more than the game being played. [researched] Where the tap-out card is a single unconditional exit, Beau Sheldon's Script Change (2013) offers film-editing controls with more grain. A caller can pause to halt play or rewind to revise what just happened. A fast-forward skips past content without cutting it from the story. [researched] Underneath both sits the Open Door. It is a norm rather than a card and is credited to Nordic-larp practice. Any participant can leave at any moment and for any reason. The group carries the responsibility for making that departure genuinely cost-free. [researched] It is the lowest-overhead tool in the set, and the one most worth stating out loud even when no card ever appears.
+
+::: {.callout-tip}
+### The Field Note
+The single highest-leverage habit in the whole playbook is to *practise* the safety tools rather than list them. A toolkit read aloud from a rulebook stays theoretical, and a player who has never tapped the card will not be the one to break a tense room by reaching for it first. So have everyone tap it once in a low-stakes moment during the session, and call a Script Change pause and resume it, before any of it is needed in earnest. The physical act is what encodes the permission. Sixty seconds of rehearsal is the difference between a tool the group owns and a tool that decorates the table. [synthesis]
+:::
+
+This is the exact point where the session zero becomes the foundation the rest of this family rests on. The charged pressure of an accusation phase is real even when the content is fiction, so it can only be built on a floor of consent the players laid in advance. That floor is the calibration round and the Safety Contract, agreed here. The in-the-moment mechanics of the contract are their own craft, covered in [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd); the heavier, longer-form version of this whole opening, run as structured exercises before a live event, is [Pre-Game Workshop Design](pre-game-workshop-design.qmd). Without one of those underneath it, designed pressure is just cost moved onto the players without asking.
+
+### Running the hour, and the failure modes that wait for it
+
+A two-hour session zero has a natural order, and the order is itself a safeguard. Logistics and pitch open it, the calibration round and safety-tool practice come next, then character integration, then house rules, then the schedule, with the closing reserved for a quick feedback round. The proportions flex by game. A rules-light narrative game spends its time on character links and almost none on house rules; a crunchy tactical one may need half an hour on character-creation parameters alone. [researched] Circulating a one-page campaign guide beforehand earns two things: players arrive with informed questions instead of blank confusion, and anyone who finds the pitch unappealing can opt out before the group has sunk a whole evening. [researched]
+
+Most of the ways a session zero fails come from letting it collapse into the part that feels like play.
+
+The character-creation party is the commonest. The group fills sheets, picks spells, and writes backstories, and the meta-discussion never happens, so session one opens with finished characters and no shared tone, no calibration, no tools. [researched] The remedy is order: hold the meta-discussion first, before a single sheet comes out. A second mode is host dominance, where the person running the game presents a detailed world and a fixed plan until the session is a briefing rather than a negotiation, and the players leave knowing the setting and nothing about each other's preferences. [researched] The host's job in this hour is mostly to gather information, not deliver it. The pitch stays short so the listening can run long. The most dangerous mode is starting play too early. Under time pressure the session gets cut short and calibration and safety tools get deferred to "next time". Next time is session one. By then the group is already in play. That is the worst possible moment to introduce these mechanics for the first time. [researched] When the clock is tight, cut the house-rules discussion and never the content negotiation. Rules can be clarified in play. A blindside cannot be un-hit.
+
+::: {.callout-note}
+### The Specimen
+The escape-room briefing is the same agreement under heavy time pressure, and watching it strain is instructive. The pre-game briefing is standard practice. The game master explains the rules and marks what not to touch, points out the exit, then says how to call for help and how to leave at any time. [researched] That is a session zero compressed into a few minutes, doing the calibration and Open-Door jobs at once. The strain is real, though. Operators know most people stop absorbing a rules briefing after roughly twenty seconds, and some venues have moved to deliberately colder, shorter starts because a long briefing kills the atmosphere it is supposed to protect. [researched] The lesson travels back to the table. The agreement has to be made, but a briefing nobody is listening to is not an agreement. Practise the one tool that matters most and state the exit plainly. Keep the rest light. [synthesis]
+:::
+
+### Closing the loop: Stars and Wishes
+
+A session zero is not a one-off. It opens a feedback loop the group keeps running, and the closing move of each later session is what keeps the agreement current. The most widely used tool for that is Stars and Wishes, created by Lu Quade and published through The Gauntlet in 2018. [researched] Each player offers one Star, a specific piece of praise for a moment they valued, and one Wish, a forward-looking request for something they would like to see. Quade built it as a gentler replacement for "Roses and Thorns". The shift swaps the backward-looking complaint of the thorn for the forward-looking wish, a small change that produces more generative feedback. [researched]
+
+The effect accumulates. The person running the game learns what the table actually values; the players learn to voice desire rather than grievance; and the campaign self-corrects continuously instead of waiting for a crisis to force the conversation. This is also where the calibration set first agreed at session zero stays alive, since any Line or Veil can be revised by anyone at any later session, no explanation required. [researched] The agreement is not a document signed once. It is a standing invitation to keep adjusting, which is the same forward-looking welfare work the closing of a charged game does at greater depth in [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd).
+
+## Where this fits
+
+**The bigger picture.** The session zero is the hub of this family because it is where consent is manufactured, and almost everything else in the family either generates pressure that consent has to bear or governs how that pressure lands. The charged play of a trust game, the role distribution that fuels it, the debrief that lands it afterwards. All of them assume an agreement was made first. This article is that agreement. Get it wrong by building pressure on a floor that was never laid, and no clever voting method or hidden-role structure can redeem the result. The cost has simply been pushed onto the players without their say. Get it right and the whole charged range of social play opens up on a foundation that can carry it. Far from being a brake on intensity, the calibration round and the Safety Contract are what let a group reach for more of it in good conscience.
+
+**Next steps.** With the agreement in place, the pressure it licenses is built in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd), and the in-play tools the calibration round selected are detailed in [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd). For a live event, the long-form version of this whole opening is [Pre-Game Workshop Design](pre-game-workshop-design.qmd), and the closing half of the same safety arc is [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd). The pitch and the host's posture during this hour connect to how authority is held at the table, which is [GM Role Models & Stances](gm-role-models-and-stances.qmd); and the way a session zero quietly casts each player into the role they will enjoy is part of [Player Types & Casting](player-types-and-casting.qmd). Where the agreement reaches past a single sitting into the shape of a whole campaign, it feeds [Campaign Arc Shapes](../structure-pacing/campaign-arc-shapes.qmd).
+
+## Sources
+
+- Alexander, Justin. "Thought of the Day: Evolution of Session Zero." The Alexandrian, 2019. <https://thealexandrian.net/wordpress/41262/roleplaying-games/thought-of-the-day-evolution-of-session-zero>
+- Crane, Luke. *Burning Empires*. Key 20 Publishing / Burning Wheel HQ, 2006. (First published RPG to split an opening session between group worldbuilding and group character creation.)
+- Edwards, Ron. *Sex and Sorcery*. Adept Press, 2003. (Origin of the Line-and-Veil technique.) RPG Museum: <https://rpgmuseum.fandom.com/wiki/Lines_and_veils>
+- Stavropoulos, John. The tap-out safety card (2013), Creative Commons Attribution-ShareAlike 3.0. <http://tinyurl.com/x-card-rpg>. Summary: <https://en.wikipedia.org/wiki/X-Card>
+- Sheldon, Brie Beau. Script Change RPG Toolbox (2013; updated 2019; final 2023). <https://briebeau.com/thoughty/script-change/>
+- Fatland, Eirik. The Open Door (Nordic LARP origin), in Stark, Lizzie. "A Primer on Safety in Roleplaying Games." 2014. <https://leavingmundania.com/2014/02/27/primer-safety-in-roleplaying-games/>
+- Quade, Lu. "Stars and Wishes." The Gauntlet, 22 August 2018. <https://www.gauntlet-rpg.com/blog/stars-and-wishes>
+- Shea, Mike (Sly Flourish). "Running Session Zeros." 2021. <https://slyflourish.com/running_session_zeros.html>; and "One-Page Campaign Guide." <https://slyflourish.com/one_page_campaign_guide.html>
+- Colville, Matt. "Pitching Your Campaign." Running the Game #51, January 2018. <https://www.youtube.com/watch?v=MtH1SP1grxo>
+- Wizards of the Coast. *Tasha's Cauldron of Everything* (2020), Chapter 4; and *Dungeon Master's Guide* (2024), session-zero front matter with the game-expectations sheet.
+- The Angry GM. "The Session Zero Blitz (Part Zero)." <https://theangrygm.com/session-zero-part-zero/>
+- "Pre-larp Workshop." Nordic Larp Wiki. <https://nordiclarp.org/wiki/Pre-larp_Workshop>
+- Giant Brain. "How to Play and Run Blades in the Dark." 2023. (Crew creation as session-zero structure.) <https://giantbrain.co.uk/2023/04/06/how-to-play-and-run-blades-in-the-dark/>
+- Spira, David. "A Case For Colder Starts To Escape Room Experiences." Room Escape Artist, 4 September 2022. <https://roomescapeartist.com/2022/09/04/colder-starts/>
+- Mission Escape Games. "What Are the Safety Measures in Place at Escape Room New York City?" (Pre-game briefing as standard safety practice.) <https://missionescapegames.com/blog/what-are-the-safety-measures-in-place-at-escape-room-new-york-city/>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
+- [Accessibility in Live & Interactive Games](accessibility-in-live-and-interactive-games.qmd)
+- [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd)
 - [Campaign Arc Shapes](../structure-pacing/campaign-arc-shapes.qmd)
+- [GM Role Models & Stances](gm-role-models-and-stances.qmd)
+- [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd)
+- [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd)
+- [One-on-One Scene Design](one-on-one-scene-design.qmd)
+- [Player Types & Casting](player-types-and-casting.qmd)
+- [Pre-Game Workshop Design](pre-game-workshop-design.qmd)
+- [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
+- [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd)
+- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
+- [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
 - [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)
 
 <!-- BACKLINKS:END -->

@@ -1,14 +1,100 @@
 ---
 title: "Safety Tools as Design Layer"
-aliases: []
+aliases: ["Safety Contract", "Calibration Tools", "Consent Mechanics"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [player-trust, regulated-pressure, graceful-exit, informed-consent]
+  problems: [unsafe-pressure, unused-tool, authority-gradient, sunk-cost-trap]
+  components: [safety-tool, calibration-signal, content-rating, check-in]
+  genre: [horror, thriller, mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: The controls a player can reach without leaving the fiction, designed in from the start rather than bolted on for the squeamish.*
+
+A safety tool is a small piece of protocol that lets a player adjust or stop the game's emotional content without having to argue for it. Tap a card and a scene rewinds. Catch someone's eye with a signal and they tell you whether they are all right. Say a single word and the action halts. None of this is therapy and none of it is a brake on intensity. It is the opposite. The tools are what let a designer build more pressure than would otherwise be safe, because the players know they can regulate it. [corpus]
+
+The mistake is to treat them as an add-on, a page near the back of the rulebook that the responsible designer includes and the bold one skips. Treated that way they sit unused, and an unused safety tool is worse than none because it advertises a protection that the table has quietly agreed not to touch. The work of this article is to show why the tools belong inside the design from the first sketch, who built each one and what it actually does, and the one rule that decides whether any of them get used: a tool taught in a workshop is used, and a tool buried in a rulebook is not. [corpus]
+
+## The Mechanism (How it works)
+
+### The toolkit and who built it
+
+The standard kit did not arrive all at once. It was assembled over two decades by named designers, mostly out of the tabletop and Nordic-larp communities, and the attributions matter because these are working tools that people rely on, not folklore. The table below is the canonical set, the same one named in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd), which is where the case for *why* designed pressure needs them is made. Here the concern is what each one does and when to reach for it.
+
+| Tool | Designer (year) | What it does |
+|---|---|---|
+| Lines and Veils | Ron Edwards (2003) | Names content the game will not contain (a Line) or will fade to black (a Veil), set before play [researched] |
+| X-Card / tap-out card | John Stavropoulos (2013) | Any participant taps a card to remove current content, no explanation required [researched] |
+| Script Change | Beau Jágr Sheldon (2013) | Film-editing verbs (rewind, fast-forward, pause) to edit a scene rather than only stop it [researched] |
+| OK Check-In | Maury Brown, Sarah Lynne Bowman, Harrison Greene (2016) | A non-verbal welfare query; the other player must answer, and silence reads as trouble [researched] |
+| Lookdown | Johanna Koljonen, Trine Lise Lindahl (2016) | Cover your eyes and walk out of a scene without breaking the fiction for others [researched] |
+| Cut / Brake | Nordic larp (in wide use by 2016) | Cut halts the scene; Brake says "do not intensify this further" without stopping it [researched] |
+| Open Door | Eirik Fatland (Nordic larp) | The standing right to leave the session at any time, for any reason, without cost [researched] |
+
+A few distinctions in that list earn their keep. The tap-out card is a blunt instrument by design: it has one verb, *remove*, and that minimalism is its strength, because there is nothing to negotiate in the moment a person needs out. [researched] Script Change supplies the grammar that card deliberately lacks. One scene rewinds and replays from an earlier point. Another jumps forward over the rough patch while it stays in the story. So not every kind of discomfort forces the same hard stop. [researched] The OK Check-In is the odd one out. It is not a stop signal at all but a demand-response query of the kind scuba divers use under water, where the absence of any answer is itself the alarm. [researched] Brake has no real tabletop equivalent, because it acts on intensity rather than on presence. It lets a scene continue while pulling its temperature down, which is often what a player actually needs when a hard cut would cost more than it saves. [researched]
+
+### Embedded or tabled: where the control lives
+
+A safety tool sits in one of two places, and where it sits shapes how it feels to use. A tabled tool lives outside the fiction. The tap-out card is a literal card on the table, and calling a Cut breaks the scene to handle something at the level of the players. These are the workhorses, and their honesty is part of the point: everyone present watches the protocol operate. The cost is that every use puts a small puncture in the fiction, a moment where the world stops being a world. [researched]
+
+An embedded tool hides the same function inside the story. A larp set in a royal court can build a culture where it is always acceptable to tire of a conversation and walk away, so a player who needs to leave a scene does so in character and the others absorb it as the character's mood. The production *Inside Hamlet* did exactly this, turning the right to exit into a feature of its bored, alienated court. [researched] An embedded tool keeps the world intact, which is its great advantage, but it asks more of the design: the escape has to be plausible inside the fiction and reliable enough that a distressed player can find it under pressure. Good safety design tries to make diegetic everything the story can carry and keeps the tabled tools for what the fiction cannot absorb, because every break in the fiction has a cost. [researched]
+
+Interactive fiction sits at the far end of this spectrum, and the difference is structural rather than a matter of taste. There is no co-present room to break and no shared scene to rewind, so the whole safety layer moves to the author's side and runs before the reader ever arrives. The controls become a clear content advisory up front and an option to skip or soften a scene, with enough spoiler hygiene that a warning does not itself give the game away. [corpus] The interactive-fiction craft tradition treats this as a quality bar in its own right, sitting alongside the bars for whether the story works and whether it is reachable. [corpus] A reader cannot tap a card, so the card has to have been dealt into the design months earlier, as a built-in filter or a reduced-intensity path rather than a live interrupt. How a branching story gates access to content it is not ready to show, or that the reader has asked not to see, is the digital cousin of this problem and belongs to [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd).
+
+### Why a workshop beats a rulebook
+
+This is the load-bearing finding of the whole field, and it is worth stating without hedging. Tools taught in a pre-game workshop get used. Tools printed in a rulebook do not. [corpus] The reason is social, not informational. A player who has read about the tap-out card knows it exists; a player who has actually tapped it once, in a low-stakes practice run, with the whole group watching nothing bad happen, has been given permission to tap it again when it counts. The first player knows the rule. The second player believes it. [researched]
+
+The barrier the workshop dismantles is the authority gradient, the quiet pressure that a host or gamemaster exerts simply by running the game. That gradient keeps an uncomfortable player in their seat long after they want to leave, and the studies behind that claim are handled in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd). What matters here is the fix. A tool used once, out loud, by someone other than the person in charge, proves that using it carries no penalty. The practice run is not a nicety. It is the mechanism by which the tool becomes real. Where the teaching itself is the design problem, that is the subject of [Pre-Game Workshop Design](pre-game-workshop-design.qmd), and the broader agreement the workshop sits inside is [The Session Zero Playbook](the-session-zero-playbook.qmd).
+
+::: {.callout-note}
+### The Specimen
+The clearest demonstration that teaching is what makes the kit work comes from New World Magischola, the Harry-Potter-styled wizarding larp that first deployed the OK Check-In as a standard mechanic in 2016, designed by Maury Brown together with Sarah Lynne Bowman and Harrison Greene. The check-in works as a demand-response signal. One player flashes the "OK" sign and the other has to answer back. A thumbs-up reads as fine. A flat wobbling hand asks the asker to keep an eye out. A thumbs-down is a request to get out, and no answer at all is the alarm. [researched] The signal only works because every participant rehearses it before play, so that under real stress the gesture and its three answers are already muscle memory rather than something to be looked up. The same designers run a calibration workshop of several hours before a major event, which is the live-game scale of the session-zero practice run. Teach the tool, rehearse the tool, and the tool fires when it is needed; print it and it stays on the page. [researched]
+:::
+
+### The complacency trap
+
+The failure mode that catches careful designers is the belief that owning the tools is the same as being safe. A tap-out card on the table does nothing if the table culture treats reaching for it as an admission of weakness, and a kit installed and then forgotten gives a false confidence that is more dangerous than having no kit at all, because it lets everyone stop paying attention. [researched] The tools lower the social cost of asking for a stop. They do not remove it. The designer's job does not end when the card is printed; it ends when the group has used the card once and learned that nothing bad happens.
+
+A second, subtler capture is worth naming. If the only person who ever calls a pause or acknowledges a tap is the gamemaster, the tool has quietly become one more lever of the host's authority, available to everyone in theory and to one person in practice. The whole point of an unconditional tool is that it belongs to every participant equally, which is precisely the property that defeats the authority gradient. A tool the host controls is not a safety tool; it is a stage direction. Who holds which authority at the table, and how that distribution is set, runs through [GM Role Models & Stances](gm-role-models-and-stances.qmd).
+
+### Calibration as a design choice, not a rescue
+
+There is a deeper way to think about all of this, and it reframes the tools from emergency equipment into ordinary design material. The aim is not only to give a frightened player an exit. It is to put a dial in every player's hand so the group can tune the intensity together as they go. Several of the tools are dials more than alarms. The flat-hand answer to an OK Check-In is a request for attention short of a stop. Brake lowers a scene's temperature without ending it, and a fast-forward moves the group past content rather than scrubbing it away. A game that hands its players controls like these is not a more timid game. It is one that can credibly aim higher, because the players are steering the pressure instead of merely weathering it. [synthesis]
+
+This connects to a quieter principle about who authors what. Paul Czege observed that when one person controls both a character's adversity and its resolution, the play goes slack, because nothing genuinely opposes the player. [researched] The safety layer is where the same logic runs in reverse and in the player's favour. The designer authors the pressure, but the player has to hold real authority over the release, or the pressure is not something they consented to so much as something done to them. A safety tool is the formal grant of that authority. It is what makes the difference between a hard scene the player chose to walk into and one they were merely placed inside. The intensest single-player work, where there is no co-present partner to read the signals, leans hardest on this and is the territory of [One-on-One Scene Design](one-on-one-scene-design.qmd).
+
+## Where this fits
+
+**The bigger picture.** Safety tools are the in-the-moment half of a two-part foundation. The agreement is set in advance, in the briefing where the group decides what the game will and will not do, which is [The Session Zero Playbook](the-session-zero-playbook.qmd); the tools are what let a player steer or stop the game once it is running. Neither half works alone. An agreement with no live controls leaves a player who changes their mind mid-scene with nowhere to go, and live controls with no prior agreement arrive as a surprise the group never rehearsed. Both rest on the same fact established in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd): designed pressure is genuine even when the content is fiction. That makes the layer regulating it part of the system rather than a contingency for the nervous. Build the pressure without it and you have not made a braver game. You have moved the cost onto the players without asking.
+
+**Next steps.** Once the tools are chosen, the work is teaching them, which is [Pre-Game Workshop Design](pre-game-workshop-design.qmd), since the workshop is the difference between a tool that fires and one that gathers dust. The pressure these tools regulate is built through the structural choices in [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd), and the high-intensity solo scenes that lean hardest on calibration are [One-on-One Scene Design](one-on-one-scene-design.qmd). Whatever residue the play leaves behind is closed out deliberately rather than left to disperse, which is [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd).
+
+## Sources
+
+- Edwards, Ron. *Sex and Sorcery*. Adept Press, 2003. (Origin of Lines and Veils, the first published explicit safety technique in a tabletop text.) RPG Museum: <https://rpgmuseum.fandom.com/wiki/Lines_and_veils>
+- Stavropoulos, John. "The X-Card" (2013, CC BY-SA 3.0). <http://tinyurl.com/x-card-rpg>. Overview: <https://en.wikipedia.org/wiki/X-Card>
+- Sheldon, Beau Jágr (Brie Beau Sheldon). "Script Change RPG Toolbox" (2013; revised 2019; final July 2023). <https://briebeau.com/thoughty/script-change/>
+- Brown, Maury, Sarah Lynne Bowman and Harrison Greene. The OK Check-In (New World Magischola, 2016). Brown, Maury. "Creating a Culture of Trust through Safety and Calibration Mechanics." nordiclarp.org, 2016: <https://nordiclarp.org/2016/06/14/creating-culture-trust-safety-calibration-mechanics-larps/>
+- Koljonen, Johanna. "Safety and Calibration Design Tools and Their Uses." nordiclarp.org, 24 January 2018. (Lookdown, Cut, Brake, the diegetic vs extra-diegetic distinction, the *Inside Hamlet* embedded-exit example, and the OK Check-In as a demand-response signal.) <https://nordiclarp.org/2018/01/24/safety-calibration-design-tools-uses/>
+- Fatland, Eirik. The Open Door principle (Nordic larp). Via Stark, Lizzie. "A Primer on Safety in Roleplaying Games." Leaving Mundania, 27 February 2014: <https://leavingmundania.com/2014/02/27/primer-safety-in-roleplaying-games/>
+- Czege, Paul. The Czege Principle (comment to Vincent Baker at The Forge). "When one person is the author of both the character's adversity and its resolution, play isn't fun." RPG Museum: <https://rpgmuseum.fandom.com/wiki/Czege_Principle>
+- Wizards of the Coast. *Tasha's Cauldron of Everything* (2020), Chapter 4, and *Dungeon Master's Guide* (2024). (Mainstreaming of session-zero and safety-tool vocabulary into the largest player population.)
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Accessibility in Live & Interactive Games](accessibility-in-live-and-interactive-games.qmd)
+- [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd)
+- [One-on-One Scene Design](one-on-one-scene-design.qmd)
+- [Player Types & Casting](player-types-and-casting.qmd)
+- [Pre-Game Workshop Design](pre-game-workshop-design.qmd)
+- [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
+- [The Session Zero Playbook](the-session-zero-playbook.qmd)
+- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
+- [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
+
+<!-- BACKLINKS:END -->

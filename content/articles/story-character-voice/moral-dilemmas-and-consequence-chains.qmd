@@ -18,6 +18,7 @@ provenance: ""
 ## Referenced by
 
 - [Beat Taxonomies & Craft Models](../structure-pacing/beat-taxonomies-and-craft-models.qmd)
+- [Bleed, Aftercare & Debriefing](../players-social-dynamics/bleed-aftercare-and-debriefing.qmd)
 - [Scene & Sequel in Interactive Fiction](../structure-pacing/scene-and-sequel-in-interactive-fiction.qmd)
 - [Time Loop Patterns](../structure-pacing/time-loop-patterns.qmd)
 - [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd)

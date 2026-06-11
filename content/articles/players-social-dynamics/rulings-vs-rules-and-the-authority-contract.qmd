@@ -1,14 +1,112 @@
 ---
 title: "Rulings vs Rules & the Authority Contract"
-aliases: []
+aliases: ["Rulings Not Rules", "Rule Zero", "GM Adjudication", "Fiat vs Ruling"]
 family: "Players & Social Dynamics"
-media: []
+media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [responsive-play, table-trust, consistent-adjudication]
+  problems: [gm-fiat, rule-shopping, ruling-inconsistency, broken-compact]
+  components: [house-rule, core-resolution-mechanic, session-zero-agreement]
+  genre: [fantasy, mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: Who decides what happens when the rules run out, and the consent that decision rests on.*
+
+A situation comes up at the table that the rulebook never imagined. The thief wants to swing from a chandelier onto the guard; nothing on the character sheet says whether she can. In that moment the person running the game faces a choice that is structural rather than narrative. One path reaches for the book and the nearest written rule. The other reaches for their own judgement and decides on the spot. Every tradition of tabletop play answers this question, and the answers sit a long way apart.
+
+Underneath that choice is something the slogans rarely name. The gamemaster decides what happens because the table lets them. Their authority is real, but it is on loan. It works only while the players believe each call is made in good faith, by the same standard that decided the last one. Spend that belief and the same power that made play responsive starts to feel arbitrary, and a table that no longer trusts its referee stops reaching for clever plans and starts arguing about the rules.
+
+This is the same trust the social-deduction table runs on, seen from the other chair. There the pressure is between players and rests on a [Safety Contract](safety-tools-as-design-layer.qmd) they agreed to in advance; here the pressure is the referee's authority, and it rests on a fairness compact they agreed to just as much. This article is about that compact. It maps where adjudication sits on the spectrum from strict rules to pure judgement. It looks at how the most famous form of referee authority gets abused. And it argues that the power holds only while the table consents to it.
+
+## The Mechanism (How it works)
+
+### The spectrum from rules to rulings
+
+The cleanest way to see the question is as a spectrum, with the frequency of judgement calls rising as written coverage falls. At one end the rules answer almost everything and a ruling is the rare exception. At the other end there are barely any rules and almost every outcome is a judgement call. Most systems sit somewhere between. [researched]
+
+| Tier | Examples | How often the GM rules | Rule coverage | Where it breaks |
+|---|---|---|---|---|
+| Rules-light | *Knave*, *Maze Rats*, *World of Dungeons* | Near-constant; the core resolution is itself a ruling | One to four pages | Inconsistency; outcomes feel arbitrary [researched] |
+| Rules-medium | PbtA, Forged in the Dark, *D&D 5e* | Frequent, in the gaps around a defined mechanic | A clear resolution loop, much left open | Rules-lawyering at the edges; uneven gap-filling [researched] |
+| Rules-heavy | *Pathfinder 2e*, GURPS, *D&D 3.5* | Occasional; the exception, not the rule | Near-total, with codified subsystems | Rigidity; rules-shopping; slow rule-checks [researched] |
+| Pure judgement | Free Kriegsspiel Renaissance | Everything; world logic is the only system | None formal | Needs an expert referee; wild inconsistency without one [researched] |
+
+The phrase that anchors the low-coverage end is "rulings, not rules," from Matt Finch's *A Quick Primer for Old School Gaming* (2008). His first principle says that most of the time you do not use a rule, you make a ruling. A player describes any action without checking whether the sheet permits it. The referee then uses common sense to decide what happens, reaching for a die only if chance is involved. Then the game moves on. [researched] The idea has older roots. Gary Gygax wrote in the 1979 *Dungeon Master's Guide* that it is the spirit of the game and not the letter of the rules that matters, and named the DM "creator and final arbiter." [researched]
+
+The far end belongs to the Free Kriegsspiel Renaissance, whose motto is "play worlds, not rules." On this view even sparse rules are superfluous, given a referee who knows the fictional world well enough to simulate it by its own logic. [researched] The movement says the quiet part out loud. It needs a referee who is both deeply knowledgeable and self-disciplined, and without one "play worlds, not rules" becomes "play whatever the referee feels like." It is an expert's tool, and the trust it asks of the table runs higher than any rules-mediated game needs. [researched]
+
+It would be a mistake to read the spectrum as light-is-free and heavy-is-rigid. *Pathfinder 2e* sits at the rules-heavy end yet its own guidance is not "look it up at all costs." It tells the GM that the best ruling is the one that keeps the game moving, to take what is close enough and play on, and when in doubt to rule in the player's favour and review it later. [researched] It also warns against eager house-ruling in a dense system, because sticking to the written rules is the easiest way to stay fair and consistent when the rules themselves have already set player expectations. [researched] How the underlying resolution is built, the dice or cards or moves that the ruling leans on, is its own craft: [Mechanical Resolution Types](../systems-mechanics/mechanical-resolution-types.qmd).
+
+### The third position: neither rule-first nor ruling-first
+
+Not every system places itself on that line. *Apocalypse World* (Vincent and Meguey Baker, 2010) introduced a third stance. The person running it works from a fixed list of moves, where each kind of fictional event has a matching mechanical move that fires automatically when the action happens in the fiction, and cannot fire otherwise. [researched] When the fiction does not trigger a move, the MC does not hunt for a mechanic and does not invent a ruling. They simply keep talking. The result is an adjudication structure that is tight and automatic where the move list applies, and pure conversation everywhere else. [researched] This sidesteps the rulings-versus-rules question rather than answering it: the MC is never adjudicating between a written rule and an uncovered case, because they are either inside a move that is fully determined or in a conversation where no rule is wanted. [researched] How that kind of authority gets handed around the table, rather than held at one chair, is [Distributing Narrative Authority](../systems-mechanics/distributing-narrative-authority.qmd).
+
+Burning Wheel (Luke Crane, 2011) takes a stance orthogonal to the whole spectrum. There the rules are taken seriously because they encode the game's argument about what matters, and the GM's job is to engage them rather than rule around them. [researched] Its "Let It Ride" principle holds that a player tests once against an obstacle and does not roll again until conditions change drastically, which stops "roll until you fail" and stops a GM demanding repeated checks for the same intent. [researched] That is a rule whose whole purpose is to protect a ruling from being worn down by persistence. The lesson travels past the system: a good adjudication is one a player cannot simply re-litigate.
+
+### Rule Zero and the two authorities it hides
+
+The most famous statement of referee authority is "Rule Zero": the GM's word comes before the written rules. The principle is old. Someone formalised it as a "Gamer's First Law" as early as 1978. The phrase itself, though, spread online only after 2000, when the *D&D 3.0* Player's Handbook opened character creation with "check with your Dungeon Master." [researched] There is an irony in that timing, because 3rd Edition was the most prescriptive ruleset D&D had yet shipped. The slogan of GM supremacy flourished precisely as the rules were becoming hardest to override in practice. [researched]
+
+The trouble with Rule Zero is that it bundles two different powers under one name, and only one of them is legitimate. The first is filling genuine gaps, adjudicating the chandelier swing and the novel situation the designers never anticipated. That is the necessary, healthy function. The second is overriding a mechanical outcome the players explicitly relied on, the result a character earned by choosing an ability and spending resources to accept a known risk. [researched] A GM exercising the second power is not filling a gap. They are voiding a compact the players entered in good faith, and that is where the authority contract tears.
+
+::: {.callout-warning}
+### The Hazard
+The seductive abuse is the override dressed up as a ruling. When the dice kill the villain a scene too early, you let them survive. A clever plan threatens to skip the encounter you spent the week preparing, so you find a reason it does not work. Each call feels like good stewardship from the inside. From the player's chair it reads as one blunt sentence. The rules apply to me until they inconvenience the GM. The reliable tell is that the override always works against something a player was counting on. Justin Alexander offers a clean test for the difference. A ruling is structured by the rules or the established fiction, which means it can be re-applied to the next similar case and so can quietly harden into a house rule. Fiat is an arbitrary call disconnected from any principle. It can never become a rule, because it holds no principle to generalise from. [researched] A decision that could not survive being written down and applied to everyone was fiat wearing a ruling's coat.
+:::
+
+### Why the referee's power is on loan
+
+The deep reason fiat does the damage it does is that the gamemaster's authority was never theirs by right. It is delegated. The table grants it so that play can stay responsive, and the grant holds only while the calls stay fair. It works the same way as the [trust the accusation table runs on](trust-conformity-and-social-pressure.qmd). Both are a real social asset, spendable and breakable, that the whole game quietly leans on. Spend it through inconsistent or self-serving rulings and the players stop trusting the referee, exactly as a solver stops trusting a puzzle that breaks faith. Once that trust is gone they stop engaging with the world and turn instead to defending themselves against the person running it.
+
+The corrosive failure here has a name worth knowing, because the corpus tradition treats it as the primary structural risk of a rulings-first table: inconsistency, the same situation ruled one way on Tuesday and another way a month later. [researched] A rule is a pre-committed answer to a whole class of situations, so players can form reliable expectations and real strategic plans around it. A ruling is a real-time judgement made under time pressure by a human who has preferences. That human may misremember the last similar case. They may also be swayed without noticing by which player is asking. [researched] The minimum corrective is the Principia Apocrypha's: note any ruling that will recur and apply it the same way next time. The stronger version is to publish house rules between sessions, so the table's accumulated judgement becomes codified and predictable rather than re-decided each time it comes up. [researched]
+
+There is a quieter abuse the slogan invites too. "Rulings, not rules" describes only how the system runs; it is not a preparation philosophy, and it does not licence a referee to under-prepare and improvise everything on the night. [researched] Travis Miller's correction is useful here. Most situations in old-school play are not truly uncovered at all but follow by obvious deduction from the established fiction and procedures, so the number of genuine rulings is far smaller than the slogan implies. [researched] A ruling is really needed only when no rule applies, or when a rule exists but says nothing about the specific variables and the outcome is both uncertain and load-bearing. The rest is just the referee applying the world's own logic, which the players can see for themselves and predict.
+
+This is the same demand the detective story makes of its author and the puzzle hunt makes of its constructor: no outcome may rest on a rule the other party was never given a way to know. The parallel is exact enough that the [fairness contract in puzzle design](../puzzles-clues-information/cluing-and-fairness.qmd) is the same compact wearing different clothes. A solver must be able to reach the answer from the materials; a player must be able to predict the ruling from the fiction. Break either and the activity stops being a fair test and becomes a guess at what the author or referee privately wanted.
+
+::: {.callout-note}
+### The Specimen
+*D&D 5e* (2014) put the contract in print, and the wording is striking because it is a mainstream publisher adopting the slogan of its counter-cultural critics. The *Dungeon Master's Guide* tells the reader that the rules help everyone have a good time but are not in charge: "You're the DM, and you are in charge of the game," and "The rules serve you, not vice versa." [researched] The 2024 revision keeps the stance under a heading called "Adjudicate the Rules," framing the DM's job as making sure the rules serve the group's fun rather than the reverse. Lead designer Jeremy Crawford compressed it in 2019: "The first rule of D&D is that the DM adjudicates the rules. The DM having the final say? That's the rules." [researched] The phrasing matters. Authority is granted by the rules, in service of the group, not held over them.
+:::
+
+### Where the authority sits, and what happens when it moves
+
+How much of this even applies depends on who is running the game, and that varies sharply across live formats. When the host runs the event in GM mode, standing outside the fiction as a pure facilitator, they hold the full real-time adjudication power. They pace the evening and redirect a stalled conversation, settling disputes on the spot. [corpus] The escape-room game master and the jubensha host are the codified examples, the host as a cross between a Dungeon Master and a referee who cues each phase and keeps the mystery from derailing. [corpus] That is the live form of the rulings-versus-rules contract, and it carries the same fairness duty: the calls must stay consistent or the room stops trusting the person making them.
+
+The instructive case is what happens when that authority is deliberately removed. A host who also wants to play cannot adjudicate from inside the fiction, so those formats strip out the adjudicated mechanics entirely and lean on a self-running structure where no live referee is needed. [corpus] The contract does not disappear; it migrates into the design and into the agreement made beforehand. With no one to make a fair call in the moment, fairness has to be built into the materials in advance. Interactive fiction makes the same move when it replaces a human referee with a fixed system. There the rules are wholly determinate because no one is present to bend them, so a consistency the table would otherwise vouch for has to be guaranteed by code instead.
+
+The practical lesson from all three is that the authority contract is settled before play far more than during it. The table agrees up front which rules sources are authoritative, so that rule-shopping (citing a different edition, an unadopted supplement, or a forum post to dispute a call) gets headed off rather than argued at the table. [researched] It agrees how the referee will handle novel situations, and how much latitude they have to override a result. That agreement is the same pre-play conversation that sets tone and safety, which is [The Session Zero Playbook](the-session-zero-playbook.qmd), and where it sits depends on which stance the person at the head of the table has taken, covered in [GM Role Models & Stances](gm-role-models-and-stances.qmd) and, for the live case, [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd).
+
+## Where this fits
+
+**The bigger picture.** Adjudication authority is one of the load-bearing structures of this family because it decides who arbitrates when the system runs out, and almost every table has that moment. It is the referee-side twin of the player-side pressure that runs through the rest of the family. Both are real social forces, both are powerful, and both are legitimate only while they rest on consent the group gave in advance. Treat the gamemaster's authority as owned rather than loaned and no amount of system cleverness saves the table, because the players will have stopped trusting the calls. Treat it instead as delegated and exercised by a standard the table can predict. Then the picture inverts. The same power the rules hand over becomes the thing that makes live, responsive play possible.
+
+**Next steps.** To lay the agreement this authority depends on, work through [The Session Zero Playbook](the-session-zero-playbook.qmd), where the table pre-commits on rules sources and on how the referee handles the unwritten case. The question of what kind of authority the person running the game should hold in the first place is [GM Role Models & Stances](gm-role-models-and-stances.qmd), and its live-event form is [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd). Where the question is what the rulings actually lean on, the underlying engine is [Mechanical Resolution Types](../systems-mechanics/mechanical-resolution-types.qmd). Where authority is shared out rather than held at one chair, that is [Distributing Narrative Authority](../systems-mechanics/distributing-narrative-authority.qmd). The trust that all of this spends is the same trust mapped from the player side in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd).
+
+## Sources
+
+- Finch, Matt. *A Quick Primer for Old School Gaming*. Mythmere Games, 2008. ("Rulings, Not Rules", the First Zen Moment.) Archived: <https://archive.org/details/old-school-primer>
+- Gygax, Gary. *Advanced Dungeons & Dragons Dungeon Master's Guide*. TSR, 1979. ("Spirit not letter"; "creator and final arbiter".) Quotes collected: <https://www.creightonbroadhurst.com/gygax-on-rules-lawyers/>
+- Milton, Ben, Steven Lumpkin, David Perry and Evlyn Moreau. *Principia Apocrypha*, 2018. (Make a common-sense ruling and apply it consistently; note recurring rulings.) <https://lithyscaphe.blogspot.com/p/principia-apocrypha.html>
+- *Dungeon Master's Guide* (5th Edition). Wizards of the Coast, 2014. ("The rules serve you, not vice versa.") <https://www.dndbeyond.com/sources/dnd/dmg-2014>. 2024 revision, "Adjudicate the Rules": <https://www.dndbeyond.com/sources/dnd/dmg-2024>
+- Crawford, Jeremy. "The first rule of D&D is that the DM adjudicates the rules." 2019. <https://x.com/JeremyECrawford/status/1151295401791651840>
+- *Pathfinder Second Edition GM Core*. Paizo, 2019 (remaster 2023). (Keep the game moving; rule in the player's favour and review later; be slow to change written rules.) Archives of Nethys: <https://2e.aonprd.com/Rules.aspx?ID=884>
+- Baker, D. Vincent and Meguey Baker. *Apocalypse World*. lumpley games, 2010 (2nd ed. 2016). (The move list and the conversation as a third adjudication stance.) <https://en.wikipedia.org/wiki/Apocalypse_World>
+- Crane, Luke. *Burning Wheel Gold*. Burning Wheel HQ, 2011. ("Let It Ride".) <https://necropraxis.com/2016/09/19/let-it-ride-or-push-your-luck/>
+- "The Origins of Rule Zero." Playing at the World. <http://playingattheworld.blogspot.com/2021/01/the-origins-of-rule-zero.html>
+- Alexander, Justin. "Rulings vs Fiat." The Alexandrian. (The ruling-can-become-a-rule, fiat-cannot test.) <https://thealexandrian.net/wordpress/10681/roleplaying-games/thought-of-the-day-rulings-vs-fiat>
+- Miller, Travis. "Subtleties of Rulings, not Rules." Grumpy Wizard, July 2023. (Implied rules; how few situations are truly uncovered.) <https://grumpywizard.home.blog/2023/07/13/subtleties-of-rulings-not-rules/>
+- "Free Kriegsspiel Renaissance: play worlds, not rules." <https://fdisk.quest/fkr/>
+- Escape Room Era. "What is the role of the game master in an escape room?" (GM-mode host real-time adjudication duties.) <https://escaperoomera.com>
+- Jubensha by Chronic Insanity. "What is Jubensha?" (The Jubensha Master as DM-and-referee hybrid.) <https://jubensha.co.uk/pages/what-is-jubensha>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [GM Role Models & Stances](gm-role-models-and-stances.qmd)
+- [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd)
+- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
+
+<!-- BACKLINKS:END -->

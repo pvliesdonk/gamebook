@@ -17,6 +17,7 @@ provenance: ""
 
 ## Referenced by
 
+- [Cooperative vs Adversarial Formats](../players-social-dynamics/cooperative-vs-adversarial-formats.qmd)
 - [Fabrication & Sourcing](../space-props-materiality/fabrication-and-sourcing.qmd)
 - [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd)
 

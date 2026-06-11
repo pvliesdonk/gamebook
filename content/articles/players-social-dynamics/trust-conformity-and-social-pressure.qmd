@@ -1,14 +1,139 @@
 ---
 title: "Trust, Conformity & Social Pressure"
-aliases: []
+aliases: ["Social Deduction", "Accusation Dynamics", "Designed Peer Pressure"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [genuine-tension, suspicion, social-investment, vivid-play]
+  problems: [flat-stakes, alpha-player-dominance, unsafe-pressure, sidelined-players]
+  components: [hidden-role, accusation-phase, voting-method, safety-tool]
+  genre: [mystery, thriller, horror]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: The real pressure between players that makes play vivid, and the consent it has to rest on.*
+
+When you accuse someone across a table you watch their face change, and when you are accused your own body answers whether you are guilty or not. This is the thing a screen cannot do. The people are really in the room, and the trust between them is real trust, spendable and breakable. A live game can manufacture that trust and then break it in a way no piece of software manages, because the social cost is felt in the body rather than read off a status line. [corpus]
+
+That pressure is the engine of a whole family of games, the social-deduction lineage, where an informed minority deceives an uninformed majority and public accusation is the majority's only weapon. It is also a sharp tool. The discomfort it produces is genuine even when the content is fiction, which means it has to sit on a foundation the players agreed to in advance. This article looks at why designed social pressure makes play come alive. It works through what the famous conformity and obedience studies actually showed, and where they have been overstated. The throughline is a single claim: pressure without a safety layer underneath it is a design failure rather than an edgy feature.
+
+## The Mechanism (How it works)
+
+### The social-deduction lineage
+
+The games built on trust and deception are one design tradition refining a single loop. Mafia (Dmitry Davidoff, 1986) set the template. A hidden minority knows each other while the majority does not, and the day-phase vote is the majority's way of fighting back. Werewolf (Andrew Plotkin's adaptation, 1997) added the Seer, a trusted source of information players have to decide whether to believe. The Resistance (Don Eskridge, 2009) removed player elimination so nobody is sidelined and made the mission vote simultaneous. Secret Hitler (Temkin, Boxleiter and Maranges, 2016) bolted a policy track onto the bluffing so players have mechanical evidence to weigh against social argument. Blood on the Clocktower (Steven Medway, 2019) let dead players keep a voice and gave a neutral Storyteller licence to feed misinformation into the room. [corpus]
+
+Every one of these works because of the psychology underneath, not the rules on top. Strip out the social pressure and you are left with a probability puzzle that a spreadsheet could solve. The structural half of the design, who holds which secret and how that secret is distributed, is a separate craft covered in [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd). What concerns us here is the live social layer: why accusation lands, and how being in the room amplifies it. With that amplification comes a duty of care.
+
+### What Asch actually showed about conformity
+
+The decisive mechanism behind accusation is conformity, and the standard reference is Solomon Asch's line-judgement studies. A participant sat with a group of confederates and judged which of three lines matched a reference line, an easy task with an obvious answer. The confederates, by arrangement, sometimes called out the same wrong line in unison. About a third of the participant's responses on those rigged trials went along with the obviously wrong consensus, and roughly three-quarters of people conformed at least once. [researched]
+
+Two findings from the variations matter more for a designer than the headline number. First, a single dissenter broke the spell. When one confederate gave the right answer against the others, conformity fell from around 32 per cent to about 5 per cent. The dissenter did not even have to be correct, only to break the unanimity, so one ally voicing doubt frees the rest of the room to trust their own read. Second, participants who wrote their answers privately conformed far less than those who said them aloud. [researched]
+
+Both findings are levers, and the lever is the voting method rather than the theme draped over it.
+
+| Goal | Lever |
+|---|---|
+| Create accusation energy | Public, spoken voting: a forced tribunal, a press conference, Mafia's day vote [corpus] |
+| Dampen the pile-on | Simultaneous, all-at-once commitment, as The Resistance does with its mission vote [corpus] |
+| Free a quiet player to dissent | A private or written channel for at least one decision, so the room's unanimity can crack [researched] |
+
+It is worth being honest about the limits of the Asch result, because the popular retelling inflates it. Most individual answers in the original study were in fact correct, the sample was narrow, and later replication put the effect lower in some cultures and periods. Conformity is real, but it is an amplifier, not a determinant. [researched] A design that treats it as an iron law will overbuild the pressure and tip the room from tension into genuine distress.
+
+### Authority, obedience, and the limits of Milgram
+
+A host, gamemaster, or Storyteller is an authority figure, and authority quietly suppresses objection. The reference here is Stanley Milgram's obedience studies, in which an experimenter instructed participants to deliver what they believed were escalating electric shocks to another person. A majority continued well past the point of their own evident distress when an authority told them to. [researched] The finding for a designer is not about shocks. It is that the person running the game holds a gradient of authority that can keep an uncomfortable player in their seat when they would rather step out.
+
+The same studies carry the fix. In the variation where a defiant peer refused to continue, obedience dropped sharply. [researched] Social support restores a person's licence to object, exactly as Asch's lone dissenter does. So the design lesson reads the same from both studies: build an explicit, low-cost way to dissent or opt out, because the authority gradient will otherwise hold people there silently.
+
+::: {.callout-warning}
+### The Hazard
+Milgram and Asch are seductive to cite and easy to abuse. Both have been criticised on method and on ethics. Milgram's debriefing and the real distress he caused his participants would not pass an ethics board today. His obedience rates also swung widely across many unpublished variations. The deeper trap is the Stanford Prison Experiment, the story most players half-remember as proof that a role turns ordinary people cruel. It does not show that. The guard behaviour was directed by the experimenters rather than emergent, and the study is no longer treated as sound evidence. [researched] Reach for these studies to make one narrow point, that public pressure and authority suppress objection. Never treat them as licence to manufacture cruelty and call it research. The pressure your game creates is your responsibility, not an experiment's.
+:::
+
+### Time pressure amplifies, it does not improve
+
+A deadline does not make a group think better. It makes them more like themselves. Controlled work on time pressure in social decisions found that pressure amplifies a person's existing disposition rather than pushing everyone the same way: a generous player grows more generous, a self-interested one more self-interested. [researched] In an accusation phase a visible timer makes the assertive player more decisive. It pushes the cautious one to follow the room rather than their own read, which is the Asch public-pressure effect under a clock. The sixty-minute timer on an escape-room wall does the same thing at low grade all session, nudging a group toward consensus without examination. Time pressure is a pacing tool here, related to but distinct from the structural pacing discussed in [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd).
+
+### Why being in the room intensifies everything
+
+Co-presence is the live designer's strongest material and the one that most needs handling. A player who knows something, or is lying, shifts posture, pace, eye contact, and voice in ways they cannot fully govern, and a real room hands you the whole body where a digital game like Among Us has to fake the leak with task animations. [corpus] Exclusion is felt rather than logged: being accused and voted out of a screen game is a state change, but being accused and removed in a room of friends means sitting and watching the others enjoy a game you are no longer in. [corpus]
+
+The cascade also runs faster in person, because social proof travels through tone and body language, so a nervous-looking accused reads as guilty to the whole room at once. And then there is bleed, the Nordic-larp term (credited to Emily Care Boss) for the leak between character feeling and player feeling. Being accused inside a fiction, even correctly, produces something close to real accusation, and deceiving your friends to win can leave a real residue afterward. [corpus] Bleed is why the closing matters as much as the play: high-pressure trust games need a deliberate de-role and debrief, covered in [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd).
+
+The same confinement that intensifies co-presence is itself a structural pattern. Interactive fiction reaches for it as the pressure-cooker, a small confined cast under mounting pressure until the truth comes out. This is the engine behind stories such as Twelve Angry Men or Christie's And Then There Were None. There the social pressure is simulated through a relationship matrix (who trusts whom, who knows what) rather than felt in a shared room, but the grammar holds. Confinement makes information control impossible, and alliances fracture as each revelation lands. The eruption then converges several pressures at once rather than turning on a single straw. [corpus] It is the single-player echo of the live accusation phase.
+
+### Designing the pressure so the choices matter
+
+Genuine pressure sits between two costs, and the craft is keeping both of them live. Make false accusation socially expensive, so being publicly and visibly wrong carries real embarrassment, and make silence expensive too, so the group fails when a player sits on what they suspect. When both costs are present, restraint and disclosure each become a real choice. [corpus] Collapse either one and the tension drains. If accusing is free, everyone accuses everyone. If silence is free, the suspicious player simply waits the round out.
+
+A few levers follow from that, and they are choices made before play rather than fixes applied during it.
+
+| Lever | Effect |
+|---|---|
+| Hidden roles vs hidden information | Hidden information tends toward collaboration, hidden roles toward suspicion and performance: the atmosphere follows the choice [corpus] |
+| A visible consequence for being wrong, short of ejection | Accusation carries weight without destroying a player's evening [corpus] |
+| Make the quiet player sought-after, not the initiator | A player holding a piece everyone needs can take part without having to push into the room [corpus] |
+| Never make elimination the core mechanic | Keep removed players in the room with a voice, so nobody spends the session as a spectator [corpus] |
+
+One failure mode deserves naming because it is structural rather than incidental. The Alpha Player problem is that an experienced player who reads tells well and controls the pace of their own speech will consistently dominate inexperienced ones. No amount of table etiquette fixes that on its own. The genre handles it through design instead. Werewolf leaves it untouched. Strong players there lead the vote and weaker ones fall in behind them. The Resistance and Secret Hitler use structural opacity. No single player holds enough information to be definitively right, which caps how far raw reading skill carries. Blood on the Clocktower hands the Storyteller licence to adjust information and blunt runaway certainty, so a weaker player still has something real to deduce. [corpus] Which of these you reach for is a question of where authority sits at your table, which connects to [GM Role Models & Stances](gm-role-models-and-stances.qmd).
+
+### The trust contract beyond the table
+
+Trust scales past the single session into the relationship between designers and the people who play their work. In long-form puzzle hunts the contract is explicit. A hunt is honest when its answers are verifiable and its designers do not cheat the solvers, and the scene polices this through reputation rather than rules. [corpus] The murkier end of the tradition, the secret competitive hunts in the Cicada 3301 mould, runs almost entirely on trust that the puzzles are real and reachable, because there is no referee to appeal to and no way to confirm the prize exists. [corpus] That is the hunt-form of the same contract that governs the accusation table: pressure and stakes only work while the people under them believe the game is being run in good faith. The community side of this is its own article, [Designer-Community Trust in Long-Form Hunts](designer-community-trust-in-long-form-hunts.qmd).
+
+::: {.callout-note}
+### The Specimen
+The Nordic-larp tradition is the clearest case of a community treating safety as the thing that lets pressure go further rather than a brake on it. Its Safety Contract toolkit is standard and taught, not improvised: a tap-out card (John Stavropoulos, 2013) lets any player remove content with no explanation required; the OK Check-In (Maury Brown, Sarah Lynne Bowman and Harrison Greene, 2016) is a non-verbal welfare check; Lookdown (Johanna Koljonen and Trine Lise Lindahl, 2016) is a graceful exit from a scene; and calls like Cut and Brake stop or de-escalate the action. Two principles travel with them. Tools taught in a pre-game workshop are used; tools buried in a rulebook are not. And the point of the whole kit is permission: players trust they can regulate the pressure, so the designer can build more of it. [corpus]
+:::
+
+### Pressure rests on consent, or it is not legitimate
+
+The throughline of all of the above is one fact. The pressure is genuine even when the content is fiction. A player can be truly uncomfortable while the game is working exactly as designed. The discomfort is then a feature of correct play and not a sign of failure. [corpus] That makes the safety layer part of the system rather than a contingency bolted on for the squeamish. It is the foundation the pressure stands on. Either the two are designed together or the pressure has no business existing.
+
+This is the load-bearing claim of the article, so it is worth saying plainly. Designed social pressure is only legitimate when it sits on consent and safety that the players signed up to in advance. The agreement is set before play, in the briefing where the group decides what the game will and will not do: that is [The Session Zero Playbook](the-session-zero-playbook.qmd). The regulating tools that let a player steer or stop the pressure in the moment are [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd). A trust game built without both of those is not braver than one that has them. It has simply moved the cost onto the players without asking.
+
+## Where this fits
+
+**The bigger picture.** Trust and social pressure are the hub of this family because almost every other social mechanism either generates the pressure or governs it. The structural plumbing of hidden roles and hidden information is what creates the suspicion; the safety contract and session-zero agreement are what make it bearable; the debrief is what closes it cleanly. Treat this article as the floor those others stand on. The pressure is the reason the family exists; the consent layer is the reason it is allowed to. Get that pairing wrong, by building pressure without the agreement underneath, and no clever role distribution or voting method redeems it. Get it right and the whole charged range of social play opens up safely.
+
+**Next steps.** To build the pressure itself, start from the structural choice of what to hide in [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd), then decide how much of the game is collaboration versus suspicion through [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd). To lay the consent foundation it needs, work through [The Session Zero Playbook](the-session-zero-playbook.qmd) and [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd), and plan the landing with [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd). Where the authority gradient itself is the lever, as it is for the Alpha Player problem, [GM Role Models & Stances](gm-role-models-and-stances.qmd) covers how the person running the game can hold or release the room.
+
+## Sources
+
+- Asch, Solomon E. "Effects of group pressure upon the modification and distortion of judgments." In *Groups, Leadership and Men*, ed. H. Guetzkow. Carnegie Press, 1951. (Line-judgement conformity studies; the one-dissenter and public-vs-private variations followed in 1955-56.) Summary: <https://www.simplypsychology.org/asch-conformity.html>
+- Milgram, Stanley. "Behavioral Study of Obedience." *Journal of Abnormal and Social Psychology* 67, no. 4 (1963): 371-378. (The defiant-peer variation reducing obedience is reported in Milgram's later papers and *Obedience to Authority*, 1974.) <https://pubmed.ncbi.nlm.nih.gov/14049516/>
+- Le Texier, Thibault. "Debunking the Stanford Prison Experiment." *American Psychologist* 74, no. 7 (2019): 823-839. (Guard behaviour was directed, not emergent; the study is not sound evidence.)
+- Chen, Fadong, and Ian Krajbich. "Biased sequential sampling underlies the effects of time pressure and delay in social decision making." *Nature Communications* 9 (2018): 3557. (Time pressure amplifies existing dispositions rather than changing them uniformly.) <https://www.nature.com/articles/s41467-018-05994-9>
+- Davidoff, Dmitry. *Mafia* (1986); Plotkin, Andrew. *Werewolf* (1997); Eskridge, Don. *The Resistance* (2009); Temkin, Boxleiter and Maranges. *Secret Hitler* (2016); Medway, Steven. *Blood on the Clocktower* (Kickstarter 2019, release 2022). The social-deduction lineage and its accusation and Alpha-Player dynamics.
+- InnerSloth. *Among Us* (2018). Digital simulation of co-presence tells via task animations.
+- Boss, Emily Care. "Bleed" (term coined at Ropecon 2007). Nordic Larp wiki: <https://nordiclarp.org/wiki/Bleed>
+- Stavropoulos, John. The tap-out safety card (2013, CC BY-SA 3.0): <http://tinyurl.com/x-card-rpg>. Brown, Maury, Sarah Lynne Bowman and Harrison Greene, "OK Check-In" (2016); Koljonen, Johanna and Trine Lise Lindahl, "Lookdown" (2016). Brown, Maury. "Creating a Culture of Trust through Safety and Calibration Mechanics." nordiclarp.org, 2016: <https://nordiclarp.org/2016/06/14/creating-culture-trust-safety-calibration-mechanics-larps/>
+- Rose, Reginald. *Twelve Angry Men* (1954); Christie, Agatha. *And Then There Were None* (1939). The confined-cast pressure-cooker pattern.
+- Janis, Irving. *Victims of Groupthink* (1972). Decision-making in confined groups under pressure.
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Accessibility in Live & Interactive Games](accessibility-in-live-and-interactive-games.qmd)
+- [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd)
+- [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd)
+- [Designer-Community Trust in Long-Form Hunts](designer-community-trust-in-long-form-hunts.qmd)
+- [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd)
+- [GM Role Models & Stances](gm-role-models-and-stances.qmd)
+- [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd)
+- [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd)
+- [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd)
+- [One-on-One Scene Design](one-on-one-scene-design.qmd)
+- [Player Types & Casting](player-types-and-casting.qmd)
+- [Pre-Game Workshop Design](pre-game-workshop-design.qmd)
+- [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
+- [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
+- [Spectator-Friendly Design](spectator-friendly-design.qmd)
+- [Team Splitting Strategies](team-splitting-strategies.qmd)
+- [The Session Zero Playbook](the-session-zero-playbook.qmd)
+- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
+
+<!-- BACKLINKS:END -->

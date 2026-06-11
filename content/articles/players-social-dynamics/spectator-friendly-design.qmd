@@ -1,22 +1,109 @@
 ---
 title: "Spectator-Friendly Design"
-aliases: []
+aliases: ["Designing for Observers", "Mixed-Engagement Design", "Audience-Facing Design"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [ambient-engagement, group-energy, felt-inclusion, legible-drama]
+  problems: [eliminated-player-as-spectator, mixed-engagement, alpha-player-dominance, idle-observer]
+  components: [observer-role, catch-up-card, parallel-task, ambient-layer]
+  genre: [mystery, family, immersive]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: Designing so the people leaning back have something real to do, not just the people leaning forward.*
+
+Every live game runs a quiet negotiation between the players who lean in and the ones who lean back. A table of twelve at a murder-mystery dinner is never twelve solvers. Some read every clue, some listen without speaking, one is minding a child, one came out of obligation, one is just tired. Serve only the first group and the rest drift to their phones, and once they do the energy bleeds out of the room until even the keen solvers lose focus. [corpus]
+
+Spectator-friendly design treats that spread as the normal condition rather than a fault to be corrected. The aim is not to drag everyone up to the same pitch of engagement. It is to make watching its own kind of fun, so a person who never touches a clue still leaves having been somewhere. This article is about how to do that. The observer gets a real function. The format grows seams that let people come and go. And a layer of the experience runs underneath that rewards attention without asking for action in return.
+
+## The Mechanism (How it works)
+
+### The mixed-engagement problem
+
+Groups almost never arrive with one shared level of motivation, and the structures most puzzle games are built on quietly assume they do. A single shared puzzle that three people can meaningfully touch leaves everyone else standing. The failure is not evenly distributed, because the disengaged set the ambient social temperature of the room. When the majority checks out, the experience degrades for the engaged minority too. [corpus] This is the same loss the eliminated player feels in a social-deduction game, sitting in the room watching others enjoy something they are no longer in, so removal-as-core-mechanic is treated as a hazard in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd). Spectator-friendly design is the general answer to that specific wound.
+
+The problem sharpens when skill and familiarity are mixed rather than just motivation. Children watching adults work a cipher, newcomers at a game-night who do not know the conventions, an older relative at a family escape room: in each case the assumption of full and equal participation produces exclusion in practice. [corpus] Designing for the whole spread from the start costs far less than retrofitting access after the room is built. That cost asymmetry is the thread shared with [Accessibility in Live & Interactive Games](accessibility-in-live-and-interactive-games.qmd) and [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd): access designed in is cheap, access bolted on is dear.
+
+One framing from immersive-theatre practice is worth carrying over. Audience-participation designers distinguish instruction from permission. Some participants read every offered activity as mandatory and freeze; others need an explicit signal that engagement is optional before they will engage at all. [researched] The design lesson is to make every interactive element legible as either required or permitted, and to make it safe to watch from inside the experience rather than from its edge.
+
+### Observer roles that feel chosen, not consolation
+
+The weakest thing you can hand a spectator is no role at all, leaving them at the rim of the action with nothing to do. The strongest is a defined function that is genuinely useful and does not pit them against the active solvers. The dividing line is felt rather than logical. An observer who is merely "allowed to watch" will feel excluded. Give that same person the group's memory to hold and the feeling flips to indispensable even when the actual workload stays light. [corpus]
+
+A handful of observer roles earn their keep in practice.
+
+| Role | What the observer does | Why it works |
+|---|---|---|
+| Witness and remembrancer | Tracks what happened while the solvers were too busy to register it | Low effort, high value, especially across multi-room formats where no one can attend to everything [corpus] |
+| Navigator and timekeeper | Watches from slight remove for looping reasoning, missed clues, time running short | The remove that disengagement creates becomes the asset [corpus] |
+| Audience surrogate | Occupies an in-fiction "audience" position, present in the world but not acting in it | Gives permission not to engage while preserving the fiction [corpus] |
+| Vote-holder | Holds a formal vote on which clue to chase or whom to accuse | Shapes the solvers' choices without requiring deduction; strong for children [corpus] |
+
+The vote-holder role connects directly to the voting machinery in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd): a public spoken vote concentrates accusation energy, while a private or simultaneous one frees a quiet player to commit. Handing observers a real vote is one way to keep a less-engaged participant consequential without forcing them to perform.
+
+::: {.callout-note}
+### The Specimen
+Punchdrunk's *Sleep No More* (McKittrick Hotel, New York, 2011 to 2024) built its whole audience structure around a single observer device: the white mask. Masked spectators moved freely through a roughly 9,000 square metre warehouse set of over a hundred rooms, watching unmasked performers run their scenes, free to follow one performer's loop or to wander and catch scenes by chance. [researched] The mask did several jobs at once. It unified every spectator into one legible role. It granted explicit permission not to interact. And it held the theatrical fourth wall in place. The result served the determined explorer and the passive watcher equally, because both had a clear and legitimate position in the design rather than one being the lesser version of the other. [researched]
+:::
+
+### Drop-in and drop-out seams
+
+Any format that runs long or splits across scenes needs structural seams where a participant can leave or arrive without breaking the experience for those who stay. Tabletop role-playing learned this discipline first, through session-zero conventions and modular encounters that let a player miss a session without the campaign collapsing. The open-table tradition formalises it furthest, and [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd) treats roster churn as the design's organising principle rather than an inconvenience. Live game design has been slower to build the equivalent. [corpus]
+
+Four patterns make a format durable against people coming and going. The first is to keep each scene's critical information self-contained, so a late arrival or someone returning from a break is not permanently behind. When scene three needs a code from scene one, either show that code again in scene three or hand a catch-up card to the returning player. [corpus] The second is a graceful re-entry signal: a thirty-second "state of play" that a designated person or a visible board can deliver, so the parent who stepped out with a child can rejoin in a moment rather than spending the rest of the game lost. [corpus] The third sets a participation floor and a ceiling: a minimum level that still produces enjoyment (watching the story unfold) and a maximum that stops the puzzle-obsessive from crowding everyone else out. The floor cures boredom at the low end; the ceiling cures the frustration of being out-solved at the high end. [corpus]
+
+The fourth pattern is the most structural. Rather than one shared puzzle that only a few hands can touch, offer simultaneous parallel tasks pitched at different difficulty levels. Commercial large-group escape rooms adopted this under straightforward pressure: a room built for eight or ten spreads its puzzles across the space so sub-groups work independently, which dissolves the crowding that otherwise concentrates play among the fastest few. [researched] That is the spatial cousin of the bottleneck handled in [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd), and the ceiling it imposes on any one solver is the same lever [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd) reaches for against quarterbacking, where one confident player runs the whole table.
+
+### Ambient theatricality
+
+Some of the experience should reward passive attention with no participation asked in return. Ambient theatricality is the layer that runs whether or not anyone engages with it. Set dressing and sound design carry it. So do the costumed performers working through their background action and the environmental detail seeded into the room. It is the live equivalent of what video-game designers call environmental storytelling and theme-park designers call "show". A well-built ambient layer means a guest who solves nothing has still come away with an atmosphere and a mood, a story told to them in the margins. [corpus]
+
+The techniques are cheap relative to their reach. Background performers running a repeating scene give an observer something to watch and may draw them inward over time. [corpus] Readable set dressing lets an observer assemble the story on their own terms at the lowest cost per engaged head. A wall of newspaper clippings does it. So does an annotated map left half-folded on a desk, or a half-eaten meal with a note propped beside the plate. The detail that makes a space tell its own story is the craft of [Environmental Storytelling & Setting as Character](../story-character-voice/environmental-storytelling-and-setting-as-character.qmd). Continuous audio carries narrative even when the eyes are elsewhere, which matters most for the participant half-managing a child at the periphery. [corpus]
+
+One ambient requirement is easy to miss. Observers need to be able to read whether things are going well or badly for the protagonists. If the only legibility signal is a score display the active solvers watch, the observer is structurally shut out of the drama. A performer's expression, a lighting shift, a change in the soundtrack: any of these gives the watcher a dramatic through-line to follow, so the stakes are visible from the back of the room as well as the front. [corpus]
+
+### Children as the purest test case
+
+Family murder-mystery dinners, festival puzzle trails and holiday escape experiences are among the most common commercial homes for this work, and children under about ten are the sharpest test of every principle above. They usually cannot solve the core puzzles. They have little patience for standing idle. And their disengagement is socially visible in a way an adult's quiet boredom is not. [corpus]
+
+The patterns that hold are concrete. Give the child a named and costumed role, junior detective or messenger or lookout, with tasks pitched to their capability. A child carries a sealed envelope to the suspect or counts the items on a shelf for the detective. Being sent to fetch a prop from the next room is a job they take seriously. The tasks have to be genuinely useful to the adult solvers rather than decorative busywork. A child reads the difference and resents the pretend version. [corpus] Lean on tactile parallel tasks, since children engage through physical manipulation more reliably than through deduction, so one physically-oriented puzzle per scene gives them a foothold that does not require out-thinking an adult. [corpus] Narrate in shorter loops, because a scene with no theatrical beat for fifteen minutes loses children entirely, while a beat every five to seven minutes holds them at the observer level. [synthesis] And provide a safety-valve space, a clearly marked area where a child can move or sit without disrupting the game, so families can take part without anxiety about the disruption. [corpus]
+
+Be honest about the evidence here. These family patterns are practitioner conventions and venue lore, not findings from controlled study; the live-game research literature on family engagement is thin. The nearest solid evidence is museum visitor research on family learning, which shows mixed-age groups self-organise around complementary roles when the environment offers enough distinct channels to engage through. [researched] That supports the general shape of the advice without confirming the specific numbers. The five-to-seven-minute beat is a working heuristic rather than a measured optimum.
+
+### Watching that is the game: the streaming case
+
+The audience-facing version of this problem reaches its extreme in live streaming, where the spectators vastly outnumber the player and the entire design question becomes how watching itself can be made participatory. Research on audience participation in game live streaming maps the space along three axes. Agency is how much the audience can shape events. Pacing is how the rhythm of play accommodates their input. Community is how the watching crowd becomes a group in its own right. [researched] The lesson travels back to the physical room. A spectator's engagement is a dial of agency rather than an on/off switch, and the design choice is how far along that dial to let the watching crowd push.
+
+The clearest demonstration is *Twitch Plays Pokémon* (2014), where viewers entered controller inputs through a chat channel and the stream executed the aggregate. Over sixteen days more than a million people took part, and the chaos of conflicting commands became the entertainment rather than an obstacle to it. [researched] The watching was the playing. That is the same instinct as the vote-holder at the dinner table, scaled to a crowd. Give the people who are nominally just watching a real and legible lever on what happens, and the line between spectator and player stops being a wall. It becomes a gradient.
+
+## Where this fits
+
+**The bigger picture.** Spectator-friendly design is the family's answer to a wound several other articles open. The eliminated player in a trust game, the slowest hand at an over-full table, the participant whose access was never designed in: each is a person stranded in observer position by a structure that only planned for full participation. The general repair offered here is to make the observer position a real one rather than a holding pen. To locate where the stranding happens it leans on the social-pressure and format articles, and to learn who gets stranded it leans on the accessibility articles. In return it gives them somewhere for their excluded participants to stand. Treat it as the design stance that lets a heterogeneous group survive contact with the game intact.
+
+**Next steps.** To handle the specific case of the removed player, whose stranding is mechanical rather than incidental, work through [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd) and the format choices in [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd). To stop a single player crowding everyone else into spectator position, take the spatial and structural levers in [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd). To make the access this assumes real rather than aspirational, build from [Accessibility in Live & Interactive Games](accessibility-in-live-and-interactive-games.qmd) and [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd). And to give the ambient layer something worth watching, the setting-as-storyteller craft is [Environmental Storytelling & Setting as Character](../story-character-voice/environmental-storytelling-and-setting-as-character.qmd).
+
+## Sources
+
+- Striner, Alina, Andrew M. Webb, Jessica Hammer and Amy Cook. "Mapping Design Spaces for Audience Participation in Game Live Streaming." *Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems*. (Audience participation mapped along agency, pacing and community.) <https://dl.acm.org/doi/10.1145/3411764.3445511>
+- "Sleep No More" (Punchdrunk / Emursive, McKittrick Hotel, New York, 2011 to 2024). Masked free-roaming audience structure. Wikipedia: <https://en.wikipedia.org/wiki/Sleep_No_More_(2011_play)>; venue: <https://mckittrickhotel.com/events/sleep-no-more/>
+- Machon, Josephine. *Immersive Theatres: Intimacy and Immediacy in Contemporary Performance*. Palgrave Macmillan, 2013. (Punchdrunk spectatorship and the politics of the masked audience.)
+- "Twitch Plays Pokémon" (2014). Crowdsourced collective play via chat input; participation scale and the anarchy/democracy input system. Wikipedia: <https://en.wikipedia.org/wiki/Twitch_Plays_Pok%C3%A9mon>
+- Instruction-versus-permission and Punchdrunk's tiered-audience approach: Chloe Mashiter and collaborators, Immersive Experience Network discussion on playability in immersive experiences (accessed 2026).
+- Large-group escape room parallel-puzzle design: large-group room design guides (BigEscapeRooms, Mission Escape Games), which spread puzzles spatially so sub-groups work independently (accessed 2026).
+- Falk, John H., and Lynn D. Dierking. *The Museum Experience*. Whalesback Books, 1992 (and later editions, *The Museum Experience Revisited*, Routledge, 2013). (Family groups self-organise around complementary roles when an environment offers distinct engagement channels.)
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
+- [Accessibility in Live & Interactive Games](accessibility-in-live-and-interactive-games.qmd)
+- [Designer-Community Trust in Long-Form Hunts](designer-community-trust-in-long-form-hunts.qmd)
+- [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd)
+- [Player Types & Casting](player-types-and-casting.qmd)
+- [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd)
+- [Team Splitting Strategies](team-splitting-strategies.qmd)
+- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)
 
 <!-- BACKLINKS:END -->

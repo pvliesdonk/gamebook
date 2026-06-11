@@ -1,22 +1,113 @@
 ---
 title: "GM Role Models & Stances"
-aliases: []
+aliases: ["GM Stances", "Facilitation Models", "Referee vs Storyteller", "The GM as Social Role"]
 family: "Players & Social Dynamics"
-media: []
+media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [table-trust, earned-challenge, dramatic-investment, tonal-coherence]
+  problems: [stance-system-mismatch, eroded-trust, railroading, killer-gm, flat-emotion]
+  components: [agenda-and-principles, authority-gradient, session-zero-agreement, prep-strategy]
+  genre: [fantasy, horror, mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: The person running the game is a social role, not a rulebook with a pulse, and the role they choose sets the trust at the table.*
+
+The first thing a new gamemaster gets told is that they adjudicate the rules. It is true and it is the least interesting thing about the job. A referee who only calls outcomes is a slow lookup table. What players actually read, minute to minute, is whose side the person across the screen is on. The world's? The story's? The characters', or nobody's? That reading is the real contract, and it is set long before any dice are rolled.
+
+A gamemaster occupies a social position, and like any position it tilts the room. The same authority gradient that keeps a quiet player in their seat through an uncomfortable scene is the gradient that makes the table trust or distrust a ruling. Choose a stance that fits the game and the group leans in. Choose one that fights the game it is bolted to and the table quietly stops believing you, whatever the rules say. This article is about those stances, what each one promises the players, and how the promise has to match the game you are actually running.
+
+## The Mechanism (How it works)
+
+### A stance is a standing contract
+
+A stance is a standing answer to a few questions the table is asking whether or not anyone says them aloud. Does the world exist independently of the players, or does it bend toward the story? Is the person running it for the characters, against them, or neither? And when the rules run out, who decides? [corpus] Each answer implies a different game, a different way to prepare, and a different deal with the players. Point the wrong stance at the wrong system or the wrong group and you lose the table, usually by a quiet drift rather than a row. [corpus]
+
+The reason it is a contract and not a preference is the authority gradient the social-pressure work describes. A gamemaster is an authority figure, and authority suppresses objection: players will sit through a scene they dislike rather than challenge the person running it, the same way a participant in an obedience study continued past their own discomfort because someone in charge told them to. [researched] That gradient is the lever this whole article turns on. A stance is the gamemaster's declared use of it. The fan of the characters spends authority on the players' behalf; the adversary spends it against them by agreement; the neutral referee tries to spend none of it on outcomes at all. The point of naming the stances is to make that spending deliberate. How the gradient shapes suspicion and accusation at the table is [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd); this article is about who holds it and how they declare what they will do with it.
+
+### Six stances and what each promises
+
+Most working gamemasters blend stances rather than living in one, but the blend is easier to control once the pure cases are named. Each of the six below comes with a tradition that codified it. Each has a game where it shines and a way it fails when pointed at the wrong table. The table is the data-dense core of this article; the prose after it picks up the threads that need more than a row.
+
+| Stance | The promise to the table | Where it shines | How it fails |
+|---|---|---|---|
+| Impartial referee | The world is real and consistent; outcomes are honest, never fudged | Old-school dungeon crawls, hexcrawls, tournament play [corpus] | Bolted to a drama-first game it reads as cold; the emotional register goes flat [corpus] |
+| Fan of the characters | I root for you and put your backs to the wall so you can prove yourselves [corpus] | Powered-by-the-Apocalypse and Forged-in-the-Dark games, narrative-first play | In an old-school game it removes real risk; wins feel unearned [corpus] |
+| Adversarial challenger | The challenge is genuine; death is a real outcome and a sign it counted | Tournament modules, challenge-first play, megadungeons [corpus] | In a campaign built on trust it reads as the gamemaster against the players, and trust drains fast [corpus] |
+| Collaborative storyteller | We are building one story together and I am its lead author | World of Darkness, story-games, long-form campaigns [corpus] | Pushed too far it steamrolls agency; the plot happens *to* the players [corpus] |
+| Neutral simulationist | The world runs by its own logic regardless of what the story would prefer | Simulation-heavy systems, political intrigue, long-run worldbuilding [corpus] | Algorithmic adjudication ignores the character drama; players feel irrelevant [corpus] |
+| Scene framer | I control pacing by choosing what goes on-screen and when to cut | Systems with downtime and scene-economy mechanics | Over-framing elides what players wanted to do; the gamemaster owns time imperiously [corpus] |
+
+The impartial referee is the oldest written stance and the one most often confused with adversary. Gygax's 1979 *Dungeon Masters Guide* casts the role as referee and final arbiter, the consistent application of the world's logic rather than the contriving of deaths, and warns against the killer gamemaster in the same breath. [researched] The modern old-school restatement is blunter. The referee is neither the antagonist of the players nor the author of their story. They portray the world genuinely, and they apply its rules in the open with no secret dice-fudging. An informed choice needs an honest outcome. [researched]
+
+The fan of the characters is the stance that most directly reframes the contract. It comes from Vincent Baker's *Apocalypse World*, whose gamemaster agenda asks for a world that seems real and characters whose lives are not boring, then sets the person running it to play and find out what happens. The lead principle under it is to be a fan of the players' characters. [researched] A fan does not protect the characters from consequences. The phrasing that travels is "root for them, but put their backs to the wall so they can prove themselves." [researched] This matters for the Alpha Player problem that the social-pressure article leaves open: a gamemaster who is structurally on the players' side can deliberately seek out the quiet player and hand them a moment, where an adversarial or purely neutral stance leaves the loudest reader of the room to dominate it.
+
+The adversarial stance is legitimate, but only when the table signed up for it. The clearest case is a game whose genre is built on the adversary: a comedy of betrayal where players choose the experience knowing the person running it will work against them and the mutual distrust is the joke. [researched] That is structurally different from the killer-gamemaster failure mode, where the same behaviour arrives without agreement. The dividing line is consent declared in advance, so the stance question belongs in the table's opening negotiation rather than in something discovered three sessions later.
+
+### Stance has to match the system, or trust breaks
+
+A stance is not freely interchangeable. Each system is designed for a default, and pointing the wrong stance at it produces a recognisable wreck. An adversarial gamemaster in a fan-of-characters game violates the implicit deal. Those players expect the person running it to be structurally on their side. An adversary who secretly schemes against them will lose their trust fast. [corpus] The mirror failure is the fan of the characters in an old-school game. Softening consequences to protect a beloved character removes the very stakes that made the game exciting. The players may enjoy the session while still feeling they earned nothing. [corpus] A neutral simulationist who never notices when a character's values are on the line produces excellent world-logic and a flat room. [corpus] The collaborative storyteller pushed past their welcome redirects every divergence back toward the story they wanted, so the players make choices that change nothing. [corpus]
+
+That last failure has a name worth carrying. Paul Czege's principle holds that when one person authors both a character's adversity and its resolution, play stops being fun. [researched] It is the deep reason the storyteller stance is the most dangerous of the six. If the gamemaster invents the conflict and also decides how it resolves, through a fudged roll or a predetermined outcome, nothing the players do is load-bearing. Powered-by-the-Apocalypse games answer Czege structurally by splitting the authorship. The players' actions trigger the resolution and the dice settle it, so the person running the game cannot quietly author both ends. [researched] This is the same logic as fair cluing in a puzzle, where the path to the answer must be reachable from the materials and never dependent on a rule only the designer knows, covered in [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+The question of where authority sits when the rules run out is its own contract, the rulings-versus-rules deal, and it sits underneath all six stances: [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd). How much of that authority a system hands to players rather than reserving for the gamemaster is a separate design axis again, [Distributing Narrative Authority](../systems-mechanics/distributing-narrative-authority.qmd). And the prep a stance implies varies wildly. A referee builds situations rather than plots, the spread of agency this produces being [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd). A storyteller instead prepares dramatic beats, and a simulationist a consistent world.
+
+::: {.callout-note}
+### The Specimen
+*Robin's Laws of Good Game Mastering* (2002) gave the hobby its most-used reason to blend stances: a typology of player desires the gamemaster is meant to read and serve. The power gamer wants advancement, the tactician wants a fair and solvable challenge, the method actor wants their personality tested, the storyteller-player wants narrative shape, the casual gamer wants low-pressure participation. [researched] Laws's claim is that the gamemaster's job is to give each player the emotional response they came for, and since most groups hold several types at once, no single stance serves the whole table. The skill is switching between them. You referee the world's physics while rooting for the characters during their emotional beats, and you reach for the scene framer's tools when the pacing needs a hand. The stance is not who you are. It is which mode the current moment needs. How that mix shapes who you cast and seat is [Player Types & Casting](player-types-and-casting.qmd).
+:::
+
+### The same choice in a live-game room
+
+The stance question is not unique to the tabletop, even though that is where it was most fully written down. Move to a live game of thirty people and the same axes reappear as a choice of where the host stands. The host can hold a character and play alongside everyone. They can stand outside as a pure facilitator. Or they can vanish entirely into a game engineered to run itself. [corpus] These map onto the tabletop stances, but the scale changes what each one costs.
+
+The participant host is the live cousin of a gamemaster who is also a player, and it carries the same structural problem the tabletop names. A host with their own character cannot cleanly call rulings on situations that touch their character's interests, so any mechanic needing neutral administration has to be stripped out or run on an honour system. [corpus] The facilitator host is the pure referee or scene framer. Holding no character and pacing the evening from outside, they can arbitrate anything in real time. The control is total. The price is that the host never plays their own game. [corpus] The host-absent design pushes the scene-framer's pacing all the way into the structure itself. Timed envelopes and gated puzzles do the work a live facilitator would, which only holds together for experienced groups and tight puzzle logic. [corpus] The taxonomy and its tradeoffs are the subject of [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd). "Which stance" and "where does the host stand" turn out to be the same question asked at two scales.
+
+Interactive fiction is the limiting case, where the gamemaster is absent by construction and their stance has to be frozen into the text in advance. The author cannot read the room and switch modes, so the stance shows up as a fixed authorial posture. The prose may root for the protagonist or play the world cold. In either case it can quietly cleave to one fixed story whatever the reader picks. The Czege risk is sharpest here. A single author writes both the adversity and its resolution by default, so the craft lies in building real player-driven outcomes that let the choices still bite.
+
+### Declaring the stance is part of the agreement
+
+Because the stance sets the contract, it belongs in the conversation where the table agrees what the game will be, not in the players' slow inference over three sessions. A group choosing a harsh, challenge-first game is consenting to an adversarial or strict-referee stance; a group choosing a high-drama character game is consenting to a fan of the characters. When the stance is named up front, a hard ruling reads as the game working; when it is left implicit, the same ruling reads as betrayal. [synthesis] This is the same foundation the social-pressure article puts under designed discomfort. Pressure and stakes only hold while the players believe the game is being run in good faith, and good faith is far easier to keep when everyone knows which game it is. That opening negotiation, where the stance is one of the things settled, is [The Session Zero Playbook](the-session-zero-playbook.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is the secret stance switch. A gamemaster runs a game as a fan of the characters. Then they quietly turn adversary for one session, wanting the players to feel real danger, and they tell nobody. From the inside it feels like raising the stakes. From the players' side the floor has moved without warning. The deal they thought they were playing under is no longer the one in force. The trust that let them take risks goes with it. The same tell shows up as fudging in the other direction, a referee who secretly protects a character to keep the story on track. Both break the contract in the same way, by authoring an outcome the players think they earned. If you want to change the stance, change it out loud and let the table agree. A stance the players cannot see is not a stance. It is a lie about what game they are in. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** The gamemaster's stance is the seat of authority this whole family circles. The social-pressure work establishes that the person running the game holds a gradient that suppresses objection and shapes trust; this article is about what they choose to do with it. Every other social mechanism either feeds that choice or depends on it. The hidden-role plumbing and the voting methods generate the pressure, the safety contract and the session-zero agreement make it bearable, and the gamemaster's stance decides whose side the authority is exercised on while all of that runs. Get the stance wrong for the game, by pointing an adversary at a trust-built table or a protector at a challenge game, and no clever scenario redeems it, because the players have stopped believing the contract. Get it right and the stance becomes invisible, which is the sign it is working.
+
+**Next steps.** To settle the stance where it belongs, in the opening agreement, work through [The Session Zero Playbook](the-session-zero-playbook.qmd). To handle the moment-to-moment authority a stance implies when the rules run out, the deal is [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd), and the wider question of how much authority to hand the players at all is [Distributing Narrative Authority](../systems-mechanics/distributing-narrative-authority.qmd). To match the stance to the people actually at the table, start from [Player Types & Casting](player-types-and-casting.qmd). And where the same stance choice arrives at the scale of a live-game room rather than a four-player table, it becomes [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd).
+
+## Sources
+
+- Gygax, Gary. *Dungeon Masters Guide*. TSR, 1979. (The referee-and-final-arbiter framing; the explicit counsel against the killer gamemaster.) Internet Archive: <https://archive.org/details/advanceddungeons0000gyga>
+- Milton, Ben, Steven Lumpkin and David Perry. *Principia Apocrypha* (2018, CC BY-NC-SA 4.0). (Old-school restatement: referee not antagonist, no secret dice-fudging.) <https://ceschini.github.io/memcached/TTRPG/osr/principia-apocrypha/>
+- Baker, Vincent. *Apocalypse World*, 2nd edition. lumpley games, 2016. (The MC agenda and principles, including "be a fan of the players' characters" and "put their backs to the wall.") Agenda and principles via Gnome Stew: <https://gnomestew.com/the-gms-agenda-and-principles/>
+- LaTorra, Sage and Adam Koebel. *Dungeon World*. Sage Kobold Productions, 2012. (PbtA agenda and principles adapted to fantasy; "think dangerous," "think offscreen, too.") Dungeon World SRD: <https://book.dwgazetteer.com/gm.html>
+- Harper, John. *Blades in the Dark*. Evil Hat Productions, 2017. (Forged-in-the-Dark GM principles; faction clocks and playing the world straight.) GM principles via the G+ archive: <https://bitd.gplusarchive.online/2015/05/01/gm-principles/>
+- Laws, Robin D. *Robin's Laws of Good Game Mastering*. Steve Jackson Games, 2002. (The seven player types and the give-each-player-what-they-came-for argument.) John Kim's mirror: <https://www.darkshire.net/jhkim/rpg/theory/models/robinslaws.html>
+- Czege, Paul. The Czege Principle (formulated 2003): one person authoring both adversity and resolution makes play unfun. Wikipedia: <https://en.wikipedia.org/wiki/Paul_Czege>. Architecture essay, Electronic Book Review: <https://electronicbookreview.com/publications/my-life-with-master-the-architecture-of-protagonism/>
+- Edwards, Ron. "System Does Matter" (Gaming Outpost, July 1999) and the GNS modes (gamism / narrativism / simulationism). GNS Theory, Wikipedia: <https://en.wikipedia.org/wiki/GNS_theory>
+- *FATE Core* SRD, "Defining Scenes" (Evil Hat Productions, 2013). (The scene-framer stance: the GM as film editor controlling cuts.) <https://fate-srd.com/fate-core/defining-scenes>
+- *Tomb of Horrors* and the adversarial tournament tradition (vs the killer-GM failure mode). Wikipedia: <https://en.wikipedia.org/wiki/Tomb_of_Horrors>; TV Tropes, Killer Game Master: <https://tvtropes.org/pmwiki/pmwiki.php/Main/KillerGameMaster>
+- Milgram, Stanley. "Behavioral Study of Obedience." *Journal of Abnormal and Social Psychology* 67, no. 4 (1963): 371-378. (Authority suppresses objection; the gradient a stance directs.) <https://pubmed.ncbi.nlm.nih.gov/14049516/>
+- Freeform Games. "Murder mystery party games you can simultaneously host and play." freeformgames.com/blog. (The participant host and the removal of adjudicated mechanics.)
+- Escape Room Era. "What is the role of the game master in an escape room?" escaperoomera.com. (The facilitator host's real-time control and its tradeoffs.)
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
 - [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)
+- [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd)
+- [One-on-One Scene Design](one-on-one-scene-design.qmd)
+- [Player Types & Casting](player-types-and-casting.qmd)
+- [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
+- [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
+- [The Session Zero Playbook](the-session-zero-playbook.qmd)
+- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
+- [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
 
 <!-- BACKLINKS:END -->
