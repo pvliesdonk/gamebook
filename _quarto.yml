@@ -162,4 +162,6 @@ format:
       - assets/fonts
     include-in-header:
       - typst/field-guide.typ
+    filters:
+      - filters/field-guide.lua
   epub: default

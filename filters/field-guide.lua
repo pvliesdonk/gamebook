@@ -10,10 +10,6 @@
 -- face gets the same affordances from its own template).
 -- ============================================================
 
-if not (FORMAT:match('html')) then
-  return {}
-end
-
 local stringify = pandoc.utils.stringify
 
 local FAMILY_ID = {
@@ -40,8 +36,12 @@ local ICON = {
   hunt     = '<path d="M231.22,148.09,189.6,53.41a3.94,3.94,0,0,0-.83-1.22,28,28,0,0,0-39.6,0A4,4,0,0,0,148,55V84H108V55a4,4,0,0,0-1.17-2.83,28,28,0,0,0-39.6,0,3.94,3.94,0,0,0-.83,1.22L24.78,148.09A44,44,0,1,0,108,168V92h40v76a44,44,0,1,0,83.22-19.91ZM64,204a36,36,0,1,1,36-36A36,36,0,0,1,64,204Zm0-80a43.78,43.78,0,0,0-22.66,6.3L73.4,57.35a20,20,0,0,1,26.6-.59v86A44,44,0,0,0,64,124Zm92-67.23a20,20,0,0,1,26.6.59l32.06,72.94A43.92,43.92,0,0,0,156,142.74ZM192,204a36,36,0,1,1,36-36A36,36,0,0,1,192,204Z"/>',
 }
 
--- 1 · provenance marks -----------------------------------------------------
+local IS_HTML  = FORMAT:match("html")
+local IS_TYPST = FORMAT:match("typst")
+
+-- 1 · provenance marks (HTML; Typst styles these via regex show rules) -----
 function Str(el)
+  if not IS_HTML then return nil end
   local kind = el.text:match("^%[(corpus)%]$")
             or el.text:match("^%[(researched)%]$")
             or el.text:match("^%[(synthesis)%]$")
@@ -52,9 +52,10 @@ function Str(el)
   return nil
 end
 
--- 2 · the Silhouette -------------------------------------------------------
+-- 2 · the Silhouette (HTML; print renders it italic via the markdown) ------
 local silhouette_done = false
 function Para(el)
+  if not IS_HTML then return nil end
   if silhouette_done then return nil end
   if stringify(el):match("^%s*Silhouette:") then
     silhouette_done = true
@@ -93,10 +94,28 @@ local function family_script(meta)
     .. '.setAttribute("data-family","' .. id .. '");})();</script>')
 end
 
+-- 5 · per-chapter family for the print face --------------------------------
+-- Inject a Typst state update at the top of each chapter so the print theme
+-- can colour the opener rule, running heads and bleed tab by family.
+local function family_typst(meta)
+  if not meta.family then return nil end
+  local id = FAMILY_ID[stringify(meta.family)]
+  if not id then return nil end
+  return pandoc.RawBlock("typst", '#fg-set-family("' .. id .. '")')
+end
+
 function Pandoc(doc)
-  local badges = media_row(doc.meta)
-  if badges then table.insert(doc.blocks, 1, badges) end
-  local fam = family_script(doc.meta)
-  if fam then doc.blocks[#doc.blocks + 1] = fam end
+  if IS_TYPST then
+    local fam = family_typst(doc.meta)
+    if fam then table.insert(doc.blocks, 1, fam) end
+    return doc
+  end
+  if IS_HTML then
+    local badges = media_row(doc.meta)
+    if badges then table.insert(doc.blocks, 1, badges) end
+    local fam = family_script(doc.meta)
+    if fam then doc.blocks[#doc.blocks + 1] = fam end
+    return doc
+  end
   return doc
 end

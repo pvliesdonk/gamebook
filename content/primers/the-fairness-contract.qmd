@@ -1,5 +1,6 @@
 ---
 title: "Puzzles, Clues & Information"
+family: "Puzzles, Clues & Information"
 subtitle: "Primer · The Fairness Contract"
 type: primer
 provenance: "synthesis"

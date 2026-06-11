@@ -1,5 +1,6 @@
 ---
 title: "Players & Social Dynamics"
+family: "Players & Social Dynamics"
 subtitle: "Primer · The Social Contract & Safety"
 type: primer
 provenance: "synthesis"

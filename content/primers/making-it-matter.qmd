@@ -1,5 +1,6 @@
 ---
 title: "Story, Character & Voice"
+family: "Story, Character & Voice"
 subtitle: "Primer · Making It Matter"
 type: primer
 provenance: "synthesis"

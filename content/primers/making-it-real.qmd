@@ -1,5 +1,6 @@
 ---
 title: "Space, Props & Materiality"
+family: "Space, Props & Materiality"
 subtitle: "Primer · Making It Real"
 type: primer
 provenance: "synthesis"
