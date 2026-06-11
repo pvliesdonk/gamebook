@@ -1,0 +1,66 @@
+/* ============================================================
+   SPACING, RADII, SHADOWS, LAYOUT
+   Field Guide to Narrative & Game Design
+   ------------------------------------------------------------
+   Print-derived: crisp corners, hairline rules, almost no
+   shadow. The page behaves like paper. Floating chrome (search
+   results, the occasional plate mount) gets the faintest lift.
+   ============================================================ */
+
+:root {
+  /* --- Spacing scale (4px base) ----------------------------- */
+  --space-0:   0;
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-5:   24px;
+  --space-6:   32px;
+  --space-7:   48px;
+  --space-8:   64px;
+  --space-9:   96px;
+  --space-10: 128px;
+
+  /* Semantic spacing */
+  --gap-inline:    var(--space-2);  /* between inline chips/badges */
+  --pad-chip:      var(--space-1) var(--space-2);
+  --pad-callout:   var(--space-5) var(--space-5);
+  --pad-card:      var(--space-5);
+  --pad-page:      var(--space-7);
+  --flow:          var(--space-4);  /* vertical rhythm between paragraphs */
+  --flow-loose:    var(--space-6);  /* between sections */
+
+  /* --- Radii (crisp; print does not round) ------------------ */
+  --radius-none:  0;
+  --radius-xs:    2px;   /* chips, badges */
+  --radius-sm:    3px;   /* buttons, inputs */
+  --radius-md:    4px;   /* cards, callouts */
+  --radius-pill:  999px; /* media badges, filter chips */
+
+  /* --- Borders --------------------------------------------- */
+  --border-width:        1px;
+  --border-width-strong: 1.5px;
+  --border-width-rule:   2px;   /* the field-guide top-rule on plates */
+
+  /* --- Shadows (paper, barely there) ------------------------ */
+  --shadow-none:   none;
+  --shadow-plate:  0 1px 2px rgba(40, 30, 14, 0.05),
+                   0 2px 10px rgba(40, 30, 14, 0.04);
+  --shadow-raised: 0 2px 6px rgba(40, 30, 14, 0.08),
+                   0 8px 24px rgba(40, 30, 14, 0.06);
+  --shadow-inset:  inset 0 1px 2px rgba(40, 30, 14, 0.05);
+
+  /* --- Focus ring ------------------------------------------- */
+  --focus-ring: 0 0 0 2px var(--paper), 0 0 0 4px var(--amber);
+
+  /* --- Layout widths --------------------------------------- */
+  --rail-width:     260px;  /* left nav rail */
+  --thumb-width:    44px;   /* media thumb-tab strip */
+  --content-max:    720px;  /* article column container */
+  --page-max:       1180px; /* full wiki shell */
+
+  /* --- Motion (restrained; print, not app) ------------------ */
+  --ease-paper:  cubic-bezier(0.2, 0.0, 0.2, 1); /* @kind other */
+  --dur-fast:    120ms; /* @kind other */
+  --dur-base:    200ms; /* @kind other */
+}

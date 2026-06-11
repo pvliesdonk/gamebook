@@ -1,6 +1,8 @@
 project:
   type: book
   pre-render: python3 scripts/backlinks.py
+  resources:
+    - assets/fonts/web/*.woff2
 
 book:
   title: "Field Guide to Narrative & Game Design"
@@ -150,5 +152,6 @@ format:
     theme:
       - cosmo
       - brand
+      - assets/theme/field-guide.scss
   typst: default
   epub: default

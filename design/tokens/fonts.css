@@ -1,0 +1,144 @@
+/* ============================================================
+   FONTS — Field Guide to Narrative & Game Design
+   ------------------------------------------------------------
+   READING & DISPLAY FACE: Adobe Jenson Pro (Adobe Font Folio).
+   A Venetian old-style with OPTICAL SIZE masters — each cut for a
+   size band. We expose four families and route the type scale to
+   the master that was designed for it (see typography.css):
+
+     Jenson Caption  ~6–8.4pt  footnotes, micro-labels, fine print
+     Jenson Text     ~8.4–13pt body, the reading measure
+     Jenson Subhead  ~13–20pt  leads, silhouettes, H4, sub-heads
+     Jenson Display  ~20pt+    H1–H3, plate titles, drop caps
+
+   Files are the desktop OTFs (Font Folio license) referenced via
+   @font-face for preview. NOTE: Font Folio is a desktop license —
+   for the live website, swap these src URLs to your Adobe Fonts
+   web project (same families) or a web-licensed equivalent.
+
+   PAIRING ROLES:
+     - Labels / UI sans  → Cronos Pro       (Adobe Font Folio, optical)
+     - Data / provenance → Letter Gothic Std (Adobe Font Folio)
+
+   All faces are now self-hosted OTFs — no external font CDN.
+   ============================================================ */
+
+/* ---- Letter Gothic Std — typewriter mono, the data role --- */
+/* Provenance markers, key tables, stat-block values — the
+   field-logbook / specimen-tag register. */
+@font-face {
+  font-family: 'Letter Gothic'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/letter-gothic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Letter Gothic'; font-style: italic; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/letter-gothic-italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Letter Gothic'; font-style: normal; font-weight: 700;
+  font-display: swap; src: url('../assets/fonts/letter-gothic-bold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Letter Gothic'; font-style: italic; font-weight: 700;
+  font-display: swap; src: url('../assets/fonts/letter-gothic-bold-italic.otf') format('opentype');
+}
+
+/* ---- Cronos Pro — humanist sans, the label/UI role -------- */
+/* Text master (UI at 13px+) */
+@font-face {
+  font-family: 'Cronos'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/cronos-text.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Cronos'; font-style: italic; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/cronos-text-italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Cronos'; font-style: normal; font-weight: 600;
+  font-display: swap; src: url('../assets/fonts/cronos-text-semibold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Cronos'; font-style: normal; font-weight: 700;
+  font-display: swap; src: url('../assets/fonts/cronos-text-bold.otf') format('opentype');
+}
+/* Caption master (small-caps labels, kickers, chips — cut for small sizes) */
+@font-face {
+  font-family: 'Cronos Caption'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/cronos-caption.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Cronos Caption'; font-style: normal; font-weight: 600;
+  font-display: swap; src: url('../assets/fonts/cronos-caption-semibold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Cronos Caption'; font-style: normal; font-weight: 700;
+  font-display: swap; src: url('../assets/fonts/cronos-caption-bold.otf') format('opentype');
+}
+
+/* ---- Jenson Display (20pt+) ------------------------------- */
+@font-face {
+  font-family: 'Jenson Display'; font-style: normal; font-weight: 300;
+  font-display: swap; src: url('../assets/fonts/jenson-display-light.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Jenson Display'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/jenson-display.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Jenson Display'; font-style: italic; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/jenson-display-italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Jenson Display'; font-style: normal; font-weight: 600;
+  font-display: swap; src: url('../assets/fonts/jenson-display-semibold.otf') format('opentype');
+}
+
+/* ---- Jenson Subhead (13–20pt) ----------------------------- */
+@font-face {
+  font-family: 'Jenson Subhead'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/jenson-subhead.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Jenson Subhead'; font-style: italic; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/jenson-subhead-italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Jenson Subhead'; font-style: normal; font-weight: 600;
+  font-display: swap; src: url('../assets/fonts/jenson-subhead-semibold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Jenson Subhead'; font-style: italic; font-weight: 600;
+  font-display: swap; src: url('../assets/fonts/jenson-subhead-semibold-italic.otf') format('opentype');
+}
+
+/* ---- Jenson Text (8.4–13pt) — body ------------------------ */
+@font-face {
+  font-family: 'Jenson Text'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/jenson-text.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Jenson Text'; font-style: italic; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/jenson-text-italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Jenson Text'; font-style: normal; font-weight: 600;
+  font-display: swap; src: url('../assets/fonts/jenson-text-semibold.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Jenson Text'; font-style: italic; font-weight: 600;
+  font-display: swap; src: url('../assets/fonts/jenson-text-semibold-italic.otf') format('opentype');
+}
+
+/* ---- Jenson Caption (6–8.4pt) ----------------------------- */
+@font-face {
+  font-family: 'Jenson Caption'; font-style: normal; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/jenson-caption.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Jenson Caption'; font-style: italic; font-weight: 400;
+  font-display: swap; src: url('../assets/fonts/jenson-caption-italic.otf') format('opentype');
+}
+@font-face {
+  font-family: 'Jenson Caption'; font-style: normal; font-weight: 600;
+  font-display: swap; src: url('../assets/fonts/jenson-caption-semibold.otf') format('opentype');
+}
