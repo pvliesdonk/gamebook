@@ -130,9 +130,11 @@ The hint that solves the puzzle *for* the solver kills the aha it was meant to r
 - [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
 - [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd)
 - [Self-Resolving Puzzles](self-resolving-puzzles.qmd)
+- [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd)
 - [Teaching Through Play](teaching-through-play.qmd)
 - [The Aha Moment](the-aha-moment.qmd)
 - [The Fairness Contract](../../primers/the-fairness-contract.qmd)
 - [Treasure & Scavenger Hunts](treasure-and-scavenger-hunts.qmd)
+- [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd)
 
 <!-- BACKLINKS:END -->

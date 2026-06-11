@@ -1,14 +1,118 @@
 ---
 title: "West Marches & the Open-Table Format"
-aliases: []
+aliases: ["Open Table", "Rotating Roster Campaign", "West Marches Campaign", "Drop-In Drop-Out Play"]
 family: "Structure & Pacing"
-media: []
+media: [tabletop, live-game, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [player-agency, persistent-world, sustained-community]
+  problems: [scheduling-collapse, gm-burnout, roster-churn, lore-drift]
+  components: [shared-map, town-hub, session-report, sign-up-sheet]
+  genre: [fantasy, adventure, sandbox]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: A persistent world that holds together even when a different group shows up every time, because the players rather than the calendar decide when to play.*
+
+Most campaigns assume the same people at the table week after week. The open table throws that assumption out. Players come and go from a shared pool, no two sessions hold the same party, and nobody waits on a fixed night in the diary. What holds it together is not a plot but a place: a world that stays where you left it, ready for whoever walks back in.
+
+Ben Robbins gave the format its name in 2007, writing up a campaign he had run from 2001 to 2003. [researched] He was solving three nuisances at once. Players who showed up every week but drifted through a story the referee had built for them. Schedules that fell apart the moment an adult missed a Tuesday. Referees whose energy bled away without the pressure of a deadline. His fix was to remove the assumption holding up all three, the regular group itself, then build a structure that did not need it. [researched]
+
+This article is about that structure: what you have to build so that a campaign can run on a rotating roster and stay coherent, and how the same problem shows up the moment any game tries to host a shifting crowd in one persistent world.
+
+## The Mechanism (How it works)
+
+### The three removals
+
+The format is defined by what it takes away. Robbins set out three rules, and each one removes a fixture that a normal campaign leans on. [researched]
+
+| Removed | The rule | What it forces |
+|---|---|---|
+| Regular time | Players schedule each session themselves; the referee is available, not in charge | Players supply the drive that a plot would otherwise supply [researched] |
+| Regular party | Each game draws a different group from a pool of roughly 10 to 14 | The world cannot depend on any one character being present [researched] |
+| Regular plot | No quest-giver and no arc, only a sandbox world to explore | The story is read off afterwards from what players did, not authored ahead [researched] |
+
+The removals are not three separate ideas. They interlock. Take away the regular plot and you no longer need the same people every week to follow it, which lets the roster rotate, which means you cannot promise any particular night either. Pull one and the others come loose. This is the same agency question that runs through [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd). The open table sits at the far sandbox end. The world stays put and the players make their own way through it. The "no regular plot" rule is the format's way of refusing the quantum ogre, that encounter the referee had decided was happening before anyone chose. Nothing waits to happen until a group goes looking for it. [synthesis]
+
+The negative space is the real design. Strip out the quest-giver and the authored thread and you force the players to bring their own reason to play. A group that cannot self-start to plan an expedition simply does not play that week. So the format quietly selects for a particular kind of player, the one who reads the map and says "let's go here next." [researched]
+
+### The town-as-hub rule
+
+One operational constraint makes the rotating roster work at all. Every session starts in town and finishes in town. [researched] No character is ever stranded out in the wilderness between games. If a session runs late, the group hand-waves a travel montage back to the keep. Any character who does not show up next time is simply resting in town, which needs no story to explain it. The hub absorbs the roster churn.
+
+Town is for logistics, not adventure. In Robbins's campaign a "town game" was a dirty phrase. [researched] The danger lives out in the wilderness; the hub is the safe edge you launch from and return to. This is the structural cousin of the bottleneck in [Branching Narrative Craft](branching-narrative-craft.qmd), where divergent paths fan out and rejoin at a shared beat. Town is the bottleneck every expedition passes through, which is exactly what lets the expeditions themselves diverge so freely. The spatial layout that radiates out from such a hub is the subject of [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd), and the keyed space the parties actually descend into is [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd).
+
+### Spatial pacing instead of narrative pacing
+
+A normal campaign paces itself through story beats: setup, escalation, climax. The open table cannot, because there is no authored story to beat out. Instead it paces through space. Robbins drew a wilderness map with danger layered by distance. Areas near town suited fresh characters; the deep wilderness demanded experience and preparation. [researched] The map itself does the work that a rising plot does elsewhere. Players feel the stakes climb because they are physically further from safety, not because a script told them the stakes were climbing.
+
+The hex-crawl and the open table grew up together for this reason. A keyed map can be entered from anywhere by any group, on any night they choose. Hexes get partly explored and returned to across dozens of sessions. The content stays fixed while the players' knowledge of it grows. [researched] That property is what makes the format durable under a rotating roster. One group can poke at a region independently of another, or build on what an earlier party found through the shared reports, and the world holds either way.
+
+The megadungeon is the same engine pointed downward instead of outward. A single huge dungeon of dozens of levels and hundreds of keyed rooms supports rotating play through identical logic. The content is fixed, the players' knowledge accumulates, and any group can resume from whatever point the campaign has reached. [researched] Greg Gillespie's *Barrowmaze* (2011) builds the danger gradient horizontally, with threat rising as parties push east across the map, the dungeon equivalent of the wilderness's distance-from-town. [researched] Richard Barton's *The Halls of Arden Vul* (2020) shows the outer limit of the form: over 2,000 keyed areas across more than a thousand pages, enough to sustain years of open-table play. [researched]
+
+### Between-session bookkeeping
+
+A rotating roster creates a knowledge problem. The group that plays on Friday needs to know what the Wednesday group changed, or the world quietly contradicts itself. A warlord killed by one party cannot be alive for the next.
+
+Robbins's answer was to make player-written session reports a structural requirement, not a nicety. [researched] Because each session drew a different slice of the pool, absent players needed a reliable way to learn what had shifted. The reports, shared first by email and later through Discord channels or shared wikis, kept the fiction coherent across groups and updated the player-facing map. The consequence is worth naming plainly. The referee is no longer the keeper of continuity between sessions; that burden moves out to the players. A minimum useful report names the party and where it went. It records what the party fought and how that ended. And it lists the loot, along with a loose thread left hanging. [researched]
+
+This is the open table's version of state-tracking. [Branching Narrative Craft](branching-narrative-craft.qmd) keeps a story responsive with flags and counters that record what the reader did so later passages can read them back. The open table does the same job with prose. The session archive holds the campaign's state. The shared map carries the flags that say which hex is mapped and which warlord is dead. The discipline is identical. Track what changes, then let later play read it back. The puzzle family draws the same dependency map under the name [Information Architecture](../puzzles-clues-information/information-architecture.qmd).
+
+The scheduling side runs on the same distributed principle. In the original campaign a group would propose a goal by email and round up willing characters. It then gave the referee a couple of days' notice so prep could be aimed at that one expedition. [researched] The 2010s moved this onto Discord. The pattern settled into a channel that posts each available session with its date, system, and level range. Players sign up, and the slot goes to whoever commits first. [researched] First-to-commit creates urgency without demanding that everyone attend, which is precisely the pressure a fixed group gets for free and an open table has to manufacture.
+
+::: {.callout-note}
+### The Specimen
+Robbins's original West Marches ran a pool of about 14 players from 2001 to 2003. It had no fixed night, no fixed party, and no plot. He wrote it up on his blog *ars ludi* in October 2007. [researched] The write-up, not the campaign, is what spread. Travelling through the OSR blogosphere from roughly 2008 to 2012, it revived the hex-crawl procedures that Second Edition D&D had dropped, and seeded a whole tooling culture along the way. Justin Alexander credits those posts as a key force in bringing hex-crawl procedures back into mainstream awareness. [researched] Dedicated platforms such as westmarches.games now automate the sign-up-and-track workflow that Robbins ran by hand over a mailing list. [researched] The format is one of the few in tabletop history that can be traced to a single named, dated, public document.
+:::
+
+### Coordination at scale: factions and many referees
+
+The strict format has a known weakness. Because no non-player character holds an agenda and no authored plot ticks along, the world only changes when players act, which can make it feel static. [researched] The faction-driven open table fixes this by adding clocks that advance between sessions regardless of what any group did. Kevin Crawford's *Stars Without Number* is the common reference. Factions hold rated assets, each active project gets its own progress clock, and inter-faction conflict resolves turn by turn off-screen. Groups then return to a world that forces they may not yet understand have altered. [researched] The binding rule is that faction progress stays legible. Clues about what the factions are doing are scattered through the world as findable information, not withheld as referee secrets. [researched] The widget itself, the [Progress Clock](../systems-mechanics/progress-clocks-and-faction-state.qmd), is shared machinery across the families.
+
+Scale also strains the single-referee model. Past roughly twenty players a campaign usually needs several referees, which raises the canon-management problem: every referee must share a live picture of world state. The documented solutions are bureaucratic and unglamorous. There is a master document for major changes and a shared report archive. There is a world calendar recording when each expedition happened, so two groups never "simultaneously" occupy the same room. And there is one authoritative map every referee can annotate. [researched] The deeper question is ownership. If a character dies under one referee, does that death hold when the player turns up to another's table? Most campaigns answer yes, keeping a single coherent world rather than parallel universes per referee, which only works on an explicit trust protocol for how referees report big events to each other. [researched] The multi-team-in-one-world coordination this demands is the tabletop face of [Parallel Team Architectures](../players-social-dynamics/parallel-team-architectures.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The format does not solve the social-energy problem. It relocates it. A regular campaign leans on the referee to drive scheduling; pull that out and the campaign dies the moment nobody in the pool steps up to organise. The documented failure is passivity. Players wait for someone else to call the session, and the silence compounds. [researched] Campaigns that lasted three years or more almost always had a visible core of two to four players who reliably organised games and brought others in. [researched] If you build the world and wait for it to fill, it stays empty. The open table needs a named culture of player responsibility, set at session zero and held to, or it quietly stops. The tell is a sign-up channel that has gone a fortnight without a post. [synthesis]
+:::
+
+### The same problem in live play and hunts
+
+The open table is a specific answer to a general question: how do you host a shifting crowd in one persistent world without losing coherence. Other media meet that question on their own terms.
+
+Live games meet it as drop-in, drop-out accessibility. A format built so that a participant can join or leave without breaking the experience is solving the open table's roster churn in real time, the same instinct that drives [Spectator-Friendly Design](../players-social-dynamics/spectator-friendly-design.qmd). [synthesis] The megagame pushes it furthest: thirty to a hundred players arranged into parallel teams in a shared world for a day, with control staff tracking the central state that no single team can see. [researched] That is the open table's many-referees canon-management problem rebuilt as a live event, and the structural pattern is [Parallel Team Architectures](../players-social-dynamics/parallel-team-architectures.qmd). [synthesis]
+
+Puzzle hunts meet it as the roster-based distributed event. A long-form hunt sustains a rotating community of solvers against fixed content, which is the open table's fixed-world, accumulating-knowledge logic in puzzle form. [synthesis] DASH ("Different Area, Same Hunt") makes the parallel almost literal. The same puzzles run on the same day across two dozen cities, each team experiencing one shared design separated only by local geography. [researched] It is one authored world met by many simultaneous groups with no shared party, held together by a common artefact rather than a common schedule. The trust such distributed long-form play depends on is [Designer–Community Trust in Long-Form Hunts](../players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd). [synthesis]
+
+## Where this fits
+
+**The bigger picture.** The open table is what happens when a campaign stops being a story you tell a group and becomes a place a community visits. It sits at the sandbox pole of [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd), and it inverts the assumptions behind the arc-driven campaign that [Campaign Arc Shapes](campaign-arc-shapes.qmd) describes: where the arc campaign authors a throughline in advance, the open table reads its story off the session archive afterwards. Its persistence depends on infrastructure that the regular-group campaign never needs. The shared map and town hub are part of that price. So are the session-report habit and the sign-up sheet. Remove the regular group and you must build a machine to replace what the regular group did for free.
+
+**Next steps.** The map that paces an open table is built in [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd) and keyed in [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd); together they supply the spatial pacing that stands in for narrative pacing. To keep the world changing between sessions without an authored plot, the engine is the faction clock of [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd). When several referees share one world, the coordination craft sits in [Parallel Team Architectures](../players-social-dynamics/parallel-team-architectures.qmd). And because the format lives or dies on whether the player pool will self-organise, the social contract that makes it hold is laid down in [The Session Zero Playbook](../players-social-dynamics/the-session-zero-playbook.qmd).
+
+## Sources
+
+- Robbins, Ben. "Grand Experiments: West Marches." *ars ludi*, October 2007. <https://arsludi.lamemage.com/index.php/78/grand-experiments-west-marches/>
+- Robbins, Ben. "Grand Experiments: West Marches (part 2): Sharing Info." *ars ludi* (October 2007). <https://arsludi.lamemage.com/index.php/79/grand-experiments-west-marches-part-2-sharing-info/>
+- Robbins, Ben. "West Marches: Running Your Own." *ars ludi*, May 2008. <https://arsludi.lamemage.com/index.php/94/west-marches-running-your-own/>
+- Alexander, Justin. "Hexcrawl." *The Alexandrian*. <https://thealexandrian.net/wordpress/17308/roleplaying-games/hexcrawl>
+- Maliszewski, James. "Review: Stonehell Dungeon." *GROGNARDIA*, November 2009. <https://grognardia.blogspot.com/2009/11/review-stonehell-dungeon.html>
+- Crawling for Coppers. "Stonehell: Running an Open Table Megadungeon." August 2017. <https://crawlingforcoppers.blogspot.com/2017/08/stonehell-running-open-table-megadungeon.html>
+- Halls of Arden Vul (official site). <https://ardenvul.com/>
+- Secrets of the Barrowmaze. "What is a West Marches Campaign?" <https://www.secretsofthebarrowmaze.com/what-is-a-west-marches-campaign/>
+- Rients, Jeff. "The FLAILSNAILS Conventions." *Jeff's Gameblog*, August 2011. <https://jrients.blogspot.com/2011/08/flailsnails-conventions.html>
+- "Stars Without Number." Wikipedia. <https://en.wikipedia.org/wiki/Stars_Without_Number>
+- WestMarches.games. "Running West Marches: Practical Guide." <https://www.westmarches.games/guide/running-west-marches>
+- ALA Games and Gaming Round Table. "Running a West Marches Campaign: A Flexible Approach to RPGs for Libraries." <https://games.ala.org/running-a-west-marches-campaign-a-flexible-approach-to-rpgs-for-libraries/>
+- "Megagame." Wikipedia. <https://en.wikipedia.org/wiki/Megagame>
+- DASH (Different Area, Same Hunt). <https://playdash.org/>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Campaign Arc Shapes](campaign-arc-shapes.qmd)
+- [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd)
+- [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
+
+<!-- BACKLINKS:END -->

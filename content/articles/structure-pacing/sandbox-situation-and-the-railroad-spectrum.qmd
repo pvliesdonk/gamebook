@@ -1,14 +1,122 @@
 ---
 title: "Sandbox, Situation & the Railroad Spectrum"
-aliases: []
+aliases: ["Sandbox vs Railroad", "Illusionism", "Prep Situations Not Plots", "Player Agency Spectrum"]
 family: "Structure & Pacing"
-media: []
+media: [tabletop, interactive-fiction, live-game, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [player-agency, felt-causality, emergent-story]
+  problems: [railroading, illusory-choice, choice-paralysis]
+  components: [situation, faction-clock, world-state, node-map]
+  genre: [adventure, mystery, sandbox]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The axis that runs from a track you ride to a world you push against, and the honest middle where most good play lives.*
+
+There is a single question underneath almost every argument about how to run a game: who decides what happens next. At one end the answer is the designer. A track has been laid and the players are meant to ride it. At the other end the answer is the players themselves. They act inside a world that exists without them and bends to what they do. Between those poles sits the real craft, since neither extreme survives contact with a live table. A pure track makes players feel like passengers. A pure open world leaves them asking what they are even supposed to do.
+
+The pole the tradition warns hardest against is the hidden one. A referee who scripts the outcome and then dresses it up as choice has not given the players freedom, only its costume. The players usually sense it before they can name it. They notice that every road arrives at the same place, that the world has the texture of set dressing rather than cause and effect. Slowly the trust they had been extending drains away.
+
+This article is about that axis and how to hold a useful position on it. The companion piece is [Branching Narrative Craft](branching-narrative-craft.qmd), which asks whether a given choice carries weight; this one asks the wider question of how much of the experience is authored in advance at all. The two meet at the same failure: a choice that looks consequential and is not. Branching craft names that the illusion of agency; this tradition names it the railroad, and gives it its sharpest single image, the quantum ogre.
+
+## The Mechanism (How it works)
+
+### The track and the metaphor
+
+The railroad earns its name. A railroad has one track and you ride it wherever it goes. The word arrived in tabletop vocabulary gradually rather than as a coinage: the *Dungeoneer's Survival Guide* spoke in 1986 of players feeling "railroaded into a specific task chosen by the DM", and a 1988 *Dragon* review used the term as though readers already knew it. [researched] By the forum era of the late 1990s it had standardised into the field's word for the cardinal sin of forced play.
+
+"Sandbox" came from the opposite direction, borrowed from video-game talk around the turn of the century, with *Grand Theft Auto III* as the commercial touchstone. [researched] But the thing it described was much older than the word. The first tabletop campaigns were not story-delivery vehicles. Dave Arneson's Blackmoor and Gary Gygax's Greyhawk both began small, a single castle and a town, and grew outward because the players pressed into new territory, not because a referee had scripted a growth sequence. [researched] The structural signature of that tradition is easy to state: prep what exists, not what happens. The world is a system. Story is the emergent property of player decisions running up against that system.
+
+### Don't prep plots, prep situations
+
+The cleanest modern statement of the anti-railroad position is Justin Alexander's, and it turns on a distinction worth holding precisely. A plot is a sequence of events where A leads to B leads to C. A situation is a set of circumstances, and what happens next depends on the players. [corpus] Prep a plot and you have built what Alexander calls a chain of potential failure points. You scripted B to follow A. The moment the players do something you did not foresee, the chain breaks. Now you face a bad choice between two losses. One option honours the players and throws the prep away. The other honours the prep and overrides the players. That second option is the railroad.
+
+Prepping a situation sidesteps the trap. You prepare the people and their motives. You prepare the places and the stakes. You never prepare the outcome. [corpus] The practical test is sharp and slightly uncomfortable. If a player's choice would frustrate you, that frustration is the evidence that what you prepped was a plot wearing a situation's clothes. A situation contains decisions; a plot presupposes them.
+
+The same instinct generalises past the tabletop. Apocalypse World wrote it straight into the referee's job description. The third item on the MC's agenda is a rule as much as advice, "play to find out what happens", paired with the blunt instruction never to plan the outcome of anything. [researched] The prep tool it gives is the Front: a cluster of threats fitted with a Progress Clock that advances on its own schedule unless the players intervene. The clock tracks an ongoing process such as the warlord expanding his territory. It is not a plot the players will be made to enact. The referee discovers the result alongside everyone else. [researched] This is the same redundancy-over-chokepoints thinking that the puzzle family calls node design and maps as [Information Architecture](../puzzles-clues-information/information-architecture.qmd): model the scenario as a web of information joined by several routes, never a single arrow that stalls the game when it is missed.
+
+### The quantum ogre
+
+The tradition's sharpest image for the hidden failure is the quantum ogre, named by Courtney Campbell in 2011. [corpus] Picture two roads. The referee has decided the players will fight an ogre. Road A arrives at the ogre and so does road B, since the destination was locked before anyone chose. The roads themselves are real enough. The choice between them is not. It changes nothing.
+
+The argument made for the ogre is always efficiency. The players were going to fight it anyway, so why should the road matter? The answer is that the players chose and the choice was empty. The cost lands on the day they work that out. It is not one flat scene but the retroactive hollowing of every choice they thought was theirs. [corpus] This is the exact mechanism the [Branching Narrative Craft](branching-narrative-craft.qmd) article calls the illusion of weighted choice, met from the tabletop side. The cure is identical in both: let the choice reach into the world and move something real. A related point sharpens it. Withholding the information a choice would need is its own quiet railroad, because a choice made blind is not a choice the player can own. [corpus]
+
+### Illusionism and the question of consent
+
+The quantum ogre is one move inside a broader practice the theory calls illusionism, which is covert railroading. The referee quietly fixes outcomes behind a maintained appearance of open play. [corpus] The Forge writers held it apart from overt railroading on purpose, because the harm is different in kind. Overt railroading costs agency. Covert railroading costs agency and trust, since the player has been misled about the very nature of what they are doing.
+
+That distinction opens a genuine question rather than a settled one, and it is worth leaving open. Mike Holmes named the consensual version participationism: the players know the referee is steering toward a story they want delivered, and both sides understand the arrangement. [corpus] In that frame the steering is not deception. It is a social contract made out loud. Illusionism proper is the same technique with the contract hidden. The line between them is not the mechanism but the disclosure. So the place to settle it is not in play but beforehand, in the conversation that the social-design family treats as [the session zero playbook](../players-social-dynamics/the-session-zero-playbook.qmd): do the players want to feel authored or to feel genuinely causal? Mismatched answers to that one question are among the most common ways a campaign quietly comes apart. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is the soft railroad, and it catches the conscientious designer hardest. You have read the arguments and taken them to heart. You prep situations rather than plots and you genuinely mean it. But one outcome still has a hold on you. So when the players drift toward it everything obligingly points that way. When they veer off it you discover a reason to steer them back. This is the quantum ogre wearing the language of its own cure. The tell is in your own reactions: if a player's choice that makes your prep irrelevant feels like a problem to be managed rather than a result to be followed, the attachment is still there. The discipline test is a single question you have to be able to answer yes to. Can you sincerely follow a choice that throws away everything you prepared? [synthesis]
+:::
+
+### The spectrum, not the binary
+
+Stated as two poles the axis is a caricature, because almost no real game sits at either end. It resolves into a spectrum of working positions, and the craft is choosing one on purpose rather than defaulting into it. The table below lays the positions out with what each one runs on and the way each one breaks.
+
+| Position | What it runs on | Where it breaks |
+|---|---|---|
+| Pure sandbox / hexcrawl | World as system; players set their own objectives | Choice paralysis; the world feels empty if it is thinly populated [corpus] |
+| Situation sandbox | Faction clocks and autonomous threats (Fronts, Blades) | Needs confident adjudication; players may feel the world ignores them [corpus] |
+| Episodic, player-chosen | A rumour table dispatches; players self-direct | The rumours degrade into a checklist rather than live world-state [corpus] |
+| Node-based arc | Redundant clue trails, no single chokepoint | The node map is labour to build; thin nodes feel arbitrary [corpus] |
+| Published path, run with permission | The referee runs a written structure but follows player deviations | The standing temptation to "get back on track" [corpus] |
+| Railroad, enforced | A predetermined plot; player choices are decorative | Agency loss, detachment, the referee writing fan fiction with an audience [corpus] |
+
+Each row carries its own characteristic failure, and naming those failures is more useful than ranking the rows. A pure sandbox with a thinly stocked world produces paralysis. The players ask what they should do while the referee has no scaffold to offer. [corpus] A railroad produces the slow slide into passive consumption as players learn their input does not register. [corpus] The hidden railroad is the worst of the set. Its moment-to-moment play may be no worse than the others. But the damage runs backwards once the structure finally surfaces. Trust collapses sharply and retroactively. It delegitimises every choice the players had believed was real. [corpus]
+
+### Scaffolding is not scripting
+
+Across the old-school revival and the Apocalypse World lineage alike, most of the tradition converges on a single position: situation-based prep with scaffolding. The whole synthesis rests on one distinction. Scaffolding gives the players a populated, pressured world to act inside. Scripting gives them a narrative to execute. [corpus] The difference is whether the outcome was pre-authored or merely the situation pre-populated.
+
+In practice the scaffold is a few concrete things. Active factions that pursue their own agendas whether or not the players engage, so the world feels alive without the referee scripting the players' path through it. Situations with real stakes and several possible ends rather than a fixed one. Redundant information so that any necessary conclusion has more than one trail leading to it, which is the [Three Clue Rule](../puzzles-clues-information/cluing-and-fairness.qmd) doing structural work: at least three independent routes to anything the campaign needs the players to reach. [corpus] And an explicit permission to deviate, so that when the players go somewhere unprepared the referee generates from the world's own logic and folds the deviation into its state instead of bending it back. The faction-clock machinery that keeps such a world ticking is the same engine the systems family describes as [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd).
+
+::: {.callout-note}
+### The Specimen
+Critical Role is the clearest large-scale natural experiment in where a game sits on this axis. Its first campaign ran much closer to the railroad pole, a story-forward arc with strong authored beats; the second campaign moved deliberately toward sandbox play, the referee adjudicating open situations rather than steering toward set pieces. The shift visibly confused part of the audience, who had absorbed the first campaign's arc-structure as simply "what tabletop games are" and arrived expecting delivered narrative rather than emergent consequence. [researched] The episode is a useful caution for any designer reaching a broad audience: the position you take on this axis is itself a thing players have to be onboarded into, because their prior exposure has already taught them to expect one end of it.
+:::
+
+### How the axis travels across media
+
+The same spectrum reappears wherever a designer authors an experience that others move through, and it is worth seeing the analogues because the cures rhyme. In interactive fiction the railroad pole is false freedom: cosmetic nonlinearity, the two doors with one room behind them. The surface branches while the substance stays single. [synthesis] The fix is the same as the tabletop's. Give the choice somewhere genuinely different to lead. The structural vocabulary for doing it is catalogued in [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd), where the gauntlet sits near the railroad pole and the open hub near the sandbox one.
+
+Live and outdoor games meet the axis as the static-versus-adaptive decision. A fixed route is the controlled, replayable, low-bandwidth choice; an adaptive route that forks on what teams actually do is the responsive one, and it is bounded hard by how much the referee can track at once. [synthesis] The practical ceiling for one referee running genuinely adaptive play is roughly two or three teams before monitoring, decision-making, and memory overload each other, which is the live-game reason most large events stay near the static pole and reserve adaptation for a few checkpoints. [researched] That hybrid, static segments with adaptive checkpoints, is branch-and-bottleneck reasoning carried out across a city, and it sits alongside the open-world end of [West Marches & the Open-Table Format](west-marches-and-the-open-table-format.qmd), where a persistent sandbox absorbs a rotating roster of players. The same tension shapes how a campaign holds its shape over time, which is [Campaign Arc Shapes](campaign-arc-shapes.qmd), and how a single session paces the freedom it offers, which is [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd). Where the world is a place to be traversed rather than a plot to be ridden, the spatial form of the sandbox is [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd).
+
+## Where this fits
+
+**The bigger picture.** This axis is the macro frame the rest of the Structure & Pacing family hangs inside. Branching, convergence, pacing, and arc shape are all decisions about a single underlying variable. That variable is how much of the experience is authored in advance, set against how much is left for the players to cause. Sit too far toward the authored end and every other structural choice inherits the railroad's flatness, since no amount of good pacing rescues a story the players cannot affect. Sit too far toward the open end and the same choices have nothing to shape, since there is no through-line for them to act on. The position you hold here sets the budget that branching craft then spends and the spine that pacing then animates. It is also the family's clearest bridge into the social layer, since the question of how much agency the players actually hold is, at bottom, a question about the contract between them and whoever built the world.
+
+**Next steps.** Once the position on the axis is chosen, the immediate craft is making the individual choices inside it carry real weight, which is [Branching Narrative Craft](branching-narrative-craft.qmd). To keep a situation-based world redundant enough that no single missed step stalls it, the dependency map is [Information Architecture](../puzzles-clues-information/information-architecture.qmd) and the redundancy principle is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). To run the autonomous factions and clocks that make a sandbox feel alive, the machinery is [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd). And to set the expectation that decides which end of the axis the players even want, the conversation is [the session zero playbook](../players-social-dynamics/the-session-zero-playbook.qmd).
+
+## Sources
+
+- Alexander, Justin. "Don't Prep Plots." The Alexandrian, 23 March 2008. <https://thealexandrian.net/wordpress/1124/roleplaying-games/dont-prep-plots>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
+- Alexander, Justin. "The Three Clue Rule." The Alexandrian, 8 May 2008. <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule>
+- Alexander, Justin. "On the Matter of Quantum Ogres." The Alexandrian, 2 October 2011. <https://thealexandrian.net/wordpress/8157/roleplaying-games/on-the-matter-of-quantum-ogres>
+- Campbell, Courtney (-C). "On Slaying the Quantum Ogre." Hack & Slash, September 2011. <http://hackslashmaster.blogspot.com/2011/09/on-slaying-quantum-ogre.html>
+- Baker, D. Vincent and Meguey Baker. *Apocalypse World*. Lumpley Games, 2010 (2nd ed. 2016). (The MC agenda "play to find out what happens"; the Fronts / threats prep structure.)
+- Black Armada. "Apocalypse World: Fronts." <https://blackarmada.com/apocalypse-world-fronts/>
+- Gnome Stew. "The Book of Vincent: GMing Apocalypse World." <https://gnomestew.com/the-book-of-vincent-gming-apocalypse-world/>
+- Edwards, Ron. "GNS and Other Matters of Role-Playing Theory." The Forge, 2001. <http://www.indie-rpgs.com/articles/1/> (illusionism vs overt railroading; participationism via Mike Holmes).
+- Harper, John. *Blades in the Dark*. Evil Hat Productions, 2017. <https://johnharper.itch.io/blades-in-the-dark> (faction progress clocks as autonomous world-state).
+- Milton, Ben, Steven Lumpkin et al. *Principia Apocrypha*. 2018. <https://lithyscaphe.blogspot.com/p/principia-apocrypha.html> (the referee as adjudicator of a world that exists prior to the players).
+- "Whence cometh 'Railroading'?" RPG Diegesis, 5 February 2023. <https://rpgdiegesis.wordpress.com/2023/02/05/whence-cometh-railroading-some-history-of-the-term-and-on-the-german-love-for-trains/> (etymology; Dungeoneer's Survival Guide 1986, Dragon #133 1988).
+- Grumpy Wizard. "Old School D&D Was Built For Sandbox Campaigns." 16 February 2023. <https://grumpywizard.home.blog/2023/02/16/old-school-dd-was-built-for-sandbox-campaigns/> (Arneson's Blackmoor and Gygax's Greyhawk as player-driven world growth).
+- "I have some thoughts on railroaded vs sandbox." luckthebard, Tumblr, 2021. <https://luckthebard.tumblr.com/post/652337032881930240/i-have-some-thoughts-on-railroaded-vs-sandbox> (Critical Role Campaign 1 vs Campaign 2 and audience expectation).
+- Totten, Christopher. "Designing and Integrating Puzzles in Action-Adventure Games." Game Developer, 2019. (The workaround-path principle behind adaptive live routing.)
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Branching Narrative Craft](branching-narrative-craft.qmd)
+- [Campaign Arc Shapes](campaign-arc-shapes.qmd)
+- [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd)
+- [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
+- [West Marches & the Open-Table Format](west-marches-and-the-open-table-format.qmd)
+
+<!-- BACKLINKS:END -->

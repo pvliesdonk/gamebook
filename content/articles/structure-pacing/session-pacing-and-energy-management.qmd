@@ -1,22 +1,129 @@
 ---
 title: "Session Pacing & Energy Management"
-aliases: []
+aliases: ["Session Rhythm", "Difficulty Curve", "Energy Curve", "The Session Arc"]
 family: "Structure & Pacing"
-media: []
+media: [tabletop, live-game, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [sustained-engagement, earned-climax, varied-energy]
+  problems: [mid-session-sag, premature-climax, player-burnout]
+  components: [session-arc, beat, break, time-pressure-clock]
+  genre: [adventure, mystery, horror]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+
+*Silhouette: The art of spending a group's attention so the last hour is the best one.*
+
+A session is a span of time with a shape. Three or four hours at a table, an hour in a locked room, an evening with a long branching story: each is a finite stretch of attention that rises, dips, and has to land somewhere. The designer who ignores that shape gets a flat run of events that technically happened. The one who works with it gets a session people remember as having gone somewhere.
+
+The trouble is that attention is not a renewable resource within a single sitting. People arrive with a fixed budget of focus and feeling, and every tense scene spends some of it. Spend too fast and the table is exhausted before the climax. Spend too slowly and they drift off before you reach it. The craft is the rhythm of spending and recovering. A hard beat is followed by a softer one. The intensity climbs across the whole arc while the local texture keeps shifting so nobody burns out.
+
+This article is about that rhythm at the scale of a whole session. Not the beat-to-beat texture of a single scene, which is [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd), but the multi-hour arc those scenes sit inside. Where the climax goes, where the energy dips, and how to keep a group's tank from running dry before the end.
+
+## The Mechanism (How it works)
+
+### The session has a fixed length and a rising shape
+
+Start with the constraint everyone shares. A session runs a set length, and within that length attention is not flat. It rises early, peaks, and degrades late. The dominant tabletop session runs three to four hours; a community poll of players found 59.6% preferred four hours and 48.9% three, with five-hour sessions falling sharply in favour. [researched] Convention slots and weeknight logistics converge on the same window from the other direction. [researched] The reason is not preference but biology. Complex decision-making, the core of most of these games, degrades measurably after sustained effort, so the fifth hour of a session is usually worse than the average of the four before it. [researched]
+
+Given a fixed length, the question is where to put the peak. The practitioner consensus is unambiguous. Robin Laws states the governing principle as a single instruction: contrive throughout the session to have the most dramatic thing happen at the end. [researched] This is the rising arc, and it is the default of cinema and stage for a reason. The last thing that happens carries the most weight. A session that peaks at the midpoint and then winds down for ninety minutes leaves people remembering the wind-down.
+
+The escape room makes the same shape visible because it is so short. A sixty-minute room is a tight piece of dramaturgy where the minutes are not interchangeable. The first three carry different weight than minutes 30 to 45, and both differ from the last ten. [corpus] In a well-paced room the insights get larger and more emotionally loaded as it runs, while the manual work shrinks near the end so the team is not fiddling with execution during the climax. [corpus] Whether the session is one hour or four, the target is the same. Build toward the end.
+
+### The difficulty curve and its four beats
+
+The clearest model of session shape comes from live play, where the whole experience is short enough to design as one curve. It has four beats, and they generalise from a sixty-minute room out to a day-long hunt. [corpus]
+
+| Beat | Job | Common failure |
+|---|---|---|
+| Opening | A low-friction first win; teach the grammar of what counts as a clue and what is interactive | A logic leap on the on-ramp that mis-sets the player's frame [corpus] |
+| Mid-game | Rising difficulty with varied texture; keep momentum | The wall (a stall) or the plateau (flat, no sense of progress) [corpus] |
+| Late game | Convergence; earlier outputs assemble toward the finish | Terminal stall; a mistimed hint that kills the insight [corpus] |
+| Climax | Pay off the whole run | The same shape as everything before it, just harder |
+
+The opening's job is a quick win within the first few minutes, both to reward the group and to teach them the room's language. An opening that begins with a hard cipher teaches the wrong frame, and the team carries it through everything after. [corpus] A useful technique here is priming: let players meet a mechanism in a simple early form so its harder later appearance feels familiar rather than read off a sign. [corpus]
+
+The middle is the longest stretch and the hardest to hold. Two failure shapes recur. The wall is a stall, where the group collides with one puzzle that defeats them and the clock keeps running. The plateau is worse in a quiet way. There is no stall, but every beat is roughly as hard and as unrelated as the last, so the group solves at a steady rate yet feels like it is doing tasks rather than going somewhere. [corpus] The fix for both is to reset attention with a beat that is not another task, such as a found document, a scene change, or a new zone unlocking.
+
+The climax wants a different shape, not just a steeper version of the middle. The most reliable tool is a synthesis. Outputs from earlier in the session combine into one final answer, so the group sees the chain of its own work pay off. [corpus] In the puzzle hunt this is the meta, and the hunt's finale that follows it is deliberately easy. The MIT Mystery Hunt ends not with its hardest test but with a physical runaround across campus to find a hidden coin: a victory lap, not a final wall. [corpus] How hard to pitch that peak is partly a numbers question. David Spira's working guideline for escape rooms puts the sweet spot at a 10 to 20% success rate for non-beginner groups; push above 50% and the room is bizarrely cruel to the teams who somehow still fail, while a 1 to 2% rate is just an inescapable joke. [researched] The principle generalises past escape rooms: the climax should feel like a worthy but beatable opponent.
+
+### Energy is a separate curve from difficulty
+
+Difficulty is not the only thing that varies across a session, and treating it as if it were produces a particular kind of exhaustion. A room made entirely of seated decoding puzzles is draining in a different way from a hard room: it offers no shared moments and no movement. A room made entirely of loud physical group tasks is overwhelming. [corpus] The session has an energy curve running alongside the difficulty curve, and they need separate attention.
+
+The tabletop tradition names the same thing from the player side. High-stakes combat and emotionally charged roleplay spend energy fast; exploration, planning, and light conversation restore it. Unvaried intensity in either direction fails. Relentless high stakes burns the table out, while a long low-stakes stretch produces drift. [corpus] The structural answer is alternation, a high-intensity scene followed by a lower one, so the group is always either spending or recovering rather than grinding at one level. Robin Laws encodes this as the alternation of hopeful and fearful beats. A story with too many hopeful beats goes stale; one with too many fearful beats feels hopeless; the craft is in trading them off. [researched]
+
+The interactive fiction tradition reaches the identical conclusion through the writer's craft of scene and sequel. The scene is the unit of tension (a goal, a conflict, a setback); the sequel is the breather that follows (reaction, dilemma, decision), and racing from scene to scene with no sequels produces flat, exhausted reading. [corpus] An author controls tempo with the ratio between them, longer sequels to slow down and process a disaster, shorter ones as the climax approaches. [corpus] In a longer interactive piece this is energy management by another name: the same spend-and-recover rhythm, written into prose rather than run at a table. The relationship between that local scene texture and the wider story arc is its own topic, which is [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd).
+
+A small but real piece of the energy curve is the pause after a win. A room that fires three solves in immediate succession loses the satisfaction of each one. Even a two-second beat where the group looks at what just opened is a pacing element, and its absence is a pacing failure. [corpus]
+
+::: {.callout-note}
+### The Specimen
+The four-beat curve scales further than a single room. DASH ("Different Area, Same Hunt") runs eight to twelve puzzles across six to eight hours and two to four miles of walking, and it uses the walk itself as a pacing tool. A medium leg of roughly 100 to 400 metres between stations is the workhorse: short enough to hold momentum, long enough to be a genuine recovery interval before the next puzzle. [corpus] The spiral-bound guidebook with a map of every location is reported by players as essential precisely because it lets teams space out their own breaks. [corpus] At megahunt scale the curve goes fractal, running inside each round and at the whole-hunt level at once; the 2023 MIT Mystery Hunt built a designed midpoint breakout as a whole-hunt beat independent of any single puzzle's difficulty. [researched] The same opening-to-climax shape governs whether the session is one hour or sixty.
+:::
+
+### The mid-session sag and its cures
+
+If the climax is where sessions are won, the middle is where they are lost. The grinding middle is the most widely documented pacing failure in tabletop play. In a four-hour session the middle ninety minutes are the most vulnerable to losing energy, and the causes are consistent: information-gathering scenes that carry no stakes and tick no clock, a party split that turns half the players into spectators, and decision paralysis where option-rich characters take five minutes a turn. [researched]
+
+The cures all work by introducing pressure where the sag has removed it. A visible in-world deadline converts a drifting middle into a race: the ritual completes at midnight, the army arrives at dawn. [researched] *Fiasco* builds this into its structure with the Tilt, a mechanical pivot at the halfway point that injects disruption and forces the story to escalate; the principle transfers as a deliberate commitment to introduce a complication around the two-hour mark that reframes everything established in the first hour. [researched] And the simplest cure is to cut to the decision. When a scene is running slow, skip the approach and land on the choice that matters. The escape room version of the same insight is blunt. What a stuck team needs is a hint or a redesign, never a longer execution path. A puzzle should slow a group through thinking, not through hidden screws and unclear inputs. [corpus]
+
+### Breaks, breath, and the limits of the tank
+
+Energy is finite within a sitting, and part of managing it is admitting that and building in recovery. The simplest tool is the scheduled break, a five-minute pause every ninety minutes. This is not lost time but a cognitive reset that improves the quality of the segment after it. [researched] The hunt tradition formalises the same idea inside the experience with breath puzzles. A breath puzzle is an observation or light physical task placed after a hard cognitive cluster, letting the group re-engage with the environment before the next push. [corpus]
+
+Reading the group is the skill underneath all of this. The advice that recurs across every tradition is to watch the players rather than the plan. Leaning forward is engagement; leaning back and reaching for a phone is not, and when several people drift at once the answer is to move things along. [researched] The question to ask after every scene is not whether the plot advanced but whether the emotional register changed, whether from tension to relief or from dread to comedy. A session that produces varied states is paced; one that holds a single tone, however intense, is not. This is the same demand the rising try-fail structure makes scene by scene, which is [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd).
+
+### Where the session breaks, and the next one starts
+
+A session is rarely a closed unit. It ends somewhere, and where it ends sets the energy the next one opens on. The hard-out (a fixed external deadline, someone has to drive home) demands that the climax be reachable by a fixed clock and the aftermath compressible to a few minutes. The classic mechanical fix is to schedule the climactic event to arrive 45 minutes before the hard-out regardless of where the group is, making the peak time-fixed rather than content-fixed. [researched] The soft-out (the session ends when the group decides) invites the opposite failure, chronic overrun into a depleted fifth hour, and the cure is a soft convention. Announce a target end time at the start, give a thirty-minute warning, and aim to end on a decision rather than mid-combat. [researched]
+
+The cliffhanger earns its own mention because it is a scheduling tool as much as a dramatic one. Ending at a tension peak (the door kicked open, the revelation just delivered) controls where in the arc the break falls and guarantees the next session opens with forward momentum. [researched] It is also easy to overuse. An unresolved cliffhanger left over a long gap loses its charge, and a campaign of nothing but cliffhangers wears a group out. The recommended pattern is to rotate three ending types across sessions. The cliffhanger leaves tension unresolved; the resolution answers the question and then gives breathing room; the hook poses a new question after resolution. [researched] How those session-level shapes accumulate into a campaign is [Campaign Arc Shapes](campaign-arc-shapes.qmd); how a whole arc is brought to a deliberate close is [Endings & Structural Closure](endings-and-structural-closure.qmd).
+
+## Where this fits
+
+**The bigger picture.** Session pacing is the layer where every other structural decision meets the clock. The shapes a story can take, the branches it can afford, the beats it is built from: all of them get spent inside a finite span of group attention, and this is the article about that span. It depends on the smaller units beneath it, the scene-by-scene rhythm of [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd) and the rising stakes of [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd), and it feeds upward into the longer forms, the multi-session shapes of [Campaign Arc Shapes](campaign-arc-shapes.qmd) and the self-contained installments of [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd). It is also the practical face of the same craft a branching story manages structurally, because a branch that strands a group at the wrong point in the arc is a pacing failure before it is a structural one, which is the concern of [Branching Narrative Craft](branching-narrative-craft.qmd).
+
+**Next steps.** Once the session's arc is set, the live questions are about texture and recovery. To vary the energy curve through the built environment rather than the plot (quiet rooms, loud reveals, the sensory pacing of a space), the work is [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd). To buy back the preparation time that all this real-time management assumes, so the strong start and the reserve climax are cheap to have ready, the discipline is [The Prep Economy](../systems-mechanics/prep-economy.qmd). And to handle the late-game stall that no amount of curve design fully prevents, the recovery layer is [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd).
+
+## Sources
+
+- Shea, Mike (Sly Flourish). "Improving Pacing." <https://slyflourish.com/pacing.html>
+- Shea, Mike. "Timing and Pacing Adventures." <https://slyflourish.com/timing_and_pacing_adventures.html>
+- Shea, Mike. "Starting Strong." <https://slyflourish.com/starting_strong.html>
+- Shea, Mike. "Upward and Downward Beats." <https://slyflourish.com/upward_and_downward_beats.html>
+- Laws, Robin D. *Robin's Laws of Good Game Mastering*. Steve Jackson Games, 2002.
+- Laws, Robin D. *Hamlet's Hit Points*. Gameplaywright Press, 2010. (Hopeful/fearful beat alternation.)
+- EN World community. "How long should a gaming session be?" <https://www.enworld.org/threads/how-long-should-a-gaming-session-be.702771/>
+- Morningstar, Jason. *Fiasco*. Bully Pulpit Games, 2009. (The Tilt as mid-game escalation.)
+- Run a Game. "RPG Session Pacing." <https://www.runagame.net/2015/09/rpg-session-pacing.html>
+- Roleplaying Tips. "How Do You Pace Game Sessions Well?" <https://www.roleplayingtips.com/running-games/how-do-you-pace-game-sessions-well/>
+- The TTRPG Factory. "Pacing Your RPG." <https://ttrpgfactory.com/2023/03/15/pacing-your-rpg/>
+- Phd20. "Running Shorter Sessions." <https://phd20.com/blog/running-shorter-sessions/>
+- Elumir, Errol. "13 Rules for Escape Room Puzzle Design." The Codex. <https://thecodex.ca/13-rules-for-escape-room-puzzle-design/>
+- Elumir, Errol. "How Escape Rooms Do Difficulty Wrong: The Player Loop." The Codex. <https://thecodex.ca/how-escape-rooms-do-difficulty-wrong-the-player-loop/>
+- Spira, David. "How Difficult Should an Escape Game Be?" Room Escape Artist, 29 March 2015. <https://roomescapeartist.com/2015/03/29/how-difficult-should-an-escape-game-be/>
+- Room Escape Artist. "Priming Puzzles in Escape Rooms." 21 October 2020. <https://roomescapeartist.com/2020/10/21/priming-puzzles-escape-rooms/>
+- Room Escape Artist. "What Escape Rooms Can Learn from Puzzle Hunts." 28 August 2025. <https://roomescapeartist.com/2025/08/28/what-escape-rooms-can-learn-from-puzzle-hunts/>
+- DASH ("Different Area, Same Hunt"). Format details and FAQ. <https://www.playdash.org/>
+- Irpan, Alex. "Writing MIT Mystery Hunt 2023." (Act structure and fractal difficulty curve.) <https://www.alexirpan.com/2023/02/27/mh-2023.html>
+- Swain, Dwight V. *Techniques of the Selling Writer*. University of Oklahoma Press, 1965. (Scene-sequel structure.)
+- Bickham, Jack M. *Scene and Structure*. Writer's Digest Books, 1993. (The beat as the minimal scene unit.)
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
+- [Campaign Arc Shapes](campaign-arc-shapes.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
+- [Endings & Structural Closure](endings-and-structural-closure.qmd)
+- [Escape Room Topologies](escape-room-topologies.qmd)
+- [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
+- [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
+- [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
+- [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
+- [Time Loop Patterns](time-loop-patterns.qmd)
+- [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
 
 <!-- BACKLINKS:END -->

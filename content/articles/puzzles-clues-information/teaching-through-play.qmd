@@ -107,5 +107,6 @@ The two failures sit at opposite ends and both are quiet. Convention overload is
 - [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
 - [The Aha Moment](the-aha-moment.qmd)
 - [The Fairness Contract](../../primers/the-fairness-contract.qmd)
+- [Time Loop Patterns](../structure-pacing/time-loop-patterns.qmd)
 
 <!-- BACKLINKS:END -->

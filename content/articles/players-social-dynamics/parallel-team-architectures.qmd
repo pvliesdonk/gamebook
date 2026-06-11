@@ -18,5 +18,6 @@ provenance: ""
 ## Referenced by
 
 - [Treasure & Scavenger Hunts](../puzzles-clues-information/treasure-and-scavenger-hunts.qmd)
+- [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)
 
 <!-- BACKLINKS:END -->

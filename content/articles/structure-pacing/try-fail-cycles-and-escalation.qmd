@@ -1,14 +1,113 @@
 ---
 title: "Try-Fail Cycles & Escalation"
-aliases: []
+aliases: ["Rule of Three", "Yes-But / No-And", "Stakes Ladder", "Failing Forward"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [rising-tension, earned-resolution, felt-investment]
+  problems: [flat-escalation, padded-repetition, unfair-failure]
+  components: [attempt, outcome-grid, complication, state-flag]
+  genre: [adventure, thriller, mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The engine that turns a failed attempt into the reason for the next one, each louder than the last.*
+
+A story stalls the moment a character tries something, fails, and tries the same thing again. Nothing has moved. The reader feels the wheels spin. What keeps a struggle alive is that every failure leaves the world worse than it found it, so the next attempt is forced rather than chosen. The lock that would not open is now bolted. An alarm is ringing. The guard who was asleep is awake.
+
+
+This is the oldest narrative engine there is, and it has a precise grammar. A character wants something, reaches for it, and the reach goes wrong in one of four ways. Each way bends the story differently. Get the grammar right and a sequence of failures reads as a tightening spiral; get it wrong and the same sequence reads as padding. In an interactive medium the engine does a second job. Because each failure ends on a question (how do you try again?), the failure itself becomes the fork. The branch is not bolted onto the road. It grows out of the trouble.
+
+This article is about that engine: the four outcomes and the rule that escalation cannot be skipped, then the way failure grows structure once the story branches.
+
+## The Mechanism (How it works)
+
+### The four-outcome engine
+
+Treating an attempt as a coin flip throws away most of the craft. The richer model splits each pole of success and failure in two, giving four outcomes that each push the story a different way. Improv and screen-writing reached this taxonomy independently, and Brandon Sanderson teaches it as the core of the try-fail cycle. [researched] The grid is dense enough that it earns a table.
+
+| Outcome | What happens | What it does to the story | When to reach for it |
+|---|---|---|---|
+| Yes, and | Success plus an unasked-for bonus | Ends the cycle on momentum | The final attempt; rare before it [corpus] |
+| Yes, but | Success that drags a new problem in | Solves one thing, opens another | A mid-cycle pivot, or a bittersweet close [corpus] |
+| No, but | Failure that hands over a clue or a foothold | Keeps hope and feeds information | Early and middle, to sustain engagement [corpus] |
+| No, and | Failure plus a fresh complication | The sharpest escalation, the darkest beat | When the stakes need to jump and the character needs to get desperate [corpus] |
+
+The two middle rows are where most of the work lives. A "No, but" keeps a stuck character learning ("the lock holds, but you notice the hinges are rusted"). A "No, and" forces real desperation ("the lock holds, and the alarm trips"). [corpus] The most satisfying endings are often a "Yes, but" rather than a clean win. You escape, but your ally does not, and the story is richer for that cost. [corpus] Sanderson's own caution is that the climb has to be gradual. A character who goes from nothing to saving the world in three chapters has stakes that were never earned, because the rungs were skipped. [researched]
+
+This same vocabulary turns up in tabletop play as a hard rule rather than a writer's instinct. In games Powered by the Apocalypse, a roll of 10 or more is a clean success, a 6 or less hands the moment to the referee, and the 7-to-9 band is a deliberate "Yes, but". You reach what you wanted, with a cost or a complication attached to it. [researched] That middle band is the four-outcome engine wired straight into the dice. Those games "fail forward" by default. A missed roll never stalls the scene. It bends it. The same fiction-and-dice handoff is the subject of [Moves & the Fiction–Mechanic–Fiction Loop](../systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd).
+
+### Why escalation is not optional
+
+The cycle only works if each attempt is harder, costlier, or more desperate than the one before. [corpus] An attempt that simply repeats the last one with more effort is padding wearing the costume of plot. A character who only picks at the same lock harder each time has not earned the resolution. That is a stall rather than a cycle. Contrast the one whose first approach is the lock and whose second is the window. Once both have run dry, only a bribe is left. That character has now spent genuine options, so whatever comes next will feel paid for. [corpus]
+
+Something has to change between attempts, and the corpus names four dimensions it can change along. The approach can shift to a new method or tool. The stakes can change what is now on the line. The information can grow as the character learns. The desperation can rise as calm gives way to recklessness. [corpus] Any one of these will do. None of them is "trying harder."
+
+The failure mode hides in the word *bigger*. Scale is not stakes. A fantasy with ever-larger monsters and no emotional progression escalates nothing; it just inflates. [corpus] What lands is character-driven escalation, where the rising line runs through something the reader cares about. Harsh words from someone the character loves hit harder than a distant catastrophe. [corpus] As the external pressure climbs, the internal pressure should climb with it, so the character is forced to question what they value as much as how they will get through. [corpus] The classic illustration is *The Hunger Games*: Katniss's final defiance with the berries works because the story earned it earlier, through her grief for Rue and her shown willingness to break the rules. [corpus] Escalation that the reader has been prepared for reads as inevitable; escalation pulled from nowhere reads as a cheat.
+
+::: {.callout-warning}
+### The Hazard
+The seductive shortcut is forced escalation, where the danger is cranked up because the scene felt flat and no causal line connects this disaster to the last. The tell is reorderability. If the attempts can be shuffled around and nothing breaks, you have a list. A spiral could only run one way. The reader feels that arbitrariness even when they cannot name it. The fix is not a louder disaster. It is to make each failure *cause* the next one's difficulty, so the order is locked by consequence and could not run any other way. [synthesis]
+:::
+
+### Failure as a branch
+
+In a fixed narrative the cycle is a straight line. In an interactive one it becomes a structure, because the natural question after a failed attempt (what do you try now?) is already a choice. [corpus] This is a different thing from author-imposed branching. "You reach a fork: left or right?" hands the reader a decision the fiction did not ask for. "The door is locked and the guard returns in ten minutes; you can pick the lock or slip round to the entrance you have not tried" branches because the trouble demands it. The reader is choosing a strategy here. A strategy carries weight that a bare choice of corridor never does. [corpus] The wider craft of making a choice cost something is [Branching Narrative Craft](branching-narrative-craft.qmd); what follows here is the special case where the choice is born from failure.
+
+The shape this generates most often is the hub and spoke. The player returns to a central problem after each failed attempt and picks the next approach. [corpus] An infiltration is the standard example. Forge an invitation and it fails, but you learn the guest list. Climb the wall and it fails, but you spot the servants' entrance. Befriend a servant and it fails, but you learn the household's schedule. [corpus] Every spoke fails, and every failure leaves a deposit, so the final approach is built from those deposits. This is one of the most sustainable branching architectures going, because every spoke circles back to the same problem. The branches are wide but contained, and the problem itself is the bottleneck, so the convergence costs nothing extra. [corpus] The map of which shapes converge how is [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd).
+
+Two variants are worth knowing. Linear try-fail drops the hub. Each failure's specific consequence forces the next attempt, and the momentum runs forward with no pause to choose. That suits a chase or a collapsing building, where stopping to deliberate would break the tension. [corpus] Information-gathering try-fail makes every failure reveal one needed fact, so the last attempt succeeds on knowledge the character assembled from the wreckage of earlier tries. Effort alone never opens it. [corpus] The reader who paid attention sees the connection, and that recognition is the reward. The dependency map of which clue unlocks which conclusion is the puzzle family's [Information Architecture](../puzzles-clues-information/information-architecture.qmd).
+
+### The failure ledger
+
+Branching try-fail needs the story to remember what went wrong, and in an interactive medium that means flags. A failed bribe leaves the guard suspicious; a botched break-in raises security across the estate; a blown disguise makes the player's face known. [corpus] The player's specific history of failure then produces a specific final challenge, so the "same" problem has many solutions, each shaped by what was already broken. The ledger is also a storytelling tool. When an NPC says "you're the one who tried to break in last night," the discarded branch has become part of the fabric instead of vanishing. [corpus] This is the state-tracking machinery that branch-and-bottleneck stories rest on, set out in [Branching Narrative Craft](branching-narrative-craft.qmd); the live-play version, where a clock fills as the players stumble, is [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd).
+
+The ledger raises a problem unique to the hub: if the player picks the order, how do you guarantee escalation no matter which spoke they try first? [corpus] The corpus offers three answers that combine well. Let every failure add a complication that makes *all* remaining approaches harder, so order stops mattering because each setback compounds. Weight the later attempts generically, so the third try is harder simply because two failures have stacked up, and the system need only count failures, not catalogue them. Or make the approaches roughly equal but test different things, so the escalation comes from accumulating consequence rather than from rising difficulty. [corpus] A sharper variant removes one approach with each failure. Start the player with four or five strategies and strike one off the board each time, until only the desperate option is left. The desperation is never scripted. The player produced it by burning through the clever choices, and the story can say, without saying it, that they ran out of road. [corpus]
+
+### Where the cycle ends
+
+A try-fail cycle wants a particular number of beats. The Rule of Three is the common setting. The first attempt establishes the difficulty. The second deepens it. The third resolves it. Two attempts feel thin, and four or more wear out the reader unless each is genuinely different. [corpus] The pattern is fractal, which is how it scales to length. A long piece nests cycles inside cycles, so a single attempt at the macro scale (the second assault on the castle) is itself a complete three-beat cycle at the scale below (three ways to get past the gate). [corpus]
+
+The ending has to feel earned, and earned carries a specific meaning here. The final attempt works because it synthesises what the failures taught, and the player can *see* the connection. [corpus] The lock that revealed three tumblers, the window that revealed the guard's schedule, and now the servants' door at shift-change opened with a three-tumbler pick. Each "wasted" attempt was reconnaissance, and the resolution makes that visible. Where the synthesis is invisible, the win reads as luck or as a fix dropped in from nowhere, the *deus ex machina* that robs a climax of its payoff. [corpus] There is also the honest non-ending. After a couple of failures, walking away has to remain a real and acknowledged option. A character who judges the cost too high, and who then changes the goal rather than the method, can close a cycle just as powerfully as the one who breaks through. [corpus] When the exhausted attempts hand the player not a harder problem but a sacrifice ("what am I willing to give up?"), the cycle has tipped into a dilemma, which is the territory of [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd).
+
+::: {.callout-note}
+### The Specimen
+The escape-room industry runs the same engine in physical space, where it shows up as the difficulty curve. The trade guidance builds a room as a rising line. An easy opening primes the team and builds confidence. A harder middle wall tests them. A climactic final lock pays the run off. Stalls and recovery are handled by a graded hint system rather than a hard failure. [researched] A team's repeated runs at a stuck puzzle are a try-fail cycle with no branch and no death, and the curve is escalation made spatial. The Codex's "player loop" framing names the same shape from the players' side: search, attempt, feedback, repeat, with each loop meant to teach something that feeds the next, which is exactly the information-gathering cycle carried out in locks and props instead of prose. [researched]
+:::
+
+## Where this fits
+
+**The bigger picture.** Try-fail is the local engine of rising tension, and it sits one level down from the macro-rhythm of a whole piece. The beat-by-beat machinery of goal, conflict, and the setback that ends a scene is [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd), where each failed attempt is the disaster that launches the next sequel; the named structural beats it slots into are [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd); and the way that energy rises and falls across a long sitting is [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd). Escalation is also what keeps a branch from reading as a flat side-tour. Every path in a branching story needs its own rising and falling line, so the cycle is the work of [Branching Narrative Craft](branching-narrative-craft.qmd) carried down into the individual branch.
+
+**Next steps.** Once the rising line is set, the question is how its consequences chain across a longer arc, which is [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd), where a setback in one instalment pays off seasons later. When fair failure still leaves a player stuck for reasons no escalation will fix, the graceful exit is the puzzle family's [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd), the same graded recovery the escape-room curve relies on. And because every failure in the cycle must feel deserved rather than arbitrary, the contract underneath it is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd): a setback the player could not have foreseen breaks the same promise an unsolvable puzzle does.
+
+## Sources
+
+- Swain, Dwight V. *Techniques of the Selling Writer*. University of Oklahoma Press, 1965. (Scene as Goal-Conflict-Disaster; the disaster as the engine of the next scene.)
+- Bickham, Jack M. *Scene and Structure*. Writer's Digest Books, 1993. (Layered conflict within the scene unit.)
+- Field, Syd. *Screenplay: The Foundations of Screenwriting*. Dell, 1979. (Three-act escalation and the Rule of Three.)
+- Sanderson, Brandon. "Lecture 7: Try/Fail Cycles" (BYU writing lectures, recorded 2012). <https://www.youtube.com/watch?v=QkOMl6xTXIg>
+- Sanderson, Brandon. "2025 Overview of Story Structure, Lecture 3" (Yes-But / No-And and gradual escalation). <https://www.brandonsanderson.com/blogs/blog/brandon-sandersons-2025-overview-of-story-structure-lecture-3>
+- "Writing Excuses 10.29: Why Should My Characters Fail Spectacularly?" Writing Excuses, 2015. <https://writingexcuses.com/writing-excuses-10-29-why-should-my-characters-fail-spectacularly/>
+- Coyne, Shawn. *The Story Grid*. Black Irish Entertainment, 2015. (The crisis as best-bad-choice or irreconcilable goods, where a cycle tips into a dilemma.)
+- Baker, D. Vincent and Meguey Baker. *Apocalypse World*. Lumpley Games, 2010. (The 10+/7-9/6-and-under roll and the partial-success band.)
+- "Powered by the Apocalypse." Wikipedia (summary of the 7-9 partial-success move and fail-forward principle). <https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse>
+- ER Workshop. "Escape Room Difficulty Levels: How to Design the Perfect Challenge Curve." <https://erworkshop.com/escape-room-difficulty-levels/>
+- Elumir, Errol. "How Escape Rooms Do Difficulty Wrong: The Player Loop." The Codex. <https://thecodex.ca/how-escape-rooms-do-difficulty-wrong-the-player-loop/>
+- Spira, David. "An Exploration of Escape Room Hint Systems." Room Escape Artist, 24 October 2019. <https://roomescapeartist.com/2019/10/24/escape-room-hint-systems/>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
+- [Branching Narrative Craft](branching-narrative-craft.qmd)
+- [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd)
+- [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
+- [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
+- [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
+- [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
+- [Time Loop Patterns](time-loop-patterns.qmd)
+
+<!-- BACKLINKS:END -->

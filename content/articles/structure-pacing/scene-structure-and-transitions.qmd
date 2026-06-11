@@ -1,14 +1,126 @@
 ---
 title: "Scene Structure & Transitions"
-aliases: []
+aliases: ["Scene Craft", "Scene Breaks", "Cutting Between Scenes", "Time-Skips"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [forward-momentum, orientation, felt-rhythm]
+  problems: [draggy-scenes, jarring-cuts, reader-disorientation]
+  components: [scene, beat, transition, scene-break, brief]
+  genre: [mystery, adventure, romance]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The unit a story is built and cut in, and the seams where one ends and the next begins.*
+
+A scene is the smallest piece of a story that still feels like something happening. It has a place, a person who wants something, and a moment that turns. Below that you have description and dialogue; above it you have chapters and acts. The scene is the working unit, the thing a writer drafts, moves, and cuts.
+
+The transition is the cut between scenes, and it is where most prose quietly fails. A scene that runs too long bores the reader; a cut made without warning loses them. The reader does not see good transitions at all. They feel only that time passed and the place changed while they knew where they were the whole way. The seam was there, but it held.
+
+In interactive prose the seams multiply, because the reader can arrive at a scene from several directions. A scene that reads cleanly when you enter it from the north can read like a non-sequitur when you enter from the east. So this article is about two things at once: how to build a scene worth keeping, and how to manage the joins between scenes when you cannot be sure which scene came before.
+
+## The Mechanism (How it works)
+
+### What makes a scene a scene
+
+The oldest working definition comes from Dwight Swain. A scene is a unit of conflict. A character pursues a goal against opposition, and the attempt ends in a turn that leaves them worse off or facing a new problem. [researched] Strip the formality and you have a simple test. If nobody wants anything and nothing changes, what you have written is not a scene. It is a description with people standing in it.
+
+Swain pairs the scene with its quieter twin, the sequel. This is the beat where the character absorbs what just happened and settles on a new goal. [researched] The sequel is the breather between two pushes. In interactive prose it is also where the reader usually makes a choice, since a choice is exactly a character deciding what to do next. The internal anatomy of that scene-then-breather rhythm is its own craft, [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd); the work here is the scene as a unit and the joins between units.
+
+For interactive fiction the corpus offers a more hands-on default than Swain's abstraction. The shape is a three-paragraph cadence for a full scene. [corpus] The first paragraph grounds the reader in place and motion. It needs at least two senses and a character in the act of arriving. The second paragraph brings the goal up along with the friction working against it. The third is where the decision gets set up. The situation is laid out plainly while the options stay unlisted. Fewer than three paragraphs and a scene feels rushed, with no room to establish place before it asks for a choice. [corpus] The cadence is a floor, not a ceiling. A scene that needs more room takes it.
+
+| Paragraph | Job | What it carries |
+|---|---|---|
+| Lead | Place and motion | Sensory grounding, the character arriving or acting [corpus] |
+| Middle | Goal and friction | What the character wants, what stands in the way [corpus] |
+| Close | Decision setup | The situation that demands a choice, options implied not listed [corpus] |
+
+### The beat-to-prose pipeline
+
+A scene is planned before it is written, and the two stages are best kept apart. The plan is the brief. It names what the player is after and what is at stake, the beats that must land, and where the choices go. The prose is the execution: voice, sensory detail, the actual words on the page. [corpus] Keeping them separate stops two failures. Structure decisions do not get held hostage to a nice sentence, and a nice sentence does not quietly rewrite the structure. [corpus]
+
+A beat is a planned moment the brief says has to land in the scene. It might be a discovery or a confession. Or it might be the choice the reader makes. [corpus] The writer's whole job at this stage is to make the beat feel like it grew out of the scene rather than being dropped into it. The difference is concrete. "He found a hidden ledger. It contained secrets" delivers the beat and kills it. The same beat lives when the drawer sticks halfway and catches on something wedged at the back, until it finally gives up a smaller ledger bound in different leather. [corpus] The plan said *a ledger is found here*. The prose decides how the finding feels.
+
+This pipeline is why interactive scenes survive being entered from several directions. The brief fixes what the scene must accomplish; the prose can then carry conditional text that acknowledges whichever path the reader walked in on. The scene's job stays constant while its surface flexes. The brief also names what the scene must avoid doing, the constraint that keeps a writer from accidentally closing off a branch the structure still needs open. [corpus]
+
+### Arrive late, leave early
+
+The single most useful rule for both scenes and their cuts comes from screenwriting: get into a scene as late as you can and out as early as you can. William Goldman put it as attacking a scene at the last possible moment. [researched] The reader does not need the knock on the door or the offer of tea that follows it. They need the line that matters. Begin there.
+
+The corpus carries the same rule for interactive prose under the name *cut the boring parts*. If a character only has to cross town to reach the office, skip the crossing and write what moves the story. [corpus] The contrast is stark on the page. "When Rachel arrived at her sister's house to borrow the money, she rang the doorbell and waited" buries the scene under its own approach. "Rachel sat across from her sister. 'I need a thousand dollars'" starts where the heat is. [corpus] Leaving early works the same way at the other end: exit once the scene's question is answered, before it sags into aftermath.
+
+The discipline is sharpest in interactive prose, where the reader often meets a given paragraph many times across replays. Padding that survives one read has become tedium by the third. A one-paragraph summary at the head of the new scene carries any setup that is genuinely needed. State what happened in the gap that is worth knowing but not worth dramatising, then move into the live moment. [corpus]
+
+### Orienting the reader across a cut
+
+Every time you skip time or change place, the reader briefly loses their footing, and the cut's whole job is to put it back fast. The rule is to orient on arrival. State how much time has passed or where we now are, early enough that the reader never has cause to wonder. [corpus] A jump that leaves time or location ambiguous is the most common way a transition turns jarring. A close second is emotional dissonance, where a character ends one scene heartbroken and opens the next cheerful with nothing to bridge the gap. [corpus]
+
+Three techniques do most of the orienting work, and they differ in how much they hide the seam.
+
+| Technique | How it works | Reach for it when |
+|---|---|---|
+| Transitional sentence | A plain marker of the jump ("Three days later, they reached the city") [corpus] | The skip is simple and you just need the reader oriented [corpus] |
+| Sensory grounding | The new place announces itself through detail (salt air, gulls) rather than a label [corpus] | You want the reader to feel the new setting, not be told it [corpus] |
+| The bridge | An image or symbol at the end of one scene mirrors the start of the next [corpus] | You want the cut to feel inevitable rather than functional [corpus] |
+
+The aim across all three is that the reader infers the change rather than being lectured on it. Over-explaining a transition is its own fault: the cut should whisper the shift and trust the reader to follow. [corpus] A useful check is the movie test. Picture where a director would cut or fade to black, and cut there. [corpus]
+
+### Time-skips, flashbacks, and the trigger
+
+A time-skip is the workhorse transition, and most of them want nothing more than a transitional sentence and a fresh sensory anchor. When you want the jump to feel motivated rather than mechanical, the corpus offers the trigger: an object or a sensory detail at the seam that links the two moments, so the reader is carried across rather than dropped. [corpus] A character touching a photograph and falling into the day it was taken is the trigger doing its work.
+
+Flashbacks are the dangerous case and deserve a higher bar. Use one only when there is no other effective way to deliver information the scene genuinely needs, and cut any flashback that is not pulling real weight. [corpus] When you do reach for one, signal the shift in tense (past perfect for the first lines, then settling into simple past) and mark it typographically with a scene break. [corpus] The recurring failures are predictable: several flashbacks hammering one point that a single strong one would carry, and the flashback used as an exposition dump when a one-line summary would have done. [corpus]
+
+### Scene breaks: the visual seam
+
+When a cut happens inside a chapter rather than between chapters, it needs a visible mark, or the reader collides with the new scene mid-stride. The mark is the scene break. Use white space, or a *dinkus*: the centred row of three asterisks (`* * *`) that has signalled a section break in print since the middle of the nineteenth century. [researched] The rule is simple and absolute. Give the reader some visual cue that the scene has changed, and never jump ahead without one. [corpus]
+
+Scene breaks earn their keep at specific shifts. A change of time wants one; so does a real change of place. A change of viewpoint character always wants one, because dropping the break leaves the reader briefly inhabiting the wrong head. [corpus] They also buy tension when you cut right before a reveal, breaking as the hero turns the handle on the door they should not open. [corpus] The opposite vice is over-breaking, chopping at every good hook line until the prose reads as choppy and no scene gets to breathe. [corpus] Each scene should reach a small closure before you cut away from it.
+
+::: {.callout-tip}
+### The Field Note
+The hardest scene-break decision in interactive prose is the micro-beat. A micro-beat is a single transitional paragraph that moves the reader through time or place without a full scene. It covers a stretch of travel or a mood bridge or a montage. The reader is told plainly that it is a transition so that nobody mistakes it for a full scene. [corpus] It is the one sanctioned exception to the three-paragraph cadence. The trap is compression without payment. If a micro-beat skips a beat the reader needed, the very next full scene has to carry the reflection it skipped. It acknowledges what happened in the gap and shows the aftermath, restoring the affordances the compression dropped. [corpus] Skip a hard conversation in a micro-beat and the next scene must still register that the conversation occurred, or the reader feels cheated of something they were promised. The compression is free only if you pay the reflection on the far side. [synthesis]
+:::
+
+### The seam problem in interactive prose
+
+In linear prose the writer knows the scene before and the scene after. In interactive prose they often do not, because the reader chose. A scene has to function coherently no matter which path delivered the reader to it, which means each scene segment needs clean entry and exit points rather than a single assumed predecessor. [corpus] The convergence machinery that lets many paths feed one scene is [Branching Narrative Craft](branching-narrative-craft.qmd); the seam-level craft is making the transition into that shared scene read naturally from every direction.
+
+The technique is connecting text that acknowledges the choice just made before it introduces the new scene. [corpus] A character who was betrayed on one path and trusted on another cannot open the next scene the same way for both readers; the join has to bend to the history the reader brings. This is the seam-level face of the felt difference that makes convergence work. A character must stay consistent with who they have been even through a dramatic turn, or the transition exposes the machinery underneath. [corpus]
+
+### How the cut reads across media
+
+The scene-and-cut vocabulary is not a prose-only inheritance. Every interactive medium frames scenes and cuts between them, and the corpus shows the same moves under other names.
+
+At the tabletop the referee frames a scene by cutting straight to the moment that matters, the opener that drops the players into consequence rather than into setup, then cutting away once the scene's question is answered. [corpus] The Alexandrian names the two halves directly: a scene needs an agenda (the question it answers) and a *bang* (the charged moment that forces a choice), and the craft is cutting in late on the bang and closing out early once the agenda resolves. [researched] This is *arrive late, leave early* worn as a GM technique, with the scene-and-sequel rhythm becoming a tension scene followed by a regroup where the table decides what to do next. [synthesis]
+
+In live and immersive formats the cut becomes an act-break. The Chinese *jubensha* (scripted-murder) format runs investigation in rounds, gating fresh evidence behind each round so the act-break between rounds is a hard transition that resets what the players know and can pursue. [researched] The transition is the design: revelation is metered out scene by scene, and the seam between rounds is where the story moves. [synthesis] The same beat governs how an investigation hands a player from one charged exchange to the next, which at the table is the craft of the [one-on-one scene](../players-social-dynamics/one-on-one-scene-design.qmd).
+
+## Where this fits
+
+**The bigger picture.** Scene structure sits one level below the shapes most of this family describes and one level above the sentences. A branching graph or a campaign arc or a hunt round is built from scenes and the cuts between them, so this is the unit the larger structures are assembled from. Get the scene wrong and no topology saves it, because a graph of draggy scenes is just a draggy story with a map. The scene is also where structure meets prose. The brief fixes what a scene must do while the writing decides how it feels, so the [prose patterns and point of view](../story-character-voice/prose-patterns-and-point-of-view.qmd) that carry a scene belong to a different family even though they share the same paragraphs.
+
+**Next steps.** Once individual scenes hold, the question becomes how they accumulate into rhythm across a longer stretch, which is [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd). The beat vocabulary that briefs draw on, the named functions a beat can perform, is catalogued in [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd). When a scene's turn is a setback that escalates rather than resolves, the pattern of rising stakes across linked scenes is [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd). And when the scenes deliberately refuse chronological order, so the cuts themselves become the puzzle, that is [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd).
+
+## Sources
+
+- Swain, Dwight V. *Techniques of the Selling Writer*. University of Oklahoma Press, 1965. (Scene as goal-conflict-disaster; the sequel as reaction-dilemma-decision.)
+- "Scene and sequel." Wikipedia. <https://en.wikipedia.org/wiki/Scene_and_sequel>
+- Fawkes, September C. "Scene Structure According to Dwight V. Swain." 2021. <https://www.septembercfawkes.com/2021/09/scene-structure-according-to-dwight-v.html>
+- "The Meaning of 'Start Late, Leave Early' in Screenwriting." No Film School. <https://nofilmschool.com/start-late-leave-early> (Goldman on attacking a scene at the last possible moment.)
+- "Arrive Late, Leave Early: How to Write Fast-Paced Fiction." Blue Pencil Agency. <https://bluepencilagency.com/arrive-late-leave-early-how-to-write-fast-paced-fiction/>
+- "Dinkus." Wikipedia. <https://en.wikipedia.org/wiki/Dinkus> (The three-asterisk scene break and its history.)
+- Alexander, Justin. "The Art of Pacing, Part 2: Scene-Framing." The Alexandrian. <https://thealexandrian.net/wordpress/31520/roleplaying-games/the-art-of-pacing-part-2-scene-framing> (Agenda, the bang, cutting late and closing early at the tabletop.)
+- Laws, Robin D. *Robin's Laws of Good Game Mastering*. Steve Jackson Games, 2002. (Abstract/now/slow time and sharp cuts between scenes.)
+- "A Jubensha Most Foul: Bringing a Chinese Murder Mystery to English Audiences." TTRPG Insider. <https://www.ttrpginsider.news/p/a-jubensha-most-foul-bringing-a-chinese-murder-mystery-to-english-audiences> (Round-gated investigation and act-break structure.)
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
+- [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
+- [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
+
+<!-- BACKLINKS:END -->

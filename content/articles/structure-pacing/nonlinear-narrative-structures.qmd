@@ -1,22 +1,127 @@
 ---
 title: "Nonlinear Narrative Structures"
-aliases: []
+aliases: ["Non-Chronological Storytelling", "Fragment Assembly", "Out-of-Order Narrative"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [dramatic-irony, earned-revelation, accumulating-understanding]
+  problems: [reader-disorientation, missed-context, false-freedom]
+  components: [fragment, temporal-marker, reference-document, frame]
+  genre: [mystery, literary, slice-of-life]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: Telling a story out of order so that the reader does the assembling, without ever letting them get lost.*
+
+A linear story can promise that setup arrives before payoff. The author controls the order, so the joke lands after its build-up and the twist lands after the thing it twists. Break that order and the promise goes with it. The reveal might reach a reader who never saw the thing it was meant to reveal. The cause might arrive after its effect with nothing to tell the reader they were looking at an effect.
+
+That is the bargain of nonlinear narrative. You give up guaranteed sequence in exchange for something sequence cannot buy: the reader assembling meaning for themselves rather than receiving it whole. The slow recognition of why, the dramatic irony of knowing a past while living a present: neither survives a strictly forward telling. The good versions feel like solving a story. The bad versions feel like a dropped deck of cards.
+
+This article is about the forms that trade order for effect, and the scaffolding that keeps the trade from collapsing into confusion. It sits next to [Branching Narrative Craft](branching-narrative-craft.qmd), which is about what the reader decides. This one is about the order in which the story arrives, whoever controls that order.
+
+## The Mechanism (How it works)
+
+### The one problem underneath all of it
+
+Every nonlinear technique is a solution to a single problem: how to disrupt chronology without losing the reader. [corpus] The classical vocabulary for the disruption is Gérard Genette's. *Anachrony* is any mismatch between the order events happened and the order the telling presents them; *analepsis* is the flashback, *prolepsis* the flash-forward. [researched] The terms are worth knowing because they name precisely what you are doing the moment you break sequence, and naming it is the first defence against doing it by accident.
+
+The ways it goes wrong cluster into three, and each form below has to answer all three. The reader gets **confused** when nothing tells them what they know, what they do not, and what to chase next. They suffer **incompletion** when a load-bearing piece sits in an optional corner they never reach, so they hit an ending without the context to read it. And they detect **false freedom** when the out-of-order arrangement turns out not to matter, at which point the whole device deflates. [corpus] False freedom is the nonlinear cousin of the hollow choice in branching design, and it fails for the same reason: the reader senses the wheel is not connected to the rudder. The illusion-of-agency axis it sits on is [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd).
+
+The first design decision is who holds the order. **Author-fixed** nonlinearity disrupts chronology but keeps the sequence in the author's hands. **Player-controlled** nonlinearity hands the order to the reader. The orientation problem is far sharper in the second case, because the author can no longer guarantee that anything arrives before anything else. [corpus]
+
+### Author-fixed forms
+
+When the author keeps the order, the disruption is a deliberate effect aimed at a particular feeling.
+
+**In medias res** begins mid-action and backfills the prior context through dialogue, documents, or flashback. The opening creates a *why* gap the reader is motivated to close. [corpus] It fails on insufficient anchoring. A reader who does not yet care about the present situation feels no pull toward its causes, and the gap then reads as a withheld explanation rather than a hook. *Disco Elysium* (ZA/UM, 2019) opens inside a blackout and reconstructs an entire life through investigation. [researched]
+
+**Reverse chronology** presents events backward, so the cause arrives after its effect. It is strongest when the theme is inevitability or regret, because the reader's recurring *now I understand why* becomes its own beat, repeated down the length of the work. [corpus] *Braid* (Jonathan Blow, 2008) plays its final level entirely in reverse, retroactively turning an apparent rescue into a pursuit. [researched] The form lives or dies on temporal markers. Without clear signposts the reader cannot build the forward timeline in their head, and a causal reveal that lands on a reader who has lost track of the timeline lands on nothing.
+
+**Frame and dual-timeline** narratives run two timelines at once, usually a past being uncovered and a present living with its consequence, and the reader moves between them. The engine is dramatic irony: knowing one timeline while inhabiting the other. [corpus] *Norco* (Geography of Robots, 2022) alternates a present-day protagonist with a deceased mother's timeline and assembles the story from both ends. [researched]
+
+All three depend on signposting the jump. Labelled threads ("ten years earlier"), date stamps, and formatting cues (italics or a different typeface for a past timeline) keep the reader oriented. The quiet workhorse is the **object anchor**, a scar a character touches in two eras or a photograph that surfaces in both. It ties the timelines together without a line of exposition. The mechanics of the jump itself are [Scene Structure & Transitions](scene-structure-and-transitions.qmd). One specific form, the repeating diegetic timeline where the reader accumulates knowledge across resets, is [Time Loop Patterns](time-loop-patterns.qmd).
+
+### Player-controlled forms: fragment and mosaic assembly
+
+The sharper craft begins when the reader controls the order. Here the story is a fixed archive of fragments, and meaning accumulates from whatever sequence the reader happens to travel rather than arriving in a sequence anyone designed. [corpus]
+
+The defining principle, from Sam Barlow, is **narrative robustness**. Each fragment must be multi-valent, carrying weight wherever in the sequence it lands. [corpus] Suppose a fragment only works given a specific earlier one. That is a hard dependency. It holds for exactly one discovery order and breaks for all the rest. The work then fails silently for almost everyone. *Her Story* (Sam Barlow, 2015) is the canonical case: 271 video clips surfaced by free-text search, with a five-result cap per keyword that forces the player to vary their queries instead of draining the archive at one go. [researched] The robustness rule is the whole reason it holds together. No clip assumes you have seen another.
+
+Robustness is the mosaic-assembly version of a problem the puzzle family already names. When information is load-bearing and the reader chooses the path, a single missed fragment can break comprehension. A single missed clue can stall a free-roaming investigation in the same way. The tabletop answer is the Three Clue Rule, whose design instinct is that anything load-bearing should reach the reader through more than one independent route. That is the same insurance fragment assembly needs. The dependency-mapping behind it is [Information Architecture](../puzzles-clues-information/information-architecture.qmd), and the fragment-as-data techniques are [Extraction, Indexing & Meta-Puzzles](../puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd).
+
+A few related player-controlled shapes are worth separating, because they orient the reader differently:
+
+| Form | What the reader does | Orientation device |
+|---|---|---|
+| Fragment / database | Searches or browses a fixed archive; meaning accumulates | A reference document; self-sufficient fragments [researched] |
+| Environmental / embedded | Reads a story baked into a space and its objects | A tiered space with the core beats on the mandatory path [researched] |
+| Hub-and-spoke reconstruction | Reassembles a fixed past from a spatial hub | The hub itself: knowledge of place stands in for time [researched] |
+| Geographic / modular | Picks a route; each module self-contained yet enriched by neighbours | Geography as a proxy for progression [researched] |
+
+Environmental storytelling embeds the plot in the mise-en-scene, what Henry Jenkins calls **embedded narrative**, and the reader's path through the space assembles it. [researched] *Gone Home* (Fullbright, 2013) models the discipline that keeps it from failing on incompletion: **tiering**. The core story sits on audio journals the player cannot miss, while enrichment lives in optional rooms. [researched] Hub-and-spoke reconstruction goes further and makes a physical hub the reference frame for a fully fixed past: *Return of the Obra Dinn* (Lucas Pope, 2018) uses the ship itself as the thing the reader always knows, so knowledge of the space substitutes for knowledge of the sequence, like a memory palace. [researched] Geographic and modular forms let space structure the telling, with each region self-contained yet richer for its neighbours, which is Alexis Kennedy and Jon Ingold's "modular storytelling"; *80 Days* (inkle, 2014) routes more than 150 cities this way, linear within a city and nonlinear in which cities and in what order. [researched] The route-and-node shape it shares with map-based traversal is [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd).
+
+### Keeping the reader oriented
+
+Every player-controlled form needs orientation scaffolding, and the proven devices are few enough to name. A **spatial anchor** lets a physical hub stand in for chronological position. A **reference document**, an in-world artefact that records progress (a logbook, session tags, a ship's computer), gives the reader a running sense of where they are; building that artefact into the fiction rather than bolting it on is [diegetic design](../story-character-voice/diegetic-design.qmd). **Geographic progression** offers a reliable heuristic, such as further east meaning later or harder, that substitutes for a timeline. **Redundancy** delivers load-bearing information through several independent paths so no single missed fragment breaks the reader, the design ethos of *Outer Wilds* (Mobius Digital, 2019), whose clues systematically point at adjacent clues. [researched] And **soft gates** hold a fragment that would be meaningless without context behind a prerequisite that nudges rather than locks, keeping critical beats on the mandatory path.
+
+The standing judgement is always the same one. Which information is load-bearing enough to protect with a gate, and which can be trusted to the reader's curiosity? [corpus] Protect too little and you risk incompletion; protect too much and you have rebuilt the linear story you were trying to escape.
+
+::: {.callout-note}
+### The Specimen
+*Cain's Jawbone* (Edward Powys Mathers, writing as Torquemada, 1934) is fragment assembly with no interface at all. It is a murder mystery printed and bound deliberately out of order across 100 pages. The reader has to recover the one correct sequence and from it account for the six murders and their killers. [researched] The number of possible page arrangements runs past 9.3 × 10 to the 157th power, so brute force is hopeless. The reorder is driven entirely by internal narrative constraint. A name dropped on one page, a half-finished sentence carried across a page break: each fragment carries just enough self-evidence to pin its neighbours. [researched] Between its 1934 prize (two solvers) and its 2019 reissue (one further verified solution, by John Finnemore, over six months of lockdown), it stood unsolved for decades. [researched] It is the purest demonstration that the assembly itself can be the entire game, with the paper as the only technology.
+:::
+
+### The non-Western shapes: Kishōtenketsu and Jo-ha-kyū
+
+Not every alternative to a Western three-act build is about order. Two East Asian models recur in interactive-fiction craft because they are different shapes of dramatic build, not different orderings of the same one.
+
+**Kishōtenketsu** is a four-act structure descended from classical Chinese *jueju* poetry. [researched] Its acts are *ki* (introduction), *shō* (development), *ten* (a turn), and *ketsu* (a conclusion that reconciles the turn with what came before). [researched] The load-bearing act is the *ten*, and it is what makes the form genuinely foreign to conflict-driven structure. The turn is not a clash or a complication. It is a surprising, often seemingly unrelated element that recontextualises the first two acts rather than opposing them. [researched] The engine is juxtaposition and harmony where the three-act engine is conflict and resolution. So it suits slice-of-life, surreal, and a particular kind of horror, where the *ten* recontextualises apparent safety into danger without anyone needing to throw a punch. For a designer raised on conflict, the value is structural: it offers a way to make a satisfying narrative arc that has no antagonist and needs none, which is hard to reach inside a vocabulary built entirely from opposition.
+
+**Jo-ha-kyū** (序破急, roughly "beginning, break, rapid") is a pacing concept rather than a plot shape. It originates in gagaku court music and was developed by the Noh playwright Zeami into a rhythm that runs through much of Japanese traditional drama. The opening (*jo*) begins slowly and gathers potential; the middle (*ha*) accelerates and complicates; the close (*kyū*) resolves swiftly. [researched] Its usefulness is that it is scale-free. The same slow-build-then-quick-release shape governs a whole work, a single act, and one scene or encounter, so it gives a designer one rhythm to apply at every altitude at once. The broader catalogue of named build-shapes a designer can reach for is [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd).
+
+### What interactivity adds, and what it costs
+
+Out-of-order storytelling predates games by centuries; the printed page has done in medias res and the frame narrative for as long as there have been novels. What interactivity adds is a genuinely new axis: the reader can hold the order, and the work has to remain coherent across every order they might choose. That is the shift from arranging fragments *for* a reader to building fragments that survive *any* arrangement a reader imposes. [synthesis] The whole discipline of narrative robustness exists only because of it. A novelist arranging flashbacks never has to ask whether their story still works if the reader reads the flashbacks in a different sequence; a database-narrative designer has to ask exactly that, of every fragment.
+
+This is also where the form proves its reach across other media. In live and physical play the fixed archive becomes a stack of documents the players spread across a table and assemble themselves: the subscription-box mystery *Hunt A Killer* drips a sealed dossier of fragments per episode (letters, photographs, transcripts) that the players reorder into a case, fragment assembly carried out in print and post rather than on screen. [synthesis] At the tabletop the order can be built rather than discovered: *Microscope* (Ben Robbins, Lame Mage, 2011) has players construct a history explicitly out of chronological order, jumping between broad periods, specific events, and moment-by-moment scenes, a fractal timeline assembled at any scale and in any sequence the table fancies. [researched] In the puzzle-hunt tradition the reorder is the puzzle itself, which is where *Cain's Jawbone* sits: a fragment set whose only solution is the one sequence its internal constraints permit. [synthesis] Across all of them the recurring constraint that holds the structure up is the felt difference between a thread that converges cleanly and one that flattens, which is the work of [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd).
+
+## Where this fits
+
+**The bigger picture.** Nonlinear structure is the axis of *information order* in the Structure & Pacing family, sitting orthogonal to the *choice topology* axis that [Branching Narrative Craft](branching-narrative-craft.qmd) and [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd) map. A story can be linear in choice and wildly nonlinear in order (a fixed reverse-chronology film), or branching in choice and strictly chronological within each branch. Keeping the two axes separate is what lets a designer reason about each without the other muddying it. Nonlinearity also leans hard on the rest of the family for support: it borrows convergence craft from [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd), depends on the transition mechanics of [Scene Structure & Transitions](scene-structure-and-transitions.qmd), and shares its orientation problem with the spatial-reasoning work of [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd).
+
+**Next steps.** Once the out-of-order shape is chosen, the live question is whether the reader can follow it. The orientation scaffolding above carries most of that weight. Any deductive form leans further on fair cluing, because a fragment the reader is meant to reason from has to be reachable. That contract is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). If the structure runs across episodes or releases, the order problem compounds with the serialisation problem of [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd). And whatever the shape, each fragment still needs its own small rise and fall to read as a beat rather than a flat data drop, which is [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd) carried down to the level of the individual piece.
+
+## Sources
+
+- Genette, Gérard. *Narrative Discourse: An Essay in Method*. Cornell University Press, 1980. (Anachrony, analepsis, prolepsis.)
+- Jenkins, Henry. "Game Design as Narrative Architecture." In *First Person*, MIT Press, 2004. <http://web.mit.edu/~21fms/People/henry3/games&narrative.html>
+- Murray, Janet. *Hamlet on the Holodeck: The Future of Narrative in Cyberspace*. Free Press, 1997. (The encyclopedic affordance behind database narrative.)
+- Barlow, Sam. "Powerful Stories Require Ambiguity" / talks on *Her Story* (narrative robustness; multi-valent fragments; the five-clip cap). 2015. *Her Story*, Sam Barlow, 2015.
+- Pope, Lucas. *Return of the Obra Dinn*. 3909, 2018. (Hub-and-spoke reconstruction of a fixed past; rule-of-three deduction.)
+- Fullbright. *Gone Home*. 2013; *Tacoma*, 2017. (Environmental/epistolary tiering; the mandatory path.)
+- Love, Christine. *Analogue: A Hate Story*. 2012. (AI-gated epistolary release.)
+- inkle. *80 Days*. 2014. Kennedy, Alexis and Ingold, Jon, on "modular storytelling," 2015.
+- Blow, Jonathan. *Braid*. Number None, 2008. (Reverse chronology recontextualising prior play.)
+- Geography of Robots. *Norco*. Raw Fury, 2022. (Dual-timeline frame narrative.)
+- Mobius Digital. *Outer Wilds*. Annapurna Interactive, 2019. (Redundancy as comprehension insurance.)
+- ZA/UM. *Disco Elysium*. 2019. (In medias res reconstruction.)
+- Mathers, Edward Powys (as Torquemada). *Cain's Jawbone*. 1934; reissued Unbound / Laurence Sterne Trust, 2019. "Cain's Jawbone." Wikipedia. <https://en.wikipedia.org/wiki/Cain%27s_Jawbone>
+- Robbins, Ben. *Microscope: A Fractal Roleplaying Game of Epic Histories*. Lame Mage Productions, 2011. <https://www.lamemage.com/microscope/>
+- "Kishōtenketsu" (four-act structure from classical Chinese *jueju*; juxtaposition over conflict). Wikipedia. <https://en.wikipedia.org/wiki/Kish%C5%8Dtenketsu>
+- "Jo-ha-kyū" (序破急; gagaku and Noh pacing, developed by Zeami). Wikipedia. <https://en.wikipedia.org/wiki/Jo-ha-ky%C5%AB>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
+- [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
+- [Branching Narrative Craft](branching-narrative-craft.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
+- [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd)
+- [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
+- [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
+- [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
+- [Time Loop Patterns](time-loop-patterns.qmd)
 
 <!-- BACKLINKS:END -->

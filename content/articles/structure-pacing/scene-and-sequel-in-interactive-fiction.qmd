@@ -1,14 +1,128 @@
 ---
 title: "Scene & Sequel in Interactive Fiction"
-aliases: []
+aliases: ["Scene-Sequel", "Swain Structure", "The Sequel as Choice"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [felt-deliberation, breathing-room, paced-momentum]
+  problems: [exhausting-pacing, hollow-choice, stagnant-branch]
+  components: [scene, sequel, choice-point, disaster-beat]
+  genre: [adventure, mystery, romance]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The small rhythm under every choice. A setback, then a breath in which the player decides.*
+
+A branching story has a heartbeat smaller than its branches. Before the reader reaches any fork they have just lived through something that went wrong, felt the weight of it, and weighed what to do. That whole small cycle happens in the space of a passage or two, and it repeats for the length of the story. Get the rhythm of it right and the choices feel earned. Get it wrong and the reader is either sprinting past decisions they never registered or wading through reflection that never pays off.
+
+The craft term for this rhythm is scene and sequel. A scene is a unit of conflict that ends badly. A sequel is the breath after. The character reacts to the setback and weighs the options before settling on a new course. In ordinary fiction the author writes both halves. In interactive fiction the second half belongs to the reader, because the sequel is where the choice lives. That single shift is what this article is about.
+
+This is the micro-rhythm beneath the macro-shapes. The branch architecture is the work of [Branching Narrative Craft](branching-narrative-craft.qmd); how a single passage opens and hands off is [Scene Structure & Transitions](scene-structure-and-transitions.qmd). Scene and sequel sits between them, at the beat scale, where tension is built and released one choice at a time.
+
+## The Mechanism (How it works)
+
+### The two units
+
+Dwight Swain's *Techniques of the Selling Writer* (1965) split narrative into two repeating units, and the split has held for sixty years because it names something real about how readers absorb a story. [researched] A scene runs on three beats. The focal character chases a goal and meets conflict. The unit then ends on a disaster. [researched] A sequel runs on three more. The character reacts to that disaster, then sits with the dilemma of what to do. Out of the dilemma comes a decision, which becomes the next scene's goal. [corpus] Jack Bickham's *Scene and Structure* (1993) extended the model into a full construction method without changing its spine. [researched]
+
+The disaster is the engine. Without a setback there is nothing for the player to react to and no reason for the next unit to exist. [corpus] A disaster need not be outright failure. It takes three usable shapes, and the difference matters when you are writing toward a choice.
+
+| Disaster type | What happens | What it leaves the player |
+|---|---|---|
+| Outright failure | The goal is denied: the door stays locked, the ally refuses | A blocked path to route around [corpus] |
+| Yes-but | The goal is won at an unforeseen cost: the key is found, but the alarm sounds | A gain entangled with a new problem [corpus] |
+| Unexpected complication | Something intervenes before the conflict resolves: a new threat, a ticking clock | A reordered set of priorities [corpus] |
+
+The one rule that holds across all three is that the disaster has to be a consequence the reader can follow, not a random event. [corpus] If picking a lock makes the building collapse, the reader feels cheated unless the collapse was set up. If picking a lock sounds an alarm, the consequence follows from the act. A disaster that earns its sequel is one the player could trace back to a cause. This is the same fairness instinct that governs cluing in the puzzle family ([Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd)). The reader does not owe you the leap, and an unmotivated reversal reads as a cheat however dramatic it is.
+
+### The sequel is the choice point
+
+Here is the move that makes the model interactive rather than merely borrowed. The three beats of the sequel map onto the three parts of a choice, and the mapping is mechanical rather than poetic. [corpus]
+
+The reaction is the aftermath prose the player reads when a passage opens, with the dust still settling and the hands still shaking. The dilemma is the set of options laid out with their costs made legible. Then the decision is the click. [corpus] When an IF passage closes a scene on a disaster and then offers choices, that passage is running a sequel. The author has written the reaction and framed the dilemma; the reader supplies the decision the author would otherwise have written. [corpus] Each decision launches a fresh goal, and the cycle turns again.
+
+The cleanest IF passages are built as whole sequels for exactly this reason. A passage opens on reaction to ground the player in what just happened. It moves into the dilemma, making the stakes of the coming choice readable. It ends on the decision links themselves, each of which drops the player into a new scene with a new goal. [corpus] So a good choice-based passage often reads as consequence, then options. The structure is not a stylistic preference. It is the sequel wearing the clothes of a node.
+
+Not every sequel needs its own passage, though. A sequel can be embedded inside an ongoing scene, its reaction and dilemma woven into action that has not yet resolved. The player ducks behind the counter and registers that the ally is gone. The choice to follow the blood trail or hold position then arrives while the gunfire continues. [corpus] Standalone sequels suit major turning points and signal that a choice matters; embedded sequels suit tactical pivots mid-action and keep the momentum up. [corpus] The decision of which to reach for is itself a pacing decision.
+
+### Reading sequel depth as a signal
+
+Players learn, mostly without noticing, to read the length of a sequel as a measure of how much a choice matters. [corpus] A long sequel of two hundred words or more, heavy with reaction and deliberation, tells the player this choice will turn the story and they should take their time. A medium sequel marks a choice that bites without defining the whole arc. A one-line sequel says act on instinct, the story is not slowing for you. [corpus]
+
+The signal is useful precisely because it is reliable, which means the danger is in the mismatch. A trivial choice dressed in a deep sequel makes the player agonise over nothing. A story-turning choice buried in a compressed sequel lets the player click past the most important moment in the story without registering it. [corpus] The depth you give a sequel is a promise about the weight of the choice, and the player will hold you to it. This is the beat-scale version of the larger contract that a choice framed as agonising should not turn out to be cosmetic, which is the territory of [Branching Narrative Craft](branching-narrative-craft.qmd).
+
+::: {.callout-tip}
+### The Field Note
+When a choice point feels flat, check the disaster behind it before you touch the options. A dilemma feels manufactured when there is no genuine pressure driving it. Rewriting the options will not fix a sequel that has nothing to react to. The repair is almost always upstream. Give the preceding scene a real setback. Reward a good choice with a better problem rather than the absence of one. A scene that lets the player succeed cleanly has not earned the sequel that follows it, and the reader feels the slack even when they cannot name it. [synthesis]
+:::
+
+### The ratio is a pacing lever
+
+The proportion of scene to sequel is the primary control on how a stretch of story feels. It is a design parameter rather than a quality metric, since no ratio is better than another in the abstract. [corpus] Three hundred words of conflict against one hundred of sequel feels fast and breathless, the rhythm of a thriller or a horror chase. The same scene length against four hundred and fifty words of sequel feels slow and reflective, which is what a relationship arc or a piece of political intrigue wants. [corpus]
+
+| Scene : Sequel | Feel | Where it fits |
+|---|---|---|
+| 3:1 | Fast, relentless | Thriller, horror, action [corpus] |
+| 2:1 | Brisk with room to breathe | Adventure, mystery [corpus] |
+| 1:1 | Measured, character-driven | Drama, literary IF [corpus] |
+| 1:2 | Choice-heavy, deliberate | Relationship, intrigue [corpus] |
+| 1:3 | Slow, introspective | Slice of life, meditation [corpus] |
+
+The lever is the same one linear pacing uses. Swain's model treats scene and sequel as the fast and slow beats of a story, and an author controls tempo by adjusting their proportion. Shorter sequels speed the reader up; longer ones slow them down. [corpus] What changes in IF is that the slow beat is where control passes to the reader. The ratio then does double duty. It sets tempo, and it also tells the player how much deliberation the story is inviting at each turn. [corpus] The broader management of energy across a long piece, rising and falling so the reader is neither exhausted nor bored, is [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd).
+
+### Per-branch ratios and the merge problem
+
+Because IF branches, different paths through the same work can and should run at different ratios. An action branch might run 3:1 with compressed one-line reactions; a relationship branch through the same story might run 1:2 with deep emotional processing before each choice. [corpus] This is a feature: the medium lets the rhythm bend to what each path is about.
+
+It also creates a problem that linear fiction never has to solve. A player who took the action branch arrives at a convergence point wired and breathless. A player who took the relationship branch arrives thoughtful and slow. [corpus] When the branches merge into shared text, the difference in rhythm can read as tonal whiplash. One passage cannot satisfy both readers at once. The map of which branches rejoin where is [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd); the beat-scale fix is to treat the merge as a pacing airlock. A brief sequel after the fast branch and a brief scene after the slow one re-establish a shared baseline before the common passage begins. [corpus] The disaster that feeds a merge point should also carry roughly equal weight from every branch, so that one path does not arrive on a life-or-death setback while another arrives on a minor social awkwardness. [corpus]
+
+The two failure modes that bracket all of this are worth naming because they are the ones writers actually ship. The all-scene branch is nothing but disaster after disaster with no sequel beats, and the player clicks from crisis to crisis without ever processing, so choices feel arbitrary because there is no dilemma, only reaction under pressure. [corpus] The all-sequel branch is the opposite, reflection after reflection with no genuine scene between them. Nothing happens. Each sequel only leads to another, and the story stalls into a contemplation loop. [corpus] The test for the first is whether you can find a single moment where the character pauses to think; the test for the second is whether every decision link leads to a passage with a real new goal and conflict rather than more reaction. [corpus]
+
+### The rhythm is fractal
+
+Scene and sequel is not only a passage-level tool. The same shape recurs at every scale of the work. An act is a macro-scene with a macro-disaster, and the transition between acts is a macro-sequel. A chapter is a chain of three to seven scene-sequel nodes. A single passage holds a scene and a sequel. Within a passage, compressed scene-sequel cycles can run inside the prose itself. [corpus] Marie-Laure Ryan's work on recursive story structures gives this fractal nesting its theoretical frame. [researched]
+
+The practical payoff is a top-down outlining method. Start by naming three to five macro-disasters (the act-level setbacks) and the macro-sequels between them (the major choice points), then fill in the chapter-level chains, then write the passage-level beats. [corpus] Local pacing decisions made this way serve the global arc instead of fighting it. This is the rhythm that the larger beat-and-structure models formalise at the act scale, which is [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd); the way disasters chain into rising stakes rather than just repeating is [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd).
+
+### The same beat across the table and the room
+
+The scene-then-sequel pulse is not a quirk of prose IF. It is the underlying tension-and-release beat that paced media reach for independently. A tabletop game master frames a tension scene and lets it land on a setback, then gives the table a regroup beat where the players react and pick their next move before the next scene is framed. [synthesis] Pacing a session comes down to when to end a scene and how to start the next one, run at whatever speed the table needs. That is scene-and-sequel thinking under another name. The regroup beat is the sequel handed to a whole table at once. [researched]
+
+The escape room runs the same pulse in physical space. A good room weaves moments of challenge with moments of relief and breakthrough, an ebb and flow that keeps a team engaged without fatiguing them. [synthesis] The tension unit is the puzzle under pressure; the breather after a solved lock, where the team regroups and picks the next thing to chase, is the sequel made spatial. [researched] The difficulty curve that paces a room from easy opening to hard climax is the macro-shape these beats accumulate into. [researched] All three media run on the same warning. A story that is all tension exhausts the player, and a story that is all release stalls. The breath between is not filler. It is where the next decision gets made.
+
+::: {.callout-note}
+### The Specimen
+Inkle's *80 Days* (2014) builds its choices as deliberation beats rather than reflexes. Jon Ingold has described the central design problem of interactive storytelling as convincing the player that their choices genuinely shape events, even when the direction is largely pre-scripted, and the studio's answer is to frame each choice so the player feels complicit in the direction the narrative takes. [researched] Ingold likens the pattern to a hand of blackjack. Each new card is another choice, and every card already drawn makes the next decision riskier. The player is always weighing an accumulating stake rather than picking blind. That accumulation is the sequel doing its work, a dilemma whose weight the player can feel before they commit. [researched]
+:::
+
+## Where this fits
+
+**The bigger picture.** Scene and sequel is the beat-scale layer of the Structure & Pacing family, the rhythm that runs underneath every larger shape. The branch architecture decides where a story diverges; the graph taxonomy names the silhouettes it can take; this article is about the pulse that fills those structures one choice at a time. It depends on the disaster being honest, which ties it to the fairness instinct that runs through the whole guide, and it feeds directly into how stakes rise, because a sequel's decision is what launches the next scene's conflict. A designer who has the macro-structure right and the beat-rhythm wrong ships a story that is shaped well but feels either frantic or inert. The two layers have to be tuned together.
+
+**Next steps.** Once the scene-sequel rhythm is set, the question of how the disasters escalate rather than merely repeat is [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd), and the management of that rhythm across a whole sitting is [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd). To place these beats inside the named act-level models that organise a long story, turn to [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd). When the dilemma driving a sequel carries genuine moral weight rather than tactical choice, its design is the work of [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd). And where many sequels fan out and rejoin, making the merge feel earned rather than flattening is [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd).
+
+## Sources
+
+- Swain, Dwight V. *Techniques of the Selling Writer*. University of Oklahoma Press, 1965. (Scene as goal-conflict-disaster; sequel as reaction-dilemma-decision; the motivation-reaction unit.)
+- Bickham, Jack M. *Scene and Structure*. Writer's Digest Books, 1993. (Scene-construction method; compressed sequels.)
+- Fawkes, September C. "Scene Structure According to Swain" and "Sequel Structure According to Swain." 2021. <https://www.septembercfawkes.com/2021/09/scene-structure-according-to-dwight-v.html>
+- Weiland, K. M. "Motivation-Reaction Units: Cracking the Code of Good Writing." Helping Writers Become Authors. <https://www.helpingwritersbecomeauthors.com/motivation-reaction-units/>
+- Ryan, Marie-Laure. *Narrative as Virtual Reality*. Johns Hopkins University Press, 2001. (Recursive and fractal story structures.)
+- Ingold, Jon. "Adventures in Text: Innovating in Interactive Fiction." GDC 2015. <https://gdcvault.com/play/1021774/Adventures-in-Text-Innovating-in>
+- "Interview with Jon Ingold, Inkle Studios, 80 Days, Sorcery!" Indie-o-rama. <https://www.indieorama.com/interview-with-jon-ingold-inkle-sorcery/>
+- Provost, Gary. *100 Ways to Improve Your Writing*. Mentor, 1985. (Pacing through sentence rhythm; fast and slow beats.)
+- Alexander, Justin. "The Art of Pacing" and "The Art of Pacing, Part 2: Scene-Framing." The Alexandrian. <https://thealexandrian.net/wordpress/31509/roleplaying-games/the-art-of-pacing>
+- ER Workshop. "Escape Room Difficulty Levels: How to Design the Perfect Challenge Curve." <https://erworkshop.com/escape-room-difficulty-levels/>
+- Mission Escape Games. "How do escape room designs maintain suspense and excitement throughout the game?" 2025. <https://missionescapegames.com/anaheim/2025/12/20/how-do-escape-room-in-anaheim-designs-maintain-suspense-and-excitement-throughout-the-game/>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
+- [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
+- [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
+- [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
+
+<!-- BACKLINKS:END -->

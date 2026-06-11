@@ -1,14 +1,121 @@
 ---
 title: "Episodic & Serialised Structure"
-aliases: []
+aliases: ["Episodic Design", "Serial Narrative", "Seasons & Episodes", "The Telltale Model"]
 family: "Structure & Pacing"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [sustained-anticipation, long-arc-investment, ritual-return]
+  problems: [the-wait-problem, state-drift, payoff-compression]
+  components: [episode, season-arc, recap, state-carry, release-cadence]
+  genre: [mystery, drama, adventure]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: A story cut into instalments that arrive one at a time, each whole enough to satisfy and open enough to pull you back.*
+
+A serialised story sells the same thing twice. It sells the instalment in your hands, which has to pay off on its own, and it sells the gap before the next one, which has to ache enough that you come back. The whole form lives in that double promise. Break the first and the instalment feels like filler. Break the second and the reader wanders off before the season ends.
+
+The instalment takes many forms. An episode of interactive fiction or a monthly mystery box on your doorstep. A session at the table. A round of a hunt that unlocks the next day. The unit changes; the problem does not. You are splitting one arc across a calendar, and the calendar is now part of the craft. Every choice about how much to resolve and how long to make the wait is a choice the audience feels even when they cannot name it.
+
+This article is about telling a story in instalments without the seams showing. How to make each piece land. How to carry what the audience did forward into the next piece. And how to spend the wait between instalments rather than lose to it.
+
+## The Mechanism (How it works)
+
+### Episodic and serialised are two ends of one dial
+
+The two words name a spectrum, not a pair of boxes. A purely episodic story resolves its central conflict every instalment, the way a procedural detective show closes its case before the credits. A purely serialised story holds resolution back until the season or series ends, the way a prestige drama runs one long arc across a dozen hours. [corpus] Almost no real work sits at either pole. The standard shape is the hybrid. An instalment-sized conflict resolves now, nested inside a season arc that does not, and a deeper series mystery runs underneath both. [corpus]
+
+The dial is not a stylistic preference. It sets concrete demands, and the demands trade off against each other. The more episodic the work, the cheaper it is on the audience's memory and the friendlier it is to newcomers. The more serialised, the heavier the recap burden and the higher the cost of joining late.
+
+| Aspect | Episodic | Serialised |
+|---|---|---|
+| Entry point | Almost any instalment | The beginning, or nowhere |
+| Where satisfaction lands | Each instalment | The season or series end |
+| How much state must carry | Little | A great deal |
+| Recap burden | Light | Heavy |
+| Demand on the audience | Flexible, drop-in | Committed, sequential |
+
+The practical reading of the table is that you choose a point on the dial and then pay its bill. A drop-in episodic series that suddenly hinges on a choice three instalments back has broken its own contract. A serialised season that offers no way back in after a missed instalment has chosen attrition.
+
+### The Telltale model: fixed spine, variable detail
+
+The most influential answer to this in interactive fiction is the one Telltale Games built for *The Walking Dead* in 2012, and it is worth stating precisely because it is so often misread. The major plot points stay fixed across all players. Choices do not deviate the story much. What changes is the detail around the spine. Who is alive when a fixed beat arrives, who still trusts you, what a character throws in your face when you reach it. [corpus] The structure converges on a predetermined result while letting the texture of getting there differ. [researched]
+
+This is branch and bottleneck wearing a release schedule, and it is the same convergence craft the family treats in [Branching Narrative Craft](branching-narrative-craft.qmd). The episodic frame sharpens it. Because the work ships one instalment at a time, the convergence points can sit at instalment boundaries, where every player is funnelled to a shared starting state before the next piece begins. [corpus] That funnel is what keeps a multi-instalment branching story from exploding into combinations no team can write.
+
+The honest criticism of the model is the one players name themselves. The choices do not really matter, because the spine holds whatever you pick. [researched] Telltale's own writers leaned into this. Gary Whitta has described keeping the hard choices genuinely balanced, so that no option read as obviously correct and players split roughly evenly. That balance makes the decision feel weighty even when its long-run effect is small. [researched] Whether that is a cheat or a craft depends on what the instalment promised. A choice framed as a moral reckoning that pays back only in flavour is the small betrayal [Branching Narrative Craft](branching-narrative-craft.qmd) calls the hollow choice. A choice framed as a hard human moment with no claim to redraw the plot is keeping its word.
+
+DON'T NOD's *Life is Strange* (2015) ran a contrasting bet across its five episodes. It granted the player a literal rewind, so a choice could be tried and undone in the moment, then made the lasting choices bite across later episodes instead. [researched] The two games mark the working range. One holds the spine hard and varies the surface; the other lets choices compound between instalments at real production cost. The cost is the point: every consequence that genuinely diverges is content one part of your audience will never see.
+
+::: {.callout-note}
+### The Specimen
+Hunt A Killer ships the serialised structure through the post. Launched in 2016 from Baltimore, it mails a physical "episode" of a murder investigation each month: in-character letters, aged documents, photographs, a key or a ticket stub, all framed as real correspondence with no rulebook. A season runs six boxes over roughly six months, and the last box is the resolution. [corpus] The drip does work that digital releases struggle to buy. The monthly wait creates genuine anticipation and gives players something to theorise about between boxes, so each delivery arrives as a small event. [corpus] It also exposes every failure mode of the form. The Room Escape Artist review of the first season found there was no way to know when you had finished investigating a box, so episodes never closed cleanly and the forward pull never built as it should. [researched] Six months of buildup also concentrates narrative weight in the early boxes and compresses the payoff into the last. That is why later standalone sets such as *Death at the Dive Bar* let a whole mystery resolve in one sitting. [corpus]
+:::
+
+### State persistence: the story that remembers across the gap
+
+A serialised story's core promise is that what you did last time still counts this time. Keeping it is a state problem, and the gap between instalments makes it harder than the within-story version in [Branching Narrative Craft](branching-narrative-craft.qmd). The audience has forgotten the specifics, the instalments may have shipped months apart, and the combinations the work must honour grow with every episode. [corpus]
+
+The discipline is to track the few things that genuinely steer the story and let the rest go. Major choices that change direction, relationship standings, who is alive, key items: these carry. Minor flavour choices and one-off conditions do not need to. [corpus] The strongest move is abstraction. Rather than remember every individual kindness or slight toward a character, collapse them into one relationship value and read that value forward. [corpus] A single tracked number drives a hundred small reactions without anyone writing a hundred separate branches, which is the same track-what-you-use economy that governs flags in [Branching Narrative Craft](branching-narrative-craft.qmd).
+
+Dead characters are the sharp edge of carrying state, because the work has to behave consistently about an absence. Someone killed on one player's path cannot turn up alive on another's. The usual handling is to write the absence in. Cut the character from later scenes or hand their function to a substitute, and adjust any dialogue that would have referenced them as living. [corpus] Funnelling helps here too. When branches reconverge at an instalment boundary, the variety of states the next instalment must open against is bounded, so the writing stays finite. [corpus]
+
+How that carried state is physically stored is a design choice with its own consequences. A player-managed save file allows replay with different choices, at the risk of being lost or corrupted. A cloud save persists automatically but exacts an account system and the privacy questions that come with it. A third route hands the player a short code that summarises their choices, typed in by hand to restore a state, compact and under their own control. [corpus] In a subscription mystery, the "save" is the accumulating archive of physical evidence on the player's table, and that archive is its own state-management burden. By the later boxes it is large, and with no way to tell relevant material from decoration, players sink hours into dead ends. [corpus]
+
+### The recap, and what it is really for
+
+A serialised instalment almost always opens by reminding you where you stood. The "previously on" recap is a narrative device for managing memory across a gap the audience cannot be expected to bridge unaided. [researched] It refreshes the lapsed viewer and lets a newcomer find footing, holding the through-line together across instalments that may be weeks or months apart. The form is old: radio serials of the 1930s to 1950s already spent the first few minutes refreshing listeners before each new instalment. [researched]
+
+The craft question is how to remind the audience who remember without insulting them. The blunt montage of past clips works but announces itself as machinery. The subtler tool is the integrated reminder, a line that re-establishes a fact inside the present scene without stopping to lecture: "You hadn't seen Marcus since the warehouse fire" tells a returning player what they need while reading as story rather than summary. [corpus] In interactive fiction the recap does something television cannot. It builds itself live from the player's actual choices rather than a generic summary, so it recalls the version of events you created instead of a canonical one you may not recognise. [corpus] A recap that reports a choice you did not make is worse than none, because it tells the player the story was not really listening.
+
+### Release cadence and the wait it creates
+
+The moment a story ships in instalments, the gap between them becomes a design surface. A regular cadence (weekly, monthly) builds anticipation and gives a community time to gather, theorise, and compare choices between drops, at the cost of relentless production pressure. A single binge drop delivers the whole experience at once but forfeits the sustained buzz a schedule generates. A season drop hands over a complete arc and then goes quiet for a long stretch. A "when it's ready" cadence protects quality and bleeds audience to attrition. [corpus]
+
+The shared hazard across all of these is the wait problem. Leave too long between instalments and players forget the story, interest cools, and newcomers overtake the lapsed faithful. [corpus] The defences are the recap systems above, explicit catch-up summaries, replay incentives that keep people in the world between drops, and plain communication when an instalment slips. [corpus] The gap is also the form's best gift when it is spent rather than merely endured. The wait between Hunt A Killer boxes is what lets each delivery feel like an event and gives players room to build theories, which is variable-interval anticipation that an always-available digital story cannot easily manufacture. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The cadence that kills serials is not too slow. It is too expensive. Telltale Games built the dominant model for episodic interactive fiction and then closed in 2018, laying off nearly its whole staff after running out of money. [researched] The episodic model that once looked fresh had become a liability. Production pressure compounded across overlapping series while several titles missed their sales targets, and players grew wary of an unfinished series. [researched] Size the instalment to a cadence that stays affordable near the end. Completion is the form's deepest promise. An audience that doubts the season will ever resolve keeps its investment back from the very first instalment. Scope creep does the same harm more slowly. Each instalment grows quietly larger than the last until the budget runs out. [corpus] Choose a scope you can repeat, and then hold to it.
+:::
+
+### The tabletop and hunt instalment
+
+The same structure runs at the table, where the episodic campaign is the procedural model in play. Each session is a self-contained problem with its own setup and resolution, threaded by character continuity and the occasional recurring antagonist. [corpus] Its advantages are exactly the episodic ones. A player's absence is absorbed without narrative whiplash, and a newcomer joins mid-campaign with little to catch up on. The prep a session demands stays capped at a level one referee can carry. [corpus] Its liability is also the episodic one. If no session leaves a lasting mark, players come to feel the world is static. The standard repair is to thread a season arc of recurring threats through the self-contained sessions, which quietly imports serialised structure. [corpus] That balancing of instalment, season, and series is the campaign-scale craft of [Campaign Arc Shapes](campaign-arc-shapes.qmd), and the way several threads are kept alive across the gaps so one can hook the next before the last resolves is [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd).
+
+Puzzle hunts serialise on a compressed clock. A multi-day hunt releases its rounds over successive days, and a long-form alternate reality game can string its arc across weeks. [corpus] The release gate is doing serial work. It paces discovery and gives a solving community time to organise between drops, so each unlock becomes the hunt's version of a new instalment. The escalation a solver feels as rounds build toward the meta is the rising-stakes engine of [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd) stretched across the calendar.
+
+## Where this fits
+
+**The bigger picture.** Episodic and serialised structure is what happens when a story meets a schedule. It takes the convergence and state machinery that [Branching Narrative Craft](branching-narrative-craft.qmd) builds for a single sitting and stretches it across a calendar, which turns the gap between instalments into a load-bearing part of the design rather than dead time. It depends on the family's other structural tools. It needs the convergence discipline that keeps multi-instalment branching from exploding and the state-tracking that lets a story remember across a gap, all aimed by a clear sense of where the arc has to arrive. The closure each instalment offers and the closure the season finally delivers are two scales of the same problem that [Endings & Structural Closure](endings-and-structural-closure.qmd) treats directly: a finale that has to satisfy after months of buildup carries a weight no single ending in a one-sitting story ever has to.
+
+**Next steps.** Once the instalment-and-arc shape is set, the live question is how much serialisation the project will actually be able to carry through to the end. That is the scope-and-cost reasoning of [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd). To keep each instalment from sagging in its middle, the rising-and-falling shape within and across episodes is the work of [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd). And to keep multiple arcs in play across the gaps, so the season always has a thread pulling the audience forward, the technique sits in [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd) and, at campaign length, [Campaign Arc Shapes](campaign-arc-shapes.qmd).
+
+## Sources
+
+- Telltale Games / *The Walking Dead*. "The Walking Dead (video game)." Wikipedia (branching decision-tree structure, convergence, choice criticism). <https://en.wikipedia.org/wiki/The_Walking_Dead_(video_game)>
+- Whitta, Gary, on balancing choices in *The Walking Dead*. "*The Walking Dead* and the art of providing no 'good' choice." Game Developer. <https://www.gamedeveloper.com/design/-i-the-walking-dead-i-and-the-art-of-providing-no-good-choice>
+- Dontnod Entertainment / Square Enix. *Life is Strange* (2015), episodic structure and rewind mechanic. GameSpot, "Life is Strange Episode Five Review." <https://www.gamespot.com/reviews/life-is-strange-episode-five-review/1900-6416285/>
+- Mittell, Jason. "Previously On: Prime Time Serials and the Mechanics of Memory." Just TV, 3 July 2009 (recap as a memory device; radio-serial origins). <https://justtv.wordpress.com/2009/07/03/previously-on-prime-time-serials-and-the-mechanics-of-memory/>
+- Spira, David. "Hunt A Killer: Season 1 Review." Room Escape Artist, 27 November 2017 (the no-feedback-loop problem and the season's structural critique). <https://roomescapeartist.com/2017/11/27/hunt-a-killer-season-1-review/>
+- Ryan, Kevin J. "This Business Made a Killing by Mailing Murder Mysteries." Inc., September 2020 (Hunt A Killer founding, format, revenue). <https://www.inc.com/kevin-j-ryan/hunt-a-killer-murder-mystery-subscription-box.html>
+- Hunt A Killer. *Death at the Dive Bar* (standalone box set). <https://www.huntakiller.com/>
+- "What Happened To Telltale Games? Here's Why The Popular Studio Shut Down." Productmint (2018 closure, unsustainable episodic model). <https://productmint.com/what-happened-to-telltale-games/>
+- Sands, Michael. *Monster of the Week* (episodic procedural campaign model). Evil Hat Productions, revised edition 2015. <https://evilhat.com/product/monster-of-the-week/>
+- "Monster of the Week." Wikipedia (monster-of-the-week format, recurring-arc threats). <https://en.wikipedia.org/wiki/Monster_of_the_Week>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Branching Narrative Craft](branching-narrative-craft.qmd)
+- [Campaign Arc Shapes](campaign-arc-shapes.qmd)
+- [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
+- [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
+- [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)
+- [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
+- [Time Loop Patterns](time-loop-patterns.qmd)
+- [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
+
+<!-- BACKLINKS:END -->

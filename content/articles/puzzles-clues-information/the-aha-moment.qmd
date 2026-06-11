@@ -106,6 +106,7 @@ The two failure modes sit on opposite sides of the click, and either one is a tr
 - [Ciphers & Codes](ciphers-and-codes.qmd)
 - [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
 - [Cluing & Fairness](cluing-and-fairness.qmd)
+- [Endings & Structural Closure](../structure-pacing/endings-and-structural-closure.qmd)
 - [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)
 - [Hint Systems & Recovery](hint-systems-and-recovery.qmd)
 - [Information Architecture](information-architecture.qmd)

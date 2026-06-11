@@ -1,14 +1,137 @@
 ---
 title: "Campaign Arc Shapes"
-aliases: []
+aliases: ["Campaign Structure", "Campaign Models", "Campaign Topology"]
 family: "Structure & Pacing"
-media: []
+media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [long-term-investment, player-agency, narrative-momentum]
+  problems: [campaign-stall, prep-overload, expectation-mismatch]
+  components: [session, faction, arc, situation, continuity-record]
+  genre: [fantasy, mystery, adventure]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #44. -->
+*Silhouette: The shape a story takes when it has to survive months of real evenings around a real table.*
+
+A campaign is a story told in instalments by people whose lives keep interrupting it. Players miss sessions. Someone forgets what happened two months ago. The thread you planted in week three pays off in week twenty, if anyone remembers planting it. Every campaign carries an implicit argument about how a long story should hold together across that gap. Most referees inherit theirs by accident, from the first campaign they ever played in rather than from a choice they made. [corpus]
+
+This article is about choosing the shape on purpose. The shapes differ in three things that matter over the long haul. How much the referee has to prepare before each session. How much freedom the players hold to steer. And how the world keeps a record of what already happened. Those three pull against each other. A shape that gives players total freedom asks the referee to prep a living world rather than a story. A shape that promises a tight planned arc buys momentum at the price of player steering. There is no shape that wins on all three, only shapes that fit a given table and shapes that fight it.
+
+The article is grounded in the tabletop campaign, where the form is most developed, but the problem belongs to any story released in instalments. An episodic mystery shipped by post and a branching game released a chapter at a time wrestle with the same three forces under different names.
+
+## The Mechanism (How it works)
+
+### Scale comes first
+
+Before the shape, the length. A one-shot is a single evening with a tight premise and stakes that resolve before everyone goes home. A mini-campaign runs three to ten sessions: one clear situation that escalates once or twice toward a planned end. A long campaign runs twenty to fifty or more and asks players to invest in a shared fiction that grows around them. Past a hundred sessions you are in megacampaign territory, which needs deliberate continuity machinery from the first night. [corpus]
+
+The thing worth saying plainly is that scale is a decision, not a default. Most referees reach for the long campaign out of habit, even in cases far better suited to a mini-campaign. [corpus] The habit costs something. The long campaign so rarely arrives in practice. By community-survey counts more than a third of players basically never finish one, and some veterans put their own completion rate near 15 per cent. [researched] A referee's vivid memories are almost all of the survivors, the few campaigns that actually reached an end. The far commoner outcome of dissolution after a few sessions leaves no such trace, so most advice quietly addresses the exception. [synthesis] A planned mini-campaign that ends is worth more than a planned epic that fizzles at session six.
+
+### The episodic shape: self-contained weeks
+
+The episodic campaign borrows the television procedural. Each session is a complete problem with its own setup, complication, and resolution, threaded loosely by recurring characters and the occasional returning villain. *Monster of the Week* is the clearest tabletop instance, built around the investigate-a-monster-a-night format, where the referee preps a creature, a place, and a few bystanders rather than a plot. [researched]
+
+The shape's strengths all come from that self-containment. A player who misses a week misses nothing load-bearing. A new player joins mid-run without a recap. The prep ceiling per session is fixed and known, which is the whole appeal for a referee with a finite week (the wider question of how prep strategy bends to campaign shape is [Prep Economy](../systems-mechanics/prep-economy.qmd)). [corpus] The weakness is that investment plateaus. If nothing a player does on Tuesday changes anything by next Tuesday, the world starts to feel like a stage set that resets between scenes. The usual fix is to grow a season-long threat across the episodes, which quietly imports the next shape. [corpus]
+
+### The arc-driven shape: a planned beginning, middle, and end
+
+The arc-driven campaign borrows the novel or the prestige season. It has a planned beginning, middle, and end, with foreshadowing planted early and stakes that escalate toward a known climax. The commercial template arrived with the Dragonlance modules in the mid-1980s, twelve linked adventures forming a single pre-planned arc with pre-generated characters whose fates were largely settled in advance. Those modules made railroading prestigious: not a referee's failure but a published design choice. [researched]
+
+The shape lives or dies on a single distinction. A planned arc should describe what the antagonist wants and will do, not what the players will do about it. The modern practitioner version, most visible in Matt Mercer's *Critical Role*, plans thematic destinations and a few set-piece moments and improvises the path between them, using the player characters' own flaws and fears as the spine. [researched] The failure mode is the over-prepped arc, where the referee invests in scripted outcomes instead of situations and every prepared step becomes a chokepoint the players must hit. That failure is the campaign-scale version of the same trap that haunts a single branching story, where a fork whose destination was fixed before the choice is the quantum ogre of [Branching Narrative Craft](branching-narrative-craft.qmd). The cure is identical: prep the situation, let the choice reach into it.
+
+::: {.callout-warning}
+### The Hazard
+The arc you fall in love with is the arc you will railroad. Once a referee has written the scene where the duke betrays the party in the throne room, every road starts bending toward that throne room, and players feel the bend long before they can name it. The tell is in your own prep notes. When they describe what the players decide rather than what the world contains, you have prepped a plot where a situation belonged. The cost is the same trust you were trying to build. A campaign is a long investment in the players' belief that their choices steer the story. One visible rail will burn through that belief faster than any single session can ever buy it back. The repair is to keep your prep on the antagonist's intentions and the world's pressures. Let the throne-room scene arrive only if the players' own choices carry them into it. [synthesis]
+:::
+
+### The sandbox shape: situation instead of story
+
+The sandbox inverts the arc. The referee preps a world rather than a story. Factions carry agendas, locations hide secrets, and the people in it all want something, and then the campaign emerges from where the players decide to go. The clearest practitioner model is node-based design, which treats whole scenarios as campaign nodes joined by clues rather than by a fixed sequence, so the players assemble the story by following trails between nodes. [researched] One documented campaign act brainstormed thirteen scenarios and ran only the seven the players actually pursued, which is the sandbox's prep economy in one figure: you prep the situation and let player attention decide which parts ever get used. [researched]
+
+The sandbox's signature failure is the blank stare on Tuesday night, the table that asks "so what do we do?" because no plot engine is pushing them forward. The answers are all forms of pressure rather than plot. A rumour table at the home base puts options in reach. Factions with deadlines force a clock. Threats advance in the background whether or not anyone engages them. A sandbox needs situation density, not a storyline. [corpus] The whole question of how much steering players should have, and where on the line between open world and guided story a campaign should sit, is its own article: [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd). When the world is led by geography rather than factions, the map itself becomes the structure, which is [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd). And when the open world is also opened to a rotating roster of players who schedule their own expeditions into a dangerous wilderness, the sandbox becomes the open-table form treated in [West Marches & the Open-Table Format](west-marches-and-the-open-table-format.qmd).
+
+### The faction-driven shape: the world moves on its own
+
+The faction-driven campaign replaces plot with competing agendas. Several powerful entities pursue incompatible goals, and the player characters are the wild cards thrown into the machine. The most mechanically developed engine is *Stars Without Number*, where each faction carries ratings for Force, Cunning, and Wealth and the referee runs a faction turn between sessions, a small solitaire that advances each faction's goals according to its strengths. The players can ignore the faction layer entirely and it will still reshape the world around them. [researched] *Blades in the Dark* operationalises the same idea through progress clocks, where two or three dozen pre-built factions fill and empty segment counters as the crew's scores and downtime nudge the political map. [researched] The clock as a campaign engine is its own machinery, treated in [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd).
+
+What makes this shape distinct is where the momentum lives. In the arc-driven campaign the referee supplies forward motion; in the sandbox the players do; in the faction-driven campaign the world supplies it. A clock advancing every session, the warlord's army marching whether or not the players go to the dungeon, creates urgency without a script. The faction map, not the plot outline, is the thing the referee preps. [corpus]
+
+### The braid: keeping many threads warm
+
+A long campaign without episodic resets needs a way to keep momentum across many sessions, and the braid is the practitioner answer. It borrows the soap opera. Plant the hook for the next thread before the current one resolves, so the campaign always has a rotation of live concerns rather than one storyline that ends and leaves a vacuum. The mechanism is a short set of questions asked of every named character, player and non-player and faction alike. What does this character want? What stops them having it? And what do they do about that? [researched] Answer those for several characters at once and the threads intersect on their own. A relationship map, a quick diagram of who wants what from whom, makes the crossing points visible at a glance.
+
+The braid is not a rival to the other shapes but a technique that runs on top of them. A sandbox with a faction layer is already braiding several threads; the soap-opera questions just make the referee's management of those threads deliberate rather than accidental. The map of how parallel threads cross and eventually meet is the structural concern of [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd); the braid is that idea stretched across a campaign rather than a single story.
+
+### Continuity, prep, and agency across the shapes
+
+The shapes are best read as different settlements of the same three-way tension. The table below is the quick comparison; the craft is in matching a column to a real table rather than defaulting to the shape you grew up with.
+
+| Shape | Prep object | Player agency | How the world remembers |
+|---|---|---|---|
+| Episodic | A monster, a place, a few faces per night [corpus] | Bounded to the week; little long arc steering | Light; recurring characters and a season threat carry the thread [researched] |
+| Arc-driven | The antagonist's plan and a few set-pieces [researched] | High inside scenes, low over the arc's destination | The arc itself is the memory; foreshadowing pays off on schedule [corpus] |
+| Sandbox | Factions, locations, situations (not a plot) [researched] | Highest; the players choose the whole route | Persistent world state; consequences accrete where players acted [corpus] |
+| Faction-driven | The faction map and its turn procedure [researched] | High, against a world that moves regardless | The faction clocks are the record; the map shifts each turn [researched] |
+| Braid | Wants and obstacles for many characters [researched] | High; threads respond to who players engage | Threads carry memory; a relationship map tracks the crossings [corpus] |
+
+Two cross-cutting jobs sit underneath every row. The first is continuity machinery. At table scale a long campaign needs rigorous session records, a campaign wiki, and explicit legacy tracking, because the single referee's memory is the bottleneck. The largest shared campaign ever run, Living Greyhawk, solved this by bureaucratising it. A central registry spanning thousands of referees held the canon in place. More than a thousand published adventures fed it. An abstract time-unit economy tracked each character's activity, so that faction states could change based on outcomes reported from thousands of tables at once. [researched] A home table cannot field a registry, but the principle scales down to writing things down on purpose.
+
+The second job is matching the shape to the players, which is where most campaigns actually fail. The common wreck is not a structural flaw but a mismatch of expectation. One referee offers a sandbox to three of five players who would rather be told a story. At another table, a tight arc grates on the two players who came to roam, and their resentment of the guidance grows session by session. [corpus] The axis that breaks campaigns is player initiative. A sandbox needs players who will organise themselves; an arc needs players who trust the referee's pacing. That negotiation has a structural home before the first session, where tone, system, scale, and the degree of player initiative all get aligned, which is the work of [The Session Zero Playbook](../players-social-dynamics/the-session-zero-playbook.qmd).
+
+### How a campaign ends
+
+A shape implies an ending, or fails to. The case for a designed ending is that a referee who knows the campaign will close in roughly thirty sessions preps differently and better, with room to foreshadow, escalate, and build toward a final confrontation that lands. [researched] *Critical Role* modelled both answers across its first two campaigns: the first ended on a designed climax with a planned final speech and an expected set piece, the second dispersed into individual character resolutions as the arc was wound down. Both are legitimate; they are different answers to the same question. [researched]
+
+The third option is the emergent ending, where a campaign stops because the story reached a natural close the referee did not plan. The players achieved what they set out to do. The faction war resolved. The world changed enough that nothing is left to want. Experienced referees learn to recognise that saturation and call the ending rather than manufacturing fresh conflict to keep a finished story running. How an ending is built so it feels earned rather than arbitrary is its own craft, treated in [Endings & Structural Closure](endings-and-structural-closure.qmd).
+
+### The same shapes in other media
+
+The instalment problem is not the tabletop's alone. Episodic and serialised interactive fiction faces it directly, and reaches for nearly identical tools. An episode arc closes each chapter. A season arc resolves at the finale. A series arc waits underneath the whole run. The player's earlier choices are carried forward in saved state, so later episodes can read them back. Telltale's *The Walking Dead* established the convention, carrying decisions across whole seasons so that a choice about Clementine made in one season still registers in the next. [researched] The campaign continuity machinery has a software cousin here. Where the tabletop referee writes things in a wiki, the serialised game persists them in a save file. A player who arrives without prior saves is handed a tool to reconstruct the state the story assumes. [synthesis]
+
+The live form pushes the campaign across months of real events. A subscription mystery such as Hunt A Killer ships a season as six physical episodes, one box a month, an investigative arc delivered over half a year, where the drip itself does the work of anticipation that a referee otherwise has to manufacture. [corpus] The campaign LARP runs the same instalment logic with persistent characters across a series of events in a shared world, with formal downtime systems for what characters do between games and the lesson, drawn explicitly from serial television, that a closed arc with a planned climax holds together better than an open-ended soap opera that can never resolve. [researched] That is the arc-driven-versus-braid question of this article, argued over a five-year LARP rather than a fifty-session table.
+
+::: {.callout-note}
+### The Specimen
+The West Marches format, described by Ben Robbins in 2007, is the cleanest example of a shape chosen to solve a specific problem rather than inherited. Robbins had more players than table space and was burning out on manufacturing elaborate plots, so he built a campaign with no fixed group and no fixed schedule. The players arrange their own sessions, pick their own party, and tell the referee where they mean to go. Every session happens in one shared geography, a dangerous wilderness radiating out from a safe town, with persistent consequences. Player-written session reports broadcast the lore to an ever-rotating roster. The referee stops manufacturing plot, and the story, as Robbins put it, is told in retrospect and crafted by the players' choices. The structural cost is candid. The format demands unusual player initiative, and a group used to a pre-arranged hook each week will often flounder when asked to organise itself. It is the sandbox's prep economy and the open table's social structure fused into a single answer to one referee's real constraint. [corpus]
+:::
+
+## Where this fits
+
+**The bigger picture.** Campaign Arc Shapes is the macro frame the rest of the Structure & Pacing family hangs inside. Every smaller unit of rhythm assumes a campaign shape around it. A session's energy curve is downstream of whether the campaign is episodic or arc-driven, and a single branch's craft assumes a place in some larger sequence. The shape settles the three things a long story cannot escape, namely the referee's prep load, the players' freedom to steer, and the world's memory of what happened, and those settlements constrain almost every other choice the family describes. Get the shape wrong for the table and no amount of good session-level craft will save the campaign. The wreck happens at the level of expectation, well above the level of execution.
+
+**Next steps.** Once the shape is chosen, the live work moves to two layers. Below it sits the session, where a single evening's energy rises and falls, which is [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd). Alongside that is the question of how a self-contained week threads into a season, which is [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd). Across from it sits the question of how much agency the chosen shape actually grants, the railroad-versus-sandbox axis of [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd). And the negotiation that decides whether the shape fits the people at the table happens first, in [The Session Zero Playbook](../players-social-dynamics/the-session-zero-playbook.qmd).
+
+## Sources
+
+- Robbins, Ben. "Grand Experiments: West Marches." Ars Ludi, 2007. <https://arsludi.lamemage.com/index.php/78/grand-experiments-west-marches/>
+- Robbins, Ben. "West Marches: Running Your Own." Ars Ludi. <https://arsludi.lamemage.com/index.php/94/west-marches-running-your-own/>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
+- Alexander, Justin. "The Secret Life of Nodes, Part 2: Node-Based Campaigns." The Alexandrian. <https://thealexandrian.net/wordpress/45268/roleplaying-games/the-secret-life-of-nodes-part-2-node-based-campaigns>
+- Evil Hat Productions. "Monster of the Week." <https://evilhat.com/product/monster-of-the-week/>
+- "Dragonlance." Wikipedia. <https://en.wikipedia.org/wiki/Dragonlance>
+- "Living Greyhawk." Wikipedia. <https://en.wikipedia.org/wiki/Living_Greyhawk>
+- Take on Rules. "Let's Read Stars Without Number: Factions." 27 December 2018. <https://takeonrules.com/2018/12/27/lets-read-stars-without-number-factions/>
+- Grim Tokens. "The Soap Opera as Play Structure." <https://grimtokens.garden/Articles/The+Soap+Opera+as+Play+Structure>
+- Silverarm Press. "Why I Use Point Crawls More Than Hex Crawls." <https://silverarmpress.com/why-i-use-point-crawls-more-than-hex-crawls/>
+- The Angry GM. "From Zero to Pitch in 24 Hours." <https://theangrygm.com/from-zero-to-pitch-in-24-hours/>
+- Rients, Jeff. "How to Do a Thing Like the Wessex Online Campaign." Jeff's Gameblog, 2017. <http://jrients.blogspot.com/2017/01/how-to-do-thing-like-wessex-online.html>
+- "What's Your Campaign Success Rate?" EN World forums. <https://www.enworld.org/threads/whats-your-campaign-success-rate.679071/>
+- Roll20. "How Long Does a D&D Campaign Last?" <https://pages.roll20.net/dnd/how-long-do-campaigns-last>
+- "The Walking Dead: The Final Season." Wikipedia. <https://en.wikipedia.org/wiki/The_Walking_Dead:_The_Final_Season>
+- Spira, David. "Hunt A Killer: Season 1 Review." Room Escape Artist, 27 November 2017. <https://roomescapeartist.com/2017/11/27/hunt-a-killer-season-1-review/>
+- Stoddard, Brandes. "LARP Design: Story Arc Transitions." 2013. <https://www.brandesstoddard.com/2013/05/larp-design-story-arc-transitions/>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
+- [Endings & Structural Closure](endings-and-structural-closure.qmd)
+- [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd)
+- [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd)
+- [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
+- [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
+- [The Shape of Time](../../primers/the-shape-of-time.qmd)
+- [West Marches & the Open-Table Format](west-marches-and-the-open-table-format.qmd)
+
+<!-- BACKLINKS:END -->

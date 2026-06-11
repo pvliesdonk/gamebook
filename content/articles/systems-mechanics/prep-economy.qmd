@@ -17,7 +17,10 @@ provenance: ""
 
 ## Referenced by
 
+- [Campaign Arc Shapes](../structure-pacing/campaign-arc-shapes.qmd)
 - [Fabrication & Sourcing](../space-props-materiality/fabrication-and-sourcing.qmd)
 - [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd)
+- [Scope, Scale & Branching Depth](../structure-pacing/scope-scale-and-branching-depth.qmd)
+- [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd)
 
 <!-- BACKLINKS:END -->
