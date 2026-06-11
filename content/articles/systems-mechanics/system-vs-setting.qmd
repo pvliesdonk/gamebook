@@ -11,7 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "System vs Setting" is the canonical term for the rules-world coupling axis; not yet in docs/term-registry.md. Add in the family's batched registry pass. -->
 
 *Silhouette: The question of whether a game's rules are its world spoken twice, or a neutral engine the world is poured into.*
 

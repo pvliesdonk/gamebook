@@ -1,4 +1,3 @@
-<!-- TERM-FLAG: "Turn Structure & Action Economy" is not yet in docs/term-registry.md; add in the batched Systems family registry pass. Aliases in use: Action Economy, Turn Order, Initiative, Downtime, Analysis Paralysis (the named sub-mechanisms are field-standard, not project-coined). -->
 ---
 title: "Turn Structure & Action Economy"
 aliases: ["Action Economy", "Turn Order", "Initiative", "Downtime", "Analysis Paralysis"]
