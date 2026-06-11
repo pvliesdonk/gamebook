@@ -1,14 +1,111 @@
 ---
 title: "Science Fiction Conventions"
-aliases: []
+aliases: ["SF Conventions", "Sci-Fi Genre Craft", "The Novum"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [plausible-speculation, fictional-coherence, sense-of-wonder]
+  problems: [technobabble-deus-ex-machina, planet-of-hats, dates-that-age]
+  components: [novum, subgenre-contract, diegetic-interface, tech-ruleset]
+  genre: [sci-fi]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+<!-- TERM-FLAG: "Science Fiction Conventions" (canonical). Story family (3) genre rows pending the batched family-end registry pass. Sub-terms used in prose that may warrant rows: "the novum", "hard/soft contract", "diegetic interface". The novum is the load-bearing imported term (Suvin). -->
+
+*Silhouette: One impossible thing the reader accepts on purpose, then followed everywhere it leads.*
+
+Science fiction is the genre that asks the reader to believe one specific lie and then keeps perfect faith with it. The lie might be faster-than-light travel. It might be an uploaded mind, or a planet where it has rained without stopping for nine hundred years. Whatever it is, the deal stays the same. The reader grants you the premise, and in return you owe them the consequences, worked out with a straight face and no cheating. Break that faith with a second free lie and the world goes slack.
+
+What separates the genre from fantasy next door is not spaceships or lab coats. It is the source of the strangeness. Fantasy reaches for the supernatural and asks for wonder. Science fiction reaches for something that could in principle be reasoned about, and so it asks the reader to think. The wonder is still there. It just arrives through the front door of plausibility rather than the back door of magic.
+
+This article is about the craft of keeping that bargain. It means choosing the one big change and tracing where it spreads. It means holding the line between hard rigour and soft adventure while keeping the invented vocabulary disciplined. And it means using the genre's natural gift for putting the interface inside the story. The last of those is where science fiction does something no other genre does quite so well, and where it has the most to teach interactive work.
+
+## The Mechanism (How it works)
+
+### The novum: one change and its consequences
+
+The load-bearing idea has a name borrowed from criticism. Darko Suvin called it the novum, the Latin for "new thing": the single novel element that a science-fiction work introduces and then validates by reasoning rather than by assertion. [researched] Suvin's larger claim was that the genre runs on cognitive estrangement. The work makes the familiar world strange through one plausible deviation, and the reader is then invited to think their way through the difference instead of simply marvelling at it. That is the line he drew between science fiction and fantasy. Both estrange the reader; only one asks to be reasoned about. [researched]
+
+For a designer the novum is a discipline, not a decoration. Pick the one impossible thing, then follow it everywhere it would actually go. [corpus] If teleportation exists, it does not just move the hero from A to B. It changes shipping, borders, privacy, warfare, the value of a locked door. [corpus] The craft is in the ripple, not the device. A world with cheap teleportation and unchanged customs queues has not thought about its own premise, and the reader feels the gap as a kind of dishonesty even without being able to name it.
+
+The matching rule is restraint. One novum, followed rigorously, reads as a coherent world. Three unrelated nova, each waved through on its own, read as a setting where anything can happen and so nothing matters. This is the same contract fantasy makes with its magic, where the rule is that magic may only solve a problem in proportion to how well the reader understands it. The genres are siblings in this respect, and the cross-reference is worth following: [Fantasy Conventions](fantasy-conventions.qmd) treats the hard-versus-soft magic question that runs exactly parallel to the one below. How the premise is built out into a whole consistent setting, rather than the single change at its root, is [Worldbuilding Patterns](worldbuilding-patterns.qmd).
+
+### The hard/soft contract
+
+Every science-fiction work sits somewhere on a line between two poles, and the reader needs to know roughly where early, because it sets what they are allowed to expect. [corpus]
+
+At the hard end the work adheres to known science. Physics and biology and astronomy hold, speculation stays grounded in plausible extrapolation, and the pleasure is partly the pleasure of a problem solved within real constraints. [corpus] At the soft end sits space opera, where faster-than-light travel is simply granted, artificial gravity is effectively magic, and the focus moves to politics, war, character and the romance of scale. [corpus] Space opera plays fast and loose with physics on purpose, in service of melodrama and adventure across a galactic canvas. [researched] Neither pole is better. They are different promises, and the only real failure is making one promise and then quietly switching to the other.
+
+The contract matters most at the moment of resolution, because that is where a reader checks whether you kept it.
+
+| | Hard SF | Space opera (soft) |
+|---|---|---|
+| Source of the premise | Plausible extrapolation from known science [corpus] | Granted convention (FTL, gravity) accepted up front [corpus] |
+| What a solution may use | Real logic and physics; "show your work" [corpus] | Dramatic and political logic; the science stays offstage [corpus] |
+| Where failure comes from | Ignoring scientific reality [corpus] | Breaking the world's own established rules [corpus] |
+| The reader's pleasure | A constraint honestly worked through [synthesis] | Scale, faction, and the sweep of events [synthesis] |
+
+The practical reading of the table is that "soft" does not mean "anything goes". A space opera still has rules; it has simply chosen which ones to keep. Faster-than-light travel can be free, but if it costs fuel and recharge time in chapter one, it costs them in chapter twenty. [corpus] The reader forgives one impossible premise. They will not forgive a premise that forgets itself.
+
+### Technobabble and the deus ex machina
+
+Invented vocabulary is the genre's most abused tool. Used well it is flavour: consistent terminology, rooted in real concepts like quantum mechanics or nanotechnology, deployed sparingly to colour a scene rather than to explain it. [corpus] Used badly it becomes a wildcard. The classic tell is "reversing the polarity" to solve whatever the plot needs solved this week, terms that drift from one meaning to another, and characters lecturing each other on technology they would all take for granted. [corpus]
+
+There is a clean rule underneath the failure, and it is worth saying plainly. A character does not explain how a toaster works while making toast. Explain a piece of technology only when it is broken, when it is genuinely new to the viewpoint character, or when it is the solution to a puzzle the reader is meant to follow. [corpus] Otherwise the babble is noise, and worse, it trains the reader to expect that the next stream of jargon is also just noise. Once technobabble has rescued the plot once for free, every later crisis feels cheap, because the reader knows a magic word is coming.
+
+This connects to the deeper machinery of the genre. When a system's vocabulary and behaviour are made consistent enough that the player can reason inside them, the mechanics themselves start to carry the argument of the fiction, which is the territory of [IF Mechanics & Procedural Rhetoric](../systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd). Technobabble that solves problems is the opposite move: it lets the surface language pretend to a rigour the system underneath does not have.
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is the rescue word. You write your crew into a corner, and rather than pay for the exit you invent a particle, a field, a subroutine that happens to do exactly what is needed and is never heard from again. From inside the writing room it feels like cleverness, a neat bit of in-world colour. From the reader's seat it is the science-fiction cousin of the unfair puzzle: a solution that depended on a rule they were never given. The tell is that the device appears only once, at the exact moment of need, and could be renamed anything without changing the scene. If a piece of technology only exists to win one fight, it is not a novum. It is a coupon. [synthesis]
+:::
+
+### Subgenres as ready-made contracts
+
+The genre's subgenres are not just flavours of décor. Each one is a pre-negotiated contract that tells the reader what kind of pleasure to expect and what the work owes in return. Naming the subgenre early is itself a courtesy, because it sets expectation before the first scene has to carry it. [corpus]
+
+Hard SF promises rigour: real science, problems solved honestly, failure that follows from ignoring physical reality. [corpus] Space opera promises sweep: interstellar scale, distinct cultures, politics and war, with the science cheerfully soft. [corpus] Cyberpunk promises "high tech, low life", a phrase that became the genre's shorthand: a near-future urban dystopia where corporations have eclipsed governments, the human body is merging with the machine, and the real subject is identity, consciousness and inequality under that pressure. [researched] Post-apocalyptic promises scarcity: a collapsed civilisation, survival as the organising fact, and human nature tested in extremity. [corpus]
+
+In interactive work each contract quietly suggests its own mechanisms. Cyberpunk leans toward hacking and body-modification choices where stat gains cost something the fiction calls humanity. Post-apocalyptic leans toward inventory scarcity and brutal allocation choices about who eats. Space opera leans toward faction reputation and crew management across a star map. [corpus] These are tendencies, not laws, and the more interesting work usually comes from honouring a subgenre's emotional promise while declining its most automatic mechanic. The catalogue of which patterns belong to which genre, and how a familiar one can be honestly subverted, is [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd); where this article sits among the other genre contracts is [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd).
+
+### Diegetic interfaces: the genre's natural gift
+
+Here is what science fiction does that no other genre does so easily. Its furniture is screens. Terminals, ship logs, datapads, the chatter of an onboard intelligence: these are already part of the fiction, which means the interface a reader touches can live inside the story rather than hovering outside it. [corpus]
+
+In text-driven work this becomes almost literal. The text on the page can be the terminal the character is reading. A glitch, a line of corrupted output, a system warning blinking in the margin: each of these is exposition and atmosphere delivered without ever stepping outside the world. [corpus] Compare the alternative, a menu or a help screen that announces itself as part of the game and not the fiction, and the advantage is obvious. Science fiction gets to put the gears inside the machine.
+
+The same gift covers two well-worn devices. The found log, the datapad full of recovered text, is an efficient way to hand the reader backstory without a character standing around delivering it as a speech. The risk is that it turns into a reading assignment that halts the action, and the fix is to make the logs do work: hide a code, a password, a set of map coordinates inside them, so reading is also playing. [corpus] The AI companion is the genre's other native interface. It can deliver hints diegetically, feed exposition, and serve as the hand on the technical controls, all without breaking the frame, because a talking ship is exactly the sort of thing this world contains. [corpus] The lasting cliché to avoid is the robot who only wants to be human; the richer seam is an intelligence whose logic and values are genuinely not ours. [corpus]
+
+All of this is one specific application of a wider discipline. Keeping the interface and the gating inside the fiction, so the player meets a world and never the machinery beneath it, is [Diegetic Design](diegetic-design.qmd) in general; science fiction simply hands that discipline its easiest possible material. The physical-prop cousin, where an embedded screen or a fake operating system on a real device carries the same in-world interface into an escape room or installation, is [Digital Props](../space-props-materiality/digital-props.qmd). And the voice of that onboard intelligence, the AI companion as a character with a consistent idiolect rather than a help function, is built with the same tools as any other speaker: [Character Voice](character-voice.qmd).
+
+::: {.callout-note}
+### The Specimen
+The found-log datapad reaches its sharpest form when the interface is not a window onto the story but the entire stage of it. *Her Story* (Sam Barlow, 2015) hands the player a single fictional object, an old police-database terminal, and nothing else. Every scrap of narrative arrives as video clips retrieved by typing search terms into that database, so the act of investigation and the act of using the interface are the same act. The fiction never has to break frame to explain a control, because the control is a thing a character in the world would also use. It is the diegetic interface taken to its limit: the terminal is not how you read the story, the terminal is the story. The science-fiction tradition of the in-world screen is what makes that move feel natural rather than gimmicky. [researched]
+:::
+
+### The mistakes the genre keeps making
+
+Three failures recur often enough that they are worth naming as a checklist before you build.
+
+The first is the planet of hats: an alien culture in which everyone shares a single trait or job, the warrior race, the merchant race, as though a whole species had one personality. [corpus] The fix is to show factions and dissent inside the alien culture, the same way any human society contains argument. A monolithic species is a failure of the genre's own premise, because a culture that interesting would not be that uniform.
+
+The second is dates that age poorly. Set your story in a named near-future year with flying cars and you have written an expiry date onto the cover. [corpus] The fix is relative time. "Twenty years after the Event" never becomes wrong, where "2030" does the moment the calendar catches up. The genre that is supposed to be about the future is oddly easy to trap in the past.
+
+The third is ignoring linguistics. The universal translator is convenient and erases something real, the friction of not being understood. [corpus] Turning a language barrier into a puzzle or a source of character keeps a texture the easy gadget throws away. Clarke's much-quoted third law, that any sufficiently advanced technology is indistinguishable from magic, is sometimes read as permission to hand-wave. [researched] Read more carefully it is the opposite warning: the technology only looks like magic from outside. Inside the story it still has rules, and the writer is the one who has to know them.
+
+## Where this fits
+
+**The bigger picture.** Science fiction is a genre contract like the others in this family, but it leans harder than most on a single load-bearing idea, the novum, and on a single discipline, consequence. It sits beside fantasy as its rational twin, the two genres dividing the same estrangement between the magical and the plausible. It depends on worldbuilding to spend the premise into a setting, on character voice to make its AI companions and lone survivors more than functions, and on the wider diegetic-design discipline that it happens to serve better than any other genre. Get the central bargain right, one change followed honestly, and the strangeness reads as a world. Get it wrong, with free second lies and rescue words, and the most elaborate spacecraft in fiction is flying through a setting nobody believes in.
+
+**Next steps.** To work the hard-versus-soft question on its other face, the magic contract that runs in parallel, read [Fantasy Conventions](fantasy-conventions.qmd). To turn a single novum into a setting that holds together under exploration, the craft is [Worldbuilding Patterns](worldbuilding-patterns.qmd). To build the genre's native interfaces so the player meets the world and not the wiring, work through [Diegetic Design](diegetic-design.qmd). And to give the rogue AI, the corporate board or the lone survivor a voice distinct enough to carry a scene, the tools are in [Character Voice](character-voice.qmd) and the wider pattern-work of [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd).
+
+## Sources
+
+- Suvin, Darko. *Metamorphoses of Science Fiction: On the Poetics and History of a Literary Genre*. Yale University Press, 1979. (The novum and cognitive estrangement.) Suvin, Darko. "Estrangement and Cognition." *Strange Horizons* reprint. <https://strangehorizons.com/non-fiction/articles/estrangement-and-cognition/>
+- "Novum." Wikipedia. <https://en.wikipedia.org/wiki/Novum>
+- Clarke, Arthur C. "Hazards of Prophecy: The Failure of Imagination." In *Profiles of the Future*. Harper & Row, 1962; third law added in the 1973 revision. Summary: <https://en.wikipedia.org/wiki/Clarke%27s_three_laws>
+- "Space opera." Wikipedia. <https://en.wikipedia.org/wiki/Space_opera>
+- "Hard science fiction." The Encyclopedia of Science Fiction (SFE). <https://sf-encyclopedia.com/entry/hard_sf>
+- Bethke, Bruce. "Cyberpunk" (1980, published 1983), the story that coined the term; Gibson, William. *Neuromancer*. Ace Books, 1984. ("High tech, low life" as the genre's shorthand.) <https://en.wikipedia.org/wiki/Cyberpunk>
+- Barlow, Sam. *Her Story*. 2015. (The fictional database terminal as a fully diegetic interface.) <https://en.wikipedia.org/wiki/Her_Story_(video_game)>

@@ -1,14 +1,100 @@
 ---
 title: "Fantasy Conventions"
-aliases: []
+aliases: ["Fantasy Genre Craft", "Magic-System Design", "Secondary-World Craft"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, tabletop, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [wonder, internal-consistency, earned-stakes]
+  problems: [deus-ex-machina, info-dump, prophecy-railroad]
+  components: [magic-system, secondary-world, trope-set, prophecy]
+  genre: [fantasy]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: The genre where you build a world that does not exist, then keep faith with its rules.*
+
+Fantasy promises a world with its own laws and then asks you to honour them. The dragon, the prophecy and the spoken spell are the surface. Underneath sits a contract the reader signs without reading: that this invented place holds together, that its magic costs something, and that the author will keep faith with the rules instead of reaching past them to rescue the plot. Break that contract and the wonder drains out, because a world where anything can happen is a world where nothing matters.
+
+The craft, then, is less about inventing marvels than about constraining them. A magic that can do anything solves every problem and so dissolves every stake. The strongest fantasy spends most of its effort deciding what the magic *cannot* do, what the world will not bend on, and which familiar shapes it is going to honour or upend. This article is about those decisions: the subgenres that fix the tone, the magic system whose rules carry the most weight, the tropes you lean on or upend, and the prophecy that tempts you to take the story out of the reader's hands.
+
+## The Mechanism (How it works)
+
+### The subgenres set the contract
+
+Fantasy is not one genre but a family of them, and each strikes a different bargain with the reader. Picking the subgenre is the first design act, because it fixes the tone, the scale of the stakes, and how much moral certainty the reader is allowed. [synthesis] The boundaries are soft and works mix freely, but the centres are distinct enough to name.
+
+| Subgenre | Scale and stakes | Moral world | Reader expects |
+|---|---|---|---|
+| High / epic | World-threatening; kingdoms and ages | Clear good against evil, often cosmic | Deep worldbuilding, multiple viewpoints, a long arc [researched] |
+| Low | Local, personal; the world is not at stake | Ambiguous, grounded | A grittier world where magic is rare or distrusted [synthesis] |
+| Sword and sorcery | Immediate and personal; one adventure | Self-interested heroes, no clear good option | Fast, visceral action; a mercenary or outsider lead [researched] |
+| Grimdark | Often epic in scale, bleak in outcome | Amoral; might makes right | Violence with consequence, no guaranteed redemption [researched] |
+| Portal | A protagonist crosses from our world into another | Varies; the outsider's eye is the lens | A guided tour of the secondary world through a newcomer [synthesis] |
+| Urban | Contemporary, hidden magic under the mundane | Noir-tinged, compromised | A "masquerade" to protect, investigation, supernatural societies [corpus] |
+
+The labels carry real history. Sword and sorcery descends from the pulp magazines, where Fritz Leiber's Fafhrd and the Gray Mouser ran on action rather than contemplation. [researched] Grimdark took its name from the tagline of the wargame Warhammer 40,000, "in the grim darkness of the far future there is only war," and was first thrown as an insult at fiction that wallowed in bleakness before writers reclaimed it. Glen Cook's *The Black Company* (1984) is often named the first of the line, with Joe Abercrombie and George R. R. Martin carrying it into the mainstream. [researched] Knowing the lineage matters because each subgenre hands you a set of inherited expectations you can satisfy or deliberately break, which is the trope work below.
+
+### The secondary world and its inner consistency
+
+Underneath every subgenre sits the thing fantasy is really made of: an invented world the reader can step into and, while inside it, believe. Tolkien named this the secondary world, made by a writer working as a "sub-creator," and he was precise about what makes it hold. The reader does not merely suspend disbelief. They are enchanted into a secondary belief, and that belief lasts exactly as long as the world keeps its inner consistency. The moment something inside the world contradicts the world's own rules, the spell breaks and the reader gets shoved back out. [researched]
+
+Inner consistency is the load-bearing idea, and it is why magic-system design (below) matters so much. A fantasy world is a promise about how things work, and the reader is tracking that promise even when they could not state it aloud. The discipline of building such a world so that it feels discovered rather than fabricated, with a history and cultures that imply more than they show, is its own large craft: [Worldbuilding Patterns](worldbuilding-patterns.qmd). The naming of its people and places, where one careless coinage can puncture the secondary belief that the rest of the world worked to earn, is [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd).
+
+### Magic systems: the hard and the soft
+
+Magic is where the consistency contract gets tested hardest, because magic is the part of the world most tempted to break the plot open. The governing principle comes from Brandon Sanderson, and it is worth quoting straight: an author's ability to solve conflict with magic is directly proportional to how well the reader understands that magic. [researched] This is Sanderson's First Law, and it sorts magic into two modes that serve opposite purposes.
+
+| | Soft magic | Hard magic |
+|---|---|---|
+| Rules | Deliberately vague, mysterious | Explicit, consistent, knowable |
+| Best at | Wonder, awe, atmosphere | Puzzles, strategy, earned cleverness |
+| Must not | Resolve the plot's conflicts | Have hidden powers pulled out at the climax |
+| Reader can | Feel the mystery | Predict and reason ahead [researched] |
+
+The cleanest illustration is Tolkien's own. Gandalf is soft magic: the reader never learns the limits of a wizard's power, which is exactly why Gandalf cannot simply magic the Ring to Mount Doom. An unexplained solution to the central problem would feel like cheating, because the reader has no way to see it coming or to judge whether it was fair. So Tolkien keeps the wizard's power for atmosphere and leaves the real problem-solving to ordinary effort and courage. [researched] Hard magic runs the other way. When the rules are on the table, a character who solves a crisis through clever use of an established limit reads as skilled, and the reader gets the satisfaction of having reasoned alongside them.
+
+Sanderson's two later laws sharpen the same idea. The Second Law holds that limitations are more interesting than powers. What the magic cannot do, together with what it costs the wielder to use it, will generate more drama than any list of raw capabilities. [researched] A cost is the single most useful lever a fantasy designer has, because it converts every use of magic into a decision. The Third Law asks the designer to expand what they already have before adding something new, on the reasoning that one magical capability, followed all the way through, reshapes the whole society around it. If magic heals, what happens to plague and to medicine? If magic makes food, why does anyone farm? [researched] Following those ripples is what makes a small world feel alive rather than a large one feel thin.
+
+For interactive work this stops being a craft nicety and becomes structural. When the player makes choices, a magic system that resolves conflict has to be a hard system, or the choices are guesswork rather than skill. The player has to understand the rules well enough to play them, which means the limits and costs must be established before any magic-based decision or puzzle is set. Treating the magic as a rules engine the player learns and exploits is the same discipline a systems designer applies to any mechanic. How rules and world couple is [System vs Setting](../systems-mechanics/system-vs-setting.qmd); how a small set of magical rules can throw off large emergent behaviour is [Elegance, Emergence & Randomness](../systems-mechanics/elegance-emergence-and-randomness.qmd). A common and workable pattern is to make the player's own powers hard and keep the ambient forces of the world soft, so the player reasons with their toolkit while the wider world keeps its mystery. [corpus]
+
+### Tropes: the shorthand you honour or upend
+
+Fantasy runs on familiar patterns, and the patterns are not the enemy. A trope is a piece of narrative shorthand that resonates because it carries an emotional contract the reader already understands. The medieval-European default, the ancient lost civilisation, the dark forest between safe places: each one lets the reader fill in social dynamics and stakes without a page of explanation. [corpus] The cost of a trope is that an unexamined one curdles into cliche. The worst offender is the homogeneous culture, where all elves live in forests and all dwarves mine mountains, which flattens a whole people down to a single trait. [corpus]
+
+The honest move is to subvert, and subversion has a rule. It works only when it understands *why* the trope resonates and then fulfils that emotional truth in a fresh way, rather than breaking the pattern for the shock of breaking it. [corpus] The methods are inversion, which flips the role; deconstruction, which follows the trope's consequences to where they really lead; genre hybridisation; and a shift in the context the trope sits in. [corpus] The full catalogue of fantasy archetypes and how each one bends, the Mentor and the Dark Lord and the Rogue, is [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd); the wider map of how every genre is a contract built from such conventions is [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd).
+
+### The chosen one and the prophecy trap
+
+One trope deserves singling out because it carries a structural hazard, especially in interactive work: the chosen one, and the prophecy that anoints them. The pattern is a protagonist destined to complete some great task and marked out for it by lineage or prophecy, usually against their own wishes. [corpus] Its appeal is obvious and its danger is precise. A prophecy that cannot fail implies a world where the outcome is already settled, and a settled outcome quietly drains the meaning from every choice the characters make along the way. [researched] The reader senses it even if they cannot name it: if the hero wins because they were always going to, their struggle is decoration.
+
+This is a problem in any fantasy, but it bites hardest in interactive fiction, where the medium's whole promise is that the player's choices matter. A predetermined destiny and real player agency pull against each other directly. [corpus] The corpus answer is not to discard prophecy but to convert it from a railroad into a tension tool. Let the player negotiate with fate rather than simply obey or reject it. Track how they read the prophecy, whether as literal instruction, as metaphor, or as propaganda to be seen through. Allow "what if the chosen one failed?" to be a real path with its own narrative weight rather than a game-over. [corpus] The prophecy types that survive this treatment are the conditional, the vague and the false, because each one leaves room for the player to act inside it. The inevitable prophecy is the one that turns the story into a corridor. [corpus]
+
+::: {.callout-note}
+### The Specimen
+Sanderson's *Mistborn: The Final Empire* (2006) shows the chosen-one trope converted into an engine rather than a crutch. The world's prophecy held that a Hero of Ages would rise and save everyone, and the book keeps the identity and even the truth of that prophecy in doubt as the characters dig into it. The destiny is not a guarantee handed to the protagonist but a mystery the cast investigates, with the unsettling possibility that the prophecy was tampered with. The old wish-fulfilment shape becomes a question that drives the plot, which is the trope honouring its own emotional truth (the longing for a saviour) while refusing the determinism that usually comes with it. [researched]
+:::
+
+### Exposition without the dump
+
+A fantasy world is mostly invisible history, and the temptation is to explain it. Stopping the story to deliver lore is the genre's most reliable way to lose a reader. [corpus] The discipline is to show a tenth and imply the rest: "the ancient crown bore notches from seven blades, one for each tribe that had knelt" tells you a kingdom was forged by conquest without a paragraph of founding history. [corpus] Lore works best sliced thin across scenes and filtered through a character who has reason to notice it, so that the reader meets a world through its consequences rather than its causes. In interactive fiction the same instinct governs how choices are presented: a menu reading `[ATTACK] [DEFEND] [USE MAGIC]` breaks the secondary world, where "draw your sword and charge" or "speak the fire-words" keeps the reader inside it. [corpus] Whether a piece of information lives inside the fiction's surface or sits outside it as bare interface is the question of [Diegetic Design](diegetic-design.qmd); the voice the world's inhabitants speak in, which has to sound like it comes from the world and not from a writer in our own, is [Character Voice](character-voice.qmd).
+
+### Across the table and the room
+
+Fantasy is the genre that ports most cleanly into tabletop play, and the reason is the magic system. When the magic's rules are explicit, they externalise straight into mechanics: spell lists, costs paid in resources, and the limits that make a wizard a set of options rather than a blank cheque. This is the system-versus-setting split that tabletop design lives on, where the same setting can run on different rules and the rules encode what the world values. [synthesis] A hard magic system is, in effect, already a rules subsystem; a soft one resists mechanisation and tends to stay in the gamemaster's narration. The trope and archetype layer travels even more freely, because the same role, the Mentor or the Betrayer, re-skins across any medium that has characters at all. [corpus] In live and immersive forms the load shifts to making the fabricated world feel discovered through a navigable space that holds its internal consistency under players moving through it freely, which is the worldbuilding craft again, now built in three dimensions rather than prose. [synthesis]
+
+## Where this fits
+
+**The bigger picture.** Fantasy conventions are where the abstract idea of an invented world becomes a set of concrete promises a designer has to keep. The genre sits on top of worldbuilding, which gives it a consistent place to be set, and it leans hard on the trope and archetype layer for its cast and its shapes. Its distinctive contribution is the magic system, which is the part of the story most able to break the plot and therefore the part most in need of rules. Get the magic's limits and costs right and the wonder survives contact with the stakes; get them wrong and either the magic solves everything (and nothing matters) or it never quite obeys its own logic (and the secondary world dissolves). Everything else in the genre, the prophecy, the chosen one, the lore, is downstream of that one decision about what the magic is allowed to do.
+
+**Next steps.** To build the world the magic lives in, with the histories and cultures that make it feel discovered, work through [Worldbuilding Patterns](worldbuilding-patterns.qmd). To handle the cast of inherited roles and the art of bending them, turn to [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd), and to place fantasy among the other genre contracts, [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd). When the magic needs to become an actual rules engine the player or the table can operate, the systems-side craft is [System vs Setting](../systems-mechanics/system-vs-setting.qmd) and [Elegance, Emergence & Randomness](../systems-mechanics/elegance-emergence-and-randomness.qmd). And to keep the world's voices and names sounding like they belong to it, [Character Voice](character-voice.qmd) and [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd).
+
+## Sources
+
+- Sanderson, Brandon. "Sanderson's First Law." brandonsanderson.com, 2007. <https://www.brandonsanderson.com/blogs/blog/sandersons-first-law>
+- Sanderson, Brandon. "Sanderson's Second Law." brandonsanderson.com, 2012. <https://www.brandonsanderson.com/blogs/blog/sandersons-second-law-of-magic>
+- Sanderson, Brandon. "Sanderson's Third Law of Magic." brandonsanderson.com, 2013. <https://www.brandonsanderson.com/blogs/blog/sandersons-third-law-of-magic>
+- Tolkien, J. R. R. "On Fairy-Stories." *Essays Presented to Charles Williams*, Oxford University Press, 1947. (Secondary world, sub-creation, secondary belief, inner consistency of reality.) Summary: <https://en.wikipedia.org/wiki/On_Fairy-Stories>
+- Le Guin, Ursula K. "From Elfland to Poughkeepsie." Pendragon Press, 1973. (Style and language as the substance of fantasy.) <https://www.ursulakleguin.com/from-elfland-to-poughkeepsie>
+- "Grimdark." Wikipedia. (Origin of the term in Warhammer 40,000; Glen Cook, Abercrombie, Martin lineage.) <https://en.wikipedia.org/wiki/Grimdark>
+- Sanderson, Brandon. *Mistborn: The Final Empire*. Tor Books, 2006. (The chosen-one prophecy as investigated mystery.)
+- "The Chosen One." TV Tropes. (Determinism and the agency cost of unbreakable prophecy.) <https://tvtropes.org/pmwiki/pmwiki.php/Main/TheChosenOne>
