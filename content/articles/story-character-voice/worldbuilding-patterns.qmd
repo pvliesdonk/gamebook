@@ -1,14 +1,98 @@
 ---
 title: "Worldbuilding Patterns"
-aliases: []
+aliases: ["World Consistency", "Internal Logic", "Setting Construction"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [believable-world, immersion, implied-depth]
+  problems: [inconsistency, infodump, overprep, world-state-drift]
+  components: [world-rules, codex, timeline, causality-chain]
+  genre: [fantasy, sci-fi, historical, mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: The rules a made-up world keeps so the reader stops noticing it was made up.*
+
+A believable world is not a detailed one. It is a consistent one. The reader will accept almost any premise you offer them, however strange it sounds. The one condition is that you keep your own word about how the place works. Magic, faster-than-light travel, a city that floats: any of it is fine. What breaks the spell is the rule that bends the moment the plot needs it to.
+
+Most of the craft, then, is bookkeeping with a poet's restraint. You settle what your world can do and cannot do and what it costs. You write it down so you do not forget. And then you show the reader almost none of it. The depth has to be there for the surface to feel solid. Most of it stays underwater regardless. The discipline cuts both ways. Build too little and the world rings hollow. Build too much and you never finish at all, having furnished a thousand rooms nobody will ever enter.
+
+This article is about keeping that world coherent. The harder version of the problem belongs to interactive forms, where the reader does not follow one fixed path through the world. The player roams. The world has to stay consistent not across one telling but across every branch the player might take, including the ones no single player will ever see.
+
+## The Mechanism (How it works)
+
+### Internal consistency: the only rule that is not optional
+
+A fictional world runs on rules. A fantasy world has a magic system, a science-fiction world has the limits of its technology, a historical world has the hard facts of the era it sits in. The rules you pick matter far less than whether you apply them the same way every time. Readers accept any premise and reject inconsistency. [corpus] That single sentence holds the whole contract. A premise is a promise, and a promise you break is worse than one you never made.
+
+The practical form of the rule is a short checklist for any world element, whether a magic system or a faction or a social custom. Name its capabilities. Name its limits. Name its cost, and name who has access to it. [corpus] Those four answers, fixed early and held, are what keep a system from drifting scene to scene. The failures cluster in a few predictable places, and it is worth naming them because each has the same cure.
+
+| Failure | What it looks like | The cure |
+|---|---|---|
+| Drifting rules | Magic or technology works one way here, another way there, unsignalled | Fix capability, limit, cost and access once; hold them [corpus] |
+| Convenient bending | The rule fails for villains and works for heroes, exactly when the plot needs it | Apply the rule to everyone or change the rule [corpus] |
+| Forgotten ability | A character cannot do now what they plainly did three chapters ago | Track demonstrated abilities; they do not lapse silently [corpus] |
+| Scale that does not add up | A kingdom that takes weeks to cross but armies reach in days; a city of millions run like a village | Verify distances, populations and economics against each other [corpus] |
+
+The deepest version of this idea has a name from fantasy, but it reaches well past fantasy. Brandon Sanderson's First Law states that an author's ability to solve a conflict with magic is directly proportional to how well the reader understands that magic. [researched] Spend a magic system the reader does not understand to rescue your hero and it reads as a cheat. Spend one the reader has watched obey its own rules for two hundred pages and the same rescue reads as earned, even clever. The principle generalises to any world system that solves problems. A technology, an economy, a law: if it is going to get a character out of trouble, the reader needs to have understood it before the trouble arrived. [synthesis] A capability introduced at the moment it saves the day is a deus ex machina wearing a lab coat.
+
+This is the worldbuilding floor that the rest of the family stands on, the same way [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd) is the floor under the puzzle family. Both are contracts of the same shape. The solver must be able to reach the answer from what they were given; the reader must be able to follow the world from rules they were shown. Break either and the audience stops trusting and starts flailing.
+
+### The codex: knowing more than you tell
+
+To stay consistent you have to remember, and memory at scale needs a document. The codex (some writers call it a world bible) is a reference of world facts that exists independently of any one story. It holds the geography and the distances, the history and its eras, the customs and taboos of each culture. It holds how any magic or technology works and where it stops, along with the backstories that drive the characters. [corpus] It is the author's reference, not the reader's. The story reveals only the slices that serve it.
+
+That last distinction is the one writers get wrong. Having a detailed history of your kingdom does not license you to explain it. The codex says the Kingdom of Valdris was founded in the Third Age by a conqueror who united seven warring tribes. The story shows an ancient crown still notched by seven different blades, one for each tribe that knelt. [corpus] The reader feels the same history through the second version and never has to sit through the first. A codex is a living document. The moment a story decision contradicts an established fact, the codex gets updated, not quietly ignored. [corpus] When the same continuity discipline has to hold across many sessions or instalments rather than inside one work, it becomes its own concern: [Canon Management](canon-management.qmd).
+
+### The iceberg: show the tip, imply the mass
+
+The codex is for you. What the reader gets is the small part that breaks the surface. Hemingway named the idea in *Death in the Afternoon*. The dignity of an iceberg's movement comes from only one-eighth of it showing above the water. A writer who knows enough may leave things out, and the reader will still feel them as strongly as if they had been spelled out. [researched] A writer who leaves things out because they do not know them only makes hollow places. [researched] That last clause is the catch. The iceberg only works if the underwater mass is real. Omission and ignorance look identical on the page until the reader pushes on the gap and finds nothing behind it.
+
+The techniques for implying depth are small and cheap. A casual reference does enormous work: "the blue saltrice, not that southern stuff" smuggles in trade routes, regional farming and a character's palate in eight words. [corpus] Assumed knowledge implies a shared world: "everyone knew what happened to oath-breakers" tells the reader this is common knowledge here without spelling out the consequence. History shows in architecture, an old quarter with streets too wide, built for carts before the railway came. And partial information implies more than full disclosure ever could: a war nobody will speak of since some decree silenced it carries more weight unexplained than any chronicle of it would. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The opposite failure is the more seductive one, and the craft has a blunt name for it: worldbuilder's disease, the slow substitution of preparation for writing. You invent the seven-fold forging technique. Then the master who taught it. Then the war that technique was forged for. Then the calendar that dates the war. And somewhere in the genealogy of a sword you stop telling the story at all. The tell is the infodump: the scene that halts so the world can be explained. "This blade was forged by the Dwarves of Mount Keld using the seven-fold technique passed down from Master Thrain..." against the version that does the same job in a breath: "The blade held an edge that never dulled. Dwarf-forged, clearly." [corpus] The reader came for the story, not the encyclopedia. Depth that cannot be felt through the surface is not depth. It is unspent inventory, and inventory has a holding cost measured in the book you did not finish. [synthesis]
+:::
+
+Keeping exposition from clogging the prose is the same discipline at work, and it earns its own article in [Exposition & Subtext](exposition-and-subtext.qmd). The first worldbuilding signal a reader meets is usually a name. A cast where one elf is Aelindor and the next is Bob has already broken its own world before any rule is tested, so consistent naming per culture is the surface texture of the iceberg: [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd). The world made tangible as a place the audience moves through rather than a set of facts to be read is [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd).
+
+### Causality: the world that answers back
+
+A consistent world is also a responsive one. Actions have consequences, and the consequences have consequences. A dam breaks and the valley floods; the flood destroys the crops, the lost crops bring famine, the famine drives migration, the migration crowds the cities into political strain. [corpus] You need not show every link in that chain. The tracking is still your job. The absence of aftermath is its own inconsistency. A war that leaves no economic mark behind it; a disaster that spares the infrastructure; a major event that vanishes behind a reset button. Each is a world the reader cannot quite believe in even if they cannot say why. [corpus] For any large event the useful questions are plain. What happens at once? Who else does it touch? What looks different in a month and in a year? And what would simply not exist had the event not happened? [corpus]
+
+### The interactive twist: one coherent world across many branches
+
+Here is the problem that belongs to interactive forms and changes the shape of everything above. In a novel the author walks the reader down one path. Consistency only has to hold along that path. In interactive fiction the player picks the route, and now the world has to stay coherent across every route at once. That includes the routes that fork and never rejoin. [corpus] A timeline that reads cleanly on one branch can contradict a simultaneous event on another. "Three days later" down one fork cannot quietly disagree with what is happening at the same moment down a different fork. [corpus]
+
+Causality has to persist too, or the world stops feeling responsive. The non-player characters remember a past decision and refer back to it. An environmental change stays changed. A path closed by an earlier choice stays closed. [corpus] This is the world-state question that [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd) tracks as structure, seen here as a consistency problem.
+
+The branches also let the player learn contradictory things, and the design has to decide up front what that contradiction means. The corpus names three honest stances, and the rule is to pick one and hold it. [corpus] The fog-of-war stance lets the player know only what their path revealed. Other characters genuinely hold different pieces of the truth. The consistent-world stance has every path reveal the same underlying reality seen from a different angle. The unreliable-narrator stance lets sources openly contradict each other so the player has to weigh their credibility. Each is coherent on its own. Mix them without signalling and the player cannot tell a designed contradiction from a bug, which is the same trust failure as a rule that bends.
+
+Worldbuilding in interactive forms also turns the choice itself into a worldbuilding instrument. An option to "use the guild seal to demand entry" silently establishes that guilds exist and that their seals carry authority, without a line of exposition. [corpus] A barrier the player cannot pass teaches the limits of the world's magic by refusing them. A choice between bowing to an elder as custom requires and nodding as outsiders do hands the player both the culture and their own standing in it. The iceberg works through the interface: the player feels the world's mass in what the choices assume rather than what any codex states.
+
+::: {.callout-note}
+### The Specimen
+Punchdrunk's *Sleep No More* built a navigable world the audience discovered rather than watched. The production filled a warehouse renamed the McKittrick Hotel with around a hundred rooms. Each was dressed to a forensic level of detail. Drawers open onto real letters and ledgers and apothecary jars, the unglamorous furniture of a world that behaves as if it existed before the audience arrived and will go on after they leave. [researched] No single audience member could see all of it in one visit, which is the iceberg made architectural. The mass underwater is literal here. There are rooms most people never enter and props that reward only the one spectator who opens the right drawer.
+
+The consistency is what holds it together. Because every room obeys the same fiction, a visitor can wander anywhere and never fall out of the world. The naming carries the same load that a culture's naming carries on the page. The invented hotel anchors the fiction the moment you read the sign. [researched] This is worldbuilding as a place to be explored, and the live form makes the underlying rule visible: a fabricated world feels discovered exactly to the degree that it stays internally consistent under free movement.
+:::
+
+The tabletop tradition reaches the same destination from the opposite direction: it encodes setting values directly into the rules. A system is rarely neutral about its world. *Apocalypse World* builds the bleakness and scarcity of its setting into the moves themselves. Playing the game enacts the world's hard logic rather than describing it. [researched] *Burning Wheel* hands each character a set of Beliefs, Instincts and Traits (the BITs) that tie what a character holds true and how they reflexively act straight into the dice economy. The setting's values become the engine of play instead of background colour. [researched] The wider pattern is that a system either matches its setting or quietly fights it, which is the systems-side article [System vs Setting](../systems-mechanics/system-vs-setting.qmd). The worldbuilding insight that travels back from the table is that the most durable consistency is the kind the mechanics will not let you break.
+
+## Where this fits
+
+**The bigger picture.** Worldbuilding patterns are the substrate the rest of the Story family is built on. A voice belongs to a person who belongs to a world; a genre convention is a contract about which world-rules the reader may assume; an act of exposition is a controlled leak from the codex to the page. Consistency is the load-bearing property, the same way fairness is load-bearing for puzzles: it is the thing you cannot trade away for a striking effect without the whole construction losing the reader's trust. Build the iceberg so its surface holds weight and keep the codex honest. Let the world answer back when it is acted on. In interactive forms, hold all of that true across every branch at once. Get it right and the made-up place stops feeling made up. Get it wrong and no amount of invented history will save a world that contradicts itself.
+
+**Next steps.** Once the world is coherent, the discipline of keeping it coherent across a long arc or a branching structure is [Canon Management](canon-management.qmd). To reveal the world without halting the story for it, the craft is [Exposition & Subtext](exposition-and-subtext.qmd). To make the world a felt place the audience moves through rather than a set of facts, turn to [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd), and for the surface texture the reader meets first, [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd). To see how genre fixes which world-rules a reader may assume before you write a word, work through [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd). Where the world is carried by a campaign that unfolds over many sessions, the shapes that arc can take are [Campaign Arc Shapes](../structure-pacing/campaign-arc-shapes.qmd).
+
+## Sources
+
+- Hemingway, Ernest. *Death in the Afternoon*. Charles Scribner's Sons, 1932. (The iceberg theory / theory of omission, chapter 16.) Summary: <https://en.wikipedia.org/wiki/Iceberg_theory>
+- Sanderson, Brandon. "Sanderson's First Law." Brandon Sanderson (blog), 2007. <https://www.brandonsanderson.com/blogs/blog/sandersons-first-law>
+- Card, Orson Scott. *How to Write Science Fiction and Fantasy*. Writer's Digest Books, 1990. (Worldbuilding as craft; consistency and implied depth.)
+- Jemisin, N. K. Craft essays on systematic worldbuilding. <https://nkjemisin.com/>
+- Machon, Josephine. *Immersive Theatres: Intimacy and Immediacy in Contemporary Performance*. Palgrave Macmillan, 2013. (Punchdrunk and the navigable, detail-saturated world.)
+- "Sleep No More" (Punchdrunk; the McKittrick Hotel set). Wikipedia. <https://en.wikipedia.org/wiki/Sleep_No_More_(2011_play)>
+- Baker, D. Vincent. *Apocalypse World*. Lumpley Games, 2010. (Setting values encoded in moves.) <https://en.wikipedia.org/wiki/Apocalypse_World>
+- Crane, Luke. *The Burning Wheel*. Burning Wheel HQ, 2002. (Beliefs, Instincts and Traits tying setting values to the dice economy.) <https://en.wikipedia.org/wiki/The_Burning_Wheel>

@@ -1,14 +1,92 @@
+<!-- TERM-FLAG: "Voice & Register Consistency" is not yet in docs/term-registry.md (Family 3, Story, Character & Voice). Add in the batched registry pass at family end. Aliases seen in the corpus: Narrator Contract, Voice Drift, Branch Voice Auditing, Register Management. -->
 ---
 title: "Voice & Register Consistency"
-aliases: []
+aliases: ["Narrator Contract", "Voice Drift", "Register Management", "Branch Voice Auditing"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [stable-voice, reader-trust, sustained-immersion]
+  problems: [voice-drift, register-mismatch, multi-author-divergence]
+  components: [style-sheet, voice-profile, consistency-pass, register-ladder]
+  genre: [literary, mystery, character-drama]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: The promise that the voice you start reading in is the voice you finish in.*
+
+A reader settles into a narrator the way a passenger settles into a car. After a page or two they stop noticing the suspension and trust it to hold the road. They have learned how formal this voice is and how much it knows. They have a sense of how it feels about the things it describes and how close it stands to the people in the scene. None of this was announced. It was inferred from the first few paragraphs and then assumed for the rest. That assumption is the narrator contract, and a reader keeps it even when the writer forgets it.
+
+The contract breaks quietly. A character who said "gonna" in chapter one says "I would prefer not to" in chapter nine, and nobody can quite say why the scene feels off. Elsewhere a narrator who watched events from a cool distance now appears to know what the villain dreamed last night. A wry voice will turn earnest for a paragraph before it catches itself. Each slip is small on its own. Put together they tell the reader the ground is not solid. A reader who stops trusting the voice will stop sinking into the story.
+
+This article is about keeping that voice stable. It means holding one narrator across a whole work and shifting register on purpose rather than by accident, then catching the drift that creeps in when a story forks into branches written months apart or by different hands. Character Voice is about making a voice distinct. This is the discipline that keeps it distinct at scale.
+
+## The Mechanism (How it works)
+
+### Three voices, one of them invisible
+
+It helps to separate the thing that has to stay constant from the things that are allowed to move. Voice in a narrative work sits in three layers, and only the bottom one is meant to be invisible. [corpus]
+
+| Layer | What it is | How constant |
+|---|---|---|
+| Authorial voice | The writer's own fingerprint in sentence rhythm and habitual metaphor, the words that keep slipping in | Constant across everything they write [corpus] |
+| Narrative voice | The narrator of this particular work, whether intimate first person or cool omniscience or the second-person "you" of interactive fiction | Constant within the work [corpus] |
+| Character voice | One person's idiolect, set apart from every other speaker in the cast | Constant per character, distinct between them [corpus] |
+
+The authorial layer is the one most writers cannot see in themselves, and it is the one that does the most damage when it leaks upward. A cast where every character meets trouble in the same rhythm and reaches for the same metaphors is a cast wearing the author's voice under their own. That is the author-voice problem, and it is the failure that distinct idiolects exist to prevent: [Character Voice](character-voice.qmd). What this article adds is the layer above the single character, the promise that whatever voice you established does not wander over the length of the work.
+
+### Voice is who, register is how
+
+The single most useful distinction in this whole area is between voice and register, because confusing them produces both of the common errors. Voice is who is speaking: their identity and worldview, the words that belong to them and to no one else. Register is how formally they are speaking at this moment. [corpus] One character has one voice but moves up and down a register ladder depending on who they are talking to and what they want.
+
+The sociolinguist Martin Joos set out the ladder that creative writing has borrowed ever since. He named five registers, from the most relaxed to the most fixed. *Intimate* is the near-wordless shorthand of people who know each other completely. *Casual* is the speech of friends, with its slang and half-finished sentences. *Consultative* is how you talk to strangers and to colleagues of unequal rank. *Formal* arrives when an audience grows too large to interrupt, so the speech turns careful and self-contained. *Frozen* is the unchanging language of ritual and document, the Lord's Prayer or a legal preamble. [researched] The same character can occupy any rung. To a partner a clerk says "Love you, back by six." The same clerk gives a customer "How may I help you?" across the counter. In conflict the register hardens to "The application will be processed in due course." One voice across three registers. The gap between them tells you about every relationship in the room.
+
+So register is a tool, not a leak. A character whose formality cracks under pressure has just told you something. A villain who slides from frozen courtesy into casual menace is doing characterisation through register alone. The fault is not shifting register, it is shifting it by accident, so that the reader reads meaning into a move the writer never intended. The line between a deliberate shift and a drift is whether you could say, if asked, why the register moved here. If the honest answer is that it just came out that way, the contract has slipped.
+
+::: {.callout-note}
+### The Specimen
+*The Extraordinary Adventures of Baron Munchausen* (James Wallis, 1998) is a whole game built on holding one register under pressure. Players take turns telling tall tales in the voice of an 18th-century boasting aristocrat, while the others pay coins to interrupt with complications the teller must weave in or pay to refuse. The mock-grandiloquent first-person register is the game. [corpus] Its documented failure modes are register failures. Take the aristocratic frame too sincerely and you get stilted earnest pastiche that mistakes the genre for the game. Abandon the frame and you get freeform improv comedy that never accumulates into a story. The reliable fix is social. An experienced facilitator models the correct register in the first tale. From there the table can hold it. [corpus] The lesson generalises past the coin economy. A consistent voice under improvisational pressure is something a group sustains by example, not by rule.
+:::
+
+### The narrator contract is set in the first paragraph
+
+A reader calibrates the narrator almost immediately, and the opening does more work than its length suggests. The first paragraph fixes the formality level, the attitude, how much the narrator knows, and how the narrator stands toward the reader. [corpus] Everything after is read against that baseline. Break the baseline without a reason the reader can feel and you get the small wrongness that is hard to name and easy to lose trust over.
+
+Two specific contaminations are worth naming because they hide inside otherwise clean prose. The first is narrator contamination, where the narrator's own vocabulary bleeds into a character's mouth. If the narration has just told us a character is plain-spoken and then hands her a line like "the ramifications of our predicament necessitate immediate action," the line is the narrator talking, not the character. [corpus] The fix is the show-don't-tell rule applied to voice. Do not describe a voice and then write against the description. The second contamination is mood whiplash, a tonal jump with no bridge across it, so that a paragraph of battlefield horror gives way to a breezy "anyway, the next morning was lovely." [corpus] The shift is legitimate only when it is doing work. A reader can feel the difference between a tonal cut that carries intent and one that is just an unguarded seam between two writing sessions. The setting of distance that governs how close the narrator stands, and the POV rules that keep one head per scene, are the sentence-level craft underneath all of this: [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd).
+
+### The branch-drift problem
+
+Linear fiction has one timeline, so voice drift there is a slow matter of a character changing over hundreds of pages. Interactive fiction has a harder version of the problem, and it belongs to the form in a way it belongs to nothing else. Characters recur across branches that fork and never reconverge. Significant time may pass between a character's appearances even within a single playthrough. Different authors may have written different paths. And the player's choices must not change an NPC's voice, only the register that the relationship state warrants. [corpus]
+
+That last point is the subtle one. A character's register should track accumulated state. The same person greets you with "Can I help you with something?" on a first meeting, "What do you want now?" after a betrayal, and "I wasn't sure I'd see you again" after a reconciliation. [corpus] That is not three voices. It is one voice at three points on its own register ladder, and getting it right means the writer has to know where on the ladder each branch sits. The danger is that a branch written in month six, by a writer who last touched this character in month two, quietly resets the register to neutral and loses the accumulated relationship. The state moved; the voice did not follow.
+
+The reason a branch can strand a load-bearing line is the same reason redundancy matters in puzzle design: the player chooses the path, so the author cannot count on any single branch being seen. The structural craft of building choices that diverge and converge without flattening is [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd); when a story ships in instalments written and released over time, the same drift problem stretches across episodes, which is the continuity load in [Episodic & Serialised Structure](../structure-pacing/episodic-and-serialised-structure.qmd).
+
+### The style sheet and the consistency pass
+
+The discipline that holds voice stable is documentary, not inspirational. For each character a writer keeps a profile that records the constants. It notes the typical sentence length and the favourite expressions, the phrases the character avoids, the way stress bends the speech, the register range they move through and the moments that move them along it. [corpus] This is the same artefact a single author keeps as a voice sheet for one character, scaled up into a reference that a whole team can write against. Its most powerful section is the list of forbidden phrases, because a voice is defined as much by what it excludes as by what it includes.
+
+When more than one writer is involved, the style sheet stops being a convenience and becomes the thing that holds the work together. Several writers have to sound like one narrator or like a steady set of narrators. They will diverge the moment they start unless there is a shared reference to write against. [corpus] The techniques that work are concrete. Sample passages give writers a target voice to match rather than a description to interpret. One person should be the nominated voice editor and read everything to harmonise it. Consistency cannot be a shared responsibility without becoming nobody's. The prose is then read aloud. The jarring seam between two writers often looks fine on the page while it sounds wrong in the ear. [corpus] The bible that carries all of this is a living document. It is updated whenever a story decision changes a fact. A publisher running a long series sends each new writer the current version rather than the original. [corpus] The wider job of keeping facts and timeline straight across a sprawling work, of which voice is one strand, is [Canon Management](canon-management.qmd).
+
+The audit that catches drift once it has happened is mechanical and worth running on any project large enough to lose track. Extract every line one character speaks across every branch. Read them in sequence, ignoring the scenes they came from. Note every inconsistency. Then decide, for each one, whether the difference is appropriate (the register moved because the relationship state moved) or an error (the voice itself drifted). [corpus] The discipline is in the last step. Not every difference is a fault, and an audit that flattens every variation back to a single register destroys the state-aware voice it was meant to protect. The question is always whether the change has a reason the reader could feel, and the same restraint that lets a register shift carry weight is what makes an audit useful rather than homogenising. Where two characters trade lines and the craft is the turn-taking itself rather than the individual voices, that is a different concern: [Dialogue Craft](dialogue-craft.qmd).
+
+## Where this fits
+
+**The bigger picture.** Consistency is the discipline that lets every other voice technique survive contact with scale. Character Voice builds a distinct idiolect; this keeps that idiolect from wandering across a long work, many branches, or many authors. Prose Patterns sets the narrative distance; this holds that distance steady once it is set. The work it does is invisible when it succeeds, which is exactly the problem. A reader never praises a voice for staying consistent and notices only when it slips, by which point the trust is already spent. In interactive and collaborative forms the load is heaviest, because the things that drift a voice (time, distance between sessions, multiple hands, player-chosen paths) are all structural features of the medium rather than accidents to be avoided. The style sheet and the consistency pass are the cheap insurance against an expensive, hard-to-diagnose failure.
+
+**Next steps.** To build the distinct voices this discipline then has to preserve, start from [Character Voice](character-voice.qmd). To set and hold the narrative distance that the narrator contract depends on, work through [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd). To keep the facts and timeline straight alongside the voice across a long or serialised work, the wider continuity discipline is [Canon Management](canon-management.qmd). And to understand the branching structure that makes voice drift a structural rather than an accidental risk, turn to [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd).
+
+## Sources
+
+- Joos, Martin. *The Five Clocks: A Linguistic Excursion into the Five Styles of English Usage*. Harcourt, Brace & World, 1961. (The five registers: intimate, casual, consultative, formal, frozen.) <https://en.wikipedia.org/wiki/Martin_Joos>
+- Wood, James. *How Fiction Works*. Farrar, Straus and Giroux, 2008. (Narrative voice, the narrator-character gap, free indirect style.)
+- Stein, Sol. *Stein on Writing*. St. Martin's Press, 1995. (Character voice and consistency in craft practice.)
+- Wallis, James. *The Extraordinary Adventures of Baron Munchausen*. Hogshead Publishing, 1998. (Sustaining a mock-grandiloquent first-person register under improvisational pressure.) <https://en.wikipedia.org/wiki/The_Extraordinary_Adventures_of_Baron_Munchausen>
+- Rettberg, Scott. "All Together Now: Hypertext, Collective Narratives, and Online Collective Knowledge." (Collaborative and multi-author narrative practice.) <https://en.wikipedia.org/wiki/Scott_Rettberg>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Character Voice](character-voice.qmd)
+
+<!-- BACKLINKS:END -->
