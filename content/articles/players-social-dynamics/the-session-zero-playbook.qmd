@@ -117,6 +117,7 @@ The effect accumulates. The person running the game learns what the table actual
 - [Playbook Design](../systems-mechanics/playbook-design.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Pre-Game Workshop Design](pre-game-workshop-design.qmd)
+- [Romance & Relationships](../story-character-voice/romance-and-relationships.qmd)
 - [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
 - [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd)

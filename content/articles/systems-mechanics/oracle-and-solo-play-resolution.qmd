@@ -99,7 +99,10 @@ The contemporary version of the question is sharpest when the non-human particip
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
 - [Prep Economy](prep-economy.qmd)
+- [Prompt Design in Solo Journaling](../story-character-voice/prompt-design-in-solo-journaling.qmd)
+- [Solo Journaling RPGs: Genre & Form](../story-character-voice/solo-journaling-rpgs-genre-and-form.qmd)
 - [Solo Modes](solo-modes.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
+- [The Journal as Artefact](../story-character-voice/the-journal-as-artefact.qmd)
 
 <!-- BACKLINKS:END -->

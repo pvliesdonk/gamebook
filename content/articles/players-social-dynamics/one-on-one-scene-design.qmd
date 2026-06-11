@@ -138,6 +138,7 @@ There is no arrangement that hands a generous one-on-one to every person in a th
 - [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Pre-Game Workshop Design](pre-game-workshop-design.qmd)
+- [Romance & Relationships](../story-character-voice/romance-and-relationships.qmd)
 - [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
 - [Scene Structure & Transitions](../structure-pacing/scene-structure-and-transitions.qmd)
 

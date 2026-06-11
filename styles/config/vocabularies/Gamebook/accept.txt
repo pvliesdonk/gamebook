@@ -196,6 +196,7 @@ Edland
 Einsicht
 Eirik
 Eirini
+Earthsea
 Elderwoods
 else
 Elumir
@@ -263,6 +264,7 @@ Genette
 geocacher
 geocachers
 Ghibli
+Guin
 Gilhooly
 Gilmour
 Giochi

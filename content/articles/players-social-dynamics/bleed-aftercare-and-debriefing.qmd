@@ -110,6 +110,8 @@ The seductive failure is to treat the debrief as a formality and rush it. The ga
 
 ## Referenced by
 
+- [Emotional Beats & Investment](../story-character-voice/emotional-beats-and-investment.qmd)
+- [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd)
 - [One-on-One Scene Design](one-on-one-scene-design.qmd)
 - [Pre-Game Workshop Design](pre-game-workshop-design.qmd)
 - [Safety Systems as Mechanical Layer](../systems-mechanics/safety-systems-as-mechanical-layer.qmd)

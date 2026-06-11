@@ -101,6 +101,7 @@ Cast against the warmup, not against the wish-list. The questionnaire tells you 
 
 ## Referenced by
 
+- [Character Voice](../story-character-voice/character-voice.qmd)
 - [GM Role Models & Stances](gm-role-models-and-stances.qmd)
 - [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd)
 - [Playbook Design](../systems-mechanics/playbook-design.qmd)

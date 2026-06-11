@@ -96,5 +96,13 @@ The Nordic larp *Just a Little Lovin'* is built as a machine for earned emotion.
 ## Referenced by
 
 - [Beat Taxonomies & Craft Models](../structure-pacing/beat-taxonomies-and-craft-models.qmd)
+- [Children's & YA Conventions](childrens-and-ya-conventions.qmd)
+- [Conflict Patterns](conflict-patterns.qmd)
+- [Heist & Caper Patterns](heist-and-caper-patterns.qmd)
+- [Horror Conventions](horror-conventions.qmd)
+- [Moral Dilemmas & Consequence Chains](moral-dilemmas-and-consequence-chains.qmd)
+- [Romance & Relationships](romance-and-relationships.qmd)
+- [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd)
+- [The Journal as Artefact](the-journal-as-artefact.qmd)
 
 <!-- BACKLINKS:END -->

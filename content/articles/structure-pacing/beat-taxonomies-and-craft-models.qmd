@@ -108,9 +108,11 @@ The borrowed maps travel beyond the page. Arc-driven tabletop campaigns import n
 
 ## Referenced by
 
+- [Emotional Beats & Investment](../story-character-voice/emotional-beats-and-investment.qmd)
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
 - [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
+- [Tropes, Archetypes & Variations](../story-character-voice/tropes-archetypes-and-variations.qmd)
 - [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
 
 <!-- BACKLINKS:END -->

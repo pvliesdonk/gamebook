@@ -112,9 +112,11 @@ The live game asks it through hardware and space. In an escape room the question
 
 ## Referenced by
 
+- [Diegetic Design](../story-character-voice/diegetic-design.qmd)
 - [Digital Gating & State](digital-gating-and-state.qmd)
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
 - [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)
+- [Science Fiction Conventions](../story-character-voice/science-fiction-conventions.qmd)
 - [System vs Setting](system-vs-setting.qmd)
 - [Theme-Mechanism Integration](theme-mechanism-integration.qmd)
 

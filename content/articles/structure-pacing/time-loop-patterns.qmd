@@ -130,6 +130,7 @@ The reset is generous, and that generosity is the danger. Because nothing the pl
 
 - [Endings & Structural Closure](endings-and-structural-closure.qmd)
 - [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd)
+- [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd)
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
 - [Replayability](../systems-mechanics/replayability.qmd)
 

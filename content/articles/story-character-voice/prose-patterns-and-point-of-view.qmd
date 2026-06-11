@@ -99,7 +99,13 @@ The prose that sits just before a choice does its own perspective work. A good l
 
 ## Referenced by
 
+- [Audience & Age-Targeting](audience-and-age-targeting.qmd)
 - [Character Voice](character-voice.qmd)
+- [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd)
+- [Exposition & Subtext](exposition-and-subtext.qmd)
 - [Scene Structure & Transitions](../structure-pacing/scene-structure-and-transitions.qmd)
+- [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd)
+- [The Journal as Artefact](the-journal-as-artefact.qmd)
+- [Voice & Register Consistency](voice-and-register-consistency.qmd)
 
 <!-- BACKLINKS:END -->

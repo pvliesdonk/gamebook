@@ -92,6 +92,31 @@ The tabletop version of the same craft runs on the marker pair and warns against
 
 ## Referenced by
 
+- [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd)
+- [Audience & Age-Targeting](audience-and-age-targeting.qmd)
+- [Children's & YA Conventions](childrens-and-ya-conventions.qmd)
+- [Conflict Patterns](conflict-patterns.qmd)
+- [Dialogue Craft](dialogue-craft.qmd)
+- [Diegetic Design](diegetic-design.qmd)
+- [Emotional Beats & Investment](emotional-beats-and-investment.qmd)
+- [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd)
+- [Exposition & Subtext](exposition-and-subtext.qmd)
+- [Fantasy Conventions](fantasy-conventions.qmd)
+- [Heist & Caper Patterns](heist-and-caper-patterns.qmd)
+- [Historical Fiction](historical-fiction.qmd)
+- [Horror Conventions](horror-conventions.qmd)
+- [Moral Dilemmas & Consequence Chains](moral-dilemmas-and-consequence-chains.qmd)
+- [Mystery & Detective Fiction](mystery-and-detective-fiction.qmd)
+- [NPC Craft & Voicing](npc-craft-and-voicing.qmd)
+- [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd)
 - [Playbook Design](../systems-mechanics/playbook-design.qmd)
+- [Prompt Design in Solo Journaling](prompt-design-in-solo-journaling.qmd)
+- [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd)
+- [Romance & Relationships](romance-and-relationships.qmd)
+- [Science Fiction Conventions](science-fiction-conventions.qmd)
+- [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd)
+- [The Journal as Artefact](the-journal-as-artefact.qmd)
+- [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd)
+- [Voice & Register Consistency](voice-and-register-consistency.qmd)
 
 <!-- BACKLINKS:END -->

@@ -131,10 +131,12 @@ The decorative object that looks like a clue is the quiet killer of an evidence 
 - [Digital Props](digital-props.qmd)
 - [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
 - [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd)
+- [Historical Fiction](../story-character-voice/historical-fiction.qmd)
 - [Materials, Durability & Reset](materials-durability-and-reset.qmd)
 - [Physical Clue Formats](physical-clue-formats.qmd)
 - [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd)
 - [QR & NFC Patterns](qr-and-nfc-patterns.qmd)
+- [The Journal as Artefact](../story-character-voice/the-journal-as-artefact.qmd)
 - [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd)
 
 <!-- BACKLINKS:END -->

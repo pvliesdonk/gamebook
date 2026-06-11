@@ -111,6 +111,7 @@ The seductive failure is the packet that knows too much. You write one character
 
 - [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd)
 - [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd)
+- [Canon Management](../story-character-voice/canon-management.qmd)
 - [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
 - [Cluing & Fairness](cluing-and-fairness.qmd)
 - [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd)
@@ -118,6 +119,7 @@ The seductive failure is the packet that knows too much. You write one character
 - [Escape Room Topologies](../structure-pacing/escape-room-topologies.qmd)
 - [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)
 - [Information Asymmetry: Hidden Information vs Hidden Roles](../players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd)
+- [Mystery & Detective Fiction](../story-character-voice/mystery-and-detective-fiction.qmd)
 - [Nonlinear Narrative Structures](../structure-pacing/nonlinear-narrative-structures.qmd)
 - [Parallel Threads & Convergence](../structure-pacing/parallel-threads-and-convergence.qmd)
 - [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)

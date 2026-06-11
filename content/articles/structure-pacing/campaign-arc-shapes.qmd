@@ -126,6 +126,7 @@ The West Marches format, described by Ben Robbins in 2007, is the cleanest examp
 ## Referenced by
 
 - [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
+- [Canon Management](../story-character-voice/canon-management.qmd)
 - [Cooperative & Legacy Genres](../systems-mechanics/cooperative-and-legacy-genres.qmd)
 - [Endings & Structural Closure](endings-and-structural-closure.qmd)
 - [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd)
@@ -136,5 +137,6 @@ The West Marches format, described by Ben Robbins in 2007, is the cleanest examp
 - [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
 - [The Session Zero Playbook](../players-social-dynamics/the-session-zero-playbook.qmd)
 - [West Marches & the Open-Table Format](west-marches-and-the-open-table-format.qmd)
+- [Worldbuilding Patterns](../story-character-voice/worldbuilding-patterns.qmd)
 
 <!-- BACKLINKS:END -->

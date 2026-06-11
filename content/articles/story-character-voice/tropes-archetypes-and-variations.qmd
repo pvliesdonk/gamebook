@@ -104,6 +104,12 @@ The discipline under all of these is that subversion is only honest when it unde
 
 ## Referenced by
 
+- [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd)
+- [Children's & YA Conventions](childrens-and-ya-conventions.qmd)
+- [Fantasy Conventions](fantasy-conventions.qmd)
+- [Horror Conventions](horror-conventions.qmd)
+- [Mystery & Detective Fiction](mystery-and-detective-fiction.qmd)
 - [Playbook Design](../systems-mechanics/playbook-design.qmd)
+- [Science Fiction Conventions](science-fiction-conventions.qmd)
 
 <!-- BACKLINKS:END -->

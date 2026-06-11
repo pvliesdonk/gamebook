@@ -94,7 +94,13 @@ At the table the channel narrows back to language, and the gamemaster becomes th
 
 ## Referenced by
 
+- [Diegetic Design](diegetic-design.qmd)
+- [Exposition & Subtext](exposition-and-subtext.qmd)
+- [Horror Conventions](horror-conventions.qmd)
+- [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd)
+- [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd)
 - [Spectator-Friendly Design](../players-social-dynamics/spectator-friendly-design.qmd)
 - [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd)
+- [Worldbuilding Patterns](worldbuilding-patterns.qmd)
 
 <!-- BACKLINKS:END -->

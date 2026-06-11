@@ -113,6 +113,7 @@ The seductive failure is to choose the lock for how it looks and discover its op
 ## Referenced by
 
 - [Artefact Design & Document Production](artefact-design-and-document-production.qmd)
+- [Diegetic Design](../story-character-voice/diegetic-design.qmd)
 - [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd)
 - [Digital Props](digital-props.qmd)
 - [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
