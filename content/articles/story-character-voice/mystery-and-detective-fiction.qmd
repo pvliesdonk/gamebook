@@ -11,8 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "Mystery & Detective Fiction" (this article) and "A Taxonomy of Genre Conventions" (the family router) are not yet rows in docs/term-registry.md. Add both in the batched Story-family registry pass. -->
-
 *Silhouette: The genre where the reader is dared to solve it first, and the writer plays to win without cheating.*
 
 A mystery is a story told twice. The first time through, the reader watches an investigation and gathers a heap of facts that refuse to settle. The second time, after the reveal, the same facts lock into a single shape and the reader sees that the answer was on the page the whole time. The pleasure lives in the gap between those two readings. Close it too early and the story is dull. Refuse to close it fairly and the reader feels robbed.

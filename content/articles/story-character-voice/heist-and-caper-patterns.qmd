@@ -11,8 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "Heist & Caper Patterns" (aliases: The Heist, The Caper, Crew Stories, The Score) — not yet in docs/term-registry.md. Add in the batched Story-family registry pass. -->
-
 *Silhouette: A team of specialists and a perfect plan, tested the moment it meets reality.*
 
 A heist is a machine for making the audience feel clever. The team is assembled, the target is studied, the plan is laid out one step at a time, and then the clock starts and everything the story taught you gets tested at once. The pleasure is not theft. It is competence: watching people who are very good at something be very good at it under pressure, against odds that should beat them.

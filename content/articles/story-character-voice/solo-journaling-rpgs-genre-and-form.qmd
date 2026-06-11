@@ -11,9 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "Solo Journaling RPGs: Genre & Form" is not yet in docs/term-registry.md.
-     Story family has no registry block yet; add in the batched family-end pass. -->
-
 *Silhouette: A game played by one person where the writing is not a record of play but the play itself.*
 
 Sit alone with a notebook. A rule hands you a prompt. You write a few lines in answer. Those lines are the move and the outcome at once. Draw a new prompt and the pages fill with a story only you will ever read. There is no group to perform for and no screen waiting to react to your input. What you have at the end is a written document that did not exist before you sat down.

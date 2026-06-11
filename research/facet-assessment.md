@@ -82,6 +82,31 @@ for the keys reconciliation (#54):
    paper artefacts; locks/containers; electronics; set-dressing; structural primitives like
    flag/node/clock) rather than a flat controlled list.
 
+## Story, Character & Voice (28 articles) — final Phase-5 family
+
+Distinct values: **effects 74, problems 81, components 105, genre 23** — the widest of all six
+families (narrative craft resists controlled vocabulary hardest; components especially sprawl into
+craft-abstractions: timeline, trope-set, the-reveal, subgenre-contract, prompt-deck, oracle, POV,
+idiolect). Clusters: effects `immersion` / `sustained-immersion` / `reader-immersion` → *immersion*
+(recurs everywhere); `reader-trust` / `earned-payoff` / `believable-world` → *credibility*. problems
+`voice-drift` / `register-mismatch` → *voice-drift*; `flat-npcs` / `flat-stakes` / `info-dump` /
+`blank-page` are the family's signature failure modes. genre is the **largest genre set** (23, since
+this family contains the genre articles) and confirms the genre-axis content for #54.
+
+### Final cross-family tally (all 6 families written)
+
+Across the whole guide the facet sprawl is real but clusters cleanly. Firm recommendations for #54
+(keys generation), unchanged from the running summary and now confirmed by all six families:
+- **Split `genre` (mystery/horror/fantasy/sci-fi/historical/literary/...) from `format`**
+  (escape-room/megagame/larp/jubensha/legacy/solo-journaling/...). The Story family supplies the
+  authoritative genre vocabulary; the other families supply formats.
+- **`effects` → ~15 controlled values** (immersion, agency, tension, catharsis, credibility,
+  legibility, replayability, tactility, ...); **`problems` → ~18** (the per-family signature failures
+  cluster: immersion-break, exclusion, safety-failure, voice-drift, degenerate-play, content-cost...).
+- **`components` → a 5-7 bucket hierarchy**, not a flat list: physical parts, paper artefacts,
+  locks/containers, electronics, structural primitives (flag/node/clock/branch), and narrative
+  primitives (POV/idiolect/beat/trope/oracle).
+
 ## Players & Social Dynamics (20 articles)
 
 Distinct values: **effects 72, problems 73, components 71, genre 17** — the widest spread so far

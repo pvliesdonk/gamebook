@@ -11,8 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "Science Fiction Conventions" (canonical). Story family (3) genre rows pending the batched family-end registry pass. Sub-terms used in prose that may warrant rows: "the novum", "hard/soft contract", "diegetic interface". The novum is the load-bearing imported term (Suvin). -->
-
 *Silhouette: One impossible thing the reader accepts on purpose, then followed everywhere it leads.*
 
 Science fiction is the genre that asks the reader to believe one specific lie and then keeps perfect faith with it. Perhaps the lie is faster-than-light travel. Perhaps it is a mind uploaded to a machine, or a planet where the rain has not stopped in nine hundred years. Whatever the lie, the deal stays the same. The reader grants you the premise, and in return you owe them the consequences, worked out with a straight face and no cheating. Break that faith with a second free lie and the world goes slack.

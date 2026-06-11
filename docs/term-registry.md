@@ -137,3 +137,36 @@ One canonical term per mechanism. Aliases listed. Agents must use canonical term
 | Euro vs Ameritrash: The Two Design Poles | German-Style vs American-Style, The Euro-Ameritrash Axis | Family 6 / Appendix 6Z | The two boardgame design poles and the hybrid era. Tabletop-only reference (Gate-C1). |
 | Deckbuilders | Deck-Building Games, Deckbuilding Genre | Family 6 / Appendix 6Z | The Dominion lineage; the deck as a sculpted strategic object. Tabletop-only reference (Gate-C1). |
 
+### Story, Character & Voice mechanisms (added Phase 5)
+
+| Canonical term | Aliases | Family | Notes |
+|----------------|---------|--------|-------|
+| Character Voice | Idiolect, Distinct Voices, Voice Markers | Family 3 | The hub: idiolect, deep POV, voice under player pressure. |
+| Dialogue Craft | Dialogue Writing, Conversation Design | Family 3 | Subtext, beats, said-bookisms; IF dialogue architectures. |
+| Prose Patterns & Point of View | POV, Narrative Perspective, Prose Rhythm | Family 3 | Sentence rhythm; the POV taxonomy and tense. |
+| Voice & Register Consistency | Narrator Contract, Voice Drift, Branch Voice Auditing | Family 3 | The narrator contract; register shifts; branch-drift audit. |
+| Exposition & Subtext | Show vs Tell, The Iceberg, Incluing, Drip-Feed | Family 3 | Delivering information without a lecture; the unsaid. |
+| Diegetic Design | Diegesis, Diegetic UI, Diegetic Gating | Family 3 | The IF/narrative home of diegesis; show-the-world-hide-the-gears. (Live/physical sibling: Theme/Immersion, Family 5; boardgame sibling: Theme-Mechanism Integration, Family 6.) |
+| Environmental Storytelling & Setting as Character | Place as Character, Environmental Narrative | Family 3 | Story through the world; setting as an active force. |
+| Worldbuilding Patterns | World Consistency, Internal Logic, Setting Construction | Family 3 | Internal logic, Sanderson's First Law, the iceberg, branching world-state. |
+| Canon Management | Continuity Management, Story Bible, Spoiler Stratification | Family 3 | Fact-continuity; cause chains; who-knows-what-when across branches. |
+| Naming Craft: Characters & Locations | Naming, Onomastics, Toponymy | Family 3 | Names as a worldbuilding signal; respectful, non-appropriative. |
+| Conflict Patterns | Conflict Types, Dramatic Conflict, Stakes & Escalation | Family 3 | The conflict types; desire-vs-obstacle; the stakes ladder. |
+| Emotional Beats & Investment | Earned Emotion, Setup and Payoff | Family 3 | Earning feeling; investment before stakes; the interactive multiplier. |
+| Moral Dilemmas & Consequence Chains | The Genuine Dilemma, Hard Choices, Consequence Chains | Family 3 | Two-goods/two-bads choice; values not virtue; compounding consequence. |
+| Heist & Caper Patterns | The Heist, The Caper, The Score | Family 3 | The competence engine; crew roles; the plan and the reveal. |
+| Romance & Relationships | Romance Routes, Affection Systems, Relationship Mechanics | Family 3 | Romance arc beats; affection/flag tracking; NPC agency; consent design. |
+| NPC Craft & Voicing | Supporting Cast, Voicing NPCs | Family 3 | Designing the supporting cast; the marker pair; LLM-NPC limits. |
+| Audience & Age-Targeting | Age Banding, Reading Level | Family 3 | Cross-genre age calibration (distinct from the Children's/YA genre craft). |
+| A Taxonomy of Genre Conventions | Genre Conventions, Genre Contracts | Family 3 | Map of genres by reader contract and key IF adaptation. |
+| Mystery & Detective Fiction | Whodunit, Fair-Play Mystery, Crime Fiction | Family 3 | The mystery genre craft; fair-play cluing (story angle; mechanics in Cluing & Fairness). |
+| Horror Conventions | Fear Mechanics, Dread Design | Family 3 | Fear mechanics; dread vs shock; sanity/death-state mechanics. |
+| Fantasy Conventions | Magic-System Design, Secondary-World Craft | Family 3 | Magic-system design; trope use/subversion; prophecy. |
+| Science Fiction Conventions | SF Conventions, The Novum | Family 3 | The hard/soft contract; the novum; diegetic interfaces. |
+| Historical Fiction | Period Fiction, Period Voice | Family 3 | Research balance; period voice; anachronism control; prejudice without endorsement. |
+| Children's & YA Conventions | MG vs YA, Kidlit Conventions | Family 3 | The MG/YA split; the Absent Adult; anti-didacticism. |
+| Tropes, Archetypes & Variations | Character Archetypes, Trope Subversion | Family 3 | Archetypes; tropes as tools; subversion techniques (underpins the genre articles). |
+| Solo Journaling RPGs: Genre & Form | Journaling Games, Wretched & Alone Games | Family 3 | The prompt → response → artefact form; oracle and epistolary lineages. |
+| Prompt Design in Solo Journaling | Journaling Prompts, The Prompt as Mechanic | Family 3 | The prompt as the load-bearing unit; generative vs flat; failure modes. |
+| The Journal as Artefact | Journaling as Output, Writing as the Game | Family 3 | The journal as durable output; voice under journaling pressure. |
+

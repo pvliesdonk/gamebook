@@ -1,4 +1,3 @@
-<!-- TERM-FLAG: "Canon Management" is not yet in docs/term-registry.md (Family 3, Story, Character & Voice). Add in the batched registry pass at family end. Aliases seen in the corpus/research: Continuity Management, Lore Consistency, Story Bible, Canon Pack, Spoiler Stratification. -->
 ---
 title: "Canon Management"
 aliases: ["Continuity Management", "Lore Consistency", "Story Bible", "Spoiler Stratification"]

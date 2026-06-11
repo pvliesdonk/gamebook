@@ -1,4 +1,3 @@
-<!-- TERM-FLAG: "Voice & Register Consistency" is not yet in docs/term-registry.md (Family 3, Story, Character & Voice). Add in the batched registry pass at family end. Aliases seen in the corpus: Narrator Contract, Voice Drift, Branch Voice Auditing, Register Management. -->
 ---
 title: "Voice & Register Consistency"
 aliases: ["Narrator Contract", "Voice Drift", "Register Management", "Branch Voice Auditing"]

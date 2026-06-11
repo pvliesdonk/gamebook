@@ -11,8 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "Diegetic Design" (canonical) — aliases: Diegesis, Show the World Hide the Gears, Diegetic UI, Diegetic Gating. Story family (3) has no registry rows yet; add in the batched family-end registry pass. Sub-terms used in prose that may warrant rows: "diegetic gate", "non-diegetic", "mechanical leakage", "surface test". -->
-
 *Silhouette: Keeping the interface and the machinery inside the fiction, so the player meets a world and never the gears that run it.*
 
 A diegetic surface is one a character in the story could read and understand. A locked door is diegetic. A greyed-out menu option is not. The first belongs to the world; the second belongs to the game that runs the world. Diegetic design is the discipline of keeping everything the player touches on the first side of that line, so the fiction never has to admit there is a machine underneath it.

@@ -11,8 +11,6 @@ facets:
 provenance: "synthesis"
 ---
 
-<!-- TERM-FLAG: "Conflict Patterns" is not yet in docs/term-registry.md. Proposed canonical term for Family 3, aliases "Conflict Types", "Dramatic Conflict", "Stakes & Escalation". Add in the batched registry pass at the family's end. -->
-
 *Silhouette: The engine under every scene: a character who wants something, and the thing standing in the way.*
 
 Strip a story down and you find one part doing the pulling. A character wants something and cannot have it yet. That gap, between the wanting and the having, is where the whole machine runs. Close it too soon and the story stops. Leave it open and the reader leans in, because they want to know how it shuts.

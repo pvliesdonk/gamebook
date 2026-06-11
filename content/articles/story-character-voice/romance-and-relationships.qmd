@@ -11,8 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "Romance & Relationships" — Family 3 (Story, Character & Voice) has no registry section yet; add this canonical term plus the sub-terms surfaced here (affection track, relationship flag, route lock-in, the vending-machine failure, ninjamancing) in the batched family-end registry pass. -->
-
 *Silhouette: A love story the player helps write, where the other person is allowed to say no.*
 
 A romance route is a whole dramatic arc folded into a larger story, and the player gets to co-author it. That is the promise and the trap. The promise is that the most affecting thing a piece of interactive fiction can offer is a relationship the player built choice by choice. The trap is the machine underneath. The moment a player can watch the affection number climb is the moment the romance becomes a vending machine: feed it kindness and collect the kiss.
