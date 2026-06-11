@@ -1,17 +1,118 @@
 ---
 title: "Decision Space & Choice Design"
-aliases: []
+aliases: ["Interesting Decisions", "Meaningful Choice", "Decision Space"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [felt-agency, strategic-depth, replay-pull]
+  problems: [dominant-strategy, false-choice, solved-game]
+  components: [options, trade-off, opportunity-cost, game-state]
+  genre: [strategy, eurogame, social-deduction]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: The moment a player weighs two real options and neither one is free.*
+
+A game asks the player a question and then waits to see what they will do. Sometimes the question has only one sensible answer, and the player answers without thinking, the way you take the only road out of a car park. Sometimes the question genuinely splits, two roads worth taking, each closing the other off, and the player has to stop and weigh them. That pause is the thing this article is about. The pause is where a player feels they are playing rather than being driven.
+
+Sid Meier put the idea in one line that has outlived every attempt to refine it. A game is a series of interesting decisions. [researched] He later said he never meant it as a full definition of games, and he was right to hedge, but the design question it hands you is still the sharp one. What makes a decision interesting, and what quietly kills the quality so that a choice on paper turns out to be no choice at all?
+
+This is the boardgame designer's version of a problem that turns up under other names elsewhere. The interactive-fiction writer worries about the same thing when a branch promises consequence and delivers none, which is the craft of [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd). The shape of the question is shared. The boardgame lens just makes the trade-offs unusually legible, because they sit out on the board where everyone can see them.
+
+## The Mechanism (How it works)
+
+### What makes a decision interesting
+
+A decision earns the word when three things are true at once, and Meier named all three in his 2012 talk. There has to be more than one genuine option. Each option has to cost something, so that taking one means giving up another. And the right answer has to depend on the state of the game, because a choice whose correct answer never changes is a rule wearing the costume of a choice. [researched]
+
+The negative form of the test is blunter and easier to apply at the table. If one option is plainly best, it is not a decision; the player will take it every time and feel nothing. If every option leads to the same place, it is not a decision either; the player is pressing a button the game pretends to care about. The choice has to *matter*, to the score or the board or the next decision down the line. Meier reckoned that roughly a third of the design elements he tried got cut for failing this, because they turned out not to move the game enough to be worth a player's attention. [researched]
+
+Magic's long-time head designer Mark Rosewater treats the same target as a matter of questions. At each decision point a designer ought to be able to write down the question the game is asking. "Should I attack?" is a weak question if the answer is nearly always yes. "Should I attack with this creature, when blocking trades their 4/4 for my 3/3 and I need the 3/3 back to block next turn?" is a strong one, because the answer turns on the specific board in front of you. [researched] The designer's job is to build rules that produce the second kind of question and to redesign or cut the mechanisms that only manage the first.
+
+### The false choice and what it costs
+
+A false choice is a decision dressed up to look real when it is not. The branching dialogue where every branch lands on the same scene. The "pick your starting loadout" screen whose options play identically after the first hour. The two actions whose expected value is the same whatever your strategy. [corpus] Each one offers the gesture of agency without the substance.
+
+The damage is not confined to the moment. A false choice spends the player's attention on a promise of consequence it has no intention of keeping. Do that often enough and the player no longer reads choices closely, which blunts the real decisions that wait later in the same game. [corpus] A designer who adds options purely for the look of agency borrows against the player's trust. The loan comes due exactly when a choice finally does matter and the player waves it through out of habit.
+
+### Dominant strategies and the collapse of the space
+
+The sharpest way to ruin a decision space is to let one strategy become strictly better than the rest. Once players find it, they play it and stop deciding, because only one real option is left. The game does not break from a flaw in the winning strategy. It dies from the absence of anything that beats it. [corpus] A solved game in this sense is one whose interesting decisions have all been answered in advance, so that play becomes execution.
+
+Magic's long-running answer is to ban the cards that produce dominant decks. The published criteria target cards that create unhealthy, repetitive play patterns or that narrow the viable deck-building options in the format. [researched] The aim is not punishment of the strong strategy for being strong. A ban reopens the space around that strategy so that more than one deck becomes worth building again. A format with only one competitive deck stagnates, because every player either runs that deck or runs the deck built to beat it, and the decision of what to play has quietly collapsed back to one. [researched]
+
+::: {.callout-warning}
+### The Hazard
+The dominant strategy you most need to fear is the one playtesting never shows you. A card or a combination often turns degenerate only after the player community has worked through and exhausted the counters to it, which can take months of real play well past release. [corpus] The lesson is uncomfortable for a designer who trusts a clean playtest. Absence of a dominant strategy in the test room is weak evidence, because your testers have not had the weeks a determined community will spend hunting for the break. Build the levers to intervene after launch, a ban list or an errata channel, and treat a quiet playtest as the start of the watch rather than the end of it. [synthesis]
+:::
+
+### Keeping the metagame alive
+
+A healthy decision space holds several viable strategies up together, and which one leads at any given moment is the metagame. That balance is never static and is not meant to be. A game whose metagame never shifts has a dominant strategy in all but name, a slow one that no counter has yet displaced. [corpus]
+
+Magic keeps its Standard metagame moving by structure rather than by constant patching. Older card sets rotate out of the legal pool on a fixed schedule, which strips key pieces out of whatever archetype had become dominant and forces players to build something new. [corpus] The rotation does not balance the game by hand. It resets the conditions under which a fresh balance can form, which is a subtler and more durable move than chasing each dominant deck with a nerf.
+
+### Where the cost lives: opportunity-cost engines
+
+A decision bites precisely when choosing A costs you B, so the cleanest way to manufacture that bite is to make the cost structural rather than a matter of fine print. Worker-placement games do this in the open. The action space another player took this round is one you now cannot take, and the cost sits visibly on the board for everyone to read. [corpus] You are not told there is an opportunity cost. You watch it happen.
+
+The mancala family pushes the same idea down into the core move. Lifting seeds from one pit changes which pits open and which empty out, so the decision and its cost are the same act and cannot be separated. [corpus] In a resource game like Catan, spending wood and brick on a road is spending the same wood and brick you might have put toward a settlement, and that trade is not a rule layered on top of the game. It is the game. [corpus]
+
+Two more levers manufacture meaning without piling on rules. Hidden information turns a mechanically trivial decision into a hard one, because the difficulty comes from what the player cannot see rather than from the move itself. The vote in Werewolf is a bare majority, yet it is agonising because nobody knows who to believe; the decision space is epistemic, not mechanical. The same holds for a play in Hanabi, where you cannot see your own hand, and for a call in poker, where the hole cards are hidden. [corpus] The other lever is the option to do nothing. Passing in Go to hold territory, folding to buy information, declining a Catan trade so an opponent stays short of what they need: each is a real decision, and a game that forbids passing has quietly committed to the strong and often false claim that acting is always correct. [corpus]
+
+### The shapes of the decision tree
+
+Decision trees have shapes, and the shape decides how much consequence a player feels. The corpus lays out four that recur across media, and they map cleanly onto the structures an interactive-fiction writer already knows.
+
+| Shape | What it feels like | Where it shows up |
+|---|---|---|
+| Wide branch, late convergence | Many paths, one ending; high agency, low production cost | Narrative adventure games; most cRPG main plots [corpus] |
+| Persistent deep branch | Early choices leave permanent marks; long feedback loops | Diplomacy; long campaign wargames [corpus] |
+| Bottleneck series | Choices matter inside an episode; episodes stand alone | Catan rounds; most eurogames [corpus] |
+| Fractal branch | Each choice opens a new sub-tree of choices | Deckbuilders; engine-builders [corpus] |
+
+The wide-branch-late-convergence shape buys the strongest feeling of agency for the least production cost, since the writer narrates many roads but only has to author one ending. The branch-and-bottleneck shape is the same structure a branching story uses to keep its page count finite, and so the boardgame and the interactive-fiction traditions arrive at it independently. Most tabletop games sit in the bottleneck-series shape by necessity, because a session has to end. The persistent deep branch is the rare and expensive one that asks players to live with consequences across hours of play before the loop closes. [corpus] An early choice whose cost persists, so that the player feels the game world reshaped by it, belongs to the craft of [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd).
+
+### Depth from interaction, not from complexity
+
+The richest decisions are not the most complicated ones. The strongest ones pull across several axes at once, so that depth comes from how the axes interact rather than from any single axis being hard. Pandemic's turn is the standard example. A player has to weigh immediate disease control against slow progress toward the win condition while also positioning so that a teammate can act well next round. Each axis is easy to grasp on its own. The combined pressure of all of them is not. [corpus] Simple rules produce emergent strategy exactly here, because a player can understand every part in isolation and still find the whole genuinely hard.
+
+This is also why the same rules can yield different decisions at different levels of skill. In a deckbuilder or an engine-builder, each turn is a small choice about which card to buy or which action to take, but the shape of the engine you are assembling across the whole game is one large strategic decision made in instalments. [corpus] A novice looks at the individual turn. An expert looks at the coherence of the whole engine. That gap is the necessary condition for the design target Nolan Bushnell named in 1971 for a coin-op: easy to learn yet hard to master. [researched] His law is not really about accessibility. The real question is whether the decision space still has anything left for an expert long after a novice picked up the rules. A game whose experts have run dry fails the mastery half of the bargain, however welcoming it remains to beginners.
+
+::: {.callout-note}
+### The Specimen
+Mark Rosewater's "interesting question" diagnostic is the cleanest working tool in this whole area, because it gives a designer something to test each mechanism against without waiting for a full playtest. Take the mechanism, find the decision point it creates, and write down the question it puts to the player. Magic itself is built and maintained this way: cards are evaluated for whether they generate a question whose answer turns on the board state, and the same lens drives the bans and the rotation schedule that keep the format's questions from going stale. [researched] When the written-down question reads "should I do the obviously good thing," the mechanism is producing a weak question and wants redesigning. When it reads as a genuine fork that depends on the specific situation, the mechanism is doing its job. The diagnostic travels well past Magic, to any game where you can name the question a rule is asking. [synthesis]
+:::
+
+### Decision density and the cognitive budget
+
+More decisions per minute is not simply better. Decision density is the count of real decisions per unit of elapsed time, and it trades against the player's cognitive budget. [corpus] A long Catan turn might hold three or four decisions that bite, at a comfortable load. A five-second Codenames clue is a single decision carrying a very high load. A Pandemic turn packs four actions into a combinatorial space that experienced players still resolve in under half a minute. Low density at low load bores the player; high density at high load freezes them in analysis. [corpus] The target is the most decisions a turn can hold while staying inside the cognitive budget of the player you are designing for, and that ceiling is part of what [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd) has to budget when it decides how many actions a turn even contains.
+
+One more variable moves the whole space without touching a rule, and that is player count. The same game at three players and at six is not the same decision space. Catan at three leaves the board uncontested, the ports reachable, the Robber a weak lever; at six, every resource trade is fought over and the Robber becomes the tactical centre of the game. [corpus] A designer has three honest responses. Tune the game separately at each supported count. Build mechanisms that scale decision density as the count rises. Or settle on a canonical count and accept that the others run degraded. [corpus]
+
+### The same question in other media
+
+The boardgame frame makes the trade-offs visible, but the underlying question travels. In interactive fiction the same problem Meier named is reached from the prose side. The writer wants every option compelling and no single option the obvious right answer, which is the interesting-decision test rewritten for a branching story. [synthesis] The false choice the boardgame designer fears becomes the branch that converges with no trace. The dominant strategy becomes the path a replaying reader works out is simply best.
+
+A live game meets the question with its own constraints. Errol Elumir's escape-room design writing draws a line between a puzzle that is a single sharp realisation and one that is a grind of process, and pairs it with a hard practical ceiling on how many discrete steps a room should ask of a team at once. [synthesis] That ceiling is the live cousin of decision density. It is the same recognition that past a certain point more decisions stop adding depth and start adding load, told in the language of a room full of people rather than a player at a table.
+
+## Where this fits
+
+**The bigger picture.** Decision space is the layer where a system earns the word "game" rather than "activity," and almost everything else in this family feeds it or depends on it. A [resolution method](mechanical-resolution-types.qmd) only matters because it sits at the end of a decision the player cared about making; an action economy exists to budget how many decisions a turn can hold; replayability lives or dies on whether the decision space still offers anything once the obvious lines are known, which is the through-line of [Replayability](replayability.qmd). The quality is fragile in a specific way. It collapses the moment one option dominates or one choice turns out to be false, and both failures are easy to ship and hard to spot in a clean playtest. Protecting the decision space is less about adding cleverness than about removing the choices that do not pay for the attention they ask.
+
+**Next steps.** Once the decisions are real, the craft turns to keeping the system simple enough that those decisions emerge from play rather than from rules-mass, which is [Elegance, Emergence & Randomness](elegance-emergence-and-randomness.qmd). To make sure the choices feel like they belong to the world and not just to the maths, the work is [Theme-Mechanism Integration](theme-mechanism-integration.qmd). To budget how many decisions a turn can carry and in what order, go to [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd). And to see how a designed decision space keeps drawing players back across many sessions, the question is [Replayability](replayability.qmd). On the narrative side, the same problem worked from the writer's end is [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd).
+
+## Sources
+
+- Meier, Sid. "Interesting Decisions." GDC 2012. GDC Vault. <https://www.gdcvault.com/play/1015756/Interesting>
+- Sheffield, Brandon. "GDC 2012: Sid Meier on how to see games as sets of interesting decisions." Game Developer, 2012. <https://www.gamedeveloper.com/design/gdc-2012-sid-meier-on-how-to-see-games-as-sets-of-interesting-decisions>
+- Bruno, Mike. "Quote? Misquote? Cite?" Flash of Steel, 7 July 2008 (traces the origin of the Meier quote). <https://flashofsteel.com/index.php/2008/07/07/quote-misquote-cite/>
+- "Standard." MTG Wiki (rotation mechanics and their purpose). <https://mtg.fandom.com/wiki/Standard>
+- "Banned and Restricted List" and ban criteria, Magic: The Gathering. <https://magic.wizards.com/en/banned-restricted-list>
+- "Metagame Mentor: What's Next for a Post-Bans Standard?" Magic.gg. <https://www.magic.gg/news/metagame-mentor-whats-next-for-a-post-bans-standard>
+- "Mark Rosewater." MTG Wiki (the "interesting question" design framing). <https://mtg.fandom.com/wiki/Mark_Rosewater>
+- "Worker Placement: Observations and Innovations." Games Precipice. <https://www.gamesprecipice.com/worker-placement-3/>
+- "Bushnell's Law." Wikipedia (Nolan Bushnell, 1971; "easy to learn, hard to master"). <https://en.wikipedia.org/wiki/Bushnell%27s_Law>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
