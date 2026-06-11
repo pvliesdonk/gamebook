@@ -1,17 +1,95 @@
 ---
 title: "Information Asymmetry: Hidden Information vs Hidden Roles"
-aliases: []
+aliases: ["Hidden Information", "Hidden Roles", "Partial Information Design", "Who Knows What"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [shared-stakes, suspicion, collaborative-sensemaking, charged-conversation]
+  problems: [sidelined-players, single-pivot-character, info-hoarding-stall, exclusion]
+  components: [hidden-role, character-briefing, secret-objective, clue-sheet]
+  genre: [mystery, thriller]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: The structural choice of what to hide and from whom, which decides whether the gap energises the room or quietly empties it.*
+
+Some players know things other players do not, and that gap is the engine. Look around a room of people, hold a fact one of them lacks, and the weight of that knowledge changes how you sit, how you answer a question, when you laugh. Get the distribution right and a room of strangers becomes a community gripped by one shared problem. Get it wrong and the same design splits the room in two: the players at the centre of every scene, and the ones near the drinks table wondering what they are meant to be doing. [corpus]
+
+This article is about that distribution as a structural decision, made before anyone sits down. The live social pressure that the gap produces, why accusation lands and how being in the room amplifies it, is the work of [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd). This is the layer underneath. What gets hidden, and from whom, is what that first fork decides, and it shapes almost everything else about how the game feels. It is worth naming precisely before going further.
+
+## The Mechanism (How it works)
+
+### Two things you can hide
+
+The choice splits cleanly. You can hide information, or you can hide roles. The two produce different games even when the surface looks the same.
+
+Hidden information means each player holds private knowledge about a shared situation. Nobody's identity is concealed; what is concealed is what each person knows. Hidden roles means a player's allegiance or objective is concealed. The informed minority knows who they are; the uninformed majority has to deduce it. [corpus] The difference looks small written down and is enormous in the room. It sets whether the table leans toward working together or toward watching each other.
+
+| | Hidden information | Hidden roles |
+|---|---|---|
+| What is concealed | What each player knows | Who each player is for |
+| Canonical example | Hanabi: you see every hand but your own [researched] | Mafia: a secret faction knows itself, the rest guess [corpus] |
+| Default social mode | Cooperative or semi-cooperative [corpus] | Adversarial at its core [corpus] |
+| Tension is about | Can the group assemble its scattered knowledge in time | Can the majority see through the minority's performance |
+| Atmosphere it leans toward | Collaboration and trust [corpus] | Suspicion and performance [corpus] |
+
+The pure cases sit at the ends. Hanabi (Antoine Bauza, 2010) hides only information: you hold your cards facing outward, expert on everyone else and blind to yourself. The whole game is the group trying to assemble a play order nobody can see alone. [researched] Mafia (Dmitry Davidoff, 1986) hides only roles: the small faction knows one another and can coordinate in silence while the majority works on probability and social read alone. [corpus] Most designs mix the two. Secret Hitler (Temkin, Boxleiter and Maranges, 2016) hides roles but distributes the role knowledge unevenly. The Fascists know each other and know who Hitler is, yet Hitler does not know the Fascists, which seeds three distinct starting positions of knowledge into a single table. [corpus] How that uneven knowledge maps onto opposing win conditions, the traitor team against the loyal majority, is [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd); whether the resulting game runs as collaboration or contest is [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd).
+
+This same fork drives the single-player forms. In interactive fiction the gap is between what the reader knows and what the character knows, or branching dialogue that gates on what an NPC has been told. The detective story's fair-play contract is hidden information run as craft: the reader holds exactly what the page has shown them, no more. The puzzle is whether they can assemble it before the detective does. [synthesis] That contract is the same one examined from the puzzle side in [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+### Share or hoard
+
+The decision that makes any of this come alive is whether to share what you hold. Sharing speeds the group toward the answer and signals your own position. Hoarding keeps your advantage and risks the group failing for want of the one fact you were sitting on. [corpus] That tension is the design's real product. Secret Hitler provides almost no mechanical action, yet it manufactures an hour of charged conversation purely out of when each player chooses to reveal or withhold. [corpus]
+
+The tension only holds when sharing carries genuine risk. Make sharing costless, with no way to punish it, and total transparency becomes the dominant move while the asymmetry collapses. Make sharing catastrophic, where revealing anything gets you eliminated, and players go silent until the social life drains out of the room. [corpus] The productive setting is the middle, where the group needs your piece and using it exposes something about you. A murder-mystery guest who knows something damning has to decide in real time whether to perform ignorance or come clean, with every shade of partial answer in between. The design's job is to make sharing as interesting a choice as withholding. [corpus] Games that miss this balance produce players who sit on everything all evening and then wonder why the final reveal felt flat. [corpus]
+
+### Designs that energise
+
+The patterns that pull everyone in have a common shape: every player holds a piece that someone else will need.
+
+The most inclusive version gives each player a fragment that is essential but incomplete, so no one can solve the problem alone and every player has a moment when the room must come to them. This is the backbone of a well-built murder-mystery script, where each character sheet carries facts no other sheet holds, interlocked so that one fact only pays off beside another. [corpus] Even the quietest player at the table then owns something the others cannot do without. The structural map of which fragment unlocks which, the dependency graph behind a distributed clue set, is the puzzle-side craft of [Information Architecture](../puzzles-clues-information/information-architecture.qmd).
+
+Three other levers reliably raise the energy. Mechanics that force articulation convert private knowledge into public event: Hanabi's rules mandate that you give clues rather than play in silence, Werewolf's structure forces a public vote that exposes reasoning, and a live game reaches for the same effect with a scheduled tribunal or press conference that makes players state their case aloud. [corpus] Metering the reveals across a session beats dumping them at the start, so a player who felt behind in the first hour can find they hold the decisive piece by the fourth. [corpus] And asymmetric stakes matter as much as asymmetric knowledge. The megagame Watch the Skies (Jim Wallman, major run 2014) gives military teams intercept data the government lacks, hands the science faction physical evidence with no geopolitical context, and lets the media publish or suppress what reframes everyone's picture, so the faction with the weakest intelligence can still be decisive because intelligence without the power to act is inert. [corpus]
+
+::: {.callout-note}
+### The Specimen
+"Just a Little Lovin'" (Tor Kjetil Edland and Hanne Grasmo, first run Norway 2011) sets its players in New York in the summer the AIDS crisis arrived, and splits its cast across separate social worlds: medical, activist, bohemian, wealthy. [researched] Each world holds a different and partial picture of the catastrophe closing in, and the larp's emotional force comes from watching those pictures slowly converge and collide rather than from any contest to win. It is hidden information used not for puzzle tension but for grief. The asymmetry is what lets the room arrive, together and at different speeds, at a thing each character only half-understood alone. [corpus]
+:::
+
+### Designs that exclude
+
+The same tool, badly distributed, produces the players standing by the drinks table. Each failure has a structural cause, and naming it points at the fix.
+
+The first is the informed minority that never needs the majority. The hidden-role faction grows so cohesive and powerful that the majority's deductions stop mattering, and the majority gives up and plays for comedy instead. Poorly balanced Mafia variants hit this when the secret faction runs past roughly a third of the group and the majority loses the statistical power to deduce anything. [corpus] The second is elimination that removes a player from the social event. A player killed in the second round and left to sit silently for an hour and a half has had their evening destroyed. Straight elimination has given way in live contexts. A killed player now keeps a voice as a ghost or an observer, or the session is kept short enough that the wait stays bearable. [corpus] This is the structural reason the anchor article warns against making elimination the core mechanic at all.
+
+Two more are quieter. Information that stays legible to only some of the players reproduces real exclusions inside the fiction. Picture a clue that hinges on a particular language in a multilingual group. It quietly tells the players who lack that language that the game was not built for them. A clue that needs specialist knowledge in a group of mixed expertise does the same. [corpus] And the single pivot character is a single point of failure wearing a costume. When one character holds the key fact and the whole resolution leans on that one person playing it correctly, a shy or distracted player will collapse the game. The sturdier alternative is distributed criticality. Many characters each hold something necessary, which loops straight back to the jigsaw that energises. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The seductive move is the brilliant secret you hand to one perfect player. You picture the scene where they reveal it and the room gasps, and you build the whole evening's payoff on that single reveal landing. From the inside it feels like the strongest beat in the game. From the outside it is one nervous, quiet, or distracted person away from nothing happening at all. The tell is when your design notes describe the climax through one character's name. If the resolution cannot survive that player having an off night, the asymmetry was concentrated where it should have been spread. The fix is not coaching the player. It is laying a second and third path to the same conclusion, the social-deduction cousin of the Three Clue Rule. [synthesis]
+:::
+
+### Scaling the gap
+
+The asymmetry behaves differently as the group grows, and the dominant failure flips with scale. In a small game the risk is scarcity: too few pieces, and the quiet players have nothing. In a megagame of fifty to three hundred players the risk inverts into overload, where every faction is drowning in intelligence reports and event cards and the limiting factor becomes whether anyone can process what they already hold. [corpus] Large designs answer this in several ways. They stagger delivery rather than dumping it. They externalise knowledge into the shared space with printed reports and pinned maps so it does not all live in one head. And they assign roles whose whole job is to manage a faction's epistemic state. The classified-envelope mechanic formalises the share-or-hoard choice physically: when one faction hands another a sealed briefing, the second now knows something the first knows they know, which rewrites the negotiation between them. [corpus] Parcelling that knowledge by role and venue across a large live game, rather than by team alone, is the epistemic-tier pattern, and at hunt scale it is how a large multi-day event splits knowledge so that sub-teams can work in parallel without colliding. [synthesis]
+
+The single-player media inherit the small-scale version of the same problem. Interactive fiction that gates branches on what the player has learned is hidden-information design with an audience of one, and the authority over who learns what, and when, becomes a structural lever in its own right: [Distributing Narrative Authority](../systems-mechanics/distributing-narrative-authority.qmd).
+
+## Where this fits
+
+**The bigger picture.** Information asymmetry is the structural floor under the social-deduction family. The hidden roles and hidden facts are what create the suspicion that [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd) then turns into felt pressure in the room. That article is the live social layer; this one is the plumbing beneath it. The single decision here, whether you hide information or hide roles, sets the default temperature of the whole game before a word is spoken. Hidden information leans the room toward collaboration; hidden roles leans it toward performance and suspicion. Almost every other choice in a trust game inherits from this one. Get the distribution even and every player holds something the others need. Get it lumpy and the same mechanics sideline half the table, while the design looks identical on paper.
+
+**Next steps.** Once the asymmetry is set, decide how the concealed allegiances map onto opposing goals in [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd), and how far the game runs as collaboration against contest in [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd). To wire a distributed clue set so that every fragment is reachable and load-bearing, work from [Information Architecture](../puzzles-clues-information/information-architecture.qmd), and hold the whole thing to the reader-knowledge contract set out in [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). The pressure this asymmetry generates, and the consent it has to rest on, is [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd).
+
+## Sources
+
+- Davidoff, Dmitry. *Mafia* (1986); Plotkin, Andrew. *Werewolf* (1997); Temkin, Boxleiter and Maranges. *Secret Hitler* (2016). The hidden-role lineage and its mixed-knowledge positions. Wikipedia, "Mafia (party game)" and "Social deduction game": <https://en.wikipedia.org/wiki/Mafia_(party_game)>
+- Easley, David, and Jon Kleinberg. "Mafia: The Game of Information Asymmetry." Cornell University Information Networks blog, 2014. Mafia as a model of informed minority against uninformed majority. <https://blogs.cornell.edu/info2040/2014/09/27/mafia-the-game-of-information-asymmetry/>
+- Bauza, Antoine. *Hanabi* (2010). Cooperative game of imperfect information; players see every hand but their own. Wikipedia, "Hanabi (card game)": <https://en.wikipedia.org/wiki/Hanabi_(card_game)>
+- "Designing Games with Hidden Roles." Minifiniti Game Talk, 2024. Avoiding player exclusion in hidden-role design, covering elimination mechanics and faction balance.
+- Freeform Games design notes. Murder-mystery information distribution and interlocking clue-sheet structure. <https://www.freeformgames.com/>
+- Wallman, Jim. *Watch the Skies* (Megagame Makers, major run 2014). Faction briefing structure and differentiated epistemic tiers. <https://www.megagame-makers.org.uk/>
+- Edland, Tor Kjetil, and Hanne Grasmo. *Just a Little Lovin'* (first run Norway 2011). Factional epistemic asymmetry as the dramatic engine of a Nordic larp. Nordic Larp wiki: <https://nordiclarp.org/wiki/Just_a_Little_Lovin%27>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 

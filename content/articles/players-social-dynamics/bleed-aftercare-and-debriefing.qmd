@@ -1,14 +1,112 @@
 ---
 title: "Bleed, Aftercare & Debriefing"
-aliases: []
+aliases: ["De-roling", "Post-Play Debrief", "Emotional Aftercare"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [clean-closure, processed-emotion, player-wellbeing, return-to-self]
+  problems: [unresolved-bleed, post-larp-depression, carried-hostility, porous-ending]
+  components: [de-roling-ritual, debrief-round, debrief-buddy, bookend-ritual]
+  genre: [horror, drama, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+<!-- TERM-FLAG: "Bleed", "De-roling", "Debriefing", "Aftercare", and "Bookend Ritual" are
+     used here as canonical mechanism names but are not yet in docs/term-registry.md. Add them
+     in the Players & Social Dynamics registry pass. "Bleed" is credited to Emily Care Boss
+     (Ropecon 2007); "Safety Contract" (already registered) is the parent toolkit category. -->
+
+*Silhouette: The closing half of a charged experience, where the player comes back from the character and sets down what the game stirred up.*
+
+When an intense game ends, the players do not simply stop. They have spent hours as someone else under real emotional pressure, and now they have to come back to themselves. A game that opens strong feeling without closing it sends people home still carrying it. The Nordic-larp tradition treats that return as part of the design rather than a mere social courtesy. It has the deepest body of practice on the problem. [corpus]
+
+These are design tools. A debrief is a structured way to help a group land after fiction. The person who ran the game runs it. It is not a clinical intervention and not a substitute for one. Where a session has genuinely hurt someone, the right move is to point them to real support rather than to run the circle harder. What this article covers is the craft of it. You learn to recognise the residue a charged game leaves, then to build the closing so the residue has somewhere to go.
+
+The whole thing rests on one observation. The pressure of [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd) is genuine even when the content is fiction, so the feeling it produces is genuine too. If the game was worth designing the pressure into, the closing is worth designing with the same care.
+
+## The Mechanism (How it works)
+
+### Bleed: why any of this exists
+
+Bleed is the leak between character feeling and player feeling. The term is credited to Emily Care Boss, who introduced it at Ropecon 2007, and it was developed afterwards by Sarah Lynne Bowman, Markus Montola, and others. [researched] It runs in both directions. *Bleed-in* is the player's real mood or beliefs colouring the character: a player grieving an actual loss finds that grief amplifying in a scene they did not plan. *Bleed-out* is the character's experience colouring the player afterwards, and it is the one the closing addresses. [researched] A later refinement by Kjell Hedgard Hugaas splits bleed into three kinds worth designing for. Emotional bleed is feelings crossing over. Procedural bleed is gestures and habits crossing over. Memetic bleed is beliefs and values crossing over. [researched]
+
+Not all bleed is a problem. The synchronised moment where player and character feel the same grief or relief at once is the thing much of this design is reaching for, what the tradition calls the Golden Moment. [researched] The closing exists for the other kind. A player can leave carrying lasting hostility toward someone whose character wronged theirs. Romantic feeling can follow a player out of a fiction that licensed it. Low mood can run on after a character's death. The traits of an antisocial character can linger in ordinary life after long immersion. Left unattended, all of this has a documented cost. Bowman and Torner named the comedown post-larp depression: a hormonal crash tangled up with the difficulty of reentering ordinary life and with character emotion that never got resolved. [researched] Hanne Grasmo borrowed the word *aftercare* from another practice to name the whole duty of care owed to players after an intense session. The debrief is the structured part of that care. [researched]
+
+### Three debriefs, not one
+
+The most useful distinction in the practice is that a debrief is three separable conversations, and running them together weakens all three. [corpus]
+
+| Debrief | What it does | Watch for |
+|---|---|---|
+| De-roling | Closes the player-character split; marks the return to ordinary identity | Skipping it and going straight to chat, so the character lingers |
+| Emotional processing | Facilitated sharing of the difficult feelings the game produced | War stories standing in for it (see below) |
+| Design critique | Player feedback on the run, for the organisers | Running it while people are still raw |
+
+Order matters between them. Run emotional processing before critique, because moving to "what would you change" while people are still raw produces defensive feedback that helps no one. [corpus] Watch too for the substitute that feels like processing but is not. War stories are the funny valorised retelling of what happened. They celebrate the experience rather than process it. They make good social glue and a poor emotional debrief. A group can spend an hour on them and still leave with the hard feeling untouched. [corpus]
+
+### De-roling: getting the player back
+
+De-roling is the act of putting the character down. It borrows from drama therapy, where a person is helped to "disrobe" from a role, and in live games it takes a few documented forms. [corpus] The physical ones work through the body. A player removes the costume and moves to another room, shakes the body out or walks it off, then perhaps closes on a piece of music that mirrors the one that opened the game. [corpus] The verbal ones work through naming. A player says the character's name aloud and then their own, or speaks of the character in the third person during the debrief. Bowman warns that "I felt" language quietly collapses the separation you are trying to restore, where "my character felt" holds it open. [researched] The take-and-leave ritual asks each player to name one trait to keep and one to leave behind, and depositing a character item in the centre of the circle gives the leaving a physical act. [corpus]
+
+Some of this extends past the event. The debrief-buddy system pairs each player with someone they check in with roughly one day, one week, and one month after a heavy run, so the care does not end when everyone drives home. [corpus] None of it has to be elaborate. A round of the table where each player says their character's name and then their own, after an intense session, does most of the work for most groups. [synthesis]
+
+### The Round, and how wide to open the circle
+
+The standard vehicle for the emotional debrief is the Round. Players sit in a circle, a facilitator keeps order, the word passes in sequence, each person speaks uninterrupted, and passing is always allowed. [corpus] The usual prompts are plain. What did I like about the game, and what would I have liked to be different. The Round can carry both the emotional sharing and the critique, so long as the sharing comes first. The structured form is sometimes called Europa-style, after Eirik Fatland's 2001 larp *Europa*, which introduced it precisely because the previous year's run of intense material had ended with no debrief at all. [researched] The lineage is worth knowing: the practice was invented in response to harm, not in the abstract.
+
+For the heaviest events a single circle is too wide to feel safe in, and the debrief widens in stages instead. The multi-tiered model documented on the *Mad About the Boy* runs starts one-on-one with a debrief buddy, then moves to small groups of three to six, then to the full group, then to extended buddy contact over the following weeks. [researched] The principle underneath is that a raw player will say more to one trusted person than to forty, so you let the circle grow only as fast as people can bear it.
+
+::: {.callout-note}
+### The Specimen
+*Just a Little Lovin'* (Tor Kjetil Edland and Hanne Grasmo, Norway 2011) is a larp about desire and the fear of death, set across three summer parties in the early years of the AIDS crisis. Each in-game morning, players learn which characters have sickened or died, so accumulated loss is the designed material rather than an accident of play. A run like that cannot end on the last scene. It closes with a full programme. De-roling, then guided emotional sharing in small groups, then buddy contact afterwards, all of it sized to the grief the three acts were built to produce. The design and its closing are one piece, not a game with a debrief stapled on. [corpus]
+:::
+
+### When to debrief, and when a light touch is right
+
+The judgement that matters most here is proportionality, because over-debriefing is its own failure. Treat a sixty-minute murder-mystery dinner as if it were a multi-day trauma larp and you patronise the players and teach them the tool is theatre. The need scales with intensity, roughly along this line. [corpus]
+
+| Intensity | Typical game | Closing it needs |
+|---|---|---|
+| Low | 60-minute mystery dinner, light social-deduction round, escape room | Ordinary out-of-character chat; nothing formal |
+| Moderate | A 3 to 6 hour freeform with personal secrets, a one-day larp | A short Round, perhaps 20 to 30 minutes |
+| High | A full-day or multi-day larp, an emotionally heavy script | The full three-part debrief, at least an hour, in small guided groups |
+| Critical | Multi-day play on difficult themes, sustained aggressor roles | Extended debrief, the buddy system, welfare staff, a sanctuary space in play |
+
+A few things push a game up the scale. Long duration does it, as does deep immersion with few exits, difficult subject matter such as grief or persecution, play that runs close to a player's own experience, and on multi-day events, plain tiredness. [corpus] One counterintuitive point belongs here. The players who need the most attention are often the ones playing the villains, the guards, the manipulators, because holding your own moral footing against your character's actions is taxing in a way that playing the wronged party frequently is not. [corpus] The design choices that distribute those roles sit in [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd); the closing is where their cost is paid down.
+
+### Bookends: the ritual at both ends
+
+A debrief is the closing bookend of a pair, and the opening one matters as much. Solo journaling games make this visible because they strip out the social cue entirely. A group game announces its own beginning when the first player speaks in character, and its own end when someone says "good session" and the table disperses into talk. The player alone with a notebook has neither signal, so the games supply them as ritual. [corpus] Lighting a particular candle, putting on fixed music, re-reading the last session's final entry: these are mode-shift devices that teach the body when play has begun. *Thousand Year Old Vampire* (Tim Hutchings, 2019) and the *Wretched & Alone* family (Chris Bissette, 2020) lean on this precisely because their material is loss, dread, and isolation, and *Thousand Year Old Vampire* carries an explicit safety appendix asking the player to "play hard, but stay aware of yourself and your feelings." [researched]
+
+The closing bookend is the harder design problem, because the natural pull at the end of a session is simply to stop. The player is tired and the candle is still burning, and without a deliberate act the fiction's emotion is carried straight into the rest of the day. [corpus] A closing prompt fixes that. Asking "what does your character carry with them tomorrow" or naming the final image, then stowing the materials and putting out the candle, gives the session an end that is a physical event and not just a cognitive one. This is the solo equivalent of de-roling. There is no debrief buddy, so the ritual does the work the circle would do. [corpus] The same instinct carries into the digital. Some Twine and Choice of Games titles end on an explicit "you are back in the real world" screen, which is the bookend principle translated to interactive fiction. The post-choice residue itself, the silence after a hard decision and the way later scenes register it, is the single-player echo of bleed-out covered in [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd). [synthesis]
+
+### Where the closing sits in the safety arc
+
+The closing is not a bolt-on at the end. It is the last phase of a safety arc that begins at design, and the phases inform each other. [corpus] The arc runs from pre-game calibration and workshops, through the in-play tools that let a player steer or stop the pressure, to the post-game de-role and debrief. A weak workshop makes the in-play tools more necessary; a skipped debrief means next year's workshop learns nothing from this run's effects. Johanna Koljonen puts it that larp safety is not something you do at the debrief, it is something you do all through the design. [researched] So the closing depends on the expectations set in [Pre-Game Workshop Design](pre-game-workshop-design.qmd) and [The Session Zero Playbook](the-session-zero-playbook.qmd), where the group agrees that wellbeing comes before narrative continuity, and on the in-play regulators in [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd), which are taught in that same workshop. The intimate two-person scene has its own version of all three, since a charged one-on-one needs calibration going in and a check going out: [One-on-One Scene Design](one-on-one-scene-design.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is to treat the debrief as a formality and rush it. The game ran long and people have trains to catch, so the facilitator opens the circle already signalling that this will be quick. A debrief delivered as a closing announcement is worse than none. It tells the raw player that the space is not really for them and they had better not take it. The tell is when the facilitator is the one doing the talking. A real debrief is mostly silence and other people's voices. Hold it open long enough that someone who needs a minute to find the words still has the floor when they find them. If you cannot give it that time, say so plainly and arrange the buddy check instead. Do not perform the ritual hollow. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** The closing is the back half of the bargain the pressure made. [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd) argues that designed pressure is only legitimate when it rests on consent and a safety layer the players signed up to; this article is where that layer pays out after play, the way [The Session Zero Playbook](the-session-zero-playbook.qmd) is where it is agreed and [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd) is where it is exercised in the moment. The load-bearing claim is proportionality. The closing has to match the charge the game carried. A light game needs almost nothing while a heavy one needs a real programme. Getting that match wrong in either direction is the failure. These are design tools with a hard edge. They help a group land. They are not therapy. When a game has done real harm, the responsible move is to point toward real support rather than to run the circle harder.
+
+**Next steps.** The closing is the end of the safety arc, so the practical work is upstream of it. Set the expectations it depends on in [Pre-Game Workshop Design](pre-game-workshop-design.qmd) and [The Session Zero Playbook](the-session-zero-playbook.qmd), and put the in-play regulators in place through [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd). For the charged two-person scene that needs its own bracketing, work through [One-on-One Scene Design](one-on-one-scene-design.qmd). Where the closing is the last beat of a whole structure rather than a single session, the wider craft of landing an experience cleanly is [Endings & Structural Closure](../structure-pacing/endings-and-structural-closure.qmd).
+
+## Sources
+
+- Boss, Emily Care. "Bleed" (term introduced at Ropecon 2007). Nordic Larp wiki: <https://nordiclarp.org/wiki/Bleed>. See also Boss's definitions at <http://www.blackgreengames.com/terms>.
+- "Bleed: The Spillover Between Player and Character." nordiclarp.org, 2015. (Bleed-in, bleed-out, positive and negative bleed; theorists Montola, Koljonen, Bowman.) <https://www.nordiclarp.org/2015/03/02/bleed-the-spillover-between-player-and-character/>
+- Hugaas, Kjell Hedgard. "Investigating Types of Bleed in Larp: Emotional, Procedural, and Memetic." nordiclarp.org, 2019. <https://www.nordiclarp.org/2019/01/25/investigating-types-of-bleed-in-larp-emotional-procedural-and-memetic/>
+- Bowman, Sarah Lynne, and Evan Torner. "Post-Larp Depression." *Analog Game Studies* 1, no. 1 (August 2014). <https://analoggamestudies.org/2014/08/post-larp-depression/>
+- Grasmo, Hanne. "Taking Care." *Playground: The New Wave in Roleplaying* no. 2 (2011). ("Aftercare" imported into larp.)
+- Bowman, Sarah Lynne. "Returning to the Real World" / de-roling practice. nordiclarp.org, 2014. (Third-person language, take-and-leave, name-swap.) Nordic Larp wiki, "Aftercare": <https://www.nordiclarp.org/wiki/Aftercare>
+- Brown, Maury. "Post-Play Activities for Larp: Methods and Challenges." *Analog Game Studies*, 2018. (Debrief length scales with intensity; aggressor roles need the most attention; the Round.) <https://analoggamestudies.org/2018/06/post-play-activities-for-larp-methods-and-challenges/>
+- Stark, Lizzie. "How to Run a Post-Larp Debrief." leavingmundania.com, 2013, and "Mad About the Debrief," 2012. (The multi-tiered debrief and four-phase model.)
+- Fatland, Eirik. *Europa* (2001). Origin of the Europa-style structured debrief, introduced after the previous year's undebriefed run. Nordic Larp wiki, "Debriefing."
+- Koljonen, Johanna. On calibration and the safety arc. participationsafety.wordpress.com, 2016. ("Larp safety is not something you do at the debrief.")
+- Edland, Tor Kjetil, and Hanne Grasmo. *Just a Little Lovin'* (Norway, 2011). Nordic Larp wiki: <https://nordiclarp.org/wiki/Just_a_Little_Lovin'>. Model of emotional design and the closing it requires.
+- Hutchings, Tim. *Thousand Year Old Vampire* (2019). <https://thousandyearoldvampire.com/>. Safety appendix ("play hard, but stay aware of yourself and your feelings").
+- Bissette, Chris. *The Wretched* and the *Wretched & Alone* SRD (2020). <https://rpggeek.com/rpgsystem/62288/wretched-and-alone>. Solo bookend and end-of-game ritual.
