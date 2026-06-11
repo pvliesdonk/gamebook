@@ -17,6 +17,7 @@ provenance: ""
 
 ## Referenced by
 
+- [Spectator-Friendly Design](../players-social-dynamics/spectator-friendly-design.qmd)
 - [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd)
 
 <!-- BACKLINKS:END -->

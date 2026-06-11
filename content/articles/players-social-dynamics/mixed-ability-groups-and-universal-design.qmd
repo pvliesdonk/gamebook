@@ -102,7 +102,10 @@ This is the inclusion counterpart of the watching role done well. The same desig
 
 ## Referenced by
 
+- [Accessibility in Live & Interactive Games](accessibility-in-live-and-interactive-games.qmd)
+- [Spectator-Friendly Design](spectator-friendly-design.qmd)
 - [Teaching Through Play](../puzzles-clues-information/teaching-through-play.qmd)
+- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [Treasure & Scavenger Hunts](../puzzles-clues-information/treasure-and-scavenger-hunts.qmd)
 
 <!-- BACKLINKS:END -->

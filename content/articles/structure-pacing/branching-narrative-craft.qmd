@@ -116,6 +116,7 @@ Hatch Escapes' *The Ladder* (Los Angeles, 2024) is the clearest published branch
 - [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd)
 - [Information Architecture](../puzzles-clues-information/information-architecture.qmd)
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
+- [One-on-One Scene Design](../players-social-dynamics/one-on-one-scene-design.qmd)
 - [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
 - [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)

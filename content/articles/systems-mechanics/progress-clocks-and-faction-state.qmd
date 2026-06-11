@@ -22,6 +22,7 @@ provenance: ""
 - [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd)
 - [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
+- [Faction Design & Asymmetric Objectives](../players-social-dynamics/faction-design-and-asymmetric-objectives.qmd)
 - [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd)
 - [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd)

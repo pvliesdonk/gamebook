@@ -112,6 +112,7 @@ The structural advantage is that the place outlives the platform. Hosted service
 ## Referenced by
 
 - [Artefact Design & Document Production](artefact-design-and-document-production.qmd)
+- [Designer-Community Trust in Long-Form Hunts](../players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd)
 - [Digital Props](digital-props.qmd)
 - [Dungeon & Spatial Topology](dungeon-and-spatial-topology.qmd)
 - [Fabrication & Sourcing](fabrication-and-sourcing.qmd)

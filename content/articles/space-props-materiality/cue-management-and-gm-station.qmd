@@ -108,6 +108,7 @@ The seductive failure is to let an intervention break the very world the desk ex
 
 - [Digital Props](digital-props.qmd)
 - [Escape Room Topologies](../structure-pacing/escape-room-topologies.qmd)
+- [Host Roles & the Host-Cannot-Play Problem](../players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)
 - [Making It Real](../../primers/making-it-real.qmd)
 - [Materials, Durability & Reset](materials-durability-and-reset.qmd)
 - [QR & NFC Patterns](qr-and-nfc-patterns.qmd)
