@@ -1,17 +1,119 @@
 ---
 title: "Digital Gating & State"
-aliases: []
+aliases: ["Web App Gating", "Hunt Platforms", "Server-Side Answer Checking", "State Management"]
 family: "Systems & Mechanics"
-media: []
+media: [puzzle-hunt, live-game, interactive-fiction, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [earned-progression, fair-checking, operational-resilience]
+  problems: [client-side-leak, brute-force, out-of-sync-state, reset-cost]
+  components: [answer-checker, solve-flag, unlock-graph, rate-limiter]
+  genre: [mystery, sci-fi]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: The software behind the curtain that decides whether your answer was right and lets you through.*
+
+When a puzzle hunt or a hybrid room runs on a web app, a single quiet question sits under everything the player does. A player types an answer and presses submit. A fraction of a second later the page either opens the next stage or politely declines. That moment is a gate. Behind it sits a small machine that decides whether the condition was met and keeps a record of what every team has done so far. The machine is mostly invisible. Done well it feels like nothing at all, which is the point.
+
+This article is about that machine. It is the gate that opens the next step on a correct answer. It is the checker behind the gate that decides what counts as correct. And it is the state that holds a distributed game together so a team's progress survives a dropped signal or a refreshed page. The machine is the digital cousin of the lock and key in an escape room and the flag in a branching story, and it inherits problems from both. The hardest of them is not technical at all. It is the question of where the answer lives, because if you put it in the wrong place the player can simply read it.
+
+## The Mechanism (How it works)
+
+### A gate is a state transition
+
+Strip the styling away and a digital gate is one rule: when a condition is met, change the game's state and reveal what was hidden. The condition is usually a correct answer typed into a box. It can also be a scanned tag or a clock reaching a set time, or a set of sub-conditions that must all hold at once. The reveal might be a new URL. It might be an unlocked round, or a prop springing to life. What matters is that the gate is a transition between two states. Somewhere a record has to flip from "locked" to "open". [corpus]
+
+The plainest version is a chain of pages. Each stage lives at its own URL, and solving the physical puzzle at one stage gives the keyword that is the password for the next page. [corpus] There is no database and no server logic. The sequence of URLs and the passwords embedded in them are the entire state machine, and that is why this pattern is so popular for small scavenger-style events: it is free to host and almost impossible to break operationally. The cost is that it has no memory. It cannot tell you which teams are where, and it cannot stop a team that found a later URL from skipping ahead.
+
+A time-locked reveal is the same idea with the clock as the condition. Content stays hidden until a wall-clock moment, then appears. [corpus] The trap here is whose clock you trust. A timer that runs in the player's browser is trivially bypassed and drifts from device to device, so a reveal meant to land simultaneously for everyone will not. The reliable version checks the time on the server, where there is one authoritative clock. The same lesson, server time over browser time, returns in a harder form when the condition is a secret answer rather than a public deadline.
+
+### Where the canonical copy lives
+
+The deciding architectural choice is where the real state lives. In a hybrid game state is not one record. It is a layered set of flags spread across the central server, each microcontroller's memory, and the player's browser, and the question is which copy is the truth and which are caches. [corpus] Get this wrong and you spend the event chasing stragglers: a prop that thinks a puzzle is unsolved while the dashboard says solved, a browser holding a stale unlock the server already revoked.
+
+The discipline that keeps a game sane is to pick one canonical location, the server database or a message broker, and treat everything else as a cache that can be rebuilt from it. [corpus] The most economical form of this stores only the per-puzzle solve flags as durable state and reconstructs everything else at game start. The lighting scene, the relay states, and the live URLs are all a function of which flags are set. Reset then becomes a single operation. Clear the flags and let the reconstruction replay. The room comes up fresh for the next session with no out-of-sync remnants to hunt down. [corpus] In a commercial room running six or eight sessions a day, that one decision separates a clean turnaround from a frantic one.
+
+The table below sorts the common storage locations by the property that bites hardest in a live game, whether the player can reach in and edit them.
+
+| Where state lives | Survives a crash | Reset cost | Can the player tamper? |
+|---|---|---|---|
+| Central server database | Yes, with persistence | One endpoint clears it | No [corpus] |
+| Message broker, retained | Yes | One wildcard publish clears it | No [corpus] |
+| Microcontroller flash | Yes | Reset command or power cycle | No, but needs physical or network reach [corpus] |
+| Browser local storage | Locally only | Clears on storage wipe | Yes, fully inspectable and editable [corpus] |
+
+The last row is the one that determines whether your answer checking is real. Anything held in the browser, whether in local storage or in the JavaScript bundle itself, can be opened and read. So nothing the player must not learn can live there.
+
+### Server-side answer checking
+
+The reason serious checking runs on the server is blunt. A client-side check has to ship the answer, or a hash of it, into the browser to compare against. A determined solver will then open the developer console and read it straight off the page. [corpus] Client-side checking is fine for a social game where the norm of play is the real guard. It is fine for a static single puzzle whose answer space is large enough that nobody can enumerate it. It is not fine for a competitive hunt. The fix is to send the submitted string to a small server function, where it is compared against a secret held in an environment variable and only a yes or a no comes back. [corpus] The answer never reaches the browser at all.
+
+Once the check is server-side, the next job is deciding what counts as correct, because a human typing FREE FALL and a human typing "free-fall" mean the same thing and a brittle checker rejects the second. The puzzle-hunt convention is a normalisation pipeline applied to both the stored answer and the guess before they are compared. [corpus] The standard form strips the answer down to bare letters and uppercases it. [researched]
+
+| Step | What it does | Why |
+|---|---|---|
+| Trim and collapse whitespace | Removes leading, trailing, and doubled spaces | Typing artefacts, not errors [corpus] |
+| Uppercase | Normalises case to one convention | FREE FALL equals free fall [corpus] |
+| Strip non-letters | Drops punctuation, spaces, sometimes digits | "free-fall" equals FREEFALL [researched] |
+| Strip diacritics | Decomposes accented characters and drops the marks | café equals CAFE [corpus] |
+| Optional fuzzy match | Accepts a near miss within a small edit distance | Forgives a single typo [corpus] |
+
+Fuzzy matching is the step that needs a steady hand. Accepting a guess within an edit distance of one rescues a solver who fat-fingered a long word. It must never apply to short answers or numeric codes, though, where the false-positive rate is unacceptable: a four-digit code has too many near neighbours to forgive any of them. [corpus] This is the same false-positive failure that haunts a physical lock, where the right input lands by accident and the mechanism cannot tell a real solve from a lucky one. The digital checker has more room to be careful than a maglock does, and the cluing craft that decides how forgiving to be is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+### Anti-cheat: throttling and the threat model
+
+A server-side checker still has to survive players attacking it, and the right amount of defence depends entirely on who is playing. The threat model for a private single-team escape room is mild. The players are known, the time is bounded, and the realistic attack is "look at the source", not systematic brute force, so server-side checking is the whole countermeasure and aggressive rate limiting is overkill. [corpus] A public web hunt is the opposite. The participants are unknown, play is asynchronous and competitive, and brute force, answer sharing, and source inspection are all observed behaviours. [corpus]
+
+For the public case the standard defence is a guess throttle, which caps how often a team can submit so that nobody can machine-gun the answer space. Real hunts converge on a handful of policies. One caps guesses per minute across the whole hunt. Another gives a small budget that slowly refills. A third sets a tight per-round limit. The MIT Mystery Hunt in 2021 allowed three guesses per five minutes per round. [researched] A simpler version that suits small events is a short cooldown after a run of wrong answers. [corpus] The throttle interacts with how the puzzle is built, because a hunt that confirms intermediate steps invites far more submissions than one that only checks final answers, and the rate limit has to leave room for legitimate work. [corpus]
+
+What the checker says back matters as much as how often it answers. The feedback contract is narrower than designers expect. Confirm a correct answer at once and fire the unlock. Decline a wrong one without revealing the answer or even its exact length. A format note ("the answer is a single word") is safe because it discloses nothing the puzzle did not already imply. [corpus] The trap is the helpful "did you mean PARALLAX?" on a near miss, which quietly hands over the answer space; a checker that fuzzy-matches should accept the near miss and proceed in silence rather than narrate it. [corpus] Because the checker is the thing that adjudicates the solve without a person in the loop, it is the hunt's version of the mechanism-as-judge, the same role a self-validating apparatus plays in a room: [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd).
+
+::: {.callout-note}
+### The Specimen
+The clearest reference build is gph-site, the open-source Django application the Galactic Puzzle Hunt team released for running their hunt, which many other online hunts now run on. [researched] It bundles the whole pattern into one server: per-team per-puzzle solve flags, an unlock graph that releases puzzles based on time and solve count, a normalising answer checker, rate-limited submissions, and a leaderboard. [researched] It is feature-complete and battle-tested, and it is also the honest illustration of the build-versus-buy line, because it needs a real server to run and an admin willing to operate it. That places it above the zero-cost tier where a static HTML page with a password check lives. The platform encodes a decade of hunt-running practice, but adopting it means taking on the operations, not just the code. [synthesis]
+:::
+
+### Build versus buy
+
+Almost every hybrid producer faces the same fork: write the gate yourself or rent a platform. The honest answer depends on scale and on how much engineering time the event can spare, and the trap is reaching for more machine than the game needs. A social live game with twenty friends does not need per-team server state and a leaderboard; a public hunt with five hundred asynchronous solvers cannot survive without them.
+
+| Tier | Typical tooling | Fits | Main cost |
+|---|---|---|---|
+| Static gate | One HTML page, password check, free static host | Small social games, scavenger trails | Answer visible in source [corpus] |
+| Server function | A single edge function checking against a secret | Any game where answer secrecy matters | Needs hosting; tiny latency [corpus] |
+| No-code state | A spreadsheet-backed app the GM edits live | Per-team unlocks without writing code | Row and user caps on free tiers [corpus] |
+| Hunt platform | gph-site or a commercial hunt service | Public hunts, multi-team competition | Real server and operations [researched] |
+
+Two cross-cutting concerns sit underneath the whole table. The first is hosting resilience. A free static host that throttles under a traffic spike will pause your game just when two hundred players scan a code together. The resilient choice for event day is a host with no bandwidth cap on a global edge network. [corpus] The second concern is mid-event editing. This is the underrated ability to fix a broken URL or post a new hint page while the game is live. A common and dependable split keeps the static game shell on one host that rarely changes. The changing clue text then lives in a page any organiser can edit from a phone, with the shell pointing at it. [corpus] When the gate is reached by scanning a physical tag rather than typing a URL, the trigger craft and its anti-spoiler concerns are [QR & NFC Patterns](../space-props-materiality/qr-and-nfc-patterns.qmd), and when the unlock drives an embedded screen or microcontroller in the room, that hardware is [Digital Props](../space-props-materiality/digital-props.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The seductive shortcut is to check the answer in the browser because that is so much easier to build. The reassurance is that nobody will bother to look. For a competitive hunt this is a wall with a window in it. The answer (or a hash you can invert) sits in the page source. The one population most able to read it is exactly the population most motivated to do so. Strong solvers reflexively open the console. Hashing a short answer does not save you either. A four-digit code has only ten thousand possible hashes. A laptop inverts the lot in seconds. [corpus] If answer secrecy matters at all, the check belongs on the server. No amount of client-side cleverness substitutes for moving that one comparison out of the player's reach. [synthesis]
+:::
+
+### The same gate in other media
+
+A digital gate is most visible in a hunt, but the underlying mechanism, hold content behind a condition and flip a flag when it is met, is native to two other media that reached it first. In interactive fiction the gate is a flag check in the story's own logic. A passage is locked until a state variable is true, and the variable is set by an earlier choice, an item picked up, a counter crossed. The branch structure of a state-based story is built from exactly these gated conditions, which is the IF formalisation of gating and state. [corpus] The web app version is the same pattern moved from the engine's memory to a server, and the failure modes rhyme: a load-bearing flag that never gets set strands the player just as surely in prose as a broken unlock graph strands a team in a hunt. The choice architecture that decides which gates carry weight is [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd).
+
+Single-player digital puzzle games gate the same way, but use it to pace the teaching rather than to protect a secret. A mechanic stays locked until the player has shown they understand the previous one, and the game reveals its toolkit on a deliberate curve, each new ability gated behind competence with the last. [corpus] Here the gate is a tutor, not a guard, and the state it tracks is what the player has learned. The other half of this picture, who is allowed to know what and when across a whole game, is [Information Architecture](../puzzles-clues-information/information-architecture.qmd), and the format that strings gated puzzles into rounds and metas is [Puzzle Hunt Craft](../puzzles-clues-information/puzzle-hunt-craft.qmd).
+
+## Where this fits
+
+**The bigger picture.** Digital gating sits at the seam where the Systems & Mechanics family meets physical production, and it is best understood as the software half of a lock. A [Lock Taxonomy](../space-props-materiality/lock-taxonomy.qmd) catalogues the hardware that blocks a path until a condition is met; this article is the same idea in code, with the same core question of whether the judge is fair and whether a wrong input can slip past it. The layer rests on sound cluing, because a gate is only as fair as the answer it checks. No checker can rescue a puzzle whose answer was never reachable. What depends on it is most of the operational spine of a hybrid event. A game master's dashboard reads from the state this layer keeps, as does the reset between sessions and the leaderboard a public hunt runs on. Where the canonical copy lives is the decision that ripples furthest. It sets reset cost and tamper resistance, and it decides whether the game can even tell you what is happening while it runs.
+
+**Next steps.** Once the gate and its state are settled, the craft turns to what the checker is adjudicating, which is the fairness of the answer itself: [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). To see the checker as a mechanism that resolves an outcome without a person in the loop, the same role a die or a maglock plays, go to [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd), and to place that mechanism-as-judge among the wider ways a game decides what happens, [Mechanical Resolution Types](mechanical-resolution-types.qmd). When the gate is part of an authored procedure rather than a bare unlock, the way mechanics carry meaning is [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd), and when the state being tracked is the slow shift of a faction or a filling clock rather than a solve flag, that is [Progress Clocks & Faction State](progress-clocks-and-faction-state.qmd). For the physical triggers and devices that sit on the other side of the gate, start from [QR & NFC Patterns](../space-props-materiality/qr-and-nfc-patterns.qmd) and [Digital Props](../space-props-materiality/digital-props.qmd).
+
+## Sources
+
+- gph-site (Galactic Puzzle Hunt open-source Django hunt server); per-team per-puzzle solve flags, time-and-solve unlock graph, normalised server-side answer checking with rate limiting. <https://github.com/galacticpuzzlehunt/gph-site>
+- Irpan, Alex. "A Puzzlehunt Tech Checklist." 16 March 2020; automatic server-side answer checking, normalisation ("strip non-alphabetic, uppercase"), submission tagging. <https://www.alexirpan.com/2020/03/16/puzzlehunt-tech.html>
+- Irpan, Alex. "MIT Mystery Hunt 2021." 29 January 2021; the three-guesses-per-five-minutes-per-round throttle. <https://www.alexirpan.com/2021/01/29/mh-2021.html>
+- fortenforge. "Suggestions for Running a Puzzlehunt." GitHub; answer normalisation and guess-limiting policy. <https://github.com/fortenforge/suggestions-for-running-a-puzzlehunt>
+- Playful Technology. *Node-REDscape* (Node-RED escape-room orchestration); flow-variable and MQTT-retained state, GM dashboard, remote reset, the reconstruct-from-solve-flags reset model. <https://github.com/playfultechnology/node-redscape>
+- Cloudflare Pages limits (official docs); unlimited bandwidth on the free tier, edge-function request caps. <https://developers.cloudflare.com/pages/platform/limits/>
+- Mosquitto documentation; retained-message semantics and broker persistence. <https://mosquitto.org/documentation/>
+- Glide (spreadsheet-backed no-code app builder); per-team unlock state edited from a Google Sheet, free-tier row and user caps. <https://www.glideapps.com/>
+- Uniqode QR scavenger-hunt guide; post-print QR destination swap and scheduled landing-page reveal. <https://www.uniqode.com/blog/trending-use-cases/qr-code-for-scavenger-hunt>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 

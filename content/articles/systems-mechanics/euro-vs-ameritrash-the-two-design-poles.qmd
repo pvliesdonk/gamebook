@@ -1,14 +1,105 @@
 ---
 title: "Euro vs Ameritrash: The Two Design Poles"
-aliases: []
+aliases: ["German-Style vs American-Style", "Euro vs Thematic", "The Euro-Ameritrash Axis"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [optimisation-pleasure, dramatic-tension, table-presence]
+  problems: [theme-mechanism-mismatch, runaway-luck, player-elimination]
+  components: [wooden-cubes, custom-dice, miniatures, scoring-track]
+  genre: [historical, sci-fi, fantasy, horror]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: Two answers to one question, pinned at opposite ends of the table. Is the system itself the experience? Or does it answer to the story?*
+
+Sit down to *The Castles of Burgundy* and you are running an estate. Sit down to *Twilight Imperium* and you are fighting a galactic war. Both are boxes of cardboard and wood and plastic, both ask three or four people to spend an evening together, and both have been called, by their admirers and their detractors, the wrong way to make a board game. They sit at opposite ends of a line the hobby has argued about for thirty years. One end prizes the clean machine. The other prizes the lived story. [researched]
+
+The two poles go by names that were never meant to be flattering. "Eurogame" is geographical and mostly neutral. "Ameritrash" started as an insult and got adopted as a badge. [researched] What the labels point at is real, even where the boundary has gone soft. A Eurogame wants you to optimise inside a tight, fair system where luck is small and nobody gets knocked out. An American-style game wants you to live through a dramatic arc, with dice that can betray you and factions that play nothing alike, on a board that pictures the thing it represents. [researched]
+
+This article maps that line and the design choices strung along it. It is a tabletop reference, because the axis is a tabletop one. The contrast does not transfer cleanly to interactive fiction or a live game, where the constraints are wholly different. A designer gains nothing by picking a side. The value lies in seeing which dial each tradition prefers. It also lies in seeing why the hybrid era moves several of them at once.
+
+## The Mechanism (How it works)
+
+### One axis, several dials
+
+The Euro-Ameritrash debate reads like a single argument, but it is really a bundle of separate design decisions that happen to correlate. Pull them apart and each becomes a dial set on its own. The traditions are clusters of typical settings, not a binary switch. [researched] A game might pair a low-luck economy (Euro) with open warfare on a map (American) and end up somewhere neither camp would claim. That middle ground holds most of the interesting modern design. A designer reaches it only once the dials read as separate.
+
+The cleanest way to hold the contrast is side by side. The table below lays the poles against each other dial by dial. Read it as a spectrum, not a scorecard. Almost no published game sits hard at one end on every row.
+
+| Dial | Eurogame pole | American-style pole |
+|---|---|---|
+| Player interaction | Indirect: blocking, crowding the same action space, racing for scoring | Direct: combat, taking pieces, attacking a position [researched] |
+| Luck | Low; outcomes track decisions | High; the dramatic dice roll is the emotional peak [researched] |
+| Player elimination | Avoided by design; everyone plays to the end | Accepted as a natural cost of conflict, then often mitigated [researched] |
+| Theme | Flavour grafted onto an abstract system | The driver; rules exist to simulate the fiction [researched] |
+| Resolution | Deterministic scoring, set-collection, engine output | Custom dice, partial successes, theme-specific results [researched] |
+| Components | Wooden cubes, meeples, hex tiles, the "wood and cardboard" look | Miniatures, sculpted tokens, illustrated cards, table presence [researched] |
+| Length | Short to medium; learnable in one session | Long; framed as the room a narrative arc needs [researched] |
+| Asymmetry | Players usually start equal | Asymmetric factions carry distinct identities and powers [researched] |
+
+The grammar of board game mechanisms underneath these dials (worker placement, area control, deck-building, and the rest) is its own subject, [Boardgame Mechanism Vocabulary](boardgame-mechanism-vocabulary.qmd). What this article does is sort those mechanisms by the experience they are reaching for.
+
+### The Euro pole: the system is the game
+
+The Eurogame, also called the German-style board game, is a cluster of values that set in the West German hobby publishing scene of the 1980s and early 1990s. [researched] The traits travel together. Interaction is indirect, so you crowd opponents out of an action space rather than attack them. Elimination is rare or absent. Resource management is tight, and points arrive from several overlapping routes (the "point salad"), with theme treated as flavour rather than simulation. Rules stay short and clean, learnable in a single sitting. Where conflict exists it is usually positional or economic, not violent. [researched]
+
+The genre's commercial engine is the Spiel des Jahres, a German game-of-the-year award founded in 1978 and first presented in 1979, judged by a jury of German-speaking critics against four criteria: game concept, rule structure, layout, and design. [researched] The jury aims at family-accessible games, which shaped a whole industry toward clean, teachable rulesets. Winning it can turn a modest German title into a mass-retail hit across dozens of countries. [researched] The breakout was Klaus Teuber's *Die Siedler von Catan* (1995), which paired a modular hex board with a dice-driven resource economy and player-to-player trading, and has since sold over 45 million copies. [researched] Wolfgang Kramer and Richard Ulrich's *El Grande* (1995) arrived the same year and set the template for area control. [researched]
+
+The tradition then specialised. Reiner Knizia, a mathematician by training, built a catalogue of auction and set-collection games (*Modern Art*, *Ra*, *Tigris and Euphrates*) whose scoring reduces to a clean strategic tension you can state in a sentence. [researched] Ravensburger's Alea imprint became the home of the "heavy Euro", 90 to 150 minutes of interlocking systems: *Puerto Rico* (Andreas Seyfarth, 2002), *The Castles of Burgundy* (Stefan Feld, 2011), and more. [researched] Feld himself gave the genre its most discussed signature, the turn that always offers progress along several axes at once, so no turn is wasted even when your first choice is blocked, and points arrive from so many routes that no single strategy dominates. [researched] Admirers read that as genuine depth. Critics read it as a diffuse optimisation puzzle with the theme bolted on, which is exactly the charge the next pole answers. [researched] The discipline of building those rich, non-collapsing choices is [Decision Space & Choice Design](decision-space-and-choice-design.qmd); the question of whether the theme and the system actually speak to each other is [Theme-Mechanism Integration](theme-mechanism-integration.qmd).
+
+The dominant Euro mechanism of the 2010s was engine-building: assembling a personal tableau whose pieces grow in power as the game runs, rewarding multi-turn planning and a satisfying acceleration toward the end. [researched] *Dominion* (Donald Vaccarino, 2008), *Terraforming Mars* (2016), and *Wingspan* (Elizabeth Hargrave, 2019) trace its rise. The deck-building branch of that family is large enough to warrant its own treatment, [Deckbuilders](deckbuilders.qmd).
+
+::: {.callout-note}
+### The Specimen
+*Puerto Rico* (Andreas Seyfarth, alea, 2002) is the Euro pole near its purest. Players develop a colonial plantation economy by selecting role cards (Captain, Trader, Builder, and the rest) that everyone then acts on, so the choice that helps you also hands a smaller benefit to your rivals. The game carries no combat and no dice, and nobody is ever knocked out. The whole tension lives in opportunity cost: which role to call, knowing the table rides along. The theme is a thin coat over what is, underneath, an elegant economic optimisation problem, which is the standing Euro critique and the standing Euro pleasure in one box. [researched]
+:::
+
+### The American pole: the story is the game
+
+The American-style game descends from a different ancestor: post-war recreational wargaming. Charles S. Roberts self-published *Tactics* in 1954 under the company that became Avalon Hill, the first commercially successful modern board wargame, a boxed set with a printed map, cardboard counters, and rules. [researched] *Gettysburg* (1958) was the first to model a real historical battle, and the hex grids and zones of control of that era became the mechanical vocabulary downstream design inherited. [researched] *Risk* (1957) carried global conflict to the mass market, and *Diplomacy* (1959) bound negotiation to outright player elimination. [researched] When the dedicated wargame market contracted in the late 1980s, the space it left is where the modern thematic game grew. [researched]
+
+Fantasy Flight Games, founded by Christian T. Petersen in 1995, became the defining American-style publisher of the 2000s and 2010s, opening with *Twilight Imperium* (1997), a space-opera epic for up to six players that runs four to eight hours. [researched] Cool Mini Or Not (CMON) followed a Kickstarter-driven model built on lavish miniatures, raising over 108 million dollars before 2024; under Eric Lang its games (*Blood Rage*, *Rising Sun*) set asymmetric factions, sculpted plastic, and a designed dramatic arc as the house style. [researched]
+
+The pole rests on a few load-bearing pillars. Direct conflict is normalised. You attack a position and take its resources, and the losing pieces leave the board. This is the sharpest break from the Euro habit of competing only for a shared space. [researched] The dramatic dice roll is the emotional peak, high-stakes combat settled by a fistful of custom symbol dice with the whole table watching, where the symbols can carry partial successes and theme-specific events a plain number could not. [researched] How a system shapes that moment of uncertainty, in tabletop generally, is [Mechanical Resolution Types](mechanical-resolution-types.qmd). Theme comes first and the rules exist to simulate it: *War of the Ring* (2004) derives its Free Peoples and Shadow asymmetry straight from Tolkien's structure, and *Star Wars: Rebellion* (2016) builds its loop from the original trilogy's premise of a hidden base and a hunting Empire. [researched] Asymmetric factions give each side a distinct identity, and player elimination, while modern designs widely soften it, was long accepted as the honest consequence of a real fight. [researched]
+
+::: {.callout-warning}
+### The Hazard
+The dramatic dice roll that defines the American pole is also its most reliable way to wreck an evening. The same throw that makes a heroic last stand sing can also hand a player a run of misfortune they did nothing to earn. In a four-hour game that becomes four hours spent watching a result you could not influence. Worse is the old elimination habit: knock a player out at hour two of a six-player epic and you have a bored spectator at the table for the rest of the night. The tradition learned this the hard way. Modern thematic design hedges the swing on several fronts at once. Custom dice put a floor under the worst outcomes. Rerolls and other mitigation hand a player a second say. A knocked-out player can be kept in the room by side activities or by the outright removal of elimination, so the drama survives without the dead time it used to cost. The fix is not to flatten the luck. A bad roll should bruise rather than end. [synthesis]
+:::
+
+### Why the dials correlate, and where they split
+
+The dials cluster for a reason. A game that puts theme first wants combat, because combat is where most fiction's tension lives, and combat wants dice, because a clean deterministic clash feels bloodless. Dice bring swing, swing brings the chance of elimination, and elimination is tolerable only in a game already framed as a dramatic arc rather than a fair optimisation. [synthesis] Run the logic the other way and the Euro cluster falls out just as tightly. Prize fairness and you suppress luck. Suppress luck and a direct attack becomes merely the strong picking on the weak, which pushes interaction indirect. With no one knocked out, the game has to end on score rather than on survival.
+
+That is why the labels felt like whole worldviews during the genre war that ran across English-language hobby forums from roughly 1995 to 2010. [researched] Each side defined itself against the other: Euros as clean, fair, and elegant; American-style as thematic, dramatic, and memorable. The argument cooled in the 2010s because designers stopped treating the dials as a package. The Euro tradition's own attitude to luck, the deliberate choice of how much outcome to leave to chance, is [Elegance, Emergence & Randomness](elegance-emergence-and-randomness.qmd), and it is precisely the dial the hybrids learned to reset.
+
+### The hybrid era
+
+From roughly 2015 the boundary relaxed in earnest, as designers raised on both traditions pulled American-style ambition into Euro-structured games. [researched] *Scythe* (Jamey Stegmaier, 2016) runs an engine-building economy under asymmetric factions and stylised conflict on a large illustrated map. *Brass: Birmingham* (Martin Wallace, 2018) is a tight network-building economy with direct blocking and a strong industrial-revolution theme. *Spirit Island* (R. Eric Reuss, 2017) puts Euro efficiency structures in service of an openly political colonial-resistance narrative, cooperatively. [researched] The hobby calls the convergence the "Euro-American hybrid", or, with a wink, "Eurotrash". [researched]
+
+The hybrid move is exactly the dial-by-dial reading made concrete. Take the Euro's low-luck engine and fair, no-elimination economy, then bolt on the American pole's asymmetric factions, thematic commitment, and richer components, and leave the dramatic dice mostly behind. The result keeps the optimisation pleasure while buying back the table presence and narrative identity the pure Euro was always charged with lacking. [synthesis] The cooperative and legacy-game traditions, which lean hard on theme and persistence while often keeping Euro-clean systems, are a related broadening, [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd). And the tools both poles reach for to make a game worth a second and a tenth play (variable setup, asymmetric powers, modular boards) are surveyed in [Replayability](replayability.qmd).
+
+## Where this fits
+
+**The bigger picture.** The Euro-Ameritrash axis is the broadest orienting map the board game side of this family has, and almost every other mechanism choice can be located on it. It is not a rule you design by. It is a coordinate system for the trade you make whenever you set the luck level or choose between direct and indirect interaction, the same trade you make in deciding whether the theme leads. The two poles hold together because those choices reinforce each other. That mutual reinforcement is also why moving one dial pulls the others. A designer who can place a game on each dial borrows from either tradition on purpose. The alternative is to reach for one label that covers the lot and inherit a package by default. The hybrid era is just the hobby discovering at scale that the dials were always separable.
+
+**Next steps.** To work below the axis at the level of individual mechanisms, start with [Boardgame Mechanism Vocabulary](boardgame-mechanism-vocabulary.qmd), then the two dials the traditions argue hardest over: [Decision Space & Choice Design](decision-space-and-choice-design.qmd) for the Euro's optimisation craft and [Theme-Mechanism Integration](theme-mechanism-integration.qmd) for the American pole's insistence that the rules serve the fiction. To set the luck dial deliberately, the choice the hybrids reset, go to [Elegance, Emergence & Randomness](elegance-emergence-and-randomness.qmd); for the moment of resolution itself, [Mechanical Resolution Types](mechanical-resolution-types.qmd). The deck-building and engine families that carried the modern Euro are [Deckbuilders](deckbuilders.qmd), the thematic, persistent designs that the hybrid era pushed forward are [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd), and the shared problem of keeping a game alive across many plays is [Replayability](replayability.qmd).
+
+## Sources
+
+- Woods, Stewart. *Eurogames: The Design, Culture and Play of Modern European Board Games*. McFarland, 2012. <https://mcfarlandbooks.com/product/eurogames/>
+- "Spiel des Jahres." Wikipedia. <https://en.wikipedia.org/wiki/Spiel_des_Jahres>
+- "Spiel des Jahres FAQ." spiel-des-jahres.de. <https://www.spiel-des-jahres.de/en/faq/>
+- "Klaus Teuber." Wikipedia. <https://en.wikipedia.org/wiki/Klaus_Teuber>
+- "About Us." CATAN. <https://www.catan.com/about-us>
+- "Reiner Knizia." Wikipedia. <https://en.wikipedia.org/wiki/Reiner_Knizia>
+- "Wolfgang Kramer." Wikipedia. <https://en.wikipedia.org/wiki/Wolfgang_Kramer>
+- "Alea: 20 Jahre." Ravensburger press release (PDF). <https://www.ravensburger-gruppe.de/content/wcm/mediadata/pdf/de/Presse/Pressemitteilungen/Spiele/2019/PI%2020%20Jahre%20alea%20-%20die%20Marke%20f%C3%BCr%20anspruchsvolle%20Strategiespiele.pdf>
+- "Ameritrash." Wikipedia. <https://en.wikipedia.org/wiki/Ameritrash>
+- "Avalon Hill." Wikipedia. <https://en.wikipedia.org/wiki/Avalon_Hill>
+- "Charles S. Roberts." Wikipedia. <https://en.wikipedia.org/wiki/Charles_S._Roberts>
+- "Fantasy Flight Games." Wikipedia. <https://en.wikipedia.org/wiki/Fantasy_Flight_Games>
+- "Cool Mini Or Not." Wikipedia. <https://en.wikipedia.org/wiki/Cool_Mini_Or_Not>
+- "Eric M. Lang." Wikipedia. <https://en.wikipedia.org/wiki/Eric_M._Lang>
+- "War of the Ring (board game)." Wikipedia. <https://en.wikipedia.org/wiki/War_of_the_Ring_(board_game)>
