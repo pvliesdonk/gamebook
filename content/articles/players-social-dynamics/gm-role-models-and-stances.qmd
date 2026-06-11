@@ -101,11 +101,15 @@ The seductive failure is the secret stance switch. A gamemaster runs a game as a
 ## Referenced by
 
 - [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)
+- [Distributing Narrative Authority](../systems-mechanics/distributing-narrative-authority.qmd)
+- [Encounter & Challenge Design](../systems-mechanics/encounter-and-challenge-design.qmd)
 - [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd)
 - [One-on-One Scene Design](one-on-one-scene-design.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
 - [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
+- [Social Performance Genres](../systems-mechanics/social-performance-genres.qmd)
+- [TTRPG Format Taxonomy](../systems-mechanics/ttrpg-format-taxonomy.qmd)
 - [The Session Zero Playbook](the-session-zero-playbook.qmd)
 - [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)

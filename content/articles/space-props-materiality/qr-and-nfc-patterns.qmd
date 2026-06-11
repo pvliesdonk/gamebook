@@ -117,6 +117,7 @@ Chronicles of Crime (Corentin Lebrat and Wenceslas, 2018) runs an entire investi
 
 - [Artefact Design & Document Production](artefact-design-and-document-production.qmd)
 - [Cue Management & GM Station](cue-management-and-gm-station.qmd)
+- [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd)
 - [Digital Props](digital-props.qmd)
 - [Making It Real](../../primers/making-it-real.qmd)
 - [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd)

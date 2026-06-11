@@ -118,6 +118,7 @@ This is also where the form proves its reach across other media. In live and phy
 - [Branching Narrative Craft](branching-narrative-craft.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
 - [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd)
+- [Oracle & Solo-Play Resolution](../systems-mechanics/oracle-and-solo-play-resolution.qmd)
 - [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
 - [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)

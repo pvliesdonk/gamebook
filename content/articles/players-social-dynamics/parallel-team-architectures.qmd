@@ -114,6 +114,7 @@ Control overhead is the line most often underestimated, and it falls hardest on 
 - [Team Splitting Strategies](team-splitting-strategies.qmd)
 - [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [Treasure & Scavenger Hunts](../puzzles-clues-information/treasure-and-scavenger-hunts.qmd)
+- [Turn Structure & Action Economy](../systems-mechanics/turn-structure-and-action-economy.qmd)
 - [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)
 
 <!-- BACKLINKS:END -->

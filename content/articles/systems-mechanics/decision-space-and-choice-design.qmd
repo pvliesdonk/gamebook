@@ -118,6 +118,19 @@ A live game meets the question with its own constraints. Errol Elumir's escape-r
 
 ## Referenced by
 
+- [Boardgame Mechanism Vocabulary](boardgame-mechanism-vocabulary.qmd)
+- [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd)
+- [Deckbuilders](deckbuilders.qmd)
+- [Elegance, Emergence & Randomness](elegance-emergence-and-randomness.qmd)
+- [Encounter & Challenge Design](encounter-and-challenge-design.qmd)
+- [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
+- [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
 - [Player Types & Casting](../players-social-dynamics/player-types-and-casting.qmd)
+- [Replayability](replayability.qmd)
+- [Social Performance Genres](social-performance-genres.qmd)
+- [Solo Modes](solo-modes.qmd)
+- [The Engine Room](../../primers/the-engine-room.qmd)
+- [Theme-Mechanism Integration](theme-mechanism-integration.qmd)
+- [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd)
 
 <!-- BACKLINKS:END -->

@@ -108,6 +108,7 @@ These formats are live-game native, but their grammar carries into single-player
 
 ## Referenced by
 
+- [Cooperative & Legacy Genres](../systems-mechanics/cooperative-and-legacy-genres.qmd)
 - [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd)
 - [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd)
 - [Parallel Team Architectures](parallel-team-architectures.qmd)

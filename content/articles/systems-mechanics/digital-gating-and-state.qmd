@@ -122,11 +122,13 @@ Single-player digital puzzle games gate the same way, but use it to pace the tea
 - [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd)
 - [Digital Props](../space-props-materiality/digital-props.qmd)
 - [IF Graph Structures: A Taxonomy](../structure-pacing/if-graph-structures-a-taxonomy.qmd)
+- [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
 - [Information Architecture](../puzzles-clues-information/information-architecture.qmd)
 - [Physical vs Digital Puzzle Artefacts](../space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd)
 - [Puzzle Hunt Craft](../puzzles-clues-information/puzzle-hunt-craft.qmd)
 - [QR & NFC Patterns](../space-props-materiality/qr-and-nfc-patterns.qmd)
 - [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd)
 - [The Aha Moment](../puzzles-clues-information/the-aha-moment.qmd)
+- [The Engine Room](../../primers/the-engine-room.qmd)
 
 <!-- BACKLINKS:END -->

@@ -94,6 +94,7 @@ The category is not the design. A taxonomy tells you a puzzle counts as an obser
 
 - [Ciphers & Codes](ciphers-and-codes.qmd)
 - [Cluing & Fairness](cluing-and-fairness.qmd)
+- [Encounter & Challenge Design](../systems-mechanics/encounter-and-challenge-design.qmd)
 - [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)
 - [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd)
 - [Teaching Through Play](teaching-through-play.qmd)

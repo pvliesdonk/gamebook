@@ -103,6 +103,7 @@ Cast against the warmup, not against the wish-list. The questionnaire tells you 
 
 - [GM Role Models & Stances](gm-role-models-and-stances.qmd)
 - [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd)
+- [Playbook Design](../systems-mechanics/playbook-design.qmd)
 - [The Session Zero Playbook](the-session-zero-playbook.qmd)
 - [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 

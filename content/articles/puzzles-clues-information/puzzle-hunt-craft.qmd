@@ -112,6 +112,7 @@ Shipping without enough test-solving is the failure that no amount of clever con
 ## Referenced by
 
 - [Designer-Community Trust in Long-Form Hunts](../players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd)
+- [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd)
 - [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)
 - [Parallel Team Architectures](../players-social-dynamics/parallel-team-architectures.qmd)
 - [Physical vs Digital Puzzle Artefacts](../space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd)

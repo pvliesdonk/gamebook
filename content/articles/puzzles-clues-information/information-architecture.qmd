@@ -113,6 +113,7 @@ The seductive failure is the packet that knows too much. You write one character
 - [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd)
 - [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
 - [Cluing & Fairness](cluing-and-fairness.qmd)
+- [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
 - [Escape Room Topologies](../structure-pacing/escape-room-topologies.qmd)
 - [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)
