@@ -1,14 +1,102 @@
 ---
 title: "Team Sizes & the Bottleneck Problem"
-aliases: []
+aliases: ["Player Count", "Group Size", "Parallel-Puzzle Thresholds", "Bottleneck Players"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, puzzle-hunt, tabletop, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [engagement-equity, parallel-agency, shared-climax]
+  problems: [idle-players, spectator-drift, communication-overload, single-prop-crowding]
+  components: [puzzle-thread, aggregation-point, team-lane, control-staff]
+  genre: [mystery, heist, adventure]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+<!-- TERM-FLAG: "Team Sizes & the Bottleneck Problem" is the canonical term for this mechanism, not yet in docs/term-registry.md. Add in the family's batched registry pass. Aliases above are candidate aliases. -->
+
+*Silhouette: How many bodies the design can keep solving rather than watching, and what breaks each time the count climbs.*
+
+Put twelve people in a room built for six and they will probably still escape. That is the trap. From the outside a finished session looks like a success. Inside it half the room had spent the hour at the back. They leaned in to read a clue over someone's shoulder and then stepped away again. Present but not playing. The gap between the players who had something real to do and the ones who only watched is the whole subject of this article. It almost never shows up in the win rate.
+
+Team size is one of the load-bearing decisions a live design makes, because the count sets everything downstream. It fixes how many puzzle threads have to be live at once and how heavy the talking gets before it turns to noise. It sets how much floor space the bodies need, and whether a given person feels like a contributor or an audience member. [corpus] Get it wrong and the design does not fail loudly. It just quietly sidelines people while the clock runs out on schedule.
+
+## The Mechanism (How it works)
+
+### The size bands, and what changes at each
+
+Player count does not scale smoothly. It steps. Each band has its own failure mode and its own demand on the design, and the jumps between them are where rooms break.
+
+| Team size | Parallel threads needed | Coordination load | Main engagement risk |
+|---|---|---|---|
+| 1 (solo) | 1, deep rather than wide | Low; the hint system carries the recovery | Pacing stall if difficulty is set for a group [corpus] |
+| 2 (pair) | 2, converging | Low | One player dominates, the other spectates [corpus] |
+| 3-4 | 2-3 simultaneous | Low, close to a conversation | At least one player idle if opening is too narrow [corpus] |
+| 5-8 | 3-5 simultaneous | Medium; a loose facilitator emerges | Sub-groups collide or duplicate work [corpus] |
+| 9 and above | Team-lane architecture | High; dedicated control staff | Whole sub-groups stranded without subdivision [corpus] |
+
+Solo play is its own discipline. With no partner to think out loud at, every inference the design wants the player to make has to be reachable from the environment alone. The hint system matters more, too, because a lone solver has no social embarrassment stopping them from leaning on it. [corpus] The compensation is that the experience is undiluted. Every piece of information in front of a solo player is theirs. A dead end registers as a personal wrong turn rather than collective confusion, and the emotional arc reaches the player unmediated. [corpus] The same single-thread intensity is what interactive fiction is built on, where one reader carries the whole weight of choice with no one to defer to.
+
+A pair shares those constraints and adds one of its own: two people on a single thread leave one of them idle most of the time. A pair design earns its second player by running two threads at once that meet at a shared synthesis step. [corpus] The risk at this size is small but real. One player takes the wheel and the other becomes a spectator inside a group of two. That is a design failure rather than a personality clash, because the design handed the quiet player nothing to hold. [corpus]
+
+Three to four players is the band most commercial escape rooms target, and the reasons are sound. Two to three live threads will keep everyone occupied without overload. The talking stays close to ordinary conversation. Players hear each other and pass discoveries across the room in seconds. They sort themselves out without needing a designated leader. [corpus] The trap here is underbuilding. A room that opens with one or two puzzles strands a player from the first minute, which is the worst possible moment to lose someone. Three opening threads for a group of four is the safe floor. [corpus]
+
+### The threshold at five, where the room stops being one conversation
+
+Five is where the dynamics tip. A group this size can no longer hold a single shared conversation. Sub-groups form whether the design planned for them or not. Puzzle work runs in parallel by default. [corpus] That split is either the best thing about the band or the worst. The design decides which. Build for the parallelism and two sub-groups can each unlock a piece that only makes sense once combined. That is a genuine emergent moment. Leave it unplanned and the players still split. Now they duplicate effort or get in each other's way physically. [corpus]
+
+Talking gets harder fast above five. The practitioner consensus, put sharply by Room Escape Artist, is that communication breaks down exponentially as a function of team size, which is exactly why someone in a group of six ends up half-playing a coordinator without ever being asked to. [researched] The design answer is to give the room a place to pool what it finds. A shared board or central map works, a table where every discovered clue is laid down for everyone to see. Without that aggregation point, an informal facilitator quietly monopolises the information, and the rest of the group has to route its attention through one person. [corpus]
+
+Space becomes a real constraint at this band too. Eight people need room to move without colliding, and any puzzle that asks the whole group to cluster round a single prop is a bottleneck waiting to happen. [corpus] Larger venues answer this with multi-room layouts that let sub-groups separate physically while the story still holds together. [corpus]
+
+### Nine and up: it stops being an escape room
+
+Past nine players the thing in the room is no longer an escape room in the ordinary sense. It is a structured group event with game mechanics, which is what a megagame is. Jim Wallman's *Watch the Skies*, first run in London in 2013 with more than fifty players, is the reference case. [researched] It does not try to keep everyone on one puzzle thread. It runs parallel lanes of activity, diplomacy and military and science and media, that intersect at irregular moments, and players sit on teams of a handful each inside the larger whole. [corpus]
+
+Three things change at this scale. Teams need internal roles or the coordination cost becomes unbearable. Control staff have to scale with the headcount, roughly one referee per ten to fifteen players, because rulings are now constant and made on the fly. [corpus] The design also has to absorb downtime rather than wish it away. At any given moment some players are waiting. The job is a wait that reads as anticipation instead of exclusion, usually through a central information layer such as a live news team or a visible scoreboard. [corpus] For anything between eight players and full megagame scale, the practical move is almost always the same. Subdivide into functional teams of four to six and build a meta-layer where the team outputs combine, which preserves the per-player experience while still seating the whole crowd. [corpus] How those sub-teams are carved up and routed is its own craft, covered in [Team Splitting Strategies](team-splitting-strategies.qmd) and, once several teams have to interact, [Parallel Team Architectures](parallel-team-architectures.qmd).
+
+The puzzle hunt is the medium that lives at this scale by design. A large team in the MIT Mystery Hunt can reach a hundred members or more (many of them remote) facing a couple of hundred puzzles over a single weekend. [researched] The hunt survives the headcount precisely because it is built from many small parallel puzzles rather than one long chain, so a team of any size finds something everyone can pick up. [researched] That structural choice of who can work on what simultaneously is [Information Architecture](../puzzles-clues-information/information-architecture.qmd) applied to a crowd: the hunt distributes its puzzles so that solving never funnels through a single point.
+
+### The parallel-puzzle threshold
+
+There is a working rule of thumb underneath all of this, and it is worth stating as a number. Keep one simultaneously solvable puzzle live per two to three players. A group of four wants two to three threads available at any point; a group of six wants two to four. [corpus] It is not a formula, because puzzle complexity and physical space and how many hands a puzzle needs all bend it, but it is a sound planning floor.
+
+The way to use it is to walk the whole experience moment by moment and count the simultaneous activities available at each. At the opening, when energy is highest, that count should sit at or above the player count divided by two. Through the middle some convergence is fine as the group pools what it has found. At the climax a single shared challenge works well, because by then everyone has earned the right to witness the ending together. [corpus] The pacing logic behind that rise and fall is the same one that governs the wider session, covered in [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd).
+
+### The bottleneck problem
+
+Now the failure the article is named for. The bottleneck appears when a puzzle or a moment can only really involve one or two players while the whole group stands there with nothing else to do. The person at the lock is engaged. The other five are spectators. [corpus] This is not just a comfort issue. Sidelined players disengage quickly, start offering advice nobody asked for, and break the concentration of the player who actually has the puzzle, and operators name it as one of the most common reasons a group leaves a bad review. [corpus]
+
+The classic shape is a single physical clue everyone crowds around. It is a keypad or combination lock, a slot built for one pair of hands. Past the threshold every extra person is one more in the audience rather than one more solver. The same crowding happens around any information-dense puzzle, a cipher or a logic grid that one person reads aloud while the rest wait, and it happens hardest at the climactic final step where every path converges into one action. [corpus]
+
+The cure is parallelism, and it is mostly a matter of refusing to let the design funnel. A serial final step becomes a parallel one when three players each enter a part of the code at once, so the climax depends on all of them. An information-dense puzzle can be built for several readers comparing notes across different source documents rather than one reader and an audience. Where a single operator is unavoidable, the watchers get active roles that the moment genuinely needs, one player calling clue numbers while another works the lock, both load-bearing. For any group above six, separate puzzle chains that never force the whole crowd to converge until the final reveal will keep the sub-groups out of each other's way. [corpus] Handling the players who still go idle, turning watching into something that feels like a role, is [Spectator-Friendly Design](spectator-friendly-design.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The seductive error is the eight-puzzle opening that resolves into one nine-digit code. The design looks generous: plenty for everyone to do at the start, a satisfying convergence at the end. Then all eight answers funnel into a single lock that one player punches in while the other three watch the best beat of the game happen to someone else. The parallel-puzzle principle governs the resolution as hard as it governs the discovery. [corpus] The tell is when your own walkthrough has the whole group standing in a half-circle facing one person's hands. If the climax only has room for one pair of hands, the climax has a bottleneck, however many threads fed into it. [synthesis]
+:::
+
+### Engagement equity, the principle underneath
+
+Every specific fix above is one instance of a single rule. Each player should come away certain that their presence changed the outcome. [corpus] A person who spent fifty-five of sixty minutes watching others solve will not feel that. No amount of well-built puzzle content elsewhere in the room buys it back for them. So team size is a social-dynamics question and not just a logistics one. The count determines how many people the design can hand real agency to. The bottleneck is what happens when the design hands agency to fewer people than it admitted through the door.
+
+The same equity problem turns up in pure information terms whenever a group is large enough to split: parcel the knowledge so each sub-group holds a real piece, and the split becomes contribution rather than duplication. That distribution is [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd). And the load that lands on whoever runs the event, which climbs steeply with the count, is [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd): at megagame scale the design simply cannot run without dedicated control staff scaling alongside the players.
+
+::: {.callout-note}
+### The Specimen
+Solo and pair formats are underserved in commercial escape rooms, because the business model rewards higher headcounts per session. A few design-forward venues build for the small count on purpose. Sherlocked in Amsterdam keeps a room, The Architect, bookable by two players, which protects the puzzle density per person that a larger group would dilute. [researched] The lesson cuts both ways. The same discipline that makes a two-player room work, one live thread per player and a synthesis step that needs both, is the discipline that stops an eight-player room from turning six of its players into an audience. The parallel-puzzle threshold is the same rule read at two different scales. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Team size is the dial that sets how much of the rest of this family even applies. Below a handful of players the social mechanisms stay quiet. There is no pile-on to dampen and no spectator to rescue, because the group is small enough to stay one conversation. Push the count up and each of those problems switches on, one band at a time, so the bands matter more than any single number. The bottleneck is the sharp edge of the whole thing, the moment the design promised a player agency at the door and then handed them an hour of watching. Everything else in this family, who holds which secret, how the host runs the room, how idle players are kept in the game, is a different answer to the one question team size forces: how many people can this design actually keep playing at once.
+
+**Next steps.** Once the count is set, the immediate craft is dividing the group well, which is [Team Splitting Strategies](team-splitting-strategies.qmd), and then making the divided sub-teams interact without flattening into one blob, which is [Parallel Team Architectures](parallel-team-architectures.qmd). To keep the players a bottleneck would have sidelined, work through [Spectator-Friendly Design](spectator-friendly-design.qmd). Where the headcount climbs past what one facilitator can hold, [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd) covers how control staff scale with it, and the physical layout that lets sub-groups work without colliding is [Escape Room Topologies](../structure-pacing/escape-room-topologies.qmd).
+
+## Sources
+
+- Nicholson, Scott. "Peeking Behind the Locked Door: A Survey of Escape Room Facilities." White paper, 2015. (Player-count ranges, the 4-6 sweet spot, and parallel-thread thresholds across surveyed facilities.) <https://scottnicholson.com/pubs/erfacwhite.pdf>
+- Spira, David (Room Escape Artist). "Players Per Escape Room." 25 June 2015. (Per-player experience quality; the observation that communication breaks down exponentially with team size.) <https://roomescapeartist.com/2015/06/25/players-per-escape-room/>
+- Wallman, Jim. *Watch the Skies* (2013, ongoing). (The canonical megagame; team-lane architecture and one-control-per-ten-to-fifteen-players staffing for large counts.) <https://watchtheskies.net/about/>
+- "Megagame." Wikipedia. (Megagame scale, control members as on-the-fly referees, hierarchical team structure.) <https://en.wikipedia.org/wiki/Megagame>
+- Cohen, Tara N., et al. "Advancing Team Cohesion: Using an Escape Room as a Novel Approach." *Simulation in Healthcare*, 2021. (Peer-reviewed corroboration of communication and role distribution across team sizes.)
+- "MIT Mystery Hunt." Wikipedia, and "Two Hundred Puzzles, Fifty Hours Later." MIT Admissions blog. (Hundred-plus-member teams, hundreds of parallel puzzles, why the hunt scales with headcount.) <https://en.wikipedia.org/wiki/MIT_Mystery_Hunt>, <https://mitadmissions.org/blogs/entry/two-hundred-puzzles/>
+- Sherlocked, Amsterdam. "The Architect." (A design-forward venue keeping a small-count, two-player-bookable room to preserve per-player puzzle density.) <https://www.sherlocked.nl/experiences/the-architect>

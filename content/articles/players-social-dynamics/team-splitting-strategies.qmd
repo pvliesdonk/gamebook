@@ -1,14 +1,110 @@
 ---
 title: "Team Splitting Strategies"
-aliases: []
+aliases: ["Sub-Team Design", "Splitting and Reconvergence", "Parallel Threads"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, puzzle-hunt, tabletop, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [parallel-engagement, sustained-momentum, tight-small-group-play]
+  problems: [idle-players, teams-trailing-each-other, waiting-team-dead-time, uneven-teams]
+  components: [sub-team, split-mechanic, reconvergence-point, scoring-method]
+  genre: [mystery, adventure]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+<!-- TERM-FLAG: "Team Splitting Strategies" is the canonical term for this Family 4 mechanism; not yet in docs/term-registry.md. Add in the batched Players registry pass. Sibling terms (Team Sizes & the Bottleneck Problem, Parallel Team Architectures) likewise pending. -->
+
+*Silhouette: Cutting one group that has grown too big into sub-teams that run in concert, then bringing them back together without dead time.*
+
+A thirty-person event run as one group is not a big game. It is a small game with twenty-four spectators. Past a certain size a single group stops being a team and starts being an audience around the three or four people actually doing the work. Splitting it looks like a seating problem, a matter of who stands where, but it is really structure. Cut badly and you get idle players, sub-teams that trail each other from clue to clue, or a finale where one group taps its feet while another finishes. Cut well and the same thirty people feel like several tight games running at once, each small enough that everyone in it has something to do.
+
+This article is about that cut. It covers the timing of the split, the shape of the division that keeps the pieces coherent without colliding, and the reunion that brings them back together. The hard part is almost never the splitting. It is the rejoining, and the minutes of nothing that open up when one sub-team finishes first.
+
+## The Mechanism (How it works)
+
+### When a group is too big to stay whole
+
+Two forces pull a large group apart, and both can be measured rather than guessed at. The first is motivation. The Ringelmann effect takes its name from rope-pulling experiments published in 1913. They found per-person output falling as a group grows. Two people pull at roughly 93 per cent of their combined solo force. Three pull at about 85 per cent. A group of eight pulls at around 49 per cent. [researched] For decades this looked like a coordination problem of people getting in each other's way on the rope. In 1979 a study by Latane and Williams and Harkins showed that most of the drop is motivation rather than fumbling. They had blindfolded participants shout as loudly as they could. On some trials a person shouted alone. On others that same person believed they were one voice in a shouting group while in fact still shouting alone. Effort fell whenever a person thought the noise was shared. They named the effect social loafing. [researched] Karau and Williams later pooled 78 studies and found it holding steady across tasks and populations. [researched] The drop is sharpest in the first few additions. The worst productivity-per-person territory begins early, somewhere around the third or fourth player.
+
+The second force is communication. The number of separate conversations a group can hold grows as n(n-1)/2. Five people have ten channels. Eight have twenty-eight. Ten have forty-five. [researched] Past eight or nine members a group can no longer run on open conversation. It needs a clear hierarchy and someone whose whole job is to keep the talk on track, or it fragments on its own into the side-chatter it can no longer suppress.
+
+Live-game practice arrived at the same band from the other direction. Scott Nicholson's 2015 survey of escape-room facilities found four to six the repeatedly-cited optimum, with puzzle threads calibrated to roughly one per two or three players. Seven or more in a standard room produces what the trade calls "more hands than puzzles," which is the idle-player bottleneck. [researched] That bottleneck and the thresholds behind it are the subject of [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd); the practical line this article acts on is that above eight or nine players on a shared task, subdivision stops being optional and the design question becomes how to split well.
+
+The target size shifts a little with the activity, but not much.
+
+| Activity | Sub-team size | Why |
+|---|---|---|
+| Pure puzzle-solving | 3 to 6 | Too few and no one holds the needed knowledge; too many and people spectate [researched] |
+| Physical search across space | 4 to 6 | Set by locomotion and how finds cluster, not by conversation [researched] |
+| Social and diplomatic play with internal roles | 3 to 6 | Enough players for distinct roles, few enough that all are heard [researched] |
+
+### Self-selection buys comfort, assignment buys balance
+
+How players land in their sub-teams decides what kind of event you get. Self-selected teams report higher satisfaction and settle faster, because people are with the friends they came with. Assigned teams tend to perform better, mainly because skill gets spread instead of clustered. [researched] Self-selection also produces the classic competitive failure: one stacked team of regulars against one team of strangers, a mismatch that deflates the whole event before it starts. The rule of thumb is to assign or seed teams wherever balance matters. Allow self-selection only where comfort matters more than a fair contest.
+
+Seeding means placing the strong players deliberately rather than letting them gather. Uneven team sizes are not automatically a flaw. Jim Wallman's megagame *Watch the Skies* gives the major powers more players on purpose. [researched] But a smaller team needs a compensating advantage, agility, a unique resource, or a bottleneck it alone controls, or it is simply under-resourced and will feel it. A useful megagame heuristic is one player per major mechanic, plus a leader to hold the team together. [researched] The deeper question of how teams relate once formed, whether they cooperate, compete, or carry hidden agendas, is [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd).
+
+### Splitting so teams do not trail each other
+
+The first failure of a split is teams following each other around, copying the group ahead and turning parallel play into a slow conga line. Two mechanics prevent it. Give teams different clue orders or staggered starts so no two are ever at the same station at once, which matters most for sequential routes where everyone must hit the same points in some order. And design more challenges than any single team can finish, so there is never a tidy answer to copy and nothing rewards bunching up. [researched]
+
+For coherence once teams are apart, the sharpest distinction in the craft is between perpendicular and parallel splits. A parallel split sends sub-teams off to work in isolation, like parallel lines that never meet. A perpendicular split forces them to cross, so the two sub-groups must trade information or objects to make progress. The Room Escape Artist taxonomy adds a second axis. A split is symmetrical when each sub-team has the same volume of content to work through and asymmetrical when one side has more than the other. [researched] The combination that works is symmetrical and perpendicular: equal content on each side, with forced exchange between them.
+
+| Split shape | What happens | Verdict |
+|---|---|---|
+| Symmetrical perpendicular | Equal content; sub-teams must exchange to progress | Almost always the only worthwhile way to begin a split [researched] |
+| Parallel | Sub-teams work in isolation, never interacting | A missed opportunity; the split does no design work [researched] |
+| Asymmetrical | One sub-team has more to do than the other | The shorter side finishes first and waits: dead time built in [researched] |
+
+The reasoning generalises past the escape room. Structural interdependence does the designer's work for them. If progress on one side genuinely needs something from the other, the teams interact because the puzzle makes them, and no one has to script a meeting that players will then resent as artificial. A parallel split raises the obvious question of why you split a collaborative group at all if the halves never touch. The underlying shapes these splits extend, hub-and-spoke and multi-linear layouts, belong to [Parallel Team Architectures](parallel-team-architectures.qmd).
+
+### Keeping split teams from colliding
+
+Even a good split can fail on logistics when two teams keep arriving at one place together. A sequential route wants staggered starts in waves of roughly five to fifteen minutes. A hub-and-spoke layout wants rotational starting stations so each team enters the loop at a different point. The strongest fix is to differentiate the routes outright, so teams reach a shared endpoint by genuinely different paths. [researched]
+
+Split teams also need a reason and a place to talk, both within a team and across teams. *Watch the Skies* scatters each national team's players to subsystem tables every turn (the map, the UN chamber, the science conference). It then has to give each team a window of at least five minutes for what those players learned to cascade back home. [researched] Without that window the dispersal leaves the team in pieces. A neutral shared space does the cross-team version of the same job. A UN floor or a market or a central base collocates players from different teams so exchange happens without the designer scripting bilateral meetings. For an outdoor hunt the low-tech equivalent is a shared return point where teams check in and drop off what they have found and pick up their next clue, which produces the same organic mixing at a picnic table.
+
+### The regrouping problem
+
+Bringing sub-teams back together is harder than it looks, and the difficulty grows with how long they were apart. Reunited players tend to do one of three unhelpful things. They re-discover a puzzle the other half already solved. They stop everything to explain what happened while they were gone. Or they never really merge, and keep working as two teams sharing a room. [researched] The mitigations run best-first. Keep the split brief, so there is little to reconcile. Move everyone into a fresh shared space after they rejoin, so the zones each half worked in stop mattering and no one is re-treading old ground. Design the split puzzles to need cross-group collaboration anyway, so the perpendicular principle reaches forward into the reunion. Failing all of that, commit fully to separation and avoid the partial reconvergence that causes the trouble. [synthesis]
+
+::: {.callout-note}
+### The Specimen
+Multi-day puzzle hunts split by necessity, and they show the perpendicular principle at the scale of a hundred-puzzle event. A large hunt team subdivides into sub-teams of three to six, each taking a round or a thread, because no single room of thirty solvers can chew on one puzzle without most of them spectating. The threads are kept perpendicular by the structure that crowns them: a meta-puzzle whose inputs are the answers the separate threads produce, so the sub-teams must converge their results to finish even though they solved apart. The coordination cost is real and grows with the number of threads, so big teams run a board or a shared document tracking which thread holds which answer. This is the hunt form of team-splitting, and the convergence-on-a-meta shape it uses is the same one [Parallel Team Architectures](parallel-team-architectures.qmd) describes for live events. [synthesis]
+:::
+
+### Reconvergence and the waiting-team problem
+
+The hardest single problem in split design is timing. One sub-team finishes before another and produces dead time: players who cannot act and have nothing to engage with and cannot leave. This is the inter-team cousin of the lone eliminated player left watching, and it is corrosive in the same way, covered for the single-player case in [Spectator-Friendly Design](spectator-friendly-design.qmd). Three families of solution address it.
+
+The first is to absorb the early finishers. Bonus or optional content unlocks for a team that finishes its section first. An exploration zone of non-essential dressing puzzles and environmental story gives them somewhere to wander. The most reliable version sends everyone to a social venue, a pub or a plaza, where the early arrivers get a drink and some casual scoring while the rest complete. The treasure-hunt tradition explicitly recommends the social-venue finish for this very reason. [researched]
+
+The second is to score milestones rather than finish time. When teams accumulate points for what they achieve throughout the event, a team that never finishes still puts runs on the board. The ranking no longer tracks raw speed. The ER Champ 2024 finale did this. Milestone scoring meant the wait no longer decided the result, which both removed the incentive to rush and softened the sitting-around for whoever placed late. [researched]
+
+The third is to synchronise hard. The megagame model never runs "I go, you go." All action is simultaneous, and a central control calls a timed round-end across every subsystem at once, which forces every dispersed player back to their team on a clock nobody can outrun. [researched] For a smaller event the equivalent is an announced collection phase with a single deadline that applies to everyone alike. This needs a facilitator with the authority to call time and be obeyed, so it sits naturally with a host who is running the event rather than playing it, the subject of [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd).
+
+| Technique | Best for | Trade-off |
+|---|---|---|
+| Bonus content for early finishers | Timed parallel rooms | Requires designing more than is strictly needed [researched] |
+| Milestone scoring throughout | Competitive parallel events | Needs scoring infrastructure [researched] |
+| Social convergence venue | Scavenger and corporate hunts | Finish order is visible and can embarrass a slow team [researched] |
+| Hard clock or round-end signal | Megagames, turn-structured events | Needs a facilitator with authority [researched] |
+
+Whichever you reach for, the choice is made before play, not patched in during it. A split with no answer to the waiting-team problem is not a split that occasionally produces dead time. It is a split that produces dead time by design, and the players feel the difference between a wait the game planned for and one it forgot about.
+
+## Where this fits
+
+**The bigger picture.** Team splitting is what lets a social game scale past the size at which a single group works. It sits downstream of the size thresholds that force the cut and upstream of the architectures the resulting sub-teams take, so it is the join between knowing a group is too big and knowing what shape to give the pieces. The forces underneath it, social loafing and communication overhead, are not live-game quirks. They are general properties of groups, so the same four-to-six band shows up whether the task in hand is a rope-pull or a puzzle or a country to run at a megagame table. Get the split right and the pressure that makes social play vivid stays distributed across small groups where everyone is inside it. Get it wrong and you have manufactured the very spectating the split was meant to cure.
+
+**Next steps.** The thresholds that tell you a split is needed, and the bottleneck-player problem it relieves, are [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd). Once split, the convergent, competitive, and faction shapes the sub-teams take are [Parallel Team Architectures](parallel-team-architectures.qmd), and the question of whether those teams cooperate or compete is [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd). The hard-synchronised end relies on someone with the standing to call time, which is [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd). And because the live social charge that makes splitting worth the trouble has its own duty of care, the foundation under all of it is [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd).
+
+## Sources
+
+- Ringelmann, Max. "Recherches sur les moteurs animes: Travail de l'homme." *Annales de l'Institut National Agronomique*, 1913. (Rope-pulling experiments; per-person output falls as a group grows. Rediscovered by Kravitz and Martin, 1986.) Summary: <https://www.ebsco.com/research-starters/social-sciences-and-humanities/social-loafing>
+- Latane, Bibb, Kipling Williams and Stephen Harkins. "Many Hands Make Light the Work: The Causes and Consequences of Social Loafing." *Journal of Personality and Social Psychology* 37, no. 6 (1979): 822-832. (Shouting/clapping studies isolating motivation loss from coordination loss.)
+- Karau, Steven J., and Kipling D. Williams. "Social Loafing: A Meta-Analytic Review and Theoretical Integration." *Journal of Personality and Social Psychology* 65, no. 4 (1993): 681-706. (Meta-analysis of 78 studies; the effect holds steady across tasks and populations.) <http://www.communicationcache.com/uploads/1/0/8/8/10887248/social_loafing-_a_meta-analytic_review_and_theoretical_integration.pdf>
+- Nicholson, Scott. "Peeking Behind the Locked Door: A Survey of Escape Room Facilities." White paper, 2015. (Four-to-six optimum; roughly one puzzle thread per two or three players; "more hands than puzzles" above that.) <https://scottnicholson.com/pubs/erfacwhite.pdf>
+- Room Escape Artist. "Escape Room Design Tip: Split Team Challenge Structures." 27 November 2023. (The perpendicular/parallel and symmetrical/asymmetrical split taxonomy.) <https://roomescapeartist.com/2023/11/27/escape-room-design-tip-split-team-challenge-structures/>
+- Room Escape Artist. "The Split Team Regrouping Problem in Escape Rooms." 3 March 2019. (Why reintegration gets harder the longer sub-groups work apart, and the mitigations.) <https://roomescapeartist.com/2019/03/03/split-team-regrouping-problem-escape-rooms/>
+- Wallman, Jim. *Watch the Skies* (first run 2013). (Major powers given more players; per-turn dispersal to subsystem tables and the team window for information to cascade back; simultaneous action with a called round-end.) Megagame design context: Becky Annison, "Megagame Design" series, BeckyBecky Blogs. <https://beckybeckyblogs.com/>
+- ER Champ 2024 finale, reported by The Escape Roomer. (Milestone scoring decoupling rank from finish time.) <https://theescaperoomer.com/>
+- Constructed Adventures. Treasure-hunt format guidance on choke points and the social-venue finish. <https://www.constructedadventures.com/>

@@ -1,14 +1,102 @@
 ---
 title: "Host Roles & the Host-Cannot-Play Problem"
-aliases: []
+aliases: ["Host Positions", "Facilitator Roles", "Running vs Playing"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, tabletop, puzzle-hunt, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [shared-discovery, host-burnout, social-equality, sustained-control]
+  problems: [host-cannot-play, facilitation-workload, repeat-run-fatigue, adjudication-conflict]
+  components: [run-sheet, hint-system, character-brief, honour-system]
+  genre: [mystery, detective]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: Whoever runs a social game cannot also have it played on them, and the design has to decide who pays that cost.*
+
+The person who builds a live game and then runs it is in a strange seat. They know the answer to every puzzle and the name of the killer and which trail leads nowhere. The suspense the game manufactures for everyone else is the one thing the room cannot hand back to them. That gap is not a scheduling problem to be worked around. It is a structural fact about social games, and it shapes what the game can be before a single guest arrives.
+
+A host is also wearing more than one hat at once. Before the night they were the designer and the logistics lead and the rehearsal director all at once. On the night they can be a fellow player with a character and secrets of their own. They can instead be a neutral facilitator steering from outside the fiction, or a ghost whose work is finished and who never appears at all. [corpus] These are not just styles. Each choice fixes what the game can hold mechanically and how the evening reads to the people in it. It also fixes how the host will feel running the thing for the tenth time.
+
+This article is about that choice and the cost buried inside it. The three host positions each buy something and spend something, and the host-cannot-play problem sits underneath all three. Get the position right and the game stays runnable past its first outing while the host still gets an evening worth having. Get it wrong and you build a game only a martyr can host.
+
+## The Mechanism (How it works)
+
+### Three positions, three different games
+
+A host can stand in one of three places relative to the fiction, and the position is a design decision rather than a personality trait. It decides what mechanics survive and what the night feels like. It also decides who in the room is having which kind of evening. [corpus]
+
+| Position | Host plays? | Mechanical room | Social register | Suits |
+|---|---|---|---|---|
+| Host as participant | Yes, with a character | Low to medium: adjudicated rules must go | Peer among peers | Small friend groups, single runs, boxed kits |
+| Host as gamemaster | No | High: can arbitrate anything live | Director or service provider | Complex reveals, unfamiliar groups, repeat commercial runs |
+| Host-absent (self-running) | Nobody hosts | Very low: every contingency baked in | No host in the room | Experienced groups, tight puzzle logic, gift kits |
+
+The table is a map, not a ranking. None of the three is the right answer in general. Each is the right answer for a particular game, group, and number of runs, and the rest of this article is about reading which one you are actually building. Where the authority of the gamemaster position sits on a wider spectrum of running styles is its own subject, [GM Role Models & Stances](gm-role-models-and-stances.qmd).
+
+### Host as participant
+
+In this position the host holds a character and plays alongside the guests. The murder-mystery tradition in the Freeform Games mould has long supported it, and it comes with one firm rule: any mechanic that needs neutral administration has to be cut or replaced. [corpus] Refereeing a fight or settling a contested theft puts the host in charge of a situation their own character has a stake in. The usual fix is a self-reporting honour system. A playing host cannot be trusted to call a ruling against their own interests, and the guests know it. [corpus]
+
+A host who plays gets a payoff worth naming. The evening reads as a shared adventure rather than a service being delivered, and at a gathering of eight to twelve that is often exactly the register the host is after. [corpus] The host also keeps something the gamemaster gives up. They can be surprised, and they have something of their own to protect and chase.
+
+The mechanical cost is just as real. A game with resource asymmetry between characters, or with a win condition that needs an outside tiebreaker, does not survive this position intact. [corpus] Either every conflict has to resolve peer to peer, or the host keeps stepping out of character to arbitrate. Stepping out more than once or twice erodes both their own immersion and the guests' sense that the host is really in the game. [corpus] A practical halfway house is to cast the host as a character with a built-in reason to ask questions rather than chase hidden goals: a solicitor reading the will, say, or a ship's captain. The role belongs to the story but lets the host drift into running the night without it reading as a break in the fiction. [synthesis]
+
+### Host as gamemaster
+
+Here the host stands outside the fiction and runs the experience from there, holding no character at all. The escape-room industry has codified this position more rigorously than anyone. A room gamemaster greets and briefs the players, then watches their progress on cameras and microphones and feeds hints at calibrated moments. The same person also keeps time and handles safety before closing the session with a debrief. [researched] The Chinese jubensha (script-murder) format, now spreading internationally, gives the same job a name. The jubensha host is something between a tabletop gamemaster and an escape-room gamemaster, responsible for pacing a session that typically runs two to four hours and cueing each phase of evidence and discussion while keeping the group from tearing a hole in the plot. [researched]
+
+This position maximises control. The gamemaster can pace the night in real time and stretch or compress a phase that is running long. They can restart a stalled conversation and catch a lost player before they signal distress. [corpus] It is the right call when the group is new to the format, or when a complex reveal only lands if everyone reaches the climax together, or when the mechanics are knotty enough that someone genuinely has to settle disputes. [corpus] What it costs is workload and social separation, plus the host-cannot-play problem in its sharpest form. At a ticketed venue that separation is just the job. At a private party it can leave the host feeling like a waiter at their own dinner, never sitting down and never laughing at a clue. [corpus] The live-game version of the gamemaster's control surface, the cues and hint timing run from outside the room, is its own craft: [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd).
+
+### Host-absent: the game that runs itself
+
+Some games are engineered so that no host is needed at all. Commercial escape rooms proved this works at scale. Once the space is built and the hint system is automated through a screen or a phone or a locked radio, the room runs on its own. Staff stay in the building only for safety. [corpus] Boxed murder-mystery kits chase the same ideal. The host opens the box and hands out the envelopes and presses play on a recorded introduction. After that the host becomes a player. When it works it is elegant, because everyone discovers the story together and nobody is left serving while the others feast. [corpus]
+
+Self-running is the hardest of the three to design. The game must anticipate every state the group might fall into and supply an in-world way back out. [corpus] A hint has to be easy enough to reach but not so cheap that players lean on it before trying. Pacing cannot wait on human judgement, so it gets baked into the structure instead. Timed envelopes do this. So do puzzles sequenced so that a later step is physically blocked until an earlier one is done. An ambiguity a gamemaster would resolve in ten seconds becomes a stalled argument, or a quiet slide toward the wrong answer with nobody there to correct it. [corpus] The mechanical approaches that let a puzzle confirm its own solution without anyone adjudicating are the load-bearing trick here, covered under [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd), and the same automated-hint discipline is the subject of [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd). This position suits groups with genre experience, games whose logic is tight and whose social negotiation is light, and the case where the host is themselves a guest, such as a gift kit posted to a friend or a team-building activity where nobody is willing to give up their own evening to run it. [corpus]
+
+::: {.callout-note}
+### The Specimen
+Jubensha is the clearest live example of the gamemaster position taken seriously as a profession. The format exploded across China in the late 2010s, with tens of thousands of venues opening and a player base in the millions, and by the early 2020s it ranked among the country's most popular forms of entertainment. [researched] A jubensha host runs a fixed script for five to a dozen players over several hours, holding the whole structure in mind while cueing each phase of clue release and steering players past the plot holes that an unprepared or improvising host would open. [researched] The role is demanding enough that a venue cannot just hand the script to a customer, which is exactly why jubensha settled on a trained, non-playing host rather than a self-running box. The format chose its host position to fit its mechanical complexity, and the choice is the genre. [synthesis]
+:::
+
+### Workload climbs steeply then eases
+
+Whichever position the host takes, the cognitive load of running a live game piles up in ways that are easy to underestimate before the first run. The first outing of any game is the most punishing one. The host has to hold the whole narrative in working memory and see transitions coming. They track which clue sits with which player while absorbing whatever the group does that the script never imagined. [corpus] The jubensha requirement to grip the facts of the script tightly, or risk tearing the plot through a gap in their own knowledge, is a fair description of that first-run load, and it only eases with repetition. [researched]
+
+By the third or fourth run a gamemaster-mode host has automated most of the monitoring and can start reading the room more finely. A host at this stage notices who is dominating and who has gone quiet, along with whether the energy is climbing or sagging. Real steering of the room becomes possible only here. Operators often say running a game after ten sessions feels less like high-wire improvisation and more like playing jazz over a chord chart everyone in the band already knows. [corpus] The shape of that energy across a session, and how a host reads and steers it, connects to [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd).
+
+That curve has a direct design consequence. A game that will be run once for a single group of friends can carry a far more demanding host role than a game meant to tour through different offices or be licensed to strangers. The travelling game needs either a very thin host script or a route to self-running, because you cannot assume the person running it has ever done so before. [corpus] The cost of preparing and re-preparing a run also lands on the host long before showtime, which is the prep side of the same workload and the subject of [Prep Economy](../systems-mechanics/prep-economy.qmd). Two practical relief valves help here. Rotate the host role across different evenings so no one person always carries it, and split duties with an assistant who takes clue distribution and timekeeping off the lead host's plate, freeing them to hold the narrative. [corpus]
+
+### The host-cannot-play problem
+
+Underneath all three positions sits the most personal tension in live-game design, and designers usually only meet it after building their first game. When you design a game and then run it, you cannot experience it as a player. You know the answer to every puzzle and the killer's name and the clue the red-herring trail leads away from. The suspense the game generates for everyone else is simply not on offer from the host's seat, and it never will be. [corpus]
+
+For some designers this is a non-issue. The pleasure just moves. Instead of feeling the tension you produce it, and watching a group hit the moment of revelation you built is its own reward. Escape-room and jubensha authors who never play their own work as customers often report this swap as fully satisfying. [corpus] For others the loss bites, especially when the game was made for a friend group the designer expected to be part of. There is no fix that gives the suspense back, but there are honest mitigations, and they are choices made at design time rather than patches applied on the night. [synthesis]
+
+The first is to play before you design, so you carry a real player's memory of the format into the work and can simulate the experience instead of imagining it cold. [corpus] The second is to recruit a co-designer or trusted playtester who tells you in detail what discovering each thing felt like, with the interview done straight after the session before reflection sands the experience smooth. [corpus] The third is to stop fighting the asymmetry and choose the gamemaster position deliberately, so the gap between what the host is doing and what the players are doing is structural and clean rather than a half-in-half-out compromise. [corpus] The fourth is to hand the run sheet to someone else entirely. You will still know every answer. What stays yours is the social half of the evening: the conversation, and the moment a friend's face changes because they have just understood something. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The trap is the host who quietly decides to be both at once: nominally playing a character while still secretly refereeing every contested call. This reads to the table as a host who keeps winning the arguments that matter and somehow always knew where the evidence was. The honour system that a playing host depends on only holds while the host is visibly inside it with everyone else. The tell is when you catch yourself about to overrule a player on a point your own character benefits from. The moment you reach for neutral authority you have left the participant position, and pretending otherwise costs you the trust the whole evening runs on. Pick a position and stay in it, or step out openly to make the ruling and step back. [synthesis]
+:::
+
+### The single-player echo
+
+Interactive fiction does not have a host in the room, yet it inherits the same problem in a displaced form. The author knows every branch and every ending, so they too can never meet their own story fresh. A live host solves problems with real-time judgement. The IF author has to solve them in advance by anticipating every state the reader might reach. That is the self-running constraint moved into software. The closest the author gets to a player's experience is the same one a live designer reaches for, a playtester reporting beat by beat what each discovery felt like. So the solo and self-running formats share a design vocabulary with host-absent live games, traced in [Solo Modes](../systems-mechanics/solo-modes.qmd). The tabletop gamemaster faces the live version of the same bind, running the world for others and never able to be surprised by it, which is the host-cannot-play problem in its oldest and most familiar home. [synthesis]
+
+## Where this fits
+
+**The bigger picture.** Host position is one of the first structural decisions a live game makes, because it sets the ceiling on everything else. The mechanical complexity a game can carry, the social register of the evening, and whether the thing can be run more than once all follow from where the host stands. It pairs tightly with the team and group questions around it: how big the group is shapes which position is viable, the way that [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd) and [Parallel Team Architectures](parallel-team-architectures.qmd) work out the seating around the host. Underneath the participant position lies the honour system, which is the trust layer the whole family rests on, examined in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd). Choose the position late and you will find the game has already chosen it for you through the mechanics you committed to.
+
+**Next steps.** Once you have picked the gamemaster position, decide which running stance it should adopt by working through [GM Role Models & Stances](gm-role-models-and-stances.qmd). Where that host also holds real-time adjudication authority, the contract that governs it is [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd). To lay the shared expectations a hosted evening needs before play, including who is running and who is playing, start from [The Session Zero Playbook](the-session-zero-playbook.qmd). If you are aiming at the self-running position, the recovery machinery that has to replace the host lives in [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd) and [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd), and the prep that front-loads onto a travelling or repeatable game is [Prep Economy](../systems-mechanics/prep-economy.qmd).
+
+## Sources
+
+- Freeform Games. "Murder mystery party games you can simultaneously host and play." <https://www.freeformgames.com/blog/>. (Designing for a playing host; removing adjudicated mechanics in favour of a self-reporting honour system.)
+- Freeform Games. "Murder mystery party hints and tips." <https://www.freeformgames.com/murder-mystery-party-hints-and-tips/>. (The host as referee and announcer in the hosted-event tradition.)
+- "Jubensha." Wikipedia. <https://en.wikipedia.org/wiki/Jubensha>. (Format scale in China, session length, player counts, the script-murder genre.)
+- Jubensha by Chronic Insanity. "What is Jubensha?" <https://jubensha.co.uk/pages/what-is-jubensha>. (The jubensha host as a cross between a tabletop and escape-room gamemaster; phase cueing and plot-hole prevention.)
+- 60out. "A Day in the Life as an Escape Room Gamemaster." <https://www.60out.com/blog/a-day-in-the-life-as-an-escape-room-gamemaster>. (Commercial gamemaster duties: briefing, camera monitoring, hint delivery, debrief, reset.)
+- Mission Escape Games. "What's the role of the game master in the escape room?" <https://missionescapegames.com/blog/whats-the-role-of-the-game-master-in-the-escape-room-nyc-mission-escape-game/>. (Gamemaster responsibilities before, during, and after a session.)
+- No Proscenium. "It's Murder in Denver, And You're the Culprit." <https://noproscenium.com/>. (Host-free investigation formats where every participant is a detective and nobody plays gamemaster.)
+- Roleplaying Tips. "5 Ways To Harness Game Master Assistants." <https://www.roleplayingtips.com/>. (Distributing host workload to an assistant: clue handling, timekeeping, photography.)
+- Storybrewers Roleplaying. "Playtesting your Tabletop RPG." <https://storybrewersroleplaying.com/2019/11/25/playtesting-your-tabletop-rpg/>. (Post-session playtest interviews as the designer's substitute for a player's experience.)

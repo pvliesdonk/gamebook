@@ -1,17 +1,104 @@
 ---
 title: "Mixed-Ability Groups & Universal Design"
-aliases: []
+aliases: ["Inclusive Design", "Multi-Generational Play", "Accessible Group Design"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [shared-participation, earned-contribution, no-one-sidelined]
+  problems: [ability-gated-puzzle, sidelined-players, infantilised-children, separate-easy-mode]
+  components: [redundant-path, multi-sensory-clue, calibration-opener, convergence-finale]
+  genre: [family, children-ya]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: One game that works for the whole table at once, so no single ability decides who gets to play.*
+
+<!-- TERM-FLAG: "Mixed-Ability Groups & Universal Design" and "Universal Design" are not yet in docs/term-registry.md. Add in the family's batched registry pass. -->
+
+Picture a table where a grandparent, a ten-year-old, a wheelchair user, and a first-timer all sit down to the same game together. A puzzle that turns on reaching above your head, or on catching a faint sound, does more than slow one of them down. It lifts that person out of the game in front of everyone else. In a single-player work the barrier is private. In a room of friends it is public, and the cost is felt as exclusion rather than difficulty.
+
+This is the problem universal design was built to solve, and it is a different problem from accommodation. Accommodation asks how to adapt a fixed design for one person who would otherwise be shut out. Universal design asks how to build one experience that already works across a wide spread of abilities, ages, and experience levels, with no separate easy mode and no bolt-on ramp. The aim is not to lower the game for some players. It is to give every player a real way in.
+
+The good news, repeated across every inclusive-design tradition, is that the work pays back. Designing for the player at the edge usually makes the game better for everyone in the middle. [corpus]
+
+## The Mechanism (How it works)
+
+### Universal design, not accommodation
+
+The clearest articulation of the idea is the set of seven principles drawn up in 1997 by a working group led by the architect Ronald Mace at the Center for Universal Design, North Carolina State University. They were written for buildings and products, but they map onto a game table almost line for line. [researched]
+
+| Principle | What it asks of a game | At the table |
+|---|---|---|
+| Equitable use | The same game serves players of differing ability | One shared experience, no separate "easy" version [researched] |
+| Flexibility in use | Several ways to accomplish the same thing | More than one valid path through a puzzle [researched] |
+| Simple and intuitive use | Understandable regardless of experience or language | A short teach; a calibration opener for first-timers [researched] |
+| Perceptible information | Information reaches the player whatever their senses | Every clue carried on at least two channels [researched] |
+| Tolerance for error | Mistakes do not eject or punish disproportionately | Soft-fail states; no single slip ends a player's game [researched] |
+| Low physical effort | No undue physical demand to take part | No puzzle gated on reaching, crawling, or fine motor work [researched] |
+| Size and space for approach | The space itself admits every body | Surfaces reachable seated; every zone wheelchair-accessible [researched] |
+
+The principle that distinguishes universal design from accommodation is the first one, equitable use. It rules out the "easy mode" reflex, the separate watered-down track handed to whoever cannot manage the main one. A separate track marks a player as the exception and is usually less interesting than the real game. Equitable use insists instead on a single design that already holds them. Microsoft's inclusive-design work names the same move as "solve for one, extend to many": design for the player with one arm and you also serve the player holding a baby on one hip, because permanent, temporary, and situational limitations all meet the same barrier. [corpus] Kat Holmes puts the underlying claim sharply in *Mismatch*: disability is a mismatch between a person and an environment rather than a fixed property of the person, which means the environment is the thing to redesign. [researched]
+
+A useful by-product follows, and it is worth naming because it answers the "is this worth the effort" question before it is asked. The curb cut, the small ramp first cut into kerbs in Kalamazoo in 1945 at the request of disabled war veterans, now serves anyone wheeling a suitcase or pushing a pram. [researched] The same shape recurs in game design. A clue you can read by touch as well as by sight is faster for everyone in low light. None of this is charity. The accessible design is frequently the better design.
+
+### Redundant paths: more than one way to contribute
+
+The load-bearing technique is redundancy of paths. No puzzle should have exactly one valid approach, because a single approach is a single ability acting as a gate. [corpus] A clue carried only by colour shuts out a colour-blind player; give it a shape or a position or a label as well and the colour stops being a wall. A puzzle solved only by a physical manipulation shuts out a player who cannot perform it; pair it with a verbal route and the manipulation stops being a wall.
+
+The move that designers most often get wrong here is to read "redundant path" as "easier path". It is not. Both routes can be equally hard. [corpus] The rule is about which ability the puzzle depends on, not how demanding it is. A maths channel and a pattern-matching channel into the same locked state can be pitched at the same difficulty; what matters is that a player strong in one is not stranded by weakness in the other. This is the same redundancy logic that keeps a tabletop investigation fair when players can wander past a clue, where the answer is to lay at least three independent trails to any conclusion you need them to reach: [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). There the redundancy guards against a missed clue. Here it guards against a barred ability. The mechanism is the same.
+
+Perceptible information asks for the sensory version of this. Deliver every load-bearing clue through at least two channels, so that no clue essential to the solution arrives by one sense alone. [corpus] Visual plus tactile, visual plus audio, spatial plus spoken. The Meeple Like Us accessibility teardowns, the long-running tabletop tradition led by Michael Heron, distil one rule above the rest: never rely on colour as the only carrier of information, because that single channel fails a sizeable fraction of players outright. Good practice pairs every colour with a distinct symbol, or else uses component size as a second channel. [researched]
+
+### Distributed criticality: making everyone necessary
+
+Redundant paths keep players from being barred. By themselves they do not make players matter. A strong solver can still race ahead and finish the whole thing while the rest watch. The fix is structural: build so the strongest solver cannot finish alone. [corpus]
+
+The pattern is the jigsaw, where each player holds an essential piece, so cooperation becomes a requirement of the design rather than a hope about etiquette. An autism-inclusive escape room studied as AScapeD distributed each clue across the players' separate devices, which made cooperation mandatory and stopped any one person dominating the room. [researched] Without every piece, the room did not open. This is the inclusive-design cousin of hidden-information play, where what each player knows is parcelled out on purpose: [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd). And it speaks directly to the family's recurring failure mode, the strong player who reads the room and runs away with it, the Alpha Player problem set out in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd). Distributed criticality is one of the few reliable structural answers to it. If the loud, fast player physically cannot finish without the quiet one's piece, raw speed stops being decisive.
+
+The social-layer version of the same idea is that the group, not the individual, is the unit of accessibility. [synthesis] Not every player has to parse the rulebook if one player at the table can. Reading load can be shared out the way component channels are. A dyslexic or non-native player still takes full part through a member who carries the text for the group. The accessibility you build is a property of the whole table, not of each seat measured on its own.
+
+### Difficulty that scales per player
+
+A single shared challenge level cannot fit a table that spans a child and an expert. The answer is not one difficulty but several running at once. Run parallel puzzle threads, roughly one per two or three players, each pitched at a different challenge profile, all converging on a shared beat. [corpus] The expert gets a hard thread, the newcomer an approachable one, and because the threads converge, both feed the same outcome. Difficulty scales by who picks up which thread, without anyone being handed a labelled "junior" version.
+
+The clock deserves separate handling, because it is the quietest exclusion in the room. A timer does not test skill evenly. It penalises slower processors, anxious and neurodivergent players, and children most, and it does so without ever announcing that it is filtering them out. [corpus] Treat the clock as a lever rather than a constant. A soft-fail clock keeps the story moving ("you got out, but the document burned") instead of slamming a hard wall, and puzzles whose solution genuinely requires moving fast are best avoided in a mixed group. Time pressure is a real design force with its own dynamics, covered in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd). The narrower claim here is that the timer is an accessibility setting whether or not you meant it as one.
+
+The first-timer is an ability axis too, separate from any disability. Game literacy has to be taught before difficulty loads, which is the job of an opening calibration puzzle that establishes the room's grammar, what counts as a clue, what is interactive, how the game confirms a correct answer, before anything hard arrives. This is the inclusive-group use of teaching by demonstration rather than instruction: [Teaching Through Play](../puzzles-clues-information/teaching-through-play.qmd). A mixed-experience table needs that calibration beat more than a uniform one does, because the experienced players will otherwise set a pace the newcomers never get oriented to.
+
+::: {.callout-note}
+### The Specimen
+The clearest worked example of universal design as deliberate practice is the autism-inclusive escape room built and studied as AScapeD (Cocx and colleagues, *JMIR Serious Games*, 2021). Rather than adding an "autism mode" to a standard room, the team built one room around inclusive principles from the start: a predictable, pre-announced structure; sensory content kept controllable; and, the structural heart of it, each clue distributed across the players' own devices so that the puzzle opened only to the whole group working together. The distribution did two jobs at once. It made cooperation mandatory, and it took away any single player's route to running away with the room. A child or a slower processor stayed in the game next to a faster one. The room was not separately easier. It was built so that the group was the solver. [researched]
+:::
+
+### Multi-generational play and the infantilising trap
+
+Children at the table with adults is an agency problem before it is a difficulty problem. The reflex is to hand the child an easy version of an adult task, and that reflex is the trap. An easy version makes the child a junior adult, performing a watered-down copy of what the grown-ups are really doing. [corpus] The goal is the opposite: a task only a child can do, pitched at a genuine child strength.
+
+A child brings real advantages, not condescending simplifications. Low-height searching is one. Tactile identification is another, as is the fast rearrangement of small components. [corpus] Build the child's contribution on a strength of that kind and it becomes structurally necessary. Perhaps the child holds a clue the adult needs. Perhaps the child has the only hand small enough to reach into a particular compartment. The failure to guard against is the adult who works out the answer and then narrates it to the child so fully that the child becomes a mechanical executor of an adult's deduction. The defence is to partition the information. The child has to be given a piece the adult cannot reproduce by instruction alone, so that the child's part remains genuinely their own. [corpus] That piece belongs at the edge of the child's ability, where it motivates, rather than below it, where it condescends. Pitched far above the child, the task fails them in public instead. This redundant-channel thinking, pattern recognition that a younger player can reach while an adult still finds it taxing, is exactly what lets one table of mixed ages share a single game. [researched]
+
+### The no-one-left-behind finale
+
+A climax that rewards the fastest solver while everyone else watches is a structural failure, however well the rest of the game ran. It takes the article's whole argument and undoes it at the last beat. [corpus] The fix is to design the ending so it cannot resolve without the whole table. Three shapes do this reliably. A whole-team convergence mechanic physically needs every player present and acting at the final moment. Meta-synthesis routes each parallel track's output into the final answer, so every track had to finish for the ending to land. Or a closing ritual gives each player a named role in the resolution, so the finish is something the group performs together rather than something one player achieves while the others spectate. [corpus]
+
+This is the inclusion counterpart of the watching role done well. The same designed-observer thinking that makes a non-playing position engaging, covered in [Spectator-Friendly Design](spectator-friendly-design.qmd), is what you are refusing to fall back on at the finale: no player should be parked in the audience for the climax of a game they were playing.
+
+## Where this fits
+
+**The bigger picture.** Mixed-ability design is where this family's social mechanisms get tested against the hardest case, the single room that has to hold everyone at once. It draws on the rest of the family rather than standing apart from it. The session-zero conversation surfaces who is at the table and what they need before play starts; the safety layer lets a player regulate sensory load in the moment; the distributed-criticality and parallel-track techniques are the same structural tools the family uses to spread a scarce spotlight fairly. What universal design adds is a stricter test for all of them: not "does the group function" but "can every individual in it take a real, un-substitutable part". A game that passes that test is usually a better game for the players who never needed the accommodation, which is the curb-cut bargain restated. Build it in from the first decision and it costs far less than retrofitting it later, which is the one piece of advice every inclusive-design tradition agrees on. [synthesis]
+
+**Next steps.** To learn who is actually at your table and what the group needs, before any of these techniques can be aimed, start from [The Session Zero Playbook](the-session-zero-playbook.qmd). The per-disability, audit-checklist complement to this whole-group view, the physical and sensory accessibility of the artefacts and space themselves, is [Accessibility in Live & Interactive Games](accessibility-in-live-and-interactive-games.qmd). Where the parallel tracks have to serve genuinely different play preferences as well as abilities, [Player Types & Casting](player-types-and-casting.qmd) covers casting roles to people; where a large team has to split across threads without anyone being stranded, [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd) covers the capacity side. And for the first-timer's on-ramp, the calibration opener that teaches the room before it tests it, the craft sits in [Teaching Through Play](../puzzles-clues-information/teaching-through-play.qmd).
+
+## Sources
+
+- Mace, Ronald L., and the Center for Universal Design. "The Principles of Universal Design, Version 2.0." North Carolina State University, 1997. <https://design.ncsu.edu/research/center-for-universal-design/> (text: <https://web.stanford.edu/class/engr110/2007/PUD.pdf>)
+- Microsoft. *Inclusive Design Toolkit* ("Solve for one, extend to many"; the permanent / temporary / situational persona spectrum). <https://inclusive.microsoft.design/>
+- Holmes, Kat. *Mismatch: How Inclusion Shapes Design*. MIT Press, 2018. (Disability as person-environment mismatch; designing with, not for.)
+- CAST. *Universal Design for Learning Guidelines* (multiple means of representation, action and expression, and engagement). <https://udlguidelines.cast.org/>
+- Hamilton, Ian, and contributors. *Game Accessibility Guidelines* (2012). <https://gameaccessibilityguidelines.com/>
+- Heron, Michael, et al. Meeple Like Us accessibility teardowns and "Meeple Centred Design" heuristic toolkit (the colour-channel rule; situational accessibility). <https://www.meeplelikeus.co.uk/>
+- Cocx, et al. AScapeD autism-inclusive escape room. *JMIR Serious Games*, 2021. (Distributed clues forcing cooperation and preventing single-player dominance.)
+- "Curb cut effect" (origin in Kalamazoo, Michigan, 1945; the disability-feature-benefits-everyone pattern). Wikipedia. <https://en.wikipedia.org/wiki/Curb_cut_effect>
+- Centre for Excellence in Universal Design. "The 7 Principles." <https://universaldesign.ie/about-universal-design/the-7-principles>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 

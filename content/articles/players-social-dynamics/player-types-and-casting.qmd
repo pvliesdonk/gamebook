@@ -1,14 +1,98 @@
 ---
 title: "Player Types & Casting"
-aliases: []
+aliases: ["Player Taxonomies", "Role Assignment", "Player Motivation Frameworks"]
 family: "Players & Social Dynamics"
-media: []
+media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [everyone-has-a-role, mixed-motivation-fit, sustained-engagement]
+  problems: [single-solver-bottleneck, sidelined-players, type-mismatch, miscast-roles]
+  components: [player-typology, casting-method, observer-role, preference-questionnaire]
+  genre: [mystery, social-deduction]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #47. -->
+*Silhouette: The different appetites sitting at one table, and the craft of giving each of them something to do.*
+
+Watch any group settle into a game and the appetites separate out. For one person it is the puzzle, and the pull is toward the solve. For another it is the character, the voice they can talk in and stay inside. A third came mostly for the company and sits happily near the edge of things. The fourth will not stop prodding at the world to see what it does. They are all in the same room, and you cannot send them to separate ones.
+
+The trap is to design for only one of them. The neglected players set the ambient energy of the room, so a game built solely for the solver or solely for the immersionist goes flat even for the type it was built for. [corpus] The named taxonomies that catalogue these appetites are useful, but they are a checklist of who is present, not a sorting hat that fixes anyone's identity. A typology describes a motivation someone walks in with on a given night. It does not describe a fixed self.
+
+This article is about reading the room and then casting into it: which typologies earn their keep and where they go wrong, and then how to hand each appetite a role that is genuinely its own. The throughline is that the reliable fixes are structural, not psychometric. You rarely need to diagnose a guest. You need a structure in which each of them has something to do.
+
+## The Mechanism (How it works)
+
+### The typologies, and what each is good for
+
+No single taxonomy was built for live, physical, multiplayer narrative play, so each is borrowed with a caveat attached. The oldest and most cited is Richard Bartle's, drawn from text-based multi-user dungeons (MUDs, the shared online worlds that preceded graphical games). He sorted players along two axes, acting against interacting and the world against other players, into four types. The Achiever pursues goals; the Explorer is out for discovery; the Socialiser came for the other people; and the Killer plays to make other players lose. [researched] Bartle himself warned against transplanting the model, and the warning holds. For live play its value is mostly vocabulary. Explorers and Socialisers map onto recognisable guests. The Killer has no clean equivalent without a competitive win condition, and team-role dynamics fall outside the model entirely. [corpus]
+
+The most live-transferable tabletop set is Robin Laws's, chiefly for one type the others miss. Laws names the Casual Gamer: the person present for social reasons whose engagement with the rules is light. They are uncomfortable taking centre stage, and they game because that is what the group chose to do. [researched] Every group has one. Bartle has no word for them. The other Laws types (Power Gamer, Butt-Kicker, Tactician, Specialist, Method Actor, Storyteller) cover familiar tabletop appetites, but the Casual Gamer is the one a live designer most often forgets to seat. [corpus]
+
+The set built for live play itself is the Three Way Model, the larp-specific descendant of an older tabletop model. It names three orientations. The Gamist is there to solve the challenge and win. The Dramatist is after a good story, and the Immersionist after the chance to live the role authentically. Its author notes that most players blend all three rather than sitting in one, which is the right caveat for the whole field. [corpus] The table below lays the main typologies side by side, since the value of each is in what it catches that the others drop.
+
+| Framework | Origin | Types | What it uniquely catches |
+|---|---|---|---|
+| Bartle player types | MUDs, 1996 | Achiever, Explorer, Socialiser, Killer | A shared vocabulary; the action/interaction and world/player axes [researched] |
+| Robin's Laws | Tabletop, 2002 | Power Gamer, Butt-Kicker, Tactician, Specialist, Method Actor, Storyteller, Casual Gamer | The Casual Gamer, present for social reasons [researched] |
+| Three Way Model | Larp, 2003 | Gamist, Dramatist, Immersionist | The live-play orientations, designed to be blended [corpus] |
+| D&D 5e types | Tabletop, 2014 | Actor, Explorer, Instigator, Fighter, Optimizer, Problem Solver, Storyteller | The Instigator, who drives action by disrupting equilibrium [corpus] |
+
+Two further tools sit beside the typologies rather than among them. The Turku school's radical immersionism, where every decision flows from character psychology alone, is impossible to hold in any game that also asks players to solve, but it sharpens the immersionist extreme into a usable diagnostic. [corpus] And the Mixing Desk of Larp is not a typology at all. It is a set of adjustable faders (openness, pressure, the spread of player motivation from victory to exploration, communication style, and others) that the designer sets per axis. Its worth is practical: it turns serving several appetites at once into a decision the designer makes on purpose rather than an accident they discover afterwards. [researched]
+
+### Why the typologies are lenses, not boxes
+
+Every typology here treats type as a stable trait, and live practice shows it is not. Players shift mode inside a single session. The Method Actor turns Tactician when a scene frustrates them; the Casual Gamer becomes a Detective the moment the right hook lands. [corpus] So the design target is the transition, not the resting state. Give the disengaged a cheap on-ramp back into the action, and give the over-focused solver a reason to step into a scene.
+
+So casting people *as* a type often backfires. The typologies are a lens for reading the room, useful for checking that no appetite has been left without anything to feed it. They are not labels to stamp on guests. The reliable response to a mixed table is structural. You build differentiated roles that complement rather than compete, so that each appetite finds its own thing to do without being told which type it is. The information layer can carry this through a jigsaw pattern, where every player holds a piece no one else has, which is the structural core of [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd). The task layer carries it through parallel puzzles running at once. The social layer carries it through named observer roles for the lightly engaged. The test is plain: could every player point to a moment where their being there demonstrably mattered? [corpus]
+
+### Serving several appetites at once
+
+The strongest live games run several engagement streams in parallel and converge them at key beats. Serve the Gamist with solvable challenge, the Dramatist with narrative arc and payoff, the Immersionist with space for uninterrupted character inhabitation, and a single event holds all three without the designer physically separating the players. [corpus] Large productions reach this through sheer abundance, enough simultaneous content that every orientation finds something. Tight small-format games reach the same place through deliberate fader-setting rather than volume, which is exactly what the Mixing Desk is for.
+
+The flip side is a set of named failure modes, one per neglected appetite, each with a structural rather than a personal fix. A drifting Casual player who checks their phone needs a named observer role or a vote-holding moment, not a talking-to. A Gamist with nothing to solve needs an explicit challenge or a timed puzzle phase. An Immersionist whose fiction keeps getting interrupted needs character-motivated framing and scene-safe calibration. A stalled plot with no Instigator needs an NPC initiator or a timed reveal to move it. [corpus] In every case the cure is a piece of structure, which connects this work to how a designer shapes the available moves in [Decision Space & Choice Design](../systems-mechanics/decision-space-and-choice-design.qmd).
+
+::: {.callout-note}
+### The Specimen
+Punchdrunk's *Sleep No More* (New York, 2011 to 2024) solved the Casual player with a single device: the white mask every audience member wore. The mask folded every spectator into one legitimate role. It carried explicit permission not to engage actively, so the voyeur position felt privileged rather than passive. Meanwhile the one-on-one rooms still paid out for the bold seeker who pushed in. [corpus] *College of Wizardry* took the abundance route instead. It ran many simultaneous plot trains with NPC-initiated plots for players who prefer to react, so Gamist, Dramatist, and Immersionist each found a thread without being sorted in advance. [corpus] Two productions, two strategies, the same goal: every appetite served without anyone being told which type they are.
+:::
+
+### Casting: assigning the roles
+
+Knowing the types in the room is one craft. Deciding who plays what is a separate one, and it runs on a spectrum. Random assignment is fair and free but ignores fit. Self-selection gives players ownership yet leaves the antagonist and the demanding roles unclaimed while the popular ones oversubscribe. Organiser casting controls balance and keeps the hard roles with capable players, at the cost of preparation time and of disappointing anyone whose wish gets overridden. [corpus] The dominant practice in published larp, freeform, and murder-mystery design is a hybrid: players submit ranked preferences along with comfort and avoidance flags, and the organiser casts from that data while managing game-wide balance.
+
+Within that, the workable default is to honour preferences within the limit of what the player can carry, casting toward their strengths. A stretch role is fine where the player has asked for the stretch. Impose an alien role on someone who did not, though, and half their attention stays on their own performance; that self-consciousness then dulls the scene for everyone around them. [corpus] A few rules recur and are worth holding to. Watch how a player presents in the warmup, because it predicts their in-game behaviour better than the form they filled in, and resist putting the loudest player into the loudest role, which compounds dominance rather than balancing it. The hard avoidances come first, the ones on content, on role, and on pairing, settled before any optimisation. Sensitive and antagonist roles go only to willing and experienced players who are trusted with them. That last one is a safety measure rather than a courtesy. An aggressor or an emotionally heavy role must be opted into and never imposed, so casting cannot be separated from the consent groundwork in [The Session Zero Playbook](the-session-zero-playbook.qmd) and [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd). [corpus]
+
+### Casting the quiet player
+
+One casting move is worth pulling out because it solves a problem etiquette cannot. The single-solver bottleneck, where one confident person solves while the rest watch, is a property of sequential single-thread design, not of the players, and the same is true of the quiet player who never gets a turn. [corpus] The fix is not to coax the introvert into initiating. It is to cast them as sought-after. Give the quieter player a character others must come to. The keeper of a needed secret, say, or the producer everyone has business with, rather than a character who has to open the conversations themselves. Extroverted roles like detective, host, or accuser demand social initiation; introverted roles can be built on depth of information instead. [corpus] One published working rule makes this concrete: every character knows something interesting about two or three others, so every conversation has a purpose beyond small talk. The quiet player then takes a full part by holding something the room needs, which is the casting echo of making the quiet player sought-after rather than the initiator in [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd).
+
+### The same problem in single-player and at scale
+
+The accommodation problem does not vanish when the room does. Interactive fiction has no co-present table, so it serves different appetites through branch design. An author lays down paths that suit the explorer who pokes at the world, the optimiser tracking state, and the reader who came for character and story, so each finds a separate route through the same piece. This is the single-player form of differentiated roles, accommodation by branch rather than by casting. The related craft of pitching content and complexity to a defined readership, by age or experience, is [Audience & Age Targeting](../story-character-voice/audience-and-age-targeting.qmd). [synthesis]
+
+At the other extreme, very large live games and long puzzle hunts cast appetite into structure through differentiated factions and knowledge tiers. The megagame *Watch the Skies* (from 2013) seats hundreds of players across factions with distinct epistemic tiers, so that the same event offers roles suited to action, to analysis, to diplomacy, and to narrative all at once. [corpus] A hunt running hundreds of puzzles over a weekend does the analogous thing by forcing parallel work, where sub-teams pursue perpendicular threads and the role differentiation is what keeps everyone solving rather than queuing. The structural side of that distribution is its own craft, covered in [Team Splitting Strategies](team-splitting-strategies.qmd). The casting principle is identical to the small table's: give each appetite a thread that is demonstrably theirs.
+
+::: {.callout-tip}
+### The Field Note
+Cast against the warmup, not against the wish-list. The questionnaire tells you what a player thinks they want; the ten minutes before the game tells you what they will actually do once the lights are up. The player who asked for the bold lead but hangs back in the warmup will sink that role. The quiet one who lights up the moment they have a secret to guard will carry a sought-after part further than anyone predicted. Read behaviour over stated preference when the two disagree. The type is a mood that night, not a verdict on the person. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Player types and casting sit upstream of most of this family's other concerns. The typologies are a reading tool, a way to see who is in the room before you settle on what to build. The honest ones hold type as a lens, never as a fixed identity. Casting then converts that reading into structure, with a role of its own for each appetite. Nearly every other social mechanism leans on this work being done already. The trust and accusation engine depends on nobody being sidelined. The safety layer rests on the heavy roles having landed with players who chose them, and the parallel-thread structures presume someone already decided who pursues which thread. Cast wrong, by sorting people into boxes or leaving an appetite unfed, and no clever role distribution downstream rescues the evening. Cast right and the room runs itself.
+
+**Next steps.** To build the structural roles that casting fills, start from the information layer in [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd), then decide how much of the game is collaboration against suspicion through [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd). Lay the consent groundwork that sensitive casting depends on in [The Session Zero Playbook](the-session-zero-playbook.qmd). Where the lightly engaged player is the design problem, [Spectator-Friendly Design](spectator-friendly-design.qmd) covers the observer roles that feel chosen rather than consolatory, and where the quiet player needs a single deep scene rather than a crowded room, [One-on-One Scene Design](one-on-one-scene-design.qmd) is the form that suits them. The person holding all of this together is the one running the game, whose own stance and authority are [GM Role Models & Stances](gm-role-models-and-stances.qmd).
+
+## Sources
+
+- Bartle, Richard. "Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs." *Journal of MUD Research* 1, no. 1 (1996). <https://mud.co.uk/richard/hcds.htm> (the four player types, the action/interaction and world/player axes, and Bartle's own caution against transplanting the model).
+- Laws, Robin D. *Robin's Laws of Good Game Mastering*. Steve Jackson Games, 2002. (Seven player types including the Casual Gamer.) Summary: <https://www.darkshire.net/jhkim/rpg/theory/models/robinslaws.html>
+- Kim, John H. The Threefold Model (formalising rec.games.frp.advocacy discussion, 1997); Bockman, Petter. "The Three Way Model" in *As Larp Grows Up*, ed. Morten Gade et al., 2003. (Gamist / Dramatist / Immersionist for live play, designed to be blended.) <http://www.laivforum.dk/dk3_2/external/seminars/algu_threewaymodel.pdf>
+- Pohjola, Mike. "The Manifesto of the Turku School" (2000). (Radical immersionism as the immersionist extreme.) <https://nordiclarp.org/wiki/The_Turku_Manifesto>
+- Andresen, Martin Eckhoff, and Martin Nielsen. "The Mixing Desk of Larp: History and Current State of a Design Theory." *Analog Game Studies*, November 2016. <https://analoggamestudies.org/2016/11/the-mixing-desk-of-larp-history-and-current-state-of-a-design-theory/>
+- *Dungeon Master's Guide*, 5th ed. Wizards of the Coast, 2014. (Seven player types including the Instigator; the Instigator attribution circulates via a designer note, so treated lightly.)
+- Fatland, Eirik, and Markus Montola. "The Blockbuster Formula." nordiclarp.org, 2015. (Abundance as multi-type accommodation.) <https://nordiclarp.org/2015/02/02/the-blockbuster-formula-brute-force-design-in-the-monitor-celestra/>
+- Brian R. "Three Types of Casting in Theater-Style Larp." Fair Escape, 2013. (The Director / Travel Agent / Guidance Counsellor casting stances.) <https://fairescape.wordpress.com/2013/12/16/three-types-of-casting-in-theater-style-larp/>
+- Skirpan, Ericka. "Playing to Type" and related work on casting to strength and consent-first casting of sensitive roles. nordiclarp.org, 2019.
+- Punchdrunk. *Sleep No More* (New York, 2011 to 2024). The mask as a unified spectator role. <https://nordiclarp.org/wiki/Sleep_No_More>
+- *College of Wizardry* (Rollespilsfabrikken / Liveform, from 2014). Abundance and NPC-initiated plot trains. <https://nordiclarp.org/wiki/College_of_Wizardry>
+- Wallman, Jim. *Watch the Skies* (megagame, from 2013). Faction roles and distinct epistemic tiers at scale. <https://www.megagame-makers.org.uk/>
