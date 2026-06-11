@@ -11,11 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "Bleed", "De-roling", "Debriefing", "Aftercare", and "Bookend Ritual" are
-     used here as canonical mechanism names but are not yet in docs/term-registry.md. Add them
-     in the Players & Social Dynamics registry pass. "Bleed" is credited to Emily Care Boss
-     (Ropecon 2007); "Safety Contract" (already registered) is the parent toolkit category. -->
-
 *Silhouette: The closing half of a charged experience, where the player comes back from the character and sets down what the game stirred up.*
 
 When an intense game ends, the players do not simply stop. They have spent hours as someone else under real emotional pressure, and now they have to come back to themselves. A game that opens strong feeling without closing it sends people home still carrying it. The Nordic-larp tradition treats that return as part of the design rather than a mere social courtesy. It has the deepest body of practice on the problem. [corpus]

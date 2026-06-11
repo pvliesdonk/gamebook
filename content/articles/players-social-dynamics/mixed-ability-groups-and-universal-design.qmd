@@ -13,8 +13,6 @@ provenance: "researched"
 
 *Silhouette: One game that works for the whole table at once, so no single ability decides who gets to play.*
 
-<!-- TERM-FLAG: "Mixed-Ability Groups & Universal Design" and "Universal Design" are not yet in docs/term-registry.md. Add in the family's batched registry pass. -->
-
 Picture a table where a grandparent, a ten-year-old, a wheelchair user, and a first-timer all sit down to the same game together. A puzzle that turns on reaching above your head, or on catching a faint sound, does more than slow one of them down. It lifts that person out of the game in front of everyone else. In a single-player work the barrier is private. In a room of friends it is public, and the cost is felt as exclusion rather than difficulty.
 
 This is the problem universal design was built to solve, and it is a different problem from accommodation. Accommodation asks how to adapt a fixed design for one person who would otherwise be shut out. Universal design asks how to build one experience that already works across a wide spread of abilities, ages, and experience levels, with no separate easy mode and no bolt-on ramp. The aim is not to lower the game for some players. It is to give every player a real way in.

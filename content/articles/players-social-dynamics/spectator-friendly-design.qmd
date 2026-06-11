@@ -11,8 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "Spectator-Friendly Design" is not yet in docs/term-registry.md. Add in the batched Players-family registry pass. Proposed canonical: "Spectator-Friendly Design"; aliases: "Designing for Observers", "Mixed-Engagement Design", "Audience-Facing Design". -->
-
 *Silhouette: Designing so the people leaning back have something real to do, not just the people leaning forward.*
 
 Every live game runs a quiet negotiation between the players who lean in and the ones who lean back. A table of twelve at a murder-mystery dinner is never twelve solvers. Some read every clue, some listen without speaking, one is minding a child, one came out of obligation, one is just tired. Serve only the first group and the rest drift to their phones, and once they do the energy bleeds out of the room until even the keen solvers lose focus. [corpus]

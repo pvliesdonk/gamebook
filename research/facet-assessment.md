@@ -50,3 +50,23 @@ mystery/horror/fantasy, confirming a controlled genre axis is viable at #54). Cl
 **Carry-forward:** the structural-graph component vocabulary (flag / node / branch / bottleneck /
 hub / scene / beat) is stable across both Structure and the Puzzles family's Information Architecture
 - a good candidate to fix early at #54. `replayability` and the genre spine recur across families.
+
+## Players & Social Dynamics (20 articles)
+
+Distinct values: **effects 72, problems 73, components 71, genre 17** — the widest spread so far
+(social/interpersonal concepts resist a tight controlled vocabulary). Clusters to collapse:
+
+- **effects** — `table-trust` / `earned-trust` / `social-investment` → *trust*; `suspicion` /
+  `paranoia` / `accusation-energy` → *suspicion*; `curb-cut-benefit` / `wider-audience` /
+  `independent-play` → *inclusion-reach*; `vivid-play` / `genuine-tension` → *intensity*.
+- **problems** — strong shared spine: `sidelined-players` / `idle-players` / `designed-exclusion` /
+  `spectator-limbo` → *exclusion*; `unsafe-pressure` / `consent-failure` / `power-asymmetry` →
+  *safety-failure*; `alpha-player-dominance` / `quarterbacking` → *domination*; `uneven-teams` /
+  `bottleneck` → *coordination-failure*. **`exclusion` and `safety-failure` are the family's two
+  load-bearing problem clusters** and worth promoting to controlled values at #54.
+- **components** — `safety-tool` / `hint-system` / `win-condition` / `session-zero-agreement` /
+  `hidden-role` / `control-team` are concrete social-design primitives; a controlled component set is
+  plausible here.
+- **genre** — same mystery/horror/thriller/historical/sci-fi/fantasy spine; the format-vs-genre
+  split (escape-room, megagame, larp, jubensha as formats) recurs a third time — **the case for a
+  separate `format` axis at #54 is now strong (flagged in all three families written so far).**

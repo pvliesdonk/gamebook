@@ -19,7 +19,7 @@ One canonical term per mechanism. Aliases listed. Agents must use canonical term
 | Progress Clock | Countdown, Track, Progress Bar | Family 1/6 | A visual widget for tracking state changes. |
 | Time Cave | Pure Branching | Family 1 | A narrative topology where every choice branches. |
 | PbtA Move | The Move, Narrative Trigger | Family 6 | A resolution mechanic that bridges fiction and state. |
-| Safety Contract | Lines and Veils, X-Card | Family 4 | The social agreement on content and boundaries. |
+| Safety Contract | Calibration Tools, Consent Mechanics | Family 4 | The umbrella concept: the social agreement on content and boundaries. The specific tools (X-Card, Lines and Veils, Script Change, Lookdown, OK Check-In, Cut/Brake) are distinct named techniques, **not** aliases to swap. A safety article must name them precisely (see Safety Tools as Design Layer). |
 
 ### Puzzles, Clues & Information mechanisms (added Phase 4 — pilot family)
 
@@ -82,4 +82,29 @@ One canonical term per mechanism. Aliases listed. Agents must use canonical term
 | Sandbox, Situation & the Railroad Spectrum | Sandbox vs Railroad, Illusionism, Player Agency Spectrum | Family 1 | The railroad-to-sandbox spectrum; prep situations not plots; the quantum ogre. |
 | Hexcrawl & Pointcrawl | Wilderness Exploration, Node-Path Travel | Family 1 | The hexcrawl as a complete exploration structure; the pointcrawl alternative. |
 | West Marches & the Open-Table Format | Open Table, Rotating Roster Campaign, Drop-In Drop-Out Play | Family 1 | Player-driven open-table play; persistent shared map; coordination at scale. |
+
+### Players & Social Dynamics mechanisms (added Phase 5)
+
+| Canonical term | Aliases | Family | Notes |
+|----------------|---------|--------|-------|
+| Trust, Conformity & Social Pressure | Social Deduction, Accusation Dynamics, Designed Peer Pressure | Family 4 | The hub: designing genuine social pressure on a foundation of consent (Asch/Milgram, social-deduction lineage). |
+| The Session Zero Playbook | Session 0, The Pre-Game Agreement, Group Contract | Family 4 | The pre-game agreement; expectations/tone/safety/logistics calibration. |
+| Pre-Game Workshop Design | Pre-Larp Workshop, Calibration Workshop, Relation Workshop | Family 4 | Nordic calibration mechanics and relationship workshops before play. |
+| Safety Tools as Design Layer | Calibration Tools, Consent Mechanics | Family 4 | The safety toolkit as a design layer (X-Card, Script Change, Lookdown, etc.); see the Safety Contract umbrella term. |
+| Bleed, Aftercare & Debriefing | De-roling, Post-Play Debrief, Emotional Aftercare | Family 4 | Bleed (Emily Care Boss); de-roling, debrief types, bookend rituals. |
+| Designer-Community Trust in Long-Form Hunts | Hunt Trust, Verifiability Compact, Designer Presence | Family 4 | The verifiability compact and reputation-as-enforcement in long-running hunts. |
+| Information Asymmetry: Hidden Information vs Hidden Roles | Hidden Information, Hidden Roles, Who Knows What | Family 4 | The structural choice of what to hide and from whom. |
+| Faction Design & Asymmetric Objectives | Faction Structure, Asymmetric Win Conditions | Family 4 | Factions as teams-within-the-game; asymmetric objective frameworks. |
+| Team Sizes & the Bottleneck Problem | Player Count, Group Size, Bottleneck Players | Family 4 | Size thresholds; the one-puzzle-one-bottleneck crowding problem. |
+| Team Splitting Strategies | Sub-Team Design, Splitting and Reconvergence | Family 4 | Splitting a large group into parallel sub-teams (Ringelmann, reconvergence). |
+| Parallel Team Architectures | Multi-Team Design, Megagame Faction Architecture | Family 4 | Convergent/competitive/hybrid/faction architectures for many teams at once. |
+| Host Roles & the Host-Cannot-Play Problem | Host Positions, Facilitator Roles, Running vs Playing | Family 4 | The three host positions; whoever runs a social game cannot also play it fresh. |
+| Cooperative vs Adversarial Formats | Co-op vs Competitive, Format Spectrum, Traitor Mechanics | Family 4 | The five-format spectrum; quarterbacking and traitor failure modes. |
+| Player Types & Casting | Player Taxonomies, Role Assignment, Player Motivation Frameworks | Family 4 | Bartle / Robin's Laws / Mixing Desk typologies as lenses, not boxes; casting. |
+| Spectator-Friendly Design | Designing for Observers, Mixed-Engagement Design | Family 4 | Designing for observers; drop-in/drop-out; mixed engagement levels. |
+| One-on-One Scene Design | The 1:1, Solo Audience Scene, Intimate Scenework | Family 4 | The single-player/facilitator scene; consent and the power gap as load-bearing. |
+| Accessibility in Live & Interactive Games | Inclusive Design, A11y in Games | Family 4 | The social model; sensory/mobility/cognitive/linguistic access; hints as access. |
+| Mixed-Ability Groups & Universal Design | Multi-Generational Play, Accessible Group Design | Family 4 | The seven Universal Design principles; one experience across abilities; redundant paths. |
+| GM Role Models & Stances | GM Stances, Facilitation Models, The GM as Social Role | Family 4 | The GM as a social role; the six stances and the authority gradient. |
+| Rulings vs Rules & the Authority Contract | Rulings Not Rules, Rule Zero, Fiat vs Ruling | Family 4 | Rulings-not-rules; Rule Zero and its abuse; authority held by table consent. |
 

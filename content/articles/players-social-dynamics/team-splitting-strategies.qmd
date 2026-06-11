@@ -11,8 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "Team Splitting Strategies" is the canonical term for this Family 4 mechanism; not yet in docs/term-registry.md. Add in the batched Players registry pass. Sibling terms (Team Sizes & the Bottleneck Problem, Parallel Team Architectures) likewise pending. -->
-
 *Silhouette: Cutting one group that has grown too big into sub-teams that run in concert, then bringing them back together without dead time.*
 
 A thirty-person event run as one group is not a big game. It is a small game with twenty-four spectators. Past a certain size a single group stops being a team and starts being an audience around the three or four people actually doing the work. Splitting it looks like a seating problem, a matter of who stands where, but it is really structure. Cut badly and you get idle players, sub-teams that trail each other from clue to clue, or a finale where one group taps its feet while another finishes. Cut well and the same thirty people feel like several tight games running at once, each small enough that everyone in it has something to do.

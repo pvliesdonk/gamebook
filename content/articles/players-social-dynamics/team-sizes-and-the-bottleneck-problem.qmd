@@ -11,8 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "Team Sizes & the Bottleneck Problem" is the canonical term for this mechanism, not yet in docs/term-registry.md. Add in the family's batched registry pass. Aliases above are candidate aliases. -->
-
 *Silhouette: How many bodies the design can keep solving rather than watching, and what breaks each time the count climbs.*
 
 Put twelve people in a room built for six and they will probably still escape. That is the trap. From the outside a finished session looks like a success. Inside it half the room had spent the hour at the back. They leaned in to read a clue over someone's shoulder and then stepped away again. Present but not playing. The gap between the players who had something real to do and the ones who only watched is the whole subject of this article. It almost never shows up in the win rate.

@@ -11,9 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-<!-- TERM-FLAG: "One-on-One Scene Design" (aliases: The 1:1, Solo Audience Scene) is not yet
-     in docs/term-registry.md. Add in the batched Players-family registry pass. -->
-
 *Silhouette: One performer alone with one participant behind a closed door, the whole encounter resting on a power gap that has to be made safe before it can be made beautiful.*
 
 A one-on-one is the most concentrated thing a live experience can do to a single person. One performer takes one participant into a closed room for five to fifteen minutes and gives them undivided, scripted attention. There is no crowd to hide in and no companion to glance at. Done well it becomes the moment the participant remembers above everything else in the show. Done badly it runs from flat to genuinely harmful, because the same closed door that makes the scene intense also removes every ordinary check on what happens inside. [corpus]

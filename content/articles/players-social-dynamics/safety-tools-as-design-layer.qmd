@@ -13,14 +13,6 @@ provenance: "researched"
 
 *Silhouette: The controls a player can reach without leaving the fiction, designed in from the start rather than bolted on for the squeamish.*
 
-<!-- TERM-FLAG: "X-Card" and "Lines and Veils" are currently registered only as aliases of the
-     category term "Safety Contract", which makes Gamebook.Terms rewrite every mention of the
-     specific tool. They are distinct named mechanisms (Stavropoulos 2013; Edwards 2003), not
-     synonyms for the category, and a safety article must name them accurately. Proposed for the
-     batched registry pass: promote "X-Card" and "Lines and Veils" to their own canonical terms
-     (Family 4) and remove them from the Safety Contract alias list / Terms.yml swap, so the
-     category term and the individual tool names can coexist. -->
-
 A safety tool is a small piece of protocol that lets a player adjust or stop the game's emotional content without having to argue for it. Tap a card and a scene rewinds. Catch someone's eye with a signal and they tell you whether they are all right. Say a single word and the action halts. None of this is therapy and none of it is a brake on intensity. It is the opposite. The tools are what let a designer build more pressure than would otherwise be safe, because the players know they can regulate it. [corpus]
 
 The mistake is to treat them as an add-on, a page near the back of the rulebook that the responsible designer includes and the bold one skips. Treated that way they sit unused, and an unused safety tool is worse than none because it advertises a protection that the table has quietly agreed not to touch. The work of this article is to show why the tools belong inside the design from the first sketch, who built each one and what it actually does, and the one rule that decides whether any of them get used: a tool taught in a workshop is used, and a tool buried in a rulebook is not. [corpus]
