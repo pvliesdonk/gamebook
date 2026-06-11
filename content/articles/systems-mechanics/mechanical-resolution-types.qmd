@@ -1,17 +1,117 @@
 ---
 title: "Mechanical Resolution Types"
-aliases: []
+aliases: ["Resolution Mechanics", "Dice Mechanics", "Task Resolution", "Resolution Systems"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [table-feel, dramatic-tension, felt-competence]
+  problems: [stalled-scene, swingy-outcomes, unreadable-odds]
+  components: [dice, cards, target-number, outcome-tiers]
+  genre: [fantasy, horror, historical, sci-fi]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: The roll at the centre of the table, where the game finds out what happens next.*
+
+A resolution mechanic is the procedure a game reaches for when two outcomes both feel possible and someone has to learn which one is real. A sword swings, a lock is picked, a lie is told to a guard, and the fiction holds its breath until the dice settle. Strip the mechanic away and the table is left negotiating by pure consensus, which works for some kinds of shared story but removes the stake that a system exists to provide. The mechanic is where the character sheet stops being a description and starts deciding things.
+
+This is the texture of play you feel most often, far more often than any clever subsystem. It sets the shape of the odds, the swinginess of a bad night, the little ritual of picking up the dice. It also makes a quiet argument about what the game is for. A flat single die says outcomes are sharp and luck is real. A bell curve says competence usually shows. A diceless ladder says the drama was never in the variance at all. Choosing a resolution method is choosing what your game thinks an uncertain moment should feel like.
+
+This article is about that choice and what each family of methods does to probability and to the feel of the table. It stops short of the layer that wraps a single roll in fictional cause and consequence, the [Move](moves-and-the-fiction-mechanic-fiction-loop.qmd), and of the layer that decides how many rolls a character gets and in what order, [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd). Those govern the sentence around the roll. This is the roll itself.
+
+## The Mechanism (How it works)
+
+### What every resolution method has to do
+
+A resolution method has three jobs, and most of the design space is just different trades between them. It has to connect a character's capability to the odds, so that the sheet means something. It has to produce a result everyone at the table can read without argument. And it has to run at a tempo that keeps the scene moving rather than stalling it for a counting ritual. [researched] A method that nails competence-mapping but takes thirty seconds to read its own result has failed the third job; a method that resolves instantly but makes a skilled character no safer than a novice has failed the first.
+
+Underneath those three jobs sits one structural fork that shapes everything downstream. Does the method return a binary result, a flat did-it-or-did-not, or a tiered one that also recognises the half-success? [researched] Binary is faster and travels anywhere; the cost is that someone, usually the GM, has to invent what failure means each time. Tiered bakes a third outcome into the rules so the fiction never dead-ends, at the cost of pre-writing what that middle result does. The article returns to this fork at the end, because it is the most consequential single decision in the set.
+
+### The single die and the flat line
+
+The plainest method is one die against a target. A player rolls a d20 and adds a modifier drawn from a stat or skill, then checks the total against a Difficulty Class or an armour value. Meet it or beat it and the action lands. This is the engine of D&D's d20 line, of the OSR retroclones, and of stripped-back modern designs like Mörk Borg. [researched]
+
+The flat d20 distribution is the source of both its virtues and its complaints. Every face is equally likely, so each +1 is worth exactly five percent more chance, which makes character advancement legible and build decisions easy to reason about. [researched] The flip side is high swing. One die means a brilliant character and a hopeless one are separated by only a narrow band of modifier against a broad span of pure chance. The same total resolves a heroic success and a routine one identically. The binary default can also stall a scene outright: a failed search in an investigation game gives the GM nothing but a closed door and a table waiting. The single die is decisive, fast, and a little cruel. It dramatises luck, which is exactly the OSR's point and exactly the trouble in a game that wanted competence to read.
+
+A close cousin inverts the comparison: roll low under a skill percentage instead of high over a target. Call of Cthulhu and the wider Basic Role-Playing family put the number you need to beat directly on the sheet as the skill itself, so a Lockpick 45 character simply wants 45 or under on d100. [researched] The competence is readable without arithmetic, and degrees of success layer on cleanly (a roll at or under half the skill is a Hard success, a fifth an Extreme). The maths strain only at the edges, where a skill climbing past 100 needs special handling and advancement plateaus in ways the fiction can feel.
+
+### Curves: making the messy middle the likely one
+
+Add a second die and the flat line becomes a bell. Powered by the Apocalypse builds its whole feel on this. The player rolls 2d6 and adds a stat modifier of roughly minus one to plus three. The total reads in bands. A 10 or more is a clean hit. A 6 or under is a miss that hands the GM a hard move. Everything from 7 to 9 is a partial success. [researched] On 2d6 the 7-to-9 band sits across the fattest part of the curve, so the partial is the modal result by design. Even a strong character lands in the messy middle a third of the time.
+
+That is the argument the curve is making. The 7-to-9 is not a watered-down success; it is a distinct event the designer writes into the [PbtA Move](moves-and-the-fiction-mechanic-fiction-loop.qmd) text. Either you get what you wanted with a cost attached, or you land it only by choosing between two bad branches. Vincent Baker designed Apocalypse World and has described the intent plainly. The curve exists to make sure things always get complicated. [researched] A flat die hands you uniform drama. A bell curve hands you conversational and complicated drama by sheer probability mass. The tempo comes along with it, since 2d6 is almost read before the dice stop moving.
+
+Fate reaches the bell by a different route, four Fudge dice marked plus, minus, and blank, giving minus four to plus four centred hard on zero. [researched] The result adds to a skill named on a human-readable ladder (Mediocre, Average, Fair, Good, and up through Legendary), so both the character's rating and the difficulty already carry the words you will narrate with. Tie the opposition and you get success at a cost; beat it by three and you succeed with style. Because the dice cluster near the middle, play feels less like gambling and more like confirming what a competent character usually manages. Players bend a roll their way by invoking the free-text Aspects on their sheet.
+
+### Pools: competence you can hold in your hand
+
+Instead of one die plus a number, hand the player a fistful of dice and let the size of the fist carry the competence. The dice-pool family counts how many dice clear a threshold and reads each one as a success. The World of Darkness Storyteller system, Shadowrun, Burning Wheel, and Exalted all work this way. Attribute plus skill builds the pool; you roll the lot; the count of successes is itself the degree of the outcome. [researched] A pool of eight against a target of seven is plainly safer than a pool of four, and the GM can tighten drama by moving the target without ever touching the sheet.
+
+The pool's gift is that capability is physical. A powerful character literally holds more dice, and the assembling-rolling-counting is a shared beat of suspense the whole table watches. The cost is in the same place. Large pools slow play, and the binomial odds are harder to feel in the gut than a flat die. Tricks like Shadowrun's exploding sixes grow long tails of freak results. [researched] The Year Zero Engine (the Free League line of Forbidden Lands and the Alien RPG) keeps the count-successes core but colours the dice by source and adds the push. Fail a roll and you may reroll any die that did not already show a one or a six, at the price of damaged gear or mounting stress. [researched] In Alien that stress feeds panic rolls that can spiral lethally. The procedure carries the setting's theme of desperation and attrition in its own structure. The push is the fiction.
+
+Forged in the Dark, the engine John Harper built for Blades in the Dark, keeps the pool but changes what you do with it. The player takes the single highest die rather than counting. [researched] On that highest die a six is a full success. Four or five is a partial that carries consequence. Anything from one to three is a bad outcome. Doubled sixes read as a critical. What the pool size changes is the probability distribution rather than a fixed threshold, so even one die can roll a six and four dice can still come up short. The real design move sits before the dice, though. The table agrees position (how exposed you are if it goes wrong: Controlled, Risky, or Desperate) and effect (how much a success will accomplish: Limited, Standard, or Great) out loud first, so the stakes of both winning and losing are named in fiction before any number appears. [researched] The central negotiation is position against effect, not success against failure, and that is where most of the game's tactical texture lives.
+
+A handful of pool designs read a different signal entirely. The One Roll Engine (Godlike, Reign) ignores thresholds and hunts for matching dice. The width of a match (how many dice share a face) gives speed and damage; the height (the shared face value) gives precision and timing. Both axes resolve from a single throw, which folds initiative, hit location, and damage into one read. [researched] It is among the most expressive resolution systems in print and one of the most cognitively demanding, taking several sessions to internalise. Cortex Prime, meanwhile, rates each facet of a character with a die from d4 to d12. The player rolls one die from every relevant facet and keeps the two highest, so every action becomes a statement about which parts of a character's identity are in play right now, not merely which skill applies. [researched]
+
+A resolution-types comparison gathers the families and what each one does to the two variables that matter most, the shape of the odds and the feel at the table.
+
+| Family | Core procedure | Representative systems | Probability shape | Outcome structure | Table-feel |
+|---|---|---|---|---|---|
+| Single die, roll high | d20 + modifier vs target | D&D d20, OSR, Pathfinder 2e | Flat / uniform | Binary by default | Decisive, fast, swingy [researched] |
+| Roll under | d100 under skill | Call of Cthulhu, BRP, Mythras | Flat, with degree bands | Binary + degrees | Readable competence, additive growth [researched] |
+| 2d6 + stat | 2d6 + stat, three bands | Apocalypse World, Dungeon World | Bell curve | Tiered (6-/7-9/10+) | Conversational, complications modal [researched] |
+| Fudge / ladder | 4dF + named skill | Fate Core, Dresden Files | Bell curve, narrow | Tiered (cost / style) | Elegant, confirms competence [researched] |
+| Pool, count successes | Roll pool, count over threshold | World of Darkness, Shadowrun, Year Zero | Binomial | Degrees by success count | Ritualistic, power made physical [researched] |
+| Pool, highest die | Roll pool, take highest | Blades in the Dark (FitD) | Skewed by pool size | Tiered, position + effect | Tight, stakes named pre-roll [researched] |
+| Pool, matching dice | Roll d10s, read width + height | One Roll Engine (Godlike, Reign) | Match-frequency | Two-axis simultaneous | Expressive, steep on-ramp [researched] |
+| Stepped polyhedrals | Roll trait dice, keep two | Cortex Prime, Marvel Heroic | Mixed | Total vs difficulty | Identity-as-mechanic, elaborate [researched] |
+| Diceless | Compare ratings / spend currency | Amber, Nobilis | None | Determined by rank | No variance, drama from hierarchy [researched] |
+| Card-based | Play cards from a hand | Castle Falkenstein, Deadlands | Deck-dependent, hand-managed | Total vs target | Deliberate, theatrical [researched] |
+
+### Removing the dice, or replacing them with cards
+
+The most radical choice is to take the randomiser out. Amber Diceless resolves conflict by comparing attribute rankings. Absent other factors, the character with the higher Warfare simply prevails. Those rankings come from a blind point-auction at character creation. [researched] It only works because Amber's premise is a hierarchy of demigods where the whole drama is who outranks whom and how far each will push an advantage. Randomness would undercut that, so its absence is a statement rather than a gap. Nobilis adds a currency of Miracle Points so players can buy specific outcomes. A diceless game with that layer behaves more like a resource economy than pure GM arbitration. Diceless demands near-total trust in the person adjudicating. It falls apart for tactical or peer-level play where any outcome ought to stay plausible.
+
+Cards split the difference between randomness and control. Castle Falkenstein deals each player a hand of four cards and resolves actions by playing them against a target, with a card's full value counting only when its suit matches the relevant ability and otherwise contributing a single point. [researched] Because the hand is a limited resource that refreshes through roleplay, a strong card spent now is gone later, so resolution carries a hand-management decision dice never could. The physical act of drawing, holding, and laying down a card is slower and more deliberate than a throw, and Castle Falkenstein uses exactly that to hold its Victorian parlour tone in the procedure itself. Deadlands keeps a deck for initiative and poker dice for resolution, leaning on the cards to sound its Wild West note.
+
+::: {.callout-note}
+### The Specimen
+Apocalypse World's 2d6 engine is the clearest case of a probability curve chosen as a design argument rather than a default. The three bands (10+, 7-9, 6-) are not evenly likely. On a flat 2d6 the 7-to-9 partial sits on the fattest part of the bell, so even a well-built character with a plus-two lands in the messy middle over thirty percent of the time. [researched] Vincent Baker built it that way on purpose, to guarantee that things always get complicated. The partial is written into each Move as a real event with its own cost rather than a softened failure. The lesson reaches past PbtA. The shape of your distribution is a statement about how often you want the fiction to go sideways, and a flat die and a bell curve make opposite promises about that. [synthesis]
+:::
+
+### The fork that matters most: hit-or-miss against tiered
+
+Return to the structural fork, because it decides more about a game's feel than any single die choice. A binary method gives a clean pass or fail and resolves fast, but it puts the whole burden of an interesting failure on the GM, who has to turn every miss into a move rather than a dead end. [researched] Handled well, binary is supple and portable. Handled poorly, a failed roll is just a wall. A tiered method instead writes the near-miss into the rules so the fiction always advances. That partial success, the yes-but or the success at a cost, is a distinct outcome the designer specifies ahead of time. [researched] It moves the hardest improvisation from the table to the page and guarantees momentum, at the price of more pre-written outcome text and less portability across unforeseen situations.
+
+This is the same boundary that separates a resolution method from the [Move](moves-and-the-fiction-mechanic-fiction-loop.qmd) that frames it. The dice or cards answer how the uncertainty resolves; the Move answers what fictional question was being asked and what each tier means in the story. A tiered die without authored consequences is just three numbers, and a rich move with a binary die throws the whole weight of the partial back onto the GM. The two layers are designed together, so the fineness of the resolution method also pulls a game along the rulings-first to rules-first spectrum that [Rulings vs Rules & the Authority Contract](../players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd) maps: a sparse binary die invites rulings, a dense tiered procedure encodes them. How that method then governs an encounter's risk and pace is [Encounter & Challenge Design](encounter-and-challenge-design.qmd); when the method is consciously kept simple so that interesting outcomes emerge from play rather than from the dice, that is [Elegance, Emergence & Randomness](elegance-emergence-and-randomness.qmd).
+
+### The same question in other media
+
+A resolution method is a tabletop fixture, but the underlying question (how does a table find out what happens when the fiction is uncertain) recurs wherever an authored experience meets a player's choice. In a solo journaling RPG the resolution is the writing itself. A die roll or card draw selects a prompt, the prompt frames a situation, and the player's written response is the outcome, with no separate pass-or-fail layered on top. [researched] The same resolution-as-fiction-interface idea carries into interactive fiction. There a stat or skill check is less a gate than a way of letting the character sheet speak into the prose, and an oracle or shuffled deck stands in for the absent GM. That solo and oracle-driven resolution is its own article, [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd).
+
+A live game answers the same question with hardware. A self-resolving puzzle makes the mechanism itself the judge: a combination clicks, a maglock releases, a panel lights, and the outcome is adjudicated by the apparatus rather than a person, the live cousin of a die that settles a result without appeal. [researched] The design constraints rhyme with the tabletop binary-versus-tiered choice. A lock is a hard binary judge, and its characteristic failure is the false positive, where the right input arrives by accident and the mechanism cannot tell a real solve from a lucky one. The fix lives in whether the apparatus is monostable (it springs back to its default on its own, like an arcade button) or bistable (it latches and must be reset by hand), which is the live equivalent of asking whether your outcome is recoverable between attempts. That mechanism-as-judge craft is [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd).
+
+## Where this fits
+
+**The bigger picture.** The resolution method is the floor the rest of the Systems & Mechanics family stands on, because it is the layer the table touches most. Nearly every other mechanism assumes one. A [PbtA Move](moves-and-the-fiction-mechanic-fiction-loop.qmd) needs a tiered roll to have tiers to write to; an action economy needs to know how long a single resolution takes before it can budget a turn; a [Progress Clock](progress-clocks-and-faction-state.qmd) fills on the outcomes the method produces. The choice is also where a system makes its quietest and most honest statement about itself, because the shape of the odds and the feel of the roll reach the player long before any setting text does. A flat die, a bell curve, a held hand of cards, and a diceless ladder are four different claims about what an uncertain moment should mean, and a game that picks the wrong one for its fiction will feel off at the table no matter how good the rest of the writing is.
+
+**Next steps.** Once the resolution method is chosen, the craft turns to the fictional frame around each roll, the one that fixes what its tiers mean in the story, [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd). From there it turns to the economy that sets how many rolls a character gets and when, [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd). To see how a chosen method calibrates difficulty and risk across a scene, go to [Encounter & Challenge Design](encounter-and-challenge-design.qmd); to weigh how much the method should do versus how much should be left to emerge from play, [Elegance, Emergence & Randomness](elegance-emergence-and-randomness.qmd). When there is no GM to adjudicate at all, the resolution problem moves to the oracle: [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd). And to place a given method within the wider design traditions it belongs to, start from the [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd) and the question of how tightly a method is bound to its world in [System vs Setting](system-vs-setting.qmd).
+
+## Sources
+
+- *Apocalypse World* (D. Vincent Baker and Meguey Baker, Lumpley Games, 2010; 2nd edition 2016); the 2d6 / 7-9 partial-success structure. <https://en.wikipedia.org/wiki/Apocalypse_World>
+- *Blades in the Dark* (John Harper, Evil Hat Productions, 2017); Forged in the Dark, highest-die resolution. <https://en.wikipedia.org/wiki/Blades_in_the_Dark>
+- "Setting Position & Effect" and "Effect," *Blades in the Dark* SRD. <https://bladesinthedark.com/setting-position-effect> and <https://bladesinthedark.com/effect>
+- *Amber Diceless Roleplaying Game* (Erick Wujcik, Phage Press, 1991); comparative-ranking diceless resolution. <https://en.wikipedia.org/wiki/Amber_Diceless_Roleplaying_Game>
+- Year Zero Engine, *Mutant: Year Zero* (Free League / Modiphius; English edition 2014); the push mechanic and bane dice. <https://rpggeek.com/rpgsystem/43636/year-zero-engine> and <https://frank-mitchell.com/rpg/year-zero-engine-ogl/>
+- One Roll Engine (Greg Stolze; the width / height matching mechanic). <https://en.wikipedia.org/wiki/One-Roll_Engine>
+- Cortex Prime (Margaret Weis Productions / Fandom Tabletop, 2020; stepped-die, keep-two). <https://en.wikipedia.org/wiki/Cortex_System>
+- *Castle Falkenstein* (Mike Pondsmith, R. Talsorian Games, 1994); card-based, suit-matched resolution. <https://en.wikipedia.org/wiki/Castle_Falkenstein_(role-playing_game)>
+- *Fate Core* (Evil Hat Productions, 2013); 4dF, the Ladder, success at a cost / with style. <https://fate-srd.com/fate-core/taking-action-dice-ladder>
+- *Call of Cthulhu* and Basic Role-Playing (Chaosium); roll-under d100 with degree bands. <https://en.wikipedia.org/wiki/Call_of_Cthulhu_(role-playing_game)>
+- Tim Hutchings, *Thousand Year Old Vampire* (2020); the prompt as the solo-journaling resolution mechanic. <https://thousandyearoldvampire.com/products/thousand-year-old-vampire>
+- Errol Elumir, *13 Rules for Escape Room Puzzle Design* (The Codex); self-validating answers and no-destroyable-states (the live mechanism-as-judge). <https://thecodex.ca>
+- Room Escape Artist, "The Wrong MacGyver Solution" (2018) and "Lock Mapping and Why It's Essential" (2026); the false-positive failure mode and its mitigation. <https://roomescapeartist.com>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
