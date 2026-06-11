@@ -93,6 +93,5 @@ The mandatory part is mandatory for a reason, and the failure mode has a documen
 - [One-on-One Scene Design](one-on-one-scene-design.qmd)
 - [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
 - [The Session Zero Playbook](the-session-zero-playbook.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 
 <!-- BACKLINKS:END -->

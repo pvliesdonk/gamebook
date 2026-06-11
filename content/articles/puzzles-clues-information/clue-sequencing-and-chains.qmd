@@ -111,7 +111,6 @@ The seductive sequencing failure is the single beautiful line. A linear chain is
 - [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
 - [Teaching Through Play](teaching-through-play.qmd)
 - [The Aha Moment](the-aha-moment.qmd)
-- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
 - [Treasure & Scavenger Hunts](treasure-and-scavenger-hunts.qmd)
 
 <!-- BACKLINKS:END -->

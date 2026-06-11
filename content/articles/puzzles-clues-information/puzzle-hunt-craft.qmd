@@ -116,7 +116,6 @@ Shipping without enough test-solving is the failure that no amount of clever con
 - [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)
 - [Parallel Team Architectures](../players-social-dynamics/parallel-team-architectures.qmd)
 - [Physical vs Digital Puzzle Artefacts](../space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd)
-- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
 - [The Puzzle Hunt & ARG Tradition](the-puzzle-hunt-and-arg-tradition.qmd)
 - [Treasure & Scavenger Hunts](treasure-and-scavenger-hunts.qmd)
 

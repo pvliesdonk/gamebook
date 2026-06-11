@@ -122,7 +122,6 @@ Live and outdoor games meet the axis as the static-versus-adaptive decision. A f
 - [Prep Economy](../systems-mechanics/prep-economy.qmd)
 - [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd)
 - [TTRPG Format Taxonomy](../systems-mechanics/ttrpg-format-taxonomy.qmd)
-- [The Shape of Time](../../primers/the-shape-of-time.qmd)
 - [West Marches & the Open-Table Format](west-marches-and-the-open-table-format.qmd)
 
 <!-- BACKLINKS:END -->

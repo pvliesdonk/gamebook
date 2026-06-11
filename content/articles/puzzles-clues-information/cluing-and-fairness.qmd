@@ -140,7 +140,6 @@ The seductive failure is the clever rule only you know. You invent an elegant st
 - [TTRPG Format Taxonomy](../systems-mechanics/ttrpg-format-taxonomy.qmd)
 - [Teaching Through Play](teaching-through-play.qmd)
 - [The Aha Moment](the-aha-moment.qmd)
-- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
 - [The Puzzle Hunt & ARG Tradition](the-puzzle-hunt-and-arg-tradition.qmd)
 - [Treasure & Scavenger Hunts](treasure-and-scavenger-hunts.qmd)
 - [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd)

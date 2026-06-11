@@ -90,7 +90,6 @@ Almost no published game runs on one family. The interesting designs layer two o
 
 - [Deckbuilders](deckbuilders.qmd)
 - [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 - [Theme-Mechanism Integration](theme-mechanism-integration.qmd)
 
 <!-- BACKLINKS:END -->

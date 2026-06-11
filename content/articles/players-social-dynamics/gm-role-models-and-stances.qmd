@@ -111,7 +111,6 @@ The seductive failure is the secret stance switch. A gamemaster runs a game as a
 - [Social Performance Genres](../systems-mechanics/social-performance-genres.qmd)
 - [TTRPG Format Taxonomy](../systems-mechanics/ttrpg-format-taxonomy.qmd)
 - [The Session Zero Playbook](the-session-zero-playbook.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
 
 <!-- BACKLINKS:END -->

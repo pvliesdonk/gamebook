@@ -126,7 +126,6 @@ The cliffhanger earns its own mention because it is a scheduling tool as much as
 - [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
 - [Team Sizes & the Bottleneck Problem](../players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd)
-- [The Shape of Time](../../primers/the-shape-of-time.qmd)
 - [Time Loop Patterns](time-loop-patterns.qmd)
 - [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
 - [Turn Structure & Action Economy](../systems-mechanics/turn-structure-and-action-economy.qmd)

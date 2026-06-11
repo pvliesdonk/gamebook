@@ -100,7 +100,6 @@ The live form is the question of diegetic mechanics. In an escape room a designe
 - [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
 - [Playbook Design](playbook-design.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 - [Theme-Mechanism Integration](theme-mechanism-integration.qmd)
 
 <!-- BACKLINKS:END -->

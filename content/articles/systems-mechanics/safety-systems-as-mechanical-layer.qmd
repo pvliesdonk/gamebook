@@ -116,6 +116,5 @@ A point of lineage closes the picture. The live-action tradition built this voca
 
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 
 <!-- BACKLINKS:END -->

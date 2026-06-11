@@ -117,7 +117,6 @@ The live form runs along the same axis with the body as the medium. An escape ro
 - [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd)
 - [Replayability](replayability.qmd)
 - [System vs Setting](system-vs-setting.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 - [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd)
 
 <!-- BACKLINKS:END -->

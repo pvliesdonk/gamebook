@@ -135,7 +135,6 @@ A live game answers the same question with hardware. A self-resolving puzzle mak
 - [Solo Modes](solo-modes.qmd)
 - [System vs Setting](system-vs-setting.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 - [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd)
 
 <!-- BACKLINKS:END -->

@@ -7,43 +7,8 @@ book:
   author: "—"
   chapters:
     - index.qmd
-    - part: "Primers"
+    - part: content/primers/the-shape-of-time.qmd
       chapters:
-        - content/primers/index.qmd
-        - content/primers/the-fairness-contract.qmd
-        - content/primers/making-it-real.qmd
-        - content/primers/the-shape-of-time.qmd
-        - content/primers/the-social-contract-and-safety.qmd
-        - content/primers/the-engine-room.qmd
-    - part: "Articles"
-      chapters:
-        - content/articles/index.qmd
-        - content/articles/puzzles-clues-information/cluing-and-fairness.qmd
-        - content/articles/puzzles-clues-information/clue-sequencing-and-chains.qmd
-        - content/articles/puzzles-clues-information/information-architecture.qmd
-        - content/articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd
-        - content/articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd
-        - content/articles/puzzles-clues-information/ciphers-and-codes.qmd
-        - content/articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd
-        - content/articles/puzzles-clues-information/self-resolving-puzzles.qmd
-        - content/articles/puzzles-clues-information/the-aha-moment.qmd
-        - content/articles/puzzles-clues-information/teaching-through-play.qmd
-        - content/articles/puzzles-clues-information/hint-systems-and-recovery.qmd
-        - content/articles/puzzles-clues-information/puzzle-hunt-craft.qmd
-        - content/articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd
-        - content/articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd
-        - content/articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
-        - content/articles/space-props-materiality/artefact-design-and-document-production.qmd
-        - content/articles/space-props-materiality/fabrication-and-sourcing.qmd
-        - content/articles/space-props-materiality/physical-clue-formats.qmd
-        - content/articles/space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd
-        - content/articles/space-props-materiality/lock-taxonomy.qmd
-        - content/articles/space-props-materiality/digital-props.qmd
-        - content/articles/space-props-materiality/qr-and-nfc-patterns.qmd
-        - content/articles/space-props-materiality/cue-management-and-gm-station.qmd
-        - content/articles/space-props-materiality/materials-durability-and-reset.qmd
-        - content/articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd
-        - content/articles/space-props-materiality/dungeon-and-spatial-topology.qmd
         - content/articles/structure-pacing/branching-narrative-craft.qmd
         - content/articles/structure-pacing/if-graph-structures-a-taxonomy.qmd
         - content/articles/structure-pacing/scene-and-sequel-in-interactive-fiction.qmd
@@ -62,6 +27,24 @@ book:
         - content/articles/structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd
         - content/articles/structure-pacing/hexcrawl-and-pointcrawl.qmd
         - content/articles/structure-pacing/west-marches-and-the-open-table-format.qmd
+    - part: content/primers/the-fairness-contract.qmd
+      chapters:
+        - content/articles/puzzles-clues-information/cluing-and-fairness.qmd
+        - content/articles/puzzles-clues-information/clue-sequencing-and-chains.qmd
+        - content/articles/puzzles-clues-information/information-architecture.qmd
+        - content/articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd
+        - content/articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd
+        - content/articles/puzzles-clues-information/ciphers-and-codes.qmd
+        - content/articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd
+        - content/articles/puzzles-clues-information/self-resolving-puzzles.qmd
+        - content/articles/puzzles-clues-information/the-aha-moment.qmd
+        - content/articles/puzzles-clues-information/teaching-through-play.qmd
+        - content/articles/puzzles-clues-information/hint-systems-and-recovery.qmd
+        - content/articles/puzzles-clues-information/puzzle-hunt-craft.qmd
+        - content/articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd
+        - content/articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd
+    - part: content/primers/the-social-contract-and-safety.qmd
+      chapters:
         - content/articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd
         - content/articles/players-social-dynamics/the-session-zero-playbook.qmd
         - content/articles/players-social-dynamics/pre-game-workshop-design.qmd
@@ -82,6 +65,22 @@ book:
         - content/articles/players-social-dynamics/mixed-ability-groups-and-universal-design.qmd
         - content/articles/players-social-dynamics/gm-role-models-and-stances.qmd
         - content/articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd
+    - part: content/primers/making-it-real.qmd
+      chapters:
+        - content/articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
+        - content/articles/space-props-materiality/artefact-design-and-document-production.qmd
+        - content/articles/space-props-materiality/fabrication-and-sourcing.qmd
+        - content/articles/space-props-materiality/physical-clue-formats.qmd
+        - content/articles/space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd
+        - content/articles/space-props-materiality/lock-taxonomy.qmd
+        - content/articles/space-props-materiality/digital-props.qmd
+        - content/articles/space-props-materiality/qr-and-nfc-patterns.qmd
+        - content/articles/space-props-materiality/cue-management-and-gm-station.qmd
+        - content/articles/space-props-materiality/materials-durability-and-reset.qmd
+        - content/articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd
+        - content/articles/space-props-materiality/dungeon-and-spatial-topology.qmd
+    - part: content/primers/the-engine-room.qmd
+      chapters:
         - content/articles/systems-mechanics/mechanical-resolution-types.qmd
         - content/articles/systems-mechanics/ttrpg-format-taxonomy.qmd
         - content/articles/systems-mechanics/system-vs-setting.qmd

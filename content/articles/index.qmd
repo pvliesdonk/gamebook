@@ -1,6 +1,0 @@
----
-title: "Articles"
----
-
-
-The main reference: one article per design mechanism, grouped by functional family.

@@ -104,7 +104,6 @@ The degenerate meta is the one where the discovery moment is missing. You have t
 - [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
 - [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd)
 - [Teaching Through Play](teaching-through-play.qmd)
-- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
 - [The Puzzle Hunt & ARG Tradition](the-puzzle-hunt-and-arg-tradition.qmd)
 
 <!-- BACKLINKS:END -->

@@ -127,7 +127,6 @@ In single-player digital puzzle games the unit is the puzzle or the room, and th
 - [Prep Economy](prep-economy.qmd)
 - [Progress Clocks & Faction State](progress-clocks-and-faction-state.qmd)
 - [Solo Modes](solo-modes.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 - [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd)
 
 <!-- BACKLINKS:END -->

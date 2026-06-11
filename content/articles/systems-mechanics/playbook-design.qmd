@@ -117,6 +117,5 @@ The live version makes one design choice especially visible. Concealment is univ
 - [Safety Systems as Mechanical Layer](safety-systems-as-mechanical-layer.qmd)
 - [Social Performance Genres](social-performance-genres.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 
 <!-- BACKLINKS:END -->

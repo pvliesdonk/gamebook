@@ -133,7 +133,6 @@ The Game Crafter, a print-on-demand manufacturer, publishes its component specif
 ## Referenced by
 
 - [Artefact Design & Document Production](artefact-design-and-document-production.qmd)
-- [Making It Real](../../primers/making-it-real.qmd)
 - [Materials, Durability & Reset](materials-durability-and-reset.qmd)
 - [Scope, Scale & Branching Depth](../structure-pacing/scope-scale-and-branching-depth.qmd)
 

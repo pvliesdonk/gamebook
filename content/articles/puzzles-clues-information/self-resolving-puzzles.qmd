@@ -119,6 +119,5 @@ The seductive failure is to trust the verdict. A self-resolving mechanism gives 
 - [Physical vs Digital Puzzle Artefacts](../space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd)
 - [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
 - [The Aha Moment](the-aha-moment.qmd)
-- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
 
 <!-- BACKLINKS:END -->

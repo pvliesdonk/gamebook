@@ -139,7 +139,6 @@ The loop turns out to survive the loss of its own randomiser, which is the stron
 - [Safety Systems as Mechanical Layer](safety-systems-as-mechanical-layer.qmd)
 - [System vs Setting](system-vs-setting.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 - [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd)
 - [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd)
 

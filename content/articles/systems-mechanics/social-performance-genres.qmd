@@ -116,6 +116,5 @@ Jubensha matters here because it shows the genre's two moods fused. The hidden-r
 ## Referenced by
 
 - [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 
 <!-- BACKLINKS:END -->

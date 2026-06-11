@@ -140,6 +140,5 @@ There is no arrangement that hands a generous one-on-one to every person in a th
 - [Pre-Game Workshop Design](pre-game-workshop-design.qmd)
 - [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
 - [Scene Structure & Transitions](../structure-pacing/scene-structure-and-transitions.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 
 <!-- BACKLINKS:END -->

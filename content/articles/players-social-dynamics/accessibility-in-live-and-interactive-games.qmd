@@ -117,6 +117,5 @@ Accessibility is one of the cleanest cross-media patterns in this guide because 
 
 - [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd)
 - [Spectator-Friendly Design](spectator-friendly-design.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 
 <!-- BACKLINKS:END -->

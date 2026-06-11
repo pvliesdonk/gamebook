@@ -114,6 +114,5 @@ Whichever you reach for, the choice is made before play, not patched in during i
 - [Parallel Team Architectures](parallel-team-architectures.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 
 <!-- BACKLINKS:END -->

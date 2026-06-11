@@ -107,6 +107,5 @@ The legacy idea has crossed over too, and the bridge is a physical one. The *Exi
 - [Replayability](replayability.qmd)
 - [Social Performance Genres](social-performance-genres.qmd)
 - [Solo Modes](solo-modes.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 
 <!-- BACKLINKS:END -->

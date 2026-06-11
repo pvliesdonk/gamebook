@@ -112,6 +112,5 @@ The practical lesson from all three is that the authority contract is settled be
 - [Moves & the Fiction-Mechanic-Fiction Loop](../systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd)
 - [Safety Systems as Mechanical Layer](../systems-mechanics/safety-systems-as-mechanical-layer.qmd)
 - [TTRPG Format Taxonomy](../systems-mechanics/ttrpg-format-taxonomy.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 
 <!-- BACKLINKS:END -->

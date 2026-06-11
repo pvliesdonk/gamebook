@@ -117,7 +117,6 @@ The seductive failure is to choose the lock for how it looks and discover its op
 - [Digital Props](digital-props.qmd)
 - [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
 - [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd)
-- [Making It Real](../../primers/making-it-real.qmd)
 - [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd)
 - [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd)
 

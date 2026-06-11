@@ -1,5 +1,6 @@
 ---
-title: "The Engine Room"
+title: "Systems & Mechanics"
+subtitle: "Primer · The Engine Room"
 type: primer
 provenance: "synthesis"
 ---

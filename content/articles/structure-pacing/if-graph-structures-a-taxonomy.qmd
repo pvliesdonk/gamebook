@@ -101,7 +101,6 @@ The shape is not the story. Naming a structure tells you its silhouette and its 
 - [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
 - [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)
-- [The Shape of Time](../../primers/the-shape-of-time.qmd)
 - [Time Loop Patterns](time-loop-patterns.qmd)
 
 <!-- BACKLINKS:END -->

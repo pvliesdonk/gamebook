@@ -112,6 +112,5 @@ The two failure modes sit on opposite sides of the click, and either one is a tr
 - [Information Architecture](information-architecture.qmd)
 - [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd)
 - [Teaching Through Play](teaching-through-play.qmd)
-- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
 
 <!-- BACKLINKS:END -->

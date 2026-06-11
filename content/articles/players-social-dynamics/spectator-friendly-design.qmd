@@ -103,7 +103,6 @@ The clearest demonstration is *Twitch Plays Pokémon* (2014), where viewers ente
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd)
 - [Team Splitting Strategies](team-splitting-strategies.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [Turn Structure & Action Economy](../systems-mechanics/turn-structure-and-action-economy.qmd)
 - [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)
 

@@ -121,6 +121,5 @@ There is a whole tradition that builds faction-like structures and deliberately 
 - [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd)
 - [Parallel Team Architectures](parallel-team-architectures.qmd)
 - [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 
 <!-- BACKLINKS:END -->

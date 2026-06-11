@@ -1,5 +1,6 @@
 ---
-title: "The Shape of Time"
+title: "Structure & Pacing"
+subtitle: "Primer · The Shape of Time"
 type: primer
 provenance: "synthesis"
 ---

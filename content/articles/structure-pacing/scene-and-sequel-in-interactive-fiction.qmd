@@ -122,7 +122,6 @@ Inkle's *80 Days* (2014) builds its choices as deliberation beats rather than re
 - [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
 - [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
-- [The Shape of Time](../../primers/the-shape-of-time.qmd)
 - [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
 
 <!-- BACKLINKS:END -->

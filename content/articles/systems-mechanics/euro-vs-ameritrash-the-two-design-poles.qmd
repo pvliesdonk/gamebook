@@ -110,7 +110,6 @@ The hybrid move is exactly the dial-by-dial reading made concrete. Take the Euro
 
 - [Boardgame Mechanism Vocabulary](boardgame-mechanism-vocabulary.qmd)
 - [Deckbuilders](deckbuilders.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 - [Theme-Mechanism Integration](theme-mechanism-integration.qmd)
 
 <!-- BACKLINKS:END -->

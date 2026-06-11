@@ -126,6 +126,5 @@ The puzzle hunt meets the economy as a routing decision: how much to prepare in 
 - [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd)
 - [Solo Modes](solo-modes.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 
 <!-- BACKLINKS:END -->

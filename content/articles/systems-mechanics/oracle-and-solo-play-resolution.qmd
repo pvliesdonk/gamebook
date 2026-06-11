@@ -101,6 +101,5 @@ The contemporary version of the question is sharpest when the non-human particip
 - [Prep Economy](prep-economy.qmd)
 - [Solo Modes](solo-modes.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 
 <!-- BACKLINKS:END -->

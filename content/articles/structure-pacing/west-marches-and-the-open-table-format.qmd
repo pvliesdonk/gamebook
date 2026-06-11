@@ -115,6 +115,5 @@ Puzzle hunts meet it as the roster-based distributed event. A long-form hunt sus
 - [Parallel Team Architectures](../players-social-dynamics/parallel-team-architectures.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
 - [Spectator-Friendly Design](../players-social-dynamics/spectator-friendly-design.qmd)
-- [The Shape of Time](../../primers/the-shape-of-time.qmd)
 
 <!-- BACKLINKS:END -->

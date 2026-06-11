@@ -95,7 +95,6 @@ This connects to a quieter principle about who authors what. Paul Czege observed
 - [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
 - [Safety Systems as Mechanical Layer](../systems-mechanics/safety-systems-as-mechanical-layer.qmd)
 - [The Session Zero Playbook](the-session-zero-playbook.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
 
 <!-- BACKLINKS:END -->

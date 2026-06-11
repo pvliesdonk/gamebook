@@ -111,7 +111,6 @@ The borrowed maps travel beyond the page. Arc-driven tabletop campaigns import n
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
 - [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
-- [The Shape of Time](../../primers/the-shape-of-time.qmd)
 - [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
 
 <!-- BACKLINKS:END -->

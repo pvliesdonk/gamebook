@@ -96,7 +96,6 @@ Claiming authenticity for an artefact creates obligations a designer cannot easi
 ## Referenced by
 
 - [Parallel Team Architectures](parallel-team-architectures.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [Treasure & Scavenger Hunts](../puzzles-clues-information/treasure-and-scavenger-hunts.qmd)
 - [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
 - [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)

@@ -110,7 +110,6 @@ Tabletop runs the braid as the campaign technique sometimes called the soap-oper
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
 - [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
 - [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)
-- [The Shape of Time](../../primers/the-shape-of-time.qmd)
 - [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
 
 <!-- BACKLINKS:END -->

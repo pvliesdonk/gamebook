@@ -130,7 +130,6 @@ Hatch Escapes' *The Ladder* (Los Angeles, 2024) is the clearest published branch
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
 - [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)
 - [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
-- [The Shape of Time](../../primers/the-shape-of-time.qmd)
 - [Time Loop Patterns](time-loop-patterns.qmd)
 - [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
 - [West Marches & the Open-Table Format](west-marches-and-the-open-table-format.qmd)

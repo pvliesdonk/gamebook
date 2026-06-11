@@ -115,7 +115,6 @@ These formats are live-game native, but their grammar carries into single-player
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Spectator-Friendly Design](spectator-friendly-design.qmd)
 - [Team Splitting Strategies](team-splitting-strategies.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
 
 <!-- BACKLINKS:END -->

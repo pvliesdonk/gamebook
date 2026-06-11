@@ -110,7 +110,6 @@ The escape-room industry runs the same engine in physical space, where it shows 
 - [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
 - [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
-- [The Shape of Time](../../primers/the-shape-of-time.qmd)
 - [Time Loop Patterns](time-loop-patterns.qmd)
 - [Trust, Conformity & Social Pressure](../players-social-dynamics/trust-conformity-and-social-pressure.qmd)
 

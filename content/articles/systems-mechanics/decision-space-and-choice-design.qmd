@@ -129,7 +129,6 @@ A live game meets the question with its own constraints. Errol Elumir's escape-r
 - [Replayability](replayability.qmd)
 - [Social Performance Genres](social-performance-genres.qmd)
 - [Solo Modes](solo-modes.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 - [Theme-Mechanism Integration](theme-mechanism-integration.qmd)
 - [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd)
 

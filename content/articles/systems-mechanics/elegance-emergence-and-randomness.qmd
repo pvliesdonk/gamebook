@@ -134,7 +134,6 @@ In a live game the randomness question shows up in the physical apparatus. A sel
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
 - [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
 - [Replayability](replayability.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 - [Theme-Mechanism Integration](theme-mechanism-integration.qmd)
 - [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd)
 

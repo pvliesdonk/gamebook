@@ -129,6 +129,5 @@ Large live games answer the question at the opposite scale, with information rat
 - [Rulings vs Rules & the Authority Contract](../players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd)
 - [Social Performance Genres](social-performance-genres.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 
 <!-- BACKLINKS:END -->

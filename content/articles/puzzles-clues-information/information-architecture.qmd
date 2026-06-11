@@ -124,7 +124,6 @@ The seductive failure is the packet that knows too much. You write one character
 - [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd)
 - [Self-Resolving Puzzles](self-resolving-puzzles.qmd)
 - [Team Sizes & the Bottleneck Problem](../players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd)
-- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
 - [Time Loop Patterns](../structure-pacing/time-loop-patterns.qmd)
 - [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd)
 - [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)

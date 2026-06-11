@@ -95,7 +95,6 @@ The signature failure of this whole family is the sub-threshold cue: the differe
 - [Cluing & Fairness](cluing-and-fairness.qmd)
 - [Hidden Compartments & Reveal Mechanisms](../space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd)
 - [The Aha Moment](the-aha-moment.qmd)
-- [The Fairness Contract](../../primers/the-fairness-contract.qmd)
 - [The Puzzle Hunt & ARG Tradition](the-puzzle-hunt-and-arg-tradition.qmd)
 - [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd)
 

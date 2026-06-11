@@ -105,7 +105,6 @@ The single-player media inherit the small-scale version of the same problem. Int
 - [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
 - [Social Performance Genres](../systems-mechanics/social-performance-genres.qmd)
 - [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
 
 <!-- BACKLINKS:END -->

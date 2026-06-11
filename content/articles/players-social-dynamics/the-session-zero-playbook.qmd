@@ -120,7 +120,6 @@ The effect accumulates. The person running the game learns what the table actual
 - [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
 - [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd)
-- [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)
 - [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
 - [Turn Structure & Action Economy](../systems-mechanics/turn-structure-and-action-economy.qmd)
 - [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)

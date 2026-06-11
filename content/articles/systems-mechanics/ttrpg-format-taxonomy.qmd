@@ -125,6 +125,5 @@ The seductive mistake is the borrowed mechanic that arrives without its traditio
 - [Progress Clocks & Faction State](progress-clocks-and-faction-state.qmd)
 - [Safety Systems as Mechanical Layer](safety-systems-as-mechanical-layer.qmd)
 - [System vs Setting](system-vs-setting.qmd)
-- [The Engine Room](../../primers/the-engine-room.qmd)
 
 <!-- BACKLINKS:END -->
