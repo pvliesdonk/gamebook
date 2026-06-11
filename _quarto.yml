@@ -155,5 +155,11 @@ format:
       - assets/theme/field-guide.scss
     filters:
       - filters/field-guide.lua
-  typst: default
+  typst:
+    mainfont: "Adobe Jenson Pro"
+    monofont: "Letter Gothic Std"
+    font-paths:
+      - assets/fonts
+    include-in-header:
+      - typst/field-guide.typ
   epub: default

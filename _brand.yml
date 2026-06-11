@@ -1,14 +1,23 @@
-# SETTLED — 2026-06-06. Naturalist field guide aesthetic.
-# See docs/decisions.md item #6.
+# SETTLED — 2026-06-06; EVOLVED — 2026-06-11 (Field Guide Design System).
+# Naturalist field guide aesthetic. See docs/decisions.md item #6.
+#
+# The settled palette (amber / ink / paper) is unchanged. The design system
+# (issue #56) layers on the full token set in assets/theme/field-guide.scss
+# (HTML) and typst/field-guide.typ (print): six family inks, the three callout
+# voices, provenance and media affordances. Typography moves from Georgia to
+# the optical serif system — web uses free lookalikes (EB Garamond / Libre
+# Franklin / Courier Prime; licensed swap tracked in #55); print uses the
+# licensed Adobe faces (Adobe Jenson Pro / Cronos Pro / Letter Gothic Std)
+# via the typst format config.
 
 color:
   palette:
-    accent: "#c07840"   # warm amber
+    accent: "#c07840"   # warm amber — the brand spine
   foreground: "#1a1a1a"
   background: "#fafafa"
 
 typography:
   base:
-    family: Georgia
+    family: "EB Garamond"   # Jenson lookalike (web); print overrides to Adobe Jenson Pro
   headings:
-    family: Georgia
+    family: "EB Garamond"
