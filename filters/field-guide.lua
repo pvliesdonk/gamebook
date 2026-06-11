@@ -42,12 +42,24 @@ function Pandoc(doc)
   -- 1. Drop the Sources / Referenced-by sections. `dropping` resets at any
   -- chapter title (level 1) or non-drop level-2 header, so it never bleeds
   -- past a chapter boundary into the next article's title/silhouette.
-  local kept, dropping = {}, false
-  for _, b in ipairs(doc.blocks) do
-    if b.t == "Header" and b.level <= 2 then
-      dropping = (b.level == 2) and (DROP[stringify(b)] == true)
+  -- A Sources/Referenced-by section runs from its level-2 header up to the
+  -- next *boundary*: another header, a Div, or a part. We must stop there so
+  -- the drop never eats the following chapter's title, silhouette, or the
+  -- part divider that begins the next family.
+  local function is_boundary(b)
+    return b.t == "Header" or b.t == "Div"
+      or (b.t == "RawBlock" and b.text ~= nil and b.text:find("#part", 1, true) ~= nil)
+  end
+  local kept, i = {}, 1
+  while i <= #doc.blocks do
+    local b = doc.blocks[i]
+    if b.t == "Header" and b.level == 2 and DROP[stringify(b)] then
+      i = i + 1
+      while i <= #doc.blocks and not is_boundary(doc.blocks[i]) do i = i + 1 end
+    else
+      kept[#kept + 1] = b
+      i = i + 1
     end
-    if not dropping then kept[#kept + 1] = b end
   end
   doc.blocks = kept
 
