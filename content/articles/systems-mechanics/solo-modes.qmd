@@ -1,22 +1,106 @@
 ---
 title: "Solo Modes"
-aliases: []
+aliases: ["Solo Variant", "Automa", "Bot Deck", "Single-Player Mode"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [solo-tension, designed-arc, skill-practice]
+  problems: [absent-opponent, difficulty-calibration, bot-turn-overhead]
+  components: [bot-deck, automa-cards, difficulty-tiers, target-score]
+  genre: [euro, cooperative]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: The opponent in a box, simulated well enough to play against alone.*
+
+A multiplayer boardgame sold for two to five players often carries a solo variant tucked in the same box. The design problem behind it is sharp. Two to four absent opponents have to be replaced by something that is not a person, yet still produces a game worth sitting down to. The lone player wants pressure to push against and a pace that builds, with the outcome held in doubt until the final scoring. The lone player wants the experience of the multiplayer game, not a hollowed-out shell of it. That is harder than it sounds, because the thing being simulated is not a clever mind. It is the feeling of playing against one.
+
+What makes the problem tractable is a single move that the best solo designs all make. They stop trying to build an opponent that thinks and build one that performs. A bot does not need to read the board or adapt to your engine. It needs to apply consistent pressure and hand you a benchmark to beat. Once the question changes from "can I outwit it" to "can I outscore it," a deck of cards is enough to stand in for the missing players.
+
+This article is about that substitution and the craft of getting it to feel right. The lone player who wants a multiplayer game is solving a cousin of the problem that the solo roleplayer solves with an oracle, where a different absent participant (the game master, not the opponent) gets stood in for the same way. That tabletop relative is [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd), and the two traditions illuminate each other more than either looks at first.
+
+## The Mechanism (How it works)
+
+### The Automa: an opponent that performs rather than thinks
+
+The dominant pattern for solo modes in modern Euro games is the Automa, a bot run by a dedicated deck of cards. The term and the method both trace to Morten Monrad Pedersen, who in 2014 was asked by Stonemaier Games to build a solo mode for *Viticulture*, a wine-making game set in Italy. The word is Italian for automaton, suggested by a collaborator because the first one was made for an Italian-themed game. [researched] Pedersen went on to found Automa Factory, a small consultancy that publishers contract to design solo modes; David Studley, a lead designer there, built the solo mode for *Wingspan* and contributed to *Scythe*, *Gaia Project*, and others. [researched]
+
+The mechanism is plain on purpose. On the bot's turn the player reveals a card from the Automa deck and reads a short prioritised list. The bot takes the first listed action that is legal, dropping down the list until one of them works. The bot does not keep a resource pool the way a human would. It receives abstract scoring rewards that the designer tuned through playtesting, so its progress on the score track is real even though its decision-making is shallow. [researched] Because the deck is shuffled between rounds, the bot's behaviour is stochastic inside a defined range. The variance is bounded rather than random noise, which is what lets a player learn to anticipate the bot's habits without ever being able to predict its exact next card.
+
+That bounded variance is the whole trick, and it rests on a quiet structural decision. The player is not measured against a mind that adapts. The measure is a target the deck produces. A human opponent answers your strong position with an attack on it. The Automa cannot, and does not need to. The comparison was decoupled from intent the moment the design set the question as whether you beat a score instead of whether you beat a mind. [synthesis] The bot can play a fixed pattern with controlled randomness precisely because it is never asked to do more. The player's skill is tested against the spread of the deck, not against a plan aimed back at them.
+
+### Difficulty calibration is the load-bearing work
+
+A bot deck is cheap to build and easy to run. Making it fun across a range of players is neither, and difficulty calibration is where most of the design effort goes. A solo mode that ships with one fixed difficulty loses new players fast, in one of two ways. Set the bot too strong and it wins so reliably that the game feels pointless; set it too weak and it never threatens, which drains the tension that the mode exists to supply. [researched] The fix is a difficulty ladder the player sets before the session, and the cleaner solo modes build several rungs.
+
+*Wingspan* shows the standard shape. Its Automa scores a flat number of points for each face-down bird card it holds, and the base difficulty is chosen by setting that number to three, four, or five. Above those sits an expert tier, the Automubon Society card, which hands the bot extra end-of-round advantages on top of the higher score rate. [researched] Other designs reach calibration by different routes. Some add modifier cards that adjust the bot's aggression. Some hand it a head start or a handicap through its starting position. Some set checkpoint goals of the form "the bot must reach X points by round Y." What they share is a deliberate choice of challenge level by the player, much as a video game offers easy through hard. The alternative is the player learning twenty minutes in that the outcome was settled before they sat down.
+
+Calibration also shapes the arc of the session, not just its outcome, and a well-tuned solo mode has a designed dramatic shape. The bot usually surges ahead early, because simple consistent scoring wastes no actions while the player is still assembling an engine. Through the mid-game the player's combinatorial payoffs start to compound and the gap closes. The late game becomes a tense race to overtake a lead that looked unassailable an hour earlier, with the result genuinely uncertain into final scoring. [researched] That late compression is engineered, not incidental. It is the designer compensating for the missing social texture of a multiplayer night, manufacturing from a deck the swing of fortune that other players would have supplied by competing.
+
+### The traditions: how solo gets into the box
+
+The Automa is one answer among several, and which a designer reaches for depends on what the base game already is. A solo-approaches comparison gathers the main traditions and what each one costs.
+
+| Approach | How the opponent is supplied | Best fit | Characteristic cost |
+|---|---|---|---|
+| Automa / bot deck | A prioritised card deck scores against a benchmark | Competitive Euro engine-builders | High calibration and playtesting effort [researched] |
+| Cooperative game solo | Existing co-op rules; one player runs several roles | Games already played against the system | Quarterbacking becomes the whole game [corpus] |
+| Solo-only design | Built for one from the start; enemies encoded in the deck | Short puzzle-shaped games | Does not scale to multiplayer at all [researched] |
+| Play all factions | Player controls every side as a perfect-information puzzle | Asymmetric games with coherent factions | Fails wherever hidden information is the point [corpus] |
+| Digital adaptation | An app runs opponents and teaches the rules | Games with a strong digital version | Trains for, rather than replaces, the physical game [corpus] |
+
+Cooperative games are the easy case, because they are pre-adapted. Every player already plays against the system rather than against each other, so removing players changes the difficulty curve without demanding new rules. *Spirit Island* simply scales by player count and needs no separate solo section. *Pandemic*'s convention of one player running several roles is the usual route. [researched] The catch is a sharp one. In multiplayer co-op, quarterbacking (one player directing everyone else's moves) is an anti-pattern that strips the others of agency, yet in solo co-op the same behaviour is the entire experience. [corpus] A game that boasts "plays solo too" with no scaling changes is quietly accepting that its solo mode and its group mode are different games wearing the same rules.
+
+Solo-only designs go the other way and build for a single player from the ground up. *Friday* casts you as the island native keeping Robinson Crusoe alive, with the pirate ships and beasts encoded directly in the deck and the encounter tables rather than run by anyone. *Onirim* is a fifteen-minute card-matching dream-escape where nightmare cards shuffled through the deck force painful trades. [researched] These sit in the "play in a slot" tradition alongside roll-and-write games made for a commute. *Mage Knight* is the complexity outlier, a full campaign whose solo scenarios are first-class content rather than an afterthought. [researched]
+
+The remaining two are conventions players adopt rather than mechanisms designers ship. Controlling every faction at once turns a competitive game into a perfect-information puzzle, which works for asymmetric games whose factions each have a coherent line of play and fails completely for negotiation games where hidden information and bluffing were the point. [corpus] And many modern boardgames now release a digital app whose solo mode teaches the rules through low-friction repetition, so the player arrives at the physical copy with the cognitive overhead already paid down. [corpus] That app is a training pipeline more than a substitute, which is its own kind of solo design.
+
+### The design cost of a good solo mode
+
+A solo mode is not a free addition, and the corpus is blunt about how it fails. It breaks when the bot is too easy and the challenge evaporates after one session, when variance swamps skill and outcomes feel arbitrary, when the bot's decision flowchart is so fiddly that resolving its turn takes longer than the player's own, or when the solo rules diverge so far from the multiplayer rules that the skills do not transfer and the player is practising a different game. [corpus] Each of those is a real budget line. Avoiding the first two is the calibration work above. Avoiding the third is a discipline of keeping the bot's turn near-automatic, since every rulebook lookup on the bot's behalf is dead time in a game the player is supposed to be driving. Avoiding the fourth is the reason the strongest solo modes reuse the base game's own components and vocabulary, so the solo player is rehearsing the same engine they would run at a full table.
+
+There is a reward hidden in paying that cost, and it doubles as a quality signal. A game built to play well solo usually plays better at every player count, because stripping out the social pressure of waiting on others leaves the core loop with nothing to lean on but itself. [corpus] *Wingspan*'s engine-building clarity is part of why its solo mode works and part of why its multiplayer holds up; the same legibility serves both. Whether a designer should pay the cost at all is a [Prep Economy](prep-economy.qmd) judgement weighed against the diminishing returns of any added mode. It is bound up too with what the base game already is, since a [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd) design gets solo nearly for free while a tense negotiation game may not be able to get it at all.
+
+::: {.callout-note}
+### The Specimen
+*Wingspan*'s Automa, designed by David Studley, is the clearest case of the whole pattern working together. The bot runs entirely off a deck and a face-down scoring rule, so its turn is fast and demands almost no thought from the player. Difficulty is a dial the player sets, from a gentle three points per card up through the expert Automubon Society tier, which lets the same box serve a first-timer and a veteran soloist without reprinting anything. [researched] The bot surges ahead while the player's bird engine is still warming up, then gets caught as the engine's payoffs compound, which produces the designed late-game race the mode is built around. The player uses the real game's cards, actions, and scoring throughout, so a solo session is genuine practice for a multiplayer one rather than a separate skill. It is the textbook demonstration that a solo opponent need not think, only perform on schedule and at a difficulty the player chose. [synthesis]
+:::
+
+### The same gap in solo roleplaying
+
+The boardgame's missing opponent has a near-twin one shelf over, in the solo journaling RPG. There the absent participant is the game master rather than the rival players, but the substitution is structurally the same. A solo roleplayer consults an oracle, rolling on action and theme tables or drawing cards, to be told something they did not author and could not predict. [synthesis] The Automa's bot deck and the oracle's meaning tables are doing one job in two registers: both replace procedural randomness for a participant who is not a person, so that a lone player still meets a game that pushes back. [corpus]
+
+The kinship runs deeper than the shared deck of cards. Both traditions depend on bounded variance rather than open randomness, because pure noise produces no game on either side. The Automa's shuffled deck holds the bot to a defined range of behaviours, and the oracle's tables hold the unknown to a domain the player can interpret. [synthesis] Each one also rests on the player's stance toward the result. A soloist who reads an oracle literally gets a thinner story. A boardgamer who treats the Automa as a real strategist will misjudge it, since it is a benchmark in disguise rather than a mind. The full craft of the roleplaying side sits in [Prompt Design in Solo Journaling](../story-character-voice/prompt-design-in-solo-journaling.qmd), where the journaling carries a drawn result into a written scene. The boardgame side stays closer to scoring than to story, but it answers the identical design question, which is how to make a single player feel genuinely opposed when no second person is in the room.
+
+## Where this fits
+
+**The bigger picture.** A solo mode is a whole way of playing layered onto a game that was not originally built for it, and it leans on nearly everything else in this family to work. Its bot is a kind of [Mechanical Resolution Types](mechanical-resolution-types.qmd) engine with the human opponent removed, producing outcomes from a deck rather than a contested roll. Its difficulty ladder is [Encounter & Challenge Design](encounter-and-challenge-design.qmd) practised against a single player, where the designed dramatic arc has to be manufactured rather than emerging from rivals. And the decision to include a solo mode at all is a [Prep Economy](prep-economy.qmd) call, weighed against the real cost of calibrating and playtesting a second game inside the box. What a solo mode proves, when it is good, is that the base game's core loop was strong enough to stand without other people propping it up.
+
+**Next steps.** The closest relative is the roleplaying answer to the same absent-participant problem, [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd), which stands in for the game master where the Automa stands in for the opponent. From there the writing craft that solo roleplaying feeds into is [Prompt Design in Solo Journaling](../story-character-voice/prompt-design-in-solo-journaling.qmd). To gauge whether a given base game carries a solo mode cheaply or dearly, the comparison to make is with [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd). Co-op designs are solo-ready almost for free. And because the bot exists to keep a chosen number of live options on the table for a lone player, its tuning is finally a question of [Decision Space & Choice Design](decision-space-and-choice-design.qmd): a solo mode that leaves the player no interesting decisions has failed however well its bot scores. A game's solo replayability is the wider subject of [Replayability](replayability.qmd).
+
+## Sources
+
+- "About." Automa Factory (origin of the Automa, the 2014 Stonemaier commission for *Viticulture*, the Italian-for-automaton naming, and Automa Factory's consultancy model). <https://automafactory.com/about/>
+- "How the Automa Works," Funtails, 7 August 2020 (the prioritised-card mechanism, abstract scoring, and bounded shuffled-deck variance). <https://funtails.de/en/2020/08/07/how-the-automa-works/>
+- "Inside: Automa Factory." Spielpunkt (David Studley's role and the Automa Factory client list). <https://en.spielpunkt.net/inside-automa-factory-die-solobrettspiel-handwerker/>
+- "Wingspan Automa Rulebook" (the three base difficulty tiers, face-down scoring, and the Automubon Society expert card). <https://cdn.1j1ju.com/medias/79/31/ed-wingspan-automa-rulebook.pdf>
+- "Wingspan Solo Mode: Complete Strategy Guide." Everything Is A Game (difficulty scaling and the designed early-surge / late-race arc). <https://everythingisagame.com/wingspan-solo-mode/>
+- "Wingspan: a solo (Automa) review." Stidjen Plays Solo, 29 October 2019 (Automa play feel and difficulty calibration). <https://stidjenplayssolo.wordpress.com/2019/10/29/wingspan-a-solo-review/>
+- *Friday* (Friedemann Friese, Rio Grande Games, 2011); enemies encoded in the deck rather than run by a second player. <https://www.riograndegames.com/games/friday/>
+- *Onirim* (Shadi Torbey, 2010); card-matching solo with nightmare interrupts. BoardGameGeek. <https://boardgamegeek.com/boardgame/71836/onirim>
+- *Mage Knight Board Game* (Vlaada Chvátil, 2011); first-class solo scenarios in a full campaign game. <https://en.wikipedia.org/wiki/Mage_Knight_Board_Game>
+- *Spirit Island* solo review. Beyond Solitaire (a cooperative design that scales by player count with no separate solo rules). <https://www.beyondsolitaire.net/blog/solo-review-spirit-island>
+- "The compelling power of solo play for tabletop game Kickstarters." Stonemaier Games (solo design as a multiplayer quality signal). <https://stonemaiergames.com/the-compelling-power-of-solo-play-for-tabletop-game-kickstarters/>
+- "Solo Modes in Board Games Part Two (Automa)." Punchboard (the bot-deck tradition and its failure modes). <https://punchboard.co.uk/blog-solo-modes-in-board-games-part-two-automa/>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
+- [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd)
 - [Host Roles & the Host-Cannot-Play Problem](../players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)
+- [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)
+- [Replayability](replayability.qmd)
+- [The Engine Room](../../primers/the-engine-room.qmd)
 
 <!-- BACKLINKS:END -->

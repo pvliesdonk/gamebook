@@ -1,14 +1,141 @@
 ---
 title: "Elegance, Emergence & Randomness"
-aliases: []
+aliases: ["Elegance", "Emergence", "Depth vs Complexity", "Luck Management", "Input vs Output Randomness"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [replay-depth, dynamic-tension, felt-mastery]
+  problems: [exception-bloat, solved-game, swingy-outcomes]
+  components: [rules-text, dice, cards, scoring-tracks]
+  genre: [abstract, eurogame, wargame, sci-fi]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: The few rules that keep paying out, and the chance that keeps the table honest.*
+
+Some games hold a thousand pages of exceptions and still feel thin. Others fit on a postcard and stay interesting after a hundred plays. The gap between them is not how much a game contains but how much it generates. What counts is the behaviour a rule set throws off against the rules it costs. A designer chasing that ratio is chasing elegance, and what elegance buys, when it lands, is a board that keeps surprising the people who built it.
+
+Two forces sit underneath that surprise. The first is emergence, where a handful of rules interact and situations nobody wrote down come spilling out. The second is randomness, the controlled dose of chance a game allows so that its outcomes stay alive. These two are not the same thing, though they get confused often. Emergence is what gives a game depth with no chance involved at all. Randomness is what keeps a game lively while adding no depth by itself. The real craft is knowing which of the two a game needs, and how much of it.
+
+This article is about those three properties and how they trade against each other. It sits next to the question of what a single uncertain moment should feel like, which is [Mechanical Resolution Types](mechanical-resolution-types.qmd). It sits next to the question of what makes one turn's choice worth caring about, which is [Decision Space & Choice Design](decision-space-and-choice-design.qmd). Those govern the parts. This is about the whole system's behaviour once the parts start interacting.
+
+## The Mechanism (How it works)
+
+### Elegance is a ratio of depth to rules
+
+Elegance is the property that simple rules produce complex, interesting play. [corpus] People mistake it for simplicity, but the two come apart fast. A simple game can be dull, and a dull simple game is not elegant. What matters is the depth extracted per rule added: how much behaviour each line of the rulebook generates to justify the space it takes. [corpus] A rule that only ever does one thing is expensive. A rule that quietly shapes a dozen later situations is cheap at twice the word count.
+
+The opposite of elegant design is exception-driven design, where the rules accumulate special cases until the game cannot be played without the book open. Dungeons & Dragons 3.5 and the Magic: The Gathering card pool sit at that end under the weight of thousands of "except when" clauses. [corpus] Neither approach is wrong. The two give different play experiences and different learning curves, so a designer wants to know which one they are building. The exception list turns into a failure mode only when it is unintended. A rule that needs three exceptions was never general enough to cover its own cases in the first place. [corpus]
+
+A quick test sorts most games. Can the core rule be stated in one sentence? Catan is "produce resources by dice roll, trade them with neighbours, build for points." Codenames is "give a one-word clue linking several words on the grid, and your team guesses." [corpus] Both pass. An exception-driven game cannot, because its behaviour does not live in a core rule at all. It lives in the list.
+
+The German design tradition (later the Eurogame) adopted elegance almost as a house style. The Spiel des Jahres award, founded in 1979, rewarded games a family could learn in half an hour, year after year. [researched] That constraint did real work. In Mark Rosewater's phrase (he is lead designer on Magic: The Gathering), restrictions breed creativity. A rule that bars the exception list nudges the designer toward generative rules instead. [corpus] The same award criterion that looked like a marketing limit turned out to be a design discipline.
+
+### Reiner Knizia and rules that generate cases
+
+The clearest practitioner of this is Reiner Knizia, who holds a doctorate in mathematics and has published well over 700 titles. [researched] His games share a signature. The rules fit on a page. The scoring system manufactures tension out of nothing. A light theme sits over what is, underneath, an abstract problem. [corpus] In Tigris & Euphrates only your lowest-scoring category counts at the end, so the game forces balanced play rather than letting a player pile points into one track. [corpus] That single constraint is the game. It makes the player think across dimensions instead of optimising one axis, and the situations that result were never enumerated by Knizia. They emerge from the rule.
+
+This is the heart of the elegance method. Knizia does not write a rule for every case. He writes rules from which cases arise. [corpus] The much-argued "Knizia point salad" critique (that his multi-track scoring feels arbitrary) misreads this. The scoring constraint is not arbitrary; it is the generator. Rosewater names the same property from the card-game side and calls it lenticular design: a component that reads one way to a beginner ("this creature is a 2/2") and another to an expert ("a 2/2 that enables these interactions"), with the depth encoded in interactions the rulebook never spells out. [corpus] The surface stays simple. The depth hides in what the simple parts do together.
+
+### Emergence: the behaviour nobody wrote
+
+Emergence is what happens when a rule system produces behaviours the designer did not explicitly script. [corpus] It is the property that makes an elegant game also a replayable one, because a system that keeps generating fresh situations never runs out of content the way an authored one does.
+
+Catan is the textbook case. The negotiation it is famous for is not a rule. There is exactly one rule that says players may trade freely on their turn, and out of that single sentence comes hours of bargaining, alliance, social pressure, and the particular anxiety of handing the leader the wood they need. [corpus] Teuber wrote one line; players generate the rest. Werewolf does the same from a single hidden-role rule, producing deduction, performance, and bluff from a card that fits in a pocket. [corpus] Pandemic produces the felt experience of cooperative collapse without any rule stating that players should feel overwhelmed. Its contagion mechanic drops cubes on a city. On an outbreak those cubes spill into the neighbouring cities, and the dread is a consequence of that cascade rather than an instruction. [corpus]
+
+The cleanest demonstration that emergence is not randomness comes from games with no chance in them at all. Go has effectively two rules, the rule of liberty and the ko rule, and almost every other rule derives from those. [researched] From that base comes a game whose legal positions number around 2 x 10^170, against an estimated 10^43 to 10^50 for chess, with a branching factor of 200 to 300 moves per turn where chess has 35 to 40. [researched] Nothing in Go is random. Its depth is entirely emergent, a product of the combinatorial interaction of a tiny rule set. That is why an engine beat the chess world champion in 1996, while the Go champion held out until 2016: the depth Go yields from its two rules is enormous, and none of it is luck. [researched]
+
+The same engine sits behind Knizia's Tigris & Euphrates, whose lowest-category scoring forces emergent balancing play, and Wolfgang Kramer's action-point designs such as Tikal, where a fixed pool of points spent across movement, excavation, and building forces trade-offs the rules never enumerate. [corpus] In each, the situations arise from the interaction of a simple constraint with a changing board state. The designer set the generator. The players run it.
+
+::: {.callout-note}
+### The Specimen
+Catan (Klaus Teuber, 1995) is the canonical demonstration of emergence from a minimal rule set. Its structure is three thin layers. Hexagonal terrain hands out resources on matched 2d6 rolls, with probability made visible on the number tokens. Roads and settlements sit on a modular board, so no two games open identically. Longest Road and Largest Army add a soft arms race worth two points each, a layer the core rules never have to specify in detail. [corpus] The behaviour the game is known for, the free-table negotiation, is generated by a single permission to trade. Teuber wrote one sentence and players turned it into the social engine that sold the game over 40 million copies in 40 languages. [researched] The lesson reaches past Catan: emergence is bought by tightly coupling a few rules, not by adding many.
+:::
+
+### Randomness: where chance enters, and why
+
+Randomness is the other lever, and it answers a different need. Every game sits somewhere on a spectrum between pure skill and pure chance. [corpus] At the skill end are the perfect-information abstracts, Go and Chess, where the better player wins every time. At the chance end sit Snakes and Ladders and Candyland, which in formal terms are zero-agency: the players make no real decisions at all. [corpus] Most published games live in the middle, and where a game sits on that axis is one of the most consequential calls a designer makes.
+
+The axis is not one dial. Designers layer randomness sources independently and tune each. [corpus] A wargame can roll dice for combat while keeping movement fully deterministic; a deckbuilder can randomise the market row while leaving the engine itself entirely skill-driven. Chance is worth admitting when it does work pure skill cannot. Short-term variance lets a weaker player occasionally beat a stronger one, which keeps mixed-skill groups engaged, while across many games the skill difference still surfaces as a statistical trend. [corpus] That is the same property that makes poker a professional game despite the moment-to-moment luck.
+
+### Input randomness against output randomness
+
+The distinction that organises the whole subject is when the chance acts relative to the player's decision. Keith Burgun set it out clearly in a 2014 essay. [researched]
+
+Input randomness delivers its result before the decision. A drawn hand, a randomised setup, a market row dealt face-up all present the player with a condition and the question "now what?" A poor draw is survivable. A weak position still leaves room to plan. This kind of randomness rewards adaptation under uncertainty. [corpus] Output randomness resolves after the decision. The player commits to an attack, and only then does the die settle whether it landed. The reward here is for risk assessment and probability management instead. The sting runs sharper too, because a player can choose correctly and still lose. [corpus] Both forms coexist freely in the same game, but they produce different cognitive experiences and very different emotional responses to failure.
+
+| | Input randomness | Output randomness |
+|---|---|---|
+| When it acts | Before the decision | After the decision |
+| Canonical form | Drawn hand, randomised setup, shuffled market | Combat dice, hit-or-miss roll |
+| Rewards | Adaptation, planning under uncertainty | Risk assessment, probability management |
+| Failure feeling | "I was dealt a bad hand" (recoverable) | "I played correctly and still lost" (sharp) |
+| Designer's tool | Vary the conditions players face | Inject noise between choice and result |
+
+The two randomisers themselves carry different structural properties. Dice are memoryless. Each roll's distribution is identical to the last, which suits them to continuous, independent resolution and leaves them poor at building an arc of escalation. [corpus] Decks have memory. A shuffled deck samples without replacement, so once a card appears it cannot return until the deck cycles, and results correlate over time. [corpus] Pandemic exploits exactly this, reshuffling discards back to the top of the infection deck so a city hit once grows more likely to be hit again, manufacturing the clustered outbreaks that feel like a real epidemic. [corpus] The deck writes the narrative of the session, which is randomness used as a storytelling engine rather than a fairness tool. [corpus]
+
+### Managing luck: the Euro instinct to mitigate
+
+A game can admit randomness and then hand players tools to manage its bite. This is the move that defines much of the Euro tradition, and Knizia's own preference runs toward chance that players can plan around rather than chance that overrides them. The mitigation mechanisms divide by how they touch the result.
+
+| Mechanism | Canonical example | What it does |
+|---|---|---|
+| Reroll | Yahtzee, King of Tokyo | Reject a bad result, trade one chance event for another |
+| Best-of-N | Dice-pool combat | Smooth the distribution toward its mean, cut the extremes |
+| Modifier accumulation | D&D bonus stacking | Shift the whole distribution rather than reroll it |
+| Cancellation token | X-Wing focus tokens | Convert a bad post-roll outcome into a neutral one |
+| Mulligan | Magic opening hand, Catan placement | Reject a bad starting state for a less extreme one |
+
+The choice of mechanism changes the feel as much as the maths. A reroll keeps the thrill of the throw while dulling its sting. Modifier accumulation makes the player's preparation feel honoured. The dice still ran badly, only less badly than they would have without the earlier groundwork. [corpus] Magic takes this furthest of all. Through deck construction a player tunes their own variance before play, a rare case of the randomness pool itself being a design surface in the player's hands. [corpus]
+
+Mitigation also lets a designer hand variance asymmetrically and call it skill. In Catan, building on the high-probability numbers (6, 8, 5, 9) buys consistent income at a lower ceiling, while stacking a single resource accepts wild swings for abundance. [corpus] Both are player-chosen variance positions, so reading the board and picking the right exposure becomes a skill in its own right, and the high-variance player creates a catch-up effect without the designer ever writing one. [synthesis]
+
+::: {.callout-warning}
+### The Hazard
+The three ways luck breaks a game each point at a different miscalibration. The swingy game has output variance so wide that good play is statistically invisible in a single session. One die is enough to wipe out a full-strength unit before its owner has moved. A bad run of resource rolls starves a player for six turns on end. [corpus] The solved game takes randomness out of a system that lacks the combinatorial depth to do without it. Once experienced players exhaust the tree, every session is decided from the opening move. [corpus] The punished-leader game runs its catch-up so hard that leading becomes a liability. The optimal play turns into avoiding first place at the wrong moment, which is the boardgame form of Mario Kart's blue-shell problem. [corpus] Each has its own fix (mitigation or input randomness for the first, more decision depth for the second, gentler and symmetrical catch-up for the third), and reaching for the wrong fix makes the wrong one worse. [synthesis]
+:::
+
+### The same questions in other media
+
+These properties are framed in board and tabletop terms, but the underlying questions cross media. Interactive fiction formalises the elegance question as procedural rhetoric and the "mechanic is the message" idea: a small, load-bearing rule set that argues through play rather than through prose, the IF version of decision-versus-choice and emergence-from-simplicity. [synthesis] The same instinct that prizes a one-sentence core rule prizes, in IF, a system whose behaviour the player can hold in their head while it still surprises them.
+
+In a live game the randomness question shows up in the physical apparatus. A self-resolving puzzle that adjudicates its own answer is output resolution made of hardware, and an escape-room designer's first rule, that a random element should never punish players with a loss, is the live statement of output-randomness fairness. [synthesis] A live game that allows any variance at all keeps it the way a Euro keeps dice: bounded, mitigated, and never allowed to overturn good play outright.
+
+## Where this fits
+
+**The bigger picture.** Elegance, emergence, and randomness are the system-level properties that the rest of this family's parts add up to. A [resolution method](mechanical-resolution-types.qmd) is the single die or card; this is what the whole machine does once those resolutions start interacting across a session. The three properties pull in tension. Push for emergence and you want rules that couple tightly and chance kept low, so the depth is real and not just noise. Push for accessibility and you may add input randomness to refresh each play without deepening the decision tree. Push too far toward output randomness and you drown the very skill that emergence was meant to reward. A designer holds the ratio in mind the whole time: how much behaviour each rule earns, and how much chance the fiction can take before competent play stops showing.
+
+**Next steps.** Once the system's elegance is set, the craft turns to the individual decision that elegance is supposed to make interesting, which is [Decision Space & Choice Design](decision-space-and-choice-design.qmd). From there it turns to whether the theme does real mechanical work or sits on top as decoration, which is [Theme-Mechanism Integration](theme-mechanism-integration.qmd). The emergence-and-randomness pairing is also what feeds [Replayability](replayability.qmd), since an emergent system regenerates content and a deck-driven one writes a fresh session each time. To see how these whole-system properties reach down into the moment-to-moment, go to [Mechanical Resolution Types](mechanical-resolution-types.qmd) for the single uncertain roll and to [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd) for how many of those decisions a player gets and when. The discipline of cutting a rule that generates no behaviour connects out to the broader scoping question in [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd), where the same instinct prunes branches that offer no real choice. And the fairness floor under any output-randomness system, that a roll should never break the contract with the player, is the same floor that holds up [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+## Sources
+
+- Knizia, Reiner: design overview and publication record. <https://www.skeletoncodemachine.com/p/reiner-knizia> and <https://en.wikipedia.org/wiki/Reiner_Knizia>
+- *Tigris & Euphrates* (Reiner Knizia, 1997); lowest-category scoring. <https://en.wikipedia.org/wiki/Tigris_and_Euphrates>
+- *Catan* (Klaus Teuber, 1995; Spiel des Jahres 1995); modular board, trade rule, sales figures. <https://en.wikipedia.org/wiki/Catan>
+- Wolfgang Kramer and action-point designs (Tikal, El Grande); the Kramerleiste. <https://en.wikipedia.org/wiki/Wolfgang_Kramer>
+- Rosewater, Mark. "Twenty Years, Twenty Lessons" (lenticular design, restrictions breed creativity), GDC. <https://gdcvault.com/play/1023186/Twenty-Years-Twenty> and <https://articles.starcitygames.com/articles/restrictions-breed-creativity/>
+- Burgun, Keith. "Randomness and Game Design." Game Developer, October 2014 (input vs output randomness). <https://www.gamedeveloper.com/design/randomness-and-game-design>
+- "Go (game)" (rule of liberty and ko; legal-position and branching-factor figures). <https://en.wikipedia.org/wiki/Go_(game)>
+- AlphaGo and Lee Sedol (2016); Deep Blue and Kasparov (1996); the skill-depth contrast. <https://en.wikipedia.org/wiki/AlphaGo> and <https://en.wikipedia.org/wiki/Deep_Blue_(chess_computer)>
+- *Pandemic* (Matt Leacock, 2008); infection-deck reshuffle and clustered outbreaks. <https://en.wikipedia.org/wiki/Pandemic_(board_game)>
+- Catan: Cities & Knights (Klaus Teuber, 1998); the barbarian track as a skill layer over dice variance. <https://www.catan.com/cities-knights>
+- "Effect of Input-output Randomness on Gameplay Satisfaction in Collectable Card Games" (arXiv preprint). <https://arxiv.org/pdf/2107.08437>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Boardgame Mechanism Vocabulary](boardgame-mechanism-vocabulary.qmd)
+- [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd)
+- [Decision Space & Choice Design](decision-space-and-choice-design.qmd)
+- [Encounter & Challenge Design](encounter-and-challenge-design.qmd)
+- [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
+- [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
+- [Mechanical Resolution Types](mechanical-resolution-types.qmd)
+- [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
+- [Replayability](replayability.qmd)
+- [The Engine Room](../../primers/the-engine-room.qmd)
+- [Theme-Mechanism Integration](theme-mechanism-integration.qmd)
+- [Turn Structure & Action Economy](turn-structure-and-action-economy.qmd)
+
+<!-- BACKLINKS:END -->

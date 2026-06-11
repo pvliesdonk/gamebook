@@ -1,17 +1,101 @@
 ---
 title: "Progress Clocks & Faction State"
-aliases: []
+aliases: ["Countdown", "Track", "Progress Bar", "Faction Clocks", "Fronts"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [earned-consequence, living-world, dramatic-tension]
+  problems: [stalled-scene, scripted-villain, invisible-stakes]
+  components: [clock, segment-count, faction-goal, grim-portent]
+  genre: [fantasy, sci-fi, horror, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: A circle filling one wedge at a time, so the table can see the world moving while the players are looking the other way.*
+
+A Progress Clock is a circle cut into segments that you fill in as things happen. Each filled wedge is a unit of accumulated pressure, one step closer to the arrival of the guards or the completion of the ritual. When the last segment fills, something concrete then happens in the fiction. The widget is plain on purpose. The same drawn circle can track an approaching threat or a long player project. It works just as well for a rival faction that quietly gets what it wants.
+
+What the clock really buys you is a way to handle change over time without scripting it. The old habit is to decide in advance when the villain strikes, then bend the game to make that beat land. A clock turns that around. You stop asking *when* the bad thing happens and start tracking *how far along* it is, and the answer comes out of play rather than your outline. The clock is the bookkeeping for a world that keeps moving whether or not the players are paying attention to it.
+
+This article is about that bookkeeping and the design language built on top of it. The clock works as a shared visual vocabulary, it carries a small taxonomy of roles, and a faction stops being a static opponent once its goal is expressed as one. The device sits one layer up from the [resolution method](mechanical-resolution-types.qmd) that decides each individual roll. A clock does not resolve anything by itself. It is filled by the outcomes that resolution produces, and it turns a string of those outcomes into a trajectory.
+
+## The Mechanism (How it works)
+
+### The clock as a speedometer
+
+Start with what a clock is not. A clock is not a timer that drives the fiction forward on its own schedule. John Harper, who generalised the device in *Blades in the Dark*, put the metaphor plainly. A clock is like a speedometer in a car. It shows the speed of the vehicle and does not set it. [researched] The fiction moves the needle. A segment fills because something happened that the table agreed was worth a segment, never because a turn ticked over.
+
+That distinction is the whole discipline. Get it right and the clock externalises pressure that once lived only in your head, so both sides can reason about it. Get it wrong by filling a segment on every action regardless of scale. The clock then starts to dictate the fiction instead of recording it. [researched] At that point you have rebuilt the scripted timer you were trying to escape, only now with a circle drawn around it.
+
+### Segmentation: sizing the circle to the work
+
+How many segments a clock has is a statement about how much fictional work stands between now and the outcome. The guidance that propagated out of the *Blades* rules is a short ladder. A four-segment clock is a complex obstacle that should resolve inside a single session. Six segments is a complicated one running across two or three sessions. Eight is a daunting challenge or a substantial project. Ten to twelve segments is reserved for a major faction goal on the scale of a whole arc. [researched]
+
+| Segments | What it sizes | Resolution horizon |
+|---|---|---|
+| 4 | A complex obstacle, single scene or session | Within a session [researched] |
+| 6 | A complicated challenge | Two to three sessions [researched] |
+| 8 | A substantial project or threat | Multi-session [researched] |
+| 10–12 | A major faction goal | A campaign-length arc [researched] |
+
+Odd counts such as five or seven are legal but rare. They blur the clock's midpoint. That helps when you want the players unsure how close the thing is. It frustrates them when they are trying to plan. [researched] The temptation worth resisting is making everything eight or more segments. Short clocks that fill and resolve quickly are what model a world in constant motion, where small things keep happening rather than every situation building toward a distant climax. [researched]
+
+### A taxonomy of clocks
+
+Because the widget is neutral, what gives it meaning is the role you assign it, and the FitD tradition settled on a working taxonomy of those roles. [researched] A *danger clock* is GM-controlled and fills on complications such as mounting suspicion or an approaching patrol. A *project clock* runs the other way, driven by the players, advancing through downtime actions and sustained in-fiction effort. A *racing clock* sets two opposed clocks side by side, and whichever fills first decides the outcome. A *linked clock* chains consequence, so completing one immediately starts another. A *tug-of-war clock* can be both filled and emptied, which makes it the right shape for contested ground that neither side ever fully holds.
+
+The reason to keep the visual identical across all of these is teaching cost. Once a player has learned to read one clock in the first session, every clock after that communicates instantly with no rules overhead. [researched] FitD designers lean on exactly this. *Scum and Villainy* runs faction heat, strife, and war advancement on the same segment-circle logic; *Band of Blades* puts mission progress and unit attrition on it. [researched] The clock is a shared symbol that GM and players look at with aligned expectations about what its filling means.
+
+The most charged moments come from clocks interacting rather than from any single one. A racing clock forces a real choice, because actions spent on the project let the danger advance, and actions spent on the danger stall the project. A linked clock lets one resolved threat detonate the next, so an assassination clock that fills can immediately start a civil war clock. [researched] The practical ceiling is three or four active clocks at once. Past that, players cannot hold the field in working memory and the tension flattens into noise. The fix is to resolve or retire the least active clocks into backstory before adding new ones. [researched]
+
+### Fronts: the clock as antagonist
+
+Before *Blades* generalised the device, *Apocalypse World* had already used the same shape to solve the scripted-villain problem. Vincent Baker's **Front** is the container for off-screen antagonism. It bundles a *cast* of the named people and forces involved, a *dark future* that is the catastrophe waiting at the end, and a sequence of *grim portents*: concrete, observable events that march toward that doom one step at a time. [researched] *Dungeon World* formalised the parts further, adding *stakes questions* that the Front answers through play and optional *custom moves* that fire on its signature situations. [researched]
+
+The design insight is that grim portents are moves waiting in the wings. When the GM is unsure what happens next, they do not invent a response, they advance the next portent on the list. [researched] This is the difference between an antagonist with a script and a deteriorating situation with momentum. A scripted villain is brittle. Disrupt step three and you have to improvise why step four still happens. A Front replaces the script with a state machine in which each portent is a world-state rather than a plot beat. When the clock advances, the GM describes what the world now looks like rather than what the villain did. [researched] Players who engage early halt the advance; players who ignore it get escalating consequences that read as earned rather than arbitrary. And because Fronts continue apace whether or not the characters are present to see them, an ignored Front simply advances further toward its dark future, producing fallout that feels like natural consequence and not GM punishment. [researched]
+
+::: {.callout-note}
+### The Specimen
+*Blades in the Dark* (John Harper, Evil Hat, 2017) is the clearest case of one neutral widget carrying an entire game's pressure. The same drawn circle tracks the heist going loud, the crew's long-term project, a rival gang's scheme, and a straight race against the law, distinguished only by the label and who fills it. The taxonomy (danger, project, racing, linked, tug-of-war) is not five mechanics but one mechanic wearing five labels, which is exactly why a table internalises it in a single session. [researched] The lesson reaches past *Blades*: a design language is worth more than a pile of bespoke subsystems, because the cost a player pays to learn it is paid once.
+:::
+
+### Faction state: the world that moves without the players
+
+Point a clock at a faction's goal and the faction stops being a fixed obstacle and becomes a process. In *Blades*, a faction carries a tier for its relative power and a hold for its stability, plus specific clocks tracking what it is currently doing, whether that is seizing a territory or removing a rival. [researched] The faction is no longer something the players bump into at a set moment. It is a set of advancing clocks they can disrupt, ignore, or get ahead of.
+
+Kevin Crawford's *Stars Without Number* takes the most explicit faction-as-system position. Every faction has discrete assets and hit points, and a structured between-session **faction turn** moves them. Each faction picks a goal and rolls to act against rival factions, then advances or loses its holdings on the strength of that roll. [researched] The GM collates the results and projects them onto the campaign map as concrete events, so a mercenary company collapses while a trade route opens and a pirate fleet takes a station. The load-bearing framing is that players receive the world *as changed*, not as threatened. [researched] This is what separates a faction turn from a bare timer. A timer only produces urgency, while the faction turn produces variety, because every faction acts including the ones the players never looked at, and the world accumulates a history independent of the party. [researched] The deeper benefit is honesty. A faction clock externalises the world-simulation that would otherwise sit in the GM's head, which keeps the GM from unconsciously timing events for player convenience. [researched]
+
+Greg Stolze's *Reign* pushes the idea the other way and lets the players own the organisation. Its Company is a faction-NPC with its own abstracted statistics, advanced through downtime and resource spend much as you would tick a project clock. The faction becomes something you manage rather than only something you oppose. [researched] Whichever direction it points, the principle holds. A faction expressed as state is a faction with its own momentum, and that momentum is what a [campaign's larger arc shape](../structure-pacing/campaign-arc-shapes.qmd) is built from. It is the same living world that a [sandbox refuses to railroad](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd) into a fixed plot.
+
+### Visible clocks, pacing, and the hidden-clock trap
+
+A clock the players can see is a pacing and foreshadowing tool in its own right. Put a six-segment clock labelled "Enforcers close in" on the table and fill it openly. The players get usable information about their horizon rather than a spoiler. [researched] The visible clock turns abstract GM pressure into a shared object both sides reason about. What gives it its dignity is that it tells the players how much time they have without telling them what to do. The response is left to them. [researched] This is the tabletop cousin of the visible timer on an escape room wall, which does the same foreshadowing and pacing work. The clock is one of the main levers a GM uses to shape [the rise and fall of energy across a session](../structure-pacing/session-pacing-and-energy-management.qmd).
+
+The failure that undoes all of this is the invisible clock: one the GM tracks privately and never reveals. [researched] A hidden clock performs no foreshadowing and builds no tension, because the players experience its eventual outcome as an arbitrary event rather than the payoff of pressure they watched accumulate. If a clock must start hidden for the sake of a surprise, the discipline is to reveal it at the first sign of its presence in the fiction. [researched] The related trap is clock fatigue, where a clock gets attached to every trivial situation until nothing reads as urgent because everything is a clock. [researched] The *Blades* rules say it directly: not every situation needs a clock. Reserve the device for the places where incremental progress genuinely matters in the fiction. [researched]
+
+### Resolving a clock
+
+A filled clock must never simply stop. Resolution has to produce a concrete new world-state. A threat arrives and becomes a scene to be dealt with. A project completes and its asset enters play. A faction reaches its goal and shifts how it behaves. [researched] Where it makes sense, a resolved clock starts a fresh one. The assassinated-duke clock becomes a succession-crisis clock. A simple test tells you whether a clock is well-built. Can you write in a single sentence what the world looks like when every segment is filled? "The heist is discovered" fails that test because it is too vague to drive fiction. "The Bluecoats raid the safe house at dawn and the crew loses their stash and a contact" passes, because it names a state the table can play out. [researched] A clock that cannot pass that test is not yet a clock, it is a label looking for a meaning.
+
+The same accumulation logic shows up outside the tabletop. In a large live game the faction state has to be tracked somewhere central, and megagames hand that job to a Control team working a master map, advancing each faction's position between turns and feeding the changed world back to the players. [synthesis] *Watch the Skies* runs alien factions, national delegations, corporations, and press all pursuing their own objectives in parallel, with a control layer collating the offscreen moves into events that reach the table. [researched] It is the same shape as a faction turn at the scale of a hall full of players. The world moves on its own clocks, and the participants meet it already changed. [synthesis] In interactive fiction the device collapses into stored state. A flag or a counter stands in for an offscreen faction's progress and gets checked when the player reaches the relevant branch, where its consequence surfaces as authored fallout. [synthesis]
+
+## Where this fits
+
+**The bigger picture.** The Progress Clock is the layer that lets a game have a memory and a direction without a script. It sits above the [resolution method](mechanical-resolution-types.qmd), which decides each isolated outcome, and turns a sequence of those outcomes into a trajectory the table can see. Everything that wants the world to feel alive rather than staged leans on it: a [sandbox needs faction clocks](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd) so consequence accrues without the GM forcing a plot, and a [campaign's arc shape](../structure-pacing/campaign-arc-shapes.qmd) is in large part what happens when two or three concurrent Fronts run toward their dark futures at once. The clock is also where a GM's prep economy pays off, because tracking which clock advanced is cheaper than scripting what the villain does, which is the engine behind a lean approach to [preparation that scales to the time you have](prep-economy.qmd).
+
+**Next steps.** Once you are filling clocks on outcomes, the next question is what produces those outcomes, which is the [resolution method](mechanical-resolution-types.qmd) underneath and the [encounter and challenge design](encounter-and-challenge-design.qmd) that calibrates how often a danger clock ticks. To place clock-and-Front design inside the wider traditions it grew from, start with the [TTRPG format taxonomy](ttrpg-format-taxonomy.qmd) and the distinction between narrative, tactical, and simulationist clock use. When a faction needs to be more than a clock, with members, secret objectives, and asymmetric win conditions, the design moves to [faction design and asymmetric objectives](../players-social-dynamics/faction-design-and-asymmetric-objectives.qmd). And where the clock is doing the work of a failure engine, escalating stakes each time the players come up short, that is [try-fail cycles and escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd).
+
+## Sources
+
+- *Blades in the Dark* (John Harper, Evil Hat Productions, 2017); progress clocks, the clock taxonomy, the speedometer metaphor, and segmentation. SRD: <https://bladesinthedark.com/progress-clocks>
+- *Apocalypse World*, 2nd edition (D. Vincent Baker and Meguey Baker, Lumpley Games, 2016); the Fronts chapter, grim portents, and the dark future.
+- *Dungeon World* Gazetteer, "Fronts" (Sage LaTorra and Adam Koebel); cast, impending doom, grim portents, stakes questions, custom moves. <https://book.dwgazetteer.com/fronts.html>
+- *Stars Without Number*, revised edition (Kevin Crawford, Sine Nomine Publishing, 2017); the faction turn, assets, and faction-as-system framing.
+- *Reign* (Greg Stolze, Arc Dream Publishing, 2007); the Company subsystem and organisation-as-character.
+- *Scum and Villainy* (Stras Acimovic and John LeBoeuf-Little, Evil Hat Productions, 2019); faction clocks layered onto a galactic map.
+- *Band of Blades* (Stras Acimovic et al., Evil Hat Productions, 2019); mission and condition clocks as visible attrition.
+- "Megagame," Wikipedia; the 30-to-300-player scale and the double-blind master-map convention. <https://en.wikipedia.org/wiki/Megagame>
+- Sutton and Wandsworth Megagames, "Watch the Skies Roles Guide"; parallel faction objectives and the control layer. <https://www.swmegagames.co.uk/watch-the-skies-roles-guide>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
@@ -21,10 +105,18 @@ provenance: ""
 - [Clue Sequencing & Chains](../puzzles-clues-information/clue-sequencing-and-chains.qmd)
 - [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd)
 - [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)
+- [Digital Gating & State](digital-gating-and-state.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
+- [Encounter & Challenge Design](encounter-and-challenge-design.qmd)
 - [Faction Design & Asymmetric Objectives](../players-social-dynamics/faction-design-and-asymmetric-objectives.qmd)
 - [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd)
+- [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
+- [Mechanical Resolution Types](mechanical-resolution-types.qmd)
+- [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)
+- [Prep Economy](prep-economy.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd)
+- [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
+- [The Engine Room](../../primers/the-engine-room.qmd)
 - [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd)
 - [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)
 

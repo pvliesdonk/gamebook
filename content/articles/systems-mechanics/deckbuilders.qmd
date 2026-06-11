@@ -1,14 +1,117 @@
 ---
 title: "Deckbuilders"
-aliases: []
+aliases: ["Deck-Building Games", "Deckbuilding Genre"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [engine-building, felt-progression, tactical-variety]
+  problems: [deck-bloat, dominant-strategy, market-luck]
+  components: [cards, market, starting-deck, trash-pile]
+  genre: [fantasy, sci-fi]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: A card game where the deck you draw from is the thing you spend the whole game rebuilding.*
+
+A deckbuilder hands every player the same humble pile of cards at the start. Then it asks a single question for the rest of the evening. What will you make of it? You draw a hand and play it for the little it gives. The money buys a stronger card from a shared market. That purchase is shuffled back into your pile. Next time round the deck has grown a fraction better. The round after it improves again, and so on until the modest starting hand has become an engine that does what you designed it to do. The deck is not a fixed resource you play from. It is the strategic object you shape while playing.
+
+That loop is the whole appeal. Most card games deal you a hand and let you make the best of it. A deckbuilder lets you change the hand you will be dealt, slowly, through every purchase. The pleasure is watching a plan you committed to twenty minutes ago start paying out, the cards you bought early finally landing together in one devastating turn. The danger is the mirror image: a deck stuffed with cheap rubbish you can never dig out from under, drowning the good cards you also bought.
+
+This is a tabletop genre and it stays one. The deckbuilder is a thing you do with physical cards, a market on the table, and a discard pile you flip back into a draw deck. The other media this guide covers have no real counterpart to it, so this article reads as a focused reference for the boardgame designer.
+
+## The Mechanism (How it works)
+
+### The core loop, and why it is not a collectable card game
+
+A deckbuilder runs on one cycle. Every player begins with an identical small starting deck. On a turn you draw a hand and play cards from it for money and effects. That money buys new cards from a shared market on the table, and everything you used goes into a personal discard pile. When your draw deck runs dry you shuffle the discard pile and it becomes the new draw deck. [researched] The cards you bought are now in the rotation, so the deck you draw from a few turns later is the one you have been building all along.
+
+The easiest way to see what the genre is doing is to set it against the collectable card game it grew up alongside. A collectable card game (CCG) like Magic: The Gathering asks each player to arrive with a deck they assembled beforehand, out of a card pool they bought or traded for outside the session. [researched] That builds in two asymmetries. The player with the deeper wallet or the longer collection holds the better cards before anyone sits down. A newcomer faces a wall of prior investment. The deckbuilder dissolves both by moving deck construction inside the game. The market is shared and every starting deck is identical, so nobody needs anything they did not bring to the table that night. [researched] The decision shifts from what you own to what you acquire, in what order, against opponents drawing from the same well. That relocation of deck-building into play is the genre's founding idea.
+
+This also separates the deckbuilder from the living card game, where deck construction still happens between sessions from a fixed, non-random card pool. The boundary is whether you build the deck at the table from a market (deckbuilder) or build it beforehand from your collection (CCG or living card game). The genre's place within the wider grammar of card-driven systems is mapped in [Boardgame Mechanism Vocabulary](boardgame-mechanism-vocabulary.qmd).
+
+### Dominion and the template everything else answers to
+
+The genre has a single point of origin. Dominion (Donald X. Vaccarino, Rio Grande Games, 2008) established nearly every convention the field has been working with or against ever since. [researched] Each player starts with the same ten cards. Seven of them are Coppers for the base currency, and three are Estates that supply the base victory points. The table is set up by choosing ten Kingdom Card types from a much larger pool, each stocked in a fixed supply of eight or ten copies, and those ten piles form the market for that game. On your turn you play cards for money and actions, buy from the market, and draw a fresh hand. [researched]
+
+Dominion won the Spiel des Jahres in 2009, the first deckbuilder to take the award, and the recognition set off a wave of releases through the following years that the hobby came to call the clone era. [researched] Three of its decisions became the load-bearing pillars of the genre.
+
+The first is the fixed supply. Because each Kingdom Card type exists in a set quantity, competing for a particular card is a genuine constraint rather than a tempo race. When the good cards run out, they are gone. The second is what the hobby calls greening up. Victory cards score points but do nothing when drawn, so every one you add clogs the deck with a dead draw. Buy victory too early and you choke your own engine at the moment it should be firing; buy it too late and you run out of turns. The timing of that first victory purchase is Dominion's central tension. [researched] The third is trashing: cards such as the Chapel let you permanently remove cards from your deck, thinning it so the good cards come round faster. The trash pile is the genre's canonical answer to a deck that has grown fat with its own early purchases. [researched]
+
+### The market: fixed supply against the random row
+
+After Dominion, the largest single design fork is how the market presents itself. Dominion's market is fixed and fully visible. The same ten Kingdom piles sit there all game, so a player can plan a strategy around cards known to be available. Ascension: Chronicle of the Godslayer (Justin Gary and others at Stone Blade Entertainment, 2010) took the other road with what designers now call the random row. [researched] A six-card centre row is refilled from a shuffled deck as cards are bought, so the market changes every turn and you cannot count on any card being there next time.
+
+The trade between the two is clean and worth naming. The fixed supply rewards a coherent plan committed to early; the random row rewards reading and reacting to whatever the row offers this turn. Each buys its strength with a matching weakness, and the relevant comparison is between strategic depth and tactical responsiveness.
+
+| Market model | Founding title | How the market behaves | What it rewards | Characteristic failure |
+|---|---|---|---|---|
+| Fixed supply | Dominion (2008) | Same chosen piles all game, fully visible | Long-range planning, deck coherence | Dominant combination, if a strong pairing is present [researched] |
+| Random row | Ascension (2010) | Centre row refills from a shuffled deck | Tactical reading, adaptation | Market luck: a needed card type may not appear for several turns [researched] |
+
+Neither model is the better one. They make opposite promises about how much of the game is plan versus reaction, which is the same axis [Decision Space & Choice Design](decision-space-and-choice-design.qmd) examines across boardgame genres.
+
+### Sculpting the deck: thinning, density, and the cull
+
+Underneath the market sits the economic problem that defines play. A deckbuilder's tension is the relationship between what a card costs and what it does to the density of your deck. [researched] Cheap cards are affordable early but each one dilutes the deck, so more shuffles pass before a strong card cycles back to your hand. Expensive cards are powerful but eat the early-game money and tempo you needed to get your engine running. Every purchase is a bet on that balance.
+
+So the ability to remove cards matters a great deal. A culling mechanism lets you delete weak cards from your deck for good, raising the proportion of strong cards in every future draw. Dominion does it with the Chapel; Star Realms does it through discard effects on certain bases; Aeon's End hands it to specific Breach Mage abilities. [researched] A deckbuilder that offers no way to cull forces players to carry every early-game mistake to the end. The deck bloats, the late-game engine never fires at a useful rate, and players feel powerless against an investment they cannot prune. Whether a design provides a cull, and how generous it is, is a reliable tell of how much the designer understood the genre. [synthesis]
+
+### Determinism by another route: the non-shuffle deck
+
+The most-cited structural change since Dominion alters one rule and reshapes the whole problem. Aeon's End (Kevin Riley, Indie Boards and Cards, 2016) is a fully co-operative deckbuilder in which the players defend a city from waves of attackers, and its departure is this: you never shuffle your deck. [researched] When your draw pile is spent you flip the discard pile over as it stands, so the order in which you discarded is the order in which you will draw. [researched]
+
+That single change converts the genre's core skill. In a shuffling deckbuilder, acquisition is probability management. Load the deck with good cards and the odds take care of the rest. Without a shuffle, acquisition becomes sequencing management. A player now plans several turns ahead and tracks exactly where each card will land in the cycle, so that the pieces of a combination arrive together rather than scattered. [researched] The deckbuilder stops being a probabilistic engine and becomes a deterministic puzzle played with incomplete information about what the rest of the table and the threats will do.
+
+::: {.callout-note}
+### The Specimen
+Aeon's End is the clearest demonstration that a deckbuilder's feel lives in one structural rule, not in its cards. Drop the shuffle and every downstream skill changes. A shuffling deckbuilder asks you to manage a bag of probabilities, so the right instinct is to improve the average card. Aeon's End asks you to manage an order, so the right instinct is to think like a solver of a sequencing puzzle. A card discarded now will sit fourth from the top in two turns' time. That is exactly when the threat escalates, so the pieces have to be laid down in the order they will be needed. [researched] The cards could be identical to a conventional deckbuilder and the game would still play nothing like one. The lesson generalises past this title. The randomiser you choose, or refuse, is a louder statement about the play experience than the card list it shuffles. [synthesis]
+:::
+
+### Deckbuilder plus X: the deck as one layer of a larger game
+
+Once the loop was understood, designers asked what happens when deckbuilding is not the whole game but one system inside a bigger one. The answer turned out to be that the deck makes an excellent economic sub-game. A worker-placement or area-control design tracks resources with cubes and tokens. A deckbuilding layer supplies the same economy through cards a player accumulates and improves. Cards replace cubes, and the act of spending them carries more texture than moving a token. [researched]
+
+| Hybrid | Representative title | The other layer |
+|---|---|---|
+| Deckbuilder plus co-operative combat | Aeon's End (2016) | Wave-based co-op battle against a shared threat [researched] |
+| Deckbuilder plus map / tableau | Trains (2012) | Rail network built across a spatial board [researched] |
+| Deckbuilder plus worker placement | Lost Ruins of Arnak (2020) | A worker economy and a research track [researched] |
+| Deckbuilder plus card crafting | Mystic Vale (2016) | Composite cards built from sleeved overlays [researched] |
+
+Two of these reward a closer look. Trains (Hisashi Hayashi, 2012) lays the deckbuilder over a hex map of cities, so players grow a deck and a rail network at once, and territory on the board scores independently of what is in the deck. [researched] Mystic Vale (John D. Clair, AEG, 2016) attacks the genre's habit of dealing identical card copies to everyone. Its cards sit in transparent sleeves with three slots. Each acquisition is an overlay that adds printed text to one slot, so players physically build composite cards no other player holds. [researched] The strategic question moves from which cards you own to what you have constructed. The way these hybrids reach for the deck as a familiar economic engine, set against the cube-pushing of a heavier design, runs along the fault line that [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd) describes.
+
+A close structural relative drops the cards entirely. Bag builders replace the draw deck with a cloth bag of tokens, drawn each round, with the bag's contents managed by acquisition exactly as a deck's would be. Orléans (Reiner Stockhausen, 2014) is the defining example, and The Quacks of Quedlinburg (Wolfgang Warsch, 2018) adds a push-your-luck draw where you stop pulling tokens or risk busting. [researched] The design problems and failure modes are the same as a deckbuilder's; only the physical act of drawing differs. [researched]
+
+### Where the genre breaks
+
+Three failure modes recur often enough to be worth checking any design against. The first is dominant strategy collapse. When one card or market combination reliably beats the rest, every player converges on it and the strategic variety the genre promises drains away. Dominion's defence is the ten-card setup itself, since a game that simply omits the dominant pairing cannot suffer from it. The random row sidesteps the problem differently, by making any fixed combination hard to assemble on purpose. [researched] The second is bloat without a cull, covered above. With no way to thin the deck, the late game drowns in early mistakes. [researched] The third is market luck dominance, the random row's own hazard. A player can be locked out of a needed card type for several turns through no decision of their own. The stronger designs soften it by offering more than one route to what a player needs. Some also keep part of the market predictable. [researched] How any of these resolve at the table, through the spread of outcomes a given market and shuffle produce, is the wider subject of [Mechanical Resolution Types](mechanical-resolution-types.qmd).
+
+## Where this fits
+
+**The bigger picture.** The deckbuilder is a self-contained genre rather than a layer most other Systems & Mechanics articles assume, so it sits a little apart from the resolution and turn-structure machinery the family is mostly built on. Its importance is as a worked example of one idea taken to its conclusion. A single mechanical loop, the buy-to-improve cycle, carries an entire game on its own. That makes it a useful reference point for the genre's central virtue and its central risk. The virtue is felt progression, the deck visibly improving turn by turn under the player's own hand. The risk is that the same loop turns that progression sour when it is left without a cull or weighed down by a dominant card. The genre also lends its engine outward. As the hybrids show, deckbuilding travels well as the economic sub-game inside a larger design, and that is why it keeps reappearing under other mechanisms rather than staying in its own box.
+
+**Next steps.** A designer reaching past the deckbuilder itself goes first to [Boardgame Mechanism Vocabulary](boardgame-mechanism-vocabulary.qmd) to place the genre's parts inside the shared language of tabletop systems. To weigh the fixed-supply against random-row choice as a question of how much the game should be planned versus reacted to, the relevant article is [Decision Space & Choice Design](decision-space-and-choice-design.qmd). To judge whether a given market and Kingdom set will hold up across many plays rather than collapsing onto one strategy, that is [Replayability](replayability.qmd). And to understand the hybrids' habit of borrowing the deck as an economy, set against the heavier traditions they borrow it into, see [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd).
+
+## Sources
+
+- *Dominion* (Donald X. Vaccarino, Rio Grande Games, 2008); starting deck of seven Coppers and three Estates, fixed Kingdom supply, the trash mechanism, and the 2009 Spiel des Jahres win. <https://en.wikipedia.org/wiki/Dominion_(card_game)>
+- Donald X. Vaccarino (designer profile and Dominion's award record). <https://en.wikipedia.org/wiki/Donald_X._Vaccarino>
+- *Ascension: Chronicle of the Godslayer* (lead designer Justin Gary with Brian Kibler and others; Stone Blade Entertainment, 2010); the random-row market model. <https://en.wikipedia.org/wiki/Ascension:_Deckbuilding_Game>
+- *Aeon's End* (Kevin Riley, Indie Boards and Cards, 2016); the never-shuffle co-operative deckbuilder. <https://www.meeplemountain.com/reviews/aeons-end/>
+- *Star Realms* (Rob Dougherty, Darwin Kastle; White Wizard Games, 2014); compact competitive deckbuilder, base discard as a cull route. <https://en.wikipedia.org/wiki/Star_Realms>
+- *Mystic Vale* (John D. Clair, AEG, 2016); the Card Crafting System of sleeved overlays. <https://geekdad.com/2016/07/mystic-vale/>
+- *Lost Ruins of Arnak* (Mín and Elwen, Czech Games Edition, 2020); deckbuilder plus worker placement and research track. <https://www.meeplemountain.com/interviews/min-elwen-designers-of-lost-ruins-of-arnak/>
+- *Trains* (Hisashi Hayashi, Japon Brand 2012 / AEG 2013); deckbuilder over a spatial rail map. <http://www.gateplay.com/trains.aspx>
+- *Orléans* (Reiner Stockhausen, dlp games, 2014); the defining bag-builder. <https://www.mechanics-and-meeples.com/2017/02/20/a-bagbuilding-look-at-orleans/>
+- *The Quacks of Quedlinburg* (Wolfgang Warsch, Schmidt Spiele, 2018; Kennerspiel des Jahres 2018); push-your-luck bag-building. <https://en.wikipedia.org/wiki/The_Quacks_of_Quedlinburg>
+- *Magic: The Gathering* (Richard Garfield, Wizards of the Coast, 1993); the collectable card game the deckbuilder departs from. <https://en.wikipedia.org/wiki/Magic:_The_Gathering>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Boardgame Mechanism Vocabulary](boardgame-mechanism-vocabulary.qmd)
+- [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
+- [The Engine Room](../../primers/the-engine-room.qmd)
+
+<!-- BACKLINKS:END -->

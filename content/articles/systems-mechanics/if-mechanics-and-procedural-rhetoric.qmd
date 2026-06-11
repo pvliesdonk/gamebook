@@ -1,14 +1,122 @@
 ---
 title: "IF Mechanics & Procedural Rhetoric"
-aliases: []
+aliases: ["The Mechanic Is the Message", "Procedural Rhetoric", "Mechanic as Metaphor", "Ludonarrative Harmony"]
 family: "Systems & Mechanics"
-media: []
+media: [interactive-fiction, tabletop, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [felt-meaning, moral-weight, immersion, complicity]
+  problems: [pasted-on-theme, ludonarrative-dissonance, inert-stats, stalled-pacing]
+  components: [stat, skill-check, resource-economy, inventory, world-state-flag]
+  genre: [horror, historical, sci-fi, mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: The rules carry the argument; the system says what the prose only describes.*
+
+A mechanic is not plumbing. Take the number tracking a character's sanity, or the lock that opens at trust 5, or the bullet too precious to waste. Each one says something about the world whether or not the writer meant it to. In interactive fiction the "mechanics" are quiet ones. There is no dice clatter here. There is only a stat that climbs by half a point, and a relationship meter still parked where a betrayal left it. Yet those quiet systems make claims as loud as any sentence of prose, and a player feels the claim in the act of play long before they could put it into words.
+
+This article is about that double life of the rules. A stat system has to work, first of all. A skill check has to read clearly. An economy has to stay tense enough to matter while an inventory gates the right doors. But the same system is also making an argument about its fiction. Get the two registers pulling together and the rules become the strongest carrier of meaning a work has. Get them pulling apart and the player trusts the rules over the prose every time, because the rules are the part they actually did.
+
+The frame underneath all of this has a name from outside interactive fiction. Ian Bogost called it procedural rhetoric. A rule-based, participatory system argues through its permissions and its prices, through what you may do and the cost of doing it. The roll itself, the layer beside this one, is [Mechanical Resolution Types](mechanical-resolution-types.qmd). This article is about what that roll is allowed to mean.
+
+## The Mechanism (How it works)
+
+### The two registers of a mechanic
+
+Every mechanic in interactive fiction works at two registers at once, and most design trouble comes from minding one and forgetting the other. The systems register asks whether the thing functions, whether the skill check reads and the economy stays tense and the inventory opens the doors it should. The expressive register asks what the thing means, what claim about the world is encoded when this action is cheap and that one is costly. [corpus] A mechanic that functions but means nothing is coherent and inert. A mechanic that means something but does not function frustrates the player out of ever feeling the meaning.
+
+Bogost's *Persuasive Games* names the expressive register directly. Because a game is rule-based and the player participates, it can argue by encoding a claim into its rules instead of putting it into text. [researched] A work about bureaucratic indifference need not describe indifference. It can make you enact the indifference instead, one stamped form after another, until the loop is the whole of its argument. Every rule about what the player can and cannot do is a small claim about how the world works.
+
+It helps to have a vocabulary for turning a rule into a claim on purpose. The patterns below are the ones interactive fiction reaches for most, and each names a different way for a system to mean something.
+
+| Pattern | The rule carries the claim | Worked example |
+|---|---|---|
+| Mechanic as metaphor | The shape of a choice argues the situation: one right answer says there was a right answer; only-bad options say tragedy | A slate where every branch costs something the player values [corpus] |
+| Resource as theme | What you make scarce is what the work is about | *Papers, Please* rations time, so it is about a system's indifference to the person behind each document [researched] |
+| Stat as character | A stat tracks who someone is, not what they can do | *Disco Elysium* makes its skills internal voices that argue with the protagonist [researched] |
+| Irreversible act | The structure of agency holds moral memory | *Undertale* records violence in the save system, so a ruthless run marks later playthroughs [researched] |
+| Investigation as form | Player curiosity sets the order of revelation | *Her Story* replaces linear narrative with database search, so the player co-authors the structure [researched] |
+
+### Stats that do narrative work
+
+The default mental model of a stat is a competency score, where a bigger number means you are better at the thing. Interactive fiction can use stats that way. The more expressive move lets the number track personality rather than skill. An opposed pair like Stoic against Emotional (or Ruthless against Merciful) records who the character is becoming as the player chooses. [corpus] The test of whether a stat is doing narrative work is simple. A stat that is never reflected back in the prose or in how a character speaks is a widget. A stat that changes how the character talks is characterisation. [corpus]
+
+The Failbetter lineage pushes this furthest. In quality-based narrative the accumulating stats are not a side system; they are the narrative state, and which content unlocks next is decided by them directly. [corpus] A "quality" there is just a numeric variable, free to rise or fall, standing in for everything from inventory to story progress. [researched] Point that same substrate at a threshold and it becomes a filling track the player can watch, the native interactive-fiction form of the [Progress Clock](progress-clocks-and-faction-state.qmd). Fallen London's menaces are the clearest instance: tracks like Wounds and Nightmares that fill from risky play and change the game state at fixed levels rather than at a single on-or-off line. [researched] How a stat then becomes a gate, opening and closing content as its value crosses a precondition, is its own craft in [Digital Gating & State](digital-gating-and-state.qmd).
+
+### Skill checks and the failure that stalls
+
+A skill check is the point where the character sheet speaks into the prose. The first design fork is whether it resolves by threshold or by probability. A threshold check is deterministic. If Strength clears five, you succeed. It suits competency, the kind of thing you either know or you do not, and its risk is that a locked-out player feels walled off or else reloads to dodge the wall. A probability check rolls against a target and suits external chaos, the guard who might or might not glance over. Its risk runs the other way: failing the thing you specialised in feels unearned. [corpus] The common interactive-fiction practice is to use thresholds for competence and probability for chance, so that a built character is reliable at what they are good at and the dice are reserved for the world's own caprice. [corpus]
+
+The deeper craft sits in what a failed check does to the story. A check that halts the prose ("you cannot, try again") is the one outcome to design out entirely. The discipline is to fail forward: a failed lockpick still opens the door, but the pick snaps or the guard stirs. [corpus] Failure redirects rather than stops. This is the same instinct that runs through the tabletop partial success, the messy middle written into a [Move](moves-and-the-fiction-mechanic-fiction-loop.qmd) so a roll never dead-ends a scene. The interactive-fiction version has no GM in the room to improvise the consequence, so the consequence has to be authored ahead of time, which makes failing forward a writing task as much as a systems one.
+
+### Economy and inventory as argument
+
+What a work makes scarce tells the player what it values. An economy where every bullet counts is survival horror by its arithmetic alone; an economy where money is trivial is a power fantasy by the same arithmetic. [corpus] The structural lever is the balance of faucets against sinks, the sources that pour currency in against the drains that pull it out. Let the faucets outrun the sinks and the currency goes meaningless, and the theme it was carrying drains away with it. [corpus]
+
+Inventory makes the same kind of argument through constraint. An unlimited bag invites brute-force play, the player trying every object on every obstacle until something gives. A hard limit ("carry three items") forces a choice with weight, the gun against the medkit. [corpus] Interactive fiction also fights a problem the tabletop rarely meets. Shopping is dull to read. The fix is to make items narrative rather than statistical ("your father's rusted blade" rather than "Sword +1"), so that handling the inventory keeps the player inside the fiction rather than down in a spreadsheet. [corpus]
+
+### Diegetic state: the number as prose
+
+A piece of mechanical state can be shown two ways, and the choice is itself expressive. Non-diegetic state names the number to the player from outside the fiction: "you have three Willpower." Diegetic state expresses the same value in the world's own terms: "your hands will not stop shaking." [corpus] The non-diegetic version splits the player from the character, holding the system at arm's length; the diegetic version collapses that gap, so the mechanic is felt as the character's experience rather than read as a readout. A sanity stat that surfaces as increasingly fractured sentences, a relationship meter that shows up only in whether a character still uses your name: that is mechanical state wearing the fiction's clothes. [corpus] This is the systems face of [Diegetic Design](../story-character-voice/diegetic-design.qmd), and in built spaces it is the same instinct that drives a [Digital Prop](../space-props-materiality/digital-props.qmd) to present its state as an in-world device rather than a menu.
+
+### When the rules contradict the story
+
+Clint Hocking gave the failure mode its name. Writing about *BioShock* in 2007, he described ludonarrative dissonance: the break that opens when what a game's mechanics reward contradicts what its story endorses. [researched] *BioShock* tells a story questioning self-interest while its systems reward the player for relentless self-interest, and the contradiction is felt as a kind of bad faith. The concept matters because it draws the target as a photographic negative. The thing to aim for is alignment, mechanics that reward what the narrative actually prizes.
+
+The interactive-fiction version of the failure is easy to build by accident. A "Corruption" stat that unlocks the richest content argues for corruption no matter what the prose says, because the incentive structure is the part the player optimises. [corpus] If a story prizes restraint, then unconstrained action has to carry a price. If it is about grief, a cheery score screen at the end betrays it. [corpus] Alignment is less a single switch than a habit of checking, at every reward, whether the system endorses the same thing the story does.
+
+::: {.callout-warning}
+### The Hazard
+The seductive trap is the stat that makes the "best" path the one the story condemns. You build a vice meter because vice is the theme. Then you quietly wire the strongest scenes and the rare art and the good endings behind a high score on it. The prose can disapprove of the vice in every line and it will not matter. The player learns what the work values from where the rewards sit. They do not learn it from where the narration points. The tell is when your own incentive table rewards the thing your synopsis says the game stands against. Once that happens the rules have quietly overruled the writing. The player believes the rules. [synthesis]
+:::
+
+Deliberate dissonance is the exception that proves the rule. *Spec Ops: The Line* leaves its comfortable shooter mechanics intact precisely so they can turn into the indictment, the ease of the violence becoming the point. [researched] That only works because the dissonance is the argument, authored on purpose, rather than a seam the designer never noticed.
+
+### The mechanic as the whole message
+
+At the far end, the system is not a carrier for a story told elsewhere; it is the entire argument, and the prose is almost incidental. Brenda Romero's *Train* is the standing case. Players optimise the loading of boxcars for efficiency, competing to move the most figures, until the destination on the cards is revealed as a Nazi camp and the optimisation they were enjoying becomes the thing they did. [researched] Romero built the rules with deliberate gaps that force the players to agree to them out loud, so the complicity is procedural, enacted rather than described. [researched] Jason Rohrer's *Passage* makes the gentle version of the same move: a viewport that narrows as the avatar ages and a single death that cannot be played around carry the whole emotional truth of mortality with no text at all. [researched] In both, the mechanic is the message. The argument lives in the act of playing and would not survive being merely narrated.
+
+::: {.callout-note}
+### The Specimen
+*Disco Elysium* turns the stat sheet itself into voice. Its twenty-four skills are not competency scores but internal characters. Inland Empire and Electrochemistry and Authority each arrive as a distinct presence that interrupts the protagonist's thoughts and argues for its own reading of the scene. [researched] The Thought Cabinet goes further and makes ideologies into equipment, so a belief can be slotted in and lived with over hours of play. The mechanical system does not track what the detective can do. It stages who he is. The sheet becomes a parliament of competing instincts the player listens to and sometimes obeys. The lesson reaches past one game. A stat reflected only in a gate is a widget, but a stat that is given a voice in the prose becomes the most direct characterisation the medium has. [synthesis]
+:::
+
+### The same question across media
+
+The expressive register is not unique to interactive fiction; it is the medium where it is easiest to see because the systems are bare. The board game treats it as a first principle. Theme-and-mechanism integration in tabletop design is the question of whether the rules embody the subject or merely decorate it, the procedural-rhetoric idea wearing tabletop clothes, and it is the direct sibling of this article in [Theme-Mechanism Integration](theme-mechanism-integration.qmd). [synthesis] The same line runs through the question of whether a system is bound to its world or floats free of it, which is [System vs Setting](system-vs-setting.qmd): a mechanic that means something is a mechanic welded to its setting, and "the mechanic is the message" is the strongest possible statement that the system has become the setting. [synthesis]
+
+The live game asks it through hardware and space. In an escape room the question is whether the room's mechanisms encode its fiction or sit on top of it as themed dressing, the diegetic-mechanics question that is the live application of procedural rhetoric. [synthesis] A lock that fits the story (the diary that opens to a date that matters) is a mechanic carrying meaning; a four-digit padlock stuck on a wizard's chest because a code had to go somewhere is dissonance you can touch. The surface hygiene of a built space, every visible mechanism either belonging to the fiction or deliberately invisible, is the room-scale version of choosing diegetic state over a bare number.
+
+## Where this fits
+
+**The bigger picture.** Procedural rhetoric is the lens that turns every other mechanism in this family into a statement. A [resolution method](mechanical-resolution-types.qmd) is not only a way to find out what happens; it is a claim about whether luck or competence rules the world. A [progress clock](progress-clocks-and-faction-state.qmd) is not only a counter; it is an argument that doom is approaching on a schedule. This article does not add a new mechanism so much as it changes what you are looking for in the ones you already have. Once you read a stat or an economy as an argument, you cannot stop, and the question shifts from "does this system work" to "does this system say what I mean." That second question is the one that separates a game whose theme is painted on from one whose theme is load-bearing.
+
+**Next steps.** The most concrete place this lands is the design of the choices themselves, where the number and framing of options is the argument the scene is making, which is [Decision Space & Choice Design](decision-space-and-choice-design.qmd). When the goal is to keep a system simple so that meaning emerges from play rather than from elaboration, that restraint is [Elegance, Emergence & Randomness](elegance-emergence-and-randomness.qmd). To follow the gating substrate that stat-driven content depends on, go to [Digital Gating & State](digital-gating-and-state.qmd); to see how a mechanic teaches its own meaning to the player without a manual, that is [Teaching Through Play](../puzzles-clues-information/teaching-through-play.qmd). And where the rules of choice meet the branching shapes they produce, the structural counterpart is [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd).
+
+## Sources
+
+- Bogost, Ian. *Persuasive Games: The Expressive Power of Videogames*. MIT Press, 2007. (Procedural rhetoric: arguments encoded in rules.) <https://mitpress.mit.edu/9780262514880/persuasive-games/>
+- Hunicke, Robin, Marc LeBlanc and Robert Zubek. "MDA: A Formal Approach to Game Design and Game Research." AAAI Workshop on Challenges in Game AI, 2004. <https://users.cs.northwestern.edu/~hunicke/MDA.pdf>
+- Hocking, Clint. "Ludonarrative Dissonance in BioShock." Click Nothing, 7 October 2007 (original blog defunct; widely archived). Summary: <https://en.wikipedia.org/wiki/Ludonarrative_dissonance>
+- Romero, Brenda. *Train* (2009), from "The Mechanic Is the Message" series. <https://en.wikipedia.org/wiki/Train_(board_game)> and <http://brenda.games/train>
+- Rohrer, Jason. *Passage* (2007; in the Museum of Modern Art collection). <https://en.wikipedia.org/wiki/Passage_(2007_video_game)>
+- Pope, Lucas. *Papers, Please* (2013). (Time as the rationed resource; bureaucratic complicity through the loop.) <https://en.wikipedia.org/wiki/Papers,_Please>
+- Yager Development. *Spec Ops: The Line* (2012). (Intentional dissonance as critique.) <https://en.wikipedia.org/wiki/Spec_Ops:_The_Line>
+- ZA/UM. *Disco Elysium* (2019). (Skills as internal voices; the Thought Cabinet.) <https://en.wikipedia.org/wiki/Disco_Elysium>
+- Fox, Toby. *Undertale* (2015). (The save system as moral memory; irreversible consequence.) <https://en.wikipedia.org/wiki/Undertale>
+- Barlow, Sam. *Her Story* (2015). (Database search as narrative form.) <https://en.wikipedia.org/wiki/Her_Story_(video_game)>
+- Short, Emily. "Storylets: You Want Them." 2019. (Quality-based narrative; storylet preconditions reading stat state.) <https://emshort.blog/2019/11/29/storylets-you-want-them/>
+- "Menaces (Guide)." Fallen London Wiki. (Menace tracks filling to thresholds that change game state.) <https://fallenlondon.wiki/wiki/Menaces_(Guide)>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Digital Gating & State](digital-gating-and-state.qmd)
+- [Distributing Narrative Authority](distributing-narrative-authority.qmd)
+- [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)
+- [System vs Setting](system-vs-setting.qmd)
+- [The Engine Room](../../primers/the-engine-room.qmd)
+- [Theme-Mechanism Integration](theme-mechanism-integration.qmd)
+
+<!-- BACKLINKS:END -->

@@ -1,14 +1,130 @@
 ---
 title: "TTRPG Format Taxonomy"
-aliases: []
+aliases: ["TTRPG Traditions", "RPG Design Families", "RPG Format Families", "Roleplaying Game Traditions"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [tradition-fit, design-coherence, table-feel]
+  problems: [tradition-mismatch, borrowed-mechanic-misfire, scope-mismatch]
+  components: [resolution-core, gm-role, character-model, prep-weight]
+  genre: [fantasy, horror, historical, sci-fi]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: The map of the design families a roleplaying game can belong to, sorted by where authority sits and how tightly the rules grip the fiction.*
+
+A game by Luke Crane and a game by Vincent Baker both call themselves tabletop roleplaying games, and they agree on almost nothing else. One hands you a character built from a lifepath and asks you to fight for your beliefs against an arbitrator. The other hands you a playbook and a 2d6 roll that fails forward by design. Put a D&D referee, a Blades crew, and a candle-lit one-shot of *Ten Candles* at the same table and you have three crafts that share a hobby and little of its DNA. The work of this map is to make those differences legible before you pick a system or borrow a mechanic, so you choose a tradition on purpose rather than reaching for the one you happen to know.
+
+This article does not teach one mechanism. It maps the space above the mechanisms. The failure it guards against is not a broken rule but a mismatched one. A resolution method gets lifted from a tradition whose values your game does not share. A prep budget the format cannot sustain gets assumed. A GM seat the design needed never gets built. To see that coming you read every system along the same few axes. Where does narrative authority sit? How tightly do the rules bind the fiction? And what does the game ask the person running it to be, if it asks for one at all?
+
+## The Mechanism (How it works)
+
+### The DNA, not the genre
+
+The instinct is to sort roleplaying games by what they are about, with fantasy in one pile and horror in the next and science fiction in a third. That sorting is almost useless for a designer, because two fantasy games can be built on opposite philosophies and a horror game can share its whole engine with a comedy. The useful sort is by design DNA, the structural answers a system gives before any setting text is written. [corpus] A tabletop roleplaying game is at root a structured conversation in which people narrate events in a shared fiction and reach for rules to resolve what is uncertain. [corpus] What separates the traditions is which part of that conversation the rules govern and who gets to speak with authority when they do.
+
+Three axes carry most of the weight. One is where narrative authority sits. At one extreme it is concentrated in a single referee; at the other it is absent altogether and handed to a deck or a timer. Much of the design space lives in the distributed arrangements between those two poles. A second axis measures how tightly the rules bind the fiction, running from a sparse system that leaves most adjudication to a ruling at the table to a dense one that pre-writes what each outcome means in the story. The last axis is the GM's presence and posture. The seat may hold an impartial referee. In another tradition it holds an agenda-driven facilitator who never plots ahead, and in a third a clock-keeper who only frames stakes. *Paranoia* even fills it with a deceiver licensed to work against the players, while some traditions leave it empty. [corpus] A fourth axis, prep weight, falls out of the first three almost mechanically, because a tradition that distributes authority and pre-writes its outcomes asks far less of one person before play than a tradition that concentrates both. [synthesis] How a system answers the second axis is the whole subject of [Rulings vs Rules & the Authority Contract](../players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd); how it answers the third is [GM Role Models & Stances](../players-social-dynamics/gm-role-models-and-stances.qmd). This map reads them together, because a tradition is the package, not any single axis.
+
+The table below is the load-bearing centre of this article. Each row is a tradition. The columns name its resolution core, where authority sits, how tightly the rules grip the fiction, what the GM is asked to be, and what the tradition is built to optimise for, with representative systems named so the row is not an abstraction. Prose would bury this; the comparison only reads as a grid because the axes are genuinely the data.
+
+| Tradition | Resolution core | Authority & GM | Rules-fiction grip | Representative systems | Optimised for |
+|---|---|---|---|---|---|
+| **Trad / D&D-lineage** | d20 + modifier vs a target number | Concentrated in a referee or neutral arbiter | Loose-to-medium; rulings fill the gaps | D&D (1974 onward; 2014 fifth edition; the 2024 revision), Pathfinder 2e | Tactical play, advancement, a broad table [corpus] |
+| **OSR** | d20 chassis, but lethality and procedure carry the game | Strict impartial referee; rulings over rules | Deliberately loose; the table adjudicates | Old-School Essentials, Knave, Mörk Borg, Shadowdark | Emergent story from world logic and player skill [corpus] |
+| **PbtA (Powered by the Apocalypse)** | 2d6 + stat, three tiered bands | Agenda-driven MC; no pre-session plotting | Tight; each [PbtA Move](moves-and-the-fiction-mechanic-fiction-loop.qmd) pre-writes its outcomes | Apocalypse World, Dungeon World, Monsterhearts, Masks | Conversational drama; complication by design [corpus] |
+| **FitD (Forged in the Dark)** | d6 pool, take the highest; position and effect | GM as clock-keeper and facilitator | Tight on stakes, loose on planning (flashbacks) | Blades in the Dark, Scum and Villainy, Band of Blades | Heist-shaped fiction; stakes named before the roll [corpus] |
+| **Storyteller / Storypath** | d10 pool, count successes over a difficulty | Storyteller as metaplot custodian | Medium; the splat carries thematic vocabulary | Vampire: The Masquerade, the World of Darkness line | Faction-driven personal horror; lore as material [corpus] |
+| **Investigative (Gumshoe / BRP)** | Auto-found clues (Gumshoe); d100 roll-under (BRP) | GM as clue guarantor and consequence framer | Medium; the clue economy is the spine | Gumshoe (Trail of Cthulhu), Call of Cthulhu | Mysteries that cannot stall on a failed search [corpus] |
+| **Narrativist indie (Forge-era)** | Varies; d6 pool with let-it-ride (Burning Wheel) | Arbitrator of stated intent and belief | Tight; the reward loop drives the story | Burning Wheel, Sorcerer, Dogs in the Vineyard | Theme tested through character conviction [corpus] |
+| **Toolkit / Aspect (Fate)** | 4dF + a named skill, plus Aspects | Scene architect; players spend to bend outcomes | Medium; free-text Aspects are the levers | Fate Core, Fate Accelerated | Genre-flexible, fiction-first improvisation [corpus] |
+| **GMless / GMful storytelling** | Cards, prompt dice, coin wagers, or a candle timer | None, or a rotating narrator role | Tight but distributed; the mechanic is the genre | Fiasco, Microscope, The Quiet Year, Ten Candles | One specific kind of story, told without a master [corpus] |
+| **Solo journaling** | A drawn prompt or oracle; the writing is the outcome | The player and an oracle stand in for the GM | Loose; the prompt frames, the writing resolves | Thousand Year Old Vampire, Ironsworn (solo mode) | Reflective single-player narration | [corpus] |
+| **Nordic / freeform** | Few or no dice; metatechniques and scene-framing | Distributed; workshops and debriefs frame play | Loose mechanically, tight socially | Jeepform and Fastaval scenarios; the larp-adjacent freeforms | Intense, emotionally focused short scenarios [researched] |
+
+The rows are the traditions. Read across a row to see the package a system commits to; read down the authority column to feel the whole space tilt from one referee through a clock-keeper to no master at all.
+
+### Where authority sits: the spectrum from referee to no master
+
+The clearest way through the table is the authority column, because it organises everything else. At one end stands the trad lineage, where Dungeons and Dragons (Gygax and Arneson, 1974, and the d20 loop that runs through its 2014 and 2024 revisions and through Pathfinder 2e) puts one person in the referee's chair to set difficulties, voice the world, and adjudicate. [corpus] The OSR keeps that single seat but sharpens its posture. The referee is strictly impartial, rulings come before rules, and the published manifesto of the movement, the *Principia Apocrypha*, treats player mortality and exploration as the real game while the system stays sparse on purpose. [corpus] Both put authority in one seat; they disagree about how tightly that seat should grip the fiction, which is exactly the [Rulings vs Rules & the Authority Contract](../players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd) question playing out as a tradition split.
+
+Move along the spectrum and the single seat softens. PbtA keeps a GM, renamed the MC, but strips out pre-session plotting and replaces it with agenda and principles, so the world shapes itself from play rather than from prep. [corpus] Forged in the Dark keeps a GM as a clock-keeper who sets position and effect, then inverts the trad prep logic by letting players plan through flashbacks during the score instead of before it. [corpus] Keep going and the seat empties. Belonging Outside Belonging games such as Dream Askew and Wanderhome run with no dice and no single master, pacing the table through a token economy where weak moves earn a token and strong moves spend one. [corpus] At the far end, the GMless storytelling family hands authority to a mechanic outright. Relationship dice and a mid-game Tilt do the work in *Fiasco*. A rotating Lens does it in *Microscope*. *The Quiet Year* runs on weekly card draws across fifty-two weeks, and *Ten Candles* on ten candles guttering out one by one until every character is dead. [corpus] How that authority gets parcelled out, in any of these, is the subject of [Distributing Narrative Authority](distributing-narrative-authority.qmd).
+
+### How tightly the rules grip the fiction
+
+The second axis cuts across the first, and it is the one most often mistaken for quality. A tight system is not better than a loose one; they make opposite bets. A loose grip, the OSR's by design, leaves most of what an outcome means to a ruling at the table, which keeps the rulebook thin and the adjudication fast but throws the weight onto the referee's judgement. A tight grip pre-writes what each result means in the story, so the [PbtA Move](moves-and-the-fiction-mechanic-fiction-loop.qmd) reads like a small script: the 7-to-9 partial is a named event with an authored cost, not a softened failure. [corpus] That authored middle is the same hit-or-miss against tiered fork that decides the feel of any single roll, mapped in [Mechanical Resolution Types](mechanical-resolution-types.qmd); a tradition is partly just a consistent answer to that fork applied across the whole game.
+
+The investigative tradition is the sharpest illustration of grip chosen to fix a specific failure. Robin Laws built Gumshoe because a missed roll in a mystery game can halt the whole adventure when the clue it gated was load-bearing. Gumshoe makes clue-finding automatic for any character with the relevant ability, then puts the drama into interpretation instead. [corpus] That is a tradition defined almost entirely by where it tightens its grip. It clamps down hard on guaranteeing information and stays loose on what the investigators then do with it. The same problem and the same fix appear at the tabletop as the redundancy rule in [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). Call of Cthulhu, sharing the mystery genre but not the philosophy, keeps the older Basic Roleplaying d100 roll-under and lets investigation fail, then leans on its Sanity rules to make the cost of knowledge the point. [corpus] Two investigative games, one genre, opposite answers on grip.
+
+### What the GM is for, when there is one
+
+The third axis asks what the design wants from the person running it, and the traditions answer with strikingly different job descriptions. The trad referee arbitrates and voices the world. The OSR referee is an impartial judge of a world that mostly runs on its own procedures, the wandering monster tables and reaction rolls and the encumbrance that actually bites. [corpus] The PbtA MC follows an agenda and never plans a plot. The FitD GM keeps clocks and frames stakes. Fate's GM is a scene architect against whom players spend Fate Points to seize the wheel. [corpus] One tradition inverts the seat completely. *Paranoia* licenses the GM to lie about the rules and to engineer player-versus-player conflict, rewarding the absurd over the correct. That is the adversarial-GM stance, normally a failure mode, turned into the genre because the table consents to it at the start. [corpus] That move, naming a harm and designing it into the contract with consent, is the same logic that makes the safety layer a deliberate part of the system rather than a patch on it: [Safety Systems as Mechanical Layer](safety-systems-as-mechanical-layer.qmd). The full catalogue of seats a GM can occupy is [GM Role Models & Stances](../players-social-dynamics/gm-role-models-and-stances.qmd).
+
+### The Forge underneath the modern traditions
+
+Several of the rows above share a single ancestor. The Forge, the indie design forum Ron Edwards ran from 2001, incubated the games that became the narrativist and PbtA traditions. [corpus] Edwards's GNS theory split player priorities into three creative agendas. Gamism wants competitive challenge. Narrativism wants authorial agency over what the story means. The third, Simulationism, wants the exploration of a coherent world for its own sake. The argument was that mixing the three without awareness is what makes a game feel incoherent at the table. [corpus] The specific taxonomy is now treated as dated, but its practical legacy is the vocabulary a whole generation of designers still uses to talk about creative agenda, and the games it produced directly: Sorcerer, Dogs in the Vineyard, Burning Wheel, and eventually Apocalypse World, which crystallised the Forge's narrativist priority into a commercial engine. [corpus] Knowing the lineage explains why PbtA, FitD, and the Forge-era indies feel like cousins. They are answering the same agenda question that GNS first named.
+
+### The same axes in other media
+
+A tradition is a tabletop object, but the three axes travel, because the underlying question is medium-neutral. It asks where narrative authority sits and how tightly the system binds the fiction, whatever the medium. The most direct carry is the solo journaling RPG, which the corpus treats as functionally a form of interactive fiction. [corpus] It answers the authority axis by removing the GM and substituting an oracle, and the writing the player produces is the resolution rather than a separate pass-or-fail layer, which is the [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd) problem in full. *Ironsworn* sits exactly on this bridge, switching between solo, co-operative, and guided play on one chassis. [corpus] The "system is the means by which the group agrees to imagined events", the principle Baker and Emily Care Boss named, holds whether the group is many people, two, or a single writer with a deck. [researched]
+
+The live tradition answers the same axes with bodies and a room. Nordic freeform grew out of the tabletop scene at conventions such as Fastaval until the table itself disappeared, and it sits beside the GMless family on the authority axis. Workshops upfront and debriefs after are treated as essential phases, and metatechniques rather than dice carry the scene. [researched] The safety vocabulary that the tabletop now treats as a design layer, the calibration tools and check-ins, came out of this Nordic LARP practice in the first place. [corpus] So the freeform row in the table is not an outlier bolted on for completeness. It is the live-action end of the same spectrum the tabletop traditions occupy, and the borrowing has run in both directions.
+
+::: {.callout-note}
+### The Specimen
+Apocalypse World is the clearest proof that a tradition is a coherent package rather than a loose bag of mechanics, because every one of its choices answers the same design agenda. Vincent and Meguey Baker built it in concentric layers around a structured conversation: the MC says what the world does and asks the players what they do next, and the 2d6 Move gives that conversation its order and its tiers. [researched] Authority is shared, since the MC has no plot and only an agenda. The rules grip tightly, since each Move pre-writes its 10+, 7-9, and miss. And the GM seat is redefined rather than removed. Those are the three axes of this map, all set in one direction at once, and that is why every PbtA game that followed inherits the same feel. The tradition is the consistency, not any single die. [synthesis]
+:::
+
+::: {.callout-warning}
+### The Hazard
+The seductive mistake is the borrowed mechanic that arrives without its tradition. A partial-success tier lifted from PbtA into a trad game where the GM still pre-plots a plot will misfire, because the 7-9 was built to hand the MC a complication in a game that has no script to protect. A position-and-effect negotiation dropped into a system with no clocks and no flashbacks is just extra bookkeeping. The tell is a design that names a mechanism it admires from another family and copies the procedure while ignoring the axes that made the procedure work. It forgets to ask where authority sat in the original and how tightly the rules there gripped the fiction, never mind what the GM was already being asked to do. A mechanism is not portable on its own. It travels only with the answers to the three axes that gave it a job. Choose the tradition first, then the mechanism, not the reverse. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** This is a map article, so it sits above the individual mechanisms in the Systems and Mechanics family rather than beside them. It is the orientation you consult before you settle on a system or borrow a procedure. Almost every other article in the family describes a mechanism that some tradition here makes its home: a resolution method belongs to a lineage, a [PbtA Move](moves-and-the-fiction-mechanic-fiction-loop.qmd) presupposes the agenda-driven MC, a [Progress Clock](progress-clocks-and-faction-state.qmd) carries the Forged-in-the-Dark posture with it. The three axes keep the choice honest. Where authority sits tells you who the design expects to speak, how tightly the rules grip tells you how much it pre-writes versus leaves to the table, and the GM's posture tells you what the format asks of the person running it. Get the tradition wrong for your fiction and no amount of clever subsystem design will make the table feel right.
+
+**Next steps.** With a tradition in view, the craft turns to the layers it commits you to. The roll at its centre is [Mechanical Resolution Types](mechanical-resolution-types.qmd), and the fictional frame around that roll is [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd). How tightly a tradition encodes its rulings is the spectrum mapped in [Rulings vs Rules & the Authority Contract](../players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd), and what it asks of the person in charge is [GM Role Models & Stances](../players-social-dynamics/gm-role-models-and-stances.qmd). When the tradition distributes or removes the GM, the question moves to [Distributing Narrative Authority](distributing-narrative-authority.qmd) and, for the solo end, [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd). To weigh how much a tradition bakes its world into its rules, go to [System vs Setting](system-vs-setting.qmd); for the playbook that packages identity in the PbtA tradition, [Playbook Design](playbook-design.qmd); and for how its prep budget varies from very low to very high across these families, [Prep Economy](prep-economy.qmd). The safety layer several of these traditions treat as load-bearing is [Safety Systems as Mechanical Layer](safety-systems-as-mechanical-layer.qmd). Where a tradition's prep meets the railroad-to-sandbox question of how much to plan, see [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd).
+
+## Sources
+
+- *Dungeons & Dragons* (Gary Gygax and Dave Arneson, TSR, 1974; fifth edition 2014; 2024 revision); the d20 resolution loop and the trad referee model. <https://www.pcgamer.com/dandd-reveals-september-2024-release-date-for-the-start-of-its-big-rules-revamp-sheds-light-on-two-multiverse-hopping-campaigns-and-promises-the-launch-of-its-shiny-virtual-tabletop/>
+- *Pathfinder Second Edition* (Paizo, 2019); the trad lineage's principal competitor and three-action economy. <https://www.tribality.com/2019/03/06/pathfinder-2e-will-launch-august-1-2019/>
+- *Principia Apocrypha* (Ben Milton, Steven Lumpkin, et al., 2018); the OSR manifesto: rulings over rules, and mortality that carries weight. <https://lithyscaphe.blogspot.com/p/principia-apocrypha.html>
+- Old-School Essentials (Gavin Norman, Necrotic Gnome, 2019) and Mörk Borg (Free League, 2020); the reference retroclone and the death-metal OSR. <https://en.wikipedia.org/wiki/Old-School_Essentials> and <https://en.wikipedia.org/wiki/M%C3%B6rk_Borg>
+- *Apocalypse World* (D. Vincent Baker and Meguey Baker, lumpley games, 2010; 2nd ed. 2016); the 2d6 tiered Move and the MC's agenda. <https://en.wikipedia.org/wiki/Apocalypse_World>
+- "Powered by the Apocalypse, part 1" (lumpley games); the concentric-layers / structured-conversation design and the Lumpley Principle. <https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/>
+- Lumpley Principle and the Baker–Care formulation. <https://en.wikipedia.org/wiki/Vincent_Baker>
+- *Blades in the Dark* (John Harper, Evil Hat Productions, 2017); Forged in the Dark, position and effect, clocks, flashbacks. <https://bladesinthedark.com/licensing>
+- *Vampire: The Masquerade* (Mark Rein-Hagen, White Wolf, 1991); the Storyteller d10 pool and the splat model. <https://en.wikipedia.org/wiki/Vampire:_The_Masquerade>
+- Gumshoe System (Robin D. Laws, Pelgrane Press, 2007); automatic clue acquisition. <https://en.wikipedia.org/wiki/Gumshoe_System>
+- *Call of Cthulhu* / Basic Roleplaying (Chaosium, 1981); d100 roll-under and Sanity. <https://en.wikipedia.org/wiki/Call_of_Cthulhu_(role-playing_game)>
+- *The Burning Wheel* (Luke Crane, 2002; Burning Wheel Gold 2011); d6 pool, let-it-ride, Beliefs-Instincts-Traits. <https://en.wikipedia.org/wiki/The_Burning_Wheel>
+- *Fate Core* (Evil Hat Productions, 2013); 4dF, Aspects, and the Fate Point economy. <https://en.wikipedia.org/wiki/Fate_(role-playing_game_system)>
+- *Fiasco* (Jason Morningstar, Bully Pulpit Games, 2009); GMless relationship-driven disaster play and the playset model. <https://en.wikipedia.org/wiki/Fiasco_(role-playing_game)>
+- *Microscope* (Ben Robbins, Lame Mage Productions, 2011); rotating-Lens collaborative history. <http://www.lamemage.com/microscope/>
+- *The Quiet Year* (Avery Alder, Buried Without Ceremony, 2013); weekly card draws and the Contempt Token. <http://buriedwithoutceremony.com/the-quiet-year>
+- *Ten Candles* (Stephen Dewey, Cavalry Games, 2015); the candle timer as the dramatic clock that runs the session down. <https://cavalrygames.com/ten-candles/>
+- Dream Askew / Dream Apart (Avery Alder and Benjamin Rosenbaum, 2018) and Wanderhome (Jay Dragon, 2021); Belonging Outside Belonging, no dice no masters. <https://en.wikipedia.org/wiki/Wanderhome>
+- *Paranoia* (Costikyan, Goldberg, and Gelber, West End Games, 1984); the adversarial-GM stance designed in with consent.
+- Thousand Year Old Vampire (Tim Hutchings, 2020) and Ironsworn (Shawn Tomkin, 2018); solo journaling and the solo/co-op/guided bridge. <https://tomkinpress.com/pages/ironsworn>
+- Ron Edwards, The Forge, and GNS / the Big Model. <https://en.wikipedia.org/wiki/Ron_Edwards_(game_designer)>
+- "Jeepform" and "Freeform," Nordic Larp Wiki; the tabletop-born freeform tradition, its workshops and debriefs. <https://www.nordiclarp.org/wiki/Jeepform> and <https://www.nordiclarp.org/wiki/Freeform>
+
+<!-- TEMPLATE-NOTE: Map variant, modelled on a-taxonomy-of-puzzles.qmd. The same three accommodations apply, with one tradition-specific tweak. (1) THE TABLE IS LOAD-BEARING, NOT DECORATIVE. The body does NOT restate the rows; the prose explains the three axes (authority / rules-fiction grip / GM posture) and walks the authority column as the spine, while the table holds the per-tradition data (resolution core + representative systems + what each optimises for). A validator expecting "prose only, no tables" will mis-flag this; the cross of tradition x five design-DNA columns is genuinely two-dimensional and only a grid shows it at once. (2) THE SPECIMEN IS SPECIMEN-AS-THESIS. With no single mechanism to observe in the wild, the Apocalypse World callout demonstrates the map's own claim (that a tradition is a coherent package setting all three axes at once) rather than a lone behaviour. It reads as an exemplar of the framework, by design. (3) "NEXT STEPS" IS LINK-DENSE (nine outward articles) because routing onward is a map's job; kept as motivated prose, not a directory, but it sits at the ceiling of how many links a close can carry. One map-specific addition: the Hazard is doing structural work here, not just flavour. The "borrowed mechanic without its tradition" failure is the practical payoff of the whole map (it is WHY you sort by DNA), so it earns the second callout slot that a single-mechanism article would more often leave empty. NO "Design Judgement" section; two callouts total; provenance on every claim; vault never cited; en-GB/metric; no em-dashes; no forward-refs. -->
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Distributing Narrative Authority](distributing-narrative-authority.qmd)
+- [Mechanical Resolution Types](mechanical-resolution-types.qmd)
+- [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
+- [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)
+- [Playbook Design](playbook-design.qmd)
+- [Prep Economy](prep-economy.qmd)
+- [Progress Clocks & Faction State](progress-clocks-and-faction-state.qmd)
+- [Safety Systems as Mechanical Layer](safety-systems-as-mechanical-layer.qmd)
+- [System vs Setting](system-vs-setting.qmd)
+- [The Engine Room](../../primers/the-engine-room.qmd)
+
+<!-- BACKLINKS:END -->

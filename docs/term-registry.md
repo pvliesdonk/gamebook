@@ -108,3 +108,32 @@ One canonical term per mechanism. Aliases listed. Agents must use canonical term
 | GM Role Models & Stances | GM Stances, Facilitation Models, The GM as Social Role | Family 4 | The GM as a social role; the six stances and the authority gradient. |
 | Rulings vs Rules & the Authority Contract | Rulings Not Rules, Rule Zero, Fiat vs Ruling | Family 4 | Rulings-not-rules; Rule Zero and its abuse; authority held by table consent. |
 
+### Systems & Mechanics mechanisms (added Phase 5)
+
+| Canonical term | Aliases | Family | Notes |
+|----------------|---------|--------|-------|
+| Mechanical Resolution Types | Resolution Mechanics, Dice Mechanics, Task Resolution | Family 6 | The resolution method (d20/2d6/pools/FitD/diceless/cards); probability shape and table-feel. |
+| TTRPG Format Taxonomy | TTRPG Traditions, RPG Design Families | Family 6 | Map of TTRPG design traditions by design DNA. |
+| System vs Setting | Rules-World Coupling, Universal vs Bespoke Systems | Family 6 | The coupling between rules and world; the hackability/reskin test. |
+| Moves & the Fiction-Mechanic-Fiction Loop | Fiction-First Resolution | Family 6 | The home of the canonical **PbtA Move** (see that row); the fiction→trigger→roll→fiction loop. |
+| Turn Structure & Action Economy | Action Economy, Turn Order, Initiative, Analysis Paralysis | Family 6 | Who acts when and how much; downtime and its cures. |
+| Oracle & Solo-Play Resolution | Oracle Systems, GM Emulator, Yes/No Oracle | Family 6 | Oracles as GM-substitute for solo/GMless play; the Chaos Factor. |
+| Encounter & Challenge Design | Challenge Design, The Three Pillars | Family 6 | The encounter as a unit of challenge; budget maths; skill challenges. |
+| Playbook Design | Playbooks, Skins, Class-as-Identity | Family 6 | The playbook as bundled character identity. |
+| Progress Clocks & Faction State | Faction Clocks, Fronts | Family 6 | The home of the canonical **Progress Clock** (see that row); offscreen change and faction state. |
+| Prep Economy | Smart Prep, Don't Prep Plots | Family 6 | Prepping the reusable; situational over plotted prep; the overprep failure. |
+| Safety Systems as Mechanical Layer | Mechanical Safety, Baked-In Safety | Family 6 | Safety carried in the rules (Trophy dice, Strings); the systems-side complement to Safety Tools (Family 4). |
+| Decision Space & Choice Design | Interesting Decisions, Decision Space, Dominant Strategy | Family 6 | Meier's interesting decisions; dominant strategies; metagame health. (Choice-architecture in story is Branching Narrative Craft, Family 1.) |
+| Elegance, Emergence & Randomness | Elegance, Emergence, Input vs Output Randomness, Luck Management | Family 6 | Minimal rules / maximal behaviour; randomness types and mitigation. |
+| Theme-Mechanism Integration | Pasted-On Theme, Load-Bearing Theme, Mechanism as Argument, The Reskin Test | Family 6 | Boardgame theme coupling and procedural rhetoric (the systems sibling of Theme/Immersion, Family 5). |
+| Replayability | Replay Value, Variability | Family 6 | Variable setup, asymmetry, legacy, metagame depth. |
+| Solo Modes | Automa, Bot Deck, Single-Player Mode | Family 6 | Designing a solo opponent for a multiplayer boardgame. |
+| Cooperative & Legacy Genres | Co-op Games, Legacy Games, Campaign Boardgames | Family 6 | The cooperative genre (quarterbacking) and the legacy genre (permanence). |
+| Social Performance Genres | Social Deduction, Party Games, Hidden-Role Games | Family 6 | Boardgame genres where the people are the game (genre view; psychology is Family 4). |
+| Distributing Narrative Authority | Shared Authorship, GMless Authority | Family 6 | The mechanisms that hand narrative authority around a table. |
+| IF Mechanics & Procedural Rhetoric | Procedural Rhetoric, Mechanic as Metaphor, Ludonarrative Dissonance | Family 6 | Mechanics in IF that carry meaning; the system as argument. |
+| Digital Gating & State | Web App Gating, Server-Side Answer Checking, Hunt Platforms | Family 6 | Digital infrastructure for hunts/ARGs/hybrid rooms; the digital mechanism-as-judge. |
+| Boardgame Mechanism Vocabulary | Board Game Mechanisms, Mechanism Families | Family 6 / Appendix 6Z | Map of boardgame mechanism families. Tabletop-only reference (Gate-C1). |
+| Euro vs Ameritrash: The Two Design Poles | German-Style vs American-Style, The Euro-Ameritrash Axis | Family 6 / Appendix 6Z | The two boardgame design poles and the hybrid era. Tabletop-only reference (Gate-C1). |
+| Deckbuilders | Deck-Building Games, Deckbuilding Genre | Family 6 / Appendix 6Z | The Dominion lineage; the deck as a sculpted strategic object. Tabletop-only reference (Gate-C1). |
+

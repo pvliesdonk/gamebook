@@ -116,10 +116,12 @@ The cliffhanger earns its own mention because it is a scheduling tool as much as
 
 - [Campaign Arc Shapes](campaign-arc-shapes.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
+- [Encounter & Challenge Design](../systems-mechanics/encounter-and-challenge-design.qmd)
 - [Endings & Structural Closure](endings-and-structural-closure.qmd)
 - [Escape Room Topologies](escape-room-topologies.qmd)
 - [Host Roles & the Host-Cannot-Play Problem](../players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)
 - [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
+- [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
 - [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
@@ -127,5 +129,6 @@ The cliffhanger earns its own mention because it is a scheduling tool as much as
 - [The Shape of Time](../../primers/the-shape-of-time.qmd)
 - [Time Loop Patterns](time-loop-patterns.qmd)
 - [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
+- [Turn Structure & Action Economy](../systems-mechanics/turn-structure-and-action-economy.qmd)
 
 <!-- BACKLINKS:END -->

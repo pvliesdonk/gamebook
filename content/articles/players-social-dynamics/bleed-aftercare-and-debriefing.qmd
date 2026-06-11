@@ -112,6 +112,7 @@ The seductive failure is to treat the debrief as a formality and rush it. The ga
 
 - [One-on-One Scene Design](one-on-one-scene-design.qmd)
 - [Pre-Game Workshop Design](pre-game-workshop-design.qmd)
+- [Safety Systems as Mechanical Layer](../systems-mechanics/safety-systems-as-mechanical-layer.qmd)
 - [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
 - [The Session Zero Playbook](the-session-zero-playbook.qmd)
 - [The Social Contract & Safety](../../primers/the-social-contract-and-safety.qmd)

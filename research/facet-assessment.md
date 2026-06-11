@@ -51,6 +51,37 @@ mystery/horror/fantasy, confirming a controlled genre axis is viable at #54). Cl
 hub / scene / beat) is stable across both Structure and the Puzzles family's Information Architecture
 - a good candidate to fix early at #54. `replayability` and the genre spine recur across families.
 
+## Systems & Mechanics (24 articles)
+
+Distinct values: **effects 68, problems 69, components 87, genre 17.** Components widest (concrete
+game parts: cards/dice/tokens/decks/clocks/playbooks). Clusters to collapse:
+
+- **effects** — `felt-authorship` / `felt-meaning` / `felt-competence` / `shared-vocabulary` cluster
+  around *legibility/agency*; `table-feel` / `dramatic-tension` recur from earlier families.
+- **problems** — strong design-specific spine: `solved-game` / `dominant-strategy` /
+  `degenerate-strategy` → *degenerate-play*; `ludonarrative-dissonance` / `pasted-on-theme` →
+  *theme-mechanism-mismatch*; `swingy-outcomes` / `stalled-scene` recur from the Mechanical
+  Resolution anchor.
+- **components** — 87 distinct concrete parts (`cards`, `dice`, `tokens`, `clock`, `playbook`,
+  `deck`, `market`, `bot-deck`); these want the same component hierarchy flagged for Space.
+- **genre** — `sci-fi` / `fantasy` / `horror` / `historical` / `mystery` spine **plus `strategy`,
+  `abstract`, `wargame`** (boardgame format/genre terms) — the format-vs-genre split is now
+  confirmed across all five Phase-5 families and the Puzzles pilot.
+
+## Cross-family summary (all 5 Phase-5 families + Puzzles pilot, for #54)
+
+The free-form approach (D2) worked: ~6 families coined facets independently, and the clustering is
+now visible without any controlled vocabulary having constrained the writing. Firm recommendations
+for the keys reconciliation (#54):
+1. **Split `genre` into two axes:** *genre* (mystery/horror/fantasy/sci-fi/historical/thriller) and
+   *format* (escape-room / megagame / larp / jubensha / legacy / wargame / abstract). Flagged in
+   every family.
+2. **`effects` and `problems` cluster cleanly** to ~12-18 controlled values each; the per-family
+   notes above list the merges.
+3. **`components` needs a hierarchy, not a synonym map** - a 4-6 bucket ontology (dice/cards/tokens;
+   paper artefacts; locks/containers; electronics; set-dressing; structural primitives like
+   flag/node/clock) rather than a flat controlled list.
+
 ## Players & Social Dynamics (20 articles)
 
 Distinct values: **effects 72, problems 73, components 71, genre 17** — the widest spread so far

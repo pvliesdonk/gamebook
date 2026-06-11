@@ -114,9 +114,14 @@ Live and outdoor games meet the axis as the static-versus-adaptive decision. A f
 
 - [Branching Narrative Craft](branching-narrative-craft.qmd)
 - [Campaign Arc Shapes](campaign-arc-shapes.qmd)
+- [Decision Space & Choice Design](../systems-mechanics/decision-space-and-choice-design.qmd)
+- [Encounter & Challenge Design](../systems-mechanics/encounter-and-challenge-design.qmd)
 - [GM Role Models & Stances](../players-social-dynamics/gm-role-models-and-stances.qmd)
 - [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd)
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
+- [Prep Economy](../systems-mechanics/prep-economy.qmd)
+- [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd)
+- [TTRPG Format Taxonomy](../systems-mechanics/ttrpg-format-taxonomy.qmd)
 - [The Shape of Time](../../primers/the-shape-of-time.qmd)
 - [West Marches & the Open-Table Format](west-marches-and-the-open-table-format.qmd)
 

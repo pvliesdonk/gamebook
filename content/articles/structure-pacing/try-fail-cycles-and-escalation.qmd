@@ -102,8 +102,11 @@ The escape-room industry runs the same engine in physical space, where it shows 
 
 - [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
 - [Branching Narrative Craft](branching-narrative-craft.qmd)
+- [Encounter & Challenge Design](../systems-mechanics/encounter-and-challenge-design.qmd)
 - [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd)
+- [Moves & the Fiction-Mechanic-Fiction Loop](../systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd)
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
+- [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd)
 - [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
 - [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)

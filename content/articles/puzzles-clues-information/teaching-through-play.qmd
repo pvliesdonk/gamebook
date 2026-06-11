@@ -105,6 +105,7 @@ The two failures sit at opposite ends and both are quiet. Convention overload is
 ## Referenced by
 
 - [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
+- [IF Mechanics & Procedural Rhetoric](../systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd)
 - [Mixed-Ability Groups & Universal Design](../players-social-dynamics/mixed-ability-groups-and-universal-design.qmd)
 - [The Aha Moment](the-aha-moment.qmd)
 - [The Fairness Contract](../../primers/the-fairness-contract.qmd)

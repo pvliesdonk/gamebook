@@ -120,6 +120,7 @@ Scope creep is the project killer that feels like progress while it happens. It 
 - [Escape Room Topologies](escape-room-topologies.qmd)
 - [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd)
 - [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
+- [Prep Economy](../systems-mechanics/prep-economy.qmd)
 - [The Shape of Time](../../primers/the-shape-of-time.qmd)
 
 <!-- BACKLINKS:END -->

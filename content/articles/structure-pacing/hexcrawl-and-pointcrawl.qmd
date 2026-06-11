@@ -122,6 +122,7 @@ The other way a hexcrawl dies is in prep. Keying 200 hexes before the first sess
 
 - [Campaign Arc Shapes](campaign-arc-shapes.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
+- [Encounter & Challenge Design](../systems-mechanics/encounter-and-challenge-design.qmd)
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
 - [The Shape of Time](../../primers/the-shape-of-time.qmd)

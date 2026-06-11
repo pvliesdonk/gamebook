@@ -107,6 +107,7 @@ The seductive failure is to trust the verdict. A self-resolving mechanism gives 
 ## Referenced by
 
 - [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)
+- [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd)
 - [Digital Props](../space-props-materiality/digital-props.qmd)
 - [Hidden Compartments & Reveal Mechanisms](../space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd)
 - [Hint Systems & Recovery](hint-systems-and-recovery.qmd)
@@ -114,6 +115,7 @@ The seductive failure is to trust the verdict. A self-resolving mechanism gives 
 - [Information Architecture](information-architecture.qmd)
 - [Lock Taxonomy](../space-props-materiality/lock-taxonomy.qmd)
 - [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd)
+- [Mechanical Resolution Types](../systems-mechanics/mechanical-resolution-types.qmd)
 - [Physical vs Digital Puzzle Artefacts](../space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd)
 - [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
 - [The Aha Moment](the-aha-moment.qmd)

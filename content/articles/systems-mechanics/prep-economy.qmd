@@ -1,27 +1,131 @@
 ---
 title: "Prep Economy"
-aliases: []
+aliases: ["Smart Prep", "GM Prep", "Prep Philosophy", "Don't Prep Plots"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop, live-game, puzzle-hunt, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [gm-confidence, table-responsiveness, sustainable-running]
+  problems: [overprep, railroading, wasted-prep, gm-burnout]
+  components: [fronts, random-tables, secrets-list, faction-clock]
+  genre: [fantasy, horror, sci-fi, mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: The budget every game-runner spends before play, where the trick is knowing which hours pay off and which are thrown away.*
+
+Before a session starts, the person running it faces a quiet accounting problem. There are a limited number of hours to spend getting ready, and not every hour buys the same thing. Some of what you could prepare will carry the table; some of it the players will walk straight past; and some of it will actively get in the way once they make a choice you did not foresee. Prep economy is the craft of telling those three apart before you spend the time.
+
+The counter-intuitive finding from the practitioner literature is that less preparation, aimed well, beats more preparation aimed badly. A game-runner who drafts the scene where the villain monologues has built something the players may never reach. A game-runner who instead notes what the villain wants and what happens if nobody stops him has built something that survives any choice the table makes. The first is content the players bypass. The second is a situation that bends.
+
+This article is about that budget and where to point it. It sits next to the question of what you track once play begins, which is [Progress Clocks & Faction State](progress-clocks-and-faction-state.qmd). It also sits next to how you calibrate a single confrontation, the matter of [Encounter & Challenge Design](encounter-and-challenge-design.qmd). Those govern what happens during the session. This is about the hours before it.
+
+## The Mechanism (How it works)
+
+### Three kinds of material, only one worth hoarding
+
+The useful first cut is not prep against improvisation. It is a three-way split of the material itself. [researched]
+
+Some things genuinely cannot be improvised at the table without the session sagging. A keyed dungeon map is one such thing. A stat block is another. A list of NPC names you can pronounce on sight is a third. A puzzle with a single specific solution is a fourth. This material is slow to make and rewards quiet thought. Prepping it ahead of time is time well spent. [researched] Other things can be improvised perfectly well and cost nothing to defer. The exact words an NPC uses, the reason one minor faction resents another, the connective tissue between scenes: none of it needs to exist before play. Drafting these in advance buys almost nothing, because you will produce them just as well in the moment. [researched]
+
+The third kind is the trap. Prepping the plot beats, the scripted outcomes, and the route the players are meant to take is not merely wasted. It is harmful. The moment the table picks an unscripted path, your prepared sequence turns into a thing you must enforce by hand. Enforcing it is railroading. Justin Alexander gave this its canonical line on The Alexandrian. Prep situations, he wrote, not plots. [researched] A plot is a fixed sequence where A leads to B and B leads to C. A situation is a set of circumstances from which what happens next falls out of what the players do. His blunter version is the one to keep on a sticky note: a session is not a story, it is a happening. [researched] How far a game leans toward prepared plot or open situation is its own spectrum, mapped in [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd); prep economy is where that choice is paid for in hours.
+
+### Situational prep, prepped as nodes
+
+If you prep situations rather than plots, the question becomes how to write a situation down. The answer that scales is the information node rather than the flowchart. [researched] A plot flowchart is a chain of arrows, and every arrow is a chokepoint. When the players fail to follow one, the game grinds to a halt there. Node-based design instead lays out the things that exist (a person or a place, an object holding a piece of evidence) and connects them with redundant paths, so that missing one route never strands the table. [researched]
+
+This is also why the mystery is the expensive case. For any conclusion you want the players to reach, the Three Clue Rule asks for at least three clues pointing at it. The players will likely miss the first clue. They tend to ignore the second, then crack the conclusion off the third. [researched] The same redundancy covers a chokepoint: for any obstacle the players must get past, prepare at least three ways through. The prep cost is real and worth budgeting for. A deduction that turns on one trail of evidence needs three independent trails laid in advance, not one. The wider scenario-level map of which clue feeds which conclusion is the concern of the puzzle family's [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd), but the hours to build that redundancy come out of the prep budget here.
+
+### The Lazy DM method: target the high-leverage hours
+
+The most widely-read systematisation of targeted prep is Michael Shea's, written at Sly Flourish since 2010 and gathered in *Return of the Lazy Dungeon Master*. The motto is to get more out of a game by preparing less, which is not a call to improvise everything but to aim the prep hours at a short list of high-leverage tasks. [researched] Shea's eight steps run from reviewing the characters and building a strong start, through scenes and secrets and locations and NPCs, out to the monsters and rewards at the far end. The steps are deliberately modular, and Shea is explicit that you must be ready to throw a prepared scene away the moment the game turns elsewhere. [researched] When the session window is tight, he names three of them as the irreducible core. The strong start comes first. After it come the secrets and clues. Last comes a fantastic location or two.
+
+Two of his moves repay close attention. The strong start matters out of proportion to its size, because how a game opens is the single piece of prep most likely to set the night's tone. [researched] And the secrets-and-clues list is built abstracted from where the players find it. It holds ten short true things they might learn, each one written without being tied to a particular room or NPC. [researched] That detachment is the whole trick. Because no secret is welded to one location, you can deliver each through whatever channel the players reach first, which dissolves the chokepoint the Three Clue Rule was invented to patch.
+
+::: {.callout-tip}
+### The Field Note
+Shea is candid that prep is partly anxiety management, not only content production. The feeling of being ready, he notes, often comes less from the notes than from having walked a step-by-step process and got your head around the session. [researched] The practical implication is worth sitting with. Past a certain point more prep becomes a confidence-seeking habit rather than readiness, and a swelling page count signals nerves more than a better game. If your prep keeps growing the night before, the cure is usually to close the document, not to add to it. [synthesis]
+:::
+
+### What the numbers say about diminishing returns
+
+The prep-to-payoff ratio is where the economy stops being a metaphor. From a 2020 poll of 3,663 game-runners reporting prep for a four-hour session, a third spent about an hour, another quarter about two hours, and roughly 29 per cent spent three hours or more. [researched] Shea's own reported figure using his method is 30 to 60 minutes of prep for a three-hour session, and he flatly rejects the folk three-to-one ratio of three prep hours per play hour. [researched] The consensus across the practitioner writers (Shea, Alexander, and Matt Colville, whose *Running the Game* series is the most-watched GM-advice corpus for 5e) is that past roughly 90 minutes of targeted prep, returns fall away sharply. [researched]
+
+| Tradition | Prep per 4-hour session | What is prepped | What is improvised |
+|---|---|---|---|
+| D&D 5e, published module | 1 to 3 hrs (reading) | Adventure text, stat blocks, maps | Player-facing narration, minor NPCs [researched] |
+| D&D 5e, homebrew | 2 to 4 hrs | Encounters, maps, lore | Connective scenes, NPC dialogue [researched] |
+| OSR, ongoing campaign | High upfront, low per-session | Dungeon keys, hex maps, tables | Encounter outcomes, wandering results [researched] |
+| PbtA (Apocalypse World) | 20 to 40 min | Fronts (threats plus clocks), NPC names | Nearly all narrative [researched] |
+| FitD (Blades in the Dark) | 15 to 20 min | Faction clocks, score situation | Planning phase, execution, consequences [researched] |
+| Solo (Mythic GME) | Near zero deliberate | Starting situation (optional) | Everything, via oracle [researched] |
+
+The spread across that table is the argument. The system you choose sets your prep burden before you draft a word, because each tradition has already decided which of the three kinds of material it asks you to commit to paper. Where a given system sits in that landscape is the subject of the [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd).
+
+### Reusable prep: Fronts, clocks, and random tables
+
+The cheapest prep is the prep you spend once and reuse for weeks. The clearest example is the Front from Apocalypse World, where the game-runner's third agenda item is to play to find out what happens, with no pre-planned storyline. [researched] A Front is a set of linked threats, each carrying a Progress Clock and a few stakes questions. The threat has its own agenda and advances it on schedule unless the players intervene, and the clock fills in the background whether or not the players engage it. [researched] This makes the prep portable in a way a scripted scene never is. A Front describes an ongoing process rather than a place to enter, so the same Front carries across many sessions with almost no re-prep. The principle underneath is sharp. Prep what creates trouble, not what resolves it. A Progress Clock ticking toward a warlord's conquest is good prep; a written account of how the players will stop him is railroading wearing a prep hat. [researched] What those clocks and faction states do once they are filling is the matter of [Progress Clocks & Faction State](progress-clocks-and-faction-state.qmd).
+
+Blades in the Dark pushes the same idea further. Pre-session prep is mostly checking faction clocks and refreshing the situation a score runs in. It never covers the path through that situation. In a single mechanical step, the engagement roll then deletes the planning phase that game-runners once spent prep on. [researched] An experienced Blades game-runner needs perhaps 15 to 20 minutes before a session. The richness comes from stakes accumulated across many sessions rather than from any single night's investment. [researched]
+
+Random tables are the other great reusable artefact, and they earn their place three ways. A d8 wandering-monster table stores eight encounters in the time it takes to write eight lines, which is prep compressed. It also surprises the game-runner, who becomes a discoverer alongside the players, and that surprise sharpens improvisation rather than dulling it. The table is procedurally sturdy too. When the players go somewhere unplanned, a relevant one still generates something to meet them. [researched] The Old-School Renaissance tradition runs on exactly this. The keyed dungeon and the hex map sit alongside the wandering-monster table and the rumour table. OSR prep is heavy upfront and light per session, and it preps what exists rather than what happens, which is Alexander's situational design arriving decades before he named it. [researched] Pushed to its limit, the table becomes the whole engine. The Mythic Game Master Emulator answers with a yes/no oracle and a random-event mechanic, allowing solo or GM-less play with no advance prep at all, a relative of the resolution craft in [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd). [researched]
+
+### The overprep failure, and its quieter cousin
+
+The dominant failure mode for new game-runners is overprep. [researched] New game-runners build so much world before the first session that they either burn out before the campaign starts or grow defensive about the content the players ignore. That defensiveness is where railroading is born. The treatment is to start small and run short arcs, letting confidence grow through repetition rather than through an ever-thicker binder. [researched]
+
+::: {.callout-warning}
+### The Hazard
+There is a subtler trap than building too much. It is building the wrong kind and not noticing, because the prep still looks diligent. Prepping plot reads exactly like prepping situation from the inside. Both fill pages and both feel like readiness. The tell comes only at the table, when the players bypass your careful sequence and you feel the urge to nudge them back onto it. That urge is the receipt for wrong-prep. The same trap waits inside a published module, where embedded story logic can be misread as a path you must enforce. A useful read-through asks what each major NPC wants and what happens if the players do nothing. It does not ask what Act 2 is. [researched]
+:::
+
+### The same economy in the room and on the hunt
+
+The prep budget is a tabletop fixture, but the diminishing-returns shape recurs wherever an authored experience has to be made ready and run and then made ready once more. In a live escape room the equivalent is the reset and operations economy. The time a game master spends returning a room to its starting state between groups is a recurring cost, and the design response is to engineer that cost down rather than absorb it forever. [synthesis] A self-returning, monostable puzzle resets itself like an arcade button springing back. A bistable one latches and has to be reset by hand. That split is the operations-economy cousin of choosing prep you spend once over prep you respend every session. [synthesis] Operators lean on the same reusable-artefact instinct the tabletop does. A reset checklist a team can run without the owner present is prep spent once to save labour on every later run. Securing loose props so they cannot drift to the wrong place shrinks the per-run cost the way a Front shrinks the per-session one. [synthesis] The material constraints behind that reset cost are the subject of [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd), and the person carrying it is the operator role examined in [Host Roles & the Host-Cannot-Play Problem](../players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd).
+
+The puzzle hunt meets the economy as a routing decision: how much to prepare in advance against how much runtime attention to hold in reserve. A static hunt unlocks everything on a fixed schedule, which is cheap to run but punishes teams of the wrong size; an adaptive hunt throttles or accelerates unlocks to match a team, which serves the players better but spends the designers' live bandwidth and invites shared-state failures where one team's actions disturb another's. [synthesis] That is the prep-versus-runtime tradeoff in another costume, and the choice between them is a wager about where the design can afford to spend its scarce hours. How that wager interacts with the size of the thing being built is the concern of [Scope, Scale & Branching Depth](../structure-pacing/scope-scale-and-branching-depth.qmd).
+
+## Where this fits
+
+**The bigger picture.** Prep economy is the layer beneath every other Systems & Mechanics concern, because it decides which of those concerns ever reach the table. A beautifully designed encounter prepped for a scene the players skip is worth nothing; a single secret written loose enough to surface anywhere is worth a night. The discipline is not thrift for its own sake. It is the recognition that a session is a happening rather than a script, and that prep aimed at controlling the happening fights the very thing that makes the table alive. The systems you run already encode a prep philosophy, from the OSR's heavy-upfront keying to Blades's near-ambient 20 minutes, so choosing a system is in part choosing how you want to spend the hours before play.
+
+**Next steps.** Once the prep is pointed at situations rather than plots, the craft turns to what you track while those situations unfold. That is [Progress Clocks & Faction State](progress-clocks-and-faction-state.qmd). It also turns to how you calibrate the confrontations a prepped situation throws up, which is [Encounter & Challenge Design](encounter-and-challenge-design.qmd). To weigh how much a system should hand you against how much you build yourself, start from the [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd). When there is no second person to prepare for at all, the prep question collapses into the oracle, which is [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd). And to see where the prep budget is paid in physical rather than narrative coin, the live-room version lives in [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd).
+
+## Sources
+
+- Alexander, Justin. "Don't Prep Plots." The Alexandrian, 23 March 2009. <https://thealexandrian.net/wordpress/4147/roleplaying-games/dont-prep-plots>
+- Alexander, Justin. "The Three Clue Rule." The Alexandrian, 8 May 2008. <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
+- Alexander, Justin. "Smart Prep" and "Smart Prep, Part 2: The Principles of Smart Prep." The Alexandrian, 26 May 2018. <https://thealexandrian.net/wordpress/39885/roleplaying-games/smart-prep>
+- Shea, Mike (Sly Flourish). *Return of the Lazy Dungeon Master* (2018); "The Eight Steps of the Lazy DM: 2023 Review." <https://slyflourish.com/eight_steps_2023.html>
+- Shea, Mike. "The Secret of the Eight Steps." Sly Flourish. <https://slyflourish.com/secret_of_the_eight_steps.html>
+- Shea, Mike. "How Long Does it Take You to Prep Your D&D Game?" Sly Flourish (2020 prep-time poll). <https://slyflourish.com/how_long_to_prep.html>
+- Shea, Mike. "High Value Prep." Sly Flourish. <https://slyflourish.com/high_value_prep.html>
+- Four, Johnn. "5 Room Dungeons." Roleplaying Tips Newsletter Issue 156. <https://www.roleplayingtips.com/rptn/5-room-dungeons-contest/>
+- Colville, Matt. "Prepping An Adventure." Running the Game, YouTube. <https://www.youtube.com/watch?v=jXYORWtiLF0>
+- *Apocalypse World* (D. Vincent Baker and Meguey Baker, Lumpley Games, 2010; 2nd edition 2016); Fronts, Progress Clocks, "play to find out." PbtA introduction: <https://pages.drivethrurpg.com/powered-by-the-apocalypse-pbta-introduction/>
+- *Blades in the Dark* (John Harper, Evil Hat Productions, 2017); faction clocks, score situation, the engagement roll. <https://en.wikipedia.org/wiki/Blades_in_the_Dark>
+- Mythic Game Master Emulator (Tana Pigeon, Word Mill Games, 2006). <https://www.wordmillgames.com/> and "Interview with Tana Pigeon of Mythic GM Emulator," Randroll. <https://www.randroll.com/interview-mythic-gme/>
+- A+ Props. "Reset in Escape Rooms" (design-for-zero-reset and the manual-versus-automated cost model). <https://a-props.com>
+- Escape Room Supplier. "Auto-resettable Puzzles" (monostable versus bistable self-return).
+- Homebase. "Escape Room Business Guide" (reset checklist a team can run without you; per-room daily capacity).
+- Alman, Josh. "Thoughts about the 2021 MIT Mystery Hunt." joshalman.com (throttling unlocks for small teams against parallelism for large teams). <https://joshalman.com>
+- Puzzlvaria. "2021 MIT Mystery Hunt, Part 1." (bottleneck failures and shared-state problems in adaptive unlock systems). <https://puzzlvaria.wordpress.com>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
 - [Campaign Arc Shapes](../structure-pacing/campaign-arc-shapes.qmd)
+- [Encounter & Challenge Design](encounter-and-challenge-design.qmd)
 - [Fabrication & Sourcing](../space-props-materiality/fabrication-and-sourcing.qmd)
 - [Host Roles & the Host-Cannot-Play Problem](../players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)
 - [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd)
+- [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)
+- [Progress Clocks & Faction State](progress-clocks-and-faction-state.qmd)
 - [Scope, Scale & Branching Depth](../structure-pacing/scope-scale-and-branching-depth.qmd)
 - [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd)
+- [Solo Modes](solo-modes.qmd)
+- [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
+- [The Engine Room](../../primers/the-engine-room.qmd)
 
 <!-- BACKLINKS:END -->

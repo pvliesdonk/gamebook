@@ -1,14 +1,121 @@
 ---
 title: "Social Performance Genres"
-aliases: []
+aliases: ["Social Deduction", "Party Games", "Hidden-Role Games", "The People Are the Game"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [live-read, shared-laughter, suspicion, table-energy]
+  problems: [bored-eliminated-player, alpha-player-dominance, thin-rules-flat-play, player-count-mismatch]
+  components: [hidden-role, prompt-card, judge, voting-method]
+  genre: [mystery, comedy, thriller]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: The board-game genres where the rules are a thin frame and the players themselves are the thing being played.*
+
+Most board games put a system in the middle of the table and ask the players to engage with it. A handful invert that. The rules step back to a frame, and the people fill it. What the players bring is the substance of the game. They lie to each other and read each other in return, all while guessing at how a friend's mind works. Strip out the social layer and nothing is left. A social-deduction game becomes a probability puzzle a spreadsheet could solve. A party game becomes a stack of cards with no joke on them. The genre's whole product is the performance the rules provoke.
+
+These games split into two moods that share one trick. The deception mood hides who is on whose side and makes public accusation the only weapon, so the table runs on suspicion. The performance mood asks players to draw, guess, or pitch a card to a judge, so the table runs on laughter and on how well you model the people across from you. Both are built from almost nothing in the box. The design lives in the social pressure or the social warmth that the thin rules reliably generate.
+
+This article is the board-game-genre view of that inversion. Which genres do it, how the deception lineage refined itself across forty years, and what the two small mechanisms underneath (the hidden role and the prompt-plus-judge) actually carry. It is not the psychology of why accusation lands in a real room. That mechanism, the conformity and authority research underneath the pressure, is the Players-family hub, [Trust, Conformity & Social Pressure](../players-social-dynamics/trust-conformity-and-social-pressure.qmd). This article maps the genres; that one explains the human machinery they exploit.
+
+## The Mechanism (How it works)
+
+### Two genres, one inversion
+
+The family divides cleanly by what the social layer produces. In social deduction the product is suspicion. Players are dealt hidden roles, a knowing minority is set against an unknowing majority, and the game is the argument over who is lying. [corpus] In the party game the product is shared performance. Rules stay light enough that a non-hobbyist learns them in a couple of minutes and the game resolves fast. The comedy or creativity that emerges within the frame is the actual thing being sold. [researched]
+
+The two moods meet in the middle more often than the labels suggest. A hidden-role game with named characters generates as much post-game storytelling as any party title, and a party game can hide a single secret to drive its guessing. What unites them is the design stance. The system is a pretext, and the question it really asks is whether players will engage with the rules or with each other through the rules. [researched] When the answer is "with each other," you are in this family.
+
+### The social-deduction lineage
+
+Social deduction is one tradition refining a single loop across forty years, and the loop barely changes. A hidden minority knows its own membership; a public majority does not; the majority's only weapon is to talk, suspect, and vote someone out. [corpus] Every landmark in the genre is a fix for a specific failure in the one before it, which makes the lineage read almost as a changelog.
+
+Mafia set the template. Dmitry Davidoff built it in 1986 at the psychology department of Moscow State University, with no board and no components beyond role cards: a night phase where the hidden Mafia eliminates a villager, a day phase where the village debates and votes someone out. [corpus] The Werewolf reskin followed in the 1990s, and Andrew Plotkin's 1997 essay argued the folk-horror framing was culturally stickier than the crime one, which is roughly why most Western players know the genre by the wolf rather than the mob. [corpus] Both versions carry the same two structural wounds. A moderated game needs a non-playing Storyteller to run the night, which costs you a participant. And the first villager killed sits bored for the rest of a long session. [corpus]
+
+The modern designs each close one of those wounds. The Resistance (Don Eskridge, 2010) removed player elimination outright. Nobody is ever killed; the tension moves into mission voting, where a proposed team is approved or rejected by the whole group and then secretly succeeds or sabotages, so every player is present at the final reveal. [corpus] Secret Hitler (Temkin, Boxleiter and Maranges, 2016) bolted a legislative track onto the bluffing. A liberal majority hunting a hidden fascist minority now has mechanical evidence (the policies enacted) to weigh against pure social argument, and a failure can be blamed on a bad draw as plausibly as on a traitor. [corpus] Blood on the Clocktower (Steven Medway, 2022) is the current reference design, and it answers the wounds together. Dead players keep their voice and a vote. A neutral Storyteller adjudicates and can feed misinformation to blunt a runaway player. And dozens of asymmetric roles across curated scripts keep the information environment rich rather than flat. [corpus]
+
+The genre at minimum strips even further. Coup (Rikki Tahta, 2012) reduces deduction to a pure bluff. A player may claim any action at all. Any rival can challenge the claim. A wrong guess on either side then costs a card. The whole game teaches in five minutes and plays in fifteen. That speed and the small box put it in many a convention bag. [corpus] One Night Ultimate Werewolf (2014) attacks the long-session problem from the other side, compressing the whole arc into a single night-and-day cycle of around ten minutes. [corpus]
+
+| Title | Year | What it fixed | Mechanism added |
+|---|---|---|---|
+| Mafia | 1986 | (the origin) | Hidden minority, night kill, day vote [corpus] |
+| Werewolf | 1990s | Theme stickiness | Folk-horror reskin, the trusted Seer [corpus] |
+| The Resistance | 2010 | The bored eliminated player | No elimination; mission voting [corpus] |
+| Coup | 2012 | Rules weight, set-up time | Pure bluff-and-challenge, 15 minutes [corpus] |
+| Secret Hitler | 2016 | Pure-social evidence vacuum | A legislative policy track [corpus] |
+| Blood on the Clocktower | 2022 | All of the above at once | Active dead players, adjudicating Storyteller, scripts [corpus] |
+
+### The two recurring failure modes
+
+Two problems haunt the deception genre, and naming them is half the design work because each landmark above is really a response to one of them.
+
+The first is the bored eliminated player. In base Werewolf the most useful target for the hidden side is often the strongest reader, who then spectates a game everyone else is still playing. [corpus] The fix is structural and the lineage shows three flavours of it: remove elimination (The Resistance), keep the dead active (Blood on the Clocktower), or make the whole game so short that sitting out costs minutes rather than an evening (One Night Ultimate Werewolf). [corpus]
+
+The second is the Alpha Player problem. An experienced player who reads tells well and paces their own speech will dominate a table of beginners. The effect is structural rather than incidental. Table etiquette alone does not cure it. [corpus] The genre answers with design instead. In Werewolf the problem goes untouched and the strong player leads every vote. The Resistance and Secret Hitler use structural opacity. No single player holds enough information to be definitively right. That ceiling caps how far raw reading skill carries. Blood on the Clocktower hands the Storyteller licence to adjust information so a weaker player always has something real to deduce. [corpus] Which lever you pull is a question of where authority sits at your table, which the Players family treats as a stance question in [GM Role Models & Stances](../players-social-dynamics/gm-role-models-and-stances.qmd).
+
+Underneath both sits the structural choice the whole genre rests on: what exactly is hidden. Hiding a player's allegiance (a hidden role) breeds persistent distrust across the table; hiding specific facts while everyone's loyalty is known (hidden information) breeds asymmetric capability inside a shared problem, which is the cooperative mood of a game like Hanabi. [corpus] That fork is its own article in the Players family, [Information Asymmetry: Hidden Information vs Hidden Roles](../players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd), and it is the single most consequential decision a designer in this space makes.
+
+::: {.callout-note}
+### The Specimen
+Blood on the Clocktower is the clearest case of a genre solving its own inherited problems in one design rather than patching them one at a time. Werewolf's three-decade weaknesses (elimination boredom, a flat information field, and runaway dominant players) are answered together. Death takes your night action but not your voice or your single ghost vote, so the eliminated stay in the room with something to do. A neutral Storyteller runs the night and decides who learns what. That same Storyteller can quietly blunt a player who has read the table too well. The roughly twenty named roles per script keep deduction rich. Almost no one begins with reliable information. The lesson reaches past this one box. In a genre where the rules are a thin frame, the design improvements are nearly always changes to who knows what and who keeps a place in the conversation. They are rarely changes to the procedure on the table. [corpus]
+:::
+
+### Lying as the mechanic, not the lubricant
+
+There is a line worth drawing precisely, because it separates this genre from almost every other board game. In a eurogame or a tabletop campaign, lying is a social technique that happens outside the rules; the rules neither reward it nor punish it. In social deduction, lying is the game. A player is mechanically rewarded for deception that works and mechanically punished when it is caught, so the ruleset does not merely permit the lie, it constitutes the lie as the central decision on offer. [corpus] That is why the genre cannot be ported to a system that resolves by die or card draw without losing its subject. The resolution here is a human read, the live counterpart of the apparatus-as-judge and the dice-as-judge that [Mechanical Resolution Types](mechanical-resolution-types.qmd) lays out: a person's face and pacing settle the outcome, and no randomiser stands in for it.
+
+### The party game and the judge mechanic
+
+The performance mood of the family runs on the opposite emotion. Where deception manufactures suspicion, the party game manufactures warmth, and it does so with rules so light they barely register. The defining question is intention rather than play time: does the design ask players to engage with it as a system, or to engage with each other through it? [researched] Pictionary is not a test of drawing skill; it is the shared helplessness of watching someone try to draw "philosophy." [researched]
+
+One small mechanism organises much of the modern genre: the prompt plus a judge. Apples to Apples (1999) introduced it. A prompt card shows an adjective. Every player submits a card from their hand. A rotating judge picks the one they like best. There is no correct answer and no scoring formula. What wins is whatever amuses or persuades that one judge in that one moment. The real skill is modelling the judge rather than finding an objective fit. [researched] Cards Against Humanity (Kickstarter 2011) is the same engine with transgressive content swapped in for the innocent pairings. Its mechanical contribution is minimal and its cultural footprint enormous, and it is fairly criticised for deriving humour from shock rather than wit. [researched] The judge is the resolution layer, and like the social-deduction read it is a human verdict rather than a rule, which is what keeps it inside this family.
+
+The hobby renaissance after 2009 refined the prompt into something more demanding while keeping the lightness. The pattern that recurs is a scoring rule that punishes both the too-obvious and the too-obscure, forcing players to model each other precisely.
+
+| Game | Year | The prompt | The calibration it forces |
+|---|---|---|---|
+| Dixit | 2008 | One evocative clue for a picture card | Score only if some but not all guess it [researched] |
+| Codenames | 2015 | One word plus a number for a grid | Compress several targets, dodge the Assassin [researched] |
+| Just One | 2018 | One written clue, duplicates cancelled | Be useful yet unlike everyone else [researched] |
+| Wavelength | 2019 | One word for a hidden point on a spectrum | Match a teammate's conceptual mapping [researched] |
+
+Codenames is the title most responsible for dragging party design into serious discussion, winning the Spiel des Jahres in 2016 by reducing the genre to a single mechanic: word association under constraint. It drops drawing and acting entirely and still stays endlessly generative in play. [researched] Just One reaches even further into elegance. Its whole game is one rule. Every player writes a clue for the same target. Any duplicate clues are struck out before the guesser sees what survives. So a co-operative game turns into a quiet competition between the players' models of one another. [researched] Dixit's designer trained as a child psychiatrist, and its scoring builds in the observation that an image carries different emotional weight for different minds, which is exactly what the storyteller has to exploit to land in the scoring window. [researched]
+
+The party game's structural weakness is scale. Most titles have a player-count ceiling: Codenames idles half the table at ten-plus players, Dixit grows unwieldy past six, Just One caps around seven. [researched] The genre's natural answer to large groups is to borrow from its deception cousin, because social deduction scales to twenty or more for the simple reason that every player is always doing something (voting, defending, or bluffing) rather than waiting for a turn. [researched] That is why the two moods of this family so often share a games night: the party titles open or close the evening, and the hidden-role game carries the crowd.
+
+### The same genre, played live
+
+The board-game version of social deduction is the tabletop pole of something that also lives, fully embodied, in a room. Its home is tabletop, but the deception loop transplants almost unchanged into live play, where co-presence sharpens every read because a real room hands you the whole body rather than a status line. [synthesis] The most vigorous current form is jubensha (剧本杀, "script murder"), a Chinese genre that exploded in the late 2010s and has been described as a mix of Cluedo, Werewolf and live-action roleplay. [researched] Each player takes an assigned character and works through a scripted murder across three to five hourlong sessions. Together they expose the killer by comparing clues and settling who stood in what relationship to whom. By 2021 a market firm rated it the third most popular entertainment in China behind film and sport. Tens of thousands of dedicated cafes now sustain it, and it is spreading through Europe and North America. [researched]
+
+Jubensha matters here because it shows the genre's two moods fused. The hidden-role suspicion of social deduction and the rich character performance of the party tradition run together as a paid live experience rather than a boxed game. The bundled character packet it hands each player (a backstory and a timeline, plus secrets and objectives) is the live cousin of the tabletop role card, and that bundling is its own craft in [Playbook Design](playbook-design.qmd). When such a game is run live, the genuine discomfort that public accusation produces stops being a printed rule and becomes a real social event, which is the point at which the design owes its players a consent and safety layer; that obligation is the load-bearing claim of [Trust, Conformity & Social Pressure](../players-social-dynamics/trust-conformity-and-social-pressure.qmd).
+
+## Where this fits
+
+**The bigger picture.** Social performance genres sit at one edge of the Systems and Mechanics family, the edge where the system deliberately thins out so that the people become the mechanism. That makes them the inverse of most of the family's concerns. A resolution method, an action economy, or a progress clock exists to carry weight the players should not have to; here the rules shed weight on purpose so the players carry it instead. The genre depends on two things outside its own thin box. One is the structural choice of what to hide. The other is the human pressure or warmth that the hiding releases. Get the first wrong and the deduction has nothing to bite on. Ignore the second and a live version of the game can hurt people it never asked permission to hurt. The genre's craft is almost entirely the craft of arranging information and emotion, rather than procedure.
+
+**Next steps.** To decide what your hidden-role game actually conceals and from whom, start with [Information Asymmetry: Hidden Information vs Hidden Roles](../players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd). Then read the psychology that makes accusation land in [Trust, Conformity & Social Pressure](../players-social-dynamics/trust-conformity-and-social-pressure.qmd). Because the resolution here is a human verdict rather than a randomiser, [Mechanical Resolution Types](mechanical-resolution-types.qmd) is the useful contrast: it shows what these genres deliberately refuse to use. When the mood shifts from suspicion to collaboration, the neighbouring genre study is [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd), and because a thin-ruled game lives or dies on whether its few choices matter, [Decision Space & Choice Design](decision-space-and-choice-design.qmd) is where the party-game prompt does its real work. Where a hidden-role game scatters authorial control across a whole table rather than holding it in one designer's hand, that distribution is [Distributing Narrative Authority](distributing-narrative-authority.qmd).
+
+## Sources
+
+- "Mafia (party game)." Wikipedia. (Davidoff 1986 origin at Moscow State University; Plotkin's 1997 Werewolf reskin; the no-component oral format.) <https://en.wikipedia.org/wiki/Mafia_(party_game)>
+- "The Resistance (game)." Wikipedia. (Don Eskridge, 2010; removal of player elimination; mission voting; Avalon roles, 2012.) <https://en.wikipedia.org/wiki/The_Resistance_(game)>
+- "Coup (card game)." Wikipedia. (Rikki Tahta, 2012; the bluff-and-challenge core; fifteen-minute play.) <https://en.wikipedia.org/wiki/Coup_(card_game)>
+- "Secret Hitler." Wikipedia. (Temkin, Boxleiter and Maranges, 2016; the legislative policy track over pure bluffing.) <https://en.wikipedia.org/wiki/Secret_Hitler>
+- "Blood on the Clocktower." Wikipedia. (Steven Medway, The Pandemonium Institute, 2022; active dead players, the adjudicating Storyteller, multi-script convention format.) <https://en.wikipedia.org/wiki/Blood_on_the_Clocktower>
+- "Apples to Apples." Wikipedia. (1999; the prompt-plus-rotating-judge mechanic with no objective answer.) <https://en.wikipedia.org/wiki/Apples_to_Apples>
+- "Cards Against Humanity." Wikipedia. (Kickstarter 2011; the same judge engine with transgressive content; minimal mechanical contribution, large cultural footprint.) <https://en.wikipedia.org/wiki/Cards_Against_Humanity>
+- "Codenames (board game)." Wikipedia. (Vlaada Chvátil, Czech Games Edition, 2015; Spiel des Jahres 2016; word association under constraint.) <https://en.wikipedia.org/wiki/Codenames_(board_game)>
+- "Dixit (board game)." Wikipedia. (Jean-Louis Roubira, Libellud, 2008; Spiel des Jahres 2010; the some-but-not-all scoring window.) <https://en.wikipedia.org/wiki/Dixit_(board_game)>
+- "Just One (board game)." Wikipedia. (Roudy and Sautter, Repos Production, 2018; Spiel des Jahres 2019; duplicate-clue elimination.) <https://en.wikipedia.org/wiki/Just_One_(board_game)>
+- "Wavelength (game)." Wikipedia. (Hague, Vickers and Warsch, CMYK, 2019; the spectrum dial and conceptual-calibration clue.) <https://en.wikipedia.org/wiki/Wavelength_(game)>
+- "Jubensha." Wikipedia. (Chinese script-murder LARP; "a mix of Cluedo, Werewolf and LARP"; late-2010s boom; 2021 iResearch popularity ranking; global spread.) <https://en.wikipedia.org/wiki/Jubensha>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd)
+- [The Engine Room](../../primers/the-engine-room.qmd)
+
+<!-- BACKLINKS:END -->
