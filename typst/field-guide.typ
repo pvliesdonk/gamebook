@@ -44,6 +44,9 @@
 #let fg-family = state("fg-family", "structure")
 #let fg-set-family(f) = fg-family.update(f)
 #let fg-article = counter("fg-article")
+// True once we are inside the family parts (set by the first part divider);
+// front matter (index) and anything before the parts stays plain + unnumbered.
+#let fg-in-body = state("fg-in-body", false)
 
 #let kicker(s, c: ink-muted, size: 8.5pt) = text(
   font: "Cronos Pro", size: size, weight: "semibold", fill: c, tracking: 1.2pt,
@@ -69,12 +72,16 @@
 // --- Headings (54/33/22/17 type scale, scaled for print) ----
 // Level 1 = the article opener: family rule, roman №, kicker, title.
 #show heading.where(level: 1): it => {
-  pagebreak(weak: true)
+  // step before the page break so the new page's background (bleed tab)
+  // and the opener below both see the incremented value
   fg-article.step()
+  pagebreak(weak: true)
   context {
+  if fg-in-body.get() {
+    // an article opener: family rule, arabic №, taxon kicker, title
     let f = fg-family.get()
     let c = fam.at(f, default: amber)
-    let n = fg-article.display("I")
+    let n = fg-article.display("1")
     block(width: 100%, above: 0pt, below: 0.9em, breakable: false)[
       #line(length: 100%, stroke: 2pt + c)
       #v(0.55em, weak: true)
@@ -84,6 +91,12 @@
       #v(0.4em, weak: true)
       #text(font: "Adobe Jenson Pro", size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
     ]
+  } else {
+    // front matter: a plain title, no rule / number / kicker
+    block(width: 100%, above: 0pt, below: 0.8em, breakable: false)[
+      #text(font: "Adobe Jenson Pro", size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
+    ]
+  }
   }
 }
 #show heading.where(level: 2): set text(font: "Adobe Jenson Pro", size: 15pt, fill: ink-deep, weight: "semibold")
@@ -91,6 +104,7 @@
 #show heading.where(level: 4): set text(font: "Adobe Jenson Pro", size: 11pt, fill: ink-muted, weight: "semibold", style: "italic")
 #show heading.where(level: 2): set block(above: 1.5em, below: 0.7em)
 #show heading.where(level: 3): set block(above: 1.1em, below: 0.5em)
+#show heading: set par(justify: false)  // display headings ragged, never justified
 
 // --- Links, code, provenance --------------------------------
 #show link: set text(fill: amber-ink)
@@ -161,10 +175,14 @@
     let i = pair.at(0)
     let f = pair.at(1)
     let on = f == active
+    // inactive tabs show the family letter (A-F); the active tab shows the
+    // current article number (falls back to the letter on divider pages).
+    let n = fg-article.get().first()
+    let lab = if on and n > 0 { numbering("1", n) } else { numbering("A", i + 1) }
     box(
       width: if on { 24pt } else { 14pt }, height: 28pt, fill: fam.at(f),
       radius: if recto { (left: 2pt) } else { (right: 2pt) },
-      align(center + horizon, text(font: "Letter Gothic Std", size: 7.5pt, fill: white)[#(i + 1)]),
+      align(center + horizon, text(font: "Letter Gothic Std", size: 7.5pt, fill: white)[#lab]),
     )
   }))
   place(if recto { top + right } else { top + left }, dy: 3.0cm, tabs)

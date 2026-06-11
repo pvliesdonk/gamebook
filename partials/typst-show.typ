@@ -17,16 +17,23 @@
 // (our part labels are the family names). Render a family plate and set
 // the family state so the divider page and following articles colour
 // correctly.
+#let fg-part-count = counter("fg-part-count")
 #let part(title) = {
   let s = content-to-string(title)
   let id = "structure"
   for (k, v) in fam-label.pairs() { if v == s { id = k } }
   fg-family.update(id)
+  fg-in-body.update(true)
+  fg-part-count.step()
+  // Reset the article counter at the first part so article № starts at 1
+  // (front-matter chapters before the parts also step it).
+  context { if fg-part-count.get().first() == 1 { fg-article.update(0) } }
   let c = fam.at(id, default: amber)
   let num = fam-order.position(x => x == id) + 1
   pagebreak(weak: true)
   block(width: 100%, above: 3.2cm, below: 1.4em, breakable: false)[
-    #text(font: "Letter Gothic Std", size: 11pt, fill: c)[Part #numbering("I", num)]
+    #set par(justify: false)
+    #text(font: "Letter Gothic Std", size: 11pt, fill: c)[Part #numbering("A", num)]
     #v(0.5em, weak: true)
     #line(length: 100%, stroke: 3pt + c)
     #v(0.6em, weak: true)
