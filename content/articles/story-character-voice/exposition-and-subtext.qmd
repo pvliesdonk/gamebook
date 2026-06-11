@@ -1,14 +1,110 @@
 ---
 title: "Exposition & Subtext"
-aliases: []
+aliases: ["Show vs Tell", "The Iceberg", "Incluing", "Drip-Feed"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [reader-discovery, earned-immersion, submerged-depth]
+  problems: [info-dump, as-you-know-bob, over-explanation]
+  components: [backstory, world-detail, withheld-information, environmental-cue]
+  genre: [literary, mystery, sci-fi]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: Getting the reader what they need without a lecture, and trusting them with what you leave out.*
+
+Every story carries more than it can say. There is a world behind the scene, a history behind the character, a meaning behind the line. The writer has to hand some of that over so the reader can follow, and the temptation is to hand it all over at once, in a tidy block, so nothing is missed. That block is the info-dump, and the reader skims it the way they skim the terms and conditions. The information was necessary. The dumping ruined it.
+
+So the craft has two halves that pull against each other. The first is delivery: feeding the reader what they need a piece at a time, woven into action so they absorb the world without noticing they have been taught anything. The second is restraint: knowing how much to withhold and how much to leave under the surface for the reader to feel rather than read. One half is about getting information in. The other is about keeping it out. A writer who masters only the first explains everything; a writer who masters only the second is merely obscure.
+
+This article is about both halves and the trust that connects them. The interactive forms sharpen the whole problem, because there the reader is not a passenger. The player decides what to look at, what to ask, what to ignore. Exposition stops being something you deliver and becomes something the player pulls, when they want it, in the order they choose. The writer no longer controls the drip. They can only set the taps.
+
+## The Mechanism (How it works)
+
+### Show versus tell, and when each is right
+
+The oldest piece of writing advice is "show, don't tell", and like most old advice it is half-right and badly worn. Showing means giving the reader sensory detail, action and concrete particulars, so they experience a thing and draw their own conclusion. Telling means stating the fact directly. "She was nervous" is telling. "She jostled her leg under the table, fingers drumming the armrest" is showing. [corpus] Showing builds scenes and earns emotional connection, so most fiction lives there.
+
+The worn part is the "don't tell". Telling has honest work to do. It states a fact efficiently when the reader does not need to dwell on it. It covers a transition or a time-skip. It varies the pace so the prose has rest as well as tension. [corpus] "The cafe was fifteen blocks away, and she only had five minutes" is plain telling and exactly right, because the reader needs the fact rather than the experience of it. The real rule is not "never tell". It is: choose, scene by scene, which mode the moment wants, and do not narrate the act of perceiving when you could render the thing perceived. The one failure that genuinely never works is to show a thing and then tell it anyway. Give a character white knuckles and a reddening face. Then add "he was angry", and you have insulted the reader you just trusted. [corpus] This is the same move the close-narration craft calls a filter word, and cutting it tightens voice as much as exposition: [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd).
+
+### The drip-feed and incluing
+
+The opposite of the info-dump is the drip-feed: scattering detail through the text so the world arrives in pieces, none of them large enough to stop the story. The science-fiction writer Jo Walton named the deliberate version of this *incluing*, the process of seeding information into the narrative without a join showing rather than halting to deliver it, so that the reader builds the world from clues without quite noticing they are doing it. [researched] "She hopped in an air-taxi" tells you the whole shape of a world in five words and never pauses to explain it. [corpus]
+
+The techniques are concrete. Carry detail on the back of action, so a detective examining a body teaches the reader the world while doing their job, rather than narrating a tour of it. Use throwaway references that imply a larger system without describing it. Replace a paragraph about a marriage with one gesture that proves it. [corpus] The governing instruction is to stay in the room. Wherever and whenever the scene is set, stay there with what is happening and resist the pull to step out and fill in background. [corpus] Every step outside the scene to explain something is a small admission that the scene could not carry it.
+
+Two further habits make the drip land. The first is the point-of-view filter. Deliver backstory and world through the focal character's perceptions. A servant summoned to a study notices the exits where a courtier in the same room notices the opulence. [corpus] The room is the same and the description is not. What gets described quietly characterises whoever is looking. The second is the learning-curve trick: give the viewpoint character a reason to be learning what the reader needs to learn. A newcomer or an outsider encounters the world's rules naturally because they do not know them yet. Rowling teaches the reader Harry's world by teaching it to Harry, so the lecture never has to happen. [corpus] When the world itself is the thing being revealed this way, the discipline runs into [Worldbuilding Patterns](worldbuilding-patterns.qmd); when the surroundings carry the story, it becomes [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd).
+
+### The maid-and-butler trap
+
+The signature failure of bad exposition has a stage name. "Maid and butler" dialogue comes from the old theatrical device of opening a play with two servants who summarise the household's situation for the audience, telling each other things they both already know. [researched] Its science-fiction cousin is "As you know, Bob": two characters rehearsing shared knowledge for no reason except that the reader does not have it yet. [researched]
+
+The reason it fails is simple and unforgiving. People do not tell each other what they both already know. The moment a line exists only to inform the reader, it stops sounding like a person and starts sounding like a writer using a person as a loudspeaker. [corpus] The fix is not to cut the information but to find a character who genuinely does not know it, so the explanation has a real reason to be spoken. That is the learning-curve trick again, applied to dialogue. The craft of making the exchange itself sound like two people rather than one writer is [Dialogue Craft](dialogue-craft.qmd); the character-by-character speech that keeps an explainer from sounding like the author is [Character Voice](character-voice.qmd).
+
+### Questions before answers
+
+Underneath the drip-feed sits a rule about order, and it is the one most worth internalising. Give the reader the question before you give them the answer. Backstory and secrets land hardest when the reader has first been made to want them, so a reveal dropped before anyone is asking falls flat, while the same reveal held until the reader is leaning in pays off. [corpus] Great exposition arms the reader with only what they need to enjoy the scene in front of them. Everything else waits for the moment it will hit hardest. [corpus]
+
+This is exactly the puzzle-design problem of metering discovery, seen from the story side. A clue handed over before the solver cares is wasted, and a clue withheld past the point of fairness is a cheat. The detective story's "fair play" contract, that every fact needed for the solution is present and findable by an attentive reader, is the same trust this section is built on: [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). The order those questions and answers arrive in, and how one revelation unlocks the next, is the sequencing craft of [Clue Sequencing & Chains](../puzzles-clues-information/clue-sequencing-and-chains.qmd).
+
+The danger on this side is withholding that serves the writer rather than the story. Holding a fact back for honest suspense reads as delayed gratification; holding it back only to manufacture tension reads as a cheat, and the reader feels the cheat as a hitch, a moment where they sense they were kept in the dark unfairly. [corpus] A mystery should challenge the reader, never confuse them. Keep them guessing; never leave them lost. [corpus]
+
+### The iceberg and the art of leaving out
+
+The other half of the craft is what you never put on the page at all. Hemingway gave it its enduring image: an iceberg moves with dignity because only one-eighth of it stands above the water. [researched] Write with full knowledge of the seven-eighths and reveal only the one-eighth, and the reader will feel the mass beneath without being shown it. The questions that follow are the practical ones: what can be left out, and what can be implied rather than stated outright. [corpus]
+
+Subtext is the iceberg applied to meaning. It is the gap between what is said and what is meant: the surface line and the truth underneath it. "Fine weather we're having" can mean *I do not want to talk about what just happened*. [corpus] The gap is opened by ordinary, observable means. A character deflects a question by answering a different one. They understate a disaster. They say "I'm fine" while their voice catches. Their body contradicts their words, the "yes, I trust you" delivered while stepping backwards. [corpus] None of it is announced. The reader does the joining, and the joining is the pleasure.
+
+What is left unsaid carries its own weight. The question never asked, the name never mentioned, the room no one enters, the subject everyone avoids: absence implies as loudly as presence. [corpus] In drama this became a technique in its own right. Harold Pinter built scenes in which the pause and the silence carried more weight than the surrounding lines. His Nobel lecture made the case that what a character will not say is often the truest thing about them. [researched] Objects do the same work when they gather meaning across a story. A father's watch that is wound early, found stopped at the middle and finally pressed into a son's hand says everything about inheritance and time without a word of it being stated. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The failure that destroys subtext is explaining it. You write the empty crib touched in silence. You trust the reader for one perfect beat. Then your nerve goes and you add "she was grieving for her lost child." The addition does not reinforce the image. It cancels it, by telling the reader the work was not really theirs to do. [corpus] The same loss of nerve produces the over-explained line: "I'm fine," she said, but clearly she wasn't fine, her trembling voice revealing the depth of her pain. Cut everything after the catch in the voice. The tell is any sentence that names the emotion you have just dramatised. If the scene did its job, the naming is redundant; if it did not, the naming will not save it. Trust applied inconsistently is worse than no trust at all, because then the reader cannot tell when to read closely and when to coast. [synthesis]
+:::
+
+The line to respect is the one between subtlety and obscurity, and it is the same line the puzzle-makers police. Subtlety means the meaning is there to be found by an attentive reader. Obscurity means the meaning is arbitrary, reachable by no amount of attention. [corpus] The test is whether a careful reader, working only with what is on the page, can get there. That is precisely the reachability test that defines a fair clue, so this craft and [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd) are the same discipline wearing a literary coat and a puzzle coat. One more restraint keeps subtext bearable: not every line can carry a hidden second meaning, or the prose exhausts the reader. Reserve the loaded line for the moment that earns it. [corpus]
+
+### Pull-based exposition: the interactive turn
+
+Everything above assumes the writer controls the drip. In interactive fiction, live games and at the table, they do not. The player decides what to examine and whom to ask. A load-bearing fact placed on one branch can be missed entirely. Exposition becomes pull-based. The world is laid out in advance, and the player draws the information from it by acting in whatever order suits them. [corpus]
+
+This is a gift before it is a problem. Discovery through exploration creates ownership: a fact the player dug up by examining a drawer or noticing a discrepancy in an account feels earned in a way no narrated paragraph ever does. [corpus] Subtext gets a new instrument too. The choices themselves can carry it, so "stay for dinner" against "I should go" reads on the surface as logistics and underneath as *commit to this relationship* against *keep your distance*. [corpus] The environment becomes the primary channel. Items in a room tell stories and state changes record events that happened offscreen, while an absence (the emptied drawer, the removed photograph) speaks on its own. This is the design idea Henry Jenkins called environmental storytelling, the embedding of narrative into a navigable space rather than its delivery in a stream. [researched] Whether a given piece of information belongs to the fiction's own surface or sits outside it, on a menu or a status line, is the question of [Diegetic Design](diegetic-design.qmd).
+
+The cost of pull-based exposition is the gate. Because the player controls the pull, a writer nervous about a missed fact reaches for a wall, a forced conversation or a block of mandatory lore the player has to read before continuing. That info-dump gate is the dump reborn in interactive form. It fails for the same reason as the original and for one extra. It bores the player. It also lies about the medium by taking back the agency the form just promised. The redundancy fix the investigation designers use applies directly. Rather than gate the fact behind one channel, seed it across several, so an attentive player meets it by more than one route and no single missed branch strands them. [synthesis] The structural version of that redundancy, planting a conclusion's evidence on multiple paths, is the tabletop investigator's standard discipline, drawn out in [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+::: {.callout-note}
+### The Specimen
+The escape-room designer's phrase for environmental exposition is "hiding clues in plain sight". The set is dressed so that load-bearing information lives in the props and the décor. A player who reads the room carefully draws the story out of it without a word of narration. [corpus] A themed room delivers its premise through sensory layering of sight and sound and scent, so the fiction is something the players inhabit and assemble rather than something a host recites at the door. [corpus] The line that escape-room practitioners police is the same one this article keeps returning to. Information hidden in plain sight has to be reachable by attention and signposted enough that a careful player can find it. Otherwise the room tips from subtle into merely obscure and players stall at a fact they had no way to reach. The fix is more legible signposting of where to look, never a louder dump of the answer. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Exposition and subtext are the two valves on the flow of information from writer to reader, and most of the Story family runs through them. Voice decides who is doing the telling and the withholding; dialogue is where both happen out loud; point of view sets the filter the information passes through; worldbuilding supplies the seven-eighths that stays underwater. The contract underneath all of it is trust: the belief that an attentive reader will connect the dots you leave for them, follow the implication you do not spell out and earn the reveal you withhold. Break that trust by dumping, or by explaining what you just implied, and the reader stops reaching, which means they stop reading in the only sense that matters. In the interactive forms the same valves are handed to the player, which makes the trust literal: the writer sets the taps and the player decides the flow.
+
+**Next steps.** Once the information is metered, the next concern is the person metering it. The speech habits and idiolect that keep an explainer from sounding like the author are [Character Voice](character-voice.qmd). The moment-to-moment exchange that carries exposition and subtext through talk is [Dialogue Craft](dialogue-craft.qmd). To set the perceptual filter that backstory and world pass through, work through [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd). When the world is the thing being drip-fed, the craft is [Worldbuilding Patterns](worldbuilding-patterns.qmd), and when the surroundings do the telling, it is [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd). And because metered discovery is the same problem the puzzle side calls fairness, the cross-family companion to this article is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+## Sources
+
+- Hemingway, Ernest. *Death in the Afternoon*. Charles Scribner's Sons, 1932. (The iceberg theory of omission.)
+- Walton, Jo. "SF Reading Protocols." Reactor (Tor.com), 2010. <https://reactormag.com/sf-reading-protocols/> (Coinage and definition of *incluing*.)
+- "As You Know" / "maid and butler" dialogue. TV Tropes. <https://tvtropes.org/pmwiki/pmwiki.php/Main/AsYouKnow> (The stagecraft origin and the "As you know, Bob" exposition trap.)
+- Pinter, Harold. "Art, Truth and Politics." Nobel Lecture, 2005. <https://www.nobelprize.org/prizes/literature/2005/pinter/lecture/> (Dramatic silence and the unsaid.)
+- Jenkins, Henry. "Game Design as Narrative Architecture." In *First Person*, ed. Wardrip-Fruin and Harrigan, MIT Press, 2004. (Environmental storytelling in navigable space.)
+- Maass, Donald. *The Fire in Fiction*. Writer's Digest Books, 2009. (Earning the reveal; questions before answers; reader trust.)
+- Rowling, J. K. *Harry Potter and the Philosopher's Stone*. Bloomsbury, 1997. (Worldbuilding through a newcomer's learning curve.)
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Character Voice](character-voice.qmd)
+- [Dialogue Craft](dialogue-craft.qmd)
+- [Diegetic Design](diegetic-design.qmd)
+- [Emotional Beats & Investment](emotional-beats-and-investment.qmd)
+- [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd)
+- [Prompt Design in Solo Journaling](prompt-design-in-solo-journaling.qmd)
+- [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd)
+- [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd)
+- [Worldbuilding Patterns](worldbuilding-patterns.qmd)
+
+<!-- BACKLINKS:END -->

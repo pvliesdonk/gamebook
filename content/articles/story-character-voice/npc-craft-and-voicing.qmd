@@ -1,14 +1,99 @@
 ---
 title: "NPC Craft & Voicing"
-aliases: []
+aliases: ["Non-Player Characters", "Supporting Cast", "Voicing NPCs"]
 family: "Story, Character & Voice"
-media: []
+media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [believable-cast, player-investment, distinct-supporting-characters]
+  problems: [flat-npcs, exposition-fountain, gm-default-voice, npc-overload]
+  components: [npc-card, want, voice-marker, character-prompt, faction-clock]
+  genre: [mystery, fantasy, character-drama]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: The craft of the supporting cast, the people the player meets rather than plays.*
+
+The protagonist gets a whole article to themselves. Everyone else in the world has to be built faster and from less. A player walks into a tavern and talks to the bartender, and that bartender has to feel like a person before the scene moves on, with no time to grow on anyone. This is the supporting-cast problem: a crowd of characters, each needing just enough to land and not a gram more.
+
+The trap at both ends is real. Build an NPC too thin and they read as furniture, a name attached to a function. Build one too thick and you have spent an evening of prep on someone the player meets once and never thinks of again. The whole skill is calibration. You judge how much character each role can carry and how to deliver it in the few seconds the scene allows. A blacksmith met for one transaction is not the same design problem as a villain pursued across eighteen sessions. Treat them as one and you waste effort on the first while starving the second.
+
+This article is about constructing that cast and giving each member a voice, distinct from the protagonist's voice built in [Character Voice](character-voice.qmd). In that article the author drives one person under player pressure; here you are populating a world, working out who needs real depth, who needs only a tic, and how to keep a dozen of them from blurring into one. The home of this craft is the tabletop, where a single person improvises the entire population live, but the same discipline carries into a live game with a chat-driven character on a phone prop and into interactive fiction, where a branching cast must hold across paths no single player will see.
+
+## The Mechanism (How it works)
+
+### The minimum viable NPC
+
+Most practitioner writing since around 2010 settles on a two-tier model, and the tiers are worth keeping separate because they cost different amounts to build. A scenery character populates a scene and is never tracked again: the guard who waves the party through, the innkeeper behind the bar. A recurring character is someone the player will meet more than once and is meant to remember. [corpus]
+
+The minimum that makes a scenery character land is small and fixed. A name, a single physical or social marker, and one hook, where the hook is either a want they are chasing or a secret they are keeping. [corpus] Take "Garrett, the nervous innkeeper, knows where the murder weapon is", a whole character in nine words. The marker makes them visible; the hook answers the only question that matters, the question of why the player would care. A name on its own is scenery. A name plus a hook is a person. The want or secret is a lever, not a biography, so resist the urge to write the backstory that produced it.
+
+Recurring characters need three things the scenery character does not. The first is a want, what they are actively trying to do in this arc. The second is a connection, a bond to the fiction (a faction, a place, one of the players) that hands the player a way to act on them. The third is a hidden variable, something they are not saying, which puts quiet pressure into even a friendly scene. [corpus] This bond-want-secret skeleton circulates widely in the advice literature without a single canonical source. It is assembled from the prep steps in Sly Flourish's *Return of the Lazy Dungeon Master*, from Dungeon World's instinct-and-knack model, and out of Apocalypse World's principle of naming everyone and giving each person plain, sensible self-interest. [researched] A useful fourth element for a character who will stay onstage is a growth hook, an open question about their future that the player's choices can answer. The quartermaster who wants to retire but owes the guild is not static; the one without that open question is.
+
+Several systems formalise the same skeleton under different names, and the formalisation is instructive because it shows what the minimum really is. Dungeon World gives every character an instinct (what they want, written as a verb such as "to avenge" or "to make money") and a knack, the means by which they pursue it, such as a silver tongue or a debt owed. The two together make a playable character with no further prep. [researched] Burning Wheel hangs its characters on Beliefs, Instincts and Traits, with the standing forum advice that an instinct which never gets triggered is worse than useless, so pick a colourful one. [researched] The lesson across all of them is that a complete character is a very short list, and the discipline of the index card enforces it: a character who does not fit on a card is overbuilt. [corpus]
+
+| Tier | What it costs | What it gets |
+|---|---|---|
+| Scenery | A name, one marker, one hook | A character who lands in a single scene and is never tracked |
+| Recurring | Want, connection, hidden variable (and a growth hook) | A character the player invests in across an arc |
+| Villain | A recurring character, plus early presence, a legible motive, and their own clock | An antagonist who is felt before the climax and acts offscreen |
+
+The villain is the recurring character pushed one tier further. A villain has to register before the climax, introduced early through rumour and consequence rather than a face-to-face meeting, so the players feel them long before they fight them. [researched] A villain also needs a motive that makes sense inside the fiction. "To accumulate power" is a symptom; the desire driving the accumulation is the real material, the thing that makes the villain's choices legible rather than arbitrary. [researched] And a villain needs their own clock, a goal advancing between sessions whether or not the players engage it directly, which is the tracking discipline of [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd).
+
+### Faction as a single NPC
+
+The most useful move in cast design is to treat a whole organisation, a guild or a church or a criminal outfit, as one character. A faction designed this way has a want, a few stats, and a way of acting offscreen, so the world advances on its own clock without the designer scripting every outcome. [corpus] This collapses a dozen named members into a single entity with a single agenda, and it is the bridge between writing people and writing a world that moves.
+
+Several systems give this concrete shape, and the variety is worth knowing because the right level of machinery depends on how much the faction matters. *Apocalypse World*'s Fronts bundle characters into threat categories, each with a shared impulse that drives the group when the players are not looking. [researched] *Blades in the Dark* gives each faction a Tier, a Status from hostile to allied that shifts with what the players do to it, and project clocks the gamemaster ticks between sessions to show offscreen activity. [researched] *Stars Without Number* runs a full Faction Turn, a half-hour between-session procedure where each faction takes one action and a whole sector evolves independently of the players. [researched] *Reign* made the organisation a playable entity in its own right, with stats for military might, governance, territory, treasure and influence. [researched] The common logic under all four is identical: a collective with goals it pursues on its own schedule. Pick the lightest version that the faction's importance justifies, because a one-scene rival guild does not need a Faction Turn.
+
+### Voicing the cast at the table
+
+The tabletop is where voicing is hardest, because one person improvises every character live, in front of other people, with no second take. The failure that lies in wait is the collapse of the whole cast into the gamemaster's own register, what experienced gamemasters call the five-foot-wisdom problem: every character sounds like a slightly more weathered version of the person running the game. [corpus] Voice work is the defence against that collapse.
+
+The cheapest reliable defence is the marker pair that [Character Voice](character-voice.qmd) names. One verbal tic and one contrasting opinion, fixed the moment a scene opens, do the job. The tic is a phrase they overuse or a habit of trailing off, and it makes the character recognisable. The opinion is some view they hold that the rest of the cast takes the opposite of for granted, and it makes them a person rather than a service counter. [corpus] A character who only hands over information is furniture. Give that same character a view nobody asked for and they become someone. The pair scales to crowded scenes through contrast. No two characters in one scene should sit in the same emotional register. Set a formal and deliberate queen beside a plain-spoken guard; put a nervous merchant next to a bored apprentice. [corpus] Contrast costs almost nothing to decide and does most of the work of keeping a crowd legible.
+
+For those who want to go further, the documented practice (Matt Mercer's, written up by Sly Flourish) leans on body language first, a posture or a steepling of fingers that commits to the character before any accent, and on a blended, invented vocal quality rather than a direct impression of a real regional accent. [researched] Direct imitation is high-risk: caricature derails a scene and can wound a player who shares that identity. The marker pair is the safe substitute, because a verbal tic carries no real-world group on its back.
+
+::: {.callout-warning}
+### The Hazard
+The exposition fountain is the failure that hides inside good intentions. There is lore the players need, so you build a character to deliver it, and that character arrives with no personality beyond the briefing. The tell shows at the table: the players ask probing questions and you narrate uninterrupted for five minutes while their attention drains away. The remedy is not an information fix but a voice fix. Limit what any single character knows, make some of what they hold partial or outdated or mere rumour, and give them an agenda that shapes what they choose to reveal. A pile of backstory delivered through a person with something to want arrives filtered, and the filtering is what makes it bearable. [corpus]
+:::
+
+### NPCs across the media
+
+The supporting cast is a tabletop concern at heart, but two other media inherit it in instructive forms. In interactive fiction the recurring character has to stay consistent across branches that fork and never reconverge, and those branches are often written months apart, so the continuity problem becomes the recurring-character problem moved into a structure where the writer cannot hold the whole cast in their head at once. The voice sheet and the forbidden-phrase list that hold a protagonist's voice steady serve the supporting cast too. Building who a character is, treated as a separate question from how they speak, is the want-connection-secret skeleton again.
+
+The live game's version is the most literal, because a non-player character driven by a language model has to exist as written text before the character ever speaks. The character prompt is the want-connection-secret skeleton recast as instructions for a machine author. It falls into four layers. [corpus] The first layer is identity and voice. It sets down who the character is and how they speak, written tightly enough to fix a consistent vocabulary. A brief that names Dr Velis Roden as "a forensic accountant in her late fifties who is cautious and precise in language and quietly contemptuous of anyone who asks a vague question" holds together where the bare "a forensic accountant" dissolves into the model's default register. [corpus] The second layer sets down what the character knows and does not know. It adds the facts they are hiding and the conditions under which those facts come out, which is the suspect's core design work. The third layer is in-character deflection, the way the character dodges an off-topic question without breaking the fiction. The fourth is the out-of-character guardrails the model must obey regardless of what the character would do, including a fixed in-character line to give when a player asks whether it is an AI. [corpus]
+
+The failure mode here is the same voice-under-pressure problem from interactive fiction, in its purest form. A player applying social-engineering pressure breaks the character. The model then abandons the persona to be helpful. This is the helpfulness collapse, where the model would rather assist the human than stay in role. [corpus] The documented mitigation is a second model pass that checks each line against the character rules before the player sees it. The multi-agent murder-mystery project discussed on Hacker News in July 2024 reported this guard and framed it as a critique-and-revision step. [researched] It is a forbidden-phrase list enforced by machine. The guard roughly doubles the response time and is worth running only where the scenario is sensitive enough to need it. One rule holds above all the rest. Never make the language-model character the only path to a critical answer, since a single hallucination then breaks the game. [corpus] These characters live on the digital props (phone, terminal, fake operating system) that [Digital Props](../space-props-materiality/digital-props.qmd) covers, and the gating that delays their disclosures is friction rather than a lock, since a determined player using hypotheticals and third-party framing can usually extract a gated fact indirectly. [corpus]
+
+## Where this fits
+
+**The bigger picture.** NPC craft is the population layer of a narrative: the people a player meets rather than the one they play. It sits beside [Character Voice](character-voice.qmd), which builds the protagonist under player pressure, and it draws on the same marker pair to keep the cast distinct. It reaches sideways into the systems family, because a faction designed as a single character is tracked with [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd), and because the bundle of identity a player selects is a [Playbook Design](../systems-mechanics/playbook-design.qmd) concern while the bundle the gamemaster improvises for a stranger is this one. Get the cast right and a world feels populated by people; get it wrong and the player walks through a crowd of name tags.
+
+**Next steps.** Once a character exists, the moment-to-moment craft of how they speak in a scene, the turn-taking and beats, is [Dialogue Craft](dialogue-craft.qmd). When a supporting character is meant to carry feeling rather than information, the relationship work belongs to [Romance & Relationships](romance-and-relationships.qmd). When two characters are set against each other, the friction is shaped by [Conflict Patterns](conflict-patterns.qmd). To decide how much authority over the cast the person running the game holds, and the stance they take toward it, work through [GM Role Models & Stances](../players-social-dynamics/gm-role-models-and-stances.qmd).
+
+## Sources
+
+- Shea, Michael E. *Return of the Lazy Dungeon Master*. SlyFlourish.com, 2018. (The Eight Steps; outlining NPCs; the index-card format.) <https://slyflourish.com/eight_steps_2023.html>
+- Shea, Michael E. "Matthew Mercer on Bringing NPCs to Life." Sly Flourish. <https://slyflourish.com/mercer_bringing_npcs_to_life.html>
+- Alexander, Justin. "Universal NPC Roleplaying Template." The Alexandrian. <https://thealexandrian.net/wordpress/37916/roleplaying-games/universal-npc-roleplaying-template>
+- LaTorra, Sage and Adam Koebel. *Dungeon World*. Sage Kobold Productions, 2012. (Instinct and knack; monster moves.) SRD: <https://www.dungeonworldsrd.com/gamemastering/>
+- Baker, Vincent. *Apocalypse World* (2nd edition). lumpley games, 2016. (Name everyone, make everyone human; Fronts and impulses.)
+- Crane, Luke. *Burning Wheel Gold*. Burning Wheel HQ, 2011. (Beliefs, Instincts and Traits; Circles.)
+- Harper, John. *Blades in the Dark*. Evil Hat Productions, 2017. (Faction Tier, Status and clocks.) <https://bladesinthedark.com/progress-clocks>
+- Crawford, Kevin. *Stars Without Number: Revised Edition*. Sine Nomine Publishing, 2017. (The Faction Turn.)
+- Stolze, Greg. *Reign*. Arc Dream Publishing, 2007. (The Company subsystem.) <https://www.gregstolze.com/reign/Q&A.html>
+- OpenAI. "Prompt engineering" guide (role and system-message design for consistent persona behaviour). OpenAI Platform documentation. <https://platform.openai.com/docs/guides/prompt-engineering>
+- "Multi-agent chatbot murder mystery." Hacker News discussion, item 40921989, July 2024. (Critique-and-revision second-pass guard; gating as friction not lock.) <https://news.ycombinator.com/item?id=40921989>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Character Voice](character-voice.qmd)
+- [Dialogue Craft](dialogue-craft.qmd)
+- [Heist & Caper Patterns](heist-and-caper-patterns.qmd)
+- [Romance & Relationships](romance-and-relationships.qmd)
+- [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd)
+
+<!-- BACKLINKS:END -->

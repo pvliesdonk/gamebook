@@ -92,6 +92,7 @@ This connects to a quieter principle about who authors what. Paul Czege observed
 - [One-on-One Scene Design](one-on-one-scene-design.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Pre-Game Workshop Design](pre-game-workshop-design.qmd)
+- [Romance & Relationships](../story-character-voice/romance-and-relationships.qmd)
 - [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
 - [Safety Systems as Mechanical Layer](../systems-mechanics/safety-systems-as-mechanical-layer.qmd)
 - [The Session Zero Playbook](the-session-zero-playbook.qmd)

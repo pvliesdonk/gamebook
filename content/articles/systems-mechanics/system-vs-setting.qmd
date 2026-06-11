@@ -95,11 +95,13 @@ The live form is the question of diegetic mechanics. In an escape room a designe
 
 ## Referenced by
 
+- [Fantasy Conventions](../story-character-voice/fantasy-conventions.qmd)
 - [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
 - [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
 - [Playbook Design](playbook-design.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
 - [Theme-Mechanism Integration](theme-mechanism-integration.qmd)
+- [Worldbuilding Patterns](../story-character-voice/worldbuilding-patterns.qmd)
 
 <!-- BACKLINKS:END -->

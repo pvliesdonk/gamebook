@@ -111,6 +111,7 @@ The live form runs along the same axis with the body as the medium. An escape ro
 
 - [Boardgame Mechanism Vocabulary](boardgame-mechanism-vocabulary.qmd)
 - [Decision Space & Choice Design](decision-space-and-choice-design.qmd)
+- [Diegetic Design](../story-character-voice/diegetic-design.qmd)
 - [Elegance, Emergence & Randomness](elegance-emergence-and-randomness.qmd)
 - [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
 - [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)

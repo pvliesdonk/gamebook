@@ -111,11 +111,15 @@ The live version makes one design choice especially visible. Concealment is univ
 
 ## Referenced by
 
+- [Character Voice](../story-character-voice/character-voice.qmd)
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
+- [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd)
 - [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
+- [NPC Craft & Voicing](../story-character-voice/npc-craft-and-voicing.qmd)
 - [Replayability](replayability.qmd)
 - [Safety Systems as Mechanical Layer](safety-systems-as-mechanical-layer.qmd)
 - [Social Performance Genres](social-performance-genres.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
+- [Tropes, Archetypes & Variations](../story-character-voice/tropes-archetypes-and-variations.qmd)
 
 <!-- BACKLINKS:END -->

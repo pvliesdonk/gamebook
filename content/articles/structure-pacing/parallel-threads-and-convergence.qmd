@@ -102,10 +102,12 @@ Tabletop runs the braid as the campaign technique sometimes called the soap-oper
 
 - [Branching Narrative Craft](branching-narrative-craft.qmd)
 - [Campaign Arc Shapes](campaign-arc-shapes.qmd)
+- [Canon Management](../story-character-voice/canon-management.qmd)
 - [Distributing Narrative Authority](../systems-mechanics/distributing-narrative-authority.qmd)
 - [Endings & Structural Closure](endings-and-structural-closure.qmd)
 - [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd)
 - [Escape Room Topologies](escape-room-topologies.qmd)
+- [Heist & Caper Patterns](../story-character-voice/heist-and-caper-patterns.qmd)
 - [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd)
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
 - [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)

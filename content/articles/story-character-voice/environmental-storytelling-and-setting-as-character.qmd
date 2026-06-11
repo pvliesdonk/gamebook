@@ -1,23 +1,106 @@
 ---
 title: "Environmental Storytelling & Setting as Character"
-aliases: []
+aliases: ["Place as Character", "Environmental Narrative", "Setting as Active Force"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [immersion, discovered-story, place-as-presence]
+  problems: [inert-backdrop, furniture-catalogue, told-not-shown]
+  components: [scene, sensory-layer, diegetic-audio, embedded-detail]
+  genre: [horror, mystery, literary]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: The story told by the room itself, before anyone says a word.*
+
+Walk into a kitchen. One chair has been knocked over. On the table a cup of tea has gone cold. The back door stands open to the rain. Nobody has narrated anything. Yet you already know someone left in a hurry, and the unease is already on you. The room did that. This is the oldest trick the world plays on a reader. It is also the most undersold one in interactive work, where the setting usually gets treated as the painted flat behind the actors instead of as one of them.
+
+Two ideas sit under that kitchen. The first is environmental storytelling. A scene is arranged so that its details imply an event the reader never saw, and the reader assembles the story from the evidence left behind. The second is setting as character. The place is not a stage the drama happens on but a force inside the drama, one that presses on the people in it and warps what they can do. A submarine and a desert are not two backdrops for the same plot. They are two different plots, because each place wants different things from the people trapped in it.
+
+This article is about both, told from the narrative side. The physical craft of building the room, the lighting rig and the prop budget, belongs to the Space family. What concerns us here is what the room *means*. How its arrangement turns into narration. The way a place presses on the people inside it. How sound and image carry a story with no line of dialogue spoken.
+
+## The Mechanism (How it works)
+
+### The scene that implies an event
+
+Environmental storytelling works by withholding the event and showing only its residue. The reader sees the aftermath and runs the inference backwards to the cause. The craft term for this comes from theme-park and game design, where Don Carson named the unit a "cause and effect" vignette. It is a staged area whose arrangement points the player toward a conclusion about an event that has already passed. Sometimes it points instead toward a warning of what waits up ahead. [researched] A broken door, the scorch marks of an explosion, a crashed vehicle: none of it is decoration. Each piece advances the story the way a clue advances an investigation. [researched]
+
+Carson's larger claim is the load-bearing one. The story is "infused into the physical space" so that the space itself does much of the work of conveying it. [researched] He came to this from designing Disney attractions, where a guest rides through a narrative built entirely out of colour, lighting and texture, and the lesson he carried into game worlds is that an environment can manipulate expectation using nothing but a reader's real-world knowledge. [researched] You do not have to be told that an overturned chair means panic. You already know.
+
+The principle that keeps this honest is the same one the detective story runs on. Every detail the reader might read as evidence should either carry real meaning or be deliberately neutral, because a reader who has learned to read the room will read *all* of it. The corpus names the failure directly. The furniture catalogue lists every object in a room without purpose, and it teaches the reader that nothing here is worth reading, which is the exact opposite of what environmental storytelling needs. [corpus] The fix is selection. "The apartment looked staged for a magazine, everything matching, nothing used, no photographs anywhere" tells you who lives there and what is wrong with them, where a full inventory of the sofa and the bookshelf tells you nothing. [corpus] This is the show-don't-tell of place, and it shares its discipline with [Exposition & Subtext](exposition-and-subtext.qmd): the strongest exposition is the kind the reader does not notice they are being given.
+
+Video games have pushed this furthest, because a game can hand the reader a space and almost no narrator. *Gone Home* tells nearly its whole story through a curated house, with the documents and objects scattered so the player reconstructs the family's secret at their own pace. [researched] *BioShock* lets you read the fall of an undersea utopia off the graffiti, the abandoned shops and the propaganda still echoing in the halls. [researched] *Dark Souls* goes smaller still, seeding the story into the descriptions of individual items, where a blood-stained robe and a discarded blade mean little alone but assemble into a history once the player connects them. [researched] In each case the environment does not support the narrative from the side. The environment carries it outright. The structural cousin of this, where fragments are placed for the reader to reassemble out of order, is [Nonlinear Narrative Structures](../structure-pacing/nonlinear-narrative-structures.qmd).
+
+### Setting as an active force
+
+The second idea is larger than arrangement. A setting can be made to act. The corpus puts it bluntly: setting is not backdrop. It is a force the characters must negotiate. [corpus] A claustrophobic submarine and an open desert produce different stories from the same cast, because each one narrows the available choices in its own way and throws up its own obstacles. [corpus]
+
+The lever is environmental pressure, and it has recognisable shapes. A place can refuse the characters any way out. It can deny them anywhere to hide and anywhere to rest. It can starve them of food and water and the basic feeling of safety. It can shut them inside a community small enough that everyone knows everyone. It can run a clock on them as a season turns toward a deadline. [corpus] The point of naming these is that each one is a plot engine. The setting generates the conflict instead of merely housing it. "The mountain pass closed with the first snow. Three months until spring. Three months trapped with the people who'd killed her brother." [corpus] No antagonist has acted. The world has, and the world has done the work a villain usually has to.
+
+The sharpest version of this is the ticking environment, where the place itself turns antagonist and a falling clock supplies the tension. A tide rising inch by inch toward a cave that will be underwater in four hours needs no monster. [corpus] This is also where the technique reaches most readily across media. A horror escape room draws its dread from exactly this engine: a sensory space with a clock built into it. The physical sibling of that effect is the built room engineered to feel like an active world, which is [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd). The way a designed layout itself shapes movement and pressure is [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd).
+
+A place that acts on the characters also reveals them, which folds setting back into characterisation. A woman who has cleaned her gleaming apartment three times before noon and still cannot stop her hands shaking has told you her interior state through her treatment of the space, with no line of interior monologue. [corpus] The environment becomes a mirror the character holds up without meaning to, and that is why this article sits in the Story family rather than the Space one. Setting as character is a way of writing people, not just rooms. The voice those people speak in is [Character Voice](character-voice.qmd); the surface they describe the room in is [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd).
+
+### Mood, accumulation and the dominant sense
+
+Atmosphere is the slow, deliberate cousin of the cause-and-effect vignette. Where the vignette implies a single event, atmosphere builds a feeling by stacking details that all point one way. The corpus gives three tools for it. Selection chooses details that reinforce the mood, so a market in a happy scene is colour and laughter and food smells, and the same market under plague is empty stalls, nervous glances and rats. Accumulation layers those details until the reader feels the direction before it is named. Contrast plants a jarring detail to unsettle, like a pristine playground with the swings moving and no children anywhere. [corpus] The three are not a checklist to run in order. They are three ways to bend the same scene, and most strong passages use one of them hard rather than all three lightly.
+
+The reliable mistake in atmospheric writing is over-reliance on sight. The corpus calls the senses beyond vision the amateur's blind spot, and offers a clean working rule. For each scene, choose one dominant sense beyond sight and lead with that. [corpus] A library written through smell, the dust of old paper under the ghost of a long-dead reader's pipe tobacco, lands as a place in a way that a visual inventory never will. [corpus] The same trick marks transitions. Stepping from a market's noise and pressing bodies into a temple's cool silence, with incense replacing spice and stone absorbing sound, draws the boundary between two spaces through the senses rather than through a stated "she went inside." [corpus]
+
+| Mood | Details that build it |
+|---|---|
+| Dread | Shadow, silence, cold, emptiness, decay [corpus] |
+| Wonder | Light, height, vastness, colour, movement [corpus] |
+| Comfort | Warmth, enclosure, soft texture, familiar smell [corpus] |
+| Tension | Crowds, noise, obstacles, the sense of being watched [corpus] |
+| Melancholy | Rain, grey, stillness, abandoned space [corpus] |
+
+One named technique deserves its caution. Pathetic fallacy, the trick of letting the weather carry the character's feeling, is older than any of this. John Ruskin coined the phrase in *Modern Painters* in 1856 to describe ascribing human emotion to inanimate nature, and he meant it as a criticism of writing whose feeling had run out of control. [researched] The warning survives. Rain at the funeral works when it is quiet, "outside, the last leaves clung to bare branches," and collapses when it strains, "the sky weeping with her in her moment of despair." [corpus] The stronger move is often the subversion, where a beautiful day makes terrible news worse. A telegram reporting a death, read three times on a perfect June morning with children playing in the street, hits harder than any storm. [corpus]
+
+### Diegetic and non-diegetic: sound and image as narration
+
+In any medium that can carry sound or picture, the setting gains a second voice. The governing distinction is diegetic versus non-diegetic, a pair of terms film theory borrowed from narratology and then handed to game design. [researched] Diegetic sound exists inside the story world and the characters can hear it: a radio playing, footsteps, a door. Non-diegetic sound exists only for the audience, the score and the tension stinger and the voice-over that no one in the scene can hear. [corpus] The line matters because it decides whether a sound is part of the setting or part of the telling. The same split governs whether any element belongs to the fiction's own surface or sits outside it, which is the wider concern of [Diegetic Design](diegetic-design.qmd).
+
+Diegetic audio is environmental storytelling by other means. Distant thunder is a storm coming and a clock starting. Creaking floorboards say old building, someone nearby. A ticking clock is time running out, and a sudden silence after noise means the danger has either passed or just arrived. [corpus] None of it is narrated. The world makes the sound and the reader reads it, exactly as they read the overturned chair. The principle that holds the whole apparatus together is restraint. The prose has to stand without the audio, because the sound is reinforcement and not a crutch. Constant sound only fatigues the ear. Silence is itself a sound-design choice, the one that lets the next noise land. [corpus]
+
+::: {.callout-note}
+### The Specimen
+*BioShock* (2007) builds the case for setting as the primary narrator. Rapture is a city you read rather than one explained to you. Its history arrives off the walls, the graffiti and the propaganda posters and the wreckage of shops, so that the place argues a thesis about unchecked ambition without a single expository cutscene. [researched] The corpus names the quieter craft underneath it. A well-built sensory environment is an opportunity for indirect control, a way to guide the player toward an expected action without their noticing the hand on their shoulder. [corpus] Brighter light pulls the eye. A sound source hints at a direction. A musical swell marks a choice as the important one. The setting is doing two jobs at once. It tells the story while it steers the reader through it, and the better it works the less the reader feels handled. [corpus]
+:::
+
+### Carrying it into live and tabletop work
+
+The narrative craft transfers, with the sensory channel changed. In a live game the whole room is the setting-as-character, and the layering runs across senses a page cannot reach. The visual dressing and the audio bed are only the start of it. There is the smell of damp or smoke, and the temperature of the air on the skin. [synthesis] An escape room hides its exposition in plain sight, dressing the space so that the story and the clues arrive through the same furniture, which is environmental storytelling promoted from technique to whole medium. The reader is standing inside the cause-and-effect vignette rather than reading it on a screen.
+
+At the table the channel narrows back to language, and the gamemaster becomes the setting's only sense organ. The dominant-sense rule pays off hardest here, because a single chosen detail, the smell of a room or the one sound under the silence, does the work that an entire built set does in a live game. The corpus warns of the furniture catalogue in this form too. A read-aloud that lists every object teaches the table that nothing here is worth attention. One selected, loaded detail does the opposite, making the place real and showing the players where to look. [corpus] How those evoked spaces connect into a navigable whole is a Space concern. The choice of which detail to voice is a narrative one, and it is the same choice the prose writer faces on the page.
+
+## Where this fits
+
+**The bigger picture.** Environmental storytelling is the point where the Story family reaches into the world the Space family builds. It treats the setting as a narrator and a character at once, and that places it here rather than under physical production: the room's job in this article is to *mean*, not merely to stand up as built. It depends on the show-don't-tell discipline that runs through exposition and on the sensory surface that prose and point of view control, and it pays back into characterisation, because a place under pressure reveals the people inside it. In any medium with sound or image it gains the diegetic channel, where the world narrates itself without a narrator. Get it right and the reader assembles the story themselves and trusts it more for having done the work. Get it wrong and you are left with a furniture catalogue, a room full of objects that mean nothing because everything was described and nothing was chosen.
+
+**Next steps.** To sharpen the show-don't-tell instinct that environmental storytelling depends on, work through [Exposition & Subtext](exposition-and-subtext.qmd). To control the sensory surface the technique is delivered on, the descriptive register and the distance it is seen from, turn to [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd). To build the consistent world these scenes are scenes *of*, see [Worldbuilding Patterns](worldbuilding-patterns.qmd). And to decide what belongs inside the fiction's own surface and what sits outside it, including which sounds the characters can hear, the question is [Diegetic Design](diegetic-design.qmd).
+
+## Sources
+
+- Carson, Don. "Environmental Storytelling: Creating Immersive 3D Worlds Using Lessons Learned from the Theme Park Industry." Gamasutra, 2000. <https://www.gamedeveloper.com/design/environmental-storytelling-creating-immersive-3d-worlds-using-lessons-learned-from-the-theme-park-industry>
+- Ruskin, John. *Modern Painters*, vol. III. 1856. (Coinage of "pathetic fallacy.") Summary: <https://en.wikipedia.org/wiki/Pathetic_fallacy>
+- Gorbman, Claudia. *Unheard Melodies: Narrative Film Music*. Indiana University Press, 1987. (Diegetic / non-diegetic terminology for film sound, after Genette.)
+- Collins, Karen. *Game Sound: An Introduction to the History, Theory, and Practice of Video Game Music and Sound Design*. MIT Press, 2008.
+- 2K Boston / Irrational Games. *BioShock*. 2K Games, 2007. (Embedded environmental narration of Rapture.)
+- The Fullbright Company. *Gone Home*. 2013. (Whole-story environmental storytelling through a curated house.)
+- FromSoftware. *Dark Souls*. Namco Bandai, 2011. (Item-description embedded narrative.)
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
+- [Diegetic Design](diegetic-design.qmd)
+- [Exposition & Subtext](exposition-and-subtext.qmd)
+- [Horror Conventions](horror-conventions.qmd)
+- [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd)
+- [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd)
 - [Spectator-Friendly Design](../players-social-dynamics/spectator-friendly-design.qmd)
 - [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd)
+- [Worldbuilding Patterns](worldbuilding-patterns.qmd)
 
 <!-- BACKLINKS:END -->

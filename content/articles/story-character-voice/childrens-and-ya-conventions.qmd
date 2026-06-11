@@ -1,14 +1,109 @@
 ---
 title: "Children's & YA Conventions"
-aliases: []
+aliases: ["MG vs YA", "Middle Grade and Young Adult", "Coming-of-Age Craft", "Kidlit Conventions"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [reader-empowerment, age-fit, felt-agency]
+  problems: [condescension, didacticism, mismatched-content]
+  genre: [children-ya, coming-of-age, fantasy]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: Writing for the young at full craft, where the reader is the hero and no lesson gets preached.*
+
+Children's and young-adult work runs on a paradox. It is written for readers who have read less, and yet it cannot be written down to them. A young reader who senses they are being managed closes the book faster than any adult would. The craft is to keep the prose and the plot and the feeling at full strength, changing only what the story is about and whose eyes see it.
+
+Two genres sit under one banner, and the line between them is not age for its own sake. Middle-grade work follows a child finding out who they are at home, among friends and family and a world that is still small enough to hold. Young-adult work follows someone leaving that world, by choice or by force, to find out who they are against the whole of it. Nearly every other difference, in romance, in violence, in how dark the ending is allowed to go, falls out of that one split.
+
+This article is about the genre craft. It covers the split, the conventions that serve it, and the rule the whole field guards above all others, which is that a story for the young demonstrates rather than preaches. Where to set the reading level, the vocabulary ceiling, the choice count, and the fail-state policy for a given age is the calibration dial next door, [Audience & Age-Targeting](audience-and-age-targeting.qmd). That article holds the numbers; this one holds the conventions the numbers serve.
+
+## The Mechanism (How it works)
+
+### The MG / YA split
+
+The bands of children's publishing are not marketing buckets. They track real differences in reading level and in how a young mind holds a chain of cause and effect. Above all they register where the protagonist stands relative to home. [researched] The cleanest way to hold the divide is to watch what the protagonist does with home. A middle-grade hero comes to know who they are within home and community. A young-adult hero breaks away from home in body or in spirit and so comes to know who they are against the wider world. [corpus] Stakes, romance, darkness, the tone of the ending: derive each of these from that one orientation and they fall into place on their own.
+
+The table below sets out the bands and what each one allows. It is the legitimate data-dense exception to the no-list rule, because the whole point is to read the differences across a row at a glance. Protagonist age usually runs slightly above reader age, since young readers reach up rather than across. [researched]
+
+| Band | Reader ages | Protagonist | Romance | Violence | Darkness & endings |
+|---|---|---|---|---|---|
+| Early / chapter | 5–9 | 5–9 | None | Slapstick only | Mild fear that resolves; hope required [corpus] |
+| Middle grade | 8–12 | 10–13 | Crushes only | Action, no graphic detail | Death possible if held with hope; order restored [corpus] |
+| Lower YA | 12–15 | 14–16 | Love, intensity; physical implied | Visceral, not gratuitous | Meaningful death, mental health, injustice; bittersweet [corpus] |
+| Upper YA | 15–18 | 16–18 | Sexuality present, not explicit | Graphic where earned | Full range bar erotica; the world may change for good [corpus] |
+
+The escalation is gradual and it is governed by truth, not by shock. A dark theme belongs in young-adult work when it is emotionally honest, and it fails the moment it is edgy for its own sake. [corpus] In interactive fiction this has a sharper edge. A grim consequence has to read as the plain outcome of who the character is and what they did, never as the author punishing the player for a choice. [corpus]
+
+### Write at full quality, never write down
+
+The cardinal rule, stated plainly by editors of the genre, is to never simplify the language or the story or the craft itself. [researched] Writing for teenagers is not writing for lesser readers. The vocabulary ceiling is gone; the register is contemporary and fitted to the character. What separates young-adult fiction from adult fiction is perspective and subject, not quality. The same holds one band down for middle grade, where the sentences get simpler but the thinking never does. [researched]
+
+This rule has a near-twin that matters more in practice. Do not condescend and do not moralise. Young readers catch both instantly, and both break the spell the story is casting. [corpus] You never set a protagonist up to fall purely so the reader learns a lesson, and you never mark the right choice with a halo of moral framing. The story shows rather than lectures. The corpus puts the rule at its bluntest: no kid wants to be taught. They will sit still for a story and walk out on a sermon.
+
+Interactive fiction makes the rule unavoidable, because a choice with a visibly correct answer is not a choice at all. It is a quiz wearing the costume of a choice. [corpus] Let the player see which option the author approves of and the agency drains away, while the moralising the genre forbids has crept in through the back door. The fix is to let meaning come from consequence rather than from narration. The choice has to be real and the outcome has to follow from it. The reader then draws the lesson for themselves, or draws none at all. This is the same machinery that [Moral Dilemmas & Consequence Chains](moral-dilemmas-and-consequence-chains.qmd) runs on, pointed at a young audience; the accumulated choices build a portrait of the person the protagonist becomes.
+
+### The in-the-moment voice
+
+Young-adult work delivers the protagonist's experience as they live it, not filtered through an adult's retrospective wisdom. [corpus] The reader stands inside the character with full emotional access. First and second person both reach that intimacy, where third-person omniscient rarely fits, because the distance it puts between reader and feeling is exactly the distance the genre is trying to close. Voice in this register is the close end of the narrative-distance dial that [Character Voice](character-voice.qmd) lays out, held there on purpose for the length of the book.
+
+For interactive fiction the second-person present tense ("You shoulder the door open") is a natural servant of this convention. [corpus] It only works, though, if the choice text keeps the teenager's immediacy and does not lapse into the flat voice of a neutral menu. A choice written in the protagonist's own register continues the spell; a choice written in administrative prose ("Option B: proceed to the corridor") breaks it. The discipline of keeping that voice steady across branches written months apart is the continuity concern of [Voice & Register Consistency](voice-and-register-consistency.qmd).
+
+### Agency: you are the hero, not the watcher
+
+The strongest thing the interactive medium offers a young audience is genuine agency, the felt sense that the reader's choice matters. For children especially this is not a flourish but the whole value of the form. You are not watching the hero. You are the hero. [corpus] So the children's gamebook tradition leans so heavily on second-person address. The cardinal sin of the form is letting an adult character make the consequential choice the player should own.
+
+That sin is what most of the genre's archetypes exist to prevent. Young protagonists need room to act, so the adults are removed or neutralised. The corpus names the Absent Adult as the archetype that clears narrative space for agency, and it comes in recognisable shapes. [corpus] There is the orphan, freed by loss; the clueless parent, loving but ignorant of the real stakes, who generates the particular guilt of a secret kept; the antagonistic authority, the adult-as-oppressive-system that powers dystopian young-adult fiction; and the failing adult, overwhelmed and aware of the danger but unable to shield the child, which reads as more honest than mere incompetence. [corpus] In interactive fiction the absence is structural. It is the thing that opens the space for player agency in the first place. An adult who returns mid-story forces a genuine choice between submitting to authority again and holding the independence the story has been building.
+
+Two more archetypes carry the emotional weight. The found family is the core anchor of young-adult work, belonging discovered not in blood but in a ragtag group thrown together by circumstance. [corpus] In interactive fiction its members should hold individual relationships with the player rather than only group membership, because betrayal lands hardest when the player chose to trust that one person. The reimagined Chosen One dramatises adolescent self-belief directly. In middle grade it is wonder and wish-fulfilment ("I am special, the world is bigger than I knew and I matter in it"). In young adult it curdles into burden ("why me, I didn't ask for this"). [corpus] The interactive form can let the player define what "chosen" even means, whether by accepting destiny or rewriting it or refusing it outright, and the explicitly unchosen path is often the most compelling of those. The wider craft of bending a familiar pattern without breaking its emotional truth is [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd).
+
+### Coming of age, and the settings that carry it
+
+The structural spine of the genre is the coming-of-age arc, the bildungsroman. It is the journey from innocence to experience. The protagonist begins in a childlike status quo and is then torn from safety. A sequence of trials follows, and the protagonist returns from them as a more independent self. [researched] In interactive fiction the protagonist's choices should visibly accumulate into the person they become, so that the ending is not a verdict delivered by the author but a portrait assembled by the player. The emotional pull of that accumulation is the concern of [Emotional Beats & Investment](emotional-beats-and-investment.qmd).
+
+Certain settings carry the arc so reliably that they have become conventions in their own right. The school is a microcosm of society, where a sorting (houses, cliques, factions) defines identity fast, the academic year supplies natural pacing with its terms and holidays and final exams as climax, and the dual life of homework against saving the world is the engine of tension. [corpus] The masquerade, common in urban-fantasy young-adult work, overlaps a hidden world with the mundane and runs on the strain of keeping the secret. It works so often as a metaphor for the secret self finding its community that the reveal lands with disproportionate force. [corpus] In dystopian young-adult fiction the personal is political. The teenager's rebellion against a strict regime mirrors the internal rebellion against the constraints of childhood, so the external revolt and the inner coming-of-age are one arc. Even the genre's signature love triangle externalises a choice between two futures rather than merely two people. [corpus]
+
+::: {.callout-note}
+### The Specimen
+The gamebook lineage shows the genre's conventions turned into machinery. *Choose Your Own Adventure* (Packard and Montgomery, from 1979) built the whole form on second-person address and multiple endings, putting the young reader inside the protagonist's body so that "you" open the door. [researched] *Fighting Fantasy* (Jackson and Livingstone, from 1982) added a stat layer of Skill, Stamina and Luck, which made the player's agency perceptible: a number that moves is proof the choice registered. [researched] Two digital descendants show the convention met with care. *Psy High* (Choice of Games, 2014) tracks interlocking systems of money, grades and relationships over a school-setting arc, and *Birdland* (Brendan Patrick Hennessy, 2015) resolves the tension between a fixed, opinionated young-adult voice and a blank projectable protagonist with a dream-and-waking structure, where low-stakes dream choices let the player try on identities without permanent cost, an elegant structural fit for adolescent self-definition. [researched]
+:::
+
+### Content boundaries handled by age
+
+The outer boundary is drawn by age, not by a single fixed line. Romance climbs from crushes to implied intimacy, violence from bloodless to earned and visceral, darkness from "resolves with hope" to "the world genuinely changes". [corpus] One craft note governs the younger end, the safe scare. Children's horror on the Goosebumps model is frightening enough to thrill but never genuinely traumatic. Bad outcomes stay brief and often comic, and they carry no real harm. The fear is real and the damage is not. [researched]
+
+The practical floor under all of this is the ratings systems. The ESRB's E10+ maps roughly to upper middle grade and its Teen tier to lower young adult, with PEGI 7 and 12 the European equivalents; COPPA draws a hard legal line at under-13 for any product that collects data or offers accounts, so teen interactive-fiction apps gate at 13 and up; and Common Sense Media's recommended ages, usually a year or three above the official rating, are the benchmark that schools and libraries actually use as gatekeepers. [researched] A separate hazard sits inside the commercial teen-app space, where nominal ratings can drift from real content and premium-choice monetisation gates the best outcomes behind payment, a genuine ethical constraint when the audience is young. [corpus]
+
+### Across the media
+
+The genre owns the gamebook directly, so its tabletop ancestry is unusually literal: the second-person address and the Skill, Stamina and Luck stat layer of the gamebook tradition are the form's tabletop forerunners, and a stat layer at the table still does the same job of making a young player's agency visible. [synthesis] Live and family formats inherit the conventions through their own grammar. The young-investigator role, short-loop narration that keeps consequences traceable for players who cannot hold a long causal chain, and age-banded design all carry across, the way spectator-friendly and mixed-engagement design opens a live event to children alongside adults. [synthesis] The accessibility of an experience to a young or mixed-age group is itself a design layer, handled in [Accessibility in Live & Interactive Games](../players-social-dynamics/accessibility-in-live-and-interactive-games.qmd). What travels furthest, and almost unchanged, is the age-banded content boundary: the ESRB, PEGI and COPPA gates apply to a card game, a live event, and a piece of interactive fiction alike. [synthesis]
+
+## Where this fits
+
+**The bigger picture.** Children's and young-adult conventions are one genre lens among the set mapped in [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd), and they sit closest to the work's audience. Where most genres make a contract about the world (magic obeys rules, clues are fair, history holds), this one makes a contract about the reader, promising full craft and real agency with no sermon attached. It leans on the rest of the Story family rather than standing apart from it, drawing voice from [Character Voice](character-voice.qmd), its emotional accumulation from [Emotional Beats & Investment](emotional-beats-and-investment.qmd), and its archetypes from [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd). The genre supplies the conventions; the calibration that fits them to a precise age is the dial held separately by [Audience & Age-Targeting](audience-and-age-targeting.qmd).
+
+**Next steps.** Once the band is chosen and the conventions are in place, the working designer reaches for the numbers that make them concrete: reading level, vocabulary, choice count, and fail-state policy by age in [Audience & Age-Targeting](audience-and-age-targeting.qmd). To keep the in-the-moment voice steady across a branching structure written over months, the discipline is [Voice & Register Consistency](voice-and-register-consistency.qmd). And to build the coming-of-age arc so that meaning emerges from consequence rather than from a marked right answer, the engine is [Moral Dilemmas & Consequence Chains](moral-dilemmas-and-consequence-chains.qmd).
+
+## Sources
+
+- Angelella, Kate, and Melissa Nasson. "Writing Young Adult Fiction." Reedsy. <https://blog.reedsy.com/guide/young-adult/> (Full-quality craft, in-the-moment voice, purposeful darkness, anti-didacticism; MG vs YA age and protagonist norms.)
+- "Middle Grade vs Young Adult: A Guide to the Two Categories." Reedsy / SCBWI category guidance. <https://blog.reedsy.com/middle-grade-vs-young-adult/> (Age-band norms, protagonist age running above reader age.)
+- Packard, Edward, and R. A. Montgomery. *Choose Your Own Adventure*. Bantam Books, 1979–1998. (Second-person gamebook format; multiple endings.)
+- Jackson, Steve, and Ian Livingstone. *Fighting Fantasy* (beginning with *The Warlock of Firetop Mountain*). Puffin Books, 1982 onward. (Skill / Stamina / Luck stat layer over the gamebook.)
+- Stine, R. L. *Give Yourself Goosebumps*. Scholastic, 1995–2000. (The "safe scare": horror without trauma for ages 8–12.)
+- Slitt, Rebecca. *Psy High*. Choice of Games, 2014. (Interlocking consequence systems over a school-setting YA arc.)
+- Hennessy, Brendan Patrick. *Birdland*. Twine, 2015. (Dream/waking structure for identity experimentation.)
+- "Bildungsroman." Wikipedia. <https://en.wikipedia.org/wiki/Bildungsroman> (The coming-of-age arc from innocence to experience; Goethe's *Wilhelm Meister's Apprenticeship* as origin.)
+- Entertainment Software Rating Board (ESRB). Ratings guide. <https://www.esrb.org/ratings-guide/> (E10+ and Teen content tiers.)
+- Pan European Game Information (PEGI). <https://pegi.info/> (PEGI 7 and 12 European age tiers.)
+- "Children's Online Privacy Protection Rule (COPPA)." US Federal Trade Commission. <https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa> (The under-13 hard line for data collection and accounts.)
+- Common Sense Media. <https://www.commonsensemedia.org/> (Recommended-age benchmarks used by schools and libraries.)
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd)
+- [Audience & Age-Targeting](audience-and-age-targeting.qmd)
+
+<!-- BACKLINKS:END -->

@@ -1,22 +1,122 @@
 ---
 title: "Character Voice"
-aliases: []
+aliases: ["Idiolect", "Distinct Voices", "Voice Markers"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [distinct-characters, reader-immersion, believable-personhood]
+  problems: [author-voice, voice-drift, flat-npcs]
+  components: [idiolect, point-of-view, voice-sheet, voice-markers]
+  genre: [literary, mystery, character-drama]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: What makes a character sound like themselves and no one else.*
+
+Cover the names above the dialogue. If you still know who is speaking, the voices are working. If every line could belong to anyone, you have written one character several times and given them different hats. The test is that simple to run and that hard to pass.
+
+A voice is the sum of small, consistent choices. It lives in the words a person reaches for and the length of their sentences, in the thing they always say against the thing they would never say. None of it is loud. A character does not announce their voice. They leak it, one line and then another, until the reader could pick them out of a crowd. The craft is making those leaks deliberate.
+
+This article is about building that distinctness and keeping it. The hard version of the problem belongs to interactive fiction, where the author does not drive the protagonist. The player does. A voice has to survive being pushed into situations the author never wrote. A whole cast of distinct voices then has to stay distinct across branches that no single reader will ever see in one sitting.
+
+## The Mechanism (How it works)
+
+### Idiolect: the linguistic fingerprint
+
+An idiolect is one person's characteristic language: the vocabulary, the syntax, the rhythm that belong to them and to no one else exactly. [researched] It is shaped by personality, age, work, where they grew up, and what has happened to them. Every character worth remembering has one. The reader rarely names it, but they feel its absence: a cast without idiolects reads as a single narrator wearing costumes.
+
+The building blocks are concrete. A repeated phrase is the most visible. Gatsby's "old sport" recurs throughout *The Great Gatsby*, and it does double work. The phrase marks him instantly, and it quietly betrays the borrowed gentility he is performing. [researched] Vocal mannerisms do similar work at lower cost. A habit of trailing off, a filler word, a throat cleared before bad news: any of these will tag a speaker. Then there is the grain of the word choice itself. Some characters run blunt where others run elaborate. Some stay literal where others reach for metaphor, and some keep whole sentences where others fall into fragments. A character who says "I could complain, but" is not the character who says "Good afternoon, lovely weather we are having." [corpus]
+
+Profession and schooling leave fingerprints too, and the useful insight is that vocabulary reflects background, not worth. [corpus] A well-educated character moves between large words and small ones with equal ease. A character *projecting* intelligence stacks the large words up, and the stacking itself reads as insecurity. A character with little formal schooling can still be the sharpest mind in the room. That sharpness shows through what they notice rather than the length of their words. A lawyer and a bartender do not just use different terms. They reach for different metaphors, because their reference points differ. [corpus]
+
+The failure all of this guards against has a name in the craft, the author-voice problem. Every character meets trouble the same way and greets a stranger the same way, and that way belongs to the author. [corpus] It is the default a writer falls back to under deadline pressure, and it is exactly what the cover test catches. One honest limit is worth stating: most writers have three or four genuine voices in them. Past that, differentiate characters through what they care about and worry about rather than straining for an infinity of distinct speech patterns. [corpus] Distinctness of concern reads as distinctness of person even when two characters share a register.
+
+### Voice markers: a tic and a contrasting opinion
+
+The cheapest reliable way to make a character land is a pair of markers, one verbal tic and one contrasting opinion. The tic, whether a phrase they overuse or a habit of trailing off, makes them recognisable. The opinion, some view they hold that the rest of the cast takes the opposite of for granted, makes them a person rather than a function. [corpus] A character who only dispenses information is furniture; give that same character a view nobody asked for and they become someone.
+
+This pair scales up to crowded scenes through a contrast rule. No two characters in the same scene should sit in the same emotional register. Put a formal and deliberate character beside a plain-spoken one. Set a nervous and ingratiating one against a bored one. [corpus] Contrast costs almost nothing to decide and it does most of the work of keeping a crowd legible. It is a different concern from how the lines are exchanged, the turn-taking and beats and silences of an actual conversation, which is [Dialogue Craft](dialogue-craft.qmd). Voice is who the speaker is; dialogue is how two of them collide.
+
+### Deep POV and the narrative-distance dial
+
+Voice lives in narration as much as in speech. The lever there is narrative distance: how far the reader stands from the character's mind. John Gardner set out five rough settings, from the far telescope ("It was winter of the year 1853. A large man stepped out of a doorway.") down to the character's own thought rendered as if from inside their skull. [researched] Close is not automatically better than far. A story has a rhythm of intimacy and distance the way it has a rhythm of action and rest. What matters is that the writer chooses the setting rather than drifting into one by accident.
+
+Deep POV is the close end of that dial: the narrator stops interpreting events and lets the reader live them through the character. [researched] The single most mechanical move toward it is cutting filter words. These are the verbs that narrate the act of perceiving rather than the thing perceived: saw, heard, felt, noticed, knew, wondered, thought. [researched] "She saw a car veer onto the pavement" puts a pane of glass between reader and event. "A car veered onto the pavement" removes it. "She wondered if it would hurt" becomes, simply, "Would it hurt?" The filter word names the character as an observer; removing it makes the reader the observer instead. The same edit tightens the voice, because the thought arrives in the character's own words with no narrator standing between.
+
+Close POV brings two discipline rules with it. The first is one perspective character per scene, ideally per chapter, so the reader always knows whose head they occupy. [corpus] Breaking it produces head-hopping: the narration jumps from one character's interior to another's mid-scene, and the reader loses their footing without quite knowing why. [corpus] The fix is to render the second character only from outside. Not "Lucy chuckled, poised to win" but "Lucy's shoulders shook. Was she laughing at him?" The second rule follows from the first: a viewpoint character cannot report what they cannot perceive. They cannot see their own face go cold, cannot notice the irony that by definition escapes them, cannot know why someone else is staring. [corpus] Each of those is a small leak of the author's omniscience into a mind that is supposed to be sealed. The taxonomy of POV modes and the sentence-level rhythm that carries them is its own territory: [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd).
+
+The literary name for the close-distance technique is free indirect discourse, where a character's first-person thought arrives in the third-person narrator's voice, carrying no quotation marks and no "she thought." [researched] Take "She stared at the letter. What was she supposed to do with this? As if she did not have enough problems already." The last two sentences are pure character, smuggled into narration. Joyce pushed this to its limit in what Hugh Kenner named the Uncle Charles Principle: the narration itself takes on the focal character's vocabulary, so the prose describes a person in the words that person would have chosen. [researched] When Uncle Charles "repaired to his outhouse," *repaired* is his word, not the author's. The narrator has briefly become the character without saying so.
+
+### Dialect and register without caricature
+
+<!-- vale Vale.Spelling = NO -->
+Dialect is where voice work most often goes wrong, and the rule is that less is more. [corpus] Heavy phonetic spelling ("Ah wuz jes' thinkin' 'bout how ye'd be comin' 'round") exhausts the reader and tips easily into stereotype. [corpus] The technique that works is to carry the accent in word choice and syntax rather than spelling, and to pick one or two consistent markers rather than respelling every word. Steinbeck renders Depression-era California speech through clipped sentences, a handful of dropped consonants ("an'", "outa") and rural idiom, with almost no nonstandard spelling. [researched] The reader hears the voice and never has to decode it.
+<!-- vale Vale.Spelling = YES -->
+
+The same restraint applies at the table and in live formats, where the stakes are higher because a real person is performing in front of other real people. The advice from voice-heavy practice is to build a character from body language and a blended, invented vocal quality rather than a direct impression of a real regional accent. [corpus] Direct imitation is high-risk, because caricature derails a scene and can wound a player who shares that identity. The safe substitute is the marker pair again. A verbal tic stands in for the accent and carries no real-world group on its back. [corpus]
+
+### Voice under player pressure
+
+Here is the problem that belongs to interactive fiction and to nothing else in quite the same way. In a novel the author drives every character into every situation. In interactive fiction the player drives, and the player will push a character into corners the author never wrote. The protagonist's voice has to hold under that pressure, and the supporting cast has to stay distinct across branches that fork and never reconverge. [corpus] Worse, those branches are often written months apart, sometimes by different hands, so the voice drifts even without the player's help. [corpus]
+
+The corpus answer is a production artefact, the voice sheet. For each character it provides a page of example sentences alongside a list of forbidden phrases (what this character would never say). Sample lines for high-stress and low-stress states belong on it too. [corpus] The forbidden-phrase list is the quietly powerful part. A voice is defined as much by its exclusions as by its habits. Three pressure tests then sharpen the sheet. The first applies threat and watches whether the vocabulary curdles into formality or the tic spikes. The second exposes the character emotionally to see what defence rises into the speech. The third forces a lie and looks for the tell. It might be an alibi explained in too much detail or an odd word, or body language fighting the spoken line. [corpus] A voice that has answers to those three states will survive a player who reaches them in any order. Keeping that voice stable across authors and time is a continuity discipline in its own right, the narrator-and-cast contract that [Voice & Register Consistency](voice-and-register-consistency.qmd) holds; the construction of the supporting cast as characters, rather than their moment-to-moment speech, is [NPC Craft & Voicing](npc-craft-and-voicing.qmd).
+
+The second-person protagonist adds its own wrinkle. The "you" of interactive fiction can be a blank slate for the player to project onto. It can instead be a defined character for the player to inhabit, with a hybrid available between those poles. [corpus] That choice sets the voice rules. A blank slate should carry almost no verbal tics. Every tic is a claim about a person the player may not recognise as themselves. A defined "you" needs a consistent voice that holds regardless of which option the player picks. The choices themselves then have to read in that voice and not in a neutral menu register. The reach for who the player is supposed to be runs into [Player Types & Casting](../players-social-dynamics/player-types-and-casting.qmd); when an entire bundle of voice, stance and ability ships as one selectable identity, that bundle is a [Playbook Design](../systems-mechanics/playbook-design.qmd) concern.
+
+::: {.callout-note}
+### The Specimen
+The four-layer system prompt for an LLM-driven non-player character makes voice construction unusually literal, because the voice has to exist on the page before the character can speak at all. The first layer is labelled "Identity and voice". It sets down who the character is and how they speak, with enough background detail to fix a consistent vocabulary and register. One worked example builds the character as a forensic accountant in her late fifties who is cautious and precise in language and quietly contemptuous of anyone who asks a vague question. That specificity holds together where the bare "you are a forensic accountant" dissolves into the model's default register. [corpus] The remaining layers cover what the character knows and how they deflect, plus the lines they must never reveal. Together they are the same voice sheet a branching-narrative writer keeps, recast as instructions for a different kind of author. The documented failure mode is voice under pressure in its purest form. A player applying social-engineering pressure breaks the character, and the model abandons the voice to be helpful. The fix in practice is a second model pass that checks each line against the character rules before it reaches the player, which is a forbidden-phrase list enforced by machine. [corpus]
+:::
+
+The tabletop version of the same craft runs on the marker pair and warns against one specific collapse. Every non-player character needs *something* to distinguish them, or they all fold into the gamemaster's default register, the "five-foot wisdom" problem where every character sounds like a slightly more weathered version of the person running the game. [corpus] A verbal tic and a contrasting opinion, decided the moment a scene opens, are enough to keep a improvised cast apart. The related failure is the exposition fountain: a character with no personality beyond the lore they exist to deliver. The remedy is a voice concern, not an information one. Give the character an agenda that shapes what they reveal, so that even a pile of backstory arrives filtered through a person. [corpus] Subtext and the management of what a character withholds is its own article, [Exposition & Subtext](exposition-and-subtext.qmd); whether a given voice belongs to the fiction's own surface or sits outside it is the question of [Diegetic Design](diegetic-design.qmd).
+
+## Where this fits
+
+**The bigger picture.** Character voice is the layer where the abstract machinery of a narrative becomes a person the reader can recognise. It sits between dialogue, which is the exchange voice performs in, and point of view, which sets the distance voice is heard from. It depends on consistency to survive contact with branching structure and the table, and almost everything in the Story family that involves a character speaking or thinking depends on it as well. In interactive forms it carries a load it never carries in prose fiction, because the author hands the wheel to the player and the voice has to drive itself. Get it right and a cast of strangers becomes a cast of people. Get it wrong and the most elaborate plot in the world is narrated by one voice in a row of masks.
+
+**Next steps.** Once the voices are distinct, the next concern is how they meet: the turn-taking, beats and silences of [Dialogue Craft](dialogue-craft.qmd). To set the distance those voices are heard from, and the POV taxonomy that governs it, work through [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd). To keep a voice stable across branches, authors and months of writing, the discipline is [Voice & Register Consistency](voice-and-register-consistency.qmd). And to build the supporting cast that each voice belongs to, rather than the speech itself, turn to [NPC Craft & Voicing](npc-craft-and-voicing.qmd).
+
+## Sources
+
+- Crystal, David. *The Cambridge Encyclopedia of Language*. Cambridge University Press, 1987. (Idiolect as a linguistic concept.)
+- Fitzgerald, F. Scott. *The Great Gatsby*. Charles Scribner's Sons, 1925. ("Old sport" as recurring verbal signature.)
+- Kennedy, Marcy. *Deep Point of View*. Tongue Untied Communications, 2015.
+- Nelson, Jill Elizabeth. *Rivet Your Readers with Deep Point of View*. 2012.
+- Gardner, John. *The Art of Fiction: Notes on Craft for Young Writers*. Alfred A. Knopf, 1984. (The five levels of psychic / narrative distance.)
+- Kenner, Hugh. *Joyce's Voices*. University of California Press, 1978. (The Uncle Charles Principle.) Summary: <https://en.wikipedia.org/wiki/Uncle_Charles_Principle>
+- Fludernik, Monika. *The Fictions of Language and the Languages of Fiction*. Routledge, 1993. (Free indirect discourse.)
+- Casagrande, June. *The Best Punctuation Book* (full title *The Best Punctuation Book, Period*). Ten Speed Press, 2014. (Rendering dialect without heavy phonetic spelling.)
+- Steinbeck, John. *Of Mice and Men*. Covici Friede, 1937. (Dialect through syntax and idiom, not spelling.)
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
+- [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd)
+- [Audience & Age-Targeting](audience-and-age-targeting.qmd)
+- [Children's & YA Conventions](childrens-and-ya-conventions.qmd)
+- [Conflict Patterns](conflict-patterns.qmd)
+- [Dialogue Craft](dialogue-craft.qmd)
+- [Diegetic Design](diegetic-design.qmd)
+- [Emotional Beats & Investment](emotional-beats-and-investment.qmd)
+- [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd)
+- [Exposition & Subtext](exposition-and-subtext.qmd)
+- [Fantasy Conventions](fantasy-conventions.qmd)
+- [Heist & Caper Patterns](heist-and-caper-patterns.qmd)
+- [Historical Fiction](historical-fiction.qmd)
+- [Horror Conventions](horror-conventions.qmd)
+- [Moral Dilemmas & Consequence Chains](moral-dilemmas-and-consequence-chains.qmd)
+- [Mystery & Detective Fiction](mystery-and-detective-fiction.qmd)
+- [NPC Craft & Voicing](npc-craft-and-voicing.qmd)
+- [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd)
 - [Playbook Design](../systems-mechanics/playbook-design.qmd)
+- [Prompt Design in Solo Journaling](prompt-design-in-solo-journaling.qmd)
+- [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd)
+- [Romance & Relationships](romance-and-relationships.qmd)
+- [Science Fiction Conventions](science-fiction-conventions.qmd)
+- [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd)
+- [The Journal as Artefact](the-journal-as-artefact.qmd)
+- [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd)
+- [Voice & Register Consistency](voice-and-register-consistency.qmd)
 
 <!-- BACKLINKS:END -->

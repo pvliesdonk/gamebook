@@ -1,14 +1,119 @@
 ---
 title: "Historical Fiction"
-aliases: []
+aliases: ["Period Fiction", "Historical Setting Craft", "Period Voice"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [period-immersion, the-transported-reader, earned-authenticity]
+  problems: [anachronism, unreadable-archaism, sanitised-history]
+  components: [period-voice, research-iceberg, anachronism-control, content-warning]
+  genre: [historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: A real past, worn lightly enough that the reader walks through it instead of studying it.*
+
+A period setting is a promise. It says the world on the page once existed. Its furniture and its fears were real, and you have done the work to tell the two apart. The promise is easy to make and hard to keep. Even a reader who would never check a date will feel a wrong note the instant it sounds. A telephone in a Regency drawing room is an obvious failure. The character who shrugs off her own ruin "because times were changing" is a quieter failure, and no less fatal.
+
+The craft is a balance held against two falls. Lean too hard on accuracy and the story turns into a museum tour, every paragraph stopping to label the crockery. Lean too far the other way and the past becomes a costume party, modern people in old clothes saying modern things. The good historical writer lives in the narrow band between, where the period is everywhere felt and almost nowhere explained.
+
+This article is about holding that band. How much research to show and how much to bury. How to suggest a period voice the reader never has to decode. How to keep anachronism out of the language and the attitudes as well as the props. And, hardest of all, how to show a past full of cruelty the modern reader rejects without the story seeming to share its view. That last problem is the one that gets the most care here.
+
+## The Mechanism (How it works)
+
+### The research iceberg
+
+The first discipline is a ratio. Research deeply, show sparingly. The working rule from the corpus is to know roughly ten times more than ever reaches the page. [corpus] The surplus does not go to waste. It is what lets you write the visible tenth with confidence, so the detail you do show is the right detail and carries the weight of everything you left out.
+
+This is Hemingway's idea, stated for prose in general and inherited by the historical writer with particular force. In *Death in the Afternoon* he set it down. A writer who knows enough about his subject may leave things out. The reader will feel them as though they had been said. An iceberg keeps its dignity (he wrote) because only an eighth of it stands above the water. [researched] The part below the surface is not empty. It exists in full inside the writer's knowledge. The reader senses its mass without ever being shown it. For the historical writer the submerged seven-eighths is the period itself. It holds the price of bread and the law of inheritance. It holds the cost of a journey reckoned in days and in danger. None of it need be narrated. All of it shapes how a character moves through the world.
+
+The failure this guards against has its own name in the corpus, the info-dump. The story halts so the author can deliver a lecture on guild structure or the order of a Mass. [corpus] The fix is never to cut the research. The fix is to dissolve it. A fact carried in an action or an offhand line will land. The same fact delivered as exposition leaves the reader cold. A related trap is history tourism. Here the period is wallpaper and the characters could move into any century without a word of rewriting. [corpus] The test is brutal and simple. If you could swap the setting out and the scene still worked, the history was never doing anything. This is the same demand worldbuilding makes of any invented place. The world has to press on the people in it, which is [Worldbuilding Patterns](worldbuilding-patterns.qmd).
+
+A practical sorting helps you spend the research where it counts. Some things have to be right. Others can flex for the story. A third group barely registers.
+
+| Get it right | Can flex | Barely matters |
+|---|---|---|
+| Major events and who won them [corpus] | The exact date of a private meeting [corpus] | The weather on a given day [corpus] |
+| Technology that affects the plot [corpus] | Composite characters standing in for several real ones [corpus] | Exact menus and recipes [corpus] |
+| Social structures, laws, what was possible for whom [corpus] | A minor timeline nudged for dramatic timing [corpus] | Precise fashion, unless the plot turns on it [corpus] |
+| When and how real people died [corpus] | The invented words of a real person, within reason [corpus] | Fine domestic trivia no scene rests on [corpus] |
+
+The corpus names the governing principle "small lies, big truth." [corpus] Move a meeting from a Tuesday to a Thursday for the sake of the drama and no harm is done. But let the wrong side win a famous battle, and you break the contract the reader came in trusting. The small lie serves the story. The big truth is what the reader is owed.
+
+### Period voice without the fancy dress
+
+Period speech is where good intentions go to die. Reach for authenticity and you get the archaic-overload sentence, all *prithee* and *wouldst thou deign*, which is exhausting to read and usually wrong about its own period anyway. [corpus] Reach for readability and you get the modern intrusion, a character "totally stressed about the war," and the spell breaks just as hard. [corpus] The target sits between them: the illusion of period speech, not a transcription of it. [corpus]
+
+The lever that does most of the work is not vocabulary but rhythm. Read period sources aloud and they will teach you a cadence. The formality runs a little higher; the clause is weighted differently. That cadence conveys an era more convincingly than any amount of antique vocabulary. [corpus] On top of the rhythm you strip out the obvious anachronisms. Then you scatter in a thin handful of period-correct terms, and stop there. The reader hears the past and never has to translate it. This is the same restraint dialect work lives by: carry the accent in syntax and word choice rather than respelled words, a discipline that belongs to [Character Voice](character-voice.qmd) and applies whole to period speech. One or two consistent markers read as a voice; a wall of them reads as a code.
+
+The worst version is neither extreme but the mixture of the two. "Methinks we should check out that tavern" puts an archaism and a modernism in the same breath. The result reads as parody whether or not you meant it to. [corpus] What the reader's ear actually tracks is consistency of register. Holding a single level across a whole cast and a whole book is its own discipline, [Voice & Register Consistency](voice-and-register-consistency.qmd). Class and schooling then vary that level from speaker to speaker. The educated and the labouring, the servant addressing a master and the same servant among equals, each sit at a different formality, and the differences should be audible without being announced. [corpus]
+
+::: {.callout-note}
+### The Specimen
+Hilary Mantel's *Wolf Hall* (2009) is the case study for period voice that refuses fancy dress. The Tudor court is rendered in present tense and in dialogue that sounds startlingly close, with none of the *gadzooks* furniture readers brace for in a Tudor novel. [researched] The closeness is not carelessness. It is built from free indirect discourse that keeps the reader inside Thomas Cromwell's head, and from dialogue where characters rarely state themselves plainly; they hint and test and threaten under the surface, so the period reads as lived rather than performed. [researched] The free-indirect technique doing the work here is the close-distance lever set out in [Character Voice](character-voice.qmd), turned to a historical end: the past arrives in the focal character's own idiom, which makes it feel present without making it feel modern. The research is total and almost none of it surfaces. The iceberg is doing its job.
+:::
+
+### The four anachronisms
+
+Anachronism is the genre's signature failure, and it helps to know that it comes in four kinds, because writers who guard against one often leave the others wide open. The object anachronism is the easy one to catch: the wristwatch on the Roman, the match struck decades before matches existed. [corpus] The harder three hide in the language and the mind.
+
+| Type | What slips in | A tell |
+|---|---|---|
+| Object | A technology used before it existed | A match before 1826, a photograph before the 1820s, antibiotics before 1928 [corpus] |
+| Language | A word that did not exist or meant something else | "Scientist" before 1834, "okay" before 1839, "boyfriend" before the 20th century [corpus] |
+| Concept | A modern idea applied to a mind that could not hold it | Evolution before Darwin, modern psychology before Freud, the modern sense of privacy in a communal world [corpus] |
+| Attitude | A modern social pattern in a society that forbade it | Casual mixed-gender freedom in a strict society, easy class mobility in a rigid one [corpus] |
+
+The language anachronism is the one a careful writer still trips over, because the words feel old enough. "Scientist" sounds timeless and was coined in 1834, by William Whewell, by analogy with "artist," to give a single name to people who had been "men of science." [researched] "Okay" feels eternal and entered print on 23 March 1839, in the *Boston Morning Post*, as a jokey abbreviation of "oll korrect." [researched] The defence is mechanical. When a word feels modern, check its etymology before you trust it. The same habit catches the foods that arrive by trade and conquest. The potato and the tomato were absent from Europe before the sixteenth century; coffee and tea waited on the routes that carried them. [corpus] The naming of invented people and places sits adjacent to this, since a name out of period dates a scene as surely as a wristwatch, which is the concern of [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd).
+
+The concept and attitude anachronisms are subtler and more dangerous, because they masquerade as sympathy. The commonest is the cast where every likeable character holds twenty-first-century values, which feels false and quietly tells the reader the past was peopled by moderns in waiting. [corpus] The opposite mistake is the same error from the other side: the protagonist who knows what no one of their class or sex or century could know. [corpus] A character may well run ahead of their time. But the corpus is firm that they should reach progressive conclusions by period-appropriate reasoning. They have to be a product of their era and not a visitor from ours. [corpus] An abolitionist argued from scripture and natural right, never from a vocabulary that did not yet exist.
+
+The reverse pull, which makes the marginalised character think and act like a free modern, is the attitude anachronism wearing kind intentions, and it deserves its own warning under prejudice below. Underneath all four kinds runs a single failure the corpus flags hard, the inconsistent level of detail. Some things are exactly right and others plainly wrong, and that mismatch destroys the reader's trust faster than uniform looseness ever would. [corpus] Get the cavalry sabre right and then have a peasant casually discuss her career options, and the reader stops believing any of it.
+
+### Showing a bigoted world without endorsing it
+
+Here is the hardest problem in the genre, and it cannot be solved by avoidance. Real periods held views the modern reader finds abhorrent. There was slavery and there were its defenders; there was the law that treated women as property. The persecution of faith and the brutalities of empire belong on the same list. [corpus] A historical fiction that pretends these were absent is not gentle. It is dishonest, and the dishonesty has a cost, because sanitising the past erases the people who actually suffered under it. [corpus] The bigotry has to be on the page. The work is to put it there so the world is shown holding the view while the narrative plainly does not approve.
+
+The mechanism that separates the two is the gap between depiction and endorsement, and the corpus marks both edges of it. One edge is sanitising. You scrub the prejudice out and produce a past that never existed. [corpus] The other edge is gratuitous depiction. Here the violence against the marginalised is dwelt on in detail and to no narrative purpose. That crosses from witness into spectacle. [corpus] The honest middle does three things. It shows that the prejudice existed. It refuses to have the narrative bless it. And it lets the reader see the injustice as injustice without a character stepping out of the story to label it so. [corpus] The labelling is its own failure. Take a speech against historical wrong delivered in modern terms by a character who could not have framed it that way. It snaps the reader out of the period and reassures them cheaply. The injustice should land through what happens and what it costs. A lecture cannot carry it.
+
+Two named traps sit on either side of the honest path. The modern saviour resolves a historical evil with the light of present-day enlightenment, which flatters the reader and falsifies the history at once. [corpus] Its mirror is the anachronistic conscience, the character carrying a fully modern set of values in a century that had no path to them, with no account of how they got there. [corpus] Both substitute a comfortable present for an uncomfortable past. The corpus's steer toward documentary research, finding out how affected groups actually lived rather than imagining it, is partly a craft instruction and partly an ethical one, and it is why the source-and-verification posture matters as much here as anywhere in the genre. The honest depiction of a period document, with its casual cruelties intact, is itself a production concern when the artefact is physical, which is [Artefact Design & Document Production](../space-props-materiality/artefact-design-and-document-production.qmd).
+
+The professional safeguard against the writer's own blind spots is the sensitivity reader, sometimes called an authenticity reader: a reader from the affected group who checks the manuscript for caricature, error, and the wounds the author cannot see. [researched] The practice draws fire from both directions and is genuinely contested, but the underlying difficulty it addresses is real, and it sharpens rather than softens the work most of the time. [researched] The related move, common in adult historical fiction, is the prefatory note that states plainly that the views and language in the book reflect a bias common in its period and not the author's own. [researched] It lets the text stay period-accurate while the frame around it declines to endorse.
+
+::: {.callout-warning}
+### The Hazard
+The danger is presentism. It judges the past by the standards of the present and then writes up the result as though it were the past. [researched] It shows up as the cast of modern minds in old costume. From the inside it feels virtuous, and that feeling is what makes it hard to catch. The tell is a character who is never wrong by our lights and who holds every modern value while paying nothing for it. Real people of any period were shaped by their world, the parts we now reject included. A protagonist with no period-bound failings is not a triumph of empathy but a failure of research. The harder, truer version lets a sympathetic character carry a genuine prejudice of their time. It shows what that prejudice costs and whom it harms, and it trusts the reader to judge it without being told to. Sanitising the protagonist's conscience is the same error as sanitising the period's cruelty. Both replace the real past with a flattering one.
+:::
+
+### The player at the edge of fixed history
+
+The interactive forms add a tension the novel never faces. History is fixed and player agency demands choice, and the two seem to pull against each other. [corpus] The corpus's resolution is a split between two layers. Macro history, the wars and rulers and technologies, stays fixed; micro history, one person's private life and personal outcomes, stays open. [corpus] The player steers a fictional life through real events, free where it touches only themselves and constrained where it would rewrite the record. The alternative is to declare an alternate history openly. Divergence from the record becomes the premise, and the player's choices spin a timeline that never was. Signal that plainly so the reader knows the rules. [corpus]
+
+When the player can make an ahistorical choice, the period answers back. Breaking a social norm draws social rejection; a forbidden act draws legal consequence; reaching for a technology that does not exist simply fails. [corpus] The constraint is not the designer scolding the player. It is the world behaving as the world did, and it is what keeps a branching historical story honest instead of letting the player float free of the era. This is the genre-specific shape of a contract that runs across every setting, the promise a work makes to its audience and the one craft lever that keeps it, which is the comparative subject of [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd).
+
+Across the table and in live play the same period discipline governs, transposed from prose into props and set. A historical murder-mystery party or an immersive room carries its era through period-appropriate objects and dressing rather than through narration, so anachronism control becomes a sourcing question, the wrong object as jarring in the hand as the wrong word on the page. [synthesis] The research-and-verification posture that governs the prose governs the prop table too: a document that has to read as genuinely of its period inherits every constraint above and adds the physical ones. [synthesis] Keeping a long-running historical world internally consistent across many sessions or instalments, so that an established date or death stays put, is a continuity discipline shared with [Canon Management](canon-management.qmd).
+
+## Where this fits
+
+**The bigger picture.** Historical fiction is a genre contract laid over the ordinary machinery of character, voice and world. It does not replace any of that craft; it constrains it. Voice still has to be distinct, but now within a period register. The world still has to feel lived-in, but now it has to match a real record. What the genre adds is a verification posture, a standing obligation to know what was true and to wear that knowledge lightly, plus the particular moral weight of depicting a past the reader is right to reject. It sits beside the other genre articles as one contract among several, and it leans hardest on the voice and worldbuilding craft that carry its period across to the reader.
+
+**Next steps.** To build the period speech itself, work from the voice fundamentals in [Character Voice](character-voice.qmd) and hold the level steady with [Voice & Register Consistency](voice-and-register-consistency.qmd). To make the period press on the characters rather than sit behind them, the discipline is [Worldbuilding Patterns](worldbuilding-patterns.qmd), and to keep names from dating a scene, [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd). To see how this contract compares with the other genres and where it is unusually demanding, start from [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd). And to hold a fixed historical record steady across a long branching or serialised work, the continuity tool is [Canon Management](canon-management.qmd).
+
+## Sources
+
+- Hemingway, Ernest. *Death in the Afternoon*. Charles Scribner's Sons, 1932. (The iceberg / theory of omission.) Summary: <https://en.wikipedia.org/wiki/Iceberg_theory>
+- "scientist, n." Etymology and 1834 coinage by William Whewell. *Online Etymology Dictionary*. <https://www.etymonline.com/word/scientist>; NPR, "How The Word 'Scientist' Came To Be," 21 May 2010. <https://www.npr.org/2010/05/21/127037417/how-the-word-scientist-came-to-be>
+- "The Hilarious History of 'OK'." *Merriam-Webster*. <https://www.merriam-webster.com/wordplay/the-hilarious-history-of-ok-okay>; "OK enters national vernacular, 23 March 1839." *History.com*. <https://www.history.com/this-day-in-history/march-23/ok-enters-national-vernacular>
+- Mantel, Hilary. *Wolf Hall*. Fourth Estate, 2009. (Present-tense, modern-feeling period dialogue; free indirect discourse.) Booker Prize feature: <https://thebookerprizes.com/the-booker-library/features/celebrating-hilary-mantel>
+- Larbalestier, Justine. "Writing about Racism in the Past." 13 July 2012. <https://justinelarbalestier.com/blog/2012/07/13/writing-about-racism-in-the-past/>
+- "Do I Need a Sensitivity Reader?" History Through Fiction. <https://www.historythroughfiction.com/blog/sensitivity-reader>
+- "What Is Sensitivity Reading and Do You Need It?" Artful Editor. <https://www.artfuleditor.com/blog/2022/12/6/what-is-sensitivity-reading-and-do-you-need-it>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd)
+- [Canon Management](canon-management.qmd)
+
+<!-- BACKLINKS:END -->

@@ -130,14 +130,18 @@ In a puzzle hunt or an alternate reality game the set is the real world itself, 
 
 ## Referenced by
 
+- [A Taxonomy of Genre Conventions](../story-character-voice/a-taxonomy-of-genre-conventions.qmd)
 - [Accessibility in Live & Interactive Games](../players-social-dynamics/accessibility-in-live-and-interactive-games.qmd)
 - [Artefact Design & Document Production](artefact-design-and-document-production.qmd)
 - [Cue Management & GM Station](cue-management-and-gm-station.qmd)
+- [Diegetic Design](../story-character-voice/diegetic-design.qmd)
 - [Digital Props](digital-props.qmd)
 - [Dungeon & Spatial Topology](dungeon-and-spatial-topology.qmd)
 - [Endings & Structural Closure](../structure-pacing/endings-and-structural-closure.qmd)
+- [Environmental Storytelling & Setting as Character](../story-character-voice/environmental-storytelling-and-setting-as-character.qmd)
 - [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
 - [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd)
+- [Horror Conventions](../story-character-voice/horror-conventions.qmd)
 - [Lock Taxonomy](lock-taxonomy.qmd)
 - [Materials, Durability & Reset](materials-durability-and-reset.qmd)
 - [Physical Clue Formats](physical-clue-formats.qmd)

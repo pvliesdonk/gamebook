@@ -1,14 +1,117 @@
 ---
 title: "Horror Conventions"
-aliases: []
+aliases: ["Fear Mechanics", "Dread Design", "The Horror Contract"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [dread, vulnerability, earned-fear]
+  problems: [cheap-scares, numbed-reader, safe-protagonist]
+  components: [threat, sanity-meter, death-state, tension-curve]
+  genre: [horror, gothic, cosmic-horror]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: The craft of making a reader afraid on purpose, and keeping them afraid without wearing the fear out.*
+
+Horror is the one genre that names its job in its reaction. A comedy that does not make you laugh has failed at something you can argue about. A horror story that does not frighten you has simply failed. The contract is blunt. You will feel real dread, and the scares will be earned rather than cheap. Everything in the craft serves that single promise and breaks the moment the promise does.
+
+What makes fear hard to engineer is that it does not survive repetition. Laughter can come again and again from the same joke told well. Fear numbs. Show the monster too often and it becomes furniture. Startle the reader too many times and they brace for the next one and feel nothing. So the genre is built less around delivering fear than around rationing and hiding and timing it, so that each turn of the screw still bites.
+
+In an interactive work the contract grows a second clause that prose horror never signs. The reader is not watching a victim. They are the victim, and the wheel sits in their own hands. That single fact reshapes how vulnerability has to be built. Someone who feels safe cannot be frightened. Strip away all power, though, and the player simply puts the controller down. This article is about the fear and how to keep it, and about the particular trouble of frightening someone who can fight back.
+
+## The Mechanism (How it works)
+
+### Three grades of fear
+
+The oldest distinction in the craft is between fear of the unknown and fear of the known thing in front of you, and it predates the genre's modern shape by two centuries. The Gothic novelist Ann Radcliffe drew the line in 1826. Terror and horror, she wrote, are opposites: the first "expands the soul, and awakens the faculties to a high degree of life," while the other "contracts, freezes, and nearly annihilates them." [researched] Terror is the dread of what might be coming, fed by obscurity and the imagination. Horror is the cold shock of the thing revealed. The reader's own mind does the work of terror and merely receives the shock of horror. That is why terror reaches deeper.
+
+Stephen King sharpened the same idea into a working hierarchy a designer can hold in one hand. He reached for terror first and called it the finest of the three. Failing that he tries for horror. Only as a last resort does he reach for the gross-out, the gag-reflex of revulsion that is the fallback "when all else fails." [researched] The three are not interchangeable. They differ in how long they last and how much of the reader they recruit.
+
+| Grade | What it is | What it recruits | How long it lasts |
+|---|---|---|---|
+| Terror | Dread of the unseen, the not-yet | The reader's own imagination | Sustained, can run for whole scenes [researched] |
+| Horror | The shock of the thing revealed | Recognition, recoil | A spike, then it fades [researched] |
+| Revulsion | Visceral disgust, the gross-out | The gag reflex | A moment, and easily numbed [researched] |
+
+The practical lesson sits in the third column. Terror is the only grade that scales with time, because the reader supplies the content and the worst thing in the room is the one they bring themselves. The designer who leans on revulsion is spending the cheapest currency and will go numb fastest. None of this means revulsion has no place. It means the budget runs the other way from instinct. Most of the work is terror. Horror is the occasional release, and the gross-out is rare seasoning kept for the rare moment. The same ordering explains why the unseen so reliably out-scares the revealed.
+
+### The rule of less
+
+H. P. Lovecraft opened his survey of the genre with the sentence the whole craft turns on: "The oldest and strongest emotion of mankind is fear, and the oldest and strongest kind of fear is fear of the unknown." [researched] From that single claim follows the most durable technique in horror, the rule of less. What you withhold frightens more than what you display, because the reader's imagination is a better monster-maker than you are and it works for free.
+
+In practice this means showing the trace and not the cause. The sound of footsteps rather than the thing that makes them. The blood trail rather than the act that left it. The aftermath rather than the event, and the character's face rather than what the character is looking at. [corpus] Each of these hands the worst part to the reader to finish. The discipline is to delay revelation for as long as the tension keeps paying, and when you must reveal, to show less than the reader expected so that some of the dread survives the showing. [corpus] A monster fully lit and fully explained has nowhere left to live except on the screen, and the screen is the least frightening place a monster can be.
+
+This is also where most horror goes wrong by over-explaining. A threat loses its grip the moment it is fully accounted for, because an explained thing is a contained thing. The fix is to leave questions open and to imply rather than state. Let the rules of the supernatural stay half-seen even while they stay consistent. [corpus] Lovecraft's cosmic horror pushes this to its limit. The entities are indifferent to humanity and beyond human comprehension. The horror is precisely that they cannot be understood at all. They can only be survived, or put off. [researched] The unknown is not a gap to be filled before the ending. In the strongest horror it is the ending.
+
+### Fear is built on what the reader loves
+
+A threat to a stranger is news. A threat to someone the reader cares about is fear. Horror works by making the reader afraid *for* a character before it makes them afraid *of* anything, so the genre depends on the same machinery that drives any emotional investment. You establish what a person hopes for and who they love, and you let the reader watch them be vulnerable. Only then do you put the thing they love in danger. [corpus] The order is not negotiable. Threaten first and the reader has nothing at stake; the monster is loose in a house full of people they have no reason to protect. Build the attachment first and every shadow in that house now has weight. The wider craft of that attachment is its own subject, [Emotional Beats & Investment](emotional-beats-and-investment.qmd); horror is the genre that spends it hardest.
+
+Vulnerability is the other half. A protagonist who is never truly in danger drains the tension out of every scene around them, because the reader learns they are safe and safe people are not frightening to follow. [corpus] The remedy is to make the danger land. Injure the protagonist and kill off the supporting cast, and let the room they thought was safe stop being safe. The seductive failure here is the invincible viewpoint character, kept alive because they are the one telling the story. A reader feels that immunity long before they can name it, and once they feel it the dread leaks away.
+
+### Atmosphere does the slow work
+
+Between the scares, atmosphere keeps the dread warm, and it runs on three reliable engines. Isolation cuts the character off, whether by geography (the remote cabin, the dead-zone phone), by society (no one believes them), or by time (night, the storm, the locked door). [corpus] Wrongness makes the familiar slightly strange, the uncanny detail that the eye catches before the mind can explain it. Decay shows time and entropy winning, in the abandoned and the rotting and the falling-apart. [corpus] This is setting doing the threatening. In no other genre is the environment so fully a character in its own right, a craft treated directly in [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd).
+
+Atmosphere reaches the reader through the senses, and horror earns a great deal by going past the eye. Silence in the place where sound belongs, then sound rising in a room that ought to stay quiet. The smell of rot, or the wrong smell entirely: cut flowers in a sealed room. A sudden cold spot. A wet texture underhand. The feeling of breath on the neck from no source. [corpus] The full sensory grammar of a built space, and how a designer layers it to hold someone inside a world, is the home territory of [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd); horror borrows that grammar and tunes every channel toward dread. The fear is rarely in the loud thing. It is in the quiet wrongness the loud thing interrupts.
+
+### Pacing: the tension curve and its rest stops
+
+Sustained fear is a contradiction, because sustained anything stops being felt. So horror moves in a curve rather than a climb. Build tension; release a little; build higher and release again, with the rest points doing as much work as the scares. [corpus] The quiet moments are not filler. They let the reader process the last fright. A relentless assault burns away the capacity to be frightened; the pauses are what give it back. A scare then lands harder against that restored quiet. A story that tries to be maximally scary in every scene trains the reader to feel nothing, the most common way an ambitious horror project fails. [corpus]
+
+Inside the curve, each encounter climbs by stages. A hint comes first, then direct evidence, then a close call, then real consequences, then the full confrontation. [corpus] The safe space is the curve's most useful tool, and its most treacherous. Respite has to feel earned. Once it does, it can be violated for maximum effect: the locked room that turns out not to be locked; the ally who turns out to be the threat. The longer arc of energy across a whole session, the planned alternation of intensity and rest that this curve is one instance of, is [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd). Horror is that pacing discipline run at its most extreme, because the genre punishes a flat curve faster than any other.
+
+### The cast horror keeps
+
+Horror leans on a small set of recurring roles, and they are worth knowing because a reader knows them too, which makes both honouring and subverting them legible. The Final Girl is the most studied. The film scholar Carol Clover named her in 1992. She is the sole survivor who endures terror and degradation and then either kills the threat or is saved at the last moment. Clover's argument was that the audience, of any gender, aligns with her rather than with her tormentor. [researched] Around her sit the others. The Harbinger who warns and is not believed. The Skeptic who refuses the supernatural explanation, a role that fits a player-character unusually well because the player's own disbelief mirrors the character's. The Monster as a character rather than an obstacle, most frightening when it was human once. The Sacrifice whose death serves the group, or fails to. [corpus] None of these is a formula to follow blindly. They are a shared vocabulary, and the craft of bending them without breaking the emotional truth they carry is the subject of [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd). How any of these figures actually sounds on the page, the idiolect that keeps the Harbinger from blurring into the Skeptic, is [Character Voice](character-voice.qmd).
+
+### The interactive turn: vulnerability you can hold
+
+Everything above belongs to horror in any medium. What follows belongs to the kind the reader steers. In prose the author guarantees the protagonist walks into the dark hallway. In an interactive work the player decides, and the player keeps clear of the dark hallway unless the design has made them feel they have no safe alternative. Fear in an interactive form is a property of the player's situation rather than the character's. The situation is built from scarcity and consequence. Resources stay thin and information imperfect, while time presses against the standing impossibility of saving everyone. [corpus] Choice under fear should feel pressured, with no clearly good option and not quite enough time to weigh it. [corpus]
+
+The hard balance is between agency and helplessness, and it has a narrow sweet spot. Too much agency removes the fear, because a player who can always win faces no real threat. Too little breeds frustration rather than dread: a player who can never affect the outcome simply gives up. The target is agency that does not guarantee safety. The choices are real and genuinely alter what happens. None of them buys a clean escape. [corpus] This is the exact tension the genre lives in. The medium offers the player power, and horror's whole job is to grant just enough of it to keep them playing while withholding enough to keep them afraid.
+
+The death-state is where that tension becomes concrete. In an interactive horror work death has to feel genuinely possible. A threat that cannot kill is hollow. But the death cannot be cheap or random either. Make it so and the reader stops trusting the world and comes to resent it. [corpus] The craft is to warn through atmosphere so a death reads as earned in hindsight, and to give the player a real chance to avoid it, so that each death carries weight rather than landing as an arbitrary punishment. A cheap death and a withheld death fail in the same direction: both tell the player the danger was never real.
+
+::: {.callout-note}
+### The Specimen
+Chaosium's *Call of Cthulhu* (1981) turned cosmic horror's central claim, that knowledge itself is dangerous, into a number on the character sheet. Each investigator carries a Sanity score equal at the start to their POW characteristic. The score bleeds away as they encounter the Mythos. A notation like "1/1D6" means one point lost on a successful Sanity roll and a roll of 1D6 on a failed one. Lose five or more at once and the investigator risks temporary insanity. [researched] The mechanic makes the genre's logic mechanical and unavoidable. Investigating the horror is most of the way forward, and investigating it is what destroys you, so the system itself enforces the cosmic-horror contract that there is no clean victory, only survival or delay. The sheet does what prose can only assert: it makes the player feel the cost of looking.
+:::
+
+### Sanity, corruption, and the fear of saving
+
+The most distinctive interactive-horror mechanics are the ones that track a second kind of damage beneath physical health. A sanity or corruption meter records mental or moral deterioration, and its power is that it changes the game as it drops. Low sanity can distort what the character perceives. Familiar options shut while worse ones crack open in their place. The player's failing mind becomes the medium of the horror rather than a status line beside it. [corpus] This gives a horror work failure states beyond death. That matters: the dread of becoming something is often sharper than the dread of dying. A meter that merely counts down to a game-over is a health bar with a costume; a meter that warps the world it measures is the genre working as designed.
+
+Resource scarcity does similar work, and survival horror pushed it furthest by making the act of saving itself a scarce resource. *Resident Evil* (1996) tied saving to ink ribbons, a consumable the player had to find and spend, so that saving became a gamble rather than a reflex. [researched] Save too often and you run out when it matters; hoard your saves and you risk losing a long stretch of hard-won progress to a single death. [researched] The mechanic manufactures dread in a place no prose horror can reach: the boundary between the fiction and the player's own anxiety about losing their time. This is fear of the unknown relocated into the save menu. It works for the same reason the rule of less works. The threat the player cannot see is the run they might have to repeat.
+
+Here a real tension surfaces, and the design has to hold it deliberately. Horror is rarely the only thing an interactive work asks of its player. Many horror works are works of investigation too, with puzzles to solve and clues to read. Puzzle-solving is calm, deliberate, methodical work, the opposite of the pressured, half-blind state horror cultivates. The two pull against each other. Crank the dread to its peak and the player cannot think straight enough to solve anything; let them settle into careful problem-solving and the dread drains away. The escape-room tradition feels this acutely, where the same confinement-and-decay engine that generates a horror room's atmosphere also has to leave players composed enough to work the locks. [synthesis] The resolution is the tension curve again, used on purpose. The quiet stretches of the curve are where the thinking happens. The spikes are where the fear lives. A horror work that wants both has to schedule them rather than run them at once. The fairness owed to the puzzle-solving half, that a clue stays reachable even when the player is frightened, is the contract held by [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+### The duty of care
+
+Horror handles material that can genuinely wound a reader, and the responsible version of the craft treats that as a design constraint rather than an afterthought. Content warnings should be specific (naming graphic violence, self-harm, body horror, rather than a vague "mature content"), placed up front before the reader has sunk time into the work, and written to warn about presence without spoiling detail. [corpus] The darkness itself should serve the story rather than exist for its own sake. Gratuitous horror numbs the reader instead of frightening them, a craft failure as much as an ethical one. [corpus] In an interactive work this duty has a mechanical edge. The player is inside the experience rather than watching it, and the safety scaffolding that lets a designer push hard while keeping the participant able to step back is carried in the rules themselves, the subject of [Safety Systems as Mechanical Layer](../systems-mechanics/safety-systems-as-mechanical-layer.qmd).
+
+## Where this fits
+
+**The bigger picture.** Horror sits in the Story family as the genre that most openly fuses the narrative layer with the mechanical one. Because its fear depends on emotional investment, it borrows from the same machinery as any character-driven work. Atmosphere ties it to setting and the senses. It leans on environmental and sensory craft harder than most genres do. And in interactive forms the dread is carried as much by meters and scarcity and death-states as by prose. This is a story genre that reaches deep into systems. It is also the genre that travels into live and physical play with the least loss, because confinement, isolation, decay, and sensory wrongness all build more easily in a real room than on a page. What does not survive the journey intact is the calm half: a frightened player solving a puzzle is a contradiction the design must schedule around rather than wish away.
+
+**Next steps.** To build the attachment that horror later spends, work through [Emotional Beats & Investment](emotional-beats-and-investment.qmd). To make the environment threaten on its own, the craft is [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd), tuned through the sensory grammar of [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd). To keep the recurring cast honest while bending it, turn to [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd), and to see where horror sits among the other genre contracts, [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd). When the dread has to coexist with deliberate puzzle-solving, the fairness owed to the solver is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). For the scheduling of fear against rest, see [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd).
+
+## Sources
+
+- Radcliffe, Ann. "On the Supernatural in Poetry." *New Monthly Magazine*, 1826. (The terror / horror distinction.) <https://www.thegothiclibrary.com/horror-vs-terror-and-the-gender-divide-in-gothic-literature/>
+- King, Stephen. *Danse Macabre*. Everest House, 1981. (Terror, horror, and the gross-out as a hierarchy of fear.) <https://en.wikipedia.org/wiki/Danse_Macabre_(King_book)>
+- Lovecraft, H. P. "Supernatural Horror in Literature." 1927 (revised 1933–35). (Fear of the unknown; cosmic indifferentism.) <https://www.hplovecraft.com/writings/texts/essays/shil.aspx>
+- Clover, Carol J. *Men, Women, and Chain Saws: Gender in the Modern Horror Film*. Princeton University Press, 1992. (The Final Girl.) <https://press.princeton.edu/books/paperback/9780691166292/men-women-and-chain-saws>
+- Petersen, Sandy, and Lynn Willis. *Call of Cthulhu*. Chaosium, 1981. (The Sanity mechanic.) Rules summary: <https://cthulhuwiki.chaosium.com/rules/sanity.html>
+- Capcom. *Resident Evil*. 1996. (Ink ribbons and saving as a scarce resource.) <https://residentevil.fandom.com/wiki/Ink_Ribbon>
+- Burke, Edmund. *A Philosophical Enquiry into the Origin of our Ideas of the Sublime and Beautiful*. 1757. (The obscurity-and-terror tradition Radcliffe drew on.) <https://en.wikipedia.org/wiki/A_Philosophical_Enquiry_into_the_Origin_of_Our_Ideas_of_the_Sublime_and_Beautiful>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd)
+- [Audience & Age-Targeting](audience-and-age-targeting.qmd)
+- [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd)
+
+<!-- BACKLINKS:END -->

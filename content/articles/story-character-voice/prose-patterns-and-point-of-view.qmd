@@ -1,22 +1,111 @@
 ---
 title: "Prose Patterns & Point of View"
-aliases: []
+aliases: ["POV", "Narrative Perspective", "Prose Rhythm", "Sentence Craft"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, tabletop, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [immediacy, reader-immersion, controlled-pace]
+  problems: [flat-prose, pov-break, the-you-problem]
+  components: [sentence-rhythm, sensory-detail, pov-mode, tense]
+  genre: [literary, mystery, horror]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: The two dials under all narration: how close the camera sits, and how the sentences breathe.*
+
+Read a page aloud and you hear two things at once. First, you hear who is telling it and from how far away. Second, you hear the rhythm of the telling: the way the sentences run long before they snap short. Those are the two controls this article is about. One is perspective: the standpoint the reader watches the story from. The other is rhythm: the pace the words move at on the page.
+
+Most prose drifts into both settings by accident. A writer reaches for whatever pronoun feels natural and falls into a default sentence length, deciding neither on purpose. The result reads flat. The choices were not wrong; no choice was made at all. The craft starts when you put your hand on each dial and turn it deliberately.
+
+Interactive fiction makes the perspective dial harder than prose fiction ever does. Its oldest convention points the camera at the reader and calls them "you", and that single word carries a load it was never asked to carry in a novel. The same player who is being addressed is also choosing what happens next, so the perspective has to hold steady while a stranger drives. This article lays out the perspective taxonomy and the rhythm craft together, because in practice you set them in the same breath.
+
+## The Mechanism (How it works)
+
+### Sentence rhythm: pace lives in the length
+
+The first thing a reader feels, before any single image registers, is tempo. Short sentences move fast. They build pressure under the breath and push the eye forward. Long sentences slow the reader down. They open room to drift and to notice the small things, the way a held note stretches a moment past its natural length. The pace of a passage is set less by what happens in it than by the length of the sentences carrying it. [corpus]
+
+The failure is monotony. A run of sentences all the same length flattens into a drone, and the reader stops hearing the prose and starts skimming it. Gary Provost built the standard demonstration of this from the inside: a paragraph of five-word sentences that deadens by its fourth line ("The ear demands some variety"), then breaks its own pattern to prove the cure by varying the lengths until the writing finds a tune. [researched] The cure is mechanical. Vary the lengths on purpose. Put a short sentence after a long one and let the contrast do the work.
+
+Rhythm also has to match the moment it carries. Long, flowing sentences during a chase feel wrong, like running in deep water; short, choppy ones during a quiet reflection jar the reader out of the calm. [corpus] The tactic that follows is to write the rhythm the scene feels like rather than the rhythm you happen to be in. A panic comes in fragments. A held silence is one long unbroken line. The most reliable edit is also the oldest. Read the passage aloud. Wherever you stumble or run short of breath, the reader will too. [corpus]
+
+### Sensory grounding: the concrete over the abstract
+
+A scene without sensory detail floats. The reader is told things are happening but cannot stand anywhere while they happen, and abstract moments (a decision, a memory, a line of dialogue) feel most untethered of all. The fix is to anchor them in the body and the room. "You think carefully about the offer" gives the reader nothing to hold; "your hands still as the clock fills the silence" puts them in a chair in a room with a decision in front of them. [corpus] Introspection and exposition need this anchoring most, precisely because they have no action of their own to ground them.
+
+Two habits make sensory writing land. The first is restraint about how many senses to load at once. A workable default is to reach for two by reflex, usually sight and sound, then add a third only where the scene earns the attention; flooding every paragraph with all five senses slows the pace to a crawl and blunts the moments that should stand out. [corpus] A sighted writer over-reaches for the visual by default, so leading a scene with a smell or a sound first is a cheap way to break the habit and make the description feel fresh. [corpus]
+
+The second habit is specificity. A precise noun outperforms a vague noun propped up with adjectives. "The Pit Bull barked" carries more than "the big dog barked loudly", because the specific breed does the work that the modifiers were straining to do. [corpus] Constance Hale makes the same case at book length: strong, exact nouns and verbs carry prose, and adjective-and-adverb pile-ups are usually a sign the nouns and verbs underneath are too weak. [researched] The discipline is to choose the right word once rather than the approximate word plus two qualifiers.
+
+### The paragraph as a unit of pace
+
+The paragraph is a pacing tool, not just a container for sentences. Where you break it controls how fast the reader moves and where their eye stops to rest. A long block of unbroken text reads as heavy and slow before a word of it is parsed; white space around a line gives that line weight. This matters everywhere, and it matters most on a screen, where reading is more fragmentary and a wall of text feels oppressive in a way it does not always feel in print. [corpus] Jakob Nielsen's usability research found that people scan screens in an F-shaped sweep instead of reading them line by line, which makes white space structural rather than decorative. [researched] William Zinsser made the parallel argument for prose on paper. Short paragraphs and clean sentences are a courtesy to the reader's attention. They are not a dumbing-down of the work. [researched]
+
+The practical figure from interactive-fiction practice is to keep paragraphs to three or four sentences and lean on white space, tightening further to fifty or a hundred words for an action beat where the reader should be moving fast. [corpus] A single short paragraph set off alone (even one line of it) lands like a held breath. That isolation is itself a pacing device, the prose equivalent of a cut, and it belongs to the same craft as the breaks between scenes, which is [Scene Structure & Transitions](../structure-pacing/scene-structure-and-transitions.qmd).
+
+### The point-of-view taxonomy
+
+Perspective is the standpoint the reader watches from. It resolves into a small set of modes fixed by two independent choices. The first is the pronoun, meaning who is speaking. The second is the tense, meaning when the telling sits relative to the events. The table below lays out the pronoun modes alongside what each does well and where each breaks. Tense cuts across all of them.
+
+| Mode | Reads as | Does well | Breaks when |
+|---|---|---|---|
+| First person ("I stepped in") | The character telling their own story | Interiority, bias, the unreliable narrator | The reader wants distance the "I" cannot give, or controls a defined "I" they do not share |
+| Second person ("You step in") | The reader addressed directly | Immediacy, agency, aligning narration with a player's input | The text asserts feelings the reader does not hold |
+| Third-limited ("She steps in") | One character, watched closely from just behind the eyes | Following one mind while keeping a hair of authorial distance | The narration reports things the viewpoint character could not perceive |
+| Third-omniscient ("She steps in, and across town he waits") | A narrator who can see every mind and fact | Scope, dramatic irony, moving between characters | It over-explains and spoils the tension it should be holding |
+
+Card sets out this taxonomy in craft terms and adds the rule that ties it together. The more a narrator knows and says, the further the reader stands from any one character. Omniscience buys breadth at the cost of depth. [researched] Third-limited is the usual default for emotional engagement precisely because it keeps the reader inside one mind. [researched] Tense layers on top. Past tense ("she stepped in") is the unmarked default of prose fiction and reads as a story already told; present tense ("she steps in") reads as events unfolding now and runs through the whole of interactive fiction for that reason. [researched] The dial that controls how far inside a chosen mind the narration sits (the close-to-far distance setting, and the deep-point-of-view techniques that push it close) is its own craft, set out in [Character Voice](character-voice.qmd); this article is the taxonomy of which mode to pick, not the fine adjustment within third-limited.
+
+One rule cuts across every mode: hold one perspective per scene unless a clear marker announces the switch. Slipping from one character's interior to another's mid-scene is head-hopping, and the reader loses their footing without quite knowing why. [corpus] The cure is to render the second character from outside (what they do, not what they feel) until a chapter break or a labelled section earns the handover. Limited perspective also has a knowledge limit built in: it cannot report a secret conversation elsewhere or another character's private thought without leaking information the viewpoint character has no way to hold, and that leak quietly tells the reader the perspective was never real. [corpus]
+
+### The second-person problem in interactive fiction
+
+Interactive fiction inherited second-person present tense from its earliest works, where addressing the player as "you" in the unfolding now made the parser's responses read as the world reacting to them in real time. [corpus] The convention is so settled that breaking it is the marked choice. It also carries a problem that no novel has to solve, because the "you" being addressed is also the person choosing what happens next.
+
+The trouble starts when the narration asserts an interior the player does not share. A novel can state that its protagonist is terrified and the reader accepts it. Tell a player "you are terrified" and a player who feels nothing of the kind is pushed out of the character they were inhabiting. [corpus] The reliable move is to narrate the observable and let the player supply the interior. Write "your hands shake" rather than "you are afraid". Let the choices themselves carry the emotional and cognitive options. [corpus] Roger Giner-Sorolla named the deeper ambiguity in his essay "Crimes Against Mimesis". The "you" of interactive fiction is split between the player solving the game and the character living the story. Prose that forgets which one it is addressing breaks the fiction's coherence. [researched]
+
+The "you" also has to be defined, or else deliberately left blank, and that single choice sets the prose rules. A blank-slate "you" the player projects onto should carry almost no asserted history or personality. Every claim about who "you" are risks contradicting the person the player imagines. A defined "you" needs a consistent characterisation that holds across every branch. Its choice text then has to read in that character's voice rather than a neutral menu register. [corpus] Where that defined "you" becomes a full constructed voice with its own idiolect and forbidden phrases, the craft is [Character Voice](character-voice.qmd); the verbal exchange that voice performs in is [Dialogue Craft](dialogue-craft.qmd).
+
+::: {.callout-note}
+### The Specimen
+Solo journaling role-playing games make the point-of-view choice unusually literal. In them the prose is the entire output. In a game like Thousand Year Old Vampire (Tim Hutchings, 2019) the player writes a first-person journal in response to prompts. The writing is the move: no separate resolution step exists for the prose to merely record. [synthesis] The journal is framed in-fiction as a document its character produced to be found later. That framing fixes the perspective at first person. It also pushes the register toward what a person in that situation would actually write down rather than authorial commentary on them. [synthesis] The genre's recurring failure mode is the "rushed journal" of minimum-effort entries that is mechanically complete but reads as hollow. The failure is one of pure prose quality. The perspective is correct. The rhythm and the sensory grounding never arrived. [synthesis] The lesson carries straight back to interactive fiction. When the prose is the artefact, the perspective choice and the sentence craft are the design rather than decoration on it.
+:::
+
+### Perspective under branching
+
+In linear prose the writer drives the perspective character through every scene and can audit the whole for consistency. In interactive fiction the player drives, and the branches fork and rarely reconverge, so the perspective has to hold across paths no single reader will see in one sitting, often written months apart. [corpus] A perspective that is consistent on the main path can quietly break on a side branch where a later writer slipped into a different tense or let an omniscient fact leak through. The defence is to fix the rules before the branches multiply: pronoun, tense, distance, and what the viewpoint character is allowed to know, all written down and held to. Keeping that contract stable across authors and across months of drafting is a continuity discipline of its own, [Voice & Register Consistency](voice-and-register-consistency.qmd).
+
+The prose that sits just before a choice does its own perspective work. A good lead-in shows the situation and lets the options complete the thought; a bad one narrates back to the player what they already know ("you need to decide what to do about the guard"). [corpus] The opening of the passage a choice leads into has the matching job: it shows the consequence in motion rather than restating the choice the player just made. [corpus] Both are perspective decisions as much as pacing ones, because both depend on trusting the reader to stand where the prose has put them. The wider question of how that withheld information shapes meaning is [Exposition & Subtext](exposition-and-subtext.qmd), and the way a described place becomes a perspective in its own right is [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd).
+
+## Where this fits
+
+**The bigger picture.** Prose patterns and point of view are the surface every other Story concern reaches the reader through. A character's voice, a scene's structure, a withheld piece of exposition: all of it arrives as sentences seen from a standpoint. Let the rhythm drone or the perspective leak and none of the craft beneath it reaches the reader. Perspective sits next to voice. Voice sets how far inside a chosen mind the narration goes. Perspective also feeds pacing, the thing the paragraph break and sentence length control at the smallest scale. In interactive fiction the perspective dial carries a load it never carries in prose fiction. The reader the prose addresses is also the player making the choices. The "you" has to hold steady while a stranger drives. Get these two dials set on purpose and the rest of the narrative has a clean surface to work on; leave them on their defaults and the most careful plot in the world reads flat.
+
+**Next steps.** Once the perspective and rhythm are deliberate, the next concern is the voice heard within them and the fine adjustment of narrative distance, which is [Character Voice](character-voice.qmd). To keep that perspective stable across branches, authors, and months of drafting, the discipline is [Voice & Register Consistency](voice-and-register-consistency.qmd). To set the pace at the scale above the paragraph, where the breaks fall between scenes, turn to [Scene Structure & Transitions](../structure-pacing/scene-structure-and-transitions.qmd), and where the timeline itself fragments and reorders, [Nonlinear Narrative Structures](../structure-pacing/nonlinear-narrative-structures.qmd). When the perspective is doing the work of hiding and revealing what a character will not say, that is [Exposition & Subtext](exposition-and-subtext.qmd).
+
+## Sources
+
+- Provost, Gary. *100 Ways to Improve Your Writing*. New American Library, 1985. (The "This sentence has five words" demonstration of sentence-length variety.) <https://en.wikipedia.org/wiki/Gary_Provost>
+- Hale, Constance. *Sin and Syntax: How to Craft Wickedly Effective Prose*. Broadway Books, 2013. (Concrete nouns and verbs over modifier pile-ups.)
+- Zinsser, William. *On Writing Well*. Harper & Row, 1976. (Short paragraphs and clean sentences as a courtesy to the reader.)
+- Nielsen, Jakob. "How Users Read on the Web." Nielsen Norman Group, 1 October 1997. <https://www.nngroup.com/articles/how-users-read-on-the-web/>
+- Card, Orson Scott. *Characters and Viewpoint*. Writer's Digest Books, 1988. (The point-of-view taxonomy and the knowledge-versus-distance trade-off.)
+- Gardner, John. *The Art of Fiction: Notes on Craft for Young Writers*. Alfred A. Knopf, 1984. (Psychic / narrative distance.)
+- Giner-Sorolla, Roger. "Crimes Against Mimesis." rec.arts.int-fiction, 1996. Reprinted in the *IF Theory Reader*, 2011. <https://www.ifwiki.org/Mimesis>
+- Short, Emily. "The Prose Medium and IF." Emily Short's Interactive Storytelling. <https://emshort.blog/how-to-play/writing-if/my-articles/the-prose-medium-and-if/>
+- Hutchings, Tim. *Thousand Year Old Vampire*. Self-published, 2019. <https://timhutchings.itch.io/tyov>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
 ## Referenced by
 
+- [Audience & Age-Targeting](audience-and-age-targeting.qmd)
+- [Character Voice](character-voice.qmd)
+- [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd)
+- [Exposition & Subtext](exposition-and-subtext.qmd)
 - [Scene Structure & Transitions](../structure-pacing/scene-structure-and-transitions.qmd)
+- [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd)
+- [The Journal as Artefact](the-journal-as-artefact.qmd)
+- [Voice & Register Consistency](voice-and-register-consistency.qmd)
 
 <!-- BACKLINKS:END -->

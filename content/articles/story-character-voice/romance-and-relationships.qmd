@@ -1,14 +1,114 @@
 ---
 title: "Romance & Relationships"
-aliases: []
+aliases: ["Romance Routes", "Affection Systems", "Relationship Mechanics"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [emotional-investment, replay-draw, earned-intimacy]
+  problems: [vending-machine-affection, unsignalled-lock-in, flat-love-interest]
+  components: [affection-track, relationship-flag, consent-cue, romance-arc]
+  genre: [romance, character-drama]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: A love story the player helps write, where the other person is allowed to say no.*
+
+A romance route is a whole dramatic arc folded into a larger story, and the player gets to co-author it. That is the promise and the trap. The promise is that the most affecting thing a piece of interactive fiction can offer is a relationship the player built choice by choice. The trap is the machine underneath. The moment a player can watch the affection number climb is the moment the romance becomes a vending machine: feed it kindness and collect the kiss.
+
+The whole craft lives in that gap. A love interest who only ever warms, who never says no, who has no life beyond the player, is a dispenser wearing a face. A love interest who can refuse, who wants things the player cannot give, who leaves when the player betrays what they stand for, is a person. Building the second one out of the same numbers that would have built the first is the work.
+
+This article is about that work. It covers the shape of the arc and the machinery that tracks a relationship's state without cheapening it, then the agency and consent design that keep a living romance from collapsing into a transaction. The friendship and rivalry arcs that run alongside romance use the same machinery, so they belong here too.
+
+## The Mechanism (How it works)
+
+### The romance is an arc, not a reward
+
+The first mistake is treating romance as a prize bolted to the ending. A strong romance route is a parallel narrative carrying its own rising action and its own crisis through to its own resolution. It could stand alone as a love story even if the surrounding plot were lifted away. [corpus]
+
+What gives the arc somewhere to go is a wound: an unresolved hurt or unmet need in the love interest that the relationship slowly heals. A guarded mercenary who has learned not to trust will do. So will a princess who has only ever been valued for her station. [corpus] A wound is what turns rising affection from a bare number climbing into a change the player can feel. Every warm scene then becomes a small repair, and the resolution lands because something in the character has moved.
+
+The beats themselves are borrowed from romance-novel craft. Gwen Hayes' *Romancing the Beat* lays out twenty beats grouped into four phases. They run from set-up through falling in love and then through a retreat from love before the final fight for it. The same structure holds across the genre from Regency to romantasy. [researched] In the interactive form the load-bearing beats reduce to five.
+
+| Beat | What happens | The interactive demand |
+|---|---|---|
+| Meeting | The spark and the obstacle established in one scene | Both must register, or the player has nothing to invest toward |
+| Rising attraction | Accumulating moments of connection | The player chooses to invest; the moments are earned, not granted [corpus] |
+| Complication | The thing that threatens the bond surfaces (a secret, a duty, a rival claim) | It must feel like a real threat, not a speed bump |
+| Crisis | A rupture, whether a betrayal or a mistimed confession or a forced parting | A genuine fork where the wrong response loses the relationship [corpus] |
+| Resolution | The wound is addressed; the bond re-forms on new terms | Earned by accumulated choices, not handed over [corpus] |
+
+The interactive twist is in the last two rows. The player must be able to fail the crisis and the resolution. A romance that cannot break has no stakes, so the crisis has to be a place where a wrong answer actually ends it. [corpus] That single requirement is what separates a co-authored love story from a cutscene the player walks toward. The micro-structure of any one of these beats, the date scene with its vulnerable choice at the centre, is the scene-and-sequel rhythm covered in [Emotional Beats & Investment](emotional-beats-and-investment.qmd).
+
+### Tracking state without gamifying it
+
+Underneath the arc sits the machinery that remembers where the relationship stands. There are two honest ways to hold that state, and the best practice combines them.
+
+The first is an affection track: a numeric score running nought to a hundred, shown in *Stardew Valley* as "hearts". [corpus] It gives clear feedback and makes content easy to gate, so the confession scene can open at a threshold. Its failure is exactly the vending-machine one. A visible number turns intimacy into arithmetic, and the player starts thinking "five more points to the kiss" instead of inhabiting the relationship. Hiding the number softens that. A hidden track has its own cost though: players land on routes they never meant to choose, because nothing told them where they stood. [corpus]
+
+The second is the relationship flag: a plain true-or-false state tied to a specific event, like *shared the secret* or *defended them in public*. [corpus] Flags feel organic. They make the relationship out of moments rather than points, and a specific event later triggers a specific callback. Their cost is authorial. Every flag is hand-written content, and they multiply fast.
+
+The technique that works in both otome design and Western role-playing romance is to run both layers at once. Affection points carry general warmth and the ambient flavour of dialogue; key flags carry the irreversible beats that the relationship turns on. A route then resolves on a compound test, "affection is high enough and the player confessed at the crisis", rather than the cruder "highest score wins". [corpus] The distinction matters because aggregate warmth is a blunt instrument, and a flag-check route depends on what the player did at the moments that mattered, which is what they will remember doing.
+
+One more axis decision sits underneath the track itself. A linear track can only rise. That is simple to build but it cannot model a partner who cools off and later has to be won back. A bi-directional track moves in both directions. It is harder to author because every gain needs a plausible loss to balance it, yet it is the only thing that supports rivalry or an enemies-to-lovers arc. [corpus] A story with either of those needs the track to run both ways. The broader point is that a single axis flattens a relationship. A second axis restores the texture. A pairing of friendship with romance (or approval with respect) lets a partner dislike a choice and still respect the competence behind it. [corpus] How any of this state drives the branch structure of the wider story is [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd).
+
+::: {.callout-note}
+### The Specimen
+*Dragon Age II* (BioWare, 2011) ran a single approval meter with friendship at one end and rivalry at the other. Filling either end locked in a companion's loyalty. The design choice that made it a landmark was letting a rivalled companion be romanced on the rivalry track: a partner who deeply disagrees with the player but is drawn to them anyway. [researched] Rivalry was not the failure state to be avoided on the way to friendship. It was a different road to the same intimacy. The meter was expressive rather than a bar to fill correctly. That is the cleanest answer the medium has produced to the vending-machine problem. When warmth and friction both lead somewhere worth reaching, the player stops optimising for points and starts choosing who they actually want to be in the relationship. The studio's earlier *Mass Effect* (2007) had already shown the flag-driven alternative. It tracked romance through dialogue choices with no visible meter, and it fixed a single explicit point where the player commits to one partner and forecloses the rest. [researched]
+:::
+
+### The love interest who can say no
+
+Everything above is plumbing. What turns the plumbing into a person is agency, and the failure it guards against has a name in the craft: the vending-machine problem, where the partner is a dispenser that takes kindness tokens and returns affection and eventually sex. [corpus] The antidote is to give the character a will that does not bend to the player's.
+
+That will shows up in three behaviours. The first is rejection. A partner declines an advance when the flags are unmet. A partner also declines when the player's demonstrated character clashes with their values. A pacifist balks at a bloodthirsty suitor whatever the points say. [corpus] The second is the breakup. The partner ends the relationship the moment the player acts against what they stand for. The bond stays conditional on continued compatibility rather than banked once and kept. [corpus] The third is an arc of the partner's own. They want things unrelated to the player and chase them down. They existed before the player arrived and keep a life alongside them. [corpus] A love interest with those three properties cannot be farmed.
+
+A quieter failure undercuts the same goal. If the partner only ever warms when the player agrees with everything they say, the design is training sycophancy and killing the character. Strong romance characters reward being challenged, within reason: disagreement delivered with care can raise affection, and spinelessness should not. [corpus] This is where romance meets [Moral Dilemmas & Consequence Chains](moral-dilemmas-and-consequence-chains.qmd), because a partner who pushes back turns a flirtation into a real negotiation of values. The work of giving each love interest a distinct idiolect and a contrasting opinion is [Character Voice](character-voice.qmd), and building them out as full members of the cast rather than romance fixtures is [NPC Craft & Voicing](npc-craft-and-voicing.qmd). The flirtation itself should be characterisation: a generic "[Flirt]" option papers over the person, where witty banter for the sardonic one and plain earnest warmth for the guarded one tells the player who they are reaching for. [corpus]
+
+### The lock-in and its signalling
+
+At some point the player commits to one partner and forecloses the others, and how that moment is handled is the single most common source of romance frustration. A soft lock shifts dialogue flavour toward one character while leaving other routes reachable. A hard lock is a branch where the other romances become permanently unavailable. [corpus]
+
+The branch resolves one of two ways, and the choice has consequences for how fair it feels. An affection-check hands the route to whoever has the highest score at the branch point, which is simple but produces the classic "I got the wrong route" complaint when an invisible number decided it. A flag-check requires a specific combination of key choices, so the route depends on what the player did at the deciding moments rather than on aggregate warmth. [corpus] The second is more precise and more defensible, because the player can reconstruct why they ended up where they did.
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is the hard lock the player never saw coming. A relationship that has been building for hours forecloses three other routes on a single line of dialogue, and the player triggered it without knowing the line carried that weight. The related trap is "ninjamancing", a term from the *Dragon Age* community for sliding into a romance by being routinely polite, where ordinary kindness reads as flirtation and the player wakes up courting someone they only meant to be civil to. [researched] Both have the same root: romantic intent that was never made legible. The fix is to mark the point of no return as a decision. A distinct line of narration can do it. So can an explicit "are you sure?" from the partner. So can a flirt option tagged clearly enough that it cannot be mistaken for mere courtesy. Let the commitment be something the player chose on purpose, not something they tripped over. [corpus]
+:::
+
+### Consent as a design layer, not a content warning
+
+Romance design carries an obligation that most mechanics do not, because it stages intimacy. The baseline is to build consent into the fiction rather than treat it as paperwork. Offer an explicit consent moment ("Can I kiss you?") instead of escalating into intimacy unannounced. Decide early whether a scene fades to black or shows more, and hold that tone so the scene never lurches registers on the player. And always let the player stay single or decline an advance or play an aromantic protagonist, with no penalty attached to any of those. [corpus] A friendship-only route should be as rich as any romance, because punishing the player who does not pair off is just the vending machine inverted.
+
+The live and tabletop traditions have built the most developed real-time consent vocabulary in the field, and it transfers cleanly to how a designer thinks about staged intimacy. In Nordic larp the calibration tools (a Cut that stops a scene instantly, a Brake that lowers intensity without ending it, an OK Check-In that asks "are you all right?" with a hand signal) give players a way to steer a charged scene from inside it. [researched] Physical intimacy itself is handled by a technique called Ars Amandi, devised by Emma Wieslander and first used at the larp "Between Heaven and Sea" in 2003, which represents intimacy through restricted touch on a few agreed zones (arms, shoulders, the upper back) so that the emotional charge runs through the eyes and hands rather than through anything explicit. [researched] At the tabletop the same instinct is expressed as Lines and Veils, the group agreement on which content is off the table entirely (a line) and which happens off-screen (a veil), settled before play in [The Session Zero Playbook](../players-social-dynamics/the-session-zero-playbook.qmd). The umbrella the whole field shares, the social agreement on content and boundaries, is the [Safety Tools as Design Layer](../players-social-dynamics/safety-tools-as-design-layer.qmd), and the intimate two-hander where a single facilitator and a single player run a charged scene, with the power gap doing real work, is [One-on-One Scene Design](../players-social-dynamics/one-on-one-scene-design.qmd). Across all three media the design principle is one thing: intimacy is something the participant opts into, never something the design springs on them.
+
+Representation rides on the same wiring. Two models dominate who can romance whom. The playersexual model keeps every love interest available regardless of the player's identity. That maximises freedom and stays cheap to author. Its cost is that the characters can read as having no orientation of their own. The fixed-orientation model gives each character a defined sexuality. Availability then depends on who the player is. That costs some freedom and some content reach, but it reads as truer characterisation. [corpus] Either way, queer routes earn the same depth and screen time as the rest rather than arriving as a reskin. Aromantic and asexual and friends-only paths have moved from novelty to expectation too: *Monster Prom* (Beautiful Glitch, 2018) ships characters with platonic endings, and *Boyfriend Dungeon* (Kitfox, 2021) lets the player pursue everyone with no jealousy penalty or commit to no one at all. [corpus]
+
+The payoff for getting all of this right is replay. Romance routes are among the strongest reasons players come back, returning to see the road not taken. That only works on three conditions. The routes have to be genuinely distinct rather than the same scenes behind a different portrait. No partner can be the mechanically correct choice. And some revelations stay reserved for the route that earns them. [corpus] The romantic resolution then reads as one of the relationship's possible endings rather than a single canonical one, which is the same craft as any [Conflict Patterns](conflict-patterns.qmd) resolution: a cost paid and a wound addressed, in a state the player's choices actually reached.
+
+## Where this fits
+
+**The bigger picture.** Romance sits where character work, branching structure, and consent design meet. It draws its arc from the same emotional engineering as any story beat. It draws its state-tracking from the same affection-and-flag machinery that drives branching. And it draws its duty of care from the safety layer that the live and tabletop traditions formalised first. What makes it its own subject is that it asks the medium's hardest question in a small, intense space: can the other character be a person rather than a system the player operates? Every part of the craft exists to answer yes, from the wound that gives the arc somewhere to go to the bi-directional track that lets a partner cool to the rejection that proves the partner has a will. Get it wrong and the most elaborate relationship system in the world is a vending machine with good art. Get it right and the player remembers the character longer than the plot.
+
+**Next steps.** To engineer the payoff that a romance arc builds toward, work through [Emotional Beats & Investment](emotional-beats-and-investment.qmd). To give each love interest a voice no other character could speak in, start from [Character Voice](character-voice.qmd) and build the cast out through [NPC Craft & Voicing](npc-craft-and-voicing.qmd). To make the partner's pushback land as a genuine clash of values rather than a stat check, turn to [Moral Dilemmas & Consequence Chains](moral-dilemmas-and-consequence-chains.qmd). And to design the consent layer the intimate scenes depend on, the core tools live in [Safety Tools as Design Layer](../players-social-dynamics/safety-tools-as-design-layer.qmd) and the pre-game agreement that sets them in [The Session Zero Playbook](../players-social-dynamics/the-session-zero-playbook.qmd).
+
+## Sources
+
+- Hayes, Gwen. *Romancing the Beat: Story Structure for Romance Novels*. 2016. (The four-phase, twenty-beat romance arc.)
+- BioWare. *Dragon Age II*. Electronic Arts, 2011. (Friendship-versus-rivalry approval meter; romance on the rivalry track.) Friendship and rivalry overview: <https://dragonage.fandom.com/wiki/Friendship_and_rivalry>
+- BioWare. *Mass Effect*. Microsoft Game Studios, 2007. (Flag-driven romance with no visible meter; explicit lock-in.)
+- BioWare. *Dragon Age: Origins*. Electronic Arts, 2009. (Visible approval gating romance; jealousy-driven lock-in; the community term "ninjamancing".)
+- ConcernedApe. *Stardew Valley*. 2016. (Affection "hearts" with per-character gift preferences.)
+- Supergiant Games. *Hades*. 2020. (Relationship as ongoing growth with a no-penalty opt-out rather than a love meter.)
+- Beautiful Glitch. *Monster Prom*. 2018. (Aromantic and asexual characters with platonic endings; group endings.)
+- Kitfox Games. *Boyfriend Dungeon*. 2021. (No-exclusivity design; pursue everyone or no one without penalty.)
+- Wieslander, Emma. "Ars Amandi" (technique for representing physical intimacy through restricted touch), first used at the larp *Between Heaven and Sea*, 2003. Described in: Stenros, Jaakko and Montola, Markus (eds.), *Nordic Larp*. Fëa Livia, 2010.
+- "Safety and Calibration Design Tools and Their Uses." nordiclarp.org, 2018. (Cut, Brake, OK Check-In as real-time consent tools.) <https://nordiclarp.org/>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Emotional Beats & Investment](emotional-beats-and-investment.qmd)
+- [NPC Craft & Voicing](npc-craft-and-voicing.qmd)
+
+<!-- BACKLINKS:END -->

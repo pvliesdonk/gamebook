@@ -1,14 +1,121 @@
 ---
 title: "Mystery & Detective Fiction"
-aliases: []
+aliases: ["Whodunit", "Detective Story", "Fair-Play Mystery", "Crime Fiction"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [earned-deduction, surprise-and-inevitability, reader-as-detective]
+  problems: [unfair-reveal, flat-suspects, sagging-investigation]
+  components: [suspect-pool, clue, red-herring, the-reveal, subgenre-contract]
+  genre: [mystery, detective, crime]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: The genre where the reader is dared to solve it first, and the writer plays to win without cheating.*
+
+A mystery is a story told twice. The first time through, the reader watches an investigation and gathers a heap of facts that refuse to settle. The second time, after the reveal, the same facts lock into a single shape and the reader sees that the answer was on the page the whole time. The pleasure lives in the gap between those two readings. Close it too early and the story is dull. Refuse to close it fairly and the reader feels robbed.
+
+That double structure is what separates the mystery from a story that merely contains a crime. The crime is the occasion. The genre is the contract: every fact needed to name the culprit is shown to the reader, the reader is invited to beat the detective to it, and the ending arrives as a surprise that, looking back, could not have been anything else. Hold that contract and the reader trusts you enough to keep reasoning. Break it and they stop reasoning and start waiting to be told.
+
+This article is about the craft of that contract. It covers the subgenre promises a reader can choose between. It covers the fair-play rules the form codified almost a century ago. From there it turns to the suspect pool and the red herring, and finally to the shape of the investigation that carries the rest. This is the story-and-genre angle on cluing. The puzzle mechanics of making a single clue sound and reachable live one family over, in [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+## The Mechanism (How it works)
+
+### The subgenre contract
+
+There is no single mystery contract. There are several, and the reader picks one up from the first page through tone, setting, and the kind of detective on offer. Each promises a different experience and tolerates a different level of violence, moral murk, and tidy resolution. Choosing the wrong fit between the promise and the story is a common early failure, because a reader who came for one contract and got another feels the bait without the switch being deliberate. [synthesis]
+
+The four contracts below are the load-bearing ones. They are not exhaustive, and real works blend them. Naming them still gives a writer a deliberate starting position.
+
+| Subgenre | Reader contract | Detective | Violence and resolution |
+|---|---|---|---|
+| Cosy | A warm, safe puzzle with a guaranteed tidy ending. [corpus] | Amateur sleuth, often a small-town hobbyist or retiree. [corpus] | Violence offstage; justice always wins; the community is restored. [corpus] |
+| Hardboiled | A gritty, realistic crime seen through a world-weary professional. [corpus] | A private investigator with a personal code in a corrupt city. [researched] | Violence on the page; the case may not wrap up neatly. [corpus] |
+| Police procedural | The texture of real investigative process, in detail. [corpus] | The unit or precinct, an ensemble, not a lone genius. [researched] | Institutional constraint and station politics frame the case. [researched] |
+| Whodunit / locked room | A closed circle of suspects and a fair, solvable deduction. [corpus] | Any, but the puzzle is the star. [corpus] | The crime is the engine; the solution must be hidden yet fair. [corpus] |
+
+The cosy keeps violence and sex offstage and sets its murders among people who know each other, with justice always winning in the end. [corpus] The hardboiled is its near-opposite in mood. Raymond Chandler's 1944 essay "The Simple Art of Murder" set the type when he wrote that down the mean streets "must go a man who is not himself mean", a flawed professional with a private code moving through a corrupt world. [researched] Slide further into compromise and you reach noir, where the protagonist is less a clean investigator than a regular person dragged into the dark and often trapped there. The ending that waits is usually unhappy or ambiguous. [corpus]
+
+The police procedural moves the camera off the lone detective and onto the machinery of the unit, its tactics and the politics of the station house. The critic Anthony Boucher coined the term in 1956 to describe stories built on the realistic depiction of police work, and Ed McBain's 87th Precinct novels, beginning with *Cop Hater* that same year, made the ensemble the unit of attention rather than any single officer. [researched] The whodunit and its tightest form, the locked room, put the deduction itself centre stage. John Dickson Carr was confident enough in the form's rules to stop a 1935 novel and have his detective deliver a twenty-page lecture cataloguing the ways an impossible murder can be staged. [researched]
+
+These contracts cut across media. The detective archetype is itself a migrating role, and the same figure reskins from one setting to the next. That cross-genre machinery is the work of [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd). Where the contract sits inside a wider map of genre promises is the work of the family router, [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd).
+
+### Fair play: the oldest version of the contract
+
+The mystery is the one popular genre that wrote its own rules down, in near-legal form, because its writers thought of it as a game against the reader. S. S. Van Dine's "Twenty Rules for Writing Detective Stories" (1928) opens by calling the detective story a sporting event in which the author must play fair. The reader is to have equal opportunity with the detective to solve it. [researched] Ronald Knox's "Decalogue" (1929) added its own clauses. The criminal had to be named early. The detective had to declare every clue he found. No unaccountable intuition was allowed to hand him the answer. [researched] The Detection Club that formed in 1930 bound its members by an oath that their detectives would solve crimes by their wits and never by "Divine Revelation, Feminine Intuition, Mumbo Jumbo, Jiggery-Pokery, Coincidence, or Act of God." [researched]
+
+Strip the period humour and one cardinal rule remains. Every fact needed to reach the solution is present in the text and findable by an attentive reader, and none of it may depend on knowledge the reader could not have. [corpus] This is the fairness contract the puzzle world later inherited and renamed, first written down in the detective story. The puzzle-mechanics treatment of why a single clue is sound or unsound is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd); the rule here is the genre's older, broader version of the same promise.
+
+The fair-play rule forbids withholding, but it does not forbid misdirection. You may not hide the fact the reader needs, but you may aim their attention anywhere you like. [corpus] That permission is what makes the genre playable rather than merely honest. It is also the engine behind the red herring.
+
+### The suspect pool
+
+A mystery without a real field of suspects is a procession to a foregone conclusion. The classic test for stocking that field is means, motive, and opportunity. Each viable suspect needs a reason to kill and a way to do it, along with a window in which they could have. [corpus] When every suspect clears all three bars, no single one stands out as the obvious answer, and the reader is left to weigh people rather than tick a checklist.
+
+The harder discipline is character. The criminal should be someone the reader feels they have come to know. Every suspect needs a personality and a private goal, plus secrets that are not necessarily the murder. [corpus] Most suspects are hiding something, and the craft is that what they hide is usually mundane: an affair or a debt, perhaps a quiet fraud nobody else knows about. Those concealed secrets are what make innocent suspects behave suspiciously and supply red herrings that resolve into something true rather than dissolving into nothing. The failure mode is the suspect who is suspicious and nothing else, a frowning blank. The cure is a voice and an agenda, the same cure the family applies to any flat character. [Character Voice](character-voice.qmd) gives each suspect a distinct way of speaking and a view the others do not share, so that an interrogation reads as people colliding rather than a form being filled in.
+
+Construct the pool well and a second mistake becomes avoidable: the obviously guilty suspect, or its tired inversion where the least-suspected character is always the culprit. [corpus] Once that pattern is legible the genre stops working, because the reader solves the meta-game instead of the mystery.
+
+### The red herring and Chekhov's gun
+
+A red herring is not a lie. It is something true that points the wrong way until the story accounts for it. [corpus] The distinction is load-bearing. A good red herring is a suspect acting guilty because they are concealing an affair; a bad one is a suspect who acts guilty, then vanishes from the plot with no explanation. [corpus] The first deepens the world when it resolves. The second is a cheat the reader feels even if they cannot name it, because it broke the quieter promise that planted details pay off.
+
+That quieter promise is Chekhov's gun. Anton Chekhov's advice to young writers, recorded in several letters from around 1889, was that a rifle hung on the wall in the first act must be fired by the last; an element that never pays off should not be there. [researched] In a mystery the principle runs in both directions. Every planted detail should eventually do some real work. Maybe it serves the solution. Maybe instead it is a deliberate red herring. It might simply fill out a character or the atmosphere. [corpus] A detail that does none of these is clutter, and it teaches the reader to stop reading closely. That is fatal in a genre that depends on close reading.
+
+Christie's technique threads these together. She would build a scene so that the real clue and the red herring sit in the same frame. Then she pivots the drama around the herring while the true clue rests in plain view. [corpus] The reader sees everything and notices the wrong thing, which is fair play and misdirection at once. How densely to layer those plants before the page tips from suspense into confusion is a pacing judgement shared with the puzzle family's [Clue Sequencing & Chains](../puzzles-clues-information/clue-sequencing-and-chains.qmd).
+
+### The investigation as structure
+
+In a mystery the plot and the investigation are one thing. The detective gathers evidence, and that gathering is the spine the whole story hangs on, which makes clue distribution a structural problem and not a decorative one. Bunch the clues at the end and the middle sags; the genre's most common pacing fault is exactly this hoarding of revelation. [corpus] Spread them too thin and the reader loses the thread. The aim is an even distribution where each reveal feels earned and the tension rises and falls rather than flatlining.
+
+A useful habit is to introduce an important clue more than once. The first mention is subtle and the second more noticeable. A third reads as obvious only in hindsight. [corpus] This is the genre's own version of redundancy, and it has a sharp cousin at the tabletop. Investigation-driven roleplaying games discovered that one clue is a single point of failure because players miss things, so the Alexandrian's Three Clue Rule holds that any conclusion you need the group to reach should have at least three clues pointing at it. [corpus] The full node-and-redundancy treatment, where the investigation is mapped as a web of clues feeding conclusions rather than a fragile chain, is [Information Architecture](../puzzles-clues-information/information-architecture.qmd).
+
+The structural stakes climb sharply in interactive fiction, because there the reader chooses where to look. Branching can hide a load-bearing clue on a path the player never takes. So the fair-play contract demands that decisive evidence stay reachable by multiple routes and backed by a notebook or recap. A gate can hold progress until the deciding evidence is in hand. [corpus] A second and subtler point follows: the player must be allowed to be wrong. Accusing the wrong suspect should be a real failure state with its own ending, not a dead end that bounces the player back to try again. The option to fail is what makes the deduction real. [corpus]
+
+::: {.callout-note}
+### The Specimen
+The murder-mystery dinner party is the detective story rebuilt as a live event, and it shows the fair-play contract surviving the move into physical, distributed play. The dominant boxed format splits the evening into three or four rounds tied to meal courses, with each character's material sealed into envelopes marked "open in round two" so that no single player can assemble the full picture too early. [corpus] The killer usually does not know they are guilty until the final reveal, which keeps every player a genuine investigator rather than a performer concealing foreknowledge. [corpus] The design's central pathologies are the genre's own, made physical: the case collapses if a sharp player aggregates the evidence before the later rounds deliver theirs, and it stalls if a player hoards a key fact the mechanics never compel them to share. Well-built kits answer both by assigning each character explicit things to reveal alongside things to conceal, and by gating the decisive clue behind a later round with at least one red-herring character whose evidence trail looks equally damning. [corpus] The contemporary Chinese form jubensha extends the same idea into multi-act, script-driven sessions that grew into a major entertainment industry through the late 2010s. [researched]
+:::
+
+### The reveal
+
+The reveal is the genre's whole purpose arriving at once, and its target is a single effect: the ending should be surprising yet inevitable. [corpus] The phrase is a modern sharpening of Aristotle, who held in the *Poetics* that the change of fortune should arise from the internal structure of the plot, so that what follows is the necessary or probable result of what came before. [researched] In a mystery this means the reader does not see the answer coming, yet the moment they hear it, every clue they were shown clicks into place and the solution feels like the only one the facts allowed.
+
+The two halves are built separately. Surprise comes from misdirection. You aim attention at red herrings while hiding the significance of the key clue, and you turn the reader's own assumptions against them. [corpus] Inevitability comes from groundwork. Plant the solution's elements early and keep the answer consistent with what each character would actually do. Use only facts the reader has already seen. [corpus] A practical test catches most failures before a reader does. After the reveal, the reader should be able to say "I should have seen that" rather than "where did that come from". [corpus] If a draft reader says the second thing, the inevitability is missing, and no amount of surprise will rescue it.
+
+One last discipline governs what comes after. End quickly once the solution lands. A denouement that lingers for chapter after chapter dilutes the effect; the swift conclusion is what leaves the lasting impression. [corpus] How a mystery's specific brand of closure differs from other endings, and how multiple-ending structures handle a deduction that can land more than one way, belongs to [Worldbuilding Patterns](worldbuilding-patterns.qmd) only at its edges. The closer concern is the moment of solving itself, which the puzzle family treats as [The Aha Moment](../puzzles-clues-information/the-aha-moment.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The tempting cheat is the late save. Perhaps the murderer is introduced only in the final pages. Perhaps the detective suddenly knows a thing he never investigated, or the solution turns on a fact the reader was never shown. Each of these feels, from inside the draft, like a clever surprise. From outside it reads as a broken promise, because the reader was told they could play and then denied the pieces. The tell is a solution you can only reach by knowing the author's intention rather than the text's evidence. When naming the culprit requires a fact that is not on the page, the mystery was not fair however startling the twist. The reader does not owe you the surprise; you owe them the chance to have seen it. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Mystery and detective fiction is the genre that makes the reader an active participant, and so it sits at the centre of so much interactive design. It depends on the fairness contract more heavily than any other narrative form, and it shares that contract with the entire Puzzles family: the detective story's fair play and the puzzle hunt's "no tricks" are one promise in different clothes. Above it sits the genre router that places it among the other genre contracts; beside it sit the craft articles, character voice and tropes and worldbuilding, that supply the suspects, the archetypes, and the world a mystery is set in. It is the strongest single bridge between the Story family and the Puzzles family, because in this genre the story and the puzzle are the same object viewed from two sides.
+
+**Next steps.** To build the suspects whose distinct voices make an interrogation live rather than flat, work through [Character Voice](character-voice.qmd). The detective and culprit work as migrating archetypes you can vary or subvert; that is the territory of [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd). For the puzzle-mechanics underneath the genre's cluing, the floor everything else stands on is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). The order those clues arrive in is [Clue Sequencing & Chains](../puzzles-clues-information/clue-sequencing-and-chains.qmd), and the scenario-wide map of which clues feed which conclusions is [Information Architecture](../puzzles-clues-information/information-architecture.qmd). To place this contract among the other genre promises, return to the family router, [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd).
+
+## Sources
+
+- Van Dine, S. S. "Twenty Rules for Writing Detective Stories." *The American Magazine*, September 1928. <http://gaslight-lit.s3-website.ca-central-1.amazonaws.com/gaslight/vandine.htm>
+- Knox, Ronald. "The Detective Story Decalogue," introduction to *The Best English Detective Stories of 1928* (1929). Summary: <https://en.wikipedia.org/wiki/Ronald_Knox>
+- "Detection Club" (Sayers's initiation oath and fair-play conventions). Wikipedia. <https://en.wikipedia.org/wiki/Detection_Club>
+- Chandler, Raymond. "The Simple Art of Murder." *The Atlantic Monthly*, December 1944. <https://en.wikipedia.org/wiki/The_Simple_Art_of_Murder>
+- "Police procedural" (Anthony Boucher's 1956 coinage; Dragnet's influence). Wikipedia. <https://en.wikipedia.org/wiki/Police_procedural>
+- "87th Precinct" / Ed McBain, *Cop Hater* (1956). Wikipedia. <https://en.wikipedia.org/wiki/87th_Precinct>
+- Carr, John Dickson. *The Hollow Man* (US title *The Three Coffins*), 1935. The "locked room lecture," chapter 17. Wikipedia. <https://en.wikipedia.org/wiki/The_Hollow_Man_(Carr_novel)>
+- "Chekhov's gun" (the planted-detail principle; Chekhov's letters, c. 1889). Wikipedia. <https://en.wikipedia.org/wiki/Chekhov%27s_gun>
+- Aristotle. *Poetics*, chapters 7–9 (plot necessity and probability; the basis of "surprising yet inevitable"). <https://www.sparknotes.com/philosophy/poetics/section4/>
+- Alexander, Justin. "The Three Clue Rule." The Alexandrian, 8 May 2008. <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule>
+- "How to Host a Murder" / murder-mystery party format conventions. Red Herring Games, "Common Problems with Murder Mystery Games." <https://www.red-herring-games.com/common-problems-with-murder-mystery-games-and-how-we-solve-them/>
+- "Jubensha" (Chinese script-murder format and its growth). Wikipedia. <https://en.wikipedia.org/wiki/Jubensha>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd)
+- [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd)
+
+<!-- BACKLINKS:END -->

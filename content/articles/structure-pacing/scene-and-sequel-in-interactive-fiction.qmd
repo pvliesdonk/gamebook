@@ -120,6 +120,9 @@ Inkle's *80 Days* (2014) builds its choices as deliberation beats rather than re
 ## Referenced by
 
 - [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
+- [Conflict Patterns](../story-character-voice/conflict-patterns.qmd)
+- [Emotional Beats & Investment](../story-character-voice/emotional-beats-and-investment.qmd)
+- [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd)
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
 - [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
 - [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)

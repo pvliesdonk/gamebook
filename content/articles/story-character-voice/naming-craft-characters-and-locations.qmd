@@ -1,14 +1,121 @@
 ---
 title: "Naming Craft: Characters & Locations"
-aliases: []
+aliases: ["Naming", "Onomastics", "Toponymy", "Character Names", "Place Names"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [worldbuilding-texture, instant-characterisation, believable-setting]
+  problems: [monoculture-naming, fantasy-apostrophe, unpronounceable-names, accidental-meaning]
+  components: [name-list, phoneme-inventory, toponymy-glossary, naming-rules]
+  genre: [fantasy, sci-fi, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: The first worldbuilding the reader meets, one syllable at a time.*
+
+A name arrives before anything else. Before the reader learns how magic works or who rules whom, they meet a person called Sigurd or Xiulan or Kofi, and a city called Oxford or Nagasaki, and the name has already told them something. It signals a culture, a history, a place on a map. None of that needed a paragraph of exposition. The name did it in a breath.
+
+This is the cheapest worldbuilding there is and the easiest to get wrong. Give a whole cast vaguely English names and the world will feel monocultural however diverse the lore claims to be. A city called Thornhaven sitting beside a neighbour called Zyx'qualoth reads to the reader as two foreign places whatever the author intended. A name leaks information the way a character's voice does. Once the reader has felt that leak, it is hard to take back.
+
+This article is about making those leaks deliberate. The work splits in two. Names for people carry culture and characterisation. Names for places carry history and geography. Both run on the same engine: a small set of consistent rules the author knows even when the reader never sees them.
+
+## The Mechanism (How it works)
+
+### The consistency principle
+
+The load-bearing rule under all naming is consistency within a culture and contrast between cultures. Each people in a fictional world should have recognisable naming rules. Those rules need not be explained to the reader, but the author must know them. [corpus] When one elf is Aelindor and another is Bob, the world cracks. When both follow the same phonetic logic, the world holds. [corpus]
+
+So a name is worldbuilding rather than decoration. A reader rarely parses the logic consciously. They feel its presence as texture and its absence as a wrongness they cannot name. The same instinct governs places. If a fantasy kingdom holds a city called Thornhaven and another called Zyx'qualoth, the reader assumes two cultures, and if those cities are meant to be neighbours in one realm, something has gone wrong. [corpus] Consistent patterns signal a unified culture; a pattern that shifts signals a border. A designer can use that shift on purpose, clustering similar-sounding names inside a region and changing the sound where the map crosses into another people's land.
+
+The grammar that holds a culture's names together is small. A minimal system needs only a phoneme inventory (which sounds exist here), a few syllable rules (whether the language allows consonant clusters, how long a name runs), a short glossary of root words with fixed meanings, and any markers for gender or status. [corpus] Twenty or thirty roots combine into hundreds of names, and the fixed meanings are what keep the set coherent: if *val* means shadow in one name, it cannot mean river in another from the same culture. [corpus] This is the same continuity discipline that [Worldbuilding Patterns](worldbuilding-patterns.qmd) applies to the rest of a setting, and keeping the glossary stable across a long project is a [Canon Management](canon-management.qmd) job once the cast and the map start to grow.
+
+### Names as characterisation
+
+Beyond signalling culture, a personal name characterises the individual who carries it. Real traditions do this through structure, and borrowing the structure (never the specific names) gives a fantasy culture instant depth.
+
+Several real systems show the range. Arabic naming runs as a chain. It joins a given name to a patronymic that links father and child across generations, then an epithet earned by deed, then an adjective of origin or trade. [corpus] Norse naming uses patronymics that change every generation, so that Sigurd Ragnarsson is read as Sigurd, son of Ragnar, and adds bynames earned by reputation, as with Erik the Red. [corpus][researched] Slavic traditions carry a dense system of diminutives, where Aleksandr becomes Sasha to a friend and Shura to an intimate, so that the form of address alone reveals a relationship without a line of dialogue spent on it. [corpus] West African traditions offer day-names that draw one element from the day of birth. They also offer proverbial names as long as a whole sentence, like the Igbo Nnamdi, "my father lives". [corpus] Each structure encodes a value: lineage, or reputation, or intimacy, or destiny. Choose the structure and the culture gains a spine.
+
+<!-- vale Vale.Spelling = NO -->
+The table below collects the structural patterns worth borrowing. It is the legitimate data-dense exception to the no-list rule, because the value is in the side-by-side comparison.
+
+| Tradition | Structural pattern | What the structure encodes |
+|---|---|---|
+| Arabic | given + ibn/bint (lineage chain) + earned epithet + origin adjective | A culture that prizes ancestry and earned title [corpus] |
+| Norse | given + -son/-dottir (changes each generation) + reputation byname | A culture where identity is inherited then re-earned [corpus] |
+| Slavic | given + patronymic + gendered surname, with deep diminutive chains | A culture with fine intimacy gradients [corpus] |
+| West African (Akan/Igbo) | day-of-birth name or full-sentence proverbial name | A culture where a name is calendar or blessing [corpus] |
+| Chinese | family name first + a given name chosen for its sense + shared generational character | A culture where the clan precedes the person [corpus] |
+| Dutch | given + tussenvoegsel (van/de) + landscape or trade surname | A culture rooted in geography and craft [corpus] |
+<!-- vale Vale.Spelling = YES -->
+
+The structure carries meaning even at the level of a single name. A generational character shared across Chinese siblings marks them as one cohort without a word of explanation. [corpus] A Dutch surname built from terrain, where Van den Berg means "from the hill", roots a family in a place. [corpus] These are not flourishes. They are compressed backstory, and borrowing the *pattern* rather than the names is what keeps the result respectful rather than lifted.
+
+### Sound symbolism: what a name feels like
+
+Before a reader knows what a name means, they feel how it sounds, and that feeling is not arbitrary. The clearest evidence is the bouba/kiki effect, first observed by the psychologist Wolfgang Köhler in 1929 and revived in modern cognitive science. Give people a rounded shape and a spiky one and ask which is "bouba" and which is "kiki", and across cultures and writing systems they overwhelmingly call the rounded shape "bouba" and the spiky one "kiki". [researched] Soft, continuous sounds (m, l, the open vowels of "maluma") read as round and gentle. Sharp stops (k, t, the tight vowels of "takete") read as angular and harsh. The effect even carries over to real names. [researched]
+
+This gives the designer a quiet lever. A gentle healer named with liquids and open vowels and a brutal warlord named with hard stops will each *sound* like what they are before the reader is told. The trope-level version of this is everywhere: flowing, vowel-heavy names for the graceful elven culture, consonant-heavy clusters for the harsh dwarven or orcish one. [corpus] The lever is worth pulling deliberately rather than by reflex, because reflex produces the same elf-name every reader has met a hundred times. Used with intent, sound symbolism lets a name do characterisation work that the prose never has to state. It is the naming equivalent of an idiolect, the linguistic fingerprint that [Character Voice](character-voice.qmd) builds from a person's word choices, except the fingerprint here is in the name itself.
+
+### Distinctness and pronounceability for the reader
+
+A name that the reader cannot tell apart from three others, or cannot sound out at all, has failed whatever else it achieves. This constraint bites hardest in interactive forms, where names are not read once in flowing prose but met again and again in menus, dialogue options, inventory screens and compass directions. [corpus]
+
+Distinctness means each name in active play wants a different opening sound, a different length, a different rhythm. Northford and Northgate are too close for a player scanning a menu under time pressure; so are three Norse names that all open on a hard consonant and run the same number of syllables. [corpus] A historically perfect name that the player cannot tell apart from its neighbours has lost the trade, because memorability beats authenticity when the player steers by the name. [corpus] Pronounceability is the partner rule. A player mentally says a name while reading it, so a name that fights the mouth costs the reader a little friction on every appearance. [corpus] The fix is to read names aloud and to cap how many the reader must track at once. A reader holds maybe three to five active named characters and five to eight active places; past that, lean on roles and descriptions ("the smith", "the port city") until a name earns focus. [corpus] How many named entities a scene can carry before it overloads is the same budgeting question that [Audience & Age-Targeting](audience-and-age-targeting.qmd) asks about reading load.
+
+::: {.callout-warning}
+### The Hazard
+The lazy fantasy apostrophe is the tell of a name invented by reflex rather than rule. Ky'thar'a reads as a punctuation error, not a name. The apostrophes mark nothing and answer to no rule, leaving the reader unsure whether to pause, to stop, or to skim past them. [corpus] An apostrophe in a name should do a real job, standing for a sound such as a glottal stop and used consistently or not at all. The same reflex produces the unpronounceable pile-up (Galendorial, Sytherantum) and the monoculture where every name across the whole world sounds vaguely the same. [corpus] All three share one root cause: the author reached for an exotic shape instead of building a small system and drawing the name from it. A name derived from rules comes out pronounceable and distinct and consistent by construction. A name merely reached for is none of those, except by luck. [synthesis]
+:::
+
+### Toponymy: place-names as compressed history
+
+A place-name is a fossil. Oxford is a ford where oxen crossed; Hiroshima means "wide island"; Amsterdam is a dam on the river Amstel. [corpus][researched] Readers rarely parse the etymology, but they sense when place-names have an internal logic and when they do not. [corpus] The single most effective way to imply deep history is layering: the same place carrying names from successive cultures, compressed into one modern word. [corpus]
+
+England is the worked example. Its place-names stack in strata that record every wave of settlement: an oldest layer of Celtic river-names, some so old they predate Celtic and belong to an unknown "Old European" tongue; then Old English settlement suffixes from the Anglo-Saxons; then Old Norse names in the Viking-settled north and east; then Norman French. [researched] The Anglo-Saxon suffixes alone are a ready-made kit. The *-ton* of Kingston is a farmstead, the *-ham* of Birmingham a homestead, the *-ford* of Bradford a crossing, the *-chester* of Manchester a Roman fort (from the Latin *castra*). [corpus][researched] A designer needs only pick five to eight such elements, fix each one's meaning, and combine them: if *-holt* means forest stronghold and *-mere* means lake settlement, then Thornholt and Silvermere read at once as kin from one culture. [corpus]
+
+Other traditions encode geography just as tightly and offer different flavours. Japanese toponymy is near-pure landscape description, where *yama* is mountain, *kawa* river, *shima* island, so that the map reads as a culture that has mapped and understood its own terrain. [corpus] Dutch place-names tell a story of water management through *-dam*, *-dijk* and *-polder*, fit for a culture defined by reclaiming land from the sea. [corpus] As with personal names, the move is to borrow the *system*, building a small glossary of terrain roots and combining them, rather than copying real names onto a fictional map. Place-names also erode. Torhaven wears down to Torven and then to Torfen across the centuries, and putting that wear on the map is itself a way to imply a long-inhabited world. [corpus] How a setting reads its own places as charged spaces, rather than as labels on a map, is the work of [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd).
+
+### The respect constraint, and naming as a worldbuilding signal at the table
+
+Two failure modes sit at the edges of all this craft, and both are about names colliding with the real world.
+
+The first is the accidental real-world meaning. A name invented in one language can land badly in another, and the cost is borne at launch. Mitsubishi sold its Pajero off-road vehicle under that name until it reached Spanish-speaking markets, where *pajero* is coarse slang, and rebranded it the Montero. [researched] Honda's Fitta met the same wall in the Nordic countries, where the word is crude in Swedish and Norwegian, and the car shipped elsewhere as the Jazz. [researched] The discipline is mechanical: check an invented name against the languages of your likely audience before it ships, exactly as a localisation pass would. The famous counter-case is a caution against the opposite error. The story that the Chevrolet Nova failed in Latin America because *no va* means "doesn't go" is an urban legend; the car sold well, and a Spanish speaker would not parse "Nova" as "no va" any sooner than an English one hears "carpet" as "car pet". [researched] So the rule is to check real meanings, not to invent imagined ones and panic over them.
+
+The second is appropriation. Borrowing the *structure* of a real naming tradition is the respectful move; lifting specific names, sacred terms or a living people's conventions wholesale and filing off the serial numbers is not. [synthesis] The diversity inside any one real tradition is itself instructive. South Asian naming alone spans Tamil, Hindi, Bengali and Punjabi conventions, which is the standing argument that a single fictional continent wants several naming systems rather than one flattened "ethnic" coat of paint. [corpus] Respect and craft pull the same way here: toward systems built from understood patterns rather than borrowed surfaces.
+
+::: {.callout-note}
+### The Specimen
+Tolkien built his world's names from invented languages first and stories second, deriving place-names and personal names from worked-out phonologies so that Sindarin names share a sound the way a real language's do. The naming feels deep because a real system sits under it, not a set of one-off coinages. [corpus] The lighter-weight version, within reach of any designer, is Mark Rosenfelder's *The Language Construction Kit*, which sets out how to build a small phoneme inventory and a root glossary and generate consistent names without constructing a full language. [researched] The same engine drives names at the table: a setting's toponymy and character names are a worldbuilding signal that carries the system's values, the way a rules-light game encodes its setting in what it bothers to name. The gamemaster who keeps even a one-page naming glossary gets the same coherence on the fly that the novelist gets in revision. [synthesis]
+:::
+
+## Where this fits
+
+**The bigger picture.** Naming sits at the entry point of worldbuilding, the first signal a reader or player receives and one of the cheapest to produce once the underlying system exists. It depends on the same consistency discipline that governs the rest of a setting, and so it lives close to [Worldbuilding Patterns](worldbuilding-patterns.qmd) and [Canon Management](canon-management.qmd): a name is only as coherent as the glossary behind it, and that glossary has to survive a long project without drifting. It also does quiet characterisation work that overlaps with voice, because the sound of a name shapes a reader's sense of a person before the dialogue starts, the way an idiolect does in [Character Voice](character-voice.qmd). Get naming right and a world feels lived-in before its first scene. Get it wrong and no amount of later lore repairs the reader's first impression that the place is not quite real.
+
+**Next steps.** Once the naming system is built, the next concern is keeping it consistent as the cast and map grow, which is [Canon Management](canon-management.qmd). To make the named places carry their history as charged settings rather than map labels, work through [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd). To extend the characterisation that a name begins into the way a person actually speaks, turn to [Character Voice](character-voice.qmd). And to ground the whole system in the wider setting it signals, the foundation is [Worldbuilding Patterns](worldbuilding-patterns.qmd).
+
+## Sources
+
+- Ekwall, Eilert. *The Concise Oxford Dictionary of English Place-Names*. 4th ed. Oxford University Press, 1960. (Anglo-Saxon, Norse and Celtic place-name elements and their meanings.)
+- "Toponymy of England." Wikipedia. (The Celtic / Old English / Old Norse / Norman layering of English place-names and surviving pre-Celtic river-names.) <https://en.wikipedia.org/wiki/Toponymy_of_England>
+- English Place-Name Society. Survey of English Place-Names. <https://epns.nottingham.ac.uk/>
+- Köhler, Wolfgang. *Gestalt Psychology*. Liveright, 1929. (The original "maluma / takete" shape-sound matching, later the bouba/kiki effect.)
+- Ramachandran, V. S., and Hubbard, E. M. "Synaesthesia: A Window Into Perception, Thought and Language." *Journal of Consciousness Studies*, vol. 8, no. 12, 2001. (Modern revival of the bouba/kiki effect.)
+- "Bouba/kiki effect." Wikipedia. (Cross-cultural robustness; extension to real names.) <https://en.wikipedia.org/wiki/Bouba/kiki_effect>
+- Rosenfelder, Mark. *The Language Construction Kit*. Yonagu Books, 2010. (Building a minimal naming system from a phoneme inventory and a glossary of roots.)
+<!-- vale Vale.Repetition = NO -->
+- Tolkien, J. R. R. *The Lord of the Rings* and appendices; Carpenter, Humphrey. *J. R. R. Tolkien: A Biography*. Allen & Unwin, 1977. (Languages-first naming as the founding worldbuilding model.)
+<!-- vale Vale.Repetition = YES -->
+- Mikkelson, David. "Did the Chevrolet Nova Fail to Sell in Spanish-Speaking Countries?" Snopes. (The "no va" story debunked.) <https://www.snopes.com/fact-check/chevrolet-nova-name-spanish/>
+- "Mitsubishi Pajero" and "Honda Fit" naming histories. Wikipedia. (Real localisation rebrandings: Pajero to Montero, Fitta to Jazz.) <https://en.wikipedia.org/wiki/Mitsubishi_Pajero>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Canon Management](canon-management.qmd)
+- [Fantasy Conventions](fantasy-conventions.qmd)
+- [Historical Fiction](historical-fiction.qmd)
+- [Worldbuilding Patterns](worldbuilding-patterns.qmd)
+
+<!-- BACKLINKS:END -->

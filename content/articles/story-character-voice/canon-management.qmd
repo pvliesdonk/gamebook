@@ -1,14 +1,127 @@
 ---
 title: "Canon Management"
-aliases: []
+aliases: ["Continuity Management", "Lore Consistency", "Story Bible", "Spoiler Stratification"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [believable-world, sustained-immersion, parallel-authorship]
+  problems: [continuity-error, contradiction, premature-reveal]
+  components: [story-bible, timeline, cause-chain, spoiler-tier]
+  genre: [mystery, fantasy, sci-fi, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: The discipline that keeps a world's established facts from contradicting each other.*
+
+A world earns belief by holding still. The reader learns that the Guild controls the waterfront, that the war ended three years before the story opens, that this character has never met that one. Each fact is a small loan of trust. The reader files it away and builds on it, and the moment a later page contradicts what an earlier page promised, the whole structure wobbles. Readers forgive a thin world. They do not forgive an inconsistent one, because inconsistency tells them nobody was minding the world at all.
+
+Canon is the authoritative truth of the story world. It is not the author's draft ideas and not the player's private interpretation. It is the set of facts that every other piece of content has to respect. Managing it is mostly bookkeeping, and the bookkeeping is least glamorous exactly where it matters most. The harder a work forks, branches, runs across instalments, or passes through many hands, the more places a contradiction can hide and the more readers there are to find it.
+
+This article is about keeping those facts straight. It covers the anchoring of cause and time. It covers how to hold canon in a reference that more than one person can write against. There is the work of changing an established fact without breaking everything below it. The last section asks which facts are safe for the reader to know and at what point. It is fact-continuity. The sibling discipline of voice-continuity, keeping a narrator or a character sounding like themselves across the same sprawl, is [Voice & Register Consistency](voice-and-register-consistency.qmd). The two travel together and fail in similar ways, but a world can be perfectly consistent in its facts and still wander in its voice, and the reverse.
+
+## The Mechanism (How it works)
+
+### Every fact needs a cause
+
+The first rule of building canon is that a bare fact is weaker than a caused one. "It just is" reads as arbitrary, and readers feel the missing floor under an unjustified fact even when they cannot name what is wrong. [corpus] A cause chain gives a fact a root. You state the truth and then ask why it is true. Then you ask why that is true, and you keep going until you reach a foundation that satisfies or a mystery you mean to keep.
+
+The structure is short and worth laying out as a worked example, because it shows where the chain is meant to stop.
+
+| Level | Content |
+|---|---|
+| Truth | The Guild controls the waterfront |
+| Immediate cause | After the Collapse they were the only group with intact logistics |
+| Deeper cause | Their founder foresaw the crisis and stockpiled resources |
+| Open question | How did the founder predict the Collapse? |
+
+The open question at the bottom is doing real work. Not every chain needs infinite depth, and the discipline is to stop when further depth no longer serves the story, marking the stopping point as an open question rather than papering over it. [corpus] The failure on the other side is over-building: defining far more of the world than the story will ever use, which constrains future development without buying any belief. [corpus] This is the worldbuilding iceberg that authors lean on, where a story shows perhaps a tenth of what the writer knows and implies the rest. Hemingway put the principle plainly. A writer who knows enough can omit things, and the reader will feel them as strongly as if they were stated. The dignity of an iceberg comes from the seven-eighths below the water. [researched] The trap is mistaking the iceberg for the story and trying to carve all of it.
+
+A few failure shapes recur often enough to name. Circular reasoning, where A is true because of B which is true because of A, has no external anchor and collapses on inspection. Infinite regress never reaches a foundation. Hand-waving ("magic did it") skips the question rather than answering it, and the fix is the same in each case: even magic needs rules, and a fact needs a why that eventually touches something solid. [corpus] How a world is assembled from these caused facts in the first place is its own craft, [Worldbuilding Patterns](worldbuilding-patterns.qmd); naming its people and places consistently so the names themselves never contradict the world is [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd).
+
+### Anchoring events in time
+
+The most common continuity error is temporal. Without a position in the world's chronology, events drift loose and start to contradict each other or violate cause and effect. [corpus] A character cannot attend a battle that happened before they were born. A fact established as "three years after the war" cannot quietly become "a decade after" two chapters later. Timeline anchoring is the cheap insurance against this. It works by forcing every dated event to declare when it sits.
+
+There are three ways to fix an event in time, and most worlds use all three. [corpus]
+
+| Anchor type | What it pins to | Example |
+|---|---|---|
+| Absolute | A fixed date in story time | Year 347 of the New Era |
+| Relative | Another event | Three years after the Collapse |
+| Sequential | An order, without a duration | After the Last War, before the Guild's Rise |
+
+Sequential anchoring is the most forgiving and often the most useful, because it commits to order without committing to a number that a later scene might contradict. The validation step is mechanical. Before an event is finalised, confirm that its position is documented and that it fits the anchors already established. Then confirm that cause still precedes effect and that the durations are plausible. [corpus] When a new event contradicts the established chronology, one of the two is wrong, and the contradiction is a signal to resolve rather than ignore. The structural craft of laying events out of order on purpose, reverse chronology and mosaic and frame, is [Nonlinear Narrative Structures](../structure-pacing/nonlinear-narrative-structures.qmd); anchoring is what keeps even a scrambled timeline internally sound. Period work raises the stakes again, because the anchors have to agree with each other and also with the real historical record: [Historical Fiction](historical-fiction.qmd).
+
+### The story bible
+
+The artefact that holds all of this is the story bible, also called a series or show bible: a reference document that records the world's facts, characters, settings, and chronology so that they stay consistent across every instalment. [researched] It is the same tool whether the work is a novel series, a television show, or a branching game, and its core job is to be the single place where canon lives, so that "what is true" is a lookup rather than a memory.
+
+The bible matters most in long-running collaborative work, where memory alone cannot hold the load. The *Frasier* writers maintained theirs scrupulously. Anything established on air went into the bible and was honoured by every later script, down to the name of Frasier's mother and the full list of a never-seen character's food allergies. [researched] The opposite case is the cautionary one. Long-running soap operas that ran without an archivist, passing through hundreds of writers who worked from memory or invented their own backstory, accumulated contradictions over decades precisely because no shared record reconciled one writer's version against another's. [researched] *M\*A\*S\*H* ran eleven seasons with no bible, and its continuity errors became a fan pastime rather than a craft achievement. [researched]
+
+Two properties make a bible work. It is the single source of truth, so consistency is a shared reference rather than a shared responsibility that becomes nobody's. And it is a living document, updated the moment a story decision changes a fact, with each new writer handed the current version rather than the original. [corpus] A bible that records the world as it was at launch and never moves is worse than none, because it lies with authority. The reason a collaborative team needs this more than a solo author is that canon is what keeps parallel creation aligned. It lets several writers, or several agents, build into one shared world without colliding. [corpus] This is the fact-side of the same problem that [Voice & Register Consistency](voice-and-register-consistency.qmd) solves on the voice-side, and serious projects keep both strands in the same bible.
+
+### Retcon discipline: changing canon without breaking it
+
+Sometimes new content has to contradict an established fact. The change itself is not the sin. Doing it silently is. A retcon, short for retroactive continuity, is the deliberate adjustment of a previously established fact by later work that recontextualises or overrides it. [researched] The term was coined at a comics convention and printed in DC's *All-Star Squadron* in 1983, when writer Roy Thomas adopted a fan's phrase for the practice of revising a fictional history, and it spread from Usenet into general usage and the dictionary soon after. [researched] Comics live on retcons because their continuities run for decades across many writers, which is exactly the condition that makes both the contradiction and its careful handling unavoidable.
+
+The discipline has one hard rule and one process. The rule is never to silently overwrite. A silent change cascades. Every fact that depended on the old version is now quietly wrong, and the errors surface later in places nobody connects back to the change. [corpus] The process is propagation. You document the conflict and both competing versions. Once you can see what depends on each one, you decide which is canon and why. Then you update every dependent fact. The version you discarded is archived rather than deleted. [corpus] The step writers skip is the fourth one. Skipping it is the single most common way a continuity error is born: the canon changed and the dependent content did not follow. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+The dangerous retcon is the one that feels too small to track. A single date or a minor character's allegiance can seem far too trivial to propagate. But canon is a web rather than a list. The small fact you moved was load-bearing for three scenes you have forgotten about. Weeks later a reader finds the seam. The change was never documented. You cannot even reconstruct what the fact used to be or what relied on it. The tell is the thought "this is too minor to write down." The facts that feel too minor to track are exactly the ones that produce errors nobody can explain. Nobody recorded the decision that caused them. If you are changing an established fact at all, it is large enough to document. [synthesis]
+:::
+
+### Spoiler stratification: what is known, when, and to whom
+
+Canon and the reader's view of canon are not the same thing. The author holds the full truth; the reader is meant to hold a curated subset of it, released on a schedule. Spoiler stratification is the discipline of sorting every fact by how safe it is to reveal, so that player-facing content can be derived from canon without leaking the things discovery depends on. [corpus] The standard sort is three tiers.
+
+| Tier | What it is | Treatment |
+|---|---|---|
+| Minor | Background flavour | May appear, with careful phrasing |
+| Major | Affects understanding or strategy | Omit or heavily obscure |
+| Critical | Would ruin the experience | Never appears, no exceptions |
+
+The worked example shows how sharply the tier can turn on a single word. "The Guild's founder was wealthy" is minor flavour. "The Guild's founder foresaw the Collapse" is major, because it changes how a reader reads every Guild action. "The Guild's founder *caused* the Collapse" is critical: the central twist, excluded from any player-facing text without exception. [corpus] A useful filter for the line is the in-world scholar test. Ask what a scholar inside the world could actually know and publish. Scholars do not know secret motivations or hidden identities, and they do not know the facts the story is holding back for discovery. Anything that fails the scholar test is a spoiler that has no business in a codex written as if from within the world. [corpus]
+
+The problem becomes acute the moment the reader can learn facts in different orders, which is the native condition of branching work. In linear fiction the author controls the sequence: a fact tagged critical simply stays off the page until the reveal scene. In interactive fiction the player chooses the path, so a fact safe to show on one branch may be a spoiler on another where the player has not yet reached the scene that earns it. The release schedule has to be keyed to the player's accumulated state, not to a fixed page number, which is the who-knows-what-when problem of [Information Architecture](../puzzles-clues-information/information-architecture.qmd) seen from the canon side. The structural machinery that tracks which branch a player is on, and gates a reveal until the deciding state is set, is [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd); the question of which facts the world surfaces to the player at all, versus which stay behind the author's screen, runs into [Diegetic Design](diegetic-design.qmd).
+
+### Across media: the same discipline under different load
+
+The fact-continuity problem is universal, but each medium stresses a different part of it. In interactive fiction the load is branch density and parallel authorship, and the bible and the cause chain originate there as production tools. [corpus] In tabletop campaigns the load is duration and improvisation: a long campaign accumulates consequence over dozens of sessions, NPCs the players founded become powerful, and earlier dungeon runs establish geography the table returns to years later, so the equivalent of a bible is rigorous session recording and a campaign wiki rather than the single GM's memory. [corpus] Rotating-GM and troupe campaigns make this explicit, because handing the chair around demands a shared record of who established what and what is still open to be established. [corpus] The campaign-scale version of all this, the shapes a long arc can take and how consequence accrues across them, is [Campaign Arc Shapes](../structure-pacing/campaign-arc-shapes.qmd).
+
+In live and immersive games the load lands on spoiler stratification and progressive revelation. A multi-act mystery is a controlled release of information. The designer holds the full truth while the players hold fragments that arrive on a schedule, and the schedule is the game. [corpus] Subscription experiences stretch this across weeks. The Mysterious Package Company's postal serials and Hunt A Killer's monthly boxes use the gap between mailings as the gating mechanism, so canon is revealed by physical instalment, and a fact's spoiler tier decides which box it ships in. [corpus] The same fair-play obligation that governs a detective story applies here. By the final act, the decisive facts must be in the players' hands, however carefully they were withheld until then. [researched] When a work ships as instalments written and released over time, the drift and reveal-scheduling problems stretch across episodes, which is the continuity load of [Episodic & Serialised Structure](../structure-pacing/episodic-and-serialised-structure.qmd); when several storylines run in parallel and have to share one consistent set of world-facts, that is [Parallel Threads & Convergence](../structure-pacing/parallel-threads-and-convergence.qmd).
+
+::: {.callout-note}
+### The Specimen
+Jubensha, the Chinese scripted murder-mystery format, makes canon-as-staged-revelation unusually literal. A session runs three to five hours across four to six acts, and each player reads only the first section of a private character packet, unlocking later sections at the host's signal as new clue packets are distributed act by act. [corpus] The host is closer to a stage manager than a player. Their primary load is information management: tracking which facts come out in which act, and to which player on what condition. [corpus] A widely-followed convention puts "the spiciest clues at the bottom of the pile," with the contextual facts handed out first and the decisive ones reserved for later acts, which is spoiler stratification rendered as a physical stack. [corpus] The format's documented failure modes are canon failures. One is premature deduction, when the decisive fact leaks too early and collapses the remaining acts. The other is backstory drowning, when too much established history arrives at once for players to absorb. [corpus] The fix for both is the same scheduling discipline a branching author uses, keyed to the players' deductive state rather than the clock alone. [corpus]
+:::
+
+## Where this fits
+
+**The bigger picture.** Canon management is the substrate the rest of the Story family stands on. Worldbuilding builds the facts, voice work makes the people who inhabit them sound distinct, and plot moves through them, but all of it assumes the facts hold still long enough to be built on. It is the fact-continuity counterpart to voice-continuity. The same enemies attack both (time, the distance between sessions, many authors, the player-chosen order of revelation), and a serious project tracks them in the same bible. The work is invisible when it succeeds. A reader never praises a world for not contradicting itself; they only notice the seam when it tears, and by then the trust that made the world feel real is already spent. The harder a work branches, serialises, or distributes its authorship, the more this stops being optional bookkeeping and becomes the thing that lets the world exist at all.
+
+**Next steps.** To build the caused, anchored facts that canon then has to keep consistent, start from [Worldbuilding Patterns](worldbuilding-patterns.qmd). To hold the narrator and the cast sounding like themselves across the same branches and instalments, the parallel discipline is [Voice & Register Consistency](voice-and-register-consistency.qmd). To schedule which facts the player learns and when, against a path the player chooses rather than a page you control, work through [Information Architecture](../puzzles-clues-information/information-architecture.qmd) and the structure that tracks state, [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd). And to manage continuity across instalments released over time, turn to [Episodic & Serialised Structure](../structure-pacing/episodic-and-serialised-structure.qmd).
+
+## Sources
+
+- Hemingway, Ernest. *Death in the Afternoon*. Charles Scribner's Sons, 1932. (The iceberg theory of omission: what the writer knows but leaves unstated.) <https://en.wikipedia.org/wiki/Iceberg_theory>
+- "Bible (screenwriting)." Wikipedia. (The series/show bible as a continuity-and-consistency reference; the *Frasier* bible example.) <https://en.wikipedia.org/wiki/Bible_(screenwriting)>
+- Friedman, Jane. "The Story Bible: What It Is and Why You Need One." janefriedman.com. <https://janefriedman.com/the-story-bible/>
+- "Series Continuity Error." TV Tropes. (Continuity error as a feature of long-runners; multi-writer drift; the archivist role.) <https://tvtropes.org/pmwiki/pmwiki.php/Main/SeriesContinuityError>
+- "Retroactive continuity." Wikipedia. (Definition; the *All-Star Squadron* #18 coinage, Roy Thomas, 1983; the spread of "retcon".) <https://en.wikipedia.org/wiki/Retroactive_continuity>
+- "A Short History of 'Retcon'." Merriam-Webster. <https://www.merriam-webster.com/wordplay/retcon-history-and-meaning>
+- Hon, Adrian. "Here's What Makes Jubensha Different." mssv.net, March 2025. (Packet structure, act-by-act revelation, the host as information manager.) <https://mssv.net/2025/03/26/heres-what-makes-jubensha-different/>
+- Twist n Turn Studios. "The Jubensha Structure Explained." (The "spiciest clues at the bottom of the pile" ordering convention.) <https://www.twistnturnstudios.ca/blog/jubensha-structure-and-free-jubensha>
+- Knox, Ronald. "The Detective Story Decalogue" (1929), and Van Dine, S. S. "Twenty Rules for Writing Detective Stories" (1928). (Fair-play: the decisive facts must be in the reader's hands by the end.) <https://en.wikipedia.org/wiki/Ronald_Knox>
+- Short, Emily. "Mysterious Package Company and Narrative of Objects." *Emily Short's Interactive Storytelling*, 29 June 2016. (Postal serial revelation; instalment gating as pacing.) <https://emshort.blog/2016/06/29/mysterious-package-company-and-narrative-of-objects/>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Historical Fiction](historical-fiction.qmd)
+- [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd)
+- [Voice & Register Consistency](voice-and-register-consistency.qmd)
+- [Worldbuilding Patterns](worldbuilding-patterns.qmd)
+
+<!-- BACKLINKS:END -->

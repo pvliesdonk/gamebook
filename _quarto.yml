@@ -43,6 +43,36 @@ book:
         - content/articles/puzzles-clues-information/puzzle-hunt-craft.qmd
         - content/articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd
         - content/articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd
+    - part: content/primers/making-it-matter.qmd
+      chapters:
+        - content/articles/story-character-voice/character-voice.qmd
+        - content/articles/story-character-voice/dialogue-craft.qmd
+        - content/articles/story-character-voice/prose-patterns-and-point-of-view.qmd
+        - content/articles/story-character-voice/voice-and-register-consistency.qmd
+        - content/articles/story-character-voice/exposition-and-subtext.qmd
+        - content/articles/story-character-voice/diegetic-design.qmd
+        - content/articles/story-character-voice/environmental-storytelling-and-setting-as-character.qmd
+        - content/articles/story-character-voice/conflict-patterns.qmd
+        - content/articles/story-character-voice/emotional-beats-and-investment.qmd
+        - content/articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd
+        - content/articles/story-character-voice/heist-and-caper-patterns.qmd
+        - content/articles/story-character-voice/romance-and-relationships.qmd
+        - content/articles/story-character-voice/worldbuilding-patterns.qmd
+        - content/articles/story-character-voice/canon-management.qmd
+        - content/articles/story-character-voice/naming-craft-characters-and-locations.qmd
+        - content/articles/story-character-voice/a-taxonomy-of-genre-conventions.qmd
+        - content/articles/story-character-voice/mystery-and-detective-fiction.qmd
+        - content/articles/story-character-voice/horror-conventions.qmd
+        - content/articles/story-character-voice/fantasy-conventions.qmd
+        - content/articles/story-character-voice/science-fiction-conventions.qmd
+        - content/articles/story-character-voice/historical-fiction.qmd
+        - content/articles/story-character-voice/childrens-and-ya-conventions.qmd
+        - content/articles/story-character-voice/tropes-archetypes-and-variations.qmd
+        - content/articles/story-character-voice/solo-journaling-rpgs-genre-and-form.qmd
+        - content/articles/story-character-voice/prompt-design-in-solo-journaling.qmd
+        - content/articles/story-character-voice/the-journal-as-artefact.qmd
+        - content/articles/story-character-voice/npc-craft-and-voicing.qmd
+        - content/articles/story-character-voice/audience-and-age-targeting.qmd
     - part: content/primers/the-social-contract-and-safety.qmd
       chapters:
         - content/articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd

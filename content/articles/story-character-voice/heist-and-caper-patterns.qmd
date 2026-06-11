@@ -1,14 +1,132 @@
 ---
 title: "Heist & Caper Patterns"
-aliases: []
+aliases: ["The Heist", "The Caper", "Crew Stories", "The Score"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, tabletop, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [competence-fantasy, earned-surprise, crew-investment]
+  problems: [flat-ensemble, unfair-twist, planning-paralysis]
+  components: [crew-roles, the-plan, the-reveal, the-clock]
+  genre: [crime, thriller, comedy]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: A team of specialists and a perfect plan, tested the moment it meets reality.*
+
+A heist is a machine for making the audience feel clever. The team is assembled, the target is studied, the plan is laid out one step at a time, and then the clock starts and everything the story taught you gets tested at once. The pleasure is not theft. It is competence: watching people who are very good at something be very good at it under pressure, against odds that should beat them.
+
+That pleasure has a shape, and the shape is reliable enough to build on. A crew comes together, a plan takes form, the job goes sideways, and a final turn shows you that the going-sideways was planned for all along. The caper runs the same bones with a lighter touch, where a slip means embarrassment rather than a cell. The heist tightens the same bones until a slip means death. Both live or die on the same craft.
+
+This article is about that craft, and about the awkward problem the pattern poses to interactive work. In a film the author drives every move. In a game the player is the planner, which means the genre's signature trick, the reveal that recontextualises everything, has to surprise the very person who built the plan. Solving that is most of what makes an interactive heist hard.
+
+## The Mechanism (How it works)
+
+### The competence engine
+
+Most dramatic structures run on failure. A character wants something, fails to get it, and the failure escalates. The heist runs on the opposite fuel. Its characters succeed through skill, knowledge and preparation, and the audience's investment comes from admiring that expertise and wondering whether it will be enough. [corpus] This is the genre's defining convention: the vicarious pleasure of competence, the feeling of being let in on a plan clever enough that following it makes you feel clever too. [researched]
+
+That fuel changes how you build a character. A heist character is defined first by what they can do. Their private dramas matter, but the core appeal is watching capable people exercise capability, so the writing has to *show* the competence before it asks the audience to bank on it. [corpus] Danny Ocean does not need to be psychologically deep. He needs to be the smartest person in every room, and the audience needs to believe it before the job begins. The principle generalises. Establish the skill early and visibly, so that when it carries the job later, the audience has already signed off on it.
+
+So the heist sits a little apart from the rest of the [Story, Character & Voice](character-voice.qmd) family. Elsewhere a character earns investment through interiority and contradiction. Here they earn it through demonstrated mastery, and the interiority is a second layer laid over a working professional. Get the competence wrong and no amount of backstory saves the job. Get it right and you can be sparing with everything else.
+
+### Assembling the crew
+
+The crew is an ensemble defined by function. Each member exists because the job needs their particular skill, which gives the cast a clean logic. Everyone is necessary, and during execution everyone's contribution has to become visible. [corpus] The roles below form a toolkit rather than a checklist. Many stories merge two into one person or subvert a role outright, and a small job may need only three of them.
+
+| Role | What they exploit | What they bring to the job |
+|---|---|---|
+| The Mastermind | The whole picture | Designs the plan, makes the big calls [corpus] |
+| The Grifter | Human trust | Social engineering, disguise, the confidence to talk through a door [corpus] |
+| The Hacker / Tech | System weakness | Bypasses electronic and mechanical security [corpus] |
+| The Thief | Physical defences | Infiltration, lockpicking, sleight of hand [corpus] |
+| The Muscle | Force | Intimidation, and the plan B when finesse fails [corpus] |
+| The Inside Person | Access | Information and legitimacy within the target [corpus] |
+| The Driver | The exit | Escape logistics, timing, the way out [corpus] |
+| The Bankroll | Resources | Money, connections, and something to lose [corpus] |
+
+The crew of the television series *Leverage* shows the toolkit pared to its working minimum. Five roles (mastermind, grifter, hacker, thief and hitter) cover human, technical and physical defences between them, with the mastermind run on deliberately incomplete information so that a mid-job twist can land. [researched] When a job hits a social wall, the grifter steps up and the player who built that crew is rewarded; when it hits a lock, the thief does. The crew is the toolkit, and which tools you packed decides which problems you can solve.
+
+The roles describe function, but a crew of pure function is furniture. The richest versions layer interpersonal tension beneath the professional surface. Members who must cooperate without trusting each other. Members who joined for different reasons. Members whose expertise overlaps and grates, or who share a history of jobs gone wrong. [corpus] The audience should be asking whether the team will hold together as well as whether the plan will work. This internal friction is the heist's native form of [conflict](conflict-patterns.qmd), and it is also where the crew earns its [emotional weight](emotional-beats-and-investment.qmd): a team you have come to care about is a team whose collapse you fear. Each member also needs a [voice](character-voice.qmd) of their own, because an ensemble where everyone sounds the same reads as one planner talking to themselves.
+
+Assembly is its own act with its own rhythm. Each recruitment scene does several jobs at once. It shows the recruit's capability. It establishes why they say yes. It introduces their personality in compressed form, and it ratchets the sense that the impossible job is becoming possible. [corpus] The recruitment montage also sets pace. A fast string of recruitments accelerates toward the job; a slow recruitment full of refusals and obstacles builds investment in the team before the plan even begins.
+
+### The plan, and how much of it to show
+
+The planning phase is where the heist separates itself from every other crime story. It is a deliberate act of teaching. The writer shows the audience how the target works, so that later they can appreciate the cleverness of beating it. [corpus] The teaching covers five things. The target and its value. The defences in the way. The vulnerability that opens them up. The timeline that gives a window, and the contingencies for when that window jams. [corpus]
+
+The central authorial choice is how much of the plan to hand over in advance, because the answer trades tension against surprise. There are three settings. The gap between the first and the last is the gap between two whole sub-genres.
+
+| Disclosure | What the audience knows | What it buys | Exemplar |
+|---|---|---|---|
+| Full | The entire plan, step by step | Maximum tension; the audience holds its breath at every checkpoint | *Rififi* [researched] |
+| Partial | The outline, not every trick | Tension plus room for mid-job reveals | *Mission: Impossible* [corpus] |
+| Minimal | Almost nothing | Maximum surprise; the whole thing recontextualises at the end | *The Sting* [researched] |
+
+Full disclosure is the silent set piece. *Rififi* (1955) shows its jewel robbery in near-wordless real time, a sequence of roughly half an hour in which the audience knows the plan exactly and can see every moment it might break, and the tension is unbearable precisely because nothing is hidden. [researched] Minimal disclosure is the long con. *The Sting* (1973) keeps the audience barely understanding the scheme until the closing minutes, then recontextualises the entire film in a single turn. [researched] Most stories sit in the middle, showing enough of the plan to make the audience worry about specific steps while withholding enough to leave room for the reveal. [corpus] The choice is a tone choice as much as a structural one, and it connects directly to how the story manages [pacing and the clock](../structure-pacing/try-fail-cycles-and-escalation.qmd).
+
+### Execution, complication and the clock
+
+Execution is the centrepiece, and it follows a recognisable rhythm. A smooth opening builds confidence. A first complication the plan absorbs. Then complications escalate and bend it, until a crisis where the job looks lost, a pivot that saves it, and a resolution that pays out the consequences. [corpus] The engine driving that rhythm is the [try-fail cycle](../structure-pacing/try-fail-cycles-and-escalation.qmd). Each step either lands cleanly or lands at a cost; a third outcome tips the crew into the next problem. The escalation is the story tightening the screw.
+
+Complications come in recognisable kinds, and mixing them is what makes an execution feel alive rather than scripted. An external complication probes the plan's flexibility. Security might be tighter than briefed, or an unrelated event might block access. An internal one probes the crew's cohesion. A member freezes, perhaps, or quietly turns out to have a hidden agenda. An informational one probes the crew's ability to adapt under bad intel, when the target proves to be other than expected or the layout has shifted. And a cascading complication hits everything at once. The hack sets off an alarm; the alarm moves the guard rotation; now that rotation sits across the exit. [corpus] The strongest jobs braid all four, so the audience cannot tell which thread will snap first. Because each kind hits a different crew member's domain, a heist with several active threads is a [parallel-thread structure](../structure-pacing/parallel-threads-and-convergence.qmd) converging on a single point: the job.
+
+Nearly every execution runs against a clock, and the clock is doing real structural work. It can be literal (the vault opens for twenty minutes), event-based (before the mark returns), or discovery-based (no fixed deadline, but every minute raises the odds of being caught). [corpus] The clock creates urgency that stops the audience pausing to interrogate the plan's logic, and it forces real-time decisions that reveal character under pressure. [corpus] In tabletop and live play that pressure is often made literal as a [progress clock or faction state track](../systems-mechanics/progress-clocks-and-faction-state.qmd), a visible dial filling toward discovery while the crew works. When the heist is staged as a live event, the crew itself often becomes a [faction with its own objectives](../players-social-dynamics/faction-design-and-asymmetric-objectives.qmd), running against rival crews or against the house. [synthesis]
+
+### The reveal, and the contract that makes it fair
+
+The reveal is the genre's signature. After the job, the audience learns that what they watched was not the whole picture, and the story replays its own prior scenes to show the preparations that were hidden in plain sight. It works through selective omission. The story was truthful about everything it showed and merely strategic about what it withheld. When the hidden move surfaces, the audience can trace back and confirm there was time for it, and that the odd earlier scene had a purpose they did not catch. [corpus]
+
+The common forms are worth naming. The hidden preparation resolves a crisis with something set up off the page ("When did you switch the cases?" "Yesterday, while you were watching the door"). The double cross turns an apparent betrayal into part of the plan, so that the job seeming to fall apart was the job working. The deeper game reveals that the visible target was a distraction while the real objective happened elsewhere. The mark's complicity shows that the target was manipulated into helping without knowing it. [corpus]
+
+A reveal carries a contract, and it is the same contract the detective story has enforced for a century. The audience needs to be able to go back afterwards and find the seeds. A turn that leans on information they could never have had will read as a cheat rather than a clever stroke. [corpus] Ronald Knox set the same rule down for the murder mystery in his fair-play decalogue of 1929. The story may not hide from the reader a clue the detective holds. Nor may a solution rest on an ability or a fact the story never planted. [researched] The heist inherits that rule wholesale. You are allowed to show the preparation scene and let the audience misread its purpose. You are allowed dialogue that is innocent in context and loaded in retrospect. You may even play the audience's own genre expectations against them. What you are not allowed is a character with a skill that was never established, or a decisive move staged wholly off-screen. The fairness of a reveal is the same property, under a different name, as the fairness of a clue: the answer has to have been reachable from what the story actually gave you. The puzzle side of that contract is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The unfair reveal is seductive because from the inside it feels inevitable. You know the team always had the duplicate key, so the scene where they produce it reads as obvious to you and lands as a cheat to everyone else, because the story never gave them a way to know it existed. The four reliable tells: a capability that was never shown ("since when can she pick that?"), a decisive event that happened entirely off-screen with no hint, a reveal that contradicts a scene the audience saw rather than recontextualising it, and a save that rests on coincidence dressed up as planning. If your own notes say the audience "should have guessed", that is the designer's voice papering over a gap. The audience does not owe you the leap. [synthesis]
+:::
+
+### The caper's lighter register
+
+Heist and caper are often used as synonyms, but the distinction is useful because it is a tone dial, not a structural one. The heist runs on tension. The stakes are high, the consequences serious, and failure means death or prison for characters who risk everything. The caper runs on wit. The stakes are lower, the touch is lighter, and failure means embarrassment or a missed payday for characters who are visibly enjoying the game. [corpus] Most stories blend the two, sitting in caper lightness during the planning and recruitment and tightening into heist tension during the execution. The balance between the two registers is what sets the tone.
+
+The dial has settings beyond those two poles. The light caper (*Ocean's Eleven*, *The Italian Job*, *Leverage*) plays for charm and lets the audience root for the thieves without moral discomfort. The thriller heist (*Heat*, *Rififi*) plays for precision and danger, where every second has weight. The con game (*The Sting*, *Hustle*) plays for misdirection, fooling the audience alongside the marks. The dark heist (*Reservoir Dogs*, *A Simple Plan*) lets the job go wrong through human weakness rather than incompetence. The plan was perfect; the people were not. [corpus] Three knobs hold the register steady across all of them. Match the complications to the tone, so that a caper solves them with wit while a thriller escalates them physically. Handle betrayal in the register's key, so that a caper reveals it was part of the plan while a dark heist lets it destroy everything. Land the aftermath to match, so that a caper ends with spoils enjoyed while a thriller ends with characters walking away changed. [corpus]
+
+### The interactive heist: the player as planner
+
+Here is the problem that belongs to interactive work and to almost nothing else. The heist is one of the most naturally interactive narrative architectures available, because the planning phase maps cleanly onto player choice. The player decides the approach and where to spend a limited budget, and the execution then pays those choices off. [corpus] The planning phase is where an interactive heist does its real work. Give the player a real approach choice (through the building past security, over the roof from the next tower, or down through the maintenance tunnels). Give them a real resource budget, where reconnaissance trades against rehearsal and an extra crew member trades against equipment. Give them a real intelligence choice, where each thing scouted cuts uncertainty in one area at the cost of time or risk elsewhere. [corpus] The design principle is that execution should *feel different* depending on how the player planned. A player who invested in social engineering should have a wholly different job from one who invested in technical infiltration. [corpus] This is choice architecture in its purest form, and it leans on everything in [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd).
+
+But the signature trick fights the medium. The reveal recontextualises a plan, and in interactive work the player is the one who built it, so how do you surprise someone with their own scheme? The corpus offers four answers. [corpus] The NPC mastermind keeps the player on the crew but not in sole command, so an [NPC's](npc-craft-and-voicing.qmd) hidden preparations surface during execution and interact with the player's choices. The emergent reveal lets the player's own preparations combine in ways they set up but did not consciously foresee, so the social angle from one scene and the timing exploit from another lock together and the system rewards the creativity. The partial-knowledge reveal lets the player plan one layer for real, then discover mid-job that the score has a second layer they never knew about. The opponent's reveal hands the surprise to the mark, who turns out to have known the crew was coming all along.
+
+The most elegant of these solutions did not come from interactive fiction at all. It came from the tabletop, and it solves a second problem the planning phase quietly creates.
+
+::: {.callout-note}
+### The Specimen
+*Blades in the Dark*, John Harper's 2017 tabletop game of daring scoundrels, found the cleanest answer to both the planning problem and the reveal problem at once, and it did it by inverting the order of play. Instead of a planning session followed by execution, the table picks only the *type* of plan (assault, deception, stealth, and so on) and one key detail, then cuts straight to the job already in progress. The detailed planning that would have eaten an hour is assumed to have happened off-screen. [researched] The genre's reveal is then reproduced as a live mechanic: the flashback. At any point during the score, a player may spend a small currency called stress to flash back to a preparation their character set up earlier, before anyone knew it would matter. Maybe a guard was already paid off, or a tool was waiting in a coat pocket all along. An ordinary, easily arranged preparation costs nothing. An unlikely or elaborate one costs more. [researched] This is "we planned for this" turned into a rule a player can invoke. It dissolves planning paralysis, because the characters are assumed to have done the off-screen work, and it manufactures the heist reveal on demand, because the player surprises the table (and often themselves) with a preparation that was always notionally there. [researched] The wider score-and-downtime loop the game is built on produces heist-film structure as emergent play rather than authored plot.
+:::
+
+The flashback is the heist genre handing interactive design its own solution. The film's reveal asks the audience to trust that the preparation was always there; the flashback lets the player *assert* it, within a fair cost, at the moment of need. The fairness contract survives the move intact, because the stress cost stands in for the fairness check: a flashback that would be too convenient to believe simply costs too much to be worth it.
+
+## Where this fits
+
+**The bigger picture.** The heist is a compound pattern, and that is why it sits across families rather than inside one. Its engine is competence rather than the interiority that drives most of the [Story, Character & Voice](character-voice.qmd) family, so it asks you to build characters from the outside in, capability first. Its crew is an ensemble held together by professional function and pulled apart by interpersonal [conflict](conflict-patterns.qmd), and its execution is a [parallel-thread structure](../structure-pacing/parallel-threads-and-convergence.qmd) of try-fail cycles converging on a single point under a clock. Its reveal is bound by the same fairness contract that governs a fair-play mystery and a well-clued puzzle. Pull any one of those threads and the others come with it, so a heist that works is usually a story that has its whole house in order.
+
+**Next steps.** To build the crew as people rather than functions, the interpersonal pressure that makes a team worth watching is [Conflict Patterns](conflict-patterns.qmd), while the attachment that makes its collapse hurt is [Emotional Beats & Investment](emotional-beats-and-investment.qmd). The distinct [voice](character-voice.qmd) each member needs is what keeps the ensemble legible. To run the execution, the escalation engine is [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd) and the threads that converge on the job are [Parallel Threads & Convergence](../structure-pacing/parallel-threads-and-convergence.qmd). To make the interactive version work, the planning phase is [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd) and the clock is a [Progress Clock](../systems-mechanics/progress-clocks-and-faction-state.qmd); for the staged version, the crew becomes a [faction](../players-social-dynamics/faction-design-and-asymmetric-objectives.qmd). To keep the reveal honest, the contract it shares with the puzzle is [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+## Sources
+
+- Kaminsky, Stuart M. *American Film Genres: Approaches to a Critical Theory of Popular Film*. Pflaum, 1974. (Heist as a genre with a recurring structural grammar.)
+- Mamet, David. *On Directing Film*. Viking, 1991. (Misdirection and selective omission as storytelling principle; the con-game register.)
+- Bordwell, David. *The Way Hollywood Tells It: Story and Style in Modern Movies*. University of California Press, 2006. (Temporal manipulation, execution rhythm and the clock in genre film.)
+- Harper, John. *Blades in the Dark*. Evil Hat Productions, 2017. (The score, the flashback mechanic, stress as retroactive-planning currency, the engagement roll.) Planning & Engagement rules: <https://bladesinthedark.com/planning-engagement>
+- Knox, Ronald. "The Detective Story Decalogue," introduction to *The Best English Detective Stories of 1928* (1929). (Fair-play principles for the reveal.) Summary: <https://en.wikipedia.org/wiki/Ronald_Knox>
+- "Heist film." Wikipedia. (Genre conventions; the competence convention; *Rififi*, *The Sting*, *Ocean's Eleven* as exemplars.) <https://en.wikipedia.org/wiki/Heist_film>
+- "Rififi." Wikipedia. (The near-wordless real-time robbery sequence and full-disclosure tension.) <https://en.wikipedia.org/wiki/Rififi>
+- "Leverage (American TV series)." Wikipedia. (The five crew roles: mastermind, grifter, hacker, thief, hitter; the mastermind's incomplete information and the mid-con twist.) <https://en.wikipedia.org/wiki/Leverage_(American_TV_series)>
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Conflict Patterns](conflict-patterns.qmd)
+
+<!-- BACKLINKS:END -->

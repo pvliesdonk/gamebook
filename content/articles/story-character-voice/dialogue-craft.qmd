@@ -1,14 +1,108 @@
 ---
 title: "Dialogue Craft"
-aliases: []
+aliases: ["Dialogue Writing", "Conversation Design", "Dialogue Systems"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [believable-conversation, dramatic-tension, reader-participation]
+  problems: [on-the-nose-dialogue, said-bookism, inert-exchange, wooden-choices]
+  components: [dialogue-beat, action-beat, subtext, dialogue-tree, topic-system]
+  genre: [literary, mystery, character-drama, romance]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: How two people on the page talk past, around, and through what they actually mean.*
+
+A conversation on the page is never a transcript. Real talk is full of half-sentences, dead air, and people answering a question nobody asked. Written dialogue keeps the feel of that while cutting the parts a reader would skip. The craft is making an exchange sound spontaneous when every line was placed on purpose.
+
+The engine underneath is rarely the words themselves. Two people in a scene each want something, and almost never the same thing. They press, dodge, concede a little to gain more. What they say is the surface; what they are doing to each other is the scene. A line that only delivers information is inert. A line that delivers information while one person tries to wound, charm, or escape another is alive.
+
+This article is about the exchange itself. How it is built to hold tension, and what makes a reader lean in toward it. The hard version belongs to interactive fiction, where a conversation is not a fixed passage. It becomes a structure the player moves through, choosing what to say and pulling different lines back in return. Who the speakers are as people is its own concern, [Character Voice](character-voice.qmd); this is what happens when two of those voices meet and start working on each other.
+
+## The Mechanism (How it works)
+
+### Subtext: the gap between said and meant
+
+The first principle is that people rarely say what they mean, and good dialogue reflects that. Subtext is the distance between the spoken line and the real want underneath it. [researched] Robert McKee frames a scene as three layers. The said is the spoken text. Beneath it lies the unsaid, what a character thinks but withholds, and beneath that the unsayable, what they cannot admit even to themselves. The text sits on top; the reader instinctively reads past it to the wants below. [researched]
+
+The practical payoff is participation. When a line says one thing and means another, the reader has to decode it, and a reader doing that work is no longer a passive observer. [researched] Compare a flat declaration of feeling against the same feeling buried. "I'm so angry you betrayed me" states the emotion and closes the scene. "That's interesting." She turned away and straightened a curtain that did not need straightening. "Everyone has their own definition of loyalty." The second never names the anger and hands the reader the job of hearing it. [corpus] The straightened curtain is doing the talking.
+
+That last move is the most reliable subtext tool: let a small physical action contradict the words. "I'm fine," with the speaker twisting a ring and refusing to meet an eye, reads as anything but fine. [corpus] Silence does similar work. A question met with a long pause and then "I'll think about it" tells the reader the answer is no. [corpus] The principle holds across the whole exchange. Dialogue gets its charge from desire, and McKee's discipline is to ask, before any line, what the character wants from this moment and what words would pursue it. [researched] The fuller treatment of withheld information, including the failure where a character blurts out backstory they would never volunteer, is its own article: [Exposition & Subtext](exposition-and-subtext.qmd). The line between the two is simple. Subtext here is the texture of a single exchange; exposition is the management of what the story as a whole reveals and conceals.
+
+### Conflict: the want that drives the scene
+
+Subtext needs something to be subtext *of*, and that something is usually conflict. It need not be an argument. Conflict in conversation means two people pursuing wants that do not align, even gently. One wants to be reassured; the other wants to leave. One wants the truth; the other wants to keep a secret intact. The scene runs on the friction between those wants. [synthesis]
+
+A line of pure information feels dead, and the same information inside a disagreement feels alive. A character explaining an artefact's history to no one who needs it is a lecture. The same facts surfacing because two characters argue about whether to hand the thing over arrive filtered through what each of them wants, and the reader absorbs the facts almost without noticing. [corpus] The exchange teaches the backstory while doing something else entirely. The broader study of how opposed wants structure a whole story, rather than a single exchange, is [Conflict Patterns](conflict-patterns.qmd); the moment-to-moment rhythm of pursuit and resistance is also what gives a scene its shape, which is [Scene Structure & Transitions](../structure-pacing/scene-structure-and-transitions.qmd).
+
+### Beats and tags: the machinery of attribution
+
+Once two voices are colliding, the writer has to mark who is speaking and pace the exchange. Two tools do this, and choosing between them is most of the line-level craft.
+
+A dialogue tag is the "she said" attached to a line to attribute it. The settled advice, from Elmore Leonard's much-quoted rules, is for plain *said* to carry nearly every line. [researched] It is almost invisible on the page. The eye slides over it and stays with the characters, where a fancier verb makes the reader notice the writer instead. [researched] The trap on the other side has a name: the said-bookism, the habit of reaching for *ejaculated*, *pontificated*, *hissed* to dodge a plain *said*. [corpus] The term comes from old mail-order "said books" that listed substitutes for writers who had been taught to treat plain *said* as dull. [researched] The result is purple prose that draws attention to itself and often lies outright. A line with no sibilants cannot be hissed. [corpus] Keep the fancy verbs for the rare case where they carry real information the line cannot: volume in *whispered* or *shouted*, a question in *asked*. The rough working ratio is that the overwhelming majority of tags should be plain *said*. [corpus]
+
+The stronger tool is the action beat: a small piece of action attached to a line instead of a tag. [researched] It attributes the line by showing who moved, and it does extra work a tag cannot. "Get out of my office," he said angrily, tells the reader nothing the dialogue did not already imply. He slammed both fists on the desk. "Get out of my office." now shows the anger and names the speaker in one stroke. [corpus] Beats double as the emotional read of a scene. A speaker twisting a wedding ring reads as anxiety; an averted gaze reads as deception. [corpus] Beats also control pace. Strip them away and an exchange sprints. Four short lines trade blows with no narration between them. Put the beats back and it slows down, giving each line room to land. [corpus] A fast scene wants bare lines; a tense, weighted one wants the beats that make a reader wait.
+
+One punctuation rule follows from the split, because the two are grammatically different. A tag is part of the dialogue sentence, so it takes a comma inside the quotes and a lowercase verb: "I don't know," she said. A beat is a separate sentence, so the dialogue ends with a full stop and the beat starts with a capital: "I don't know." She turned away. [corpus]
+
+### The architectures of interactive dialogue
+
+Here the problem changes shape. In prose, the writer scripts both sides of every exchange. In interactive fiction the player speaks, or chooses what the protagonist speaks, and the conversation becomes a structure rather than a passage. The author no longer writes *a* conversation. They build a space of possible conversations and the rules for moving through it. The home of dialogue craft as an interactive form is here, and the surrounding choice machinery that any branching structure shares is [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd).
+
+A handful of architectures recur, each trading player freedom against authorial control. Emily Short's survey of interactive-fiction conversation lays them out, and the table below names the main ones with the cost each carries. [researched]
+
+| Architecture | How the player talks | The tradeoff |
+|---|---|---|
+| Menu / choice-based | Pick a line from a short list | Most authorial control; risks the "lawnmower effect", where the player mows through every option with no thought [researched] |
+| Hub-and-spoke | Return to a central node after each topic | Orderly and complete, but the conversation can feel like a checklist of buttons [corpus] |
+| Dialogue tree | Each choice advances and rarely returns | Strong dramatic shape; freedom narrows fast as branches commit [corpus] |
+| Ask / tell (keyword) | Name a topic to raise it | Feels open; invites the "guess-the-noun" problem of hunting for the author's exact keyword [researched] |
+| Topic / threaded | Keywords plus tracked context | Seamless when it works; far more writing to cover the combinations [researched] |
+| Variable-driven | Lines selected by accumulated state | Conversation responds to history; demands rigorous state-tracking to stay consistent [corpus] |
+
+The menu and the keyword system mark the two poles. A menu gives the author full control of every possible line and shows the player exactly what their character is about to say. The cost is agency. The player often feels they are clearing a list rather than talking. [researched] An ask/tell system gives the illusion of free conversation, because the player raises any topic they think of. The cost there is the guess-the-noun wall, which rises whenever the wanted topic is not one the author anticipated. [researched] Most real systems sit somewhere between, and the variable-driven layer can sit on top of any of them, swapping lines as the relationship or plot state changes so the same character greets a friend and a stranger differently. [corpus]
+
+::: {.callout-note}
+### The Specimen
+*Best of Three*, Emily Short's conversation piece, models the talk underneath the talk. Rather than storing one fixed response per topic, it tracks abstract facts and lets the non-player character draw conclusions from them, so the same exchange holds together when reached in different orders. [corpus] The cost is exactly what the form predicts. A richer model demands far more authored content behind the scenes. The difference between two play-throughs then often comes down to reaching the same lines in a different sequence rather than genuinely different conversations. [researched] It is the clearest demonstration that interactive dialogue is not written but engineered, and that every gain in apparent freedom is paid for in authored content behind the scenes.
+:::
+
+### Choices that read as speech, and lines that stay consistent
+
+Two craft rules sit on top of the architecture. The first is that when a choice spells out the protagonist's own words, it should read as something a person would say, not as a stage direction. "Tell me about the artefact" is speech; "Ask about the artefact" is an instruction to the engine. [corpus] The exception is the genuinely long line, where a bracketed summary such as *[Tell her what you saw at the docks]* spares the player a paragraph in a menu. [corpus] The length and grain of those choice lines is also a voice signal. A terse character offers terse options while an elaborate one offers winding ones, so the menu itself characterises the speaker. [corpus]
+
+The second rule is consistency across branches. A non-player character must sound as though they remember the path actually taken. Their lines should reflect what the player told them and what they witnessed. The mood the last exchange left behind should carry forward too. [corpus] The recurring failures all break that memory. A character asks a question the player already answered. A character references an event that never happened on this route. Worse still is the warm greeting one scene after a hostile one. [corpus] The fix is state-based dialogue with clear conditions, which is where dialogue craft hands off to the wider discipline of keeping a voice stable across forks and authors and months of writing: [Voice & Register Consistency](voice-and-register-consistency.qmd). Building the characters those lines belong to, rather than the lines themselves, is [NPC Craft & Voicing](npc-craft-and-voicing.qmd).
+
+### When the lines are scripted but the talk is not
+
+Away from the screen, scripted dialogue behaves differently again, and the difference is instructive. A murder-mystery party hands each player a character with written background and secrets; the Chinese jubensha ("scripted murder") format does the same at greater length, with booklets the players read in silence before play. [researched] What looks like fully scripted dialogue turns out not to be. The script supplies who the character is, what they know, and what they want. The actual exchange across the table is improvised from those objectives, in the moment, against other players doing the same. [researched] So the IF dialogue-craft this article describes applies precisely where lines are pre-written, the menus and branches of a digital conversation, while the live table inherits only the upstream half: voice, want, and withheld knowledge, which then drive talk the designer never wrote. The boundary is a useful one to hold. The more a format scripts the actual lines, the more it is doing dialogue craft in this sense; the more it scripts only the wants, the more it is staging conflict and letting dialogue emerge.
+
+## Where this fits
+
+**The bigger picture.** Dialogue craft is where character becomes event. Voice decides who a person is; dialogue is the collision of two such people, each pursuing a want, each saying less than they mean. It sits downstream of [Character Voice](character-voice.qmd), which gives it distinct speakers to work with, and alongside [Exposition & Subtext](exposition-and-subtext.qmd), which governs what the wider story withholds while a single exchange withholds in miniature. In prose the writer owns both sides of every line. In interactive fiction the exchange becomes an architecture the player moves through, and the craft splits in two: the line-level work of subtext and beats, and the structural work of choosing how a conversation branches and remembers. Get it right and a scene of two people talking carries more tension than a chase. Get it wrong and characters stand around announcing their feelings to no one.
+
+**Next steps.** To build the distinct speakers a good exchange depends on, start from [Character Voice](character-voice.qmd). To manage what a story reveals and conceals across its whole length, rather than inside one scene, work through [Exposition & Subtext](exposition-and-subtext.qmd). To see how opposed wants structure conflict beyond the single conversation, turn to [Conflict Patterns](conflict-patterns.qmd). To set the rhythm of cuts and silences a dialogue scene lives inside, the territory is [Scene Structure & Transitions](../structure-pacing/scene-structure-and-transitions.qmd). And to keep an interactive cast speaking in character across every branch the player can reach, the discipline is [Voice & Register Consistency](voice-and-register-consistency.qmd).
+
+## Sources
+
+- Leonard, Elmore. "Easy on the Adverbs, Exclamation Points and Especially Hooptedoodle" ("Ten Rules of Writing"). *The New York Times*, 16 July 2001. <https://www.nytimes.com/2001/07/16/arts/writers-writing-easy-adverbs-exclamation-points-especially-hooptedoodle.html>
+- McKee, Robert. *Dialogue: The Art of Verbal Action for the Page, Stage, and Screen*. Twelve, 2016. (The said / unsaid / unsayable; dialogue as verbal action.)
+- King, Stephen. *On Writing: A Memoir of the Craft*. Scribner, 2000. (The case for "said" as an invisible tag.)
+- Stein, Sol. *Stein on Writing*. St. Martin's Press, 1995. (Action beats and showing over telling.)
+- Sterling, Bruce and Shiner, Lewis (compilers). "Turkey City Lexicon: A Primer for SF Workshops." SFWA, 1988. <https://www.sfwa.org/2009/06/17/turkey-city-lexicon-a-primer-for-sf-workshops/> ("As You Know, Bob" and the expository lump.)
+- "Said Bookism." TV Tropes. <https://tvtropes.org/pmwiki/pmwiki.php/Main/SaidBookism> (Origin of the term and the "said book" history.)
+- Short, Emily. "Conversation." Emily Short's Interactive Storytelling. <https://emshort.blog/how-to-play/writing-if/my-articles/conversation/> (Taxonomy of IF conversation systems; the lawnmower effect; menu vs ask/tell; fact-based models such as *Best of Three*.)
+- "Jubensha." Wikipedia. <https://en.wikipedia.org/wiki/Jubensha> (Scripted-murder format: character booklets and improvised play.)
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Character Voice](character-voice.qmd)
+- [Emotional Beats & Investment](emotional-beats-and-investment.qmd)
+- [Exposition & Subtext](exposition-and-subtext.qmd)
+- [NPC Craft & Voicing](npc-craft-and-voicing.qmd)
+- [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd)
+- [Voice & Register Consistency](voice-and-register-consistency.qmd)
+
+<!-- BACKLINKS:END -->

@@ -1,14 +1,106 @@
 ---
 title: "Solo Journaling RPGs: Genre & Form"
-aliases: []
+aliases: ["Journaling Games", "Solo Journaling Games", "Wretched & Alone Games"]
 family: "Story, Character & Voice"
-media: []
+media: [tabletop, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [no-audience-intimacy, written-artefact, melancholy-memory]
+  problems: [blank-page, obligation-journal, missing-end-condition]
+  components: [prompt, oracle, journal, physical-timer, bookend-ritual]
+  genre: [literary, horror, cosy]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: A game played by one person where the writing is not a record of play but the play itself.*
+
+Sit alone with a notebook. A rule hands you a prompt. You write a few lines in answer. Those lines are the move and the outcome at once. Draw a new prompt and the pages fill with a story only you will ever read. There is no group to perform for and no screen waiting to react to your input. What you have at the end is a written document that did not exist before you sat down.
+
+That document is the point. A player working through *Thousand Year Old Vampire* is not narrating to an audience. They are composing a thing that can be re-read later as a narrative in its own right. The game lives in the journal. This is what separates the form from solo play in general (where the writing is optional). It is also why a Tabletop-born format earns a place in the Story family. The craft on display is a writing craft: voice, first-person register, and the shape of a fragment on the page.
+
+## The Mechanism (How it works)
+
+### What makes it a journaling game
+
+Solo journaling sits inside the wider category of solo tabletop play but is narrower than it. Plenty of single-player tabletop activity produces no text at all: running a system with an oracle to stand in for a missing gamemaster, solo wargaming, working through a pre-authored choose-your-own-adventure. [corpus] The journaling form adds a specific loop that the others lack.
+
+| Step | What happens |
+|---|---|
+| Prompt | The rules produce a directive or a question to answer [corpus] |
+| Response | The player answers in writing, in the fiction's voice [corpus] |
+| Artefact | The writing accumulates into a document that can be re-read as a narrative [corpus] |
+
+The third row is the one that defines the genre. The writing is not a side-product of play; it is the output. [corpus] A solo game where the journal is optional, or where a random table just answers questions the player asks aloud, is solo play but not solo journaling. The distinction matters because it tells you where to spend your design effort: not on rules coverage or encounter balance, but on the quality of the question you ask the player to answer. [corpus]
+
+### Two lineages: the oracle and the letter
+
+The form has two clear ancestors, and most modern games carry traces of both.
+
+The first is the oracle line. Tana Pigeon's *Mythic RPG* (2003) introduced systematic yes/no oracles and fate tables that let one player generate fictional events without a gamemaster, and the standalone *Mythic Game Master Emulator* (2006) made those tools system-agnostic. [researched] Mythic proved a single player could produce situations procedurally and respond to them as a player responds to a gamemaster's narration. It is not strictly a journaling game (the journal is optional, the oracle is the engine), but it supplied the content-generation half of the loop. The oracle as a gamemaster-substitute is its own deep subject, treated in [Oracle & Solo-Play Resolution](../systems-mechanics/oracle-and-solo-play-resolution.qmd).
+
+The second is the epistolary line, older still in spirit. Michał Oracz's *De Profundis* (Hogshead, 2001) is a two-player Lovecraftian horror game played entirely through exchanged letters: no gamemaster, no dice, no statistics, just correspondence written in character. [researched] Scott Malthouse's *Quill* (2016) brought that idea into solo form. The player writes a single letter to a recipient, and three attributes, Penmanship, Heart and Language, are rolled to judge how well each passage is phrased rather than whether an action succeeds. [corpus] The session ends when the letter ends. *Quill* showed that a whole solo RPG could exist inside one composed text, and it seeded the itch.io community that the modern form grew out of. [corpus] The letter as a fiction-carrying object in its own right is [The Journal as Artefact](the-journal-as-artefact.qmd).
+
+These lines connect the form outward to interactive fiction, which shares its procedural DNA. Both use discrete choice points, a prompt here, a link there, that branch the narrative; both produce a path no other player follows identically; both treat the player's response as the primary aesthetic act. [corpus] The difference is the direction of authorship. In interactive fiction the author pre-writes every branch and the player chooses among them; in solo journaling the player writes the content of the chosen branch in the moment. [corpus] The bridge runs both ways, with IF designers borrowing oracle-table thinking and solo designers borrowing IF vocabulary (node, branch, dead end). [corpus] The branching half of that shared territory is [Nonlinear Narrative Structures](../structure-pacing/nonlinear-narrative-structures.qmd).
+
+### The canon of the form
+
+The modern genre emerged around 2018 to 2019 on itch.io, where there was no minimum price floor, an audience already at home with indie tabletop work, and a growing argument that solo play was the accessible option because it needed no group to recruit. [corpus] A handful of titles fixed the shape of the genre, and each one demonstrated something the others did not.
+
+| Title (designer, year) | What it fixed |
+|---|---|
+| *Alone Among the Stars* (Takuma Okada, 2018) | The two-page, print-and-fold proof of concept: card plus d6 yields a prompt, the player writes what an explorer found [corpus] |
+| *Ironsworn* (Shawn Tomkin, 2018) | The multi-mode bridge (solo, co-op or gamemastered); vows as progress clocks, Action/Theme oracle tables; journal output optional [corpus] |
+| *Thousand Year Old Vampire* (Tim Hutchings, 2019) | The breakout: a finite Memory list where gaining a memory forces forgetting another, so the record of who the vampire was becomes a mechanical problem [corpus] |
+| *The Wretched* (Chris Bissette, 2020) | The survivor-log timer: a Jenga tower (or card-draw substitute) that makes approaching death physical and visible; its SRD spawned a microgenre [corpus] |
+| *Apothecaria* (BlackwellWriter, 2021) | The cosy variant: a village witch compounding remedies, proving the same skeleton produces warmth as readily as dread [corpus] |
+
+*Thousand Year Old Vampire* is the one that broke through to mainstream press. It won awards against multi-player games on a sustained physical print run. The haul was the 2020 IndieCade Tabletop Design Award. It also took two ENNIE Golds (Best Rules and Best Production Values) and an ENNIE Silver for Product of the Year. [researched] Its design lesson is the deepest in the canon. The Memory mechanic does not describe a fading mind; it enacts one. Acquiring a new memory forces the player to strike out an old one, so the past genuinely becomes inaccessible at the page level rather than merely being said to. [corpus] The page-jump navigation (a d10 minus a d6) means no two playthroughs traverse the prompts in the same order, and the centuries-long first-person voice has to hold across that scattered traversal. Sustaining one voice under that pressure is the same problem long-form interactive fiction faces, and it is the territory of [Voice & Register Consistency](voice-and-register-consistency.qmd).
+
+*The Wretched* deserves a second look because its influence was structural. Bissette released the *Wretched & Alone* SRD, and the 2020 jam built on it produced 92 entries in eight weeks, a body of survivor-log games that entrenched the variant as a recognisable sub-type. [researched] A free system document plus a shared jam tag did in two months what traditional publishing would have taken years to do. The titles cluster by mood rather than by mechanism. The range runs from cosmic-horror dread through melancholy memory and existential exploration to high-fantasy adventure and cosy domestic care. The skeleton is constant; the tone is a choice laid on top of it. [corpus]
+
+::: {.callout-note}
+### The Specimen
+*The Wretched* (Chris Bissette, 2020) is the clearest case of mechanism carrying feeling. The player is the last survivor aboard a damaged spacecraft, keeping a log of their final hours. A draw of certain cards forces the removal of a block from a Jenga tower; when the tower falls, the survivor dies, and the game is over. [corpus] The end is not a number ticking down out of sight. It is a physical object growing more precarious on the desk beside the notebook, and the player's own hand pulling the blocks that doom the character. The dread is not described in the prompts so much as built into the apparatus, and so the same SRD reskins cleanly into a haunted house or a failing colony without rewriting the engine. [corpus]
+:::
+
+### The prompt is the load-bearing unit
+
+Because there is no gamemaster to adjudicate and no table to negotiate with, the prompt does the work that a whole social apparatus does in group play. The player draws a card or reads the next numbered entry, the prompt frames a situation, and the player writes. The writing is the resolution. [corpus] That makes the quality of the prompt the central craft concern, and it has a narrow target to hit.
+
+A prompt that is too vague gives the player nothing to push against. "Something happens. Write about it." produces a blank page, because nothing in it constrains the situation. [corpus] A prompt that is too prescriptive collapses the writing into transcription. "You kill the werewolf. Describe the wound." leaves no creative act, because the outcome is already fixed. [corpus] The working zone sits between them. The aim is to constrain the situation while leaving the response open. "You meet someone you harmed. Why did you not remember them?" fixes the encounter and the emotional register. It still leaves the player to invent both people and the history between them. [corpus] How a prompt provokes a specific written act without dictating it is the craft of [Prompt Design in Solo Journaling](prompt-design-in-solo-journaling.qmd).
+
+Two further failure modes are worth naming because they kill sessions slowly rather than at the first roll. The obligation journal sets in when the writing starts to carry length expectations. The player begins writing to complete rather than to express, and play turns into a chore. Well-made games head this off by specifying short entries or explicitly blessing abbreviated ones. [corpus] The missing end condition is the structural twin. Many early jam entries simply ran until the player got bored, with no mechanical close, so the result was indeterminate drift rather than a shaped arc. The Jenga tower solved this by externalising the ending, and any equivalent (a depleting deck, a closing prompt) does the same job. [corpus]
+
+### The journal as both play and output, and the no-audience intimacy
+
+The written document is the game's procedure and, equally, its product, which gives the form a phenomenology nothing else in tabletop quite shares. Some games ship as pre-printed books with prompts and designated writing space. *Thousand Year Old Vampire* in hardback is digest-sized and 188 pages, with marginalia and collaged ephemera, built to read like a madman's journal found in a hidden room; the book is the ruleset and a designed artefact at once, and the player's task is to fill it. [corpus] The container shapes what gets written into it. The first-person, in-fiction voice this demands is the same deep point-of-view craft that prose fiction works at, treated in [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd) and grounded in [Character Voice](character-voice.qmd).
+
+The defining condition is that there is no audience. Nobody performs, nobody reacts, and nobody reads the pages unless the player chooses to show them. That absence is not a limitation. It is the form's distinctive emotional register. It lets the player write toward feelings they would never perform for an audience. So much of the canon runs to private griefs. A vampire's accumulated losses and a survivor's last log are the register the form reaches for most readily. Solitude also strips out the social cues that bracket group play. Play in a group has plainly begun once the first scene is described. It has plainly ended once someone says "good session" and the table disperses. [corpus] The solitary player gets no such signal. The form has to supply its own. Bookend rituals are a prescribed way to open and close a session. They set the fictional boundary. Where the content runs heavy they also do the aftercare a group would otherwise share. These rituals borrow directly from Nordic larp practice on de-roling and debriefing. [corpus] The emotional close they manage is the same payoff [Emotional Beats & Investment](emotional-beats-and-investment.qmd) engineers in other forms.
+
+## Where this fits
+
+**The bigger picture.** Solo journaling is a hinge form. Its home is Tabletop, where it inherits the prompt and oracle infrastructure of role-playing games and strips out the group, but its output is a piece of writing, which places its central craft squarely in the Story family. It depends on the oracle and resolution machinery of [Oracle & Solo-Play Resolution](../systems-mechanics/oracle-and-solo-play-resolution.qmd) and [Solo Modes](../systems-mechanics/solo-modes.qmd) for its content engine, and on voice and point-of-view craft for the quality of what reaches the page. It sits beside interactive fiction as a near sibling, differing only in who writes the branch. Get the prompt right and the player writes a story they could not have planned; get it wrong and they either stare at a blank page or transcribe a foregone conclusion.
+
+**Next steps.** The genre's load-bearing skill is the prompt, so the natural next read is [Prompt Design in Solo Journaling](prompt-design-in-solo-journaling.qmd). To work on the document the prompts produce, as a physical and fictional object, turn to [The Journal as Artefact](the-journal-as-artefact.qmd). For the voice that document is written in and how to keep it steady across a long, fragmented playthrough, see [Character Voice](character-voice.qmd) and [Voice & Register Consistency](voice-and-register-consistency.qmd). And for the content engine underneath the prompts, the oracle, work through [Oracle & Solo-Play Resolution](../systems-mechanics/oracle-and-solo-play-resolution.qmd).
+
+## Sources
+
+- Hutchings, Tim. *Thousand Year Old Vampire*. Self-published, 2019. Award record (IndieCade 2020 Tabletop Design; ENNIE Gold Best Rules and Best Production Values; ENNIE Silver Product of the Year): <https://en.wikipedia.org/wiki/Thousand_Year_Old_Vampire>
+- IndieCade Anywhere & Everywhere 2020, *Thousand Year Old Vampire* nomination page. <https://anywhere.indiecade.com/nominated-games_2020/thousand-year-old-vampire/>
+- "Congratulations to the 2020 ENNIES Winners." EN World. <https://www.enworld.org/threads/congratulations-to-the-2020-ennies-winners.673685/>
+- Bissette, Chris. *The Wretched* and the *Wretched & Alone* SRD. itch.io. <https://loottheroom.itch.io/wretched>
+- Wretched & Alone Jam (2020), entry list (92 entries). itch.io. <https://itch.io/jam/wretched-jam/entries>
+- Okada, Takuma. *Alone Among the Stars*. itch.io. <https://noroadhome.itch.io/alone-among-the-stars>
+- Tomkin, Shawn. *Ironsworn*. itch.io. <https://shawn-tomkin.itch.io/ironsworn> (2019 ENNIE Gold, Best Free Product: <https://tomkinpress.com/pages/ironsworn>)
+- BlackwellWriter. *Apothecaria*. itch.io. <https://blackwellwriter.itch.io/apothecaria>
+- Malthouse, Scott. *Quill: A Letter-Writing Roleplaying Game for a Single Player*. Trollish Delver Games, 2016. <http://www.trollishdelver.com/2016/01/quill-letter-writing-roleplaying-game.html>
+- Oracz, Michał. *De Profundis*. Hogshead Publishing, 2001. <https://en.wikipedia.org/wiki/De_Profundis_(role-playing_game)>
+- Pigeon, Tana. *Mythic Role Playing* (2003) / *Mythic Game Master Emulator* (2006). Word Mill Games. <https://www.wordmillgames.com/> (history: <https://www.randroll.com/interview-mythic-gme/>)
+
+<!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
+
+## Referenced by
+
+- [Prompt Design in Solo Journaling](prompt-design-in-solo-journaling.qmd)
+- [The Journal as Artefact](the-journal-as-artefact.qmd)
+
+<!-- BACKLINKS:END -->
