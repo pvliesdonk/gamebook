@@ -1,14 +1,107 @@
 ---
 title: "Conflict Patterns"
-aliases: []
+aliases: ["Conflict Types", "Dramatic Conflict", "Stakes & Escalation"]
 family: "Story, Character & Voice"
-media: []
+media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [dramatic-tension, character-revelation, forward-momentum]
+  problems: [flat-stakes, plateaued-plot, unearned-resolution]
+  components: [protagonist-desire, obstacle, stakes-ladder, antagonist]
+  genre: [literary, drama, mystery, thriller]
+provenance: "synthesis"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+<!-- TERM-FLAG: "Conflict Patterns" is not yet in docs/term-registry.md. Proposed canonical term for Family 3, aliases "Conflict Types", "Dramatic Conflict", "Stakes & Escalation". Add in the batched registry pass at the family's end. -->
+
+*Silhouette: The engine under every scene: a character who wants something, and the thing standing in the way.*
+
+Strip a story down and you find one part doing the pulling. A character wants something and cannot have it yet. That gap, between the wanting and the having, is where the whole machine runs. Close it too soon and the story stops. Leave it open and the reader leans in, because they want to know how it shuts.
+
+Conflict is the name for that gap held open under pressure. It is not the same as fighting, though fighting is one way to show it. A man arguing with himself in an empty room is in conflict. So is a woman who needs the truth from someone who will not give it. The shape is always the same. On one side sits a desire. On the other sits an obstacle. Between them stands a person who has to keep choosing how badly they want across.
+
+This article is about building that gap and widening it on purpose. The harder version belongs to interactive work, where the author does not get to decide how the character pushes against the obstacle. The player decides that. The conflict then has to keep meaning something no matter which way the push goes.
+
+## The Mechanism (How it works)
+
+### Conflict is the gap between desire and obstacle
+
+Robert McKee put the idea in its most usable form. A character acts to get what they want, and the world answers with something they did not expect, which cracks open a gap between what they hoped for and what they got. That gap is where story lives. The character has to act again, harder, with worse odds, and the gap opens wider each time. [researched]
+
+This gives a working test for whether a scene has conflict at all. Name the desire. Name the thing blocking it. If you cannot name both, there is no scene yet, only events happening in sequence. A character walking to the shop is not a scene. Give that character a year spent shut indoors and a neighbour outside who will ask where they have been, and now it is the start of one. Their small desire is simple. They want milk or perhaps just an ordinary day. That desire runs into an obstacle made of the door and the neighbour and the whole shut-in year behind them. The gap opens.
+
+The obstacle does not have to be a person. It has to have weight. A weak obstacle produces a weak gap, and the reader feels the slack at once. The craft is matching the obstacle to the desire so the character genuinely might not make it across.
+
+### The classic types of conflict
+
+Writers have long sorted conflict by what the obstacle is. The oldest grouping names three: a character against another character, against nature, and against themselves. A fourth, the character against society, was added early and is now standard. Later writers extended the list to cover a character against technology and against fate or the supernatural. [researched] The six are a vocabulary, not a law. Most real stories run several at once.
+
+| Conflict type | The obstacle | What victory usually means |
+|---|---|---|
+| Character vs character | Another person with an opposing aim | Defeating, out-manoeuvring, or reconciling with them [researched] |
+| Character vs self | The character's own fear, flaw, or belief | Genuine inner change, not just a decision [synthesis] |
+| Character vs society | An institution, custom, or collective belief | Slow, costly change against inertia [synthesis] |
+| Character vs nature | An indifferent natural force | Survival and adaptation, not conquest [synthesis] |
+| Character vs technology | A tool with consequences its makers did not intend | Often human connection, not a better tool [synthesis] |
+| Character vs fate | Prophecy, curse, the cosmic and unknowable | Acceptance or redefinition more than defeat [synthesis] |
+
+Two of these reward a closer look because designers get them wrong in the same way. The character against nature works best when nature is indifferent rather than malicious. A storm does not hate anyone. The danger comes from the character's own error meeting a force that does not care, and the reader feels cheated when the weather starts behaving like a villain. [synthesis] The character against fate has the opposite trap. If the force is all-powerful and the character cannot affect it, there is no gap to hold open, so the prophecy or curse needs rules the character can work against even when they cannot win outright. [synthesis]
+
+The richest stories braid an external type with the internal one. The external conflict (escape the building) forces the internal reckoning (the fear left by the last fire), and each floor climbed makes the character face both at once. [synthesis] A useful design habit is the mirror: build the outer obstacle so it presses exactly on the inner flaw. A character who cannot trust is handed an ally they have to rely on. A character who believes they are worthless ends up the only one who can help. [synthesis] The outer story then becomes a way of forcing the inner one.
+
+### Conflict drives the character arc
+
+The internal conflict is not just one type among six. It is the engine of change, and it is worth seeing why. A character who wants something usually wants it for a reason they have not examined, and that reason is often a false belief about themselves or the world. What they *want* and what they actually *need* pull apart. The story's external conflict keeps handing them their want and charging a price, until the price gets high enough that they have to question the belief underneath. [researched]
+
+That is the whole shape of an arc. The conflict is not decoration on top of the character growth. It is the pressure that produces the growth. Design the obstacle so the only way through it is the change the character has been refusing, and the plot and the arc become the same motion. [researched] How those changes get foreshadowed, paid off, and made to feel inevitable across a structure is its own concern, the territory of [Emotional Beats & Investment](emotional-beats-and-investment.qmd).
+
+Growth is not the only outcome, and a story is stronger for knowing it. A character can fail and still change. Sometimes the change runs deeper than it would in one who wins. A defeated figure who learns from the loss and goes on anyway has an arc of their own rather than an absence of one. [synthesis] What matters is that the external result and the internal result are planned as two threads, not one. A character can save the village and still learn they never needed its approval; another can lose the village and learn they can survive loss. [synthesis]
+
+### The stakes ladder: raising what can be lost
+
+A gap held at one width goes slack. Conflict has to escalate, and escalation has a precise meaning: each confrontation puts more at risk than the last. The plain question to ask of any scene is the one writers keep returning to. What does this character stand to lose? If the honest answer is "not much," the stakes are too low and no amount of action will hide it. [researched]
+
+Stakes climb along more than one track, and naming them lets you choose which to raise. One track is scope, which widens from the personal out to the local and on to the global. Another is the weight of consequence, sinking from mere inconvenience through loss toward death. A third is investment, which moves inward over time. Strangers are at risk early on. Loved ones come under threat later. By the end it is the character's own neck. [synthesis] The strongest escalations are rarely about adding more danger. They put a closer bond at risk, whether a person the character loves or a place that anchors them. An intangible stake such as reputation or moral integrity can be set as sharply as a life. Often it cuts deeper. [researched]
+
+The forward motion this produces is usually built from a try-fail rhythm. The character reaches for the obvious thing and fails. The next attempt is smarter and fails too, but it teaches something. A way through only comes once those earlier failures have raised the cost. Every failure widens the gap while feeding back new information. [researched] The mechanics of that loop, its four outcomes and the way each one branches, make up their own article, [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd). Failure is how stakes climb without the plot repeating itself.
+
+::: {.callout-warning}
+### The Hazard
+The two failures that flatten conflict are mirror images, and both come from the designer protecting the character. The first is the obstacle that talk would dissolve. If five honest minutes of conversation would end it, it was never a real obstacle. The reader feels the contrivance that has kept the characters quiet. [synthesis] The second failure is the antagonist defeated by their own stupidity. This opponent blunders in ways no competent person would so the protagonist can win. A defeat the opposition hands over feels gifted rather than earned. The fix for both is the same. Give the opposition a real reason and real competence. The antagonist should believe they are right. The conflict should refuse the easy exits. Otherwise the gap closes on its own and the tension drains out with it. [synthesis]
+:::
+
+When several conflicts run at once, they should not sit in separate boxes. Layer them across scales and let each press on the next. A war threatens the kingdom; a town is caught between the armies; two of its leaders no longer trust each other; the protagonist is torn between duty and love; and under all of it runs that protagonist's private doubt. [synthesis] One conflict carries the main plot and earns the climax; the others complicate it and resolve around it. Attention rotates between them. A strategy scene puts the war in front. An argument brings up the distrust. A quiet moment surfaces the doubt. None of them goes dormant while another holds the foreground. [synthesis] The chains of consequence that link one charged choice to the next, especially where every option carries a real moral price, are [Moral Dilemmas & Consequence Chains](moral-dilemmas-and-consequence-chains.qmd).
+
+### Resolution: earning the close
+
+A gap that has been held open for a whole story has to shut in a way that feels owed. Resolution reads as earned on three conditions. The seeds were planted early. The character changed in the way that made the ending possible. And the win cost something real. It reads as unearned the other way round. Help arrives by coincidence at the last moment. A character suddenly acquires the ability they lacked. An outside force steps in to fix what the character could not. Each of these hands over a result the gap had not yet paid for. [synthesis] The decisive close is rarely a clean win. Victory, synthesis into a third option, sacrifice, acceptance of a force that cannot be beaten, tragedy that carries weight, and transformation where the real problem turns out to be a different one: these are all legitimate, and a story should know which it is reaching for. [synthesis]
+
+### The interactive turn
+
+Here is where the craft changes shape. In a novel the author drives the character into every obstacle and decides how they push. In interactive work the player decides, and the conflict has to survive being pushed in directions the author did not choose. [corpus] The desire is often still the author's to set, but the *how* of crossing the gap belongs to the player, and a good interactive conflict is one the player can resolve more than one way, with each way costing something different. [synthesis]
+
+This reshapes every part of the pattern above. Escalation can no longer be a fixed staircase, because the player picks the route, so each branch has to escalate on its own terms rather than letting one path intensify while another plateaus. [synthesis] Stakes have to be legible before the choice, so the player is risking something they understand rather than finding out the cost only afterwards. Resolution multiplies as well. Each route arrives at its own ending. The discipline is that every one of those endings feels earned within the logic of its own path, not just the single ending the author privately treated as "real". [synthesis] How those routes are shaped, converged, and kept from sprawling is the craft of [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd); the way a single scene alternates action and the character's private reckoning is [Scene & Sequel in Interactive Fiction](../structure-pacing/scene-and-sequel-in-interactive-fiction.qmd).
+
+The live and tabletop traditions push the interactive turn furthest, because the opposition can be another real person in the room. In a tabletop game run on a position-and-effect frame, every action is weighed twice before the dice are thrown, once for the danger the character faces if it goes wrong and once for how much it accomplishes if it works. The table can negotiate both. A player can trade a worse position for a greater effect. [corpus] That turns each roll into a small live negotiation over stakes, the stakes ladder rebuilt as a moment-by-moment mechanic rather than a planned arc. [synthesis]
+
+::: {.callout-note}
+### The Specimen
+Social-deduction games stage the character-versus-character conflict with no author writing the antagonist at all. A hidden minority works against an uninformed majority, and the whole drama is accusation, defence, alliance, and betrayal, generated entirely by the players rather than the system. [researched] Werewolf, the form most of these descend from, forces the hidden players to lie to people looking them in the eye while the rest read faces for the tell. [researched] The co-presence is load-bearing. Nothing in solo play replicates watching someone defend themselves across a table while you decide whether to trust them. That is how these games keep the stakes high on almost no narrative content. The conflict is real, between real people, happening live in the room. [synthesis] The same accusation-and-betrayal engine, dressed in fiction and given consequences, is how live murder-mystery and immersive formats manufacture conflict their designers never had to script line by line. [synthesis]
+:::
+
+The genre that leans hardest on conflict structure is the heist, where the obstacle is a system to be beaten and the cast is a crew with competing methods. That pattern has its own article, [Heist & Caper Patterns](heist-and-caper-patterns.qmd). And the voices that carry all this conflict, the distinct way each character argues, threatens, and breaks under pressure, are built in [Character Voice](character-voice.qmd): conflict is what a voice is for.
+
+## Where this fits
+
+**The bigger picture.** Conflict is the load every other part of the Story family is built to carry. A voice is there to argue and resist. A beat lands a turn in the conflict. An ending shuts the gap the conflict held open. Inside this family it is the hub the others connect through, because almost nothing in a narrative matters to a reader unless someone wants something they might not get. It sits closest to character. The obstacle only carries weight when the desire behind it belongs to a person and not to a plot. The arc only moves once the conflict charges up enough to force the change. Get the gap right and the rest of the family has something to do. Leave it slack and the most polished voice and the cleverest structure narrate a story with no pull in it.
+
+**Next steps.** Once the conflict is built, the next concern is making the reader care that it resolves, which is [Emotional Beats & Investment](emotional-beats-and-investment.qmd). When the obstacle is a choice rather than a force, and each option carries a real cost down a chain of consequence, the craft is [Moral Dilemmas & Consequence Chains](moral-dilemmas-and-consequence-chains.qmd). To build the distinct voices that perform the conflict on the page, work through [Character Voice](character-voice.qmd). And to escalate without the plot repeating itself, the failure engine is [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd).
+
+## Sources
+
+- McKee, Robert. *Story: Substance, Structure, Style, and the Principles of Screenwriting*. ReganBooks, 1997. (Conflict as the gap between expectation and result; the levels of antagonism; escalation.)
+- "Conflict (narrative)." Wikipedia. (The classic conflict-type taxonomy and its history.) <https://en.wikipedia.org/wiki/Conflict_(narrative)>
+- Weiland, K. M. *Creating Character Arcs: The Masterful Author's Guide to Uniting Story Structure, Plot, and Character Development*. PenForASword, 2016. (Want vs need; the Lie the character believes; conflict as the engine of the arc.)
+- Truby, John. *The Anatomy of Story: 22 Steps to Becoming a Master Storyteller*. Faber and Faber, 2007. (The competent opponent who shares the hero's goal; four-corner opposition.)
+- Harper, John. *Blades in the Dark*. Evil Hat Productions, 2017. Position and effect: <https://bladesinthedark.com/setting-position-effect>
+- "Social deduction game." Wikipedia. (Hidden minority vs uninformed majority; accusation and betrayal as player-generated conflict.) <https://en.wikipedia.org/wiki/Social_deduction_game>
+- Short, Emily. "Types of Action and Types of Agency." Emily Short's Interactive Storytelling, 3 March 2009. <https://emshort.blog/2009/03/03/types-of-action-and-types-of-agency/>

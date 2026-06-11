@@ -1,14 +1,104 @@
 ---
 title: "The Journal as Artefact"
-aliases: []
+aliases: ["Journaling as Output", "The Play Document", "Writing as the Game"]
 family: "Story, Character & Voice"
-media: []
+media: [tabletop, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [durable-keepsake, first-person-immersion, designed-closure]
+  problems: [hollow-prose, voice-drift, no-endpoint]
+  components: [prompt-deck, notebook, character-voice, closing-ritual]
+  genre: [solo, epistolary, horror]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+<!-- TERM-FLAG: "The Journal as Artefact": Story family mechanisms not yet in
+     docs/term-registry.md. Add in the batched Phase-5 registry pass (Story F3). -->
+
+*Silhouette: The session ends and a written object remains: the play was the writing, and the writing is the thing you keep.*
+
+In most tabletop play the things that survive a session are traces. A pile of GM notes, a half-remembered scene, a wiki somebody tidies up afterwards. The solo journaling game inverts that. The journal is not a record of what happened. It is what happened, and when you put the pen down you are holding the whole of the play in your hands as a written object. [corpus]
+
+That single inversion changes the brief. A designer working here is not building a system that produces a story as a by-product. They are building a procedure for writing one, and the document it leaves behind is meant to be kept, re-read, sometimes mailed to a stranger or burned on the last page. [corpus] The keepsake is the point, and a keepsake has to be worth keeping.
+
+This article is about designing for that output. The writing has to carry a character's voice across a whole session. The form is usually a diary or a letter. The format choices shape the play, and the gap between a journal worth re-reading and a notebook full of dutiful sentences is itself a design problem.
+
+## The Mechanism (How it works)
+
+### Writing is the resolution
+
+In a dice game, writing is the bookkeeping that happens after the roll settles things. In a solo journaling game the order reverses. The pen on the page does the work the dice do elsewhere. When a prompt arrives, the player answers it with a journal entry, and that entry is the move. There is no second step where the prose gets converted into game state, because the prose is the game state. [corpus]
+
+The Wretched & Alone system, built by Chris Bissette in 2019, makes this as plain as it goes. The player draws a card, the card carries a prompt, and the written response to that prompt resolves it. Nothing is rolled afterwards. [researched] That places the genre alongside freeform live play and structured improv, where saying the thing and making it true are one act, rather than in the dice tradition where narration follows the result.
+
+The design consequence is direct. If writing is the resolution, the prompts have to do everything dice modifiers and success thresholds do in a conventional system. A prompt has to introduce uncertainty and constrain the choice while raising the stakes the way a die roll would. A good prompt does not tell the player what happened. It tells them the shape of what happened and leaves the content to the writer. The craft of building those prompts is its own subject, [Prompt Design in Solo Journaling](prompt-design-in-solo-journaling.qmd); the prompt is the mechanism and the writing is the dice. [synthesis]
+
+### Voice under journaling pressure
+
+A novelist drives every character into every scene and can stop to find the right register. The solo journaler writes one voice, live, across an entire session, often for hours, with a prompt deck pushing them somewhere new every few minutes. The voice has to hold under that. This is the same problem [Character Voice](character-voice.qmd) sets out, met in the hardest place to keep it steady: the player is author and character at once, and the writing posture decides which one wins. [synthesis]
+
+The posture that works treats the player as the character documenting events, not the author narrating them. In The Wretched, the last surviving crew member of a doomed ship keeps a log of their final days, written to be found by some future reader who never arrives. [researched] That fiction of a possible reader bends every entry toward what a real person in that situation actually records. It pulls away from any authorial distance. The journal is now a piece of evidence, and evidence has its own voice. Holding that voice steady across a long session, so the prose does not drift from terse log to literary essay and back, is the [Voice & Register Consistency](voice-and-register-consistency.qmd) problem in its solo form. The corpus names the failure exactly: the rushed journal, mechanically complete but narratively hollow, is the voice-and-register collapse showing up as flat prose. [corpus]
+
+The genre also leans hard on first-person point of view, so the writing-posture choice is really a POV choice. The player is writing from inside one head, in that head's words, with no narrator standing between the reader and the event. Deep first person and the cutting of filter words, the craft layer that makes interior writing land, is [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd); the pre-printed-journal designs assume it without saying so. [synthesis]
+
+### The diary and the letter
+
+The form the artefact takes is usually one of two. The diary, addressed to no one, is the default: the player writes entries the character keeps for themselves or for a reader who may find them later. The letter is the older and stranger sibling, where the player composes actual correspondence to a named recipient.
+
+De Profundis, written by Michał Oracz and published by Portal in 2001, is the deep precedent. It is usually filed as a multi-player correspondence game, but it has a strong solo tradition and its logic carries over whole. [researched] Oracz's insight is that the ceremony of composition is part of the fiction. The time it takes and the fountain pen on real paper are not staging. They are the game. Players in De Profundis communities have reached for period stamps, sealing wax and aged paper. The letter survives afterwards as a real object with a life of its own. [researched]
+
+Quill, by Scott Malthouse for Trollish Delver Games in 2015, narrows the same idea to a clean solo procedure. The player writes an actual letter, drawing words from an Ink Pot, with Penmanship, Heart and Language as the attributes that set its quality. [researched] The artefact of play is a piece of correspondence. The epistolary form is the tabletop cousin of the same trick interactive fiction pulls when it presents itself as a found document, and the two traditions read across to each other easily. [synthesis]
+
+### Format: the container shapes the output
+
+The physical form of the journal is a design lever, not a packaging afterthought, because the player writes into whatever container the design hands them and the container shapes what comes out. Three broad choices sit on the table, and each front-loads a different kind of investment. [corpus]
+
+| Substrate | Artefact quality | Shareable | Ritual closure | Editable |
+|---|---|---|---|---|
+| Pre-printed game book | High, designed | Low | Moderate | Low |
+| Blank chosen notebook | High, chosen | Low | High | Low |
+| Digital document | Low | High | Low | High |
+| Mixed-media scrapbook | Very high | Low | High | Moderate |
+
+The pre-printed book ships as the artefact before play begins, and the player's job is to fill it. Thousand Year Old Vampire, self-published by Tim Hutchings in 2019, is the standard reference: a digest-sized hardback of marginalia and collaged ephemera, built to read like a journal found in a locked room, where the prompt structure is the ruleset and the object is a designed thing in its own right. [researched] The blank-notebook tradition pushes the fictional decision earlier still. A player who picks a cloth field book for a wilderness game or a cheap spiral pad for a post-apocalyptic one has made a choice about the fiction before writing a word, and that choice has no equivalent in conventional design. [corpus]
+
+Digital substrates (Obsidian, Notion, a plain document) trade artefact quality for reach. A searchable, editable file that shares in one click is why the publishing community lives there. The cost is that a Google Doc is harder to feel as an in-fiction object, and you cannot burn or bury one to end the story. [corpus] The prompt-source question is separable from the writing-surface question. Players routinely split the two: many use the printed book purely as a deck and write into a separate notebook, because the printed memory spaces are small and the glossy paper resists a pencil. [researched] The deck-versus-book decision is one a designer can make on purpose rather than by default.
+
+### What makes a journal worth re-reading
+
+The output has an audience now. Since around 2020 a community practice has grown of publishing finished journals as readable artefacts, anchored by the Wretched & Alone game jam on itch.io. Many entries there ship an exemplar playthrough alongside the rules, a sample of what a completed journal looks like. [researched] Once a journal is read by strangers as fiction, the genre sits next to epistolary fiction and memoir. The document now has to earn its reading.
+
+Three failure modes from the community's own discussion mark out what to design against, and a clear ending sits underneath all three. [corpus] The rushed journal is the voice problem already named: minimum-viable entries that finish the game without playing it, leaving an object nobody wants to re-read. The guilt object is the half-filled notebook of an unfinished game, a physical residue of abandonment that resists both completion and the bin. The journal without an endpoint is the design failure proper. A game with no clear termination condition produces a journal that grows until engagement curdles into habit and then fades to nothing. No table of other players is there to bring a solo session to a natural close, so the termination condition has to be built in. It is more load-bearing here than almost anywhere else.
+
+::: {.callout-note}
+### The Specimen
+Thousand Year Old Vampire folds the character sheet into the journal and makes the artefact's physical state carry the mechanics. The vampire holds only five Memories, each one built from three Experiences. Play ends when the last Memory is gone. When a Memory is lost the player crosses it out. The designer's instruction is to strike it through but leave it legible on the page. [researched] The crossing-out is the mechanical state change and the narrative event at once. A heavily struck-through journal is, at a glance, a vampire who has forgotten centuries; a clean one is young. The artefact's visual texture encodes the character's history in a way a numbered sheet never could, and so there is no separate sheet at all. [corpus]
+:::
+
+### Closing the fiction by closing the object
+
+Because the journal is the fiction, disposing of the journal ends it. Several designs make the last game action a physical one. The notebook might be burned or buried; it might instead wait sealed until a set date or travel by post to a stranger. [corpus] The ending is enacted rather than declared. Whatever becomes of the artefact afterwards (gone, hidden, in the post) is part of the design. This is the solo version of a session-end debrief, and it does the same emotional work of putting the fiction down on purpose. Designing that payoff, the closure and the feeling it leaves, is [Emotional Beats & Investment](emotional-beats-and-investment.qmd). The destroyed artefact is the cleanest case: the object exists to be ended, and ending it ends the game with the finality of a wiped party. [synthesis]
+
+### The keepsake as a physical artefact
+
+Everything above ties the journal to the Space family, because a kept journal is a physical object with all the properties a prop has. The blank-notebook choice, the fountain pen, the aged paper, the sealing wax: these are material decisions, and the moment a designer specifies them they have crossed into prop and document production. The aged-letter and forged-dossier craft that a live game uses to make a handout feel real is the same craft a journaling game borrows when it asks for period materials, which is [Artefact Design & Document Production](../space-props-materiality/artefact-design-and-document-production.qmd). The journal is where the Story family's voice work and the Space family's object work meet on the same page. [synthesis]
+
+The prompt-delivery side reaches the other way, into the engine room. A prompt deck that introduces uncertainty is doing an oracle's job, and where the game needs more than a fixed prompt sequence (a yes/no answer, a random complication) it borrows the solo-play resolution machinery directly, which is [Oracle & Solo-Play Resolution](../systems-mechanics/oracle-and-solo-play-resolution.qmd). The genre's place in the wider map of solo and journaling forms is [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd). [synthesis]
+
+## Where this fits
+
+**The bigger picture.** The journal as artefact is the point in the Story family where writing stops being description and becomes the play itself, so the usual relationship between mechanism and prose flips. Everywhere else, voice and point of view dress a story the system produces. Here the writing is the system, and the design choices (the prompt, the form, the container, the ending) all bend toward one question: is the document worth keeping. It draws on [Character Voice](character-voice.qmd) and [Voice & Register Consistency](voice-and-register-consistency.qmd) for the voice that has to survive a whole session. It needs [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd) for the first-person craft that makes interior writing land. And it reaches across into the Space family, because a kept journal is a physical object and not just a text.
+
+**Next steps.** The mechanism that drives the writing is the prompt, so the natural next stop is [Prompt Design in Solo Journaling](prompt-design-in-solo-journaling.qmd), where the move that resolves play gets built. To set the journal in the wider field of solo and journaling forms, work through [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd). To design the closing ritual that ends the fiction by ending the object, and the feeling it should leave, turn to [Emotional Beats & Investment](emotional-beats-and-investment.qmd). And to produce the journal as a real artefact, with the right paper, ink and ageing, the craft is [Artefact Design & Document Production](../space-props-materiality/artefact-design-and-document-production.qmd).
+
+## Sources
+
+- Hutchings, Tim. *Thousand Year Old Vampire*. Self-published, 2019. <https://timhutchings.itch.io/tyov>
+- "Thousand Year Old Vampire." Wikipedia. <https://en.wikipedia.org/wiki/Thousand_Year_Old_Vampire>
+- Bissette, Chris. *The Wretched* and the Wretched & Alone system, 2019. Overview: <https://boardgamegeek.com/blog/8773/blogpost/115245/the-wretched-solo-journaling>
+- Malthouse, Scott. *Quill: A Letter-Writing Roleplaying Game*. Trollish Delver Games, 2015. <https://trollish-delver-games.itch.io/quill-a-letter-writing>
+- Oracz, Michał. *De Profundis*. Portal, 2001; Hogshead Publishing, 2002. <https://en.wikipedia.org/wiki/De_Profundis_(role-playing_game)>
+- 1d10+5. *Sölitary Defilement* (MÖRK BORG Third Party Licence). <https://1d105.itch.io/solitary-defilement>
+- Cameron, Julia. *The Artist's Way*. Jeremy P. Tarcher / Putnam, 1992. (Morning pages as a contemplative writing practice.)
+- Carroll, Ryder. *The Bullet Journal Method*. Portfolio / Penguin, 2018. (Structured reflective journaling.)
+- Buechner, Patrick. "8 Journaling Tips for Solo RPGs." Soloist. <https://soloist.substack.com/p/8-journaling-tips-for-solo-rpgs>
+- "A Guide to Solo Journaling RPGs." DriveThruRPG. <https://pages.drivethrurpg.com/a-guide-to-solo-journaling-rpgs/>

@@ -1,17 +1,99 @@
 ---
 title: "Prompt Design in Solo Journaling"
-aliases: []
+aliases: ["Journaling Prompts", "Prompt Anatomy", "The Prompt as Mechanic"]
 family: "Story, Character & Voice"
-media: []
+media: [tabletop, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [generative-writing, earned-loss, sustained-variation]
+  problems: [blank-page, single-output, prompt-monotony]
+  components: [prompt-text, prompt-deck, oracle, mechanical-effect]
+  genre: [literary, horror, cosy]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #46. -->
+*Silhouette: The single sentence that has to make a stranger want to write the next page.*
+
+In a solo journaling game there is no gamemaster to push back and no table to bargain with. The player draws a card or reads the next numbered entry. The prompt sets the scene. The player writes the answer, and that writing is the move and the outcome at once. Nothing sits between the prompt and the page.
+
+That puts the whole weight of the game on the prompt. Not on rules coverage, not on encounter balance, but on the quality of the question asked. A good prompt hands the player a situation they can start writing about in seconds while leaving them enough room to make the answer their own. A bad one stares back blankly. Or it boxes the player in so tightly that everyone writes the same paragraph.
+
+This article is about writing prompts that produce good writing. It is the craft of the load-bearing unit of a whole genre, and it is closer to the work of a poet setting a brief than to the work of a designer balancing a system.
+
+## The Mechanism (How it works)
+
+### The prompt is the resolution
+
+In most games a resolution mechanic turns an uncertain fictional moment into a settled outcome: a die is rolled, a target number is met or missed. In solo journaling the prompt does that job directly. The randomiser, a die or a shuffled deck, selects which prompt comes next. The prompt frames what has to be faced. The written response settles it. There is no separate pass-or-fail layered on top, because the narrative answer is the outcome. [corpus] This is what marks the form off from oracle play, where a table is consulted to adjudicate a question the player has already asked, though prompts and oracles combine often and well. The oracle as a resolution engine in its own right is [Oracle & Solo-Play Resolution](../systems-mechanics/oracle-and-solo-play-resolution.qmd).
+
+Because the writing is the resolution, the prompt is doing the work a gamemaster would otherwise do: introducing pressure, setting stakes, deciding when something is lost. A flat prompt is a flat gamemaster. The page it produces will be flat too.
+
+### What a well-formed prompt carries
+
+The prompts that reliably generate strong entries tend to carry three things at once. The first is a fictional situation or question that gives the writing somewhere to stand. The second is a constraint or pressure that narrows the response and creates stakes. The third is a mechanical effect that changes the character's recorded state. [corpus] Take a representative prompt from Tim Hutchings's *Thousand Year Old Vampire*. A face from the character's mortal life recognises them. The encounter cannot be avoided. The player must then lose a memory or gain a skill. That is situation and pressure and effect in a single breath.
+
+| Component | What it does | Failure when it is missing |
+|---|---|---|
+| Situation or question | Gives the writing a place to start [corpus] | Blank page: nothing to push against [corpus] |
+| Constraint or pressure | Narrows the response and sets stakes [corpus] | Discursive prose with no stakes [corpus] |
+| Mechanical effect | Alters recorded state, makes it matter [corpus] | The entry leaves no trace on the game [corpus] |
+
+The three are not equal partners that must always appear together. A prompt of pure situation drifts into pleasant prose with no weight behind it. A prompt of pure mechanical instruction ("lose a memory") with no fiction around it reads as bookkeeping and produces none of the writing the genre exists for. [corpus] The craft is knowing which of the three a given prompt leans on. At least one of them has to pull hard.
+
+### The question-prompt against the scenario-prompt
+
+The deepest choice in writing a prompt is how much of the answer to supply. A scenario-prompt hands the player a specific fictional event and asks them to inhabit it. A scientist arrives asking for an artefact the character stole long ago. The player has to name the scientist and the artefact and the theft, and that specificity scaffolds them straight into writing. [corpus] A question-prompt instead opens a door and lets the player choose what walks through it. Write about a sound that disturbs you. The same line might yield a childhood memory for one player and a half-remembered nightmare for the next. [corpus]
+
+Both are legitimate, and they suit different games. A tightly framed fiction, such as a vampire's long decline or a stranded astronaut's log, rewards the scenario-prompt, because accumulating concrete detail is the pleasure of those games. Games built for introspection or for wide personal variation reach for the question-prompt, because there the player's own emotional reality is the raw material. [corpus] The two failure modes sit at opposite ends of this same axis, so the choice is not free. Lean too far toward the open question and you risk the blank page. Lean too far toward the specified scenario and you risk every player writing the same entry.
+
+There is a subtler compositional model that sidesteps the single-sentence prompt altogether. Takuma Okada's *Alone Among the Stars* builds each prompt from two signals at once: a die roll fixes the *manner* of a discovery while a drawn card fixes its *nature* and a detail, and the player writes the entry that satisfies both. [corpus] The prompt is a combination rather than a sentence, and the same small deck yields entries that rarely repeat. It is the same reach for variation that branching writers manage at the level of whole passages, and the underlying question, how to turn fictional intent into a discrete written beat, is shared with [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd).
+
+### Prompts that force change, prompts that grant choice
+
+The most dramatically charged prompts demand something irreversible. Lose a memory. Cross out a skill. Mark a relationship as ended. [corpus] *Thousand Year Old Vampire* is the canonical case and the clearest. The vampire can hold only five memories, each built from up to three experiences. A prompt that says "lose a memory" then forces the player to delete writing they made earlier in the same game. [researched] The journal stops being a record of what happened and becomes a record of what was taken. Read back through it and you meet your own strikethroughs. The aesthetic of loss is mechanical in origin. The prompt is what pulls the trigger.
+
+A different family of prompts pushes agency the other way. "Choose one: gain a skill or end a relationship." Here the randomiser picked the situation but the player resolves it, and the act of choosing is the live beat. [corpus] These suit moments where the player should feel like an author of consequence rather than a subject of the dice. The hazard is the false choice. If one option is plainly the best, the prompt only pretends to offer a decision. The player will pick the dominant line every time. A real choice needs the options to cost something against each other. [synthesis] This is the same demand for decisions with no dominant answer that runs through [Decision Space & Choice Design](../systems-mechanics/decision-space-and-choice-design.qmd).
+
+### The deck, the oracle, and sequencing
+
+A prompt rarely arrives alone. It arrives in an order, set by the engine that delivers it, and that engine shapes the arc of the session as much as the prompts themselves. *Wretched & Alone*, the system behind Chris Bissette's *The Wretched*, runs on an ordinary 52-card deck, with each suit governing a thematic domain and each card carrying its own prompt. [corpus] [researched] The player rolls a die and draws that many cards, then works through them one by one. Special cards drive the game's clock. The four Kings end it. An Ace governs the distress signal. Odd cards pull blocks from a Jenga-style tower whose collapse is also an ending. [corpus] [researched] The deck is a discipline as well as an engine. Working in the system means writing exactly 52 prompts spread meaningfully across four domains, which forbids padding and means no card can be filler.
+
+The oracle is the other common engine, and it trades authored voice for sheer combinatorial reach. Shawn Tomkin's *Ironsworn*, an adventure game rather than a journaling one, pairs an Action word with a Theme word ("Oppose" plus "Superstition") and lets the player read a situation out of the collision. [corpus] [researched] A hundred words on each side generate ten thousand pairs rather than two hundred hand-written sentences, which slashes the authoring burden. The cost is tone. An oracle pair can land flat or incoherent where an authored prompt carries intent. The strongest designs layer the two. An authored prompt sets the emotional frame. An oracle roll then fills in the specific detail inside it. [corpus] The oracle's own machinery (the yes/no question and the chaos factor that escalates it) belongs to [Oracle & Solo-Play Resolution](../systems-mechanics/oracle-and-solo-play-resolution.qmd).
+
+Sequencing is where prompt-writing becomes prompt-*set* writing. A pile of individually good prompts can still produce a session with no shape and no rising pressure if they are all pitched in the same key. So the discipline is to test the set in motion rather than line by line. Draw or roll through the whole thing in random order and journal the result. Then check that the run has an arc and that the mechanical effects are not all losses or all gains. [corpus] A fair prompt is also a solvable one, an input the player can actually act on, and the test for that solvability is a cousin of the puzzle-maker's fairness check in [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd).
+
+::: {.callout-note}
+### The Specimen
+*Thousand Year Old Vampire* (Tim Hutchings, 2019) is the genre's most cited structural model, and its prompts show every principle here at work. Roughly two hundred prompts are spread three to a page across the book, and navigation is deliberately non-linear. The player rolls dice to jump forward or back through the pages, so no two chronicles meet the prompts in the same order. [researched] Each prompt fuses fiction and instruction into one sentence rather than separating them, so the player cannot write the scene without also executing the mechanical change. [corpus] And the memory cap, five memories of three experiences each, turns the recurring "lose a memory" prompt into an act of erasure: once those slots are full, recording something new means letting an old memory slip away for good. [researched] The prompt is not just a question. It is the instrument that deletes the answer.
+:::
+
+### Tone, culture, and the long campaign
+
+Prompts are not bound to horror or tragedy. Anna Blackwell's *Apothecaria*, a game about a village witch brewing potions, uses the identical three-part anatomy to gentle ends. A new patient arrives with an unusual complaint, the same shape as any horror prompt, with only the genre frame changed. [corpus] [researched] The cosy register brings its own design problem, which is sustaining tension across a long game without horror's stakes. The usual answer is to make the loss social or professional, putting a reputation or a friendship or the safety of the village at risk. [corpus] Tonal range matters even inside a single session. An all-horror set and an all-cosy set both wear the player down through monotony, so a set that varies its key holds attention longer than one that hammers a single note. [corpus]
+
+A last constraint sits underneath all of this. A prompt that presupposes specific cultural or historical knowledge only lands for players who already hold it, which quietly narrows the audience. [corpus] The widely played games tend to reach either for an invented world or for a deliberately universal emotional frame, loss and memory and solitude and wonder, that any player can answer from their own life. Part of why the cosy genre travels so well is that a "village witch" is legible across many fantasy readerships without demanding specialist knowledge. The register the player writes in, and whether it holds steady across a whole journal, is a voice-continuity concern in its own right: [Voice & Register Consistency](voice-and-register-consistency.qmd).
+
+::: {.callout-warning}
+### The Hazard
+The two ways a prompt fails are mirror images, and both are caught the same way. Too vague, and you get the blank page. A prompt with no situation and no constraint and no stake gives the player nothing to push against, so no words come. Make it too specific and you get the single output instead. Picture a prompt that puts the player in Paris in 1889 watching the Eiffel Tower go up and asks what they think. It is precise enough that every player writes the same entry about the same tower. The fix for the first is to add a concrete detail or a constraint. The fix for the second is to keep the pressure but widen the opening: have the player witness the construction of something enormous that will outlast them and ask what they feel. One cheap test exposes both. Read each prompt and check that you can start writing within thirty seconds and that two players from different backgrounds would not hand back the same page. A prompt that fails either half is not finished. [corpus]
+:::
+
+## Where this fits
+
+**The bigger picture.** Prompt design is the engine room of the solo journaling form. The genre and its history sit one level up in [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd). The written record the prompts produce sits one level along in [The Journal as Artefact](the-journal-as-artefact.qmd). The prompt itself is the part that actually drives play. It is where the work of a gamemaster has been compressed into a sentence, so much of the craft here is about pressure and stakes and timing rather than about words alone. Get the prompt right and a small deck can produce thousands of distinct chronicles. Get it wrong and the most evocative setting in the world produces a blank page or the same page over and over.
+
+**Next steps.** Once a prompt set generates writing, the next concern is the quality of that writing as prose, the voice it speaks in and how close the reader sits to the character: [Character Voice](character-voice.qmd) and what it leaves unsaid, [Exposition & Subtext](exposition-and-subtext.qmd). To understand the engine that feeds a prompt with mid-session detail, work through [Oracle & Solo-Play Resolution](../systems-mechanics/oracle-and-solo-play-resolution.qmd). And to see how the finished journal becomes a keepsake rather than a transcript, the physical and presentational craft is [The Journal as Artefact](the-journal-as-artefact.qmd).
+
+## Sources
+
+- Hutchings, Tim. *Thousand Year Old Vampire*. Self-published, 2019. Product page: <https://thousandyearoldvampire.com/products/thousand-year-old-vampire>
+- "Thousand Year Old Vampire." Wikipedia. <https://en.wikipedia.org/wiki/Thousand_Year_Old_Vampire>
+- The Solo Meeple. "Thousand Year Old Vampire" (playthrough review), 16 June 2020. <https://thesolomeeple.com/2020/06/16/thousand-year-old-vampire/>
+- Bissette, Chris. *The Wretched* and the *Wretched & Alone* system. RPGGeek system entry: <https://rpggeek.com/rpgsystem/62288/wretched-and-alone>
+- Popcult Blog. "Solo Tabletop RPG Review: The Wretched," 12 February 2023. <https://popcult.blog/2023/02/12/solo-tabletop-rpg-review-the-wretched/>
+- Okada, Takuma. *Alone Among the Stars*. itch.io page: <https://noroadhome.itch.io/alone-among-the-stars>
+- Blackwell, Anna. *Apothecaria*. itch.io page: <https://blackwellwriter.itch.io/apothecaria>
+- Tomkin, Shawn. *Ironsworn*. (Action/Theme oracle.) <https://www.ironswornrpg.com/>
+- Lair of Secrets. "Oracles for Role-Playing Games" (Ironsworn Action/Theme). <https://lairofsecrets.com/podcast/s3e16-oracles-for-role-playing-games/>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
@@ -21,3 +103,5 @@ provenance: ""
 - [Solo Modes](../systems-mechanics/solo-modes.qmd)
 
 <!-- BACKLINKS:END -->
+</content>
+</invoke>
