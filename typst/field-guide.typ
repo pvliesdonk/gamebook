@@ -155,8 +155,8 @@
 
 // --- Page furniture (called from partials/page.typ) ---------
 #let fg-header() = context {
+  if not fg-in-body.get() { return }
   let p = counter(page).get().first()
-  if p <= 1 { return }
   let f = fg-family.get()
   let lbl = fam-label.at(f, default: "The Field Guide")
   let num = text(font: "Letter Gothic Std", size: 8pt, fill: ink-muted)[#p]
@@ -167,8 +167,8 @@
 }
 
 #let fg-tabs() = context {
+  if not fg-in-body.get() { return }
   let p = counter(page).get().first()
-  if p <= 1 { return }
   let active = fg-family.get()
   let recto = calc.odd(p)
   let tabs = stack(dir: ttb, spacing: 3pt, ..fam-order.enumerate().map(pair => {
