@@ -150,5 +150,16 @@ format:
     theme:
       - cosmo
       - brand
-  typst: default
+  typst:
+    mainfont: "Adobe Jenson Pro"
+    monofont: "Letter Gothic Std"
+    font-paths:
+      - assets/fonts
+    template-partials:
+      - partials/page.typ
+      - partials/typst-show.typ
+    include-in-header:
+      - typst/field-guide.typ
+    filters:
+      - filters/field-guide.lua
   epub: default
