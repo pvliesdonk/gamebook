@@ -1,14 +1,108 @@
 ---
 title: "Playbook Design"
-aliases: []
+aliases: ["Playbooks", "Character Playbook", "Skins", "Class-as-Identity"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [instant-identity, first-session-legibility, niche-protection]
+  problems: [blank-page-paralysis, interchangeable-characters, unmotivated-relationships]
+  components: [moves, advancement-menu, relationship-prompts, flavour-text]
+  genre: [fantasy, horror, sci-fi, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: A character handed over whole. Identity and rules in one packet, playable before the first scene opens.*
+
+A playbook is a character you can pick up and be. Two or three pages hand you a role in the fiction, a short set of moves nobody else has, a menu of ways to grow, and a few lines that tie you to the people across the table. You do not build a person from a blank sheet. You choose which version of a known type you want to be, and the choosing is fast because the page already did the hard part.
+
+The trick is that fiction and rules arrive fused. A class sheet tells you what your character may do. A playbook tells you who they are, what only they can do, and how the others already feel about them, before anyone has spoken in character. Pull the moves off a playbook and it stops working. Pull the relationship lines off a class sheet and nothing changes. That difference is the whole idea, and it reshapes the first session more than any single rule does.
+
+This article is about the playbook as bundled identity. It looks at what goes in the packet and how each part teaches the player their role, then at how the bundle both frees and fences the person playing it. It sits one layer up from the [PbtA Move](moves-and-the-fiction-mechanic-fiction-loop.qmd), which is the atom a playbook is mostly built from, and one layer up from [Mechanical Resolution Types](mechanical-resolution-types.qmd), the dice the moves resolve on. The playbook is the container those parts ship inside.
+
+## The Mechanism (How it works)
+
+### What sits in the packet
+
+A playbook is a single object that bundles several things a more traditional game keeps apart. It carries a trope (a sentence or two of flavour that sets the tone before any rule appears), a set of signature moves no other playbook has, an advancement menu the player draws from over a campaign, a handful of relationship prompts that wire this character to the others, and a playbook-specific way of earning experience. [corpus] None of these is decorative. The trope frames the moves, the moves enact the trope, and the relationship lines make sure the character does not arrive socially stranded.
+
+It helps to separate the playbook from two things it resembles. A class is a bundle of mechanical permissions with no social or relational content. A template is a set of starting numbers with no embedded story. The playbook is opinionated in a way neither is. It states who the character is and what only they can do, and it fixes how the table already relates to them from the first minute. [corpus] The defining move is that fiction and mechanics are inseparable inside it. Removing the moves breaks a playbook; removing the relationship prompts from a class sheet changes nothing about how that class plays. [corpus]
+
+### Where the format came from
+
+The format arrived with *Apocalypse World* (D. Vincent Baker, with Meguey Baker, 2010). [researched] Its core playbooks each name a complete identity in the post-apocalyptic fiction rather than a job description. The Hardholder rules a settlement, so the sheet itself defines that settlement's size, population, and defences. The Hocus leads a cult and must describe the cult's beliefs at creation. The playbook does not merely unlock abilities; it places the character in the shared world before play begins. [corpus]
+
+Underneath the system sits a clean split. A small set of basic moves (act under fire, read a situation, help or interfere) belongs to everyone. The playbook moves are what set the characters apart. [researched] That separation between the universal procedure and the unique one is the structural baseline every later Powered by the Apocalypse design inherits, and it is what makes a playbook legible: the player only has to learn the few moves that are theirs. The wider family of designs this seeds is mapped in the [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd).
+
+Baker has said the practical reason for one playbook per table was logistics, so the MC need not carry duplicate sheets. [researched] The design effect runs deeper. One copy each means every character occupies a different niche, and the set of playbooks a group chooses fixes the social shape of that group before the first scene. [corpus] Two players on the same playbook would blur whose fictional space is whose, so the scarcity is doing real work.
+
+### How a playbook teaches its role
+
+The clearest thing a playbook says about a character is its move list. Read the moves and you know what this person does that nobody else can, often before you reach the flavour text. The moves are the identity, written as procedure. [corpus] This is also the sharpest test of a weak playbook. If a move could sit on any other playbook without looking out of place, the playbook has no mechanical identity. What you have is a container with a character's name on it. [corpus]
+
+The flavour questions teach in a quieter way. A playbook does not ask the open question "who are you?" It asks "which version of this archetype are you?", which is smaller and more productive. [corpus] A prompt like "what do you know how to fix that nobody else does?" hands the player a narrow, vivid decision instead of an empty page. [corpus] So the playbook solves the blank-page problem. Faced with nothing, a player has to invent identity, motivation, social position, and mechanical niche all at once, which produces either paralysis or a muddle. The playbook pre-answers all four and leaves only the interesting choices, so the constraint reads as generative rather than confining. [corpus]
+
+The advancement menu teaches what the character will become. Options that represent growth within the archetype keep the playbook coherent over a campaign; options that let a player advance out of the archetype quietly dissolve it. A Brainer who buys the Hardholder's moves loses the Brainer's fiction without gaining the Hardholder's, and the table is left with a character who is neither. [corpus] Good advancement deepens the type rather than offering an exit from it. The way that growth then maps a character's trajectory over a long game is a [Story, Character & Voice](../story-character-voice/tropes-archetypes-and-variations.qmd) concern as much as a mechanical one.
+
+### Relationships as moving parts
+
+A playbook that integrates with no other leaves its character socially adrift while everyone else's bonds are generating drama. [corpus] So the format makes relationships mechanical objects rather than narrative garnish, and the different PbtA lines do it in instructively different ways.
+
+*Apocalypse World* uses Hx (history). Each playbook carries directed prompts read aloud at session zero ("for one of them, write Hx+3; for everyone else, Hx+1"), and the prompts differ by playbook, so the same players produce different starting webs depending on who took which sheet. [corpus] *Dungeon World* (Sage LaTorra and Adam Koebel, 2012) reworks this as Bonds: short declarative lines that name another character and stake a claim, such as "I have guided ___ before, and they owe me for it." Resolving a Bond is an experience trigger, so interpersonal drama converts straight into advancement currency. [researched] *Masks: A New Generation* (Brendan Conway, Magpie Games, 2016) uses Influence. Each playbook begins with particular characters already holding Influence over the PC. When someone who holds Influence tells you who you are, it carries mechanical weight. [researched] One idea runs through all three. Relationships are not flavour; they produce triggers, constrain moves, and feed advancement.
+
+The experience economy itself usually runs in two layers. A set of shared end-of-session questions covers everyone ("did we forge a real bond?", "did we expose ourselves to danger?"), and each playbook adds its own trigger on top. [corpus] The Hardholder grows by commissioning building projects; the Hocus grows when the cult acts in their name. The playbook-specific trigger is compact and load-bearing. It tells the player what kind of story their character will generate, then rewards that story mechanically. In effect the playbook scripts the arc the character is likely to follow. [corpus]
+
+::: {.callout-note}
+### The Specimen
+*Monsterhearts* (Avery Alder, 2012; revised 2017) renames the playbook a Skin, and the rename is honest about how total the bundling is. Each Skin (Vampire, Werewolf, Witch, Fae, Ghost, Mortal, Queen, and the rest) is at once a monster archetype and an adolescent metaphor. The Vampire is seduction and control; the Werewolf is rage and physical dysphoria. The Mortal, tellingly, is mundanity amid the supernatural. The structural signature is the Sex Move, a distinct mechanic each Skin triggers when the character has sex with another. The Queen's adds the partner to her clique; the Ghost's exchanges secrets. [researched] This is not colour on top of a generic chassis. You cannot play the Vampire Skin without the Vampire's particular relationship to seduction being mechanically present at the table. The Skin does not describe a character type so much as a way of being in social space, which is the clearest demonstration of what "fiction and rules fused" actually buys. [corpus]
+:::
+
+### Identity that shifts during play
+
+Most playbooks fix identity at creation. *Masks* makes the shift itself the mechanic. Its playbooks each carry a starting configuration of five Labels (Danger, Freak, Mundane, Savior, Superior), and the Labels are not fixed numbers. They move when an NPC or another PC with Influence tells you who you are and you accept or reject the framing. [researched] A Legacy who spends three sessions being told they are Mundane watches that Label creep upward whatever the player intends. The starting configuration is an origin, not a destination, and the playbook now encodes whose definitions of the character the player is fighting against or growing toward. [corpus] That turns a static identity packet into an identity trajectory, which suits the superhero-adolescence fiction the game is about. The way that pressure gets distributed (who is allowed to tell whom who they are) is a question of [Distributing Narrative Authority](distributing-narrative-authority.qmd).
+
+### The crew layer: identity above the individual
+
+*Blades in the Dark* (John Harper, Evil Hat, 2017) keeps the character playbook and adds a second one for the crew. [researched] The character playbooks (Cutter, Hound, Leech, Lurk, Slide, Spider, Whisper) each carry a list of special abilities to choose from and a signature action rated higher than the rest. [corpus] Alongside them sits a crew playbook (Assassins, Bravos, Hawkers, Shadows, Smugglers, Cult, and so on) with its own upgrades, abilities, and territory map. [researched] The two-layer structure extends the bundled-identity idea from the person to the organisation. The crew is a character in its own right, with a sheet, an advancement path, and an arc of its own. Earlier PbtA differentiates within an archetype by handing out fixed moves. The Forged in the Dark playbooks instead lean on ability selection from a menu, so two Lurks at different tables can read quite differently. [corpus]
+
+The format is not even welded to dice. *Dream Askew / Dream Apart* (Avery Alder and Ben Rosenbaum, 2018) introduces Belonging Outside Belonging, which removes the randomiser entirely and resolves through tokens. A weak move that concedes ground earns a token; a strong move that takes what the character wants spends one. [researched] The playbooks keep their moves and relationship prompts intact. That the bundle survives when the 2d6 engine is pulled out is the proof that the playbook is a packaging pattern, not a dice subsystem. [corpus]
+
+A short comparison places the playbook against the other ways games attach identity to a character.
+
+| Mechanism | System | Unit of identity | Authored by | Shifts in play |
+|---|---|---|---|---|
+| Playbook + moves | PbtA / FitD | Bundled archetype | Designer | Partially (Labels in *Masks*) [researched] |
+| Beliefs | Burning Wheel | Three written sentences | Player | Yes, by GM challenge [researched] |
+| Aspects | Fate Core | Five written phrases | Player | Yes, via compels and invokes [researched] |
+| Type / Descriptor / Focus | Cypher System | Three-part combination | Player picks, designer supplies | Rarely [researched] |
+
+The dividing line is authorship and bundling. Beliefs and Aspects are player-written, open, and meant to be rewritten, which asks the player to know what they want to explore before play starts. The playbook is designer-written, constrained, and built to endure, so it works at session zero even when the player arrives with no strong vision. [corpus] An Aspect says "this matters." A playbook move says "when this matters, here is the procedure." The playbook closes the gap between identity and rules that an Aspect leaves open. [synthesis]
+
+::: {.callout-warning}
+### The Hazard
+The seductive failure is the playbook that optimises into sameness. Two patterns cause it. The bland playbook has no move unique to its archetype, so the characters feel interchangeable and the niche structure collapses. The optimisation trap has one move that is mathematically dominant, so every player who takes the playbook takes that move, and the apparent variety shrinks to a single build. [corpus] Both share a root: the moves were chosen for power rather than for identity. The check is to read each move and ask what the character would lose if it were gone. If the answer is "some numbers" rather than "a piece of who they are," the move is filling space, not drawing a person. Move overload is the quieter cousin. Hand a player six or more starting moves and they cannot hold the identity in their head: session zero drags, and the role gets forgotten mid-session. [corpus] A playbook a player cannot fully build in about ten minutes is too heavy for the format. [corpus]
+:::
+
+### The same bundle in a live game
+
+The playbook reads as a tabletop fixture, but its core move (hand a player a complete identity rather than a blank sheet) recurs wherever a designer needs people in character fast and with built-in friction. Jubensha, the Chinese scripted-murder format, is the clearest live cousin. Each player receives a character packet that separates private backstory from a partial and deliberately distorted event timeline, from discrete secrets the character has reason to conceal, from objectives both mandatory and optional. [corpus] This is the playbook's bundled identity rebuilt for a single sitting. The packet places the character in the fiction and hands them things to conceal and things to pursue, then ties them to everyone else through shared secrets, all before the first act opens.
+
+The live version makes one design choice especially visible. Concealment is universal, not reserved for the guilty, so every participant has something to hide. [corpus] When that holds, passive observation stops being a viable strategy and interrogation becomes mutual, which is the live analogue of the PbtA rule that every playbook carries relationship prompts so no character arrives socially inert. [synthesis] The same principle scales down to a Nordic-tradition LARP, where a relation workshop establishes shared secrets before play, and up to a megagame, where a faction's private starting knowledge is its diplomatic currency. [corpus] The format changes; the bundle does not.
+
+## Where this fits
+
+**The bigger picture.** The playbook is a packaging layer that sits above the parts the rest of this family supplies. It is mostly built from the [PbtA Move](moves-and-the-fiction-mechanic-fiction-loop.qmd), which is the unit a playbook differentiates characters with, and those moves resolve on whatever [Mechanical Resolution Types](mechanical-resolution-types.qmd) the system uses, though *Dream Askew* shows the bundle survives even with the dice removed. What the playbook adds on top is legibility and niche protection: a player can be their character in the first session because the page pre-answered identity, capability, and social position, and the one-per-table rule guarantees the group occupies distinct fictional space. When a game encodes its values into the archetypes it ships (the Hardholder who must define a settlement), the playbook is also where [System vs Setting](system-vs-setting.qmd) stops being an abstraction and becomes a sheet a player fills in.
+
+**Next steps.** Once the bundle is designed, the work turns to the moves inside it and how each tier of a move reads as fiction, which is [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd). Because the playbook fixes who relates to whom from the first minute, it leans on the pre-game agreement that sets tone and expectations, [The Session Zero Playbook](../players-social-dynamics/the-session-zero-playbook.qmd), and on the casting question of which player suits which archetype, [Player Types & Casting](../players-social-dynamics/player-types-and-casting.qmd). When a playbook's Labels or Influence let other people define a character during play, the authority for that lives in [Distributing Narrative Authority](distributing-narrative-authority.qmd). And to write the trope and flavour questions that give a playbook a recognisable speaking identity rather than a stat block, the craft is [Character Voice](../story-character-voice/character-voice.qmd).
+
+## Sources
+
+- *Apocalypse World* (D. Vincent Baker and Meguey Baker, Lumpley Games, 2010); the playbook format, basic-versus-playbook moves, Hx, and one-per-table niche. <http://apocalypse-world.com/>
+- Baker, D. Vincent. "Powered by the Apocalypse, Part 1." Lumpley Games, 30 December 2019. <https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/>
+- "Apocalypse World." Wikipedia. <https://en.wikipedia.org/wiki/Apocalypse_World>
+- *Dungeon World* (Sage LaTorra and Adam Koebel, 2012); Bonds and the end-of-session XP questions. <https://www.dungeon-world.com/>
+- *Monsterhearts 2* (Avery Alder, Buried Without Ceremony, 2017); Skins and the Sex Move. <https://buriedwithoutceremony.com/monsterhearts>
+- *Masks: A New Generation* (Brendan Conway, Magpie Games, 2016); Labels, Influence, and identity drift. <https://magpiegames.com/products/masks-a-new-generation-hardcoverpdf>
+- *Blades in the Dark* (John Harper, Evil Hat Productions, 2017); Forged in the Dark, character and crew playbooks. <https://bladesinthedark.com/downloads>
+- *Dream Askew / Dream Apart* (Avery Alder and Ben Rosenbaum, Buried Without Ceremony, 2018); Belonging Outside Belonging and the token economy. <https://buriedwithoutceremony.com/dream-askew>
+- "Belonging Outside of Belonging: Avery Alder's Dream Askew." Unwinnable, 7 June 2018. <https://unwinnable.com/2018/06/07/belonging-outside-of-belonging-avery-alders-dream-askew/>
+- Guo, Y. et al. "The Collaborative Sensemaking Play of Jubensha Games: A Deconstruction, Taxonomy, and Analysis." *ACM Games: Research and Practice*, 2025; the layered character packet (backstory / timeline / secrets / objectives).

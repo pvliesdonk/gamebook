@@ -1,14 +1,119 @@
 ---
 title: "Encounter & Challenge Design"
-aliases: []
+aliases: ["Encounter Building", "Challenge Design", "Encounter Balance", "The Three Pillars"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop, live-game, interactive-fiction, puzzle-hunt]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [meaningful-difficulty, dramatic-tension, felt-stakes]
+  problems: [hp-slog, attrition-without-stakes, pillar-imbalance, social-dead-end]
+  components: [xp-budget, difficulty-tiers, encounter-table, stakes-statement]
+  genre: [fantasy, horror, sci-fi, mystery]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: The bounded scene with something at stake, where the players' choices leave the world changed.*
+
+An encounter is the unit a session is built from. Inside its boundary something matters, and the situation never ends where it began. A fight in a featureless room can be one. So can a tense conversation with a guard captain who needs something the party has. The thing that lifts either of them from filler into a real scene is the same: a genuinely uncertain outcome, with a win and a loss pointed at different futures.
+
+The trouble is that the word travels badly between traditions. In the D&D line an encounter is a discrete scene that costs table time and pays out experience. In a Powered by the Apocalypse game it is any moment a [PbtA Move](moves-and-the-fiction-mechanic-fiction-loop.qmd) fires, and there is no separate encounter unit at all. In Blades in the Dark the whole heist is the encounter. So "encounter design" is two questions wearing one name. One is how to calibrate difficulty so a scene is neither a walkover nor a slaughter. The other is how to make a scene worth playing in the first place, which is a question about stakes and decisions rather than numbers.
+
+This article is about both, and about the gap between them. The maths of a difficulty budget is the easy part and the part most likely to mislead, because a perfectly balanced fight can still be boring. The harder craft is designing for real difficulty rather than attrition: a scene where the danger comes from the choices on offer, not just from the size of the health pool the players have to grind down.
+
+## The Mechanism (How it works)
+
+### The three pillars, and the one that gets neglected
+
+The dominant way to sort encounters comes from the D&D 5e Player's Handbook, which names three broad modes of adventuring: exploration, social interaction, and combat. [researched] The framing is structural, not decorative. A session that is almost entirely combat is narrow by design, however good the fights are, because the game was built to lean on all three. The pillars were made explicit during the D&D Next playtest and codified at release, partly to restore the exploration and social content that 4th edition was felt to have crowded out with tactical combat. [researched]
+
+The three are not equally supported, and the imbalance is worth naming because it shapes what a designer has to build by hand. Combat has a complete resolution system. Social interaction at least has NPCs with motivations to push against. Exploration has the least mechanical scaffolding of the three, and Mike Mearls, a 5e co-lead, later called it "a bit of an orphan in the current game's design." [researched] Justin Alexander's longer critique sharpens the point. Exploration is not a synonym for wilderness travel. It is the loop of reading an environment for its knowledge and then putting that knowledge to use, and the loop dies the moment a scenario becomes a single line from a known start to a known end. [researched] The practical upshot is that the other two pillars run on procedures the core rules do not hand you. Exploration above all leans on structures like the [Hexcrawl & Pointcrawl](../structure-pacing/hexcrawl-and-pointcrawl.qmd) and on the dungeon turn economy, and those have to be supplied or the pillar collapses into GM improvisation.
+
+### Budget maths, and where it stops being honest
+
+Combat is the one pillar with a real calibration tool, and it is worth understanding precisely so you can also see its limits. The 5e 2014 procedure runs in two steps. The first step sums each party member's experience-point threshold at their level for the difficulty you want, across four bands (Easy, Medium, Hard, Deadly). The second totals the raw experience value of the monsters, then multiplies by a count-based factor, so more bodies on the board pushes the adjusted figure higher. [researched] That adjusted figure, set against the party's summed threshold, tells you which band you have landed in.
+
+| Party level | Easy | Medium | Hard | Deadly |
+|---|---|---|---|---|
+| 1 | 25 | 50 | 75 | 100 |
+| 5 | 250 | 500 | 750 | 1,100 |
+| 10 | 600 | 1,200 | 1,900 | 2,800 |
+| 20 | 2,800 | 5,700 | 8,500 | 12,700 |
+
+The 2024 Dungeon Master's Guide quietly admits where this was wrong. The monster multiplier is gone, so creatures now count at face value no matter how many there are. The Deadly tier is gone too, leaving three bands (Low, Moderate, High), with the thresholds shifted up so that roughly the old Medium becomes the new Low. [researched] The whole adventuring-day budget, the idea that you balance a string of encounters against a daily resource total, was dropped without replacement. [researched] The multiplier was the most criticised piece of the old system for a reason that exposes what budget maths can and cannot see: it rated a lich flanked by two rats as about twice as dangerous as the lich alone, because it counted bodies rather than threat. [researched] A budget number measures gross danger and nothing else. Whether a fight is interesting stays invisible to it, so a designer who leans on the number alone ends up with balanced encounters that are dead on the table.
+
+Other systems draw the budget differently, and the variations are themselves a lesson in what each game thinks a fight is.
+
+| System | Budget unit | Tiers | The telling detail |
+|---|---|---|---|
+| D&D 5e (2014) | XP threshold per character | Easy / Medium / Hard / Deadly | Monster-count multiplier inflates groups [researched] |
+| D&D 5e (2024) | XP budget, ceiling model | Low / Moderate / High | Multiplier removed; no adventuring-day budget [researched] |
+| Pathfinder 2e | XP budget for a four-party | Trivial to Extreme | A same-level creature is 80 XP; tightly calibrated [researched] |
+| D&D 4e | XP budget plus role taxonomy | Minion / Standard / Elite / Solo | Monster roles shape the fight, not just its size [researched] |
+| 13th Age | Escalation die plus monster level | Casual / Standard / Hard | A rising bonus pulls a slow fight forward [researched] |
+| OSR / Moldvay B/X | Dungeon level equals monster level | "Appropriate", no formal tiers | Encounters rolled from tables, not hand-placed [researched] |
+| Blades in the Dark | Engagement-roll position | Controlled / Risky / Desperate | No XP budget; the score is the unit [researched] |
+| PbtA | None | None (10+ / 7-9 / 6-) | No encounter budget at all [researched] |
+
+Pathfinder 2e is the most precisely tuned of the lot. A creature at the party's level is worth 80 experience points; drop it a level and it falls to 60, raise it a level and it climbs to 120, so danger scales in legible steps. [researched] The 4e contribution is different and more useful to a non-D&D designer. It tagged every monster with a tactical role (Soldier, Brute, Skirmisher, Artillery, Controller, Lurker, Leader) and made the craft about mixing them. All Soldiers gives a slow attritional grind; all Artillery gives a ranged gauntlet; a mix gives a fight that behaves like a system rather than a single difficulty number. [researched] That is the budget maths quietly conceding the real point. The interesting variable was never the total, it was the composition.
+
+### Why a balanced fight can still be boring
+
+The most common combat failure has nothing to do with the budget being wrong. It is the health-point slog. Picture a forty-five-minute fight on featureless ground that runs without a clock and without any consequence attached to its result, leaving no moment anyone remembers afterwards. [researched] The causes are mechanical and avoidable. Too many enemy hit points against the party's damage output. Flat terrain with nothing to use. No clock forcing a decision. The same two players dominating every round. And, the quiet killer, no stakes, so that winning and losing change nothing in the fiction. [researched]
+
+The standard remedies all push in one direction, away from attrition and towards decisions. Mike Shea names terrain as the primary lever. Six hobgoblins in an open field is dull. Four hobgoblins and four worg mounts around an ancient archway swirling with eldritch energy is a situation, and a situation comes with its own objectives and complications already attached. [researched] His broader rule is to start from the fiction and let it choose the terrain and the stakes, not the reverse. [researched] The deeper diagnosis is that a fight the players have already solved in their heads before initiative is a fight half-lost. Once their decisions amount to nothing more than an optimal rotation against a health pool, the encounter has become a decision tree with a known best path. The dice are then only slowing down a foregone conclusion. [synthesis] Real difficulty needs what a solvable tree lacks. The players want information they do not yet have. They want a genuine chance of a bad outcome and a board state that keeps moving underneath them. That is the same standard a good decision carries everywhere, so this connects straight to [Decision Space & Choice Design](decision-space-and-choice-design.qmd).
+
+::: {.callout-note}
+### The Specimen
+Matt Colville's "action-oriented monsters" idea fixes a failure the budget cannot even see: the lone boss. A single powerful monster cannot threaten a four-person party. It acts once per round while the party acts four or five times, so the action economy buries it before its high numbers ever matter. [researched] His answer is to give a boss structured actions keyed to the arc of the fight rather than a flat per-round budget. One move repositions for advantage in the opening round. A later one breaks free before the party can swarm it. A final one bursts across several targets at once. These shipped as "Villain Actions" in *Flee, Mortals!* (MCDM, 2023), which also added minion rules so a horde can appear without an afternoon of hit-point tracking. [researched] The lesson generalises past D&D. What made the boss fight work was not a bigger number. It was a fight that changes shape as it goes. [synthesis]
+:::
+
+### The non-combat problem: skill challenges and their failures
+
+Combat is the easy pillar to budget and the hardest to make dull-proof. The non-combat pillars invert that. Interest comes to them almost for free, and the real trouble is structuring them at all without strangling them. The cautionary tale here is 4th edition's skill challenge, the most explicit attempt to budget a non-combat scene the way a fight gets budgeted. The mechanic needed a set number of successes before three failures piled up. Each player rolled a skill check on their turn against a fixed difficulty. [researched] It was widely faulted, and the faults are instructive. Reaching for an unusual, creative approach often raised the difficulty rather than rewarding it, so the system punished exactly the inventiveness it meant to invite. The initiative-style turn order broke the rhythm of a conversation into a queue. And the underlying odds were tuned so loosely that the whole challenge often resolved on autopilot. [researched]
+
+What the skill challenge got wrong is what the better social subsystems get right. Burning Wheel's Duel of Wits treats an argument as a structured conflict with scripted actions and a built-in compromise. Both sides put their stakes on the table before it begins, and the normal result is a negotiated compromise rather than a clean win. [researched] The design goal was to settle social scenes on the character's ability rather than the player's eloquence, so a shy player with a silver-tongued character is not left mute at the table. [researched] PbtA goes the opposite way and dissolves the category entirely. A conversation that fires a move resolves through that move; one that fires nothing is just fiction that needs no roll. A tense negotiation and a firefight run on the same tiered resolution, which strips out the combat-centrism baked into the very word "encounter." [researched]
+
+The shared failure under all of this is the social dead-end. The NPC is just a yes-or-no the GM settled in advance, so the scene curdles into players rolling until the number comes up. [researched] The fix is not a better budget. Give the NPC a want rather than a verdict. Once they need something from the players, the scene gains two-way pressure and room to resolve in more than one direction. [synthesis] The same instinct rescues exploration. An exploration scene with a single discovery path is a chokepoint, and if the players miss it the game stalls. The cure is redundancy, borrowed wholesale from investigation design: build more than one route to anything load-bearing, the way the [Three Clue Rule](../puzzles-clues-information/cluing-and-fairness.qmd) builds more than one trail to any conclusion the players must reach.
+
+### Failing forward, and letting scenes change mode
+
+The principle that keeps every kind of encounter from dead-ending is fail-forward, and PbtA's 7-9 result is its cleanest statement. A miss does not stop the fiction, it bends it. The obstacle clears but at a cost, or a hard outcome lands while the story still moves on. [researched] Applied to encounter design, the test is simple. Any encounter with no fail-forward path is a chokepoint. If the players cannot find the secret door, are they trapped in the room forever? If they cannot persuade the captain, is the mission over? A well-built scene has a failure state that opens a different and harder path rather than a wall. [researched] This is the same engine that [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd) runs on, seen from inside a single scene.
+
+Encounters also gain texture when they can change mode partway through. A fight becomes a chase the moment the enemy breaks and flees. That chase can soften into a negotiation if the quarry stops to talk. A quiet scene can tip over into violence. None of these pivots is an interruption. They are the natural arc of a live situation, and you prepare for them by asking what the flight condition is for this enemy and what could halt this negotiation. [researched] Designing the pivot rather than a fixed outcome is what separates a scene that breathes from a scripted beat, and it is part of why so much of this work is really about [Prep Economy](prep-economy.qmd): you are preparing a situation with several exits, not a sequence with one.
+
+### Attrition versus stakes, and the score as a whole encounter
+
+Underneath all of it sits a single axis: does the difficulty come from attrition or from stakes? Attrition difficulty grinds the party down by sheer volume of hit points and dice and rooms. Its characteristic product is the slog. Stakes difficulty instead puts something on the line that the players care about losing and keeps the path to holding on to it genuinely uncertain. [synthesis] A budget tool measures attrition because attrition is countable. Stakes have to be authored, and they are where the craft actually lives.
+
+Blades in the Dark makes the cleanest argument for stakes over budget by abolishing the encounter budget altogether. The whole score is the unit. Players pick a plan and a detail, an engagement roll sets the starting position (Controlled, Risky, or Desperate), and the GM opens on the first obstacle rather than a pre-built scene; the crew fills in the plan through flashbacks as the score develops. [researched] There is no XP total to balance because the difficulty lives in the named position and the consequences each action carries, which is the position-and-effect negotiation that the resolution layer already runs (see [Mechanical Resolution Types](mechanical-resolution-types.qmd)). How long a scene takes and how much pressure it is under then becomes a tracking problem rather than a budgeting one, handled by [Progress Clocks & Faction State](progress-clocks-and-faction-state.qmd) rather than an experience-point table. And how tightly any of this is rationed against play time, against a sandbox the players can wander, sits with [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd) and is enacted by the GM at the table through their chosen stance (see [GM Role Models & Stances](../players-social-dynamics/gm-role-models-and-stances.qmd)).
+
+### The same curve in other media
+
+The encounter is a tabletop fixture, but the question underneath it, how do you calibrate difficulty across a bounded experience so it neither bores nor crushes, recurs wherever an authored challenge meets a player.
+
+In single-player digital puzzle games the unit is the puzzle or the room, and the design lever is the mechanic-revelation curve. One idea is introduced, the player gets to master it, and only then is it complicated, so difficulty rises through understanding rather than through volume. The Witness and Blue Prince both build their challenge this way, and the failure mode is the tabletop slog's cousin, the combinatorial wall where the space of possibilities explodes faster than the player's grasp of the rules. [researched] A live escape room hits the same curve as an operations problem. The craft of pacing and difficulty across a sixty-minute room is encounter calibration under a hard clock. A too-hard opening puzzle (the "logic leap") kills a team's momentum early, so designers watch rough checkpoints, such as one major solve by the halfway mark, to catch a group sliding towards the wall. [researched] At the largest scale, a puzzle hunt runs a fractal version of the curve. Difficulty rises within each puzzle, again across the puzzles in a round, and again across the rounds toward the final meta, so the same shape repeats at three magnifications at once. [synthesis]
+
+## Where this fits
+
+**The bigger picture.** Encounter design sits one layer above the resolution method and one below the campaign. It assumes a [resolution mechanic](mechanical-resolution-types.qmd) underneath it, because every encounter resolves through rolls or their absence, and it assumes an [action economy](turn-structure-and-action-economy.qmd) to set how many decisions a scene contains and in what order. What it adds is the calibration and the stakes. One is a judgement about how hard a scene should be. The other is a harder judgement about what would make it worth playing at all. The recurring trap across every tradition is to mistake the countable thing for the important one. A difficulty budget can only count attrition. That is the part numbers reach. The difference between a memorable scene and a slog lives in its stakes and terrain and in the genuine possibility of a bad outcome. A budget supplies none of that. Get the budget perfect and the stakes empty and you have built a balanced scene nobody wanted to be in.
+
+**Next steps.** Once a scene's difficulty and stakes are set, the craft turns to the decisions inside it, what makes each choice genuinely interesting rather than a solved tree, which is [Decision Space & Choice Design](decision-space-and-choice-design.qmd). To weigh how much of the encounter you author against how much you let a simple system throw up on its own from a rich situation, go to [Elegance, Emergence & Randomness](elegance-emergence-and-randomness.qmd). When the worry shifts from a single scene to the chain of them across a session and the energy they cost, that is [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd). And when an exploration or investigation encounter needs to be built so no single missed clue can stall it, the redundancy discipline lives in [A Taxonomy of Puzzles](../puzzles-clues-information/a-taxonomy-of-puzzles.qmd) and the fairness contract it rests on.
+
+## Sources
+
+- *Dungeons & Dragons Player's Handbook* (Wizards of the Coast, 2014), Introduction, p. 8; the three pillars of adventuring.
+- "Building Combat Encounters," *D&D Basic Rules 2014*, D&D Beyond. <https://www.dndbeyond.com/sources/dnd/basic-rules-2014/building-combat-encounters>
+- "New DMG Encounter Building Math vs 2014," EN World (2024); multiplier removal and tier restructuring in the 2024 DMG. <https://www.enworld.org/threads/new-dmg-encounter-building-math-vs-2014.707688/>
+- "Do the 2024 5e Dungeon Master's Guide XP Tables Work?", Blog of Holding. <https://www.blogofholding.com/?p=8402>
+- Alexander, Justin. "Whither Exploration? The Invisible Pillar of 5th Edition." The Alexandrian. <https://thealexandrian.net/wordpress/46504/roleplaying-games/whither-exploration-the-invisible-pillar-of-5th-edition>
+- Mearls, Mike. "Exploration in 5e," Patreon (2024); exploration as "an orphan in the current game's design." <https://www.patreon.com/posts/exploration-in-114939055>
+- Shea, Mike (Sly Flourish). "A New Dungeon Master's Guide for Building Encounters." <https://slyflourish.com/new_dms_guide_to_encounters.html>
+- Shea, Mike (Sly Flourish). "Improvising Colville-style Action Oriented Monsters." <https://slyflourish.com/action_oriented_monsters.html>
+- Colville, Matt. "Action Oriented Monsters," Running the Game ep. 84 (YouTube, 2019); MCDM, *Flee, Mortals! The MCDM Monster Book* (2023). <https://www.goodreads.com/book/show/199149801-flee-mortals>
+- Pathfinder 2e encounter building, XP budget and severity tiers. <https://pathfinderauthority.com/pathfinder-encounter-building>
+- "Monster Role," D&D 4e wiki; the Soldier/Brute/Skirmisher/Artillery/Controller/Lurker/Leader taxonomy. <https://dnd4.fandom.com/wiki/Monster_role>
+- "A Thorough Look at Skill Challenges," Knight at the Opera (2021); the 4e skill challenge and its criticisms. <https://knightattheopera.blogspot.com/2021/12/a-thorough-look-at-skill-challenges.html>
+- *Burning Wheel* (Luke Crane, revised "Gold" edition 2011); the Duel of Wits social-conflict subsystem.
+- *Apocalypse World* (D. Vincent Baker and Meguey Baker, Lumpley Games, 2010); moves-as-encounters and the 7-9 partial. <https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/>
+- *Blades in the Dark* (John Harper, Evil Hat Productions, 2017), "Planning and Engagement"; the score as the encounter unit and the engagement roll. <https://bladesinthedark.com/planning-engagement>
+- *The Witness* (Thekla, 2016) and *Blue Prince* (Dogubomb, 2025); mechanic-revelation difficulty curves. Hon, Adrian, "A Puzzle Designer on Blue Prince," mssv.net (2025). <https://mssv.net/2025/04/07/a-puzzle-designer-on-blue-prince-a-roguelike-puzzle-masterpiece/>
+- "Escape Room Difficulty Levels," ER Workshop; and Elumir, Errol. "How Escape Rooms Do Difficulty Wrong: The Player Loop," The Codex; the live difficulty curve and checkpoint pacing. <https://erworkshop.com/escape-room-difficulty-levels/> and <https://thecodex.ca/how-escape-rooms-do-difficulty-wrong-the-player-loop/>

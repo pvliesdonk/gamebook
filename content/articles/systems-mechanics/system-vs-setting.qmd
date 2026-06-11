@@ -1,14 +1,93 @@
 ---
 title: "System vs Setting"
-aliases: []
+aliases: ["System Matters", "Rules-World Coupling", "Mechanics and Fiction", "Universal vs Bespoke Systems"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [felt-theme, coherent-tone, designer-intent]
+  problems: [ludonarrative-dissonance, pretender-setting, mis-hacked-system]
+  components: [rules-text, move-list, playbooks, setting-bible]
+  genre: [fantasy, horror, sci-fi, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+<!-- TERM-FLAG: "System vs Setting" is the canonical term for the rules-world coupling axis; not yet in docs/term-registry.md. Add in the family's batched registry pass. -->
+
+*Silhouette: The question of whether a game's rules are its world spoken twice, or a neutral engine the world is poured into.*
+
+Every game carries two things a designer holds apart in the mind. A system is the rule set that settles what happens. A setting is the world in which it all takes place. The interesting question is how tightly the two are bolted together. In some games you cannot pull them apart at all. There the rules are simply the world restated as procedure. In other games the rules form a clean engine while the world rides along as cargo that slots in without touching the machine underneath.
+
+This is not a quality gap. A game where the rules are the world and a game where the world is content both work, and both have shipped classics. What changes between them is what the rules are quietly arguing for, how the game feels at the table before a word of setting text is read, and what happens the day someone tries to reskin it. That last test is the sharp one. Try to lift a system off its world and you find out immediately where the two were welded.
+
+This article is about that coupling. It covers what tight coupling buys a designer, what it costs them, and how to read which kind of system is in your hands before you build on it or hack it. It sits one layer above the [resolution method](mechanical-resolution-types.qmd) itself, because the same 2d6 roll can be welded to a world or left neutral, and the welding is the subject here.
+
+## The Mechanism (How it works)
+
+### Two ways the rules can relate to the world
+
+Start with the loose end of the axis, because it is the one most designers meet first. A universal system treats its rules as a general-purpose engine and the setting as content fed through it. Dungeons & Dragons in its fifth edition is the clearest mass-market case. The same combat economy, the same class structure, and the same spell list with cosmetic changes run the gothic Eberron, the magic-school Strixhaven, the spacefaring Spelljammer, and the planar Planescape. [researched] Each ships as a product line rather than a change to the system. The publisher treats setting as something you buy and slot in, and the machine does not notice the difference. GURPS takes the idea to its limit and sells one rule set for cyberpunk, fantasy, historical, and modern play, marketing the universality as the whole point. [researched]
+
+The tight end works the other way. There the rules are the setting, expressed twice. The clearest statement of the principle comes from Vincent Baker's Apocalypse World, where the move list is not a neutral menu of actions but a precise index of what this particular world thinks is worth stopping play to resolve. [corpus] Baker built a strict bidirectional lock into it. The master of ceremonies cannot call for a move without the fiction that triggers it, and once that fiction happens the move fires whether anyone wanted it to or not. [corpus] A move and the fictional thing it names are the same event seen from two sides. Baker later described a Powered by the Apocalypse character as both a fictional person and a playing piece at once, which is the same fusion restated at the level of the character sheet. [researched]
+
+So the question for any system is where it sits between those poles, and the honest version of the question is sharper than it first looks. A truly neutral system is rarer than it advertises. What follows works through three things: what tight coupling actually encodes, the reskin test that exposes the encoding, and the failure that waits for a designer who ignores the answer.
+
+### What tight coupling encodes
+
+When a system is welded to its world, the weld usually carries a visible load. Some mechanic is making a specific claim about what counts in this world. That claim doubles as the game's thesis.
+
+Dogs in the Vineyard is the textbook demonstration. Its conflict escalates along a chain from Conversation to Fists to Guns. Stepping up to a more dangerous tier adds dice to your pool. [corpus] The game is about young frontier judges and the seduction of righteous violence, and the dice put a number on that seduction. When you are losing the argument, reaching for the gun becomes mechanically tempting, so a player chooses violence on purpose rather than drifting into it. [corpus] The escalation chain is not a neutral combat system that happens to sit next to a Mormon-frontier setting. It is the setting's moral argument written as procedure.
+
+Burning Wheel welds at a different joint. A character's Beliefs are written on the sheet for everyone to see, and the game master's main job is to build problems that test them. [corpus] The reward currency attaches to acting on those Beliefs, especially when acting on them costs you something. [corpus] The game also runs a Duel of Wits, a social-conflict subsystem structured as tightly as physical combat, with a body of argument that depletes like hit points. [corpus] That parallel structure is itself a claim. In this world debate weighs as much as swords, and the rules make the point by giving argument the same mechanical heft. [corpus]
+
+Playbooks do the same encoding at the level of which characters get to exist in the world. In Monsterhearts the list of Skins is the setting's whole roster of supernatural-teen archetypes. A Skin such as the Vampire or the Fae or the Queen works at once as a kind of monster and as a metaphor for an adolescent struggle. [researched] Masks draws its playbooks from emotional postures rather than powers. A name like the Bull or the Janus stands in for a way of being a young hero. The load-bearing stat is Influence: the hold characters have over each other's self-image. [researched] When the playbook list is the world's roster, the world lives in the playbooks. That fact carries a blunt consequence for anyone who wants to hack the game.
+
+::: {.callout-note}
+### The Specimen
+Blades in the Dark fuses a moral texture into a loop you cannot opt out of. A character spends stress to push an outcome their way. Stress that piles up turns into trauma, and enough trauma retires the character for good. Stress only comes back in downtime by indulging a vice (gambling, faith, luxury, stupor, and the rest), and the indulgence brings fresh complications and sometimes yet more stress. [corpus] The loop says one thing in two directions. Criminal life is tempting, and the same loop makes it costly. You cannot win without spending stress, and clearing stress means hurting yourself somewhere else. John Harper's licence has yielded over three hundred derivative games, and the way they travel is the proof of the weld. Scum and Villainy lifts the whole stress-and-vice cycle into space opera almost untouched, because cost-and-temptation fits a starship crew as well as a crew of thieves. Band of Blades and Brinkwood instead have to rebuild the crew sheet, because the original crew economy encoded profit-driven criminal entrepreneurship, which a military squad or a band of liberators plainly is not. [corpus] Where the hack stays light the mechanic was genre-flexible. Where it runs heavy the mechanic was carrying setting values all along. [synthesis]
+:::
+
+### The hackability test
+
+That last observation generalises into the single most useful diagnostic on this axis. To find out how tightly a system is coupled to its world, try to reskin it and watch where it resists. [corpus]
+
+Rename the pieces and swap the flavour text. If the game still delivers the play it was built for, the mechanic was genre-neutral. (It may also have been under-designed for its original world, since a mechanic that survives any reskin was probably not saying much about the first one.) If the reskin instead forces you to rebuild the move set or the playbook list or the core loop, the mechanic was encoding specific values all along. A rename merely buries those values under a fresh coat of paint. [corpus]
+
+Run the test on Monsterhearts and it fails fast. The Vampire's feeding move encodes a particular reading of desire and power. Reskin the game for an earnest Studio Ghibli register and the feeding move keeps arguing for predation under whatever name you give it, so an honest hack has to replace the mechanic, not relabel it. [corpus] Run the same test on Blades and you get the split result above, clean travel for the stress cycle and forced surgery on the crew economy. The test is diagnostic precisely because it does not care about intentions. It reports what the mechanics enforce, which is frequently not what the setting text claims. This is the practical face of theme: whether a mechanic is pasted on or load-bearing, which is the wider subject of [Theme-Mechanism Integration](theme-mechanism-integration.qmd).
+
+### The pretender problem
+
+The failure mode that hides on this axis is a setting that announces one set of values while the mechanics quietly enforce another. The mechanics win, every time, because they are what the table actually does. The setting text loses, because it is only what the table reads.
+
+Grimdark D&D is the common example. A group wants death to be constant and to land hard, but the fifth-edition hit-point system is built for heroic attrition and recovery, with characters expected to survive several fights a day. [researched] Drape a death-is-cheap world over it without changing the numbers and you get a game that says death matters and plays as though it does not. [researched] Heroic Call of Cthulhu is the mirror image. The sanity system was engineered to encode Lovecraft's claim that confronting cosmic truth breaks the human mind, so it makes knowledge costly and resists action-hero competence by design. [researched] Run confident pulp investigators through it and the mechanics fight the players the whole way, because the system was built to punish exactly the play they came for. [researched]
+
+Universal systems are not dishonest and bespoke ones are not pure. There is simply no system without a value system. Even GURPS pays a price for its universality. Critics noted it needs heavy supplemental material to give any given genre its specific atmosphere, because the core mechanics deliberately encode none. [researched] FATE Core is more candid about the same limit. Its own design language admits the rules emulate anything only within a particular style, the style of driven, capable characters leading dramatic lives, and that style is itself a setting constraint. [researched] FATE will not deliver gritty survival horror however hard you reflavour it, because its point economy rewards competence and dramatic choice rather than helplessness and attrition. "Genre-neutral," read with care, usually means a system encodes the values of whatever play its designers had in the back of their minds, which for the universal systems is most often cinematic, pulp competence. [synthesis] The argument that the rules are never a neutral conduit has a name and a date. Ron Edwards put it as "system does matter" in 1999, pushing back on the older wisdom that any rules would do so long as the referee was good. [researched]
+
+### The same coupling in other media
+
+The rules-world weld is a tabletop preoccupation by origin, but the underlying question travels wherever an authored system meets a player. In interactive fiction the same idea arrives as procedural rhetoric: the claim that a system argues through its rules, so that the mechanic is itself the message rather than a delivery pipe for a message written elsewhere. [synthesis] A piece of interactive fiction whose mechanics enact its meaning is the tight-coupling case in digital form, and the failure of a mechanic that contradicts its own fiction is the pretender problem under another name. That formalisation is the subject of [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd).
+
+The live form is the question of diegetic mechanics. In an escape room a designer asks whether the room's procedures encode its fiction or merely sit on top of it, so that a lock and a clue belong to the story rather than interrupting it. [synthesis] A diegetic mechanic is tight coupling made physical: the rule and the world are the same object, a padlock that is both a real obstacle and a fact about the place. That craft lives in [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd). Across all three media the shape is one shape. A system either says what its world means or stays quiet and lets the world be poured in, and knowing which you are holding is the first thing to settle before you build.
+
+## Where this fits
+
+**The bigger picture.** System-versus-setting is the framing question that sits above most of the rest of this family, because it decides what every other mechanism is for. A [resolution method](mechanical-resolution-types.qmd) can be a neutral randomiser or a thematic statement; a [PbtA Move](moves-and-the-fiction-mechanic-fiction-loop.qmd) is the tight-coupling case taken to its logical end, where the rule and the fiction are locked into one bidirectional event. Where a given game sits on this axis predicts a great deal. It tells you how stubbornly the rules will resist a hack. It tells you how much setting text the game needs before it feels like somewhere specific. And it tells you whether the flavour and the mechanics will pull together or quietly fight. Misread it, and a death-is-cheap world built on heroic-recovery rules will feel off at the table for reasons no amount of setting prose can fix.
+
+**Next steps.** Once you know how tightly a system is meant to couple, the craft turns to making the weld actually hold, which is [Theme-Mechanism Integration](theme-mechanism-integration.qmd): the discipline of keeping a mechanic load-bearing rather than pasted on. To place a given system within the design traditions that lean tight or loose, start from the [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd). To see the tightest coupling worked out at the level of a single roll, where the fiction triggers the rule and the rule feeds back into the fiction, go to [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd). And to follow the same weld into the digital and live media, the parallel cases are [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd) and [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd).
+
+## Sources
+
+- Baker, D. Vincent and Baker, Meguey. *Apocalypse World* (lumpley games, 2010; 2nd edition 2016); the move list and the bidirectional fiction-mechanic lock. <https://en.wikipedia.org/wiki/Apocalypse_World>
+- Baker, D. Vincent. "Powered by the Apocalypse, Part 1" (2019); the character as both fictional person and playing piece. <https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/>
+- "Apocalypse World" rule formulation, The Alexandrian. <https://thealexandrian.net/wordpress/9584/roleplaying-games/apocalypse-world>
+- *Dogs in the Vineyard* (D. Vincent Baker, lumpley games, 2004); the Conversation-Fists-Guns escalation chain. <https://en.wikipedia.org/wiki/Dogs_in_the_Vineyard>
+- *The Burning Wheel* (Luke Crane; Burning Wheel Gold, 2011); Beliefs, Instincts, Traits, and the Duel of Wits. <https://en.wikipedia.org/wiki/The_Burning_Wheel>
+- *Monsterhearts* (Avery Alder, Buried Without Ceremony; 1st edition 2012, 2nd edition 2017); the Skin list as the world's roster. <https://en.wikipedia.org/wiki/Monsterhearts>
+- *Masks: A New Generation* (Brendan Conway, Magpie Games, 2017); personality-based playbooks and the Influence stat. <https://en.wikipedia.org/wiki/Masks:_A_New_Generation>
+- *Blades in the Dark* (John Harper, Evil Hat Productions, 2017); the stress / vice / trauma cycle and the Forged in the Dark licence. <https://en.wikipedia.org/wiki/Blades_in_the_Dark>
+- Forged in the Dark games list (including *Scum and Villainy*, *Band of Blades*). <https://bladesinthedark.com/forged-dark>
+- *GURPS* (Steve Jackson Games, 1986); the universal-system pitch and its supplement cost. <https://en.wikipedia.org/wiki/GURPS>
+- Edwards, Ron. "System Does Matter" (1999); mechanics shape the experience, not any-system-will-do. <https://www.indie-rpgs.com/_articles/system_does_matter.html>
+- "GNS theory" (the "system matters" lineage and its later contestation). Wikipedia. <https://en.wikipedia.org/wiki/GNS_theory>
+- D&D 5e product-line settings: Eberron, Strixhaven, Spelljammer, Planescape (setting-as-content under stable mechanics). <https://en.wikipedia.org/wiki/Eberron> and <https://en.wikipedia.org/wiki/Planescape:_Adventures_in_the_Multiverse>
+- "Do TTRPGs Have a Grimdark Problem?", Golem Productions; heroic-recovery hit points against a death-is-cheap premise. <https://golemproductions.substack.com/p/do-ttrpgs-have-a-grimdark-problem>
+- "Call of Cthulhu Sanity system," GAMES.GG; SAN mechanics encoding the Lovecraftian thesis. <https://games.gg/news/call-of-cthulhu-sanity-system-origin/>

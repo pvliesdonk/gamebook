@@ -1,14 +1,93 @@
 ---
 title: "Oracle & Solo-Play Resolution"
-aliases: []
+aliases: ["Oracle Systems", "Solo Resolution", "GM Emulator", "Yes/No Oracle"]
 family: "Systems & Mechanics"
-media: []
+media: [tabletop, interactive-fiction]
 facets:
-  effects: []
-  problems: []
-  components: []
-  genre: []
-provenance: ""
+  effects: [genuine-surprise, earned-discovery, felt-authorship]
+  problems: [no-gm-to-adjudicate, predictable-fiction, over-consultation]
+  components: [yes-no-table, probability-ladder, meaning-tables, chaos-factor]
+  genre: [fantasy, horror, sci-fi, historical]
+provenance: "researched"
 ---
 
-<!-- STUB — Phase 2 outline. Prose gated until Phase 4. Tracked in #49. -->
+*Silhouette: The procedure a lone player consults to be told something they did not decide.*
+
+Strip the GM out of a roleplaying game and a hole opens where the surprises used to come from. A table normally leans on one person to invent what the players could not predict. That same person frames the scene nobody saw coming and rules on whether the lie worked on the guard. The solo player has none of that. They cannot simply make the answer up, because an answer you author is an answer you already knew. A story with no unknowns left in it is not really a game any more. The oracle fills the hole. It hands the player a result to interpret rather than one to invent. That small gap between asking and reading is where the surprise lives.
+
+What an oracle gives is not randomness for its own sake but distance. The player most likely knows every line on the table; what they cannot know is which line comes up next, and that is enough. The roll opens a sliver of space between the player as author and the result on the page, and interpretation across that sliver feels like discovery instead of decision. Close the gap and the oracle stops working, however many dice are still rattling. A table grown too familiar closes it. So does asking it everything, and so does reading every result flat and literal.
+
+This article is about that procedure and the craft of keeping its surprise alive. It is the resolution layer for play with no GM, the place where [Mechanical Resolution Types](mechanical-resolution-types.qmd) defers when the question is not how a roll resolves but who is left to ask it. Its native home is the solo journaling RPG, and it has a close cousin in interactive fiction, where an absent author has to be stood in for the same way.
+
+## The Mechanism (How it works)
+
+### The yes/no oracle and the probability ladder
+
+The base move is to ask the fiction a question that takes a yes or a no and let a roll settle it. Tana Pigeon's *Mythic Game Master Emulator*, first published in 2003, set the pattern that solo design still runs on. The player poses a Fate Question and picks how likely a yes feels from a named ladder, then rolls d100 against the matching threshold. [researched] The ladder reads in plain words rather than numbers: No Way, Very Unlikely, Unlikely, 50/50, Likely, Very Likely, A Sure Thing. The player judges where the question sits and the chart turns that judgement into odds. [researched]
+
+The reason for the ladder is that the player is doing the GM's job of estimating plausibility, so the interface has to speak the language a GM would think in. A bare percentage forces the player into arithmetic about their own fiction. A rung labelled "Unlikely" asks only that they feel out the situation. That feel is the judgement they were already making. The roll then confirms it or upends it. Because the player set the odds beforehand, a result against the grain reads as the world pushing back rather than as the player changing their mind.
+
+A flat yes or no goes flat fast, so most oracles tier the result the way conflict resolution already does. The four-position spread (yes-and, yes-but, no-but, no-and) maps a single binary onto the same band structure a [PbtA Move](moves-and-the-fiction-mechanic-fiction-loop.qmd) uses for its hits and misses.
+
+| Result | What it gives the fiction |
+|---|---|
+| Yes, and | Success plus a further good turn |
+| Yes, but | Success that arrives with a cost or complication |
+| No, but | Failure softened by a consolation or a way forward |
+| No, and | Failure that drags a fresh problem in behind it |
+
+Nathan Russell's *FU: The Freeform Universal RPG* built its whole engine on this spread, and *Ironsworn* reaches the same shape through its strong-hit, weak-hit, miss outcomes. [researched] The point of tiering an oracle is that it stops answering factual questions and starts handing back narrative beats. "Is the door locked?" returns a state. "Yes, and the guard inside heard you try it" returns a scene. [researched]
+
+### Action and theme: the generative pair
+
+A yes/no oracle settles questions the player already knows how to ask. It cannot tell them what walks in when they have no question at all. For that, solo design reaches for the two-roll oracle. One table holds action words and another holds theme words; the player rolls each separately and reads the pair together against the current fiction. Mythic introduced it as the Random Acts tables; *Ironsworn* formalised it into the Action and Theme oracle that most modern games now clone. [researched]
+
+The trick is combinatorial. A 100-entry action table crossed with a 100-entry theme table yields 10,000 pairings, so even a player who has both tables by heart cannot see the specific pair coming. [researched] "Discover / Memory" might point to evidence of the past come to light. It might be a person who knew the protagonist now walking into the scene. It might be an old object thick with history. The player picks which reading fits. That choice is generative rather than transcriptive: the oracle has not authored anything. It has handed over something to author with. The action gives a direction. The theme gives a domain. Neither alone would do, because "Discover" with no object is too open and "Memory" with no verb is too inert. Together they fence the interpretation down to something a player can actually use without taking the work away.
+
+This is the real distinction running under every oracle: whether a result is a lookup or a prompt. A lookup table hands back a finished fact ("the weather is a driving sleet") that the player drops into the fiction and moves past. A generative prompt hands back a seed ("Ancient / Burden") that means nothing until the player translates it into the scene in front of them. [researched] Most systems mix the two. Lean toward lookup and the oracle feels like a tool that answers; lean toward generative prompts and it feels more like a collaborator that suggests. That second mode is the same interpretive craft the solo journaling form is built on, treated in full in [Prompt Design in Solo Journaling](../story-character-voice/prompt-design-in-solo-journaling.qmd).
+
+### The Chaos Factor: an oracle that tracks the story's state
+
+Mythic's quietest contribution is that the oracle remembers. The Chaos Factor is a number from 1 to 9, starting at 5, that records how far the world has slipped from the player-character's control. [researched] After each scene the player nudges it down by one when the character took charge, or up by one when events ran away from them. The number then feeds back into every roll. A high Chaos Factor widens the threshold for yes, so a world in turmoil grows likelier to confirm the player's fears over their plans. It also fires more Random Events, the unplanned complications Mythic triggers on doubles at or below the current Factor, so a Factor of 7 spawns interruptions far more often than a Factor of 2. [researched]
+
+This is one of the earliest feedback loops between fiction and procedure in solo design, and it is still the canonical one. The oracle turns more disruptive precisely when the story has been disruptive, which means its volatility is not a fixed dial but a consequence of play. It is a state-tracker doing the work a GM's instinct does at a table, where escalation breeds escalation. The wider family of such trackers, the clocks and fronts that let pressure accumulate across a session, is [Progress Clocks & Faction State](progress-clocks-and-faction-state.qmd).
+
+::: {.callout-note}
+### The Specimen
+*Ironsworn* (Shawn Tomkin, 2018) is the cleanest case of an oracle suite welded into the rules rather than bolted on beside them. Its Ask the Oracle move makes consulting the tables a named procedure with its own triggers, and several other moves point the player to specific oracles when a particular kind of content is needed. [researched] The catalogue runs deep: action and theme, descriptors, settlement and character names, location and weather and NPC-motive tables, all genre-tuned to an Iron Age Norse register so the output carries flavour by default. The design lesson is that telling the player *when* to consult is as much of the craft as building the tables. By binding the oracle to the move structure, *Ironsworn* settles the hardest question a solo player faces in the moment (author this, or ask?) before it can stall the fiction. [researched]
+:::
+
+### Cards, depletion, and the deck as oracle
+
+A standard 52-card deck is an oracle with the table built into its own structure. Four suits stand for categorical domains, and the thirteen ranks split each domain into finer steps, so no separate chart is required. [researched] The difference that matters is depletion. A table rolls with replacement and never runs dry, but a deck drawn without reshuffling carries memory. A surfaced result cannot recur until the cards are gathered, and the shrinking deck shifts the odds as play goes on. The *Wretched & Alone* family leans on exactly this, pairing a card oracle with a Jenga tower so the deck's depletion doubles as a pacing clock: the player knows the session ends when the tower falls, and the thinning deck tells them how the probabilities are tilting toward that end. [researched] The trade is that depletion buys thematic memory (an event cannot repeat) at the cost of the unconditional randomness a table keeps offering forever.
+
+### Where the player's skill lives: the consulting stance
+
+An oracle result is inert until someone reads it, and there are two ways to read. The magic-eight-ball stance takes the result as literal and final. The dice said yes, so it is yes; the table said hostile, so the NPC is hostile. [researched] It is easy to teach and low effort, and it produces play that feels like reading dice rather than building a story. The consulting stance treats the result as input to a reasoning process instead. The dice said yes, so what does yes mean here, given everything that has happened, and which version of yes is the most interesting and the most consistent with the fiction so far. [researched]
+
+The consulting stance makes better fiction and asks more of the player, because it leans on holding the character's view and the author's view at once. It also opens the door to the oracle's subtlest failure, where the "interpretation" drifts quietly toward whatever the player wanted all along and the surprise leaks back out. [researched] Designers fight this by making results specific enough that a convenient reading is harder to reach, though the fix is never complete. This is the same fairness pressure that runs through investigative design, where a result has to constrain the reader rather than flatter them, treated for puzzles in [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd). The harder craft is restraint. Consult the oracle only when a detail would genuinely change the fiction and the player is uncertain how it falls. A question with no stakes is a question to answer yourself. Ask the oracle the colour of every window and the journal becomes a transcript of die rolls, not a story. [researched]
+
+### The same gap in interactive fiction
+
+The oracle problem is really a question about a missing participant, and that question does not stay at the tabletop. The non-human partner an oracle stands in for is exactly the thing interactive fiction reaches for when it wants the system to speak back into the prose. [synthesis] A stat or skill check in IF is less a gate than a way of letting the character sheet have a say in the sentence, and a shuffled deck or random table stands in for the absent author the same way an oracle stands in for the absent GM. Solo journaling RPGs sit so close to this that they read as functionally a kind of interactive fiction, with the player both authoring and being surprised by their own session. [synthesis]
+
+The contemporary version of the question is sharpest when the non-human participant is a language model asked to play an NPC or run a scene. The same craft concerns transfer almost word for word. Which stance does the player bring to the output? How do they keep from over-consulting it, and what happens when it refuses or stalls and the fiction has to recover anyway? [synthesis] An oracle and a model-driven NPC are answering one design problem in two registers, which is the problem of a participant who is not a person. The IF side of that problem, where mechanics carry meaning rather than just gate it, is [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd).
+
+## Where this fits
+
+**The bigger picture.** An oracle is what resolution becomes when there is no one left to adjudicate. It belongs to the same layer as [Mechanical Resolution Types](mechanical-resolution-types.qmd), but it answers a different half of the question: not how the dice decide, but who poses the question and reads the result when the GM's chair is empty. That makes it the engine of an entire mode of play, the solo and GMless mode that is its own subject in [Solo Modes](solo-modes.qmd). It also rests on a particular settlement of authority, because an oracle is one way of handing the storytelling power around a table that has no single owner, the broader craft of [Distributing Narrative Authority](distributing-narrative-authority.qmd). And because a generative oracle replaces the GM's improvisation rather than the GM's preparation, it bears directly on how much a designer has to ready in advance, which is [Prep Economy](prep-economy.qmd): Mythic is the limit case where the oracle stands in for nearly all of it.
+
+**Next steps.** Once the oracle is settled, the craft turns to the writing it feeds, the journaling prompt that turns a two-word result into a scene worth reading, in [Prompt Design in Solo Journaling](../story-character-voice/prompt-design-in-solo-journaling.qmd). To place solo and GMless play inside the wider field of formats it belongs to, start from the [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd). When the oracle's results need a shape to assemble into rather than a straight line, the non-linear forms they suit best are [Nonlinear Narrative Structures](../structure-pacing/nonlinear-narrative-structures.qmd). And to follow the same absent-participant problem into its digital form, where a deck or a language model stands in for the author, go to [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd).
+
+## Sources
+
+- Pigeon, Tana. *Mythic Game Master Emulator*. Word Mill Games, 2003 (2nd edition 2023); the Fate Chart, probability ladder, Chaos Factor, and Random Events. <https://www.wordmillgames.com/page/mythic-gme.html>
+- *Mythic Game Master Emulator* (original 2003 listing). DriveThruRPG. <https://www.drivethrurpg.com/en/product/20798/mythic-game-master-emulator>
+- Tomkin, Shawn. *Ironsworn* (2018); the Ask the Oracle move, the Action/Theme oracle suite, and strong-hit / weak-hit / miss outcomes. <https://tomkinpress.com/pages/ironsworn>
+- *Ironsworn* on itch.io (free PDF). <https://shawn-tomkin.itch.io/ironsworn>
+- "Ask the Oracle." Ironsworn Wiki. <https://ironsworn-rpg.fandom.com/wiki/Ask_the_Oracle>
+- Russell, Nathan. *FU: The Freeform Universal RPG*. Peril Planet; the yes-and / yes-but / no-but / no-and tiered oracle. <https://www.perilplanet.com/freeform-universal/>
+- "The Solo Roleplaying Oracle" (the yes-and tiered-result architecture). oracle-rpg.com, 2023. <https://oracle-rpg.com/2023/02/the-solo-roleplaying-oracle/>
+- *Wretched & Alone* system (Matt Sanders / Chris Bissette); card-and-tower oracle with depletion as pacing. RPGGeek. <https://rpggeek.com/rpgsystem/62288/wretched-and-alone>
+- "Solo Tabletop RPG Review: The Wretched" (confirms the card-oracle structure). popcult.blog, 2023. <https://popcult.blog/2023/02/12/solo-tabletop-rpg-review-the-wretched/>
+- "Rolling Solo, Chapter 6: Mythic Game Master Emulator" (probability ladder and Chaos Factor analysis). Wisps of Time. <https://wispsoftime.com/content/rolling-solo-chapter-6-part-mythic-game-master-emulator/>
