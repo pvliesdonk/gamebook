@@ -153,5 +153,7 @@ format:
       - cosmo
       - brand
       - assets/theme/field-guide.scss
+    filters:
+      - filters/field-guide.lua
   typst: default
   epub: default
