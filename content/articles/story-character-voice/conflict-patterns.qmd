@@ -108,6 +108,7 @@ The genre that leans hardest on conflict structure is the heist, where the obsta
 
 ## Referenced by
 
+- [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
 - [Dialogue Craft](dialogue-craft.qmd)
 - [Heist & Caper Patterns](heist-and-caper-patterns.qmd)
 - [Moral Dilemmas & Consequence Chains](moral-dilemmas-and-consequence-chains.qmd)
