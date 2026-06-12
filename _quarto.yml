@@ -7,8 +7,9 @@ book:
   author: "—"
   chapters:
     - index.qmd
-    - part: content/primers/the-shape-of-time.qmd
+    - part: "Structure & Pacing"
       chapters:
+        - content/primers/the-shape-of-time.qmd
         - content/articles/structure-pacing/branching-narrative-craft.qmd
         - content/articles/structure-pacing/if-graph-structures-a-taxonomy.qmd
         - content/articles/structure-pacing/scene-and-sequel-in-interactive-fiction.qmd
@@ -27,8 +28,9 @@ book:
         - content/articles/structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd
         - content/articles/structure-pacing/hexcrawl-and-pointcrawl.qmd
         - content/articles/structure-pacing/west-marches-and-the-open-table-format.qmd
-    - part: content/primers/the-fairness-contract.qmd
+    - part: "Puzzles, Clues & Information"
       chapters:
+        - content/primers/the-fairness-contract.qmd
         - content/articles/puzzles-clues-information/cluing-and-fairness.qmd
         - content/articles/puzzles-clues-information/clue-sequencing-and-chains.qmd
         - content/articles/puzzles-clues-information/information-architecture.qmd
@@ -43,8 +45,9 @@ book:
         - content/articles/puzzles-clues-information/puzzle-hunt-craft.qmd
         - content/articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd
         - content/articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd
-    - part: content/primers/making-it-matter.qmd
+    - part: "Story, Character & Voice"
       chapters:
+        - content/primers/making-it-matter.qmd
         - content/articles/story-character-voice/character-voice.qmd
         - content/articles/story-character-voice/dialogue-craft.qmd
         - content/articles/story-character-voice/prose-patterns-and-point-of-view.qmd
@@ -73,8 +76,9 @@ book:
         - content/articles/story-character-voice/the-journal-as-artefact.qmd
         - content/articles/story-character-voice/npc-craft-and-voicing.qmd
         - content/articles/story-character-voice/audience-and-age-targeting.qmd
-    - part: content/primers/the-social-contract-and-safety.qmd
+    - part: "Players & Social Dynamics"
       chapters:
+        - content/primers/the-social-contract-and-safety.qmd
         - content/articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd
         - content/articles/players-social-dynamics/the-session-zero-playbook.qmd
         - content/articles/players-social-dynamics/pre-game-workshop-design.qmd
@@ -95,8 +99,9 @@ book:
         - content/articles/players-social-dynamics/mixed-ability-groups-and-universal-design.qmd
         - content/articles/players-social-dynamics/gm-role-models-and-stances.qmd
         - content/articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd
-    - part: content/primers/making-it-real.qmd
+    - part: "Space, Props & Materiality"
       chapters:
+        - content/primers/making-it-real.qmd
         - content/articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
         - content/articles/space-props-materiality/artefact-design-and-document-production.qmd
         - content/articles/space-props-materiality/fabrication-and-sourcing.qmd
@@ -109,8 +114,9 @@ book:
         - content/articles/space-props-materiality/materials-durability-and-reset.qmd
         - content/articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd
         - content/articles/space-props-materiality/dungeon-and-spatial-topology.qmd
-    - part: content/primers/the-engine-room.qmd
+    - part: "Systems & Mechanics"
       chapters:
+        - content/primers/the-engine-room.qmd
         - content/articles/systems-mechanics/mechanical-resolution-types.qmd
         - content/articles/systems-mechanics/ttrpg-format-taxonomy.qmd
         - content/articles/systems-mechanics/system-vs-setting.qmd
@@ -150,5 +156,16 @@ format:
     theme:
       - cosmo
       - brand
-  typst: default
+  typst:
+    mainfont: "Adobe Jenson Pro"
+    monofont: "Letter Gothic Std"
+    font-paths:
+      - assets/fonts
+    template-partials:
+      - partials/page.typ
+      - partials/typst-show.typ
+    include-in-header:
+      - typst/field-guide.typ
+    filters:
+      - filters/field-guide.lua
   epub: default

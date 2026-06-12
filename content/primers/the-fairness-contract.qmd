@@ -1,9 +1,9 @@
 ---
-title: "Puzzles, Clues & Information"
-subtitle: "Primer · The Fairness Contract"
 type: primer
 provenance: "synthesis"
 ---
+
+# The Fairness Contract {.primer .unnumbered}
 
 *Silhouette: The promise that a solver who pays attention can always get there from here.*
 

@@ -1,9 +1,9 @@
 ---
-title: "Systems & Mechanics"
-subtitle: "Primer · The Engine Room"
 type: primer
 provenance: "synthesis"
 ---
+
+# The Engine Room {.primer .unnumbered}
 
 *Silhouette: Under every game runs an engine, the rules that decide what happens when a player acts.*
 

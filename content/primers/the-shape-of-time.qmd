@@ -1,9 +1,9 @@
 ---
-title: "Structure & Pacing"
-subtitle: "Primer · The Shape of Time"
 type: primer
 provenance: "synthesis"
 ---
+
+# The Shape of Time {.primer .unnumbered}
 
 *Silhouette: One question runs through every scale of a designed experience: how much of its shape does the author fix, and how much does the player find for themselves?*
 
