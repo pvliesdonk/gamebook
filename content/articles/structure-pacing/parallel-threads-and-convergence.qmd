@@ -4,10 +4,10 @@ aliases: ["Ensemble Convergence", "Parallel Storylines", "Braided Narrative", "M
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [recontextualisation, pattern-recognition, earned-coincidence]
-  problems: [convergence-flattening, thread-collision, cognitive-overload]
-  components: [thread, convergence-node, connection-type, thread-access-model]
-  genre: [mystery, drama, heist]
+  effects: [credibility, discovery, surprise]
+  problems: [degenerate-play, pacing-failure]
+  components: [structural-primitives]
+  genre: [drama, heist, mystery]
 provenance: "researched"
 ---
 

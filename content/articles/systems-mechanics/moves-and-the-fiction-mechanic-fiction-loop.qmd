@@ -4,9 +4,9 @@ aliases: ["The Move", "Narrative Trigger", "Fiction-First Resolution", "PbtA Mov
 family: "Systems & Mechanics"
 media: [tabletop, interactive-fiction]
 facets:
-  effects: [forward-momentum, fiction-first-play, shared-authority]
-  problems: [stalled-scene, gm-fiat, dead-end-failure]
-  components: [trigger, outcome-tiers, stat, move-list]
+  effects: [agency, immersion, momentum]
+  problems: [dead-end, pacing-failure, unfairness]
+  components: [state-and-resource-trackers, structural-primitives]
   genre: [fantasy, horror, sci-fi]
 provenance: "researched"
 ---

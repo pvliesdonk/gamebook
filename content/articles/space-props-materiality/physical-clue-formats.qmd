@@ -4,10 +4,10 @@ aliases: ["Clue Packaging", "Envelope and Deck Formats", "Consumable vs Reusable
 family: "Space, Props & Materiality"
 media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: [threshold-ritual, tactile-payoff, progressive-reveal, world-weight]
-  problems: [reset-cost, immersion-break, lost-handout, non-replayable]
-  components: [sealed-envelope, booklet, card-deck, container, letterlock, loose-handout]
-  genre: [mystery, detective, heist, historical]
+  effects: [discovery, immersion, tactility]
+  problems: [content-cost, immersion-break]
+  components: [locks-and-concealment, paper-artefacts, physical-parts]
+  genre: [heist, historical, mystery]
 provenance: "researched"
 ---
 

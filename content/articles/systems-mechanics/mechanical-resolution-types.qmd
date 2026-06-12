@@ -4,10 +4,10 @@ aliases: ["Resolution Mechanics", "Dice Mechanics", "Task Resolution", "Resoluti
 family: "Systems & Mechanics"
 media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: [table-feel, dramatic-tension, felt-competence]
-  problems: [stalled-scene, swingy-outcomes, unreadable-odds]
-  components: [dice, cards, target-number, outcome-tiers]
-  genre: [fantasy, horror, historical, sci-fi]
+  effects: [mastery, tactility, tension]
+  problems: [pacing-failure, unsolvability]
+  components: [physical-parts, state-and-resource-trackers]
+  genre: [fantasy, historical, horror, sci-fi]
 provenance: "researched"
 ---
 

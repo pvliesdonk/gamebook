@@ -4,10 +4,10 @@ aliases: ["De-roling", "Post-Play Debrief", "Emotional Aftercare"]
 family: "Players & Social Dynamics"
 media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [clean-closure, processed-emotion, player-wellbeing, return-to-self]
-  problems: [unresolved-bleed, post-larp-depression, carried-hostility, porous-ending]
-  components: [de-roling-ritual, debrief-round, debrief-buddy, bookend-ritual]
-  genre: [horror, drama, historical]
+  effects: [catharsis, safety]
+  problems: [disorientation, safety-failure]
+  components: [procedures-and-protocols, roles-and-social-frame]
+  genre: [drama, historical, horror]
 provenance: "researched"
 ---
 

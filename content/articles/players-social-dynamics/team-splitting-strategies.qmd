@@ -4,10 +4,10 @@ aliases: ["Sub-Team Design", "Splitting and Reconvergence", "Parallel Threads"]
 family: "Players & Social Dynamics"
 media: [live-game, puzzle-hunt, tabletop, interactive-fiction]
 facets:
-  effects: [parallel-engagement, sustained-momentum, tight-small-group-play]
-  problems: [idle-players, teams-trailing-each-other, waiting-team-dead-time, uneven-teams]
-  components: [sub-team, split-mechanic, reconvergence-point, scoring-method]
-  genre: [mystery, adventure]
+  effects: [belonging, momentum]
+  problems: [domination, exclusion]
+  components: [roles-and-social-frame, state-and-resource-trackers, structural-primitives]
+  genre: [adventure, mystery]
 provenance: "researched"
 ---
 

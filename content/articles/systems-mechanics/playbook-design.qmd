@@ -4,10 +4,10 @@ aliases: ["Playbooks", "Character Playbook", "Skins", "Class-as-Identity"]
 family: "Systems & Mechanics"
 media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: [instant-identity, first-session-legibility, niche-protection]
-  problems: [blank-page-paralysis, interchangeable-characters, unmotivated-relationships]
-  components: [moves, advancement-menu, relationship-prompts, flavour-text]
-  genre: [fantasy, horror, sci-fi, historical]
+  effects: [legibility, reach]
+  problems: [degenerate-play, flat-character]
+  components: [narrative-primitives, paper-artefacts, state-and-resource-trackers]
+  genre: [fantasy, historical, horror, sci-fi]
 provenance: "researched"
 ---
 

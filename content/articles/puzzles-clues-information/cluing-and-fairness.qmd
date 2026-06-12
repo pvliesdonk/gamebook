@@ -4,10 +4,10 @@ aliases: ["Fair Play", "Clue Construction", "Solvability"]
 family: "Puzzles, Clues & Information"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [earned-discovery, solver-trust, forward-momentum]
-  problems: [unsolvable-puzzle, dead-end, unearned-reveal]
-  components: [clue-text, evidence, answer-key, convention-set]
-  genre: [mystery, detective]
+  effects: [discovery, momentum, trust]
+  problems: [dead-end, unfairness, unsolvability]
+  components: [narrative-primitives, paper-artefacts, roles-and-social-frame]
+  genre: [mystery]
 provenance: "researched"
 ---
 

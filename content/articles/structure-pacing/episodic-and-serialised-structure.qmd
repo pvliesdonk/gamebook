@@ -4,10 +4,10 @@ aliases: ["Episodic Design", "Serial Narrative", "Seasons & Episodes", "The Tell
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [sustained-anticipation, long-arc-investment, ritual-return]
-  problems: [the-wait-problem, state-drift, payoff-compression]
-  components: [episode, season-arc, recap, state-carry, release-cadence]
-  genre: [mystery, drama, adventure]
+  effects: [replayability, tension]
+  problems: [exclusion, pacing-failure, voice-drift]
+  components: [narrative-primitives, procedures-and-protocols, state-and-resource-trackers]
+  genre: [adventure, drama, mystery]
 provenance: "researched"
 ---
 

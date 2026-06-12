@@ -4,10 +4,10 @@ aliases: ["Oracle Systems", "Solo Resolution", "GM Emulator", "Yes/No Oracle"]
 family: "Systems & Mechanics"
 media: [tabletop, interactive-fiction]
 facets:
-  effects: [genuine-surprise, earned-discovery, felt-authorship]
-  problems: [no-gm-to-adjudicate, predictable-fiction, over-consultation]
-  components: [yes-no-table, probability-ladder, meaning-tables, chaos-factor]
-  genre: [fantasy, horror, sci-fi, historical]
+  effects: [agency, discovery, surprise]
+  problems: [degenerate-play, flat-character, unfairness]
+  components: [state-and-resource-trackers]
+  genre: [fantasy, historical, horror, sci-fi]
 provenance: "researched"
 ---
 

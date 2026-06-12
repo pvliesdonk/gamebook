@@ -4,9 +4,9 @@ aliases: ["Rulings Not Rules", "Rule Zero", "GM Adjudication", "Fiat vs Ruling"]
 family: "Players & Social Dynamics"
 media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: [responsive-play, table-trust, consistent-adjudication]
-  problems: [gm-fiat, rule-shopping, ruling-inconsistency, broken-compact]
-  components: [house-rule, core-resolution-mechanic, session-zero-agreement]
+  effects: [agency, operability, trust]
+  problems: [degenerate-play, unfairness]
+  components: [procedures-and-protocols, roles-and-social-frame, state-and-resource-trackers]
   genre: [fantasy, mystery]
 provenance: "researched"
 ---

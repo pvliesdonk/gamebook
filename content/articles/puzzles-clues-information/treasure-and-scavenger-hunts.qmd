@@ -4,9 +4,9 @@ aliases: ["Treasure Hunt", "Scavenger Hunt", "Armchair Treasure Hunt", "Clue Cha
 family: "Puzzles, Clues & Information"
 media: [live-game, puzzle-hunt]
 facets:
-  effects: [physical-commitment, distributed-discovery, long-form-engagement]
-  problems: [unsolvable-armchair-hunt, route-stall, prop-loss]
-  components: [clue-chain, physical-cache, prize, route]
+  effects: [discovery, momentum, tactility]
+  problems: [content-cost, dead-end, unsolvability]
+  components: [locks-and-concealment, physical-parts, structural-primitives]
   genre: [adventure, mystery]
 provenance: "researched"
 ---

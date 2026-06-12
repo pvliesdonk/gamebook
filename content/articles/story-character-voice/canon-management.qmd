@@ -4,10 +4,10 @@ aliases: ["Continuity Management", "Lore Consistency", "Story Bible", "Spoiler S
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [believable-world, sustained-immersion, parallel-authorship]
-  problems: [continuity-error, contradiction, premature-reveal]
-  components: [story-bible, timeline, cause-chain, spoiler-tier]
-  genre: [mystery, fantasy, sci-fi, historical]
+  effects: [agency, credibility, immersion]
+  problems: [pacing-failure, voice-drift]
+  components: [paper-artefacts, roles-and-social-frame, structural-primitives]
+  genre: [fantasy, historical, mystery, sci-fi]
 provenance: "researched"
 ---
 

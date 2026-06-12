@@ -4,10 +4,10 @@ aliases: ["Rule of Three", "Yes-But / No-And", "Stakes Ladder", "Failing Forward
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [rising-tension, earned-resolution, felt-investment]
-  problems: [flat-escalation, padded-repetition, unfair-failure]
-  components: [attempt, outcome-grid, complication, state-flag]
-  genre: [adventure, thriller, mystery]
+  effects: [catharsis, tension]
+  problems: [pacing-failure, unfairness]
+  components: [narrative-primitives, procedures-and-protocols, state-and-resource-trackers]
+  genre: [adventure, mystery, thriller]
 provenance: "researched"
 ---
 

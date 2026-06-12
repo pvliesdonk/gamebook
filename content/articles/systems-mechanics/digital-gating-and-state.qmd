@@ -4,9 +4,9 @@ aliases: ["Web App Gating", "Hunt Platforms", "Server-Side Answer Checking", "St
 family: "Systems & Mechanics"
 media: [puzzle-hunt, live-game, interactive-fiction, tabletop]
 facets:
-  effects: [earned-progression, fair-checking, operational-resilience]
-  problems: [client-side-leak, brute-force, out-of-sync-state, reset-cost]
-  components: [answer-checker, solve-flag, unlock-graph, rate-limiter]
+  effects: [mastery, operability]
+  problems: [content-cost, degenerate-play, disorientation, voice-drift]
+  components: [procedures-and-protocols, state-and-resource-trackers, structural-primitives]
   genre: [mystery, sci-fi]
 provenance: "researched"
 ---

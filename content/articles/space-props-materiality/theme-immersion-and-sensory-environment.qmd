@@ -4,10 +4,10 @@ aliases: ["Theme", "Atmosphere", "Sensory Design", "Immersion"]
 family: "Space, Props & Materiality"
 media: [live-game, interactive-fiction, tabletop, puzzle-hunt]
 facets:
-  effects: [immersion, presence, belief, emotional-memory]
-  problems: [pasted-on-theme, immersion-break, sensory-overload, generic-space]
-  components: [set-dressing, lighting, soundscape, scent, costume, in-world-host]
-  genre: [horror, heist, mystery, fantasy, sci-fi]
+  effects: [catharsis, credibility, immersion]
+  problems: [disorientation, immersion-break, pacing-failure]
+  components: [roles-and-social-frame, set-dressing-and-environment]
+  genre: [fantasy, heist, horror, mystery, sci-fi]
 provenance: "researched"
 ---
 

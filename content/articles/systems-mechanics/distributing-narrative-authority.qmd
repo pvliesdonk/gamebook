@@ -4,10 +4,10 @@ aliases: ["Narrative Authority", "Shared Authorship", "GMless Authority", "Autho
 family: "Systems & Mechanics"
 media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: [shared-ownership, surprise-at-your-own-table, felt-authorship]
-  problems: [loudest-voice-wins, consensus-paralysis, authority-vacuum]
-  components: [tokens, scene-frame, oracle, role-rotation, veto-rule]
-  genre: [fantasy, horror, historical, sci-fi]
+  effects: [agency, surprise]
+  problems: [degenerate-play, domination, unfairness]
+  components: [narrative-primitives, physical-parts, procedures-and-protocols, roles-and-social-frame]
+  genre: [fantasy, historical, horror, sci-fi]
 provenance: "researched"
 ---
 

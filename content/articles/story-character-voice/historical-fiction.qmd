@@ -4,9 +4,9 @@ aliases: ["Period Fiction", "Historical Setting Craft", "Period Voice"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [period-immersion, the-transported-reader, earned-authenticity]
-  problems: [anachronism, unreadable-archaism, sanitised-history]
-  components: [period-voice, research-iceberg, anachronism-control, content-warning]
+  effects: [credibility, immersion]
+  problems: [immersion-break, voice-drift]
+  components: [narrative-primitives, procedures-and-protocols, roles-and-social-frame]
   genre: [historical]
 provenance: "researched"
 ---

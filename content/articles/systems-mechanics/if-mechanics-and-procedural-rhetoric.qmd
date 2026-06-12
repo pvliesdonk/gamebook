@@ -4,10 +4,10 @@ aliases: ["The Mechanic Is the Message", "Procedural Rhetoric", "Mechanic as Met
 family: "Systems & Mechanics"
 media: [interactive-fiction, tabletop, live-game]
 facets:
-  effects: [felt-meaning, moral-weight, immersion, complicity]
-  problems: [pasted-on-theme, ludonarrative-dissonance, inert-stats, stalled-pacing]
-  components: [stat, skill-check, resource-economy, inventory, world-state-flag]
-  genre: [horror, historical, sci-fi, mystery]
+  effects: [catharsis, immersion, suspicion]
+  problems: [immersion-break, pacing-failure]
+  components: [state-and-resource-trackers]
+  genre: [historical, horror, mystery, sci-fi]
 provenance: "researched"
 ---
 

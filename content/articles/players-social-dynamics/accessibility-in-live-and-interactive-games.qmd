@@ -4,10 +4,10 @@ aliases: ["Inclusive Design", "Universal Design for Play", "A11y in Games"]
 family: "Players & Social Dynamics"
 media: [live-game, interactive-fiction, tabletop, puzzle-hunt]
 facets:
-  effects: [independent-play, wider-audience, curb-cut-benefit, earned-trust]
-  problems: [designed-exclusion, retrofit-cost, separate-disabled-track, sensory-overload]
-  components: [reach-range, redundant-encoding, hint-system, content-warning]
-  genre: [mystery, horror, children-ya]
+  effects: [operability, reach, trust]
+  problems: [content-cost, exclusion, pacing-failure]
+  components: [procedures-and-protocols, roles-and-social-frame, state-and-resource-trackers]
+  genre: [childrens-ya, horror, mystery]
 provenance: "researched"
 ---
 

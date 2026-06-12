@@ -4,9 +4,9 @@ aliases: ["MG vs YA", "Middle Grade and Young Adult", "Coming-of-Age Craft", "Ki
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [reader-empowerment, age-fit, felt-agency]
-  problems: [condescension, didacticism, mismatched-content]
-  genre: [children-ya, coming-of-age, fantasy]
+  effects: [agency, reach]
+  problems: [domination, prose-failure, voice-drift]
+  genre: [childrens-ya, drama, fantasy]
 provenance: "researched"
 ---
 

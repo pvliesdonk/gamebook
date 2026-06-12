@@ -4,10 +4,10 @@ aliases: ["Narrator Contract", "Voice Drift", "Register Management", "Branch Voi
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [stable-voice, reader-trust, sustained-immersion]
-  problems: [voice-drift, register-mismatch, multi-author-divergence]
-  components: [style-sheet, voice-profile, consistency-pass, register-ladder]
-  genre: [literary, mystery, character-drama]
+  effects: [credibility, immersion, trust]
+  problems: [voice-drift]
+  components: [narrative-primitives, paper-artefacts, procedures-and-protocols]
+  genre: [drama, literary, mystery]
 provenance: "researched"
 ---
 

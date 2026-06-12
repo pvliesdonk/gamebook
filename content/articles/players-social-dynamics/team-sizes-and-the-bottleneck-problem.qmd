@@ -4,10 +4,10 @@ aliases: ["Player Count", "Group Size", "Parallel-Puzzle Thresholds", "Bottlenec
 family: "Players & Social Dynamics"
 media: [live-game, puzzle-hunt, tabletop, interactive-fiction]
 facets:
-  effects: [engagement-equity, parallel-agency, shared-climax]
-  problems: [idle-players, spectator-drift, communication-overload, single-prop-crowding]
-  components: [puzzle-thread, aggregation-point, team-lane, control-staff]
-  genre: [mystery, heist, adventure]
+  effects: [agency, belonging, catharsis]
+  problems: [dead-end, exclusion, pacing-failure]
+  components: [roles-and-social-frame, structural-primitives]
+  genre: [adventure, heist, mystery]
 provenance: "researched"
 ---
 

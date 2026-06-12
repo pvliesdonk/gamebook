@@ -4,10 +4,10 @@ aliases: ["POV", "Narrative Perspective", "Prose Rhythm", "Sentence Craft"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, tabletop, live-game]
 facets:
-  effects: [immediacy, reader-immersion, controlled-pace]
-  problems: [flat-prose, pov-break, the-you-problem]
-  components: [sentence-rhythm, sensory-detail, pov-mode, tense]
-  genre: [literary, mystery, horror]
+  effects: [immersion, momentum]
+  problems: [immersion-break, prose-failure, unfairness]
+  components: [narrative-primitives, set-dressing-and-environment]
+  genre: [horror, literary, mystery]
 provenance: "researched"
 ---
 

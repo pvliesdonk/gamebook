@@ -4,10 +4,10 @@ aliases: ["Prop Durability", "Weatherproofing", "Reset & Pre-Run Checklists", "R
 family: "Space, Props & Materiality"
 media: [live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [reliability, replayability, operational-throughput, run-to-run-consistency]
-  problems: [prop-failure, immersion-break, slow-reset, weather-damage, single-use-waste]
-  components: [material-palette, sealant, container, reset-checklist, consumable-stock]
-  genre: [escape-room, outdoor-hunt, legacy-game]
+  effects: [operability, replayability]
+  problems: [content-cost, immersion-break]
+  components: [locks-and-concealment, physical-parts, procedures-and-protocols, set-dressing-and-environment]
+  format: [escape-room, legacy-game, outdoor-hunt]
 provenance: "researched"
 ---
 

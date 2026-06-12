@@ -4,10 +4,10 @@ aliases: ["The Heist", "The Caper", "Crew Stories", "The Score"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, tabletop, live-game]
 facets:
-  effects: [competence-fantasy, earned-surprise, crew-investment]
-  problems: [flat-ensemble, unfair-twist, planning-paralysis]
-  components: [crew-roles, the-plan, the-reveal, the-clock]
-  genre: [crime, thriller, comedy]
+  effects: [belonging, mastery, surprise]
+  problems: [degenerate-play, flat-character, unfairness]
+  components: [narrative-primitives, roles-and-social-frame, structural-primitives]
+  genre: [comedy, mystery, thriller]
 provenance: "researched"
 ---
 

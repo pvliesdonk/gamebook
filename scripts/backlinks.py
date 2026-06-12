@@ -37,10 +37,11 @@ def main() -> None:
 
     inbound = {f: set() for f in files}
     for src in files:
-        # Primers link to every article in their family as orientation; that is
-        # structural, not a meaningful cross-reference, and would list each family
-        # primer under every one of its articles. Skip primers as backlink sources.
-        if "primers" in src.parts:
+        # Primers link to every article in their family as orientation, and the
+        # generated keys pages route to nearly every article by facet. Both are
+        # structural, not meaningful cross-references, and would list a handful of
+        # router pages under every article. Skip them as backlink sources.
+        if "primers" in src.parts or "keys" in src.parts:
             continue
         body = strip_block(src.read_text(encoding="utf-8"))
         for _label, target in LINK_RE.findall(body):

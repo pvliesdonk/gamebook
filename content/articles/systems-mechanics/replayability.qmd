@@ -4,10 +4,11 @@ aliases: ["Replay Value", "Variability", "Designing for Many Plays"]
 family: "Systems & Mechanics"
 media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: [sustained-interest, fresh-decisions, repeat-visits]
-  problems: [solved-game, surface-novelty, one-time-exhaustion]
-  components: [variable-setup, asymmetric-factions, modular-board, legacy-state]
-  genre: [strategy, mystery, sci-fi]
+  effects: [momentum, replayability]
+  problems: [degenerate-play, immersion-break, pacing-failure]
+  components: [physical-parts, procedures-and-protocols, roles-and-social-frame, state-and-resource-trackers]
+  genre: [mystery, sci-fi]
+  format: [strategy]
 provenance: "researched"
 ---
 

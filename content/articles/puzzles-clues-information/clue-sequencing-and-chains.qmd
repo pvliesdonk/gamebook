@@ -4,10 +4,10 @@ aliases: ["Clue Ordering", "Puzzle Flow", "Clue Chains"]
 family: "Puzzles, Clues & Information"
 media: [live-game, interactive-fiction, tabletop, puzzle-hunt]
 facets:
-  effects: [forward-momentum, earned-discovery, escalating-tension]
-  problems: [bottleneck, dead-end, flat-difficulty, follow-the-leader]
-  components: [clue-text, route, answer-key, sequence-map]
-  genre: [mystery, detective]
+  effects: [discovery, momentum, tension]
+  problems: [dead-end, domination, pacing-failure]
+  components: [paper-artefacts, structural-primitives]
+  genre: [mystery]
 provenance: "researched"
 ---
 

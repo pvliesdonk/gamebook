@@ -4,9 +4,9 @@ aliases: ["Beat Sheets", "Story Structure Frameworks", "Beat Functions"]
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [structural-clarity, emotional-arc, shared-vocabulary]
-  problems: [middle-sag, hollow-branch, structural-blindness]
-  components: [beat-function, beat-sheet, value-shift, branch-arc]
+  effects: [catharsis, legibility]
+  problems: [degenerate-play, false-agency, pacing-failure]
+  components: [narrative-primitives, paper-artefacts, structural-primitives]
   genre: [adventure, fantasy, mystery]
 provenance: "researched"
 ---

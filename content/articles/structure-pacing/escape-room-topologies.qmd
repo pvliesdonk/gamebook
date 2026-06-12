@@ -4,10 +4,10 @@ aliases: ["Room Structure", "Escape Room Flow", "Puzzle Macro-Structure"]
 family: "Structure & Pacing"
 media: [live-game, interactive-fiction, puzzle-hunt, tabletop]
 facets:
-  effects: [parallel-engagement, climactic-convergence, throughput]
-  problems: [bottleneck, team-idle, anticlimax, reset-overhead]
-  components: [puzzle-chain, meta, hub, gate]
-  genre: [mystery, heist, adventure]
+  effects: [catharsis, momentum, operability]
+  problems: [content-cost, dead-end, exclusion, pacing-failure]
+  components: [structural-primitives]
+  genre: [adventure, heist, mystery]
 provenance: "researched"
 ---
 

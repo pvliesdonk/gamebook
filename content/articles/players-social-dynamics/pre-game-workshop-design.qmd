@@ -4,10 +4,10 @@ aliases: ["Pre-Larp Workshop", "Calibration Workshop", "Relation Workshop"]
 family: "Players & Social Dynamics"
 media: [live-game, tabletop, interactive-fiction]
 facets:
-  effects: [shared-fiction, group-trust, calibrated-intensity, emotional-coherence]
-  problems: [unsafe-pressure, cold-start, untaught-safety-tools, bleed-carryover]
-  components: [calibration-mechanic, relation-exercise, safety-contract, de-role-ritual]
-  genre: [horror, drama, historical]
+  effects: [credibility, immersion, tension, trust]
+  problems: [dead-end, safety-failure]
+  components: [procedures-and-protocols, roles-and-social-frame]
+  genre: [drama, historical, horror]
 provenance: "researched"
 ---
 

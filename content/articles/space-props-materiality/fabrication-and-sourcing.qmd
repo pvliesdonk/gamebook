@@ -4,10 +4,10 @@ aliases: ["Buy vs Make", "Prop Sourcing", "Prop Fabrication", "Workshop Tiers"]
 family: "Space, Props & Materiality"
 media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: [authenticity, tactility, reset-durability]
-  problems: [budget-pressure, lead-time, run-size, prop-breakage]
-  components: [props, card-stock, dice, tokens, 3d-prints, containers]
-  genre: [mystery, heist, fantasy, sci-fi, historical]
+  effects: [credibility, operability, tactility]
+  problems: [content-cost]
+  components: [locks-and-concealment, physical-parts, set-dressing-and-environment]
+  genre: [fantasy, heist, historical, mystery, sci-fi]
 provenance: "researched"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["Age Banding", "Writing for an Age Group", "Reading Level"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [right-reader-fit, age-appropriate-trust, no-condescension]
-  problems: [register-mismatch, writing-down, content-overreach]
-  components: [age-band, reading-level, content-boundary, protagonist-age]
-  genre: [children-ya, all-ages]
+  effects: [reach, trust]
+  problems: [safety-failure, voice-drift]
+  components: [narrative-primitives, roles-and-social-frame, state-and-resource-trackers]
+  genre: [childrens-ya]
 provenance: "researched"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["Fear Mechanics", "Dread Design", "The Horror Contract"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [dread, vulnerability, earned-fear]
-  problems: [cheap-scares, numbed-reader, safe-protagonist]
-  components: [threat, sanity-meter, death-state, tension-curve]
-  genre: [horror, gothic, cosmic-horror]
+  effects: [suspicion, tension]
+  problems: [flat-character, pacing-failure]
+  components: [narrative-primitives, state-and-resource-trackers, structural-primitives]
+  genre: [horror]
 provenance: "researched"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["Social Deduction", "Party Games", "Hidden-Role Games", "The People Ar
 family: "Systems & Mechanics"
 media: [tabletop, live-game]
 facets:
-  effects: [live-read, shared-laughter, suspicion, table-energy]
-  problems: [bored-eliminated-player, alpha-player-dominance, thin-rules-flat-play, player-count-mismatch]
-  components: [hidden-role, prompt-card, judge, voting-method]
-  genre: [mystery, comedy, thriller]
+  effects: [belonging, legibility, momentum, suspicion]
+  problems: [domination, exclusion, immersion-break, voice-drift]
+  components: [physical-parts, procedures-and-protocols, roles-and-social-frame]
+  genre: [comedy, mystery, thriller]
 provenance: "researched"
 ---
 

@@ -1,0 +1,37 @@
+---
+title: "Keys · By Format"
+---
+
+Find an article by the form of the game or production.
+
+## eurogame
+
+- [Decision Space & Choice Design](../articles/systems-mechanics/decision-space-and-choice-design.qmd) · Systems & Mechanics
+- [Elegance, Emergence & Randomness](../articles/systems-mechanics/elegance-emergence-and-randomness.qmd) · Systems & Mechanics
+- [Solo Modes](../articles/systems-mechanics/solo-modes.qmd) · Systems & Mechanics
+
+## party
+
+- [Cooperative vs Adversarial Formats](../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd) · Players & Social Dynamics
+- [Mixed-Ability Groups & Universal Design](../articles/players-social-dynamics/mixed-ability-groups-and-universal-design.qmd) · Players & Social Dynamics
+- [Spectator-Friendly Design](../articles/players-social-dynamics/spectator-friendly-design.qmd) · Players & Social Dynamics
+
+## escape-room
+
+- [Self-Resolving Puzzles](../articles/puzzles-clues-information/self-resolving-puzzles.qmd) · Puzzles, Clues & Information
+- [Materials, Durability & Reset](../articles/space-props-materiality/materials-durability-and-reset.qmd) · Space, Props & Materiality
+
+## sandbox
+
+- [Sandbox, Situation & the Railroad Spectrum](../articles/structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd) · Structure & Pacing
+- [West Marches & the Open-Table Format](../articles/structure-pacing/west-marches-and-the-open-table-format.qmd) · Structure & Pacing
+
+## social-deduction
+
+- [Player Types & Casting](../articles/players-social-dynamics/player-types-and-casting.qmd) · Players & Social Dynamics
+- [Decision Space & Choice Design](../articles/systems-mechanics/decision-space-and-choice-design.qmd) · Systems & Mechanics
+
+## strategy
+
+- [Decision Space & Choice Design](../articles/systems-mechanics/decision-space-and-choice-design.qmd) · Systems & Mechanics
+- [Replayability](../articles/systems-mechanics/replayability.qmd) · Systems & Mechanics

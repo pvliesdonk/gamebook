@@ -4,10 +4,10 @@ aliases: ["The 1:1", "Solo Audience Scene", "Intimate Scenework"]
 family: "Players & Social Dynamics"
 media: [live-game, tabletop]
 facets:
-  effects: [radical-attention, vulnerability, memorable-encounter, intimacy]
-  problems: [power-asymmetry, performer-safety, consent-failure, scale-impossibility]
-  components: [single-performer, single-participant, closing-gesture, safety-tool]
-  genre: [horror, mystery, historical]
+  effects: [belonging, catharsis, immersion, suspicion]
+  problems: [domination, safety-failure, unsolvability]
+  components: [procedures-and-protocols, roles-and-social-frame]
+  genre: [historical, horror, mystery]
 provenance: "researched"
 ---
 

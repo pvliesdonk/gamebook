@@ -4,10 +4,10 @@ aliases: ["Interesting Decisions", "Meaningful Choice", "Decision Space"]
 family: "Systems & Mechanics"
 media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: [felt-agency, strategic-depth, replay-pull]
-  problems: [dominant-strategy, false-choice, solved-game]
-  components: [options, trade-off, opportunity-cost, game-state]
-  genre: [strategy, eurogame, social-deduction]
+  effects: [agency, mastery, replayability]
+  problems: [degenerate-play, false-agency]
+  components: [state-and-resource-trackers, structural-primitives]
+  format: [eurogame, social-deduction, strategy]
 provenance: "researched"
 ---
 

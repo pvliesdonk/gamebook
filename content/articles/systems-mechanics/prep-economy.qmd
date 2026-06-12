@@ -4,10 +4,10 @@ aliases: ["Smart Prep", "GM Prep", "Prep Philosophy", "Don't Prep Plots"]
 family: "Systems & Mechanics"
 media: [tabletop, live-game, puzzle-hunt, interactive-fiction]
 facets:
-  effects: [gm-confidence, table-responsiveness, sustainable-running]
-  problems: [overprep, railroading, wasted-prep, gm-burnout]
-  components: [fronts, random-tables, secrets-list, faction-clock]
-  genre: [fantasy, horror, sci-fi, mystery]
+  effects: [operability]
+  problems: [content-cost, false-agency]
+  components: [paper-artefacts, state-and-resource-trackers, structural-primitives]
+  genre: [fantasy, horror, mystery, sci-fi]
 provenance: "researched"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["Dungeon Design", "Spatial Layout", "Map Topology", "Non-Linear Layout
 family: "Space, Props & Materiality"
 media: [tabletop, live-game, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [exploration, agency, replayability, orientation, emergent-play]
-  problems: [linear-corridor, chokepoint, no-meaningful-choice, unmappable-space]
-  components: [map, loops, connections, factions, restock-table]
-  genre: [fantasy, mystery, horror, adventure]
+  effects: [agency, discovery, legibility, replayability]
+  problems: [dead-end, disorientation, false-agency, unsolvability]
+  components: [paper-artefacts, roles-and-social-frame, state-and-resource-trackers, structural-primitives]
+  genre: [adventure, fantasy, horror, mystery]
 provenance: "researched"
 ---
 

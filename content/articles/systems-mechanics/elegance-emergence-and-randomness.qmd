@@ -4,10 +4,11 @@ aliases: ["Elegance", "Emergence", "Depth vs Complexity", "Luck Management", "In
 family: "Systems & Mechanics"
 media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: [replay-depth, dynamic-tension, felt-mastery]
-  problems: [exception-bloat, solved-game, swingy-outcomes]
-  components: [rules-text, dice, cards, scoring-tracks]
-  genre: [abstract, eurogame, wargame, sci-fi]
+  effects: [mastery, replayability, tension]
+  problems: [content-cost, degenerate-play, pacing-failure]
+  components: [paper-artefacts, physical-parts, state-and-resource-trackers]
+  genre: [sci-fi]
+  format: [abstract, eurogame, wargame]
 provenance: "researched"
 ---
 

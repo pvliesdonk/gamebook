@@ -4,9 +4,9 @@ aliases: ["Hidden Information", "Hidden Roles", "Partial Information Design", "W
 family: "Players & Social Dynamics"
 media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [shared-stakes, suspicion, collaborative-sensemaking, charged-conversation]
-  problems: [sidelined-players, single-pivot-character, info-hoarding-stall, exclusion]
-  components: [hidden-role, character-briefing, secret-objective, clue-sheet]
+  effects: [belonging, discovery, suspicion, tension]
+  problems: [dead-end, exclusion]
+  components: [paper-artefacts, roles-and-social-frame, state-and-resource-trackers]
   genre: [mystery, thriller]
 provenance: "researched"
 ---

@@ -4,10 +4,10 @@ aliases: ["Romance Routes", "Affection Systems", "Relationship Mechanics"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [emotional-investment, replay-draw, earned-intimacy]
-  problems: [vending-machine-affection, unsignalled-lock-in, flat-love-interest]
-  components: [affection-track, relationship-flag, consent-cue, romance-arc]
-  genre: [romance, character-drama]
+  effects: [belonging, replayability, tension]
+  problems: [false-agency, flat-character]
+  components: [narrative-primitives, roles-and-social-frame, state-and-resource-trackers]
+  genre: [drama, romance]
 provenance: "researched"
 ---
 

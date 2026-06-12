@@ -4,10 +4,11 @@ aliases: ["Nonverbal Tutorial", "Show Don't Tell", "Convention Establishment", "
 family: "Puzzles, Clues & Information"
 media: [tabletop, interactive-fiction, live-game, puzzle-hunt]
 facets:
-  effects: [earned-competence, solver-trust, ownership-of-rules]
-  problems: [opaque-rules, convention-overload, stranded-newcomer]
-  components: [opening-sequence, convention-set, difficulty-curve, affordance]
-  genre: [puzzle, mystery]
+  effects: [agency, mastery, trust]
+  problems: [exclusion, pacing-failure, unsolvability]
+  components: [narrative-primitives, roles-and-social-frame, state-and-resource-trackers]
+  genre: [mystery]
+  format: [puzzle]
 provenance: "researched"
 ---
 

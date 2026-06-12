@@ -4,10 +4,10 @@ aliases: ["Artefact Modality", "Physical-Digital Spectrum", "Durability Horizon"
 family: "Space, Props & Materiality"
 media: [live-game, puzzle-hunt, interactive-fiction, tabletop]
 facets:
-  effects: [discovery, durability, solver-accountability, sense-of-place]
-  problems: [url-rot, server-dependency, artefact-loss, reset-overhead]
-  components: [printed-book, buried-object, verification-server, qr-code, gps-coordinate]
-  genre: [mystery, treasure-hunt]
+  effects: [discovery, immersion, operability, trust]
+  problems: [content-cost]
+  components: [electronics-and-digital, locks-and-concealment, paper-artefacts]
+  genre: [adventure, mystery]
 provenance: "researched"
 ---
 

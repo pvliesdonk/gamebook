@@ -4,10 +4,10 @@ aliases: ["Branching Topologies", "Choice-Based Structures", "Narrative Graph Sh
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [replay-value, felt-agency, narrative-shape]
-  problems: [combinatorial-explosion, illusory-choice, shapeless-middle]
-  components: [node, branch, bottleneck, state-flag, storylet]
-  genre: [adventure, mystery, horror]
+  effects: [agency, legibility, replayability]
+  problems: [degenerate-play, false-agency, pacing-failure]
+  components: [narrative-primitives, state-and-resource-trackers, structural-primitives]
+  genre: [adventure, horror, mystery]
 provenance: "researched"
 ---
 

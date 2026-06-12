@@ -4,9 +4,9 @@ aliases: ["Project Scoping", "Word-Count Budgeting", "Branch Budgeting", "Scope 
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [finishable-project, sustainable-pace, realistic-expectations]
-  problems: [overscoping, combinatorial-explosion, content-waste, unfinished-project]
-  components: [word-budget, passage-count, branch-depth, ending-count]
+  effects: [legibility, momentum, operability]
+  problems: [content-cost, dead-end, degenerate-play]
+  components: [state-and-resource-trackers, structural-primitives]
   genre: [adventure, mystery, romance]
 provenance: "researched"
 ---

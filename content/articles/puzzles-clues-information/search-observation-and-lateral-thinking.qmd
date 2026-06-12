@@ -4,10 +4,10 @@ aliases: ["Noticing Puzzles", "Perceptual Puzzles", "World-Affordance Puzzles", 
 family: "Puzzles, Clues & Information"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [earned-discovery, recognition-reward, momentum]
-  problems: [pixel-hunt, sub-threshold-cue, designers-mind]
-  components: [set-dressing, hidden-object, visible-anomaly, world-affordance]
-  genre: [mystery, adventure]
+  effects: [discovery, momentum]
+  problems: [pacing-failure, prose-failure, unsolvability]
+  components: [locks-and-concealment, narrative-primitives, set-dressing-and-environment]
+  genre: [adventure, mystery]
 provenance: "researched"
 ---
 

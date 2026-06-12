@@ -4,10 +4,10 @@ aliases: ["Pasted-On Theme", "Load-Bearing Theme", "Mechanism as Argument", "The
 family: "Systems & Mechanics"
 media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: [thematic-coherence, felt-meaning, learnability]
-  problems: [pasted-on-theme, ludonarrative-dissonance, decorative-fiction]
-  components: [rules, faction-asymmetry, resource-loop, victory-condition]
-  genre: [historical, political, horror, sci-fi]
+  effects: [catharsis, credibility, legibility]
+  problems: [immersion-break]
+  components: [paper-artefacts, roles-and-social-frame, state-and-resource-trackers]
+  genre: [historical, horror, sci-fi, thriller]
 provenance: "researched"
 ---
 

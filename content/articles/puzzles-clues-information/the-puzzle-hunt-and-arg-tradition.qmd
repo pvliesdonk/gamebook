@@ -4,10 +4,10 @@ aliases: ["Alternate Reality Games", "ARG Lineage", "Puzzle Hunt History"]
 family: "Puzzles, Clues & Information"
 media: [puzzle-hunt, interactive-fiction, live-game, tabletop]
 facets:
-  effects: [shared-discovery, belief-in-the-fiction, community-formation]
-  problems: [audience-coordination, canon-drift, anticlimactic-payoff]
-  components: [rabbit-hole, puppetmaster, real-world-artefact, meta-puzzle]
-  genre: [mystery, conspiracy, horror]
+  effects: [belonging, credibility, discovery]
+  problems: [content-cost, pacing-failure, voice-drift]
+  components: [narrative-primitives, physical-parts, roles-and-social-frame, structural-primitives]
+  genre: [horror, mystery, thriller]
 provenance: "researched"
 ---
 

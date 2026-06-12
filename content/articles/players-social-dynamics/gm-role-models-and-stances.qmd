@@ -4,9 +4,9 @@ aliases: ["GM Stances", "Facilitation Models", "Referee vs Storyteller", "The GM
 family: "Players & Social Dynamics"
 media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: [table-trust, earned-challenge, dramatic-investment, tonal-coherence]
-  problems: [stance-system-mismatch, eroded-trust, railroading, killer-gm, flat-emotion]
-  components: [agenda-and-principles, authority-gradient, session-zero-agreement, prep-strategy]
+  effects: [credibility, mastery, tension, trust]
+  problems: [false-agency, immersion-break, pacing-failure, unfairness]
+  components: [procedures-and-protocols, roles-and-social-frame]
   genre: [fantasy, horror, mystery]
 provenance: "researched"
 ---

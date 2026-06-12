@@ -4,9 +4,9 @@ aliases: ["Show vs Tell", "The Iceberg", "Incluing", "Drip-Feed"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [reader-discovery, earned-immersion, submerged-depth]
-  problems: [info-dump, as-you-know-bob, over-explanation]
-  components: [backstory, world-detail, withheld-information, environmental-cue]
+  effects: [credibility, discovery, immersion]
+  problems: [prose-failure]
+  components: [narrative-primitives, set-dressing-and-environment]
   genre: [literary, mystery, sci-fi]
 provenance: "researched"
 ---

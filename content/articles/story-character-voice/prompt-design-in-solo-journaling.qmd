@@ -4,10 +4,10 @@ aliases: ["Journaling Prompts", "Prompt Anatomy", "The Prompt as Mechanic"]
 family: "Story, Character & Voice"
 media: [tabletop, interactive-fiction]
 facets:
-  effects: [generative-writing, earned-loss, sustained-variation]
-  problems: [blank-page, single-output, prompt-monotony]
-  components: [prompt-text, prompt-deck, oracle, mechanical-effect]
-  genre: [literary, horror, cosy]
+  effects: [catharsis, replayability]
+  problems: [content-cost, immersion-break, prose-failure]
+  components: [narrative-primitives, physical-parts, state-and-resource-trackers]
+  genre: [horror, literary, mystery]
 provenance: "researched"
 ---
 

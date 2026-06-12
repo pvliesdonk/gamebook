@@ -4,10 +4,10 @@ aliases: ["Earned Emotion", "Emotional Payoff", "Setup and Payoff"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [catharsis, reader-investment, earned-payoff]
-  problems: [unearned-emotion, sentimentality, flat-stakes]
-  components: [emotional-beat, setup, payoff, attachment]
-  genre: [character-drama, literary, tragedy]
+  effects: [catharsis, tension]
+  problems: [pacing-failure, prose-failure, unfairness]
+  components: [narrative-primitives, paper-artefacts, procedures-and-protocols]
+  genre: [drama, literary]
 provenance: "researched"
 ---
 

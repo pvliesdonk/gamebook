@@ -4,10 +4,10 @@ aliases: ["Consent-in-Gaming", "Mechanical Safety", "Baked-In Safety"]
 family: "Systems & Mechanics"
 media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: [structural-guarantee, consent-made-visible, tonal-consistency]
-  problems: [unused-safety-tool, tone-drift, content-without-channel]
-  components: [dice, scene-procedure, character-resource, debrief-step]
-  genre: [horror, drama, pastoral]
+  effects: [credibility, operability, safety]
+  problems: [content-cost, safety-failure, voice-drift]
+  components: [physical-parts, procedures-and-protocols, state-and-resource-trackers]
+  genre: [drama, horror, literary]
 provenance: "researched"
 ---
 

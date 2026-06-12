@@ -4,10 +4,10 @@ aliases: ["Multi-Team Design", "Convergent vs Competitive Teams", "Megagame Fact
 family: "Players & Social Dynamics"
 media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: [inter-team-drama, designed-interdependence, shared-world-state, event-scale-play]
-  problems: [isolated-parallel-teams, runaway-leader-team, control-overload, idle-winners]
-  components: [team-relationship, shared-space, control-team, master-state]
-  genre: [thriller, historical, sci-fi]
+  effects: [belonging, legibility, reach, tension]
+  problems: [coordination-failure, domination, exclusion, pacing-failure]
+  components: [roles-and-social-frame, set-dressing-and-environment, state-and-resource-trackers]
+  genre: [historical, sci-fi, thriller]
 provenance: "researched"
 ---
 

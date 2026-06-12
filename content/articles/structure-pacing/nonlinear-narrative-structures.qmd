@@ -4,10 +4,10 @@ aliases: ["Non-Chronological Storytelling", "Fragment Assembly", "Out-of-Order N
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [dramatic-irony, earned-revelation, accumulating-understanding]
-  problems: [reader-disorientation, missed-context, false-freedom]
-  components: [fragment, temporal-marker, reference-document, frame]
-  genre: [mystery, literary, slice-of-life]
+  effects: [discovery, tension]
+  problems: [disorientation, false-agency, unsolvability]
+  components: [narrative-primitives, paper-artefacts]
+  genre: [drama, literary, mystery]
 provenance: "researched"
 ---
 
