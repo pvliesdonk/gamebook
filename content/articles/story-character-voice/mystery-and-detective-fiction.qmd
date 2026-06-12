@@ -4,10 +4,10 @@ aliases: ["Whodunit", "Detective Story", "Fair-Play Mystery", "Crime Fiction"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [earned-deduction, surprise-and-inevitability, reader-as-detective]
-  problems: [unfair-reveal, flat-suspects, sagging-investigation]
-  components: [suspect-pool, clue, red-herring, the-reveal, subgenre-contract]
-  genre: [mystery, detective, crime]
+  effects: [discovery, surprise]
+  problems: [flat-character, pacing-failure, unfairness]
+  components: [narrative-primitives, roles-and-social-frame]
+  genre: [mystery]
 provenance: "researched"
 ---
 

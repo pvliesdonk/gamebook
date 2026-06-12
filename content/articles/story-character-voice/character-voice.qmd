@@ -4,10 +4,10 @@ aliases: ["Idiolect", "Distinct Voices", "Voice Markers"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [distinct-characters, reader-immersion, believable-personhood]
-  problems: [author-voice, voice-drift, flat-npcs]
-  components: [idiolect, point-of-view, voice-sheet, voice-markers]
-  genre: [literary, mystery, character-drama]
+  effects: [credibility, immersion]
+  problems: [flat-character, prose-failure, voice-drift]
+  components: [narrative-primitives]
+  genre: [drama, literary, mystery]
 provenance: "researched"
 ---
 

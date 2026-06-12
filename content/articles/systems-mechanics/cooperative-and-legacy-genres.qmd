@@ -4,10 +4,10 @@ aliases: ["Co-op Games", "Legacy Games", "Campaign Boardgames", "Shared-Win Game
 family: "Systems & Mechanics"
 media: [tabletop, live-game]
 facets:
-  effects: [shared-fate, longitudinal-stakes, table-tension]
-  problems: [quarterbacking, runaway-loss, novelty-exhaustion, single-play-cost]
-  components: [shared-win-condition, stickers, sealed-packets, campaign-log]
-  genre: [horror, fantasy, historical, sci-fi]
+  effects: [belonging, tension]
+  problems: [content-cost, domination, pacing-failure]
+  components: [locks-and-concealment, paper-artefacts, physical-parts, state-and-resource-trackers]
+  genre: [fantasy, historical, horror, sci-fi]
 provenance: "researched"
 ---
 

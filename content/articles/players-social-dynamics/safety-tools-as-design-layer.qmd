@@ -4,10 +4,10 @@ aliases: ["Safety Contract", "Calibration Tools", "Consent Mechanics"]
 family: "Players & Social Dynamics"
 media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [player-trust, regulated-pressure, graceful-exit, informed-consent]
-  problems: [unsafe-pressure, unused-tool, authority-gradient, sunk-cost-trap]
-  components: [safety-tool, calibration-signal, content-rating, check-in]
-  genre: [horror, thriller, mystery]
+  effects: [safety, tension, trust]
+  problems: [content-cost, domination, safety-failure]
+  components: [procedures-and-protocols, roles-and-social-frame]
+  genre: [horror, mystery, thriller]
 provenance: "researched"
 ---
 

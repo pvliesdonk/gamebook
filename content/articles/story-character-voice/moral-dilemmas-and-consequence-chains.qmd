@@ -4,10 +4,10 @@ aliases: ["The Genuine Dilemma", "Hard Choices", "Consequence Chains", "Branchin
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [felt-weight, moral-portrait, earned-aftermath]
-  problems: [false-binary, karma-meter, misery-spiral]
-  components: [dilemma, consequence-ledger, advocates, the-reckoning]
-  genre: [drama, tragedy, noir]
+  effects: [catharsis, credibility]
+  problems: [domination, false-agency]
+  components: [narrative-primitives, roles-and-social-frame, state-and-resource-trackers]
+  genre: [drama, mystery]
 provenance: "researched"
 ---
 

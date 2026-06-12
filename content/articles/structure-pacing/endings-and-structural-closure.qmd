@@ -4,10 +4,10 @@ aliases: ["Endings", "Closure", "Multiple Endings", "Finale Design"]
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [earned-closure, emotional-payoff, felt-consequence]
-  problems: [anticlimax, pointless-convergence, unearned-ending]
-  components: [ending-state, denouement, verification, finale-beat]
-  genre: [mystery, adventure, horror]
+  effects: [agency, catharsis]
+  problems: [false-agency, pacing-failure, unfairness]
+  components: [narrative-primitives, procedures-and-protocols, state-and-resource-trackers]
+  genre: [adventure, horror, mystery]
 provenance: "researched"
 ---
 

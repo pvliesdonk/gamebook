@@ -4,10 +4,10 @@ aliases: ["Dialogue Writing", "Conversation Design", "Dialogue Systems"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [believable-conversation, dramatic-tension, reader-participation]
-  problems: [on-the-nose-dialogue, said-bookism, inert-exchange, wooden-choices]
-  components: [dialogue-beat, action-beat, subtext, dialogue-tree, topic-system]
-  genre: [literary, mystery, character-drama, romance]
+  effects: [agency, credibility, tension]
+  problems: [false-agency, flat-character, prose-failure]
+  components: [narrative-primitives, state-and-resource-trackers, structural-primitives]
+  genre: [drama, literary, mystery, romance]
 provenance: "researched"
 ---
 

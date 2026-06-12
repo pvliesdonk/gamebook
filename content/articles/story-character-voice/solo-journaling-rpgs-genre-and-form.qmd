@@ -4,10 +4,10 @@ aliases: ["Journaling Games", "Solo Journaling Games", "Wretched & Alone Games"]
 family: "Story, Character & Voice"
 media: [tabletop, interactive-fiction]
 facets:
-  effects: [no-audience-intimacy, written-artefact, melancholy-memory]
-  problems: [blank-page, obligation-journal, missing-end-condition]
-  components: [prompt, oracle, journal, physical-timer, bookend-ritual]
-  genre: [literary, horror, cosy]
+  effects: [belonging, catharsis, tactility]
+  problems: [disorientation, false-agency, prose-failure]
+  components: [electronics-and-digital, narrative-primitives, paper-artefacts, procedures-and-protocols]
+  genre: [horror, literary, mystery]
 provenance: "researched"
 ---
 

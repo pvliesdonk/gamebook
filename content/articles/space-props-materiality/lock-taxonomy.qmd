@@ -4,10 +4,10 @@ aliases: ["Locks", "Padlock Taxonomy", "Lock Selection"]
 family: "Space, Props & Materiality"
 media: [live-game, puzzle-hunt]
 facets:
-  effects: [tactile-payoff, gated-progress, legible-challenge]
-  problems: [jammed-mechanism, lost-key, combination-drift, unsettable-answer, non-diegetic-hardware]
-  components: [combination-lock, key-lock, directional-lock, word-lock, magnetic-lock, electronic-lock]
-  genre: [mystery, heist, horror, historical]
+  effects: [legibility, mastery, tactility]
+  problems: [content-cost, dead-end, immersion-break, unsolvability, voice-drift]
+  components: [locks-and-concealment]
+  genre: [heist, historical, horror, mystery]
 provenance: "researched"
 ---
 

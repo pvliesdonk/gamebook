@@ -4,9 +4,9 @@ aliases: ["Scene-Sequel", "Swain Structure", "The Sequel as Choice"]
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [felt-deliberation, breathing-room, paced-momentum]
-  problems: [exhausting-pacing, hollow-choice, stagnant-branch]
-  components: [scene, sequel, choice-point, disaster-beat]
+  effects: [agency, momentum]
+  problems: [false-agency, pacing-failure]
+  components: [narrative-primitives, structural-primitives]
   genre: [adventure, mystery, romance]
 provenance: "researched"
 ---

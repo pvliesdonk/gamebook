@@ -4,10 +4,10 @@ aliases: ["Information Design", "Knowledge Distribution", "The Dependency Graph"
 family: "Puzzles, Clues & Information"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [collaborative-sensemaking, earned-discovery, distributed-criticality]
-  problems: [single-point-of-failure, dominant-player, premature-deduction, information-stall]
-  components: [clue-set, dependency-graph, character-briefing, epistemic-state]
-  genre: [mystery, detective]
+  effects: [belonging, discovery]
+  problems: [dead-end, domination, pacing-failure]
+  components: [narrative-primitives, paper-artefacts, state-and-resource-trackers, structural-primitives]
+  genre: [mystery]
 provenance: "researched"
 ---
 

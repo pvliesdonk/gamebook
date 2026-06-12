@@ -4,10 +4,11 @@ aliases: ["Inclusive Design", "Multi-Generational Play", "Accessible Group Desig
 family: "Players & Social Dynamics"
 media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [shared-participation, earned-contribution, no-one-sidelined]
-  problems: [ability-gated-puzzle, sidelined-players, infantilised-children, separate-easy-mode]
-  components: [redundant-path, multi-sensory-clue, calibration-opener, convergence-finale]
-  genre: [family, children-ya]
+  effects: [belonging]
+  problems: [exclusion, unsolvability]
+  components: [narrative-primitives, procedures-and-protocols, structural-primitives]
+  genre: [childrens-ya]
+  format: [party]
 provenance: "researched"
 ---
 

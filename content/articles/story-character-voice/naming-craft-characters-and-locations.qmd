@@ -4,10 +4,10 @@ aliases: ["Naming", "Onomastics", "Toponymy", "Character Names", "Place Names"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [worldbuilding-texture, instant-characterisation, believable-setting]
-  problems: [monoculture-naming, fantasy-apostrophe, unpronounceable-names, accidental-meaning]
-  components: [name-list, phoneme-inventory, toponymy-glossary, naming-rules]
-  genre: [fantasy, sci-fi, historical]
+  effects: [credibility, immersion]
+  problems: [flat-character, immersion-break, prose-failure, voice-drift]
+  components: [narrative-primitives, paper-artefacts, procedures-and-protocols]
+  genre: [fantasy, historical, sci-fi]
 provenance: "researched"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["System Matters", "Rules-World Coupling", "Mechanics and Fiction", "Un
 family: "Systems & Mechanics"
 media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: [felt-theme, coherent-tone, designer-intent]
-  problems: [ludonarrative-dissonance, pretender-setting, mis-hacked-system]
-  components: [rules-text, move-list, playbooks, setting-bible]
-  genre: [fantasy, horror, sci-fi, historical]
+  effects: [catharsis, credibility, legibility]
+  problems: [immersion-break]
+  components: [paper-artefacts, physical-parts, state-and-resource-trackers]
+  genre: [fantasy, historical, horror, sci-fi]
 provenance: "researched"
 ---
 

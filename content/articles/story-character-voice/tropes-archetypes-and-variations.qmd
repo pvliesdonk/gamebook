@@ -4,10 +4,10 @@ aliases: ["Character Archetypes", "Trope Subversion", "Archetype Catalogue"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [narrative-shorthand, emotional-recognition, earned-surprise]
-  problems: [flat-cliche, hollow-subversion, archetype-confusion]
-  components: [archetype-role, trope-set, subversion-technique, migration-map]
-  genre: [fantasy, mystery, horror, sci-fi]
+  effects: [catharsis, legibility, surprise]
+  problems: [flat-character, unfairness]
+  components: [narrative-primitives, roles-and-social-frame, structural-primitives]
+  genre: [fantasy, horror, mystery, sci-fi]
 provenance: "researched"
 ---
 

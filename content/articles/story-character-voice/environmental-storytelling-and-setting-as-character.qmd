@@ -4,10 +4,10 @@ aliases: ["Place as Character", "Environmental Narrative", "Setting as Active Fo
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [immersion, discovered-story, place-as-presence]
-  problems: [inert-backdrop, furniture-catalogue, told-not-shown]
-  components: [scene, sensory-layer, diegetic-audio, embedded-detail]
-  genre: [horror, mystery, literary]
+  effects: [discovery, immersion]
+  problems: [disorientation, prose-failure]
+  components: [narrative-primitives, set-dressing-and-environment]
+  genre: [horror, literary, mystery]
 provenance: "researched"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["Genre Conventions", "Genre Contracts", "Fiction Genre Map"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [reader-trust, genre-recognition, earned-payoff]
-  problems: [broken-promise, genre-confusion, mismatched-expectation]
-  components: [reader-contract, craft-lever, convention-set]
-  genre: [mystery, horror, fantasy, sci-fi, historical, children-ya]
+  effects: [catharsis, legibility, trust]
+  problems: [unfairness, voice-drift]
+  components: [narrative-primitives, roles-and-social-frame]
+  genre: [childrens-ya, fantasy, historical, horror, mystery, sci-fi]
 provenance: "synthesis"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["Wilderness Exploration", "Spatial Campaign Design", "Node-Path Travel
 family: "Structure & Pacing"
 media: [tabletop, interactive-fiction, live-game, puzzle-hunt]
 facets:
-  effects: [player-agency, earned-discovery, exploration-drive]
-  problems: [railroad-by-default, empty-content, frontloaded-prep]
-  components: [keyed-map, travel-procedure, encounter-table, node-graph]
-  genre: [adventure, fantasy, survival]
+  effects: [agency, discovery]
+  problems: [content-cost, false-agency]
+  components: [paper-artefacts, procedures-and-protocols, state-and-resource-trackers, structural-primitives]
+  genre: [adventure, fantasy]
 provenance: "researched"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["Session Rhythm", "Difficulty Curve", "Energy Curve", "The Session Arc
 family: "Structure & Pacing"
 media: [tabletop, live-game, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [sustained-engagement, earned-climax, varied-energy]
-  problems: [mid-session-sag, premature-climax, player-burnout]
-  components: [session-arc, beat, break, time-pressure-clock]
-  genre: [adventure, mystery, horror]
+  effects: [catharsis, momentum, replayability]
+  problems: [content-cost, pacing-failure]
+  components: [electronics-and-digital, narrative-primitives, procedures-and-protocols]
+  genre: [adventure, horror, mystery]
 provenance: "researched"
 ---
 

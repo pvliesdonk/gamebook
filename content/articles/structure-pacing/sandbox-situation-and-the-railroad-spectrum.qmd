@@ -4,10 +4,11 @@ aliases: ["Sandbox vs Railroad", "Illusionism", "Prep Situations Not Plots", "Pl
 family: "Structure & Pacing"
 media: [tabletop, interactive-fiction, live-game, puzzle-hunt]
 facets:
-  effects: [player-agency, felt-causality, emergent-story]
-  problems: [railroading, illusory-choice, choice-paralysis]
-  components: [situation, faction-clock, world-state, node-map]
-  genre: [adventure, mystery, sandbox]
+  effects: [agency, discovery]
+  problems: [degenerate-play, false-agency]
+  components: [narrative-primitives, state-and-resource-trackers, structural-primitives]
+  genre: [adventure, mystery]
+  format: [sandbox]
 provenance: "researched"
 ---
 

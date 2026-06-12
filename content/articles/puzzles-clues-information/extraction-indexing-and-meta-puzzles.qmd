@@ -4,9 +4,9 @@ aliases: ["Meta-Puzzle", "Metapuzzle", "Answers as Data", "Multi-step Puzzle"]
 family: "Puzzles, Clues & Information"
 media: [puzzle-hunt, live-game]
 facets:
-  effects: [sustained-insight, revelation-cascade, earned-payoff]
-  problems: [flat-difficulty, no-capstone, all-or-nothing-extraction]
-  components: [feeder-answer, answer-key, extraction-step, round-structure]
+  effects: [catharsis, discovery]
+  problems: [coordination-failure, disorientation, pacing-failure]
+  components: [narrative-primitives, paper-artefacts, procedures-and-protocols]
   genre: [mystery]
 provenance: "researched"
 ---

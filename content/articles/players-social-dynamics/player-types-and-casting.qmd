@@ -4,10 +4,11 @@ aliases: ["Player Taxonomies", "Role Assignment", "Player Motivation Frameworks"
 family: "Players & Social Dynamics"
 media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [everyone-has-a-role, mixed-motivation-fit, sustained-engagement]
-  problems: [single-solver-bottleneck, sidelined-players, type-mismatch, miscast-roles]
-  components: [player-typology, casting-method, observer-role, preference-questionnaire]
-  genre: [mystery, social-deduction]
+  effects: [belonging, momentum, reach]
+  problems: [dead-end, exclusion, flat-character, voice-drift]
+  components: [paper-artefacts, procedures-and-protocols, roles-and-social-frame]
+  genre: [mystery]
+  format: [social-deduction]
 provenance: "researched"
 ---
 

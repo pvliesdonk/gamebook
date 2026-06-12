@@ -4,10 +4,10 @@ aliases: ["TTRPG Traditions", "RPG Design Families", "RPG Format Families", "Rol
 family: "Systems & Mechanics"
 media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: [tradition-fit, design-coherence, table-feel]
-  problems: [tradition-mismatch, borrowed-mechanic-misfire, scope-mismatch]
-  components: [resolution-core, gm-role, character-model, prep-weight]
-  genre: [fantasy, horror, historical, sci-fi]
+  effects: [belonging, credibility, tactility]
+  problems: [immersion-break, voice-drift]
+  components: [narrative-primitives, roles-and-social-frame, state-and-resource-trackers]
+  genre: [fantasy, historical, horror, sci-fi]
 provenance: "researched"
 ---
 

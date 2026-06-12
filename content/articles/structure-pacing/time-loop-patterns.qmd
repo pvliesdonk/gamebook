@@ -4,10 +4,10 @@ aliases: ["The Loop", "Groundhog Day Structure", "Reset Narrative", "Repetition 
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [knowledge-progression, dramatic-irony, earned-transformation]
-  problems: [player-fatigue, repetition-tedium, arbitrary-exit]
-  components: [reset-trigger, loop-period, exit-condition, persistence-rule]
-  genre: [mystery, sci-fi, comedy]
+  effects: [catharsis, mastery, tension]
+  problems: [content-cost, disorientation, pacing-failure]
+  components: [procedures-and-protocols, state-and-resource-trackers, structural-primitives]
+  genre: [comedy, mystery, sci-fi]
 provenance: "researched"
 ---
 

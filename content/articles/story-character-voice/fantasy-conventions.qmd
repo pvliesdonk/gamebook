@@ -4,9 +4,9 @@ aliases: ["Fantasy Genre Craft", "Magic-System Design", "Secondary-World Craft"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, tabletop, live-game]
 facets:
-  effects: [wonder, internal-consistency, earned-stakes]
-  problems: [deus-ex-machina, info-dump, prophecy-railroad]
-  components: [magic-system, secondary-world, trope-set, prophecy]
+  effects: [credibility, surprise, tension]
+  problems: [false-agency, prose-failure, unfairness]
+  components: [narrative-primitives]
   genre: [fantasy]
 provenance: "researched"
 ---

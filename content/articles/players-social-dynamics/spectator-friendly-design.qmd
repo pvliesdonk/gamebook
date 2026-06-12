@@ -4,10 +4,11 @@ aliases: ["Designing for Observers", "Mixed-Engagement Design", "Audience-Facing
 family: "Players & Social Dynamics"
 media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [ambient-engagement, group-energy, felt-inclusion, legible-drama]
-  problems: [eliminated-player-as-spectator, mixed-engagement, alpha-player-dominance, idle-observer]
-  components: [observer-role, catch-up-card, parallel-task, ambient-layer]
-  genre: [mystery, family, immersive]
+  effects: [belonging, legibility, momentum]
+  problems: [domination, exclusion]
+  components: [physical-parts, roles-and-social-frame, set-dressing-and-environment, structural-primitives]
+  genre: [mystery]
+  format: [immersive, party]
 provenance: "researched"
 ---
 

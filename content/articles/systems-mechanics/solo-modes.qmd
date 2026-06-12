@@ -4,10 +4,10 @@ aliases: ["Solo Variant", "Automa", "Bot Deck", "Single-Player Mode"]
 family: "Systems & Mechanics"
 media: [tabletop]
 facets:
-  effects: [solo-tension, designed-arc, skill-practice]
-  problems: [absent-opponent, difficulty-calibration, bot-turn-overhead]
-  components: [bot-deck, automa-cards, difficulty-tiers, target-score]
-  genre: [euro, cooperative]
+  effects: [catharsis, mastery, tension]
+  problems: [coordination-failure, exclusion, pacing-failure]
+  components: [physical-parts, state-and-resource-trackers]
+  format: [cooperative, eurogame]
 provenance: "researched"
 ---
 

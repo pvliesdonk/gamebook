@@ -4,10 +4,10 @@ aliases: ["QR Codes", "NFC Tags", "Scan-to-Unlock", "Phone-Unlocks-Clue"]
 family: "Space, Props & Materiality"
 media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: [physical-digital-bridge, presence-proof, discovery]
-  problems: [sequence-breaking, spoiler-leak, connectivity-failure, immersion-break]
-  components: [qr-code, nfc-tag, companion-app, scannable-prop]
-  genre: [mystery, heist, treasure-hunt]
+  effects: [discovery, tactility]
+  problems: [content-cost, degenerate-play, disorientation, immersion-break]
+  components: [electronics-and-digital]
+  genre: [adventure, heist, mystery]
 provenance: "researched"
 ---
 

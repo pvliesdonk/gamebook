@@ -4,10 +4,10 @@ aliases: ["Hinting", "Stuck Recovery", "Hint Delivery", "Bottleneck Mitigation"]
 family: "Puzzles, Clues & Information"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [forward-momentum, solver-trust, preserved-aha]
-  problems: [dead-end, stuck-solver, bottleneck, ego-rationing]
-  components: [hint-channel, escalation-tier, soft-hint, bypass-code]
-  genre: [mystery, detective]
+  effects: [discovery, momentum, trust]
+  problems: [dead-end, safety-failure]
+  components: [locks-and-concealment, procedures-and-protocols, structural-primitives]
+  genre: [mystery]
 provenance: "researched"
 ---
 

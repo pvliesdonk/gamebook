@@ -4,10 +4,10 @@ aliases: ["Conflict Types", "Dramatic Conflict", "Stakes & Escalation"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [dramatic-tension, character-revelation, forward-momentum]
-  problems: [flat-stakes, plateaued-plot, unearned-resolution]
-  components: [protagonist-desire, obstacle, stakes-ladder, antagonist]
-  genre: [literary, drama, mystery, thriller]
+  effects: [discovery, momentum, tension]
+  problems: [pacing-failure, unfairness]
+  components: [narrative-primitives, structural-primitives]
+  genre: [drama, literary, mystery, thriller]
 provenance: "synthesis"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["Puzzle Types", "Puzzle Categories", "Kinds of Puzzle"]
 family: "Puzzles, Clues & Information"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [variety, cognitive-range, earned-discovery]
-  problems: [solver-fatigue, one-note-design, mismatched-difficulty]
-  components: [puzzle-set, feeder-mix, difficulty-curve]
-  genre: [mystery, adventure]
+  effects: [discovery, reach, replayability]
+  problems: [dead-end, degenerate-play, pacing-failure]
+  components: [state-and-resource-trackers, structural-primitives]
+  genre: [adventure, mystery]
 provenance: "researched"
 ---
 

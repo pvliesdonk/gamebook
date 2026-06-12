@@ -4,10 +4,11 @@ aliases: ["Co-op vs Competitive", "Format Spectrum", "Traitor Mechanics"]
 family: "Players & Social Dynamics"
 media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [shared-fate-bonding, paranoia, faction-identity, table-temperature]
-  problems: [quarterbacking, player-elimination, kingmaking, uneven-teams]
-  components: [win-condition, hidden-objective, traitor-role, team-structure]
-  genre: [mystery, thriller, party]
+  effects: [belonging, momentum, suspicion]
+  problems: [domination, exclusion]
+  components: [roles-and-social-frame, state-and-resource-trackers]
+  genre: [mystery, thriller]
+  format: [party]
 provenance: "researched"
 ---
 

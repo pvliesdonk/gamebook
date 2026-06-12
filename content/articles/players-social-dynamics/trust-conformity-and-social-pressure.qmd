@@ -4,10 +4,10 @@ aliases: ["Social Deduction", "Accusation Dynamics", "Designed Peer Pressure"]
 family: "Players & Social Dynamics"
 media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [genuine-tension, suspicion, social-investment, vivid-play]
-  problems: [flat-stakes, alpha-player-dominance, unsafe-pressure, sidelined-players]
-  components: [hidden-role, accusation-phase, voting-method, safety-tool]
-  genre: [mystery, thriller, horror]
+  effects: [belonging, immersion, suspicion, tension]
+  problems: [domination, exclusion, pacing-failure, safety-failure]
+  components: [procedures-and-protocols, roles-and-social-frame]
+  genre: [horror, mystery, thriller]
 provenance: "researched"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["Scene Craft", "Scene Breaks", "Cutting Between Scenes", "Time-Skips"]
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [forward-momentum, orientation, felt-rhythm]
-  problems: [draggy-scenes, jarring-cuts, reader-disorientation]
-  components: [scene, beat, transition, scene-break, brief]
-  genre: [mystery, adventure, romance]
+  effects: [legibility, momentum]
+  problems: [disorientation, pacing-failure]
+  components: [narrative-primitives, paper-artefacts]
+  genre: [adventure, mystery, romance]
 provenance: "researched"
 ---
 

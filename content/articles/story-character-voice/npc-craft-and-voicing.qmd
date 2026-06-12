@@ -4,10 +4,10 @@ aliases: ["Non-Player Characters", "Supporting Cast", "Voicing NPCs"]
 family: "Story, Character & Voice"
 media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: [believable-cast, player-investment, distinct-supporting-characters]
-  problems: [flat-npcs, exposition-fountain, gm-default-voice, npc-overload]
-  components: [npc-card, want, voice-marker, character-prompt, faction-clock]
-  genre: [mystery, fantasy, character-drama]
+  effects: [credibility, tension]
+  problems: [flat-character, pacing-failure, prose-failure, voice-drift]
+  components: [narrative-primitives, physical-parts, structural-primitives]
+  genre: [drama, fantasy, mystery]
 provenance: "researched"
 ---
 

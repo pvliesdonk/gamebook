@@ -4,10 +4,10 @@ aliases: ["Faction Structure", "Asymmetric Win Conditions", "Teams Within the Ga
 family: "Players & Social Dynamics"
 media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [sustained-conflict, faction-loyalty, intra-team-tension, designed-drama]
-  problems: [we-all-win-equilibrium, dominant-player, irrelevant-faction, coalition-collapse]
-  components: [faction-brief, win-condition, role-separation, control-team]
-  genre: [political, sci-fi, thriller]
+  effects: [belonging, tension]
+  problems: [domination, flat-character, voice-drift]
+  components: [paper-artefacts, roles-and-social-frame, state-and-resource-trackers]
+  genre: [sci-fi, thriller]
 provenance: "researched"
 ---
 

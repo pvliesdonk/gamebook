@@ -4,10 +4,10 @@ aliases: ["World Consistency", "Internal Logic", "Setting Construction"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [believable-world, immersion, implied-depth]
-  problems: [inconsistency, infodump, overprep, world-state-drift]
-  components: [world-rules, codex, timeline, causality-chain]
-  genre: [fantasy, sci-fi, historical, mystery]
+  effects: [credibility, immersion]
+  problems: [content-cost, prose-failure, voice-drift]
+  components: [narrative-primitives, paper-artefacts, structural-primitives]
+  genre: [fantasy, historical, mystery, sci-fi]
 provenance: "researched"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["Control Booth", "Game Master Station", "Cue Stack", "Control Desk", "
 family: "Space, Props & Materiality"
 media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: [immersion, atmosphere, safety, run-consistency]
-  problems: [immersion-break, gm-overload, missed-distress, cue-misfire]
-  components: [control-desk, cctv, boundary-mic, cue-automation, hint-script]
-  genre: [horror, heist, mystery]
+  effects: [immersion, operability, safety]
+  problems: [content-cost, immersion-break, pacing-failure, safety-failure]
+  components: [electronics-and-digital, procedures-and-protocols]
+  genre: [heist, horror, mystery]
 provenance: "researched"
 ---
 

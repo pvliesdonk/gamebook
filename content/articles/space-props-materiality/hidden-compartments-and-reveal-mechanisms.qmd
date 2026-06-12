@@ -4,10 +4,10 @@ aliases: ["Reveals", "Invisible Ink", "False Bottoms", "Hidden Messages"]
 family: "Space, Props & Materiality"
 media: [live-game, puzzle-hunt, tabletop]
 facets:
-  effects: [discovery, earned-reveal, tactile-payoff, surprise]
-  problems: [accidental-reveal, unreliable-reveal, missed-compartment, no-reset]
-  components: [uv-ink, invisible-ink, neodymium-magnet, false-bottom, layered-paper, sealed-envelope]
-  genre: [mystery, heist, horror, fantasy]
+  effects: [discovery, surprise, tactility]
+  problems: [content-cost, disorientation, unfairness, unsolvability]
+  components: [locks-and-concealment, paper-artefacts, physical-parts]
+  genre: [fantasy, heist, horror, mystery]
 provenance: "researched"
 ---
 

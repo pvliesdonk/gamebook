@@ -4,10 +4,10 @@ aliases: ["Encounter Building", "Challenge Design", "Encounter Balance", "The Th
 family: "Systems & Mechanics"
 media: [tabletop, live-game, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [meaningful-difficulty, dramatic-tension, felt-stakes]
-  problems: [hp-slog, attrition-without-stakes, pillar-imbalance, social-dead-end]
-  components: [xp-budget, difficulty-tiers, encounter-table, stakes-statement]
-  genre: [fantasy, horror, sci-fi, mystery]
+  effects: [mastery, tension]
+  problems: [dead-end, false-agency, pacing-failure]
+  components: [narrative-primitives, state-and-resource-trackers]
+  genre: [fantasy, horror, mystery, sci-fi]
 provenance: "researched"
 ---
 

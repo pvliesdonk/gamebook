@@ -4,10 +4,10 @@ aliases: ["Countdown", "Track", "Progress Bar", "Faction Clocks", "Fronts"]
 family: "Systems & Mechanics"
 media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: [earned-consequence, living-world, dramatic-tension]
-  problems: [stalled-scene, scripted-villain, invisible-stakes]
-  components: [clock, segment-count, faction-goal, grim-portent]
-  genre: [fantasy, sci-fi, horror, historical]
+  effects: [agency, immersion, tension]
+  problems: [false-agency, pacing-failure]
+  components: [electronics-and-digital, narrative-primitives, structural-primitives]
+  genre: [fantasy, historical, horror, sci-fi]
 provenance: "researched"
 ---
 

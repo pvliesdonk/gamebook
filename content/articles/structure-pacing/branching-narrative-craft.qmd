@@ -4,9 +4,9 @@ aliases: ["Choice Architecture", "Branching Design", "Meaningful Choice"]
 family: "Structure & Pacing"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [player-agency, felt-consequence, replay-value]
-  problems: [combinatorial-explosion, illusory-choice, content-waste]
-  components: [choice-point, state-flag, convergence-node, branch]
+  effects: [agency, replayability]
+  problems: [content-cost, degenerate-play, false-agency]
+  components: [state-and-resource-trackers, structural-primitives]
   genre: [adventure, mystery, romance]
 provenance: "researched"
 ---

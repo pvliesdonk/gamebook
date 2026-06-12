@@ -4,10 +4,10 @@ aliases: ["Narrative Objects", "Props & Feelies", "Document Forgery", "Handout P
 family: "Space, Props & Materiality"
 media: [live-game, interactive-fiction, puzzle-hunt, tabletop]
 facets:
-  effects: [tactile-belief, narrative-weight, period-authenticity, discovery]
-  problems: [fake-looking-prop, anachronism, illegible-handout, decorative-object-mistaken-for-clue]
-  components: [aged-paper, period-font, wax-seal, letterlock, evidence-document, feelie]
-  genre: [mystery, horror, historical, heist]
+  effects: [catharsis, credibility, discovery, tactility]
+  problems: [disorientation, immersion-break, unsolvability]
+  components: [locks-and-concealment, paper-artefacts, set-dressing-and-environment]
+  genre: [heist, historical, horror, mystery]
 provenance: "researched"
 ---
 

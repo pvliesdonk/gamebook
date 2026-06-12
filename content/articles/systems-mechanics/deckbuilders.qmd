@@ -4,9 +4,9 @@ aliases: ["Deck-Building Games", "Deckbuilding Genre"]
 family: "Systems & Mechanics"
 media: [tabletop]
 facets:
-  effects: [engine-building, felt-progression, tactical-variety]
-  problems: [deck-bloat, dominant-strategy, market-luck]
-  components: [cards, market, starting-deck, trash-pile]
+  effects: [mastery]
+  problems: [content-cost, degenerate-play, unfairness]
+  components: [physical-parts, state-and-resource-trackers]
   genre: [fantasy, sci-fi]
 provenance: "researched"
 ---

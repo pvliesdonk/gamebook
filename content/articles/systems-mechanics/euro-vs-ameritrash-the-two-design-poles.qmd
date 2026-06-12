@@ -4,10 +4,10 @@ aliases: ["German-Style vs American-Style", "Euro vs Thematic", "The Euro-Amerit
 family: "Systems & Mechanics"
 media: [tabletop]
 facets:
-  effects: [optimisation-pleasure, dramatic-tension, table-presence]
-  problems: [theme-mechanism-mismatch, runaway-luck, player-elimination]
-  components: [wooden-cubes, custom-dice, miniatures, scoring-track]
-  genre: [historical, sci-fi, fantasy, horror]
+  effects: [immersion, mastery, tension]
+  problems: [exclusion, immersion-break, unfairness]
+  components: [physical-parts, state-and-resource-trackers]
+  genre: [fantasy, historical, horror, sci-fi]
 provenance: "researched"
 ---
 

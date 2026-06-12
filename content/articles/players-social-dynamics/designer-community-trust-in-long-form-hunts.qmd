@@ -4,10 +4,10 @@ aliases: ["Hunt Trust", "Verifiability Compact", "Designer Presence"]
 family: "Players & Social Dynamics"
 media: [puzzle-hunt, live-game]
 facets:
-  effects: [sustained-trust, community-investment, good-faith-play]
-  problems: [unverifiable-answer, abandoned-hunt, designer-death, spoiler-leak]
-  components: [verification-protocol, solution-steward, community-platform, spoiler-norm]
-  genre: [mystery, treasure-hunt]
+  effects: [belonging, trust]
+  problems: [dead-end, disorientation, unfairness, unsolvability]
+  components: [electronics-and-digital, procedures-and-protocols, roles-and-social-frame]
+  genre: [adventure, mystery]
 provenance: "researched"
 ---
 

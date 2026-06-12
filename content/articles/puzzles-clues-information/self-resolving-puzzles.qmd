@@ -4,10 +4,11 @@ aliases: ["Mechanism as Judge", "Self-Validating Puzzles", "Machine-Checked Solu
 family: "Puzzles, Clues & Information"
 media: [live-game, interactive-fiction, tabletop, puzzle-hunt]
 facets:
-  effects: [felt-feedback, earned-confidence, operator-relief]
-  problems: [false-positive-solve, gm-load, reset-failure, disputed-call]
-  components: [lock, sensor, controller, answer-checker, relay-output]
-  genre: [escape-room, mystery]
+  effects: [legibility, mastery, operability]
+  problems: [content-cost, unfairness, unsolvability]
+  components: [electronics-and-digital, locks-and-concealment, procedures-and-protocols]
+  genre: [mystery]
+  format: [escape-room]
 provenance: "researched"
 ---
 

@@ -4,9 +4,9 @@ aliases: ["SF Conventions", "Sci-Fi Genre Craft", "The Novum"]
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop]
 facets:
-  effects: [plausible-speculation, fictional-coherence, sense-of-wonder]
-  problems: [technobabble-deus-ex-machina, planet-of-hats, dates-that-age]
-  components: [novum, subgenre-contract, diegetic-interface, tech-ruleset]
+  effects: [credibility, surprise]
+  problems: [flat-character, immersion-break, unfairness]
+  components: [electronics-and-digital, narrative-primitives, paper-artefacts, roles-and-social-frame]
   genre: [sci-fi]
 provenance: "researched"
 ---

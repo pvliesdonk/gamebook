@@ -4,10 +4,10 @@ aliases: ["Session 0", "The Pre-Game Agreement", "Group Contract", "Campaign Set
 family: "Players & Social Dynamics"
 media: [tabletop, live-game, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [shared-expectations, consent-foundation, group-buy-in, fewer-mid-campaign-ruptures]
-  problems: [mismatched-tone, undiscussed-commitment, unsafe-content, strangers-at-table]
-  components: [campaign-pitch, content-calibration, safety-tool, character-link, feedback-round]
-  genre: [mystery, horror, fantasy, sci-fi]
+  effects: [belonging, legibility, operability, safety]
+  problems: [content-cost, safety-failure, voice-drift]
+  components: [paper-artefacts, procedures-and-protocols, roles-and-social-frame, structural-primitives]
+  genre: [fantasy, horror, mystery, sci-fi]
 provenance: "researched"
 ---
 

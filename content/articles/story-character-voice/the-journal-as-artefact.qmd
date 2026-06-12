@@ -4,10 +4,11 @@ aliases: ["Journaling as Output", "The Play Document", "Writing as the Game"]
 family: "Story, Character & Voice"
 media: [tabletop, interactive-fiction]
 facets:
-  effects: [durable-keepsake, first-person-immersion, designed-closure]
-  problems: [hollow-prose, voice-drift, no-endpoint]
-  components: [prompt-deck, notebook, character-voice, closing-ritual]
-  genre: [solo, epistolary, horror]
+  effects: [catharsis, immersion, tactility]
+  problems: [disorientation, prose-failure, voice-drift]
+  components: [narrative-primitives, paper-artefacts, physical-parts, procedures-and-protocols]
+  genre: [horror, literary]
+  format: [solo]
 provenance: "researched"
 ---
 

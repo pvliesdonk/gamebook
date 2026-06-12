@@ -4,10 +4,11 @@ aliases: ["Open Table", "Rotating Roster Campaign", "West Marches Campaign", "Dr
 family: "Structure & Pacing"
 media: [tabletop, live-game, puzzle-hunt]
 facets:
-  effects: [player-agency, persistent-world, sustained-community]
-  problems: [scheduling-collapse, gm-burnout, roster-churn, lore-drift]
-  components: [shared-map, town-hub, session-report, sign-up-sheet]
-  genre: [fantasy, adventure, sandbox]
+  effects: [agency, belonging, immersion]
+  problems: [content-cost, voice-drift]
+  components: [paper-artefacts, structural-primitives]
+  genre: [adventure, fantasy]
+  format: [sandbox]
 provenance: "researched"
 ---
 

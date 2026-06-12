@@ -4,10 +4,10 @@ aliases: ["Embedded Electronics", "Smart Props", "Diegetic Devices", "In-World S
 family: "Space, Props & Materiality"
 media: [live-game, tabletop, puzzle-hunt, interactive-fiction]
 facets:
-  effects: [immersion, dynamic-state, telemetry, presence]
-  problems: [non-diegetic-screen, mid-session-failure, reset-overhead, immersion-break]
-  components: [microcontroller, screen, addressable-led, rfid-reader, companion-app, themed-enclosure]
-  genre: [sci-fi, horror, mystery, heist, historical]
+  effects: [immersion, legibility]
+  problems: [content-cost, dead-end, immersion-break]
+  components: [electronics-and-digital, locks-and-concealment]
+  genre: [heist, historical, horror, mystery, sci-fi]
 provenance: "researched"
 ---
 

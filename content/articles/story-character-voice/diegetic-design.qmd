@@ -4,9 +4,9 @@ aliases: ["Diegesis", "Show the World Hide the Gears", "Diegetic UI", "Diegetic 
 family: "Story, Character & Voice"
 media: [interactive-fiction, live-game, tabletop, puzzle-hunt]
 facets:
-  effects: [immersion, fictional-coherence, present-tense-world]
-  problems: [fourth-wall-break, mechanical-leakage, author-intrusion]
-  components: [choice-text, gate, codex-entry, player-facing-surface]
+  effects: [credibility, immersion]
+  problems: [immersion-break, prose-failure]
+  components: [narrative-primitives, paper-artefacts, set-dressing-and-environment, structural-primitives]
   genre: [horror, mystery, sci-fi]
 provenance: "researched"
 ---

@@ -4,10 +4,10 @@ aliases: ["Encryption Puzzles", "Decipherment", "Cryptography Puzzles"]
 family: "Puzzles, Clues & Information"
 media: [interactive-fiction, live-game, puzzle-hunt]
 facets:
-  effects: [earned-discovery, recognition-click, thematic-resonance]
-  problems: [unfair-gate, anticlimax, mismatched-difficulty]
-  components: [ciphertext, cipher-key, indicator, reference-chart]
-  genre: [mystery, spy, historical]
+  effects: [catharsis, discovery]
+  problems: [pacing-failure, unsolvability]
+  components: [electronics-and-digital, locks-and-concealment, paper-artefacts]
+  genre: [historical, mystery, thriller]
 provenance: "researched"
 ---
 

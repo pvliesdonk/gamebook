@@ -4,10 +4,10 @@ aliases: ["Board Game Mechanisms", "Mechanism Families", "Tabletop Mechanism Glo
 family: "Systems & Mechanics"
 media: [tabletop]
 facets:
-  effects: [shared-vocabulary, design-literacy, decision-shape]
-  problems: [naming-confusion, theme-mechanism-conflation, reinventing-patterns]
-  components: [board, cards, dice, tokens, tiles]
-  genre: [historical, fantasy, sci-fi]
+  effects: [agency, legibility]
+  problems: [degenerate-play, immersion-break, voice-drift]
+  components: [physical-parts]
+  genre: [fantasy, historical, sci-fi]
 provenance: "researched"
 ---
 

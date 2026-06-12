@@ -4,10 +4,10 @@ aliases: ["Host Positions", "Facilitator Roles", "Running vs Playing"]
 family: "Players & Social Dynamics"
 media: [live-game, tabletop, puzzle-hunt, interactive-fiction]
 facets:
-  effects: [shared-discovery, host-burnout, social-equality, sustained-control]
-  problems: [host-cannot-play, facilitation-workload, repeat-run-fatigue, adjudication-conflict]
-  components: [run-sheet, hint-system, character-brief, honour-system]
-  genre: [mystery, detective]
+  effects: [belonging, discovery, operability]
+  problems: [content-cost, exclusion, unfairness]
+  components: [paper-artefacts, procedures-and-protocols]
+  genre: [mystery]
 provenance: "researched"
 ---
 

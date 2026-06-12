@@ -4,10 +4,10 @@ aliases: ["Epiphany", "Sudden Insight", "The Click", "Eureka"]
 family: "Puzzles, Clues & Information"
 media: [live-game, tabletop, interactive-fiction, puzzle-hunt]
 facets:
-  effects: [earned-discovery, sudden-insight, retrospective-obviousness]
-  problems: [no-payoff-grind, unearned-reveal, stuck-with-no-shift]
-  components: [enabling-trigger, confirmation-signal, misdirecting-surface]
-  genre: [mystery, detective]
+  effects: [discovery]
+  problems: [false-agency, pacing-failure, unfairness]
+  components: [locks-and-concealment, procedures-and-protocols, structural-primitives]
+  genre: [mystery]
 provenance: "researched"
 ---
 

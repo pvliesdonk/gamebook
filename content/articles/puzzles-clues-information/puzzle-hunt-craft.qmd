@@ -4,10 +4,10 @@ aliases: ["Hunt Design", "Puzzlehunt Construction", "Mystery Hunt Design"]
 family: "Puzzles, Clues & Information"
 media: [live-game, puzzle-hunt, interactive-fiction]
 facets:
-  effects: [sustained-momentum, distributed-labour, communal-payoff]
-  problems: [single-bottleneck, unsolvable-puzzle, anticlimactic-finale]
-  components: [feeder-puzzle, meta-puzzle, unlock-graph, answer-checker, hint-queue]
-  genre: [mystery, adventure]
+  effects: [belonging, momentum]
+  problems: [dead-end, pacing-failure, unsolvability]
+  components: [procedures-and-protocols, structural-primitives]
+  genre: [adventure, mystery]
 provenance: "researched"
 ---
 

@@ -4,10 +4,10 @@ aliases: ["Action Economy", "Turn Order", "Initiative", "Downtime", "Analysis Pa
 family: "Systems & Mechanics"
 media: [tabletop, live-game, interactive-fiction]
 facets:
-  effects: [felt-pace, sustained-engagement, tactical-depth]
-  problems: [downtime, analysis-paralysis, idle-players]
-  components: [turn-order, action-budget, timer, initiative-roll]
-  genre: [fantasy, sci-fi, historical]
+  effects: [mastery, momentum]
+  problems: [degenerate-play, exclusion]
+  components: [electronics-and-digital, procedures-and-protocols, state-and-resource-trackers]
+  genre: [fantasy, historical, sci-fi]
 provenance: "researched"
 ---
 

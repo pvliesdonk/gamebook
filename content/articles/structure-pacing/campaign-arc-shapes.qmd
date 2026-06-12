@@ -4,10 +4,10 @@ aliases: ["Campaign Structure", "Campaign Models", "Campaign Topology"]
 family: "Structure & Pacing"
 media: [tabletop, interactive-fiction, live-game]
 facets:
-  effects: [long-term-investment, player-agency, narrative-momentum]
-  problems: [campaign-stall, prep-overload, expectation-mismatch]
-  components: [session, faction, arc, situation, continuity-record]
-  genre: [fantasy, mystery, adventure]
+  effects: [agency, momentum, tension]
+  problems: [content-cost, dead-end, voice-drift]
+  components: [narrative-primitives, paper-artefacts, roles-and-social-frame]
+  genre: [adventure, fantasy, mystery]
 provenance: "researched"
 ---
 
