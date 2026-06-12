@@ -155,6 +155,7 @@ book:
     - part: "Exemplars"
       chapters:
         - content/exemplars/index.qmd
+        - content/exemplars/blades-in-the-dark.qmd
     - part: "Style Specimens"
       chapters:
         - content/specimens/index.qmd

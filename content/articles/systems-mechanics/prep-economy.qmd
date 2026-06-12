@@ -115,6 +115,7 @@ The puzzle hunt meets the economy as a routing decision: how much to prepare in 
 
 ## Referenced by
 
+- [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
 - [Campaign Arc Shapes](../structure-pacing/campaign-arc-shapes.qmd)
 - [Encounter & Challenge Design](encounter-and-challenge-design.qmd)
 - [Fabrication & Sourcing](../space-props-materiality/fabrication-and-sourcing.qmd)

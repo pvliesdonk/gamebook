@@ -2,6 +2,12 @@
 title: "Exemplars"
 ---
 
+Profiles of real works, each read as a consistent stat block and cross-linked to
+the mechanisms it shows off. Where the species accounts describe a technique in
+the abstract, an exemplar shows it doing its job in a shipped game or experience.
+Follow a profile's links to reach the articles it illustrates; follow an
+article's *Referenced by* register to find the works that demonstrate it.
 
-Profiles of real works as consistent stat blocks, cross-linked to the mechanisms
-they illustrate.
+## Tabletop
+
+- [Blades in the Dark](blades-in-the-dark.qmd) — position-and-effect resolution, progress clocks, the flashback, and faction clocks as a world-engine.

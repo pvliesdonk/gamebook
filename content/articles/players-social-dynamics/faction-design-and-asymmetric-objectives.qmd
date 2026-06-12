@@ -116,6 +116,7 @@ There is a whole tradition that builds faction-like structures and deliberately 
 
 ## Referenced by
 
+- [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
 - [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd)
 - [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd)
 - [Heist & Caper Patterns](../story-character-voice/heist-and-caper-patterns.qmd)
