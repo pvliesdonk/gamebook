@@ -125,6 +125,7 @@ This is also where the form proves its reach across other media. In live and phy
 - [Prose Patterns & Point of View](../story-character-voice/prose-patterns-and-point-of-view.qmd)
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
 - [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)
+- [Sleep No More & Punchdrunk](../../exemplars/sleep-no-more-and-punchdrunk.qmd)
 - [Solo Journaling RPGs: Genre & Form](../story-character-voice/solo-journaling-rpgs-genre-and-form.qmd)
 - [Time Loop Patterns](time-loop-patterns.qmd)
 

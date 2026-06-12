@@ -108,6 +108,7 @@ The seductive failure is the clever rule only you know. You invent an elegant st
 - [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd)
 - [Accessibility in Live & Interactive Games](../players-social-dynamics/accessibility-in-live-and-interactive-games.qmd)
 - [Artefact Design & Document Production](../space-props-materiality/artefact-design-and-document-production.qmd)
+- [Call of Cthulhu](../../exemplars/call-of-cthulhu.qmd)
 - [Ciphers & Codes](ciphers-and-codes.qmd)
 - [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
 - [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)

@@ -95,6 +95,7 @@ The single-player media inherit the small-scale version of the same problem. Int
 
 ## Referenced by
 
+- [Blood on the Clocktower](../../exemplars/blood-on-the-clocktower.qmd)
 - [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd)
 - [Distributing Narrative Authority](../systems-mechanics/distributing-narrative-authority.qmd)
 - [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd)

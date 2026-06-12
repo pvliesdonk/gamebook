@@ -1,0 +1,79 @@
+---
+title: "Call of Cthulhu"
+type: exemplar
+medium: tabletop
+year: 1981
+designer: "Sandy Petersen (Chaosium)"
+mechanisms:
+  - ../articles/systems-mechanics/mechanical-resolution-types.qmd
+  - ../articles/systems-mechanics/system-vs-setting.qmd
+  - ../articles/systems-mechanics/ttrpg-format-taxonomy.qmd
+  - ../articles/structure-pacing/session-pacing-and-energy-management.qmd
+  - ../articles/systems-mechanics/encounter-and-challenge-design.qmd
+  - ../articles/story-character-voice/horror-conventions.qmd
+  - ../articles/puzzles-clues-information/information-architecture.qmd
+  - ../articles/puzzles-clues-information/cluing-and-fairness.qmd
+  - ../articles/story-character-voice/mystery-and-detective-fiction.qmd
+provenance: "corpus"
+---
+
+*Profile: a horror game that wins by making its heroes fragile and handing them a track they spend down towards madness, so the evening becomes the slow assembly of a truth no one should learn.*
+
+Call of Cthulhu is the game that proved a roleplaying system could carry its genre in the rules rather than only in the setting text. Sandy Petersen designed it for Chaosium in 1981, fitting Lovecraftian horror onto the Basic Role-Playing chassis that Steve Perrin had built for RuneQuest and that Greg Stafford and Lynn Willis had codified into a slim booklet a year earlier. [corpus] It won the Origins Award for best roleplaying rules that year, and it has run for seven editions since without ever discarding its 1981 core. [corpus] What kept it alive is not novelty in the [resolution chassis](../articles/systems-mechanics/mechanical-resolution-types.qmd), which is plain by design, but the way two of its parts bind the genre to the maths.
+
+It earns a place in this gazetteer because of that binding. Most horror games describe a frightening world and trust the table to feel it. Call of Cthulhu builds the fear into the [coupling of system and setting](../articles/systems-mechanics/system-vs-setting.qmd), so a group cannot play it straight and accidentally produce heroic adventure. The links below run to the articles each part exemplifies; read the other way, those articles list this game in their *Referenced by* register.
+
+## The design profile
+
+The resolution core is a [roll-under percentile check](../articles/systems-mechanics/mechanical-resolution-types.qmd). Each skill is rated from 1 to 100, you roll two ten-sided dice for a result in that range, and you succeed by landing at or under the rating. [corpus] The rating is not a modifier on some hidden attribute; it is the whole of the character's competence at that thing. A reporter with Library Use 65 has a 65 per cent chance, legible at a glance, no arithmetic between the player and the odds. The seventh edition (2014) layered three grades of success onto that line, Regular, Hard at half the rating, and Extreme at a fifth, which gave the Keeper a cleaner gradient than the old fumble tables. [corpus]
+
+The characteristic scores behind the skills, eight of them from Strength to Education, mostly serve as seeds. They set starting skill values and feed the secondary tracks, and one of those tracks is the reason the game exists.
+
+::: {.callout-note}
+### The Signature
+
+Sanity is a numeric track, starting at the character's Power characteristic times five. [corpus] Every brush with the Mythos, a forbidden tome or a glimpse of cosmic indifference, calls for a Sanity roll. Succeed and you lose only a little; fail and the loss is heavier. Those losses pool into temporary and then indefinite insanity, while a fully drained track is permanent madness. The cruel turn is the Cthulhu Mythos skill itself. Learning how the universe truly works lowers your Sanity ceiling, so the knowledge the investigators are chasing is also the thing that destroys them. [corpus]
+:::
+
+This is the game's most copied idea, and it works because the rules do not merely depict a hostile cosmos: they enforce its premise. The Mythos cannot be filed into a healthy worldview. It can only be paid for. Petersen has recalled players in the first playtest acting out dread before any roll was called, hiding their eyes and backing away, which he read as the mechanical pressure performing the fiction rather than measuring it. [corpus] That is what a [horror convention encoded in mechanics](../articles/story-character-voice/horror-conventions.qmd) looks like when it lands: the rule that says knowledge has a psychic cost stops being flavour text and starts governing every choice at the table.
+
+Sanity also paces the evening. A drained track is not refilled by a night's rest the way hit points are, so each step deeper into the mystery is a withdrawal the player feels. The table is forced to weigh pressing on against pulling back to keep a character viable, and that tension shapes a [session rhythm](../articles/structure-pacing/session-pacing-and-energy-management.qmd) unlike the dungeon crawl: long, quiet stretches of gathering, broken by sharp drops into horror. [corpus]
+
+The other defining choice is what fills those quiet stretches. Call of Cthulhu put investigation where most of its contemporaries put combat. [corpus] Investigators are reporters, doctors, and academics with low hit points and feeble combat skills, so a sustained fight is close to suicide, and the statistics quietly herd the table towards interviews, library work, and reading a scene. [corpus] The scenario that emerged across the published catalogue is the investigation arc. It opens on a hook, usually a disappearance or a murder, then spreads into a web of locations and people with clues threaded across it. The pay-off is a revelation that confirms the dread. The clue web is, in effect, a [non-combat encounter](../articles/systems-mechanics/encounter-and-challenge-design.qmd) whose challenge is information rather than attrition, and the arc bends towards convergence at a final place or confrontation rather than running in a line. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+
+Investigation built on skill rolls carries a structural fault, the clue bottleneck. When one critical fact lies behind a single failed roll, the whole evening can stall, with nowhere for the table to go. [corpus] Keepers answer this with the Three Clue Rule: any fact the plot needs should be reachable by at least three independent routes, so a single missed roll leaves the thread intact. [researched] It is a question of [information architecture](../articles/puzzles-clues-information/information-architecture.qmd), and of [cluing for fairness](../articles/puzzles-clues-information/cluing-and-fairness.qmd) rather than for difficulty. The principle is community craft, not a written rule in the core books, and that is the trap: a Keeper who runs the published mode without it inherits the fault unmitigated. [corpus]
+:::
+
+The investigation arc is also where the game meets the wider craft of [mystery and detective fiction](../articles/story-character-voice/mystery-and-detective-fiction.qmd). The investigator roster reads as the genre's archetypes, the amateur and the private detective and the troubled expert, and the fair-play compact, that the evidence to reach the truth must actually be in the players' hands, is the same compact the detective tradition has held since Knox and Van Dine. [synthesis] The character sheet records the genre's furniture too. Alongside the Sanity track sit an Occupation and a set of attachments, the Significant People and Meaningful Locations and Treasured Possessions, so the investigator is logged as a person with something to lose rather than a stat block. [corpus]
+
+## The wider influence
+
+The game's longevity is the design lesson on its own. Four things hold it up. The chassis was already proved in play rather than freshly invented. Sanity binds the system to its setting. The edition discipline never threw away the prior rules base. And the campaign library is deeper than any other non-D&D game can claim. [synthesis] *Masks of Nyarlathotep* (1984) set the standard, a globe-spanning conspiracy across New York, London, Cairo, Kenya, Shanghai, and Australia that established the multi-city linked-scenario format and that later Adventure Paths acknowledged as an influence. [corpus] *Horror on the Orient Express* and *Beyond the Mountains of Madness* extended the same investigative depth, the latter trading action for slow-burn dread on a 1933 Antarctic expedition. [corpus]
+
+The Sanity mechanic, meanwhile, escaped the game entirely. Designers who have never opened the rulebook still reach for a depleting madness meter when they want knowledge to carry a cost, and the pattern now reads as common vocabulary rather than one game's invention. [synthesis] The clue bottleneck it exposed also drove a direct mechanical answer. *Trail of Cthulhu* (Pelgrane Press, 2008) rebuilt the same setting on the GUMSHOE system, where having the relevant investigative ability simply yields the clue with no roll, and dice are kept for moments where failure is interesting. [corpus] That is a structural fix for the fault the Three Clue Rule patches by convention. *Delta Green* began as a Call of Cthulhu supplement and grew into its own game about modern institutional horror, evidence that the investigation-and-dread engine carries well past the 1920s setting it was built for. [corpus]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop roleplaying game |
+| Designer | Sandy Petersen (Chaosium) |
+| Published | 1981, Chaosium; 7th edition 2014 |
+| Players | A Keeper and roughly two to six investigators |
+| Format | Investigation scenarios and multi-session campaigns, often run from published material |
+| Substrate | Core rulebook, percentile (d100) dice, investigator sheets, Sanity and skill tracks |
+| Setting | Lovecraft's public-domain Cthulhu Mythos, default period the 1920s |
+
+## Sources
+
+- Petersen, Sandy, and Lynn Willis. *Call of Cthulhu*. Chaosium, 7th ed., 2014. (Resolution core, Sanity rules, investigator sheet, bonus/penalty and pushed rolls.) <https://www.chaosium.com/call-of-cthulhu-rpg/>
+- "Call of Cthulhu (role-playing game)." Wikipedia. (Publication history, seven editions, Origins Award, the BRP foundation.) <https://en.wikipedia.org/wiki/Call_of_Cthulhu_(role-playing_game)>
+- "Basic Role-Playing." Wikipedia. (The d100 roll-under chassis inherited from RuneQuest.) <https://en.wikipedia.org/wiki/Basic_Role-Playing>
+- "The accidental origin of the Call of Cthulhu Sanity mechanic." GAMES.GG. (Petersen on the first playtest and Sanity's design.) <https://games.gg/news/call-of-cthulhu-sanity-system-origin/>
+- Alexander, Justin. "The Three Clue Rule." The Alexandrian. (The independent-redundancy convention for investigation scenarios.) <https://thealexandrian.net/wordpress/1118/roleplaying-games/the-three-clue-rule>
+- "Masks of Nyarlathotep." Wikipedia. (The multi-city linked-scenario campaign and its influence.) <https://en.wikipedia.org/wiki/Masks_of_Nyarlathotep>
+- "Trail of Cthulhu." Wikipedia, and "The Keeper of the Clues." Pelgrane Press. (GUMSHOE's automatic-clue answer to the bottleneck.) <https://en.wikipedia.org/wiki/Trail_of_Cthulhu> · <https://pelgranepress.com/2013/03/28/the-keeper-of-the-clues/>
+- "Delta Green." Wikipedia. (From Call of Cthulhu supplement to standalone game.) <https://en.wikipedia.org/wiki/Delta_Green>

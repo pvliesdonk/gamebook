@@ -155,7 +155,12 @@ book:
     - part: "Exemplars"
       chapters:
         - content/exemplars/index.qmd
+        - content/exemplars/apocalypse-world.qmd
         - content/exemplars/blades-in-the-dark.qmd
+        - content/exemplars/blood-on-the-clocktower.qmd
+        - content/exemplars/call-of-cthulhu.qmd
+        - content/exemplars/crystal-maze.qmd
+        - content/exemplars/sleep-no-more-and-punchdrunk.qmd
     - part: "Style Specimens"
       chapters:
         - content/specimens/index.qmd

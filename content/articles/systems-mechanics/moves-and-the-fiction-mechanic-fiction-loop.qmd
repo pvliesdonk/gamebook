@@ -129,6 +129,7 @@ The loop turns out to survive the loss of its own randomiser, which is the stron
 
 ## Referenced by
 
+- [Apocalypse World](../../exemplars/apocalypse-world.qmd)
 - [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd)
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
 - [Encounter & Challenge Design](encounter-and-challenge-design.qmd)

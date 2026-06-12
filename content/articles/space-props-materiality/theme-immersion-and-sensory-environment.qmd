@@ -149,7 +149,9 @@ In a puzzle hunt or an alternate reality game the set is the real world itself, 
 - [QR & NFC Patterns](qr-and-nfc-patterns.qmd)
 - [Search, Observation & Lateral Thinking](../puzzles-clues-information/search-observation-and-lateral-thinking.qmd)
 - [Session Pacing & Energy Management](../structure-pacing/session-pacing-and-energy-management.qmd)
+- [Sleep No More & Punchdrunk](../../exemplars/sleep-no-more-and-punchdrunk.qmd)
 - [System vs Setting](../systems-mechanics/system-vs-setting.qmd)
+- [The Crystal Maze](../../exemplars/crystal-maze.qmd)
 - [Theme-Mechanism Integration](../systems-mechanics/theme-mechanism-integration.qmd)
 
 <!-- BACKLINKS:END -->

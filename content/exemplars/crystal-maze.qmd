@@ -1,0 +1,72 @@
+---
+title: "The Crystal Maze"
+type: exemplar
+medium: live-game
+year: 1990
+designer: "Chatsworth Television (Channel 4); Little Lion Entertainment (Live Experience)"
+mechanisms:
+  - ../articles/structure-pacing/session-pacing-and-energy-management.qmd
+  - ../articles/structure-pacing/escape-room-topologies.qmd
+  - ../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd
+  - ../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
+  - ../articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd
+  - ../articles/players-social-dynamics/spectator-friendly-design.qmd
+  - ../articles/players-social-dynamics/parallel-team-architectures.qmd
+provenance: "corpus"
+---
+
+*Profile: four themed worlds and a crystal earned by beating the clock, run by a host who stands at the glass setting the tempo without ever solving the puzzle.*
+
+The Crystal Maze is the rare game show that was secretly a venue all along. When Channel 4 first broadcast it on 15 February 1990, what held viewers was not any one puzzle room but the shape around the rooms. There were four worlds you could tell apart at a glance. The team raced a clock in place of a scoreboard. And a host walked them through the lot while staying pointedly outside each challenge. [corpus] Twenty-six years later the same shape opened as a walk-in attraction in London, and it has since become a reference point that escape-room and immersive operators reach for whether or not they have named it. [corpus]
+
+It earns a place in this gazetteer because its lessons are structural rather than mechanical. The individual games were ordinary by design. What the format got right was the architecture that carried them. It kept a long session from going stale. It made time itself the thing at stake. And it gave six people who barely knew each other one shared ending. The links below run to the articles each part exemplifies.
+
+## The design profile
+
+The format separated its four zones so completely that crossing from one to the next felt like a change of place rather than a change of door. Aztec was rough stone and water clocks; Medieval was torchlight and hourglasses; Industrial was pipes and gauges; Futuristic was a space-station backdrop with digital read-outs. From the fourth series an Ocean zone, set on the tilted deck of a wrecked ship, took the slot that Industrial had held. [corpus] Each had its own light and its own sound, down to its own timekeeping prop, so the difference was felt before it was reasoned about. This is the case study the article on [theme and sensory environment](../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd) keeps returning to: the set is not decoration here, it is the mechanism that resets the player's frame between rooms. [corpus]
+
+That reset is doing pacing work. A team fresh from a lost logic puzzle in Futuristic enters Medieval without the previous room's mood behind it. A long run never settles into one flat register. [corpus] Nested inside the zone rotation sits a second layer of variety. Every game belonged to one of four kinds, and a single zone visit would draw on three or four of them.
+
+::: {.callout-note}
+### The Signature
+
+Time is the currency, not points. A team earns a "time crystal" by finishing a game before the clock runs out. Miss the clock and the contestant is locked in, releasable only by spending a crystal already won. In the final Crystal Dome the crystals convert straight into seconds. Each one is worth five seconds of Dome time, so eight crystals buy forty seconds inside the Dome and twelve buy sixty. Distributed individual performance turns into one shared stake that is viscerally legible. You can count what a failure cost, in seconds. [corpus]
+:::
+
+Those four kinds of game were Mental, Physical, Skill, and Mystery, and they map onto the broader divisions set out in [a taxonomy of puzzles](../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd). [corpus] Their real cleverness was how freely they could be transposed. A memory-sequence game is the same underlying puzzle whether it is dressed in candles and an hourglass or in LEDs and a digital display, so the production could hold four mechanical archetypes against four aesthetic skins and have sixteen games before inventing a single new mechanic. [synthesis] The variety the audience saw was generated cheaply from a small kit of parts.
+
+The whole run rode on the host. Richard O'Brien, who fronted the first four series in a long fur coat, set the template. He walked with the team and teased them from the threshold, watching through the glass, but he never reached into a room to help. [corpus] The position looks passive and is not. A host who signals mild panic as the clock bleeds out hurries the team along; one who plays a failure for laughs takes the sting out of it. This is the live-game version of the problem the article on [host roles](../articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd) sets out. The host runs the game and cannot be a player in it, so the craft is all in how the group is read and steered from outside. [corpus] The lock-in gave that role a small ritual: the host would announce the capture and broker the crystal that bought a release. That beat marked the team's return to motion.
+
+The lock-in also reveals why the format reads so well to a watching audience. A locked-in contestant does not leave; they stand inside the room, visible through the window, while their team plays on. [corpus] That captured-but-present figure is a small theatre in itself, which is the quality the article on [spectator-friendly design](../articles/players-social-dynamics/spectator-friendly-design.qmd) prizes: drama that is legible from outside the action, not buried in it. [corpus]
+
+## The wider influence
+
+The Crystal Maze Live Experience opened in a central London warehouse in March 2016, funded through an Indiegogo campaign that reached roughly 185 per cent of its target, about 934,000 GBP, by July 2015. [corpus] A second venue followed at the old Granada Studios site in Manchester. [corpus] The translation kept the bones of the format and changed what venue operation demanded. Groups of up to eight rotate through four zones that run at once over a 75-minute session, each room worked by a drama-trained performer called a Maze Master in place of a single broadcast host. [corpus] Running the zones in parallel for separate groups is the venue-scale answer the article on [parallel team architectures](../articles/players-social-dynamics/parallel-team-architectures.qmd) describes, and the long session length is the kind of energy budget the article on [session pacing](../articles/structure-pacing/session-pacing-and-energy-management.qmd) treats as a first-order design variable. [synthesis]
+
+Read at the level of plan, the four-zone rotation is a hub-and-spoke layout stretched across a building, so the article on [escape room topologies](../articles/structure-pacing/escape-room-topologies.qmd) cites it as a worked example of a multi-linear venue. [corpus] The library matters as much as the layout: more than a hundred games have rotated across the zones since opening, which gives repeat visitors a genuinely different run and lets the operators retire games that wear badly in front of live audiences. [corpus] That is a playtesting loop wired into a trading venue, a thing most designers only reach in scheduled sessions.
+
+::: {.callout-warning}
+### The Hazard
+
+The rotation only works if the budget can sustain four convincing worlds. Squeeze it into a small footprint and the zones collapse into one room wearing four sets of dressing, and the perceptual reset that does the pacing work simply does not fire. The same fragility runs through the host: the format loads enormous weight onto one performer's moment-to-moment read of the group, and not every Maze Master, nor every successor to O'Brien, carries it. A format this dependent on a human in the loop breaks in ways a purely mechanical one does not. [synthesis]
+:::
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Television game show; live walk-in attraction |
+| Designer | Chatsworth Television (Channel 4); Little Lion Entertainment (Live Experience) |
+| Published | First broadcast 15 February 1990; Live Experience opened March 2016 |
+| Players | Teams of six on the show; up to eight per group at the venue |
+| Format | Four themed zones in rotation, games raced against the clock, a shared Crystal Dome finale |
+| Substrate | Built zone sets, timekeeping props, time crystals, the Dome of flying gold and silver tokens |
+| Successor | Crystal Maze Live Experience (London and Manchester); 2017 revival with Richard Ayoade |
+
+## Sources
+
+- "The Crystal Maze." Wikipedia. (Zone descriptions, host history, team composition, viewing figures, game types, and the Crystal Dome mechanic.) <https://en.wikipedia.org/wiki/The_Crystal_Maze>
+- "The Crystal Maze." UKGameshows. (Broadcast dates, series-by-series host transitions, zone and rule detail.) <https://www.ukgameshows.com/ukgs/The_Crystal_Maze>
+- Carter, Rebecca. "In-depth: The Crystal Maze Live Experience." Blooloop. (Producer Tom Lionetti-Maguire on the attraction's design philosophy. Covers the Maze Master role and the rotating library of more than 100 games, plus the lock-in softened after its documented link to negative reviews.) <https://blooloop.com/theme-park/in-depth/crystal-maze-live-experience/>
+- "The Crystal Maze Live Experience." Official site. (London and Manchester venue details, session length, group size.) <https://www.the-crystal-maze.com/>
+- "The Crystal Maze LIVE Experience." Indiegogo. (Crowdfunding figures and timeline for the London venue.) <https://www.indiegogo.com/projects/the-crystal-maze-live-experience>

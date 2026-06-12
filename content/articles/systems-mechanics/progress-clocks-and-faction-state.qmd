@@ -101,6 +101,7 @@ The same accumulation logic shows up outside the tabletop. In a large live game 
 
 ## Referenced by
 
+- [Apocalypse World](../../exemplars/apocalypse-world.qmd)
 - [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
 - [Campaign Arc Shapes](../structure-pacing/campaign-arc-shapes.qmd)
 - [Clue Sequencing & Chains](../puzzles-clues-information/clue-sequencing-and-chains.qmd)

@@ -100,6 +100,8 @@ The seductive failure is the secret stance switch. A gamemaster runs a game as a
 
 ## Referenced by
 
+- [Apocalypse World](../../exemplars/apocalypse-world.qmd)
+- [Blood on the Clocktower](../../exemplars/blood-on-the-clocktower.qmd)
 - [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)
 - [Distributing Narrative Authority](../systems-mechanics/distributing-narrative-authority.qmd)
 - [Encounter & Challenge Design](../systems-mechanics/encounter-and-challenge-design.qmd)

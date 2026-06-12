@@ -99,6 +99,7 @@ The category is not the design. A taxonomy tells you a puzzle counts as an obser
 - [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd)
 - [Teaching Through Play](teaching-through-play.qmd)
 - [The Aha Moment](the-aha-moment.qmd)
+- [The Crystal Maze](../../exemplars/crystal-maze.qmd)
 - [Treasure & Scavenger Hunts](treasure-and-scavenger-hunts.qmd)
 
 <!-- BACKLINKS:END -->

@@ -10,4 +10,12 @@ article's *Referenced by* register to find the works that demonstrate it.
 
 ## Tabletop
 
-- [Blades in the Dark](blades-in-the-dark.qmd) — position-and-effect resolution, progress clocks, the flashback, and faction clocks as a world-engine.
+- [Apocalypse World](apocalypse-world.qmd): moves and the fiction-mechanic loop, playbooks, and the MC as a designed role.
+- [Blades in the Dark](blades-in-the-dark.qmd): position-and-effect resolution, progress clocks, the flashback, and faction clocks as a world-engine.
+- [Blood on the Clocktower](blood-on-the-clocktower.qmd): social deduction without player elimination, run by a Storyteller who cannot play.
+- [Call of Cthulhu](call-of-cthulhu.qmd): the Sanity mechanic and investigative cluing, with horror encoded in the rules.
+
+## Live games
+
+- [The Crystal Maze](crystal-maze.qmd): zoned timed challenges and theatrical hosting, paced across a long session.
+- [Sleep No More & Punchdrunk](sleep-no-more-and-punchdrunk.qmd): free-roaming immersive theatre, the mask contract, and the repeating loop as a multiple-visit engine.

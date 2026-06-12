@@ -1,0 +1,76 @@
+---
+title: "Blood on the Clocktower"
+type: exemplar
+medium: tabletop
+year: 2022
+designer: "Steven Medway (The Pandemonium Institute)"
+mechanisms:
+  - ../articles/systems-mechanics/social-performance-genres.qmd
+  - ../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd
+  - ../articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd
+  - ../articles/players-social-dynamics/gm-role-models-and-stances.qmd
+  - ../articles/systems-mechanics/distributing-narrative-authority.qmd
+  - ../articles/players-social-dynamics/spectator-friendly-design.qmd
+  - ../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd
+  - ../articles/systems-mechanics/safety-systems-as-mechanical-layer.qmd
+provenance: "corpus"
+---
+
+*Profile: a village of bluffing strangers run by a host who never wins, built so the murdered keep talking instead of watching.*
+
+Blood on the Clocktower is the design that finally fixed the thing everyone hated about Werewolf. Steven Medway started building it in Sydney in 2014 after watching the same problem at party after party. A player voted out early, often one of the most interesting people in the room, would sit out the next hour as a spectator. [corpus] What he shipped through The Pandemonium Institute, after a 2018 Kickstarter that raised over AUD 570,000 against a 65,000 goal and a long fulfilment that reached retail in 2022, is treated by the mid-2020s as the genre's reference design, the current state of the art in [social deduction](../articles/systems-mechanics/social-performance-genres.qmd). [corpus]
+
+It earns a place in this gazetteer because it is a clinic in one genre's failure modes and the structural answers to them. Most exemplars here show a clean mechanism or two. Blood on the Clocktower shows a whole social engine rebuilt part by part, with each part aimed at a specific way the older games broke. The links below run to the articles each part exemplifies, and those articles now list this profile in their *Referenced by* register.
+
+## The design profile
+
+The game is set in the fictional English village of Ravenswood Bluff, where a demon hides among the townsfolk and kills by night. [corpus] Players hold secret roles split across two teams, good and evil, and spend the day phase arguing over who is lying. The whole thing runs on [hidden roles rather than hidden information](../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd): the tension is not that a fact sits locked in an envelope. It is that the person across the table may be exactly what they claim or its precise opposite, with nothing in the rules to settle which. [synthesis]
+
+The single most consequential decision is keeping a host in the chair. A non-playing **Storyteller** runs the game, and the role is the profile's most exported idea: a worked example of [the host who cannot play](../articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd).
+
+::: {.callout-note}
+### The Signature
+
+The Storyteller does not referee neutrally and does not play to win. They wake characters in a published night order and pass each player private information by gesture. Inside the rules they hold real discretion. When an ability allows a choice the Storyteller picks which true-but-misleading fact to give. They also set how hard to pitch the information environment for the group in front of them. A player who is steamrolling the table can find their certainty quietly trimmed. The evil team's demon is itself a player. Because the Storyteller controls no side at all, their only incentive is a satisfying arc. [corpus]
+:::
+
+That stance is a [calibrated facilitator](../articles/players-social-dynamics/gm-role-models-and-stances.qmd), nearer the "fan of the characters" host than the impartial referee, and it sits deliberately between the host-free designs like The Resistance and the fully adversarial tradition. [corpus] It is also a quiet kind of [narrative authority that the rules hand to one seat](../articles/systems-mechanics/distributing-narrative-authority.qmd): the Storyteller owns the information environment, so what counts as true at the table is partly theirs to shape rather than fixed in a public announcement. [synthesis]
+
+The other famous part is what happens when you die. In Werewolf, death is the end of your evening. Here the dead keep their voice and their identity. A dead player can still bluff and reason out loud, and each one holds exactly one **ghost vote**: a single yes they may spend at any point before the game ends. [corpus] A well-timed ghost vote from a dead good player can execute the demon on a tied day; one from a dead minion can block the execution that would have ended the game. This is [spectator-friendly design](../articles/players-social-dynamics/spectator-friendly-design.qmd) solved at the root: there is no moment when a player at the table has nothing to do. [corpus]
+
+These two fixes answer a flaw the genre carried for thirty years. Pure social deduction in the Mafia and Werewolf line runs on [player elimination](../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd), and removing a guest from a social event as a core mechanic is a design failure dressed as a rule. [corpus] Blood on the Clocktower keeps the elimination drama but never removes the person.
+
+Underneath sits the calibrated information environment. Every Townsfolk character produces information; Minion abilities corrupt some of it; a few characters produce information about other characters' information. The good team assembles a dense, partial, sometimes poisoned picture and has to cross-reference it. That epistemic tangle is the game, and it is what the Storyteller's discretion exists to tune. The Storyteller's same power to break tension and redirect a dominant player also works as an informal [safety layer](../articles/systems-mechanics/safety-systems-as-mechanical-layer.qmd), handling group dynamics without a formal tool having to be reached for. [corpus]
+
+## The wider influence
+
+The game ships as a **script system** rather than a fixed roster. Each session draws a curated set of characters, and the three official scripts run from Trouble Brewing for beginners through Bad Moon Rising to the information-dense Sects and Violets. [corpus] The character catalogue runs past a hundred named roles, and a free online Script Tool lets anyone assemble a custom script from the official pool. Community scripts are built, playtested and rated as a first-class part of the design, so the role pool behaves like a living commons rather than a closed box. [corpus]
+
+The format travelled too. At conventions the game runs as a Town Square session. One Storyteller takes ten to twenty players in a shared space, and the day phase gives them free movement and private conversation. [corpus] A single script lasts roughly 60 to 90 minutes. That leaves room for four or five sessions across a convention day. A watcher can sit at the edge of a Town Square before deciding to join the next one. So the format doubles as its own recruiting tool. [corpus] It has become a convention staple across the UK and Australia. Each year it reaches further into North America. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+
+The Storyteller's discretion is the engine and the trap. The same power that calibrates a fair, tense game gives a weak host the means to play favourites. A deserved loss can quietly become the result the host would rather see. Werewolf's flat public announcement is dull. Nobody can abuse it either. Put a Storyteller into a game without the supporting norm that the host serves the arc rather than an outcome, and one person now holds an invisible thumb on every scale. [synthesis]
+:::
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop social-deduction game |
+| Designer | Steven Medway (The Pandemonium Institute) |
+| Published | 2022 retail, after 2020 to 2021 Kickstarter fulfilment |
+| Players | 5 to 20, optimum 12 to 15: unusually large for the genre |
+| Format | Single session of 60 to 120 minutes per script, one non-playing Storyteller |
+| Substrate | Grimoire binder, character tokens, official and community scripts, companion app |
+| Status | The reference design for social deduction by the mid-2020s; sustained BoardGameGeek top-100 placement |
+
+## Sources
+
+- "Blood on the Clocktower." Wikipedia. (Publication history, Kickstarter funding, scripts, the Storyteller role, reception and awards.) <https://en.wikipedia.org/wiki/Blood_on_the_Clocktower>
+- "How did Steven Medway design Blood on the Clocktower?" The Pandemonium Institute. (Medway's design history and the eliminated-player motivation.) <https://bloodontheclocktower.com/blogs/news/how-did-steven-medway-design-blood-on-the-clocktower>
+- "About Us." The Pandemonium Institute. (Founding and mission of the publisher.) <https://bloodontheclocktower.com/pages/about-us>
+- "Character Types." Official Blood on the Clocktower wiki. (Townsfolk, Outsiders, Minions, Demons, Travellers and Fabled; the script structure.) <https://wiki.bloodontheclocktower.com/Character_Types>
+- "Blood on the Clocktower leads nominations for the 17th Golden Geek Awards." Board Game Wire, 25 April 2023. (Nomination leadership and critical standing.) <https://boardgamewire.com/index.php/2023/04/25/blood-on-the-clocktower-leads-nominations-for-17th-golden-geek-awards/>
+- Powerhouse Museum collection record, object 768820. (Prototype accession, Sydney origin and early design history.) <https://collection.powerhouse.com.au/object/768820>

@@ -122,6 +122,8 @@ Large live games answer the question at the opposite scale, with information rat
 
 ## Referenced by
 
+- [Apocalypse World](../../exemplars/apocalypse-world.qmd)
+- [Blood on the Clocktower](../../exemplars/blood-on-the-clocktower.qmd)
 - [GM Role Models & Stances](../players-social-dynamics/gm-role-models-and-stances.qmd)
 - [Information Asymmetry: Hidden Information vs Hidden Roles](../players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd)
 - [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)

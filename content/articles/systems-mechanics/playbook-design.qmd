@@ -111,6 +111,7 @@ The live version makes one design choice especially visible. Concealment is univ
 
 ## Referenced by
 
+- [Apocalypse World](../../exemplars/apocalypse-world.qmd)
 - [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
 - [Character Voice](../story-character-voice/character-voice.qmd)
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)

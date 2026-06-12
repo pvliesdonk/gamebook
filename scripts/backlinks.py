@@ -37,11 +37,14 @@ def main() -> None:
 
     inbound = {f: set() for f in files}
     for src in files:
-        # Primers link to every article in their family as orientation, and the
-        # generated keys pages route to nearly every article by facet. Both are
-        # structural, not meaningful cross-references, and would list a handful of
-        # router pages under every article. Skip them as backlink sources.
-        if "primers" in src.parts or "keys" in src.parts:
+        # Primers link to every article in their family as orientation, the
+        # generated keys pages route to nearly every article by facet, and the
+        # part-landing index pages (Exemplars, Style Specimens, the cover) list a
+        # whole section. All are structural routers, not meaningful cross-references,
+        # and would list a router under every target. Skip them as backlink sources.
+        # Exemplar/specimen profiles themselves stay sources, so a profile that
+        # cites another profile or an article still registers a backlink.
+        if "primers" in src.parts or "keys" in src.parts or src.name == "index.qmd":
             continue
         body = strip_block(src.read_text(encoding="utf-8"))
         for _label, target in LINK_RE.findall(body):

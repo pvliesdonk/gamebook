@@ -117,7 +117,9 @@ A live game answers the same question with hardware. A self-resolving puzzle mak
 
 ## Referenced by
 
+- [Apocalypse World](../../exemplars/apocalypse-world.qmd)
 - [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
+- [Call of Cthulhu](../../exemplars/call-of-cthulhu.qmd)
 - [Decision Space & Choice Design](decision-space-and-choice-design.qmd)
 - [Deckbuilders](deckbuilders.qmd)
 - [Digital Gating & State](digital-gating-and-state.qmd)
