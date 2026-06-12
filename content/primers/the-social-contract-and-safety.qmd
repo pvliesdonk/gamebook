@@ -1,9 +1,9 @@
 ---
-title: "Players & Social Dynamics"
-subtitle: "Primer · The Social Contract & Safety"
 type: primer
 provenance: "synthesis"
 ---
+
+# The Social Contract & Safety {.primer .unnumbered}
 
 *Silhouette: Every shared game runs on an agreement the players make with each other, and the charged play this family is about is only possible because of it.*
 

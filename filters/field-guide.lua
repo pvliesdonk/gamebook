@@ -63,6 +63,30 @@ function Pandoc(doc)
   end
   doc.blocks = kept
 
+  -- 1b. Mark each level-1 heading for the print theme. The article counter is
+  -- stepped here (before the heading) so the opener and the page furniture all
+  -- see it; primer chapters (the `.primer` class) get a flag instead and are
+  -- never numbered. Front/back-matter chapters step the counter harmlessly
+  -- (it is reset at the first family part and never shown for them).
+  local marked = {}
+  for _, b in ipairs(doc.blocks) do
+    if b.t == "Header" and b.level == 1 then
+      local is_primer = false
+      for _, c in ipairs(b.classes) do if c == "primer" then is_primer = true end end
+      if is_primer then
+        marked[#marked + 1] = pandoc.RawBlock("typst", "#fg-primer-flag.update(true)")
+        marked[#marked + 1] = b
+        marked[#marked + 1] = pandoc.RawBlock("typst", "#fg-primer-flag.update(false)")
+      else
+        marked[#marked + 1] = pandoc.RawBlock("typst", "#fg-article.step()")
+        marked[#marked + 1] = b
+      end
+    else
+      marked[#marked + 1] = b
+    end
+  end
+  doc.blocks = marked
+
   -- 2. Wrap every Silhouette (label stripped) and its lead paragraph.
   local n = #doc.blocks
   for i = 1, n do

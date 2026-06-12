@@ -47,6 +47,8 @@
 // True once we are inside the family parts (set by the first part divider);
 // front matter (index) and anything before the parts stays plain + unnumbered.
 #let fg-in-body = state("fg-in-body", false)
+// True only at a primer chapter heading (set/cleared around it by the filter).
+#let fg-primer-flag = state("fg-primer-flag", false)
 
 #let kicker(s, c: ink-muted, size: 8.5pt) = text(
   font: "Cronos Pro", size: size, weight: "semibold", fill: c, tracking: 1.2pt,
@@ -70,33 +72,33 @@
 )
 
 // --- Headings (54/33/22/17 type scale, scaled for print) ----
-// Level 1 = the article opener: family rule, roman №, kicker, title.
-#show heading.where(level: 1): it => {
-  // step before the page break so the new page's background (bleed tab)
-  // and the opener below both see the incremented value
-  fg-article.step()
+// Level 1 = chapter opener. The article counter is stepped by the Lua filter
+// (before the heading), and primer chapters carry fg-primer-flag; here we only
+// read those and render. Three kinds: a primer, a numbered article, or plain
+// front/back matter.
+#show heading.where(level: 1): it => context {
   pagebreak(weak: true)
-  context {
-  if fg-in-body.get() {
-    // an article opener: family rule, arabic №, taxon kicker, title
-    let f = fg-family.get()
-    let c = fam.at(f, default: amber)
-    let n = fg-article.display("1")
-    block(width: 100%, above: 0pt, below: 0.9em, breakable: false)[
-      #line(length: 100%, stroke: 2pt + c)
-      #v(0.55em, weak: true)
-      #box(text(font: "Letter Gothic Std", size: 9pt, fill: c)[№ #n])
-      #h(0.7em)
-      #box(kicker(fam-label.at(f, default: "")))
-      #v(0.4em, weak: true)
-      #text(font: "Adobe Jenson Pro", size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
-    ]
+  let f = fg-family.get()
+  let c = fam.at(f, default: amber)
+  // an opener with a family rule, a left mark, the taxon kicker and the title
+  let opener(mark) = block(width: 100%, above: 0pt, below: 0.9em, breakable: false)[
+    #line(length: 100%, stroke: 2pt + c)
+    #v(0.55em, weak: true)
+    #box(text(font: "Letter Gothic Std", size: 9pt, fill: c)[#mark])
+    #h(0.7em)
+    #box(kicker(fam-label.at(f, default: "")))
+    #v(0.4em, weak: true)
+    #text(font: "Adobe Jenson Pro", size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
+  ]
+  if fg-primer-flag.get() {
+    opener[Primer]
+  } else if fg-in-body.get() {
+    opener[№ #fg-article.get().first()]
   } else {
-    // front matter: a plain title, no rule / number / kicker
+    // front / back matter: a plain title, no rule / number / kicker
     block(width: 100%, above: 0pt, below: 0.8em, breakable: false)[
       #text(font: "Adobe Jenson Pro", size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
     ]
-  }
   }
 }
 #show heading.where(level: 2): set text(font: "Adobe Jenson Pro", size: 15pt, fill: ink-deep, weight: "semibold")

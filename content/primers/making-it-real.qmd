@@ -1,9 +1,9 @@
 ---
-title: "Space, Props & Materiality"
-subtitle: "Primer · Making It Real"
 type: primer
 provenance: "synthesis"
 ---
+
+# Making It Real {.primer .unnumbered}
 
 *Silhouette: The craft of turning fiction into stuff a player can hold in the hand and walk through.*
 

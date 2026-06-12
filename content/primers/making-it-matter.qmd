@@ -1,9 +1,9 @@
 ---
-title: "Story, Character & Voice"
-subtitle: "Primer · Making It Matter"
 type: primer
 provenance: "synthesis"
 ---
+
+# Making It Matter {.primer .unnumbered}
 
 *Silhouette: A game can be perfectly built and still leave the player cold; this is the craft that stops that.*
 

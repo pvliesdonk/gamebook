@@ -1,24 +1,22 @@
 // ============================================================
 // Field Guide book template — replaces @preview/orange-book.
 // Owns the page (via partials/page.typ), the cover, the contents,
-// the part dividers and the back matter. Chapters get the
-// field-guide opener (typst/field-guide.typ).
+// the part dividers and the back matter. Chapter openers live in
+// typst/field-guide.typ.
+//
+// Everything here reads from the document: parts are string labels
+// (the family names), the primer is the part's first chapter (a
+// `.primer` heading the filter flags), articles are the numbered
+// chapters. Nothing about the primers is hardcoded.
 // ============================================================
 
-// The primer is the introductory TEXT of a part (its own title), not a
-// subtitle of the family. We are forced to carry it as the part-landing
-// file, but it renders as the part's first reading.
-#let fg-primer-name = (
-  structure: "The Shape of Time",
-  puzzles:   "The Fairness Contract",
-  story:     "Making It Matter",
-  players:   "The Social Contract & Safety",
-  space:     "Making It Real",
-  systems:   "The Engine Room",
-)
 #let fg-part-count = counter("fg-part-count")
 
 #set heading(numbering: none)
+
+// A dotted leader for the contents. Built inline at each use — a single
+// reused `1fr` box breaks Typst's contents layout.
+#let fg-leader() = box(width: 1fr, inset: (x: 4pt), repeat[#text(fill: ink-faint)[.]#h(3pt)])
 
 // --- Cover --------------------------------------------------
 #let fg-cover() = page(header: none, footer: none, background: none, numbering: none, fill: paper)[
@@ -47,25 +45,28 @@
       if not fg-in-body.at(loc) { continue }
       let f = fg-family.at(loc)
       let c = fam.at(f, default: amber)
-      let num = fg-article.at(loc).first()
       let pg = counter(page).at(loc).first()
       if f != last {
         block(above: 1.1em, below: 0.45em)[
           #text(font: "Cronos Pro", size: 10pt, weight: "semibold", fill: c, tracking: 1.2pt)[#upper(fam-label.at(f))]
         ]
-        // the primer: the part's introductory reading
-        block(below: 0.35em)[
-          #box(width: 1.6em)[]
-          #text(size: 10pt, style: "italic", fill: ink-muted)[#fg-primer-name.at(f, default: "") #text(font: "Cronos Pro", size: 8pt, tracking: 1pt)[· PRIMER]]
-        ]
         last = f
       }
-      block(below: 0.35em)[
-        #box(width: 1.6em)[#text(font: "Letter Gothic Std", size: 8.5pt, fill: c)[#num]]
-        #text(size: 10pt)[#art.body]
-        #box(width: 1fr, inset: (x: 4pt), repeat[#text(fill: ink-faint)[.]#h(3pt)])
-        #text(font: "Letter Gothic Std", size: 8.5pt, fill: ink-muted)[#pg]
-      ]
+      if fg-primer-flag.at(loc) {
+        block(below: 0.35em)[
+          #box(width: 1.6em)[]
+          #text(size: 10pt, style: "italic", fill: ink-muted)[#art.body #text(font: "Cronos Pro", size: 8pt, tracking: 1pt)[· PRIMER]]
+          #fg-leader()
+          #text(font: "Letter Gothic Std", size: 8.5pt, fill: ink-muted)[#pg]
+        ]
+      } else {
+        block(below: 0.35em)[
+          #box(width: 1.6em)[#text(font: "Letter Gothic Std", size: 8.5pt, fill: c)[#fg-article.at(loc).first()]]
+          #text(size: 10pt)[#art.body]
+          #fg-leader()
+          #text(font: "Letter Gothic Std", size: 8.5pt, fill: ink-muted)[#pg]
+        ]
+      }
     }
   }
 ]
@@ -98,8 +99,9 @@
   let c = fam.at(id, default: amber)
   let pnum = fam-order.position(x => x == id) + 1
 
-  // A full-page family plate: part letter, family name, contents list
-  // (the primer first as the part's introductory reading, then articles).
+  // A full-page family plate: part letter, family name, and the part's
+  // contents (the primer first, then the numbered articles) read from the
+  // actual chapter headings.
   page(header: fg-header(), background: fg-tabs(), fill: paper)[
     #set par(justify: false)
     #v(1.6cm)
@@ -111,34 +113,24 @@
     #v(1.8em)
     #text(font: "Cronos Pro", size: 9pt, weight: "semibold", fill: ink-muted, tracking: 1.2pt)[CONTENTS]
     #v(0.6em)
-    #block(below: 0.4em)[
-      #box(width: 1.7em)[]
-      #text(size: 11pt, style: "italic", fill: ink-muted)[#fg-primer-name.at(id, default: "") #text(font: "Cronos Pro", size: 8pt, tracking: 1pt)[· PRIMER]]
-    ]
     #context {
       for art in query(heading.where(level: 1)) {
         let loc = art.location()
         if fg-in-body.at(loc) and fg-family.at(loc) == id {
-          block(below: 0.4em)[
-            #box(width: 1.7em)[#text(font: "Letter Gothic Std", size: 9pt, fill: c)[#fg-article.at(loc).first()]]
-            #text(size: 11pt)[#art.body]
-          ]
+          if fg-primer-flag.at(loc) {
+            block(below: 0.4em)[
+              #box(width: 1.7em)[]
+              #text(size: 11pt, style: "italic", fill: ink-muted)[#art.body #text(font: "Cronos Pro", size: 8pt, tracking: 1pt)[· PRIMER]]
+            ]
+          } else {
+            block(below: 0.4em)[
+              #box(width: 1.7em)[#text(font: "Letter Gothic Std", size: 9pt, fill: c)[#fg-article.at(loc).first()]]
+              #text(size: 11pt)[#art.body]
+            ]
+          }
         }
       }
     }
-  ]
-
-  // The primer opener (the part's first reading, on the next page). Mirrors
-  // the article opener but labelled "Primer" and unnumbered.
-  block(width: 100%, above: 0pt, below: 0.9em, breakable: false)[
-    #set par(justify: false)
-    #line(length: 100%, stroke: 2pt + c)
-    #v(0.55em, weak: true)
-    #box(text(font: "Letter Gothic Std", size: 9pt, fill: c)[Primer])
-    #h(0.7em)
-    #box(kicker(fam-label.at(id, default: "")))
-    #v(0.4em, weak: true)
-    #text(font: "Adobe Jenson Pro", size: 21pt, weight: "semibold", fill: ink-deep)[#fg-primer-name.at(id, default: "")]
   ]
 }
 #let chapter(..a) = none
