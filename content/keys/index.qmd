@@ -2,5 +2,11 @@
 title: "Keys"
 ---
 
+Routers from intent to mechanism: find an article by the effect you want, the problem you face, the component you hold, the genre or format you are working in, or the medium.
 
-Routers from intent to mechanism: find an article by the effect you want or the problem you face.
+- [By Effect](effects.qmd) — find an article by the effect or feeling you want to create.
+- [By Problem](problems.qmd) — find an article by the problem you are hitting.
+- [By Component](components.qmd) — find an article by the kind of component you are working with.
+- [By Genre](genre.qmd) — find an article by fictional genre.
+- [By Format](format.qmd) — find an article by the form of the game or production.
+- [By Medium](media.qmd) — find an article by medium.

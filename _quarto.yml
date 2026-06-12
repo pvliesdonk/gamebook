@@ -1,6 +1,8 @@
 project:
   type: book
-  pre-render: python3 scripts/backlinks.py
+  pre-render:
+    - python3 scripts/backlinks.py
+    - python3 scripts/keys.py
 
 book:
   title: "Field Guide to Narrative & Game Design"
@@ -144,6 +146,12 @@ book:
     - part: "Keys"
       chapters:
         - content/keys/index.qmd
+        - content/keys/effects.qmd
+        - content/keys/problems.qmd
+        - content/keys/components.qmd
+        - content/keys/genre.qmd
+        - content/keys/format.qmd
+        - content/keys/media.qmd
     - part: "Exemplars"
       chapters:
         - content/exemplars/index.qmd
