@@ -34,7 +34,7 @@ The works this part's articles discuss and the texts they cite. The print editio
 - *Can't Stop*. Sid Sackson, 1980.
 - *Captain Sonar*. Roberto Fraga and Yohan Lemonnier, 2016.
 - *Carcassonne*. Klaus-Jürgen Wrede, 2000.
-- *Cards Against Humanity*. Temkin, Dranove, Munk, Pinsof, Halpern, Sufrin, Wade and Weinstein, 2011.
+- *Cards Against Humanity*. Temkin, Dillon, Dranove, Halpern, Hantoot, Munk, Pinsof and Weinstein, 2011.
 - *Cartographers*. Jordy Adan, 2019.
 - *Cascadia*. Randy Flynn, 2021.
 - *Castle Falkenstein*. Mike Pondsmith, 1994.
@@ -67,7 +67,7 @@ The works this part's articles discuss and the texts they cite. The print editio
 - *Flee, Mortals!* MCDM Productions, 2023.
 - *Friday*. Friedemann Friese, 2011.
 - *Frosthaven*. Isaac Childres, 2023.
-- *FU: The Freeform Universal RPG*. Nathan Russell, 2008.
+- *FU: The Freeform Universal RPG*. Nathan Russell, 2010.
 - *Galaxy Trucker*. Vlaada Chvátil, 2007.
 - *Gloomhaven*. Isaac Childres, 2017.
 - *Go*. Traditional; no single author or date.
@@ -84,7 +84,7 @@ The works this part's articles discuss and the texts they cite. The print editio
 - *Mafia*. Dmitry Davidoff, 1986.
 - *Mage Knight Board Game*. Vlaada Chvátil, 2011.
 - [*Magic: the Gathering*](../exemplars/magic-the-gathering.qmd). Richard Garfield, 1993.
-- *Masks: A New Generation*. Brendan Conway, 2016.
+- *Masks: A New Generation*. Brendan Conway, 2017.
 - [Megagames](../exemplars/megagames.qmd) (incl. *Watch the Skies*). Megagame Makers, 2010s.
 - [*Microscope* & *Kingdom*](../exemplars/microscope-and-kingdom.qmd). Ben Robbins, 2011.
 - *Modern Art*. Reiner Knizia, 1992.
@@ -119,12 +119,12 @@ The works this part's articles discuss and the texts they cite. The print editio
 - *Risk*. Albert Lamorisse, 1957.
 - *Risk Legacy*. Rob Daviau and Chris Dupuis, 2011.
 - *Root*. Cole Wehrle, 2018.
-- *Scum and Villainy*. Stras Acimovic and John LeBoeuf-Little, 2019.
+- *Scum and Villainy*. Stras Acimovic and John LeBoeuf-Little, 2018.
 - *Scythe*. Jamey Stegmaier, 2016.
 - *Secret Hitler*. Mike Boxleiter, Tommy Maranges and Max Temkin, 2016.
 - *Shadowrun*. Jordan Weisman and others (FASA), 1989.
 - *Shadows over Camelot*. Serge Laget and Bruno Cathala, 2005.
-- *Sherlock Holmes Consulting Detective*. Raymond Edwards, Suzanne Goldberg and Gary Grady, 1981.
+- *Sherlock Holmes Consulting Detective*. Raymond Edwards, Suzanne Goldberg and Gary Grady, 1982.
 - *Sleeping Gods*. Ryan Laukat, 2021.
 - *Sorcerer*. Ron Edwards, 2001.
 - *Spec Ops: The Line*. Yager Development, 2012.
@@ -147,7 +147,7 @@ The works this part's articles discuss and the texts they cite. The print editio
 - *Tikal*. Wolfgang Kramer and Michael Kiesling, 1999.
 - *Trains*. Hisashi Hayashi, 2012.
 - *Train*. Brenda Romero, 2009.
-- *Trophy Dark*. Jesse Ross, 2020.
+- *Trophy Dark*. Jesse Ross, 2018 (standalone 2022).
 - *Twilight Imperium*. Christian T. Petersen, 1997.
 - *Twilight Struggle*. Ananda Gupta and Jason Matthews, 2005.
 - *Undertale*. Toby Fox, 2015.

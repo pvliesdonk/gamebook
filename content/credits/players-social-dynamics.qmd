@@ -57,7 +57,7 @@ The works this part's articles discuss and the texts they cite. The print editio
 - *Scotland Yard*. Ravensburger, 1983.
 - *The Secret*. Byron Preiss, 1982.
 - *Secret Hitler*. Mike Boxleiter, Tommy Maranges and Max Temkin, 2016.
-- *Sherlock Holmes Consulting Detective*. Raymond Edwards, Suzanne Goldberg and Gary Grady (Sleuth Publications), 1981.
+- *Sherlock Holmes Consulting Detective*. Raymond Edwards, Suzanne Goldberg and Gary Grady (Sleuth Publications), 1982.
 - "Shoot for the Stars" (an escape room). SJ Chen, 2023.
 - [*Sleep No More*](../exemplars/sleep-no-more-and-punchdrunk.qmd). Punchdrunk, 2011.
 - *Spirit Island*. R. Eric Reuss (Greater Than Games), 2017.
