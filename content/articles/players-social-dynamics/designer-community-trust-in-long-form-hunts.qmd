@@ -95,6 +95,8 @@ Claiming authenticity for an artefact creates obligations a designer cannot easi
 
 ## Referenced by
 
+- [Cicada 3301](../../exemplars/cicada-3301.qmd)
+- [DASH & the Galactic Puzzle Hunt](../../exemplars/dash-and-galactic-puzzle-hunt.qmd)
 - [Parallel Team Architectures](parallel-team-architectures.qmd)
 - [The MIT Mystery Hunt](../../exemplars/mit-mystery-hunt.qmd)
 - [Treasure & Scavenger Hunts](../puzzles-clues-information/treasure-and-scavenger-hunts.qmd)

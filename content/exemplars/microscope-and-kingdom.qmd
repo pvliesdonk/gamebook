@@ -1,0 +1,78 @@
+---
+title: "Microscope & Kingdom"
+type: exemplar
+medium: tabletop
+year: 2011
+designer: "Ben Robbins (Lame Mage Productions)"
+mechanisms:
+  - ../articles/systems-mechanics/distributing-narrative-authority.qmd
+  - ../articles/structure-pacing/nonlinear-narrative-structures.qmd
+  - ../articles/story-character-voice/worldbuilding-patterns.qmd
+  - ../articles/structure-pacing/campaign-arc-shapes.qmd
+  - ../articles/structure-pacing/scene-structure-and-transitions.qmd
+  - ../articles/systems-mechanics/decision-space-and-choice-design.qmd
+  - ../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd
+  - ../articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd
+provenance: "researched"
+---
+
+*Profile: two GM-less story games by the same designer, working at opposite ends of the clock. One writes the whole history of a world out of order across centuries. The other holds a single community over one decisive day and asks it to choose.*
+
+Ben Robbins built a pair of games that throw away the things most roleplaying takes for granted. There is no referee, there are no dice, and there is no rule that a story has to be told from beginning to end. Microscope came first, published through his own Lame Mage Productions in 2011 and subtitled a fractal roleplaying game of epic histories. [researched] Kingdom followed in 2013 from the same imprint. [researched] Neither is a sequel to the other and they form no series, yet they read as siblings. Each one asks a small group to build a world together with no one in charge. In both, the right to say what is true rests on a rule rather than on who is holding the floor. That makes the pair a worked study in [distributing narrative authority](../articles/systems-mechanics/distributing-narrative-authority.qmd). [synthesis]
+
+They earn a joint place in this gazetteer because they cover the same ground from two distances. Microscope takes the long view and writes a chronicle across deep time. Kingdom takes the close-up and plays out one moment in full. The links below run to the articles each part exemplifies. Read in the other direction, those articles list this profile in their *Referenced by* register.
+
+## The design profile
+
+Microscope is a game for two to four players with no game master and no preparation. [researched] A session begins by agreeing the Big Picture, a single sentence that names the history to be built. The table then sets two bookends, a starting state and an ending state for that history. [researched] The group also builds a Palette, a shared list of things that are allowed in this world and things that are banned, before any history is written. [researched] From there the table does not tell the story in order. Play jumps backward and forward across the whole span, settling on whatever stretch of time a player finds interesting at that moment, which makes the game a clean example of a [non-chronological structure](../articles/structure-pacing/nonlinear-narrative-structures.qmd) used deliberately rather than as a flashback trick. [synthesis]
+
+The history is built in three nested sizes, and the nesting is where the "fractal" subtitle comes from. The largest unit is the Period, a broad era of the world. Inside a Period sit Events, the moments that mattered during it. Inside an Event sit Scenes, the only level at which players take on characters and act out a moment to answer a specific Question. [researched] Each turn a single player adds one card at one of these sizes, and no one may contradict what is already on the table. [researched] Because the history grows one parcel at a time and no two games settle on the same stretches, Microscope is collaborative [worldbuilding](../articles/story-character-voice/worldbuilding-patterns.qmd) in its purest form: the world is the protagonist, and it is assembled by everyone and owned by no one. [synthesis]
+
+::: {.callout-note}
+### The Signature
+
+Each round of Microscope has a Focus. One player, the Lens, names a theme for that round, such as a person, a place, an idea, or a war. For the rest of the round, every contribution must touch that theme. [researched] The Focus is the game's only steering wheel. It cannot force a particular outcome. No player can be told what to write. Its job is narrower. The Focus aims the whole table at one thread of the world for a few turns. Then the Lens passes on and a fresh Focus takes its place. The structure spans centuries while keeping each round tight. [synthesis]
+:::
+
+Where Microscope writes the centuries, Kingdom plays a single turning point. It is also GM-less, and it asks the table to invent a community first. The rules stress that a Kingdom can be almost anything. A neighbourhood or a barony qualifies just as a law firm or a generation ship does. [researched] The whole game then pivots on a Crossroads, one sharp question of the form "does the Kingdom do this thing or not". The Crossroads is fixed at the start. Every scene that follows exists to resolve it. [researched] That single binary at the centre is what makes the game a study in [decision space](../articles/systems-mechanics/decision-space-and-choice-design.qmd): the interest is not a branching tree of options but the weight the table piles onto one fork in the road. [synthesis]
+
+Kingdom splits its authority across three roles rather than across turns. A Power character decides what the community actually does. A Perspective character sets the consequences: whatever they declare will follow from a path is what follows. A Touchstone character speaks for the people, and the community's mood is whatever the Touchstone says it is. [researched] No one role holds the whole truth. Power can act but cannot see ahead. Perspective can see but cannot act. Touchstone holds the room's mood but neither decides nor foresees. [synthesis] Because the Perspective role binds each choice to a stated outcome, play turns the Crossroads into a [chain of consequences](../articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd) the table has agreed in advance: the decision is heavy precisely because someone has already named what it will cost. [synthesis]
+
+Both games hand scene-framing to whichever player has the turn, which is the concrete mechanism behind their [scene work](../articles/structure-pacing/scene-structure-and-transitions.qmd). In Microscope a Scene exists to answer one Question and stops the moment the Question is answered. [researched] In Kingdom the active player sets where the scene happens and who is in it, then the roles assert their separate truths inside it. [researched] In each case the authority to frame a moment and the authority to resolve it are deliberately held by different hands, so no single player can steer the whole.
+
+::: {.callout-warning}
+### The Hazard
+
+The absence of a referee is the point, but it removes the safety net that catches a flat session. With no GM to inject conflict, a Microscope table may drift into an agreeable history where nothing rubs. The same softness threatens Kingdom. A table there can talk around its Crossroads for hours without ever forcing the decision. Each game guards against this in its structure. Microscope leans on the no-contradiction rule and the Focus. Kingdom leans on the fixed binary and the consequence-setting role. The guard only works, though, if players push on each other's contributions instead of nodding them through. The pleasure depends on the table treating the shared world as something to test, not merely to decorate. [synthesis]
+:::
+
+Played side by side, the pair forms a complete vocabulary for [cooperative rather than adversarial](../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd) play. There is nothing to win and no one to beat. The characters in a Kingdom may pull against each other and the eras in a Microscope history may be brutal, but the players are jointly authoring something none of them controls alone. [synthesis]
+
+## The wider influence
+
+Microscope landed as collaborative, GM-less worldbuilding was becoming a recognised form, and it became the reference point people reached for when describing the long-view version of that play. Its companion supplement, Microscope Explorer, won Indie Supplement of the Year at the 2016 Indie RPG Awards, and the base game has been translated into Italian, Catalan, and German. [researched] The game historian Stu Horvath credited it with taking on massively complicated concepts like time and history and giving elegant rules for working through them, and the critic Katherine Cross singled it out for democratising setting creation that other games hand to a single GM. [researched]
+
+The deeper influence is the move both games share. Hand the table a frame and a rotating turn. Let authority sit in roles or rounds rather than in any one person, so a world or a community can assert its own truth. The Quiet Year sits in the same small lineage of GM-less worldbuilding games that Microscope and Kingdom helped define, and later worldbuilding titles such as *I'm Sorry Did You Say Street Magic* trace back to Microscope directly. [researched] Robbins reworked both games into second editions, Kingdom in 2021 with an added Legacy mode that links separate Kingdoms into one ongoing campaign. [researched] The lesson the pair leaves is that removing the referee does not remove structure. It relocates it, into the bookends and Focus of one game and the roles and Crossroads of the other, so the table can improvise freely without the story collapsing into mush. [synthesis]
+
+## The stat block
+
+This profile covers two titles by one designer.
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop storytelling games |
+| Designer | Ben Robbins (Lame Mage Productions) |
+| Published | Microscope 2011; Kingdom 2013 (Kingdom second edition 2021) |
+| Players | Two to four, with no game master and no dice |
+| Format | One session each: Microscope spans centuries, Kingdom holds one decisive moment |
+| Substrate | Index cards and a shared table; Microscope adds the Palette and bookends, Kingdom adds the three roles and the Crossroads |
+| Status | Both in print; Microscope has the Microscope Explorer supplement, Kingdom has a second edition with a Legacy campaign mode |
+
+## Sources
+
+- "Microscope (role-playing game)." Wikipedia. (Designer, publisher, 2011 publication, GM-less and no-prep play, the timeline with defined endpoints, non-chronological turns, Periods/Events/Scenes nesting, the Microscope Explorer supplement and its 2016 Indie RPG Award, the Horvath and Cross comments, translations, lineage to later worldbuilding games.) <https://en.wikipedia.org/wiki/Microscope_(role-playing_game)>
+- Robbins, Ben. *Microscope*. Lame Mage Productions, 2011. RPG Museum entry. (The Big Picture, the Palette, bookends, the Period/Event/Scene structure, the Focus and the Lens, the Scene Question, one card per turn, the no-contradiction rule.) <https://rpgmuseum.fandom.com/wiki/Microscope>
+- "Microscope: A Fractal Roleplaying Game of Epic Histories." Goodreads. (The fractal subtitle, two to four players, no GM and no prep, non-chronological jumping across time, building histories hundreds or thousands of years long in one session.) <https://www.goodreads.com/en/book/show/12403479>
+- "Kingdom is Ben Robbins' second storytelling meta RPG." Vintage RPG. (Kingdom as the companion to Microscope, the three meta roles Power/Perspective/Touchstone, the Crossroads, and the range of communities a Kingdom can be, from a neighbourhood to a law firm to a barony to a seed ship.) <https://vintagerpg.tumblr.com/post/177789525810/kingdom-is-ben-robbins-second-storytelling-meta>
+- "We Didn't Burn Down the Academy: Thoughts on the Kingdom RPG." Age of Ravens. (How Power, Perspective, and Touchstone work in play, the Crossroads as a binary do-or-don't question, scene-calling and per-turn scene authority, and the flexibility of the community framing.) <http://ageofravens.blogspot.com/2017/03/we-didnt-burn-down-academy-thoughts-on.html>
+- "Kingdom by Ben Robbins." Kickstarter, and the Lame Mage Kingdom page. (Original 2013 publication, the Crossroads as a community-altering decision, the 2021 second edition rewrite and its Legacy campaign mode.) <https://www.kickstarter.com/projects/lamemage/kingdom>

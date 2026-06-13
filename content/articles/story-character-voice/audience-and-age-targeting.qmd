@@ -101,6 +101,7 @@ Pixar's features are the clearest working model of all-ages calibration, and the
 ## Referenced by
 
 - [Children's & YA Conventions](childrens-and-ya-conventions.qmd)
+- [Jubensha](../../exemplars/jubensha.qmd)
 - [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd)
 - [Player Types & Casting](../players-social-dynamics/player-types-and-casting.qmd)
 

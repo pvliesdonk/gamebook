@@ -117,6 +117,7 @@ Accessibility is one of the cleanest cross-media patterns in this guide because 
 
 - [Audience & Age-Targeting](../story-character-voice/audience-and-age-targeting.qmd)
 - [Children's & YA Conventions](../story-character-voice/childrens-and-ya-conventions.qmd)
+- [DASH & the Galactic Puzzle Hunt](../../exemplars/dash-and-galactic-puzzle-hunt.qmd)
 - [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd)
 - [Spectator-Friendly Design](spectator-friendly-design.qmd)
 

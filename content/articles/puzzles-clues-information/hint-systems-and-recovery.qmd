@@ -126,6 +126,7 @@ The hint that solves the puzzle *for* the solver kills the aha it was meant to r
 - [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
 - [Cluing & Fairness](cluing-and-fairness.qmd)
 - [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)
+- [DASH & the Galactic Puzzle Hunt](../../exemplars/dash-and-galactic-puzzle-hunt.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
 - [Exit: The Game](../../exemplars/exit-the-game.qmd)
 - [Host Roles & the Host-Cannot-Play Problem](../players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)

@@ -113,6 +113,7 @@ The seductive failure is the rigged dilemma. It is a choice dressed as a genuine
 - [Conflict Patterns](conflict-patterns.qmd)
 - [Emotional Beats & Investment](emotional-beats-and-investment.qmd)
 - [Fiasco](../../exemplars/fiasco.qmd)
+- [Microscope & Kingdom](../../exemplars/microscope-and-kingdom.qmd)
 - [Paranoia](../../exemplars/paranoia.qmd)
 - [Romance & Relationships](romance-and-relationships.qmd)
 - [Scene & Sequel in Interactive Fiction](../structure-pacing/scene-and-sequel-in-interactive-fiction.qmd)

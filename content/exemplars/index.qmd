@@ -11,14 +11,17 @@ article's *Referenced by* register to find the works that demonstrate it.
 ## Tabletop
 
 - [Apocalypse World](apocalypse-world.qmd): moves and the fiction-mechanic loop, playbooks, and the MC as a designed role.
+- [Baron Munchausen](baron-munchausen.qmd): a GM-less game of competitive tall tales, where players wager coins to interrupt and challenge each other's lies.
 - [Blades in the Dark](blades-in-the-dark.qmd): position-and-effect resolution, progress clocks, the flashback, and faction clocks as a world-engine.
 - [Blood on the Clocktower](blood-on-the-clocktower.qmd): social deduction without player elimination, run by a Storyteller who cannot play.
 - [Call of Cthulhu](call-of-cthulhu.qmd): the Sanity mechanic and investigative cluing, with horror encoded in the rules.
+- [De Profundis](de-profundis.qmd): a Lovecraftian roleplaying game played by writing in-character letters, where the correspondence is the game.
 - [Dungeons & Dragons, 5th Edition](dungeons-and-dragons-5e.qmd): the d20 core and bounded accuracy, an accessible on-ramp, and the DM's wide authority.
 - [Exit: The Game](exit-the-game.qmd): a boxed escape game you write on and destroy, self-checked by a decoder dial.
 - [Fiasco](fiasco.qmd): GM-less play where a dice-built web of relationships and needs drives ordinary people to ruin across two acts.
 - [Ironsworn](ironsworn.qmd): the oracle as a solo resolution engine and progress tracks, in a game built to run with or without a GM.
 - [Magic: the Gathering](magic-the-gathering.qmd): deck construction as a metagame, the colour pie, and the living, rotating format that founded the TCG.
+- [Microscope & Kingdom](microscope-and-kingdom.qmd): GM-less story games that build a non-linear history and a community's decisions out of structured turns.
 - [Pandemic](pandemic.qmd): fully cooperative play and asymmetric specialist roles, against an escalating outbreak that pushes back.
 - [Paranoia](paranoia.qmd): adversarial-by-design play, a licensed-deceiver GM, and betrayal held inside a consent contract.
 - [The Quiet Year](the-quiet-year.qmd): a GM-less community drawn onto a shared map, prompted by a deck of cards across four seasons.
@@ -28,12 +31,17 @@ article's *Referenced by* register to find the works that demonstrate it.
 
 ## Puzzle hunts
 
+- [Cicada 3301](cicada-3301.qmd): an anonymous, multi-layered cryptographic puzzle trail that ran across the internet and the physical world.
+- [DASH & the Galactic Puzzle Hunt](dash-and-galactic-puzzle-hunt.qmd): the MIT hunt opened up, run simultaneously across many cities and, online, free to the world.
 - [The MIT Mystery Hunt](mit-mystery-hunt.qmd): the founding puzzle hunt, where unmarked puzzles feed meta-puzzles and the winning team writes the next year's hunt.
 
 ## Live games
 
 - [The Crystal Maze](crystal-maze.qmd): zoned timed challenges and theatrical hosting, paced across a long session.
 - [Hunt A Killer](hunt-a-killer.qmd): a murder mystery serialised as monthly boxes of physical evidence to assemble.
+- [Jubensha](jubensha.qmd): the Chinese script-murder venue form, where players take scripted roles in a hosted mystery.
+- [Megagames](megagames.qmd): live games of tens to hundreds of players in nested teams, run by a Control team over a single day.
+- [The Murder Mystery Party](murder-mystery-party.qmd): the hosted dinner-party whodunnit, with a secret role and goal handed to every guest.
 - [The Mysterious Package Company](mysterious-package-company.qmd): a story delivered as real artefacts in the post, with no visible game layer.
 - [Notable Escape Rooms](notable-real-escape-rooms.qmd): the live escape-room form, read through several landmark venues.
 - [Sleep No More & Punchdrunk](sleep-no-more-and-punchdrunk.qmd): free-roaming immersive theatre, the mask contract, and the repeating loop as a multiple-visit engine.

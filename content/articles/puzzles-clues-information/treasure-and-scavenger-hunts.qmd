@@ -95,6 +95,7 @@ The armchair hunt's signature failure is the clue that is unsolvable or fatally 
 
 ## Referenced by
 
+- [Cicada 3301](../../exemplars/cicada-3301.qmd)
 - [Designer-Community Trust in Long-Form Hunts](../players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd)
 - [Hexcrawl & Pointcrawl](../structure-pacing/hexcrawl-and-pointcrawl.qmd)
 - [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd)

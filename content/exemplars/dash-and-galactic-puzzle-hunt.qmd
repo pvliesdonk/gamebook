@@ -1,0 +1,75 @@
+---
+title: "DASH & the Galactic Puzzle Hunt"
+type: exemplar
+medium: puzzle-hunt
+year: 2009
+designer: "Various; DASH organised across cities, the Galactic Puzzle Hunt by team Galactic"
+mechanisms:
+  - ../articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd
+  - ../articles/puzzles-clues-information/puzzle-hunt-craft.qmd
+  - ../articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd
+  - ../articles/puzzles-clues-information/hint-systems-and-recovery.qmd
+  - ../articles/players-social-dynamics/parallel-team-architectures.qmd
+  - ../articles/players-social-dynamics/accessibility-in-live-and-interactive-games.qmd
+  - ../articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd
+  - ../articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd
+provenance: "researched"
+---
+
+*Profile: two descendants of the MIT Mystery Hunt that took the form off a single campus. DASH runs the same one-day hunt on foot in dozens of cities at once. The Galactic Puzzle Hunt runs a multi-day hunt online, free, for anyone with a browser. Together they show the form spreading sideways and outward.*
+
+The MIT Mystery Hunt proved that a weekend of stacked puzzles could become an institution. The harder problem was how to give that experience to people who would never be in Cambridge in January. DASH and the Galactic Puzzle Hunt are two answers to that question and each reaches it from a different direction. DASH ("Different Area, Same Hunt") keeps the physical and social shape of a single day and copies it across many cities at once. The Galactic Puzzle Hunt sheds the venue entirely and runs on the web. [researched] Both inherit the [puzzle hunt and ARG tradition](../articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd) and both keep the meta-puzzle spine, yet each solves the reach problem with a different trade.
+
+They belong in this gazetteer as a sibling pair because the contrast is the lesson. Asked to travel, the same root form splits along the line between the physical and the online. Reading them together shows which parts of [puzzle hunt craft](../articles/puzzles-clues-information/puzzle-hunt-craft.qmd) are load-bearing and which are negotiable once you change the venue. The links below run to the articles each part exemplifies.
+
+## The design profile
+
+DASH is a distributed hunt. On one chosen day a single set of puzzles is played simultaneously in many cities, with teams in each city solving the same material on the same schedule. [researched] The first DASH ran on 13 September 2009 across eight cities, including San Francisco, Seattle, Boston, and Washington DC. [researched] The hunt is built once by a central writing group, then handed to local volunteers who run it on the ground in each location. That separation, one shared puzzle set against many independent venues, is the form's defining move and the reason it scales to more than two dozen cities without the writers being present at any of them. [researched]
+
+The physical shape stays close to the Mystery Hunt's runaround. A DASH team walks around its own city, solving a puzzle to earn directions to the next location, covering between three and six kilometres over the course of the day. [researched] The hunt carries eight to twelve puzzles, the last of them a meta-puzzle that reads the earlier answers as its raw material. [researched] That upward feed is the structure the article on [extraction, indexing and meta-puzzles](../articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd) is built around, kept intact even as the venue multiplies.
+
+::: {.callout-note}
+### The Specimen
+
+DASH solves the consistency problem of a many-city event with a phone app. Every team runs ClueKeeper on a smartphone, and the app does three jobs at once. It checks submitted answers and releases the directions to the next location. It also delivers hints on a graduated scale. [researched] Because the same app governs every city, a team in Houston and a team in Portland get identical answer-checking and identical hint timing without a single local organiser having to adjudicate either. The infrastructure described in [hint systems and recovery](../articles/puzzles-clues-information/hint-systems-and-recovery.qmd) becomes the thing that makes "same hunt" literally true across the map. [synthesis]
+:::
+
+The Galactic Puzzle Hunt keeps the meta spine but throws away the venue. It is an online hunt run by team Galactic (the Galactic Trendsetters), free to enter, played from a browser by teams anywhere in the world. [researched] Its origin is almost an accident of the parent form: the team finished the 2017 MIT Mystery Hunt earlier than they expected and spent the spare day or two building a round of puzzles, complete with a meta, which became the first Galactic Puzzle Hunt in March 2017. [researched] Where DASH compresses into one day, Galactic spreads across several. The 2017 hunt released puzzles over six days and ran roughly 25 of them, and rather than a single closing meta it built five separate metas that fed a final bracket, a meta of metas in the lineage of the Mystery Hunt's stacked structure. [researched]
+
+Online delivery changes the recovery layer. Answers are entered on the website, with a capped number of guesses per puzzle, and hints arrive through the same channel. [researched] The 2017 hunt ran a yes-or-no hint system that allowed follow-up questions, which solvers found more useful than a single fixed answer, alongside an unlimited-hint option for casual players who only wanted to finish. [researched] The two events draw the same conclusion from opposite substrates. A hunt for strangers with no organiser at the solver's elbow has to build its [hint and recovery](../articles/puzzles-clues-information/hint-systems-and-recovery.qmd) system into the delivery channel itself.
+
+## The wider influence
+
+The clearest contribution is in how each event handles reach, the subject of [accessibility in live and interactive games](../articles/players-social-dynamics/accessibility-in-live-and-interactive-games.qmd). DASH was built for people who are not already hardcore solvers, and it offers two difficulty tracks from the same puzzles. A Standard level suits most teams, while an Expert level withholds explicit instructions and asks solvers to work out the method themselves. [researched] One hunt yields two depths so that a first-timer and a veteran can play the same day without either being bored or beaten. Galactic reaches the other way and removes both cost and travel. A free online hunt is open to anyone with a connection, and its 2023 edition drew 294 teams who finished plus more than 800 who solved at least one puzzle. That is a global field no single physical venue could hold. [researched]
+
+The distributed model is DASH's own signature, and it is closest to the concern of [parallel team architectures](../articles/players-social-dynamics/parallel-team-architectures.qmd). Many teams in many cities play one designed experience at once, coordinated by a shared schedule and a shared app rather than by a referee in the room. [researched] That is a different problem from running one large event in one place, and the answer (centralise the content, distribute the operation) is the part other organisers have borrowed most. Both events also restate the trust contract the article on [designer-community trust in long-form hunts](../articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd) examines. Free, volunteer-run, and reliant on automated answer-checking, each has to convince solvers that every puzzle is sound and every answer reachable before anyone commits a day or a week to it. [synthesis]
+
+::: {.callout-warning}
+### The Hazard
+
+Both events cap team size for a reason. DASH limits a team to three, four, or five players, and Galactic sets a small maximum for its online teams. [researched] The temptation, faced with a fixed set of puzzles, is to pile on solvers to finish faster. The cap exists because the [bottleneck problem](../articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd) bites hardest when there are too few open puzzles for the heads available: a hunt of eight to twelve puzzles cannot keep twenty people busy, so most of them stand idle while a handful work. Lift the cap to chase speed and you hollow out the experience for everyone past the first five. [synthesis]
+:::
+
+Read as a pair, the two events map the form's options once it leaves the campus. DASH keeps the body in motion and the team together, and pays for it with the logistics of running in many places on one day. Galactic keeps the puzzles and the meta and pays for nothing, reaching further by giving up the room. The lesson of the profile is that the meta-puzzle spine survives almost any change of venue, while the social and physical texture of a hunt is the part the designer chooses to keep or trade.
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Puzzle hunt (DASH on foot across cities; Galactic online) |
+| Organisers | DASH run by a central writing group plus local-city volunteers; the Galactic Puzzle Hunt by team Galactic (the Galactic Trendsetters) |
+| Began | DASH in September 2009; the Galactic Puzzle Hunt in March 2017 |
+| Players | DASH teams of three to five; Galactic small online teams, fields of hundreds worldwide |
+| Format | DASH one day, 8 to 12 puzzles plus a meta, 3 to 6 km on foot; Galactic multi-day, online, rounds feeding stacked metas |
+| Substrate | DASH city-walk plus the ClueKeeper app for answers, directions, and hints; Galactic a website for puzzles, capped guesses, and hints |
+| Lineage | Both descend from the MIT Mystery Hunt; Galactic was built by a team that finished the 2017 Hunt early |
+
+## Sources
+
+- "DASH - Different Area, Same Hunt." Official site. (The simultaneous many-city model, walking between locations, the ongoing story, and the more-than-two-dozen-city scale.) <https://playdash.org/>
+- "DASH - Frequently Asked Questions." playdash.org. (Team size of three to five, 8 to 12 puzzles including a meta, Standard and Expert difficulty tracks, the walking distance, and the ClueKeeper app for answers and hints.) <https://playdash.org/faq.php>
+- "DASH Puzzle Hunt." MetaFilter Projects. (The first event on 13 September 2009 across eight cities, and the goal of building an interstate puzzle network for non-hardcore solvers.) <https://projects.metafilter.com/2222/DASH-Puzzle-Hunt>
+- "Galactic Puzzle Hunt 2017." Official site, team Galactic. (Run by the Galactic Trendsetters, online and free, the March 2017 timing.) <https://2017.galacticpuzzlehunt.com/>
+- "About." Galactic Puzzle Hunt 2024. (Online and free, multi-day duration, answers entered on the website with capped guesses, hints through the site, progressive unlocking, and team-size cap.) <https://2024.galacticpuzzlehunt.com/about>
+- "Recap: Galactic Puzzle Hunt 2017." *Puzzlvaria*, 29 March 2017. (Six days and roughly 25 puzzles, the five metas feeding a final bracket, the free entry, and the yes-or-no plus unlimited hint systems.) <https://puzzlvaria.wordpress.com/2017/03/29/recap-galactic-puzzle-hunt-2017/>
+- "Galactic Puzzle Hunt." Puzzle Wiki. (The 2017 origin after finishing the MIT Mystery Hunt early, the annual run, the 2020 skip, and the 2023 participation figures of 294 finishing teams and over 800 solving at least one puzzle.) <https://www.puzzles.wiki/wiki/Galactic_Puzzle_Hunt>

@@ -115,12 +115,14 @@ These formats are live-game native, but their grammar carries into single-player
 - [Fiasco](../../exemplars/fiasco.qmd)
 - [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd)
 - [Ironsworn](../../exemplars/ironsworn.qmd)
+- [Microscope & Kingdom](../../exemplars/microscope-and-kingdom.qmd)
 - [Pandemic](../../exemplars/pandemic.qmd)
 - [Parallel Team Architectures](parallel-team-architectures.qmd)
 - [Paranoia](../../exemplars/paranoia.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Spectator-Friendly Design](spectator-friendly-design.qmd)
 - [Team Splitting Strategies](team-splitting-strategies.qmd)
+- [The Extraordinary Adventures of Baron Munchausen](../../exemplars/baron-munchausen.qmd)
 - [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
 
 <!-- BACKLINKS:END -->

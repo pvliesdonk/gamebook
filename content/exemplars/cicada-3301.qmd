@@ -1,0 +1,73 @@
+---
+title: "Cicada 3301"
+type: exemplar
+medium: puzzle-hunt
+year: 2012
+designer: "Anonymous (authorship never confirmed)"
+mechanisms:
+  - ../articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd
+  - ../articles/puzzles-clues-information/ciphers-and-codes.qmd
+  - ../articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd
+  - ../articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd
+  - ../articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd
+  - ../articles/space-props-materiality/qr-and-nfc-patterns.qmd
+  - ../articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd
+provenance: "researched"
+---
+
+*Profile: an anonymous chain of cryptographic puzzles that began as a single image on 4chan and ran solvers through steganography, classical ciphers, books, runes, and printed posters taped to lamp-posts on several continents, all framed as a recruitment test by an organisation that never confirmed it existed.*
+
+Cicada 3301 is the worked example of the puzzle hunt with the author's face removed and the difficulty turned all the way up. On 4 January 2012 a plain image appeared on the 4chan image board, white text on black, saying the poster sought highly intelligent individuals and had devised a test to find them. [researched] Nobody signed it, and the only stated reward was that solving it would lead to them. What followed ran for nearly a month and pulled in thousands of solvers worldwide. It returned on the same date in 2013 and again in 2014, with a further verified message in 2017. [researched] Almost everything else about it, who built it and what for, remains unestablished, and that gap is part of why it is worth studying rather than a reason to look away.
+
+It earns a place in this gazetteer because it pushes a single tradition to its edge. The [puzzle hunt and ARG tradition](../articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd) describes a competitive hunt as an acknowledged game with a known start time and an author who signs the work. Cicada keeps the start time and the layered construction but strips away the signature, so it sits at the cryptographic far end of that family with the fictional frame removed and the authorship withheld. The links below run to the articles each part exemplifies. The subject is also heavily mythologised, so this profile stays with what reputable reporting establishes and flags the rest.
+
+## The design profile
+
+The opening move is the one every later stage repeats: a message hidden in plain sight that the solver has to notice is there at all. The first image carried text hidden in its data with the steganography tool OutGuess, and extracting it produced the next pointer. [researched] That is the recognition problem the article on [ciphers and codes](../articles/puzzles-clues-information/ciphers-and-codes.qmd) treats as the real work of a cipher. A solver first has to notice that something is encoded at all, then identify which technique it uses. Only after that can the decoding begin. Cicada never lets that step settle. Across the rounds it layered classical ciphers such as Caesar and Atbash, prime-number mathematics, audio and image steganography, and a book cipher keyed to outside texts, so the recurring puzzle was working out which tool the current clue wanted. [researched]
+
+The clues that mattered were authenticated. Cicada signed its genuine messages with a consistent OpenPGP key, the public-key scheme that lets anyone verify a message came from the holder of a private key. [researched] That detail does real design work. Imitators tried to hijack the hunt with fake clues, and the signature was how solvers told a true Cicada message from a forgery, so learning to verify a PGP signature became a precondition for trusting any step at all. [researched] The check was part of the test.
+
+::: {.callout-note}
+### The Specimen
+The 2012 round is the clean cross-section. The OutGuess message on the 4chan image led to further clues and, on 9 January 2012, to a set of GPS coordinates pointing at fourteen locations across several countries. [researched] At each, solvers found a printed poster bearing the cicada emblem and a QR code taped to a lamp-post or a street sign, in cities including Warsaw, Paris, Seattle, Seoul, Sydney, Miami, New Orleans, and others. [researched] Scanning a code returned another fragment of the trail, much of which then continued through Tor hidden services on the dark web. [researched] A single image leads through one tool to a chain that reaches off the screen onto a street corner halfway around the world, then back into an anonymity network. That span across substrates in one hunt is what makes it a specimen rather than a curiosity.
+:::
+
+The poster stage is the most studied because it crosses media so cleanly. A QR code is the cheapest bridge from a physical object to digital content, and Cicada used it exactly as the article on [QR and NFC patterns](../articles/space-props-materiality/qr-and-nfc-patterns.qmd) describes. The scan proved physical presence at a specific real-world spot. It then handed over the next clue in the same motion, whether the person scanning was the solver or a confederate they directed there online. [researched] The distributed physical trail across many cities is also the city-spanning shape of a [treasure and scavenger hunt](../articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd), run at global scale on volunteer legwork rather than a single organiser's course.
+
+Underneath the variety sits one structure: each solved stage produced the material for the next. A decoded message gave a URL. That URL led to an image; the image carried coordinates; the coordinates sent solvers to a poster; the poster pointed at a Tor address. Each link in the chain handed over the next. That upward feed, where the output of one step becomes the raw input of the next, is the spine the article on [extraction, indexing and meta-puzzles](../articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd) is built around, here run as a long single chain rather than a fan of feeders into one meta. [researched] Sustaining it demanded the habit the article on [search, observation and lateral thinking](../articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd) trains. A solver had to treat every artefact as potential signal. A clue might be waiting inside an image's data or a sound file, or behind a runic glyph or a line of an old book. [synthesis]
+
+The 2014 round introduced the part that has never resolved. Cicada distributed the Liber Primus, a book of dozens of pages written in a runic alphabet. [researched] More than a decade later only a portion of it has been deciphered into its philosophical riddles, and the bulk stays unread. [researched] A puzzle that may or may not encode a recoverable message sits exactly on the line between an unsolved puzzle and a puzzle with no answer. From the outside the two look the same.
+
+::: {.callout-warning}
+### The Hazard
+The danger here is the writing about Cicada more than the puzzle itself. Because the authors never identified themselves and never stated their purpose, the vacuum filled with claims: that the NSA, the CIA, MI6, Mossad, a cyber-mercenary outfit, or a secret society ran it. [researched] None of these has been substantiated, and treating any of them as fact means building on rumour. What reporting does support is narrower and more useful to a designer: solvers who completed the 2012 round were interviewed about their views on privacy, censorship, and freedom of information, then invited to a private forum to build privacy software, an arrangement that dissolved within months when the recruits realised they were unpaid developers and the forum vanished. [researched] Take the documented account, attribute the speculation as speculation, and do not let an exciting story stand in for evidence.
+:::
+
+## The wider influence
+
+Cicada's mark is less a school of imitators than a proof and a warning held in the same object. The proof is that the hunt's machinery survives the loss of an acknowledged author. A hunt normally rests on a signed work, a fixed start, and a solver's trust that every puzzle has a reachable answer. Cicada removed the signature and kept the rest, substituting a cryptographic signature for a human one so that authenticity was something a solver could verify rather than something they had to be told. [synthesis] That substitution is its real contribution to the craft: in a hunt where anyone can plant a fake clue, a verifiable key is what lets the game stay coherent without a named host vouching for it.
+
+The warning sits in the trust relationship the article on [designer-community trust in long-form hunts](../articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd) examines. A solver who spends weeks on a hunt is extending faith that the construction is honest and the endpoint real. An anonymous host asks for that faith without offering the other half of the bargain, which is accountability when the experience ends badly. The documented 2012 cohort was given an interview and then a forum and a project to work on. They got silence once the organisers walked away. [researched] The unsolved Liber Primus is the same problem in cryptographic form. With no author to confirm a solution is even possible, the community polices its own claims and has no court of appeal. A hunt that hides its author buys mystique at the cost of the recourse that keeps long-form solvers from feeling used.
+
+The cultural reach outran the design influence. Cicada drew coverage in *The Guardian*, *Rolling Stone*, *The Washington Post*, the BBC, and *The Telegraph*, became the seed for a Hollywood film and a steady churn of documentaries and forum archaeology, and lent its name and aesthetic to a genre of online mystery. [researched] The lesson for a designer is the cleaner half of all that noise. The hunt's mechanisms, layered extraction and verifiable authentication and cross-media trails, hold up well enough to carry an experience with no host standing behind it. The social contract that makes a long hunt feel worth finishing does not, and anonymity is what breaks it.
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Anonymous cryptographic puzzle hunt, partly framed as recruitment |
+| Author | Unknown; never confirmed. Speculation about state agencies or a private group is unsubstantiated |
+| Active | Rounds beginning 4 January 2012, 2013, and 2014; a further verified OpenPGP-signed message in 2017 |
+| Players | Thousands of solvers worldwide, coordinating in open and private online forums; only a handful reported finishing the early rounds |
+| Format | Multi-stage chains across roughly a month per round, each solved step feeding the next |
+| Substrate | Steganographic images and audio, classical and book ciphers, OpenPGP-signed messages, printed QR posters in many cities, Tor hidden services, and the runic Liber Primus |
+| Status | Liber Primus (2014) largely undeciphered; authorship and purpose never established |
+
+## Sources
+
+- "Cicada 3301." Wikipedia. (Round dates of 4 January 2012, 2013 and 2014 and the 2017 message; OutGuess steganography, classical ciphers, OpenPGP signing, Tor; physical paper signs; the Liber Primus only partly decrypted; *The Book of the Law*, *Agrippa* and *Mabinogion* references; the recruitment framing; mainstream coverage.) <https://en.wikipedia.org/wiki/Cicada_3301>
+- Bell, Chris. "Cicada 3301: I tried the hardest puzzle on the internet and failed spectacularly." *The Telegraph*, January 2014. (The hunt's structure, the recruitment claim, and the difficulty of the trail.) <https://www.telegraph.co.uk/technology/internet/10468112/Cicada-3301-I-tried-the-hardest-puzzle-on-the-internet-and-failed-spectacularly.html>
+- Scott, David. "Cicada: Solving the Web's Deepest Mystery." *Rolling Stone*, January 2015. (Marcus Wanner's account of solving the 2012 puzzle, the interview on privacy and censorship, the private forum, the privacy-software project, and the group walking away.) <https://www.rollingstone.com/culture/culture-news/cicada-solving-the-webs-deepest-mystery-84394/>
+- "Cicada 3301: The dark net treasure trail reopens." BBC News, January 2014. (The 2014 round's relaunch and the cross-media trail across the cities where posters appeared.) <https://www.bbc.com/news/technology-25667292>
+- "Marcus Wanner: Coder, creator." *Virginia Tech Magazine*, Summer 2015. (Wanner as a confirmed 2012 solver who spoke on the record; the post-solve forum and its disappearance.) <https://www.vtmag.vt.edu/sum15/ology.html>
+- "Cicada 3301 First Puzzle Walkthrough." Boxentriq. (The 2012 chain step by step, from the OutGuess image through the cipher layers to the GPS coordinates and QR posters and on to Tor.) <https://www.boxentriq.com/guides/cicada-3301-first-puzzle-walkthrough>

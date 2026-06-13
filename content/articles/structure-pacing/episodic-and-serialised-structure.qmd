@@ -111,6 +111,7 @@ Puzzle hunts serialise on a compressed clock. A multi-day hunt releases its roun
 - [Branching Narrative Craft](branching-narrative-craft.qmd)
 - [Campaign Arc Shapes](campaign-arc-shapes.qmd)
 - [Canon Management](../story-character-voice/canon-management.qmd)
+- [De Profundis](../../exemplars/de-profundis.qmd)
 - [Hunt A Killer](../../exemplars/hunt-a-killer.qmd)
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
 - [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)

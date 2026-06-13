@@ -122,6 +122,7 @@ This is also where the form proves its reach across other media. In live and phy
 - [Environmental Storytelling & Setting as Character](../story-character-voice/environmental-storytelling-and-setting-as-character.qmd)
 - [Hunt A Killer](../../exemplars/hunt-a-killer.qmd)
 - [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd)
+- [Microscope & Kingdom](../../exemplars/microscope-and-kingdom.qmd)
 - [Oracle & Solo-Play Resolution](../systems-mechanics/oracle-and-solo-play-resolution.qmd)
 - [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
 - [Prose Patterns & Point of View](../story-character-voice/prose-patterns-and-point-of-view.qmd)

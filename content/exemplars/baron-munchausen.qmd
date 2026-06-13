@@ -1,0 +1,77 @@
+---
+title: "The Extraordinary Adventures of Baron Munchausen"
+type: exemplar
+medium: tabletop
+year: 1998
+designer: "James Wallis"
+mechanisms:
+  - ../articles/systems-mechanics/distributing-narrative-authority.qmd
+  - ../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd
+  - ../articles/systems-mechanics/social-performance-genres.qmd
+  - ../articles/story-character-voice/character-voice.qmd
+  - ../articles/story-character-voice/voice-and-register-consistency.qmd
+  - ../articles/story-character-voice/conflict-patterns.qmd
+  - ../articles/systems-mechanics/ttrpg-format-taxonomy.qmd
+provenance: "researched"
+---
+
+*Profile: a table of eighteenth-century gentlemen boasting to one another in the first person and each tale taller than the last. There is no referee. There is no board. Dice never enter the room. A purse of coins is the whole apparatus. To object to a lie, you pay a coin.*
+
+The Extraordinary Adventures of Baron Munchausen is the game that showed a satisfying story could be built from nothing but a handful of coins and a licence to lie. James Wallis published it through Hogshead Publishing in 1998, framing the rules as if dictated by the Baron himself in 1798 over a tankard. [researched] Each player takes on the Baron or one of his noble companions and tells an outrageous first-person tale of their own heroics, so the game is a worked study of [holding a character voice](../articles/story-character-voice/character-voice.qmd) under live pressure. [synthesis] It runs without a game master, which means the right to say what is true in a story passes around the table by a coin rule rather than resting with one person, and that makes it an early, clean case of [distributing narrative authority](../articles/systems-mechanics/distributing-narrative-authority.qmd). [synthesis]
+
+It earns a place in this gazetteer because it arrived before the vocabulary for what it was doing existed. Most roleplaying of its era assumed a referee, a rulebook of resolution, and dice. This game kept none of them and still produced a complete evening, and the storytelling-game movement that followed treated it as a starting point. The links below run to the articles each part exemplifies; read in the other direction, those articles list this game in their *Referenced by* register.
+
+## The design profile
+
+A game begins with almost nothing on the table. Each player has a purse holding a number of coins equal to the number of players, every coin of the same value so that arguments over worth never start. [researched] One player opens by prompting another: "Tell us, Baron, of the occasion when you gave birth to an elephant," and the addressed player either accepts the invitation and begins, or declines and buys the table a round of drinks. [researched] From there the storyteller has roughly five minutes to spin a first-person boast piled high with impossibility, closing it with a solemn vow that every word is true. [researched] The published booklet runs to only 24 pages, with the whole rule set condensed onto a single page and over 200 ready-made prompts behind it. [researched]
+
+The setting frame is doing quiet work. By placing the players as aristocrats of the late eighteenth century, the game hands them a [register to perform in](../articles/story-character-voice/voice-and-register-consistency.qmd): mock-grand, self-flattering, and certain of its own importance. The comedy lives in the gap between that lofty register and the nonsense being asserted, so a player who sustains the pompous voice while describing fire-breathing lunar llamas is funnier than one who simply narrates the absurdity flat. [synthesis] The character of the Baron is borrowed from Rudolf Erich Raspe's 1785 tales, themselves a satire on the boasting traveller, and the game inherits that satirical target rather than inventing one. [researched]
+
+::: {.callout-note}
+### The Signature
+
+Challenging a story means betting against it. A listener who spots a hole pushes a coin to the centre and raises an objection in character: "But surely, Baron, the moon's llamas are strict vegetarians." The storyteller now chooses. One option is to accept the objection and pocket the coin while bending the awkward detail into the tale. The other is to refuse it by matching the coin with one of their own. A refusal can escalate. The objector who sees that matched coin may pocket both and drop the matter. Alternatively they stake a third coin and renew the challenge. The bidding then climbs until one side runs out of nerve. [researched] Money is the cost of interrupting and the reward for being interrupted well, so the economy paces the table on its own.
+:::
+
+That coin rule is the concrete machinery behind the game's [shared narrative authority](../articles/systems-mechanics/distributing-narrative-authority.qmd). Without a referee, nobody has standing to declare an objection valid or a tale finished. The coins supply that standing instead. Spending one buys the right to inject a fact into someone else's story, and the storyteller's choice to accept or refuse decides whether the injection sticks. [synthesis] The right to author the fiction is never held in one place: it shifts to whoever is currently paying. The same mechanism explains why the game reads as a [competitive rather than cooperative format](../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd). The players are building a shared evening of nonsense, yet each is also playing to keep their purse heavy, and the tension between those two pulls is what keeps the objections coming. [synthesis]
+
+Because the whole resolution system is social and spoken aloud, the game belongs to the family of [performance-driven designs](../articles/systems-mechanics/social-performance-genres.qmd), where the skill being tested is improvisation in front of an audience rather than tactical planning. [synthesis] The rewarded abilities overlap heavily with theatrical improv. A good player listens for a comic opening and judges the moment to interrupt against the moment to hold back, then commits to a daft premise without flinching. [researched] The coin economy gives that performance a frame. A cheap, low-risk objection hands shy players a reason to speak up, while the same currency puts a price on the player who would otherwise monopolise the table. [researched]
+
+The objection itself is the game's unit of [conflict](../articles/story-character-voice/conflict-patterns.qmd), and it is worth noticing how unusual that conflict is. There is no contested outcome in the fiction, no character trying to stop another character. The fight is over the credibility of a lie, fought between players rather than between their personae, and settled by who is willing to spend more. [synthesis] A duel of escalating coins can break out purely over whether the Baron could plausibly have ridden a cannonball, and the loser is simply the one who runs out of appetite for the wager.
+
+::: {.callout-warning}
+### The Hazard
+
+The rules are social, so the failures are social too, and they do not show up until the table is mid-tale. A single dominating narrator can run twenty minutes while everyone else disengages, and the coin economy will not stop them on its own. The opposite failure is a shy table that never objects, which starves the storyteller of the comic pressure the game runs on, so the tales deflate into monologue. Both are usually cured the same way. An experienced player tells the first story to model the right length and register, then steps back. The game teaches by example far better than by its half-page of rules. [synthesis]
+:::
+
+When every player has told a tale, the purses settle the result. Players vote for the best story with the coins they have left, and the storyteller holding the largest purse at the end wins, traditionally buying the next round from their winnings. [researched] The win condition closes the loop the coin rule opened: every objection spent, accepted, or refused along the way has been moving money toward the ending, so the reckoning was being assembled in plain sight the whole game.
+
+## The wider influence
+
+The game was the hit of GenCon 1998 and went on to a 1999 Origins Award nomination for Best New Roleplaying Game, unusual recognition for a 24-page booklet with no dice. [researched] Commentators reaching back to it tend to call it a pioneer of the indie roleplaying movement and the start of the storytelling-game tradition that ran on through the following decade, naming later designs such as Sorcerer and Universalis as carrying its ideas further. [researched] Its lineage of GM-less, single-session story games connects directly to the entries this gazetteer profiles in [Fiasco](fiasco.qmd) and the broader [GM-less storytelling wing of the format map](../articles/systems-mechanics/ttrpg-format-taxonomy.qmd). [synthesis]
+
+The game has also proved durable in print. A second edition arrived from Magnum Opus Press in 2008, a third from Fantasy Flight Games in 2016, and in 2026 Wallis announced a fourth edition with 9th Level Games, with crowdfunding set for that autumn. [researched] The lesson the profile leaves is that resolution does not need dice or a referee to be reliable. A token you spend to speak, paired with a clear win condition, can distribute authority around a table and keep a story moving on social pressure alone. [synthesis]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop storytelling game |
+| Designer | James Wallis |
+| Published | 1998 (Hogshead); 2008 (Magnum Opus); 2016 (Fantasy Flight); 2026 fourth edition announced (9th Level Games) |
+| Players | Roughly three to eight, with no game master |
+| Format | One-shot, run in a single sitting of about 90 minutes |
+| Substrate | A purse of equal-value coins per player and a list of prompts; no board, no dice |
+| Resolution | Social: a coin-wager objection rule, settled by escalation and a closing vote |
+
+## Sources
+
+- "The Extraordinary Adventures of Baron Munchausen." Wikipedia. (Designer and publisher, the 1998 first edition and the 2008 and 2016 editions, the purse-and-coin setup, the prompt-and-tell structure, the objection-and-wager mechanic, the diceless and GM-less design, the Gustave Doré illustrations, and the eighteenth-century framing.) <https://en.wikipedia.org/wiki/The_Extraordinary_Adventures_of_Baron_Munchausen>
+- "The Extraordinary Adventures of Baron Munchausen (1998)." Vintage RPG. (The five-minute first-person tale, the closing vow of truth, the coin-as-objection mechanic, the New Style framing, and the game's place among the most minimal rule sets of its era.) <https://vintagerpg.tumblr.com/post/666620970303356928/the-extraordinary-adventures-of-baron-munchausen>
+- "Ex-RPGNet Review: Extraordinary Adventures of Baron Munchausen." The Alexandrian. (The escalating coin duel and the rule that an objector may take both coins or add a third and renew, the ritualised drinking, the single-page rules and 200-plus prompts, the GenCon 1998 reception, and the eighteenth-century Raspe roots.) <https://thealexandrian.net/wordpress/23512/roleplaying-games/rpgnet-review-extraordinary-adventures-of-baron-munchausen>
+- "1998: The Extraordinary Adventures of Baron Munchausen." Reviews from R'lyeh, 2018. (The purse of equal-value coins, the prompt-and-decline opening, the objection examples in character, and the largest-purse win condition with the winner buying drinks.) <http://rlyehreviews.blogspot.com/2018/11/1998-extraordinary-adventures-of-baron.html>
+- "James Wallis partners with 9th Level Games for new edition of classic storytelling game." Geek Native, 2026. (The fourth edition partnership and timeline, the persona-of-aristocrats framing, the wager-to-interrupt mechanic, and the game's reputation as a pioneer of the indie roleplaying movement.) <https://www.geeknative.com/235910/james-wallis-partners-with-9th-level-games-for-new-edition-of-classic-storytelling-game/>
+- "The Extraordinary Adventures of Baron Munchausen." Reviews from R'lyeh / Goodreads listing and RPGGeek entry. (The 1999 Origins Award nomination for Best New Roleplaying Game and the influence on later storytelling games such as Sorcerer and Universalis.) <https://rpggeek.com/rpg/903/the-extraordinary-adventures-of-baron-munchausen>
+</content>
+</invoke>

@@ -98,7 +98,9 @@ The degenerate meta is the one where the discovery moment is missing. You have t
 ## Referenced by
 
 - [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd)
+- [Cicada 3301](../../exemplars/cicada-3301.qmd)
 - [Ciphers & Codes](ciphers-and-codes.qmd)
+- [DASH & the Galactic Puzzle Hunt](../../exemplars/dash-and-galactic-puzzle-hunt.qmd)
 - [Information Architecture](information-architecture.qmd)
 - [Nonlinear Narrative Structures](../structure-pacing/nonlinear-narrative-structures.qmd)
 - [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
