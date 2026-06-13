@@ -282,11 +282,15 @@ Cross-linked to the mechanism/social articles they illustrate.
 - **GM-less / story games (6):** Baron Munchausen · Fiasco · Microscope & Kingdom · Ten Candles · The Quiet Year · Correspondence Games (De Profundis)
 - **Tabletop (13):** Apocalypse World · Baba Is You · Blades in the Dark · Blood on the Clocktower · Blue Prince · Call of Cthulhu · D&D 5e · Ironsworn · Magic: the Gathering · Pandemic · Paranoia · The Witness · Thousand Year Old Vampire
 
-## Style Specimen gallery (24 specimens)
+## Style Specimen gallery (24 specimens) — SCRAPPED (decision #20, 2026-06-13)
 
-The IF prose specimens (register × rhythm × mode matrix): conversational / literary / ornate /
+**This gallery was cut.** It would have been the only single-medium (IF), sample-prose section
+in a cross-media mechanism guide, and the prose-craft articles already cover the craft. See the
+decision register. The 24 `style-exemplars/*` notes remain in the vault, unsurfaced.
+
+~~The IF prose specimens (register × rhythm × mode matrix): conversational / literary / ornate /
 sparse × flowing / measured / punchy × action / dialogue / introspection / exposition. ← the 24
-`style-exemplars/*` notes.
+`style-exemplars/*` notes.~~
 
 ## Primers (settles decision #16 — proposed set of 7)
 

@@ -187,9 +187,6 @@ book:
         - content/exemplars/the-witness.qmd
         - content/exemplars/thousand-year-old-vampire.qmd
         - content/exemplars/unlock-series.qmd
-    - part: "Style Specimens"
-      chapters:
-        - content/specimens/index.qmd
 
 format:
   html:
