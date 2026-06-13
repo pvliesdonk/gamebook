@@ -89,7 +89,7 @@ Find an article by the problem you are hitting.
 - [Safety Systems as Mechanical Layer](../articles/systems-mechanics/safety-systems-as-mechanical-layer.qmd) · Systems & Mechanics
 
 ## unfairness
-*outcomes the player can't earn or trust — luck spikes, GM fiat, unearned twists*
+*outcomes the player can't earn or trust: luck spikes and GM fiat, or unearned twists*
 
 - [Designer-Community Trust in Long-Form Hunts](../articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd) · Players & Social Dynamics
 - [GM Role Models & Stances](../articles/players-social-dynamics/gm-role-models-and-stances.qmd) · Players & Social Dynamics
@@ -145,7 +145,7 @@ Find an article by the problem you are hitting.
 - [TTRPG Format Taxonomy](../articles/systems-mechanics/ttrpg-format-taxonomy.qmd) · Systems & Mechanics
 
 ## immersion-break
-*the spell snaps — non-diegetic intrusion, pasted-on theme, dissonance*
+*the spell snaps: non-diegetic intrusion, pasted-on theme, dissonance*
 
 - [GM Role Models & Stances](../articles/players-social-dynamics/gm-role-models-and-stances.qmd) · Players & Social Dynamics
 - [Artefact Design & Document Production](../articles/space-props-materiality/artefact-design-and-document-production.qmd) · Space, Props & Materiality
@@ -172,7 +172,7 @@ Find an article by the problem you are hitting.
 - [Theme-Mechanism Integration](../articles/systems-mechanics/theme-mechanism-integration.qmd) · Systems & Mechanics
 
 ## dead-end
-*a hard stop with no path forward — bottleneck, single point of failure*
+*a hard stop with no path forward: bottleneck, single point of failure*
 
 - [Designer-Community Trust in Long-Form Hunts](../articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd) · Players & Social Dynamics
 - [Information Asymmetry: Hidden Information vs Hidden Roles](../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd) · Players & Social Dynamics
@@ -196,7 +196,7 @@ Find an article by the problem you are hitting.
 - [Moves & the Fiction-Mechanic-Fiction Loop](../articles/systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd) · Systems & Mechanics
 
 ## degenerate-play
-*collapses to one line — solved game, dominant strategy, analysis paralysis*
+*collapses to one line: a dominant strategy that solves the game, or analysis paralysis*
 
 - [Rulings vs Rules & the Authority Contract](../articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd) · Players & Social Dynamics
 - [A Taxonomy of Puzzles](../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd) · Puzzles, Clues & Information
@@ -220,7 +220,7 @@ Find an article by the problem you are hitting.
 - [Turn Structure & Action Economy](../articles/systems-mechanics/turn-structure-and-action-economy.qmd) · Systems & Mechanics
 
 ## false-agency
-*choices that don't matter — railroading, illusory branches*
+*choices that don't matter: railroading, illusory branches*
 
 - [GM Role Models & Stances](../articles/players-social-dynamics/gm-role-models-and-stances.qmd) · Players & Social Dynamics
 - [The Aha Moment](../articles/puzzles-clues-information/the-aha-moment.qmd) · Puzzles, Clues & Information
@@ -244,7 +244,7 @@ Find an article by the problem you are hitting.
 - [Progress Clocks & Faction State](../articles/systems-mechanics/progress-clocks-and-faction-state.qmd) · Systems & Mechanics
 
 ## exclusion
-*players sidelined, idle, eliminated, locked out — watching not playing*
+*players sidelined, idle, eliminated, locked out: watching not playing*
 
 - [Accessibility in Live & Interactive Games](../articles/players-social-dynamics/accessibility-in-live-and-interactive-games.qmd) · Players & Social Dynamics
 - [Cooperative vs Adversarial Formats](../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd) · Players & Social Dynamics
@@ -266,7 +266,7 @@ Find an article by the problem you are hitting.
 - [Turn Structure & Action Economy](../articles/systems-mechanics/turn-structure-and-action-economy.qmd) · Systems & Mechanics
 
 ## prose-failure
-*the writing fails — info-dump, told-not-shown, on-the-nose, author intrusion*
+*the writing fails: info-dump, told-not-shown, on-the-nose, author intrusion*
 
 - [Search, Observation & Lateral Thinking](../articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd) · Puzzles, Clues & Information
 - [Character Voice](../articles/story-character-voice/character-voice.qmd) · Story, Character & Voice
@@ -286,7 +286,7 @@ Find an article by the problem you are hitting.
 - [Worldbuilding Patterns](../articles/story-character-voice/worldbuilding-patterns.qmd) · Story, Character & Voice
 
 ## unsolvability
-*a challenge that can't fairly be solved — unverifiable, pixel-hunt, ungated*
+*a challenge that can't fairly be solved: unverifiable, pixel-hunt, ungated*
 
 - [Designer-Community Trust in Long-Form Hunts](../articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd) · Players & Social Dynamics
 - [Mixed-Ability Groups & Universal Design](../articles/players-social-dynamics/mixed-ability-groups-and-universal-design.qmd) · Players & Social Dynamics
@@ -306,7 +306,7 @@ Find an article by the problem you are hitting.
 - [Mechanical Resolution Types](../articles/systems-mechanics/mechanical-resolution-types.qmd) · Systems & Mechanics
 
 ## disorientation
-*the audience loses the thread — can't track state, space, structure, ending*
+*the audience loses the thread: can't track state, space, structure, ending*
 
 - [Bleed, Aftercare & Debriefing](../articles/players-social-dynamics/bleed-aftercare-and-debriefing.qmd) · Players & Social Dynamics
 - [Designer-Community Trust in Long-Form Hunts](../articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd) · Players & Social Dynamics
@@ -344,7 +344,7 @@ Find an article by the problem you are hitting.
 - [Social Performance Genres](../articles/systems-mechanics/social-performance-genres.qmd) · Systems & Mechanics
 
 ## flat-character
-*people in the fiction lack life — interchangeable, unmotivated, monoculture*
+*people in the fiction lack life: interchangeable, unmotivated, monoculture*
 
 - [Faction Design & Asymmetric Objectives](../articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd) · Players & Social Dynamics
 - [Player Types & Casting](../articles/players-social-dynamics/player-types-and-casting.qmd) · Players & Social Dynamics
@@ -362,7 +362,7 @@ Find an article by the problem you are hitting.
 - [Playbook Design](../articles/systems-mechanics/playbook-design.qmd) · Systems & Mechanics
 
 ## safety-failure
-*play harms participants — unsafe pressure, missing consent, uncontained bleed*
+*play harms participants: unsafe pressure, missing consent, uncontained bleed*
 
 - [Bleed, Aftercare & Debriefing](../articles/players-social-dynamics/bleed-aftercare-and-debriefing.qmd) · Players & Social Dynamics
 - [One-on-One Scene Design](../articles/players-social-dynamics/one-on-one-scene-design.qmd) · Players & Social Dynamics
@@ -376,7 +376,7 @@ Find an article by the problem you are hitting.
 - [Safety Systems as Mechanical Layer](../articles/systems-mechanics/safety-systems-as-mechanical-layer.qmd) · Systems & Mechanics
 
 ## coordination-failure
-*group machinery seizes — can't coordinate, isolate, or lack a counterpart*
+*group machinery seizes: can't coordinate, isolate, or lack a counterpart*
 
 - [Parallel Team Architectures](../articles/players-social-dynamics/parallel-team-architectures.qmd) · Players & Social Dynamics
 - [Extraction, Indexing & Meta-Puzzles](../articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd) · Puzzles, Clues & Information

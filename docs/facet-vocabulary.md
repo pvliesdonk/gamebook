@@ -47,22 +47,22 @@ read article `media`, not exemplar `medium`), and must never be added to an arti
 ## `problems` — the failure mode a mechanism addresses (16)
 | term | gloss |
 |---|---|
-| immersion-break | the spell snaps — non-diegetic intrusion, pasted-on theme, dissonance |
-| exclusion | players sidelined, idle, eliminated, locked out — watching not playing |
+| immersion-break | the spell snaps: non-diegetic intrusion, pasted-on theme, dissonance |
+| exclusion | players sidelined, idle, eliminated, locked out: watching not playing |
 | domination | one player/team controls the table or outcome (alpha-play, quarterbacking, runaway) |
-| degenerate-play | collapses to one line — solved game, dominant strategy, analysis paralysis |
-| false-agency | choices that don't matter — railroading, illusory branches |
+| degenerate-play | collapses to one line: a dominant strategy that solves the game, or analysis paralysis |
+| false-agency | choices that don't matter: railroading, illusory branches |
 | pacing-failure | drags, sags, stalls, spikes, or never climbs |
-| dead-end | a hard stop with no path forward — bottleneck, single point of failure |
-| unsolvability | a challenge that can't fairly be solved — unverifiable, pixel-hunt, ungated |
-| unfairness | outcomes the player can't earn or trust — luck spikes, GM fiat, unearned twists |
-| safety-failure | play harms participants — unsafe pressure, missing consent, uncontained bleed |
-| flat-character | people in the fiction lack life — interchangeable, unmotivated, monoculture |
-| prose-failure | the writing fails — info-dump, told-not-shown, on-the-nose, author intrusion |
+| dead-end | a hard stop with no path forward: bottleneck, single point of failure |
+| unsolvability | a challenge that can't fairly be solved: unverifiable, pixel-hunt, ungated |
+| unfairness | outcomes the player can't earn or trust: luck spikes and GM fiat, or unearned twists |
+| safety-failure | play harms participants: unsafe pressure, missing consent, uncontained bleed |
+| flat-character | people in the fiction lack life: interchangeable, unmotivated, monoculture |
+| prose-failure | the writing fails: info-dump, told-not-shown, on-the-nose, author intrusion |
 | voice-drift | tone/register/voice/canon/world-state slip out of consistency |
-| disorientation | the audience loses the thread — can't track state, space, structure, ending |
+| disorientation | the audience loses the thread: can't track state, space, structure, ending |
 | content-cost | authoring/prep/reset burden outweighs payoff; burnout; single-use waste |
-| coordination-failure | group machinery seizes — can't coordinate, isolate, or lack a counterpart |
+| coordination-failure | group machinery seizes: can't coordinate, isolate, or lack a counterpart |
 
 ## `components` — the concrete parts, by kind (10 buckets)
 The specific part (e.g. `dice`, `cipher-key`) lives in the article's prose; the facet records its
@@ -70,16 +70,16 @@ The specific part (e.g. `dice`, `cipher-key`) lives in the article's prose; the 
 
 | bucket | gloss |
 |---|---|
-| physical-parts | tangible game pieces — dice, cards, tokens, board, miniatures, decks |
-| paper-artefacts | documents/handouts/reference texts — clue-text, codex, map, story-bible, feelie |
-| procedures-and-protocols | run-time routines — hint systems, debrief, calibration, reset, verification |
+| physical-parts | tangible game pieces: dice, cards, tokens, board, miniatures, decks |
+| paper-artefacts | documents/handouts/reference texts: clue-text, codex, map, story-bible, feelie |
+| procedures-and-protocols | run-time routines: hint systems, debrief, calibration, reset, verification |
 | locks-and-concealment | locks, containers, caches, ciphers/inks that gate or conceal |
-| electronics-and-digital | powered/networked/scannable — QR/NFC, app, screen, sensor, timer, server |
-| structural-primitives | abstract graph/flow — node, branch, gate, hub, bottleneck, thread, clock |
-| state-and-resource-trackers | quantified state + resolution dials — flag, meter, track, win-condition, skill-check |
-| narrative-primitives | craft abstractions of story/voice — beat, scene, POV, trope, oracle, reveal |
-| set-dressing-and-environment | sensory/spatial environment — lighting, soundscape, scent, props, costume |
-| roles-and-social-frame | people-parts + the social/safety contract — faction, hidden-role, safety-tool, gm-role |
+| electronics-and-digital | powered/networked/scannable: QR/NFC, app, screen, sensor, timer, server |
+| structural-primitives | abstract graph/flow: node, branch, gate, hub, bottleneck, thread, clock |
+| state-and-resource-trackers | quantified state + resolution dials: flag, meter, track, win-condition, skill-check |
+| narrative-primitives | craft abstractions of story/voice: beat, scene, POV, trope, oracle, reveal |
+| set-dressing-and-environment | sensory/spatial environment: lighting, soundscape, scent, props, costume |
+| roles-and-social-frame | people-parts + the social/safety contract: faction, hidden-role, safety-tool, gm-role |
 
 ## `genre` — the fiction (13) — split from the old conflated axis
 `mystery` (incl. detective/crime/cosy/noir) · `horror` · `sci-fi` · `fantasy` · `historical` ·
