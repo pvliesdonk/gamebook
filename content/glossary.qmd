@@ -1,0 +1,995 @@
+---
+title: "Glossary & Index"
+---
+
+An alphabetical reference to the mechanisms in this guide and the other names they go by. A bold entry links to the article that covers it; an italic entry redirects an alias to its canonical term.
+
+
+## #
+
+*The 1:1*: see [One-on-One Scene Design](articles/players-social-dynamics/one-on-one-scene-design.qmd)
+
+
+## A
+
+**[A Taxonomy of Genre Conventions](articles/story-character-voice/a-taxonomy-of-genre-conventions.qmd)**: Map of genres by reader contract and key IF adaptation.
+
+**[A Taxonomy of Puzzles](articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd)**: Map of puzzle types: cognitive faculty × experiential job.
+
+*A11y in Games*: see [Accessibility in Live & Interactive Games](articles/players-social-dynamics/accessibility-in-live-and-interactive-games.qmd)
+
+**[Accessibility in Live & Interactive Games](articles/players-social-dynamics/accessibility-in-live-and-interactive-games.qmd)**: The social model; sensory/mobility/cognitive/linguistic access; hints as access.
+
+*Accessible Group Design*: see [Mixed-Ability Groups & Universal Design](articles/players-social-dynamics/mixed-ability-groups-and-universal-design.qmd)
+
+*Accusation Dynamics*: see [Trust, Conformity & Social Pressure](articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd)
+
+*Action Economy*: see [Turn Structure & Action Economy](articles/systems-mechanics/turn-structure-and-action-economy.qmd)
+
+*Affection Systems*: see [Romance & Relationships](articles/story-character-voice/romance-and-relationships.qmd)
+
+*Age Banding*: see [Audience & Age-Targeting](articles/story-character-voice/audience-and-age-targeting.qmd)
+
+**[Aha Moment](articles/puzzles-clues-information/the-aha-moment.qmd)**: The core cognitive reward of puzzle solving.
+
+*Alternate Reality Game (ARG)*: see [The Puzzle Hunt & ARG Tradition](articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd)
+
+*Analysis Paralysis*: see [Turn Structure & Action Economy](articles/systems-mechanics/turn-structure-and-action-economy.qmd)
+
+*Answers as Data*: see [Extraction, Indexing & Meta-Puzzles](articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd)
+
+*ARG Lineage*: see [The Puzzle Hunt & ARG Tradition](articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd)
+
+*Armchair Treasure Hunt*: see [Treasure & Scavenger Hunts](articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd)
+
+**[Artefact Design & Document Production](articles/space-props-materiality/artefact-design-and-document-production.qmd)**: Designing and producing narrative objects (feelies, aged documents, dossiers).
+
+*Artefact Modality*: see [Physical vs Digital Puzzle Artefacts](articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd)
+
+*Asymmetric Win Conditions*: see [Faction Design & Asymmetric Objectives](articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd)
+
+*Atmosphere*: see [Theme, Immersion & Sensory Environment](articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd)
+
+**[Audience & Age-Targeting](articles/story-character-voice/audience-and-age-targeting.qmd)**: Cross-genre age calibration (distinct from the Children's/YA genre craft).
+
+*Automa*: see [Solo Modes](articles/systems-mechanics/solo-modes.qmd)
+
+
+## B
+
+*Back-solving*: see Backsolving
+
+**Backsolving**: Deriving a feeder answer from the meta rather than from the feeder itself.
+
+*Baked-In Safety*: see [Safety Systems as Mechanical Layer](articles/systems-mechanics/safety-systems-as-mechanical-layer.qmd)
+
+*Beat Sheets*: see [Beat Taxonomies & Craft Models](articles/structure-pacing/beat-taxonomies-and-craft-models.qmd)
+
+**[Beat Taxonomies & Craft Models](articles/structure-pacing/beat-taxonomies-and-craft-models.qmd)**: Save the Cat / Story Grid / Story Circle; mandatory vs branch-variable beats.
+
+**[Bleed, Aftercare & Debriefing](articles/players-social-dynamics/bleed-aftercare-and-debriefing.qmd)**: Bleed (Emily Care Boss); de-roling, debrief types, bookend rituals.
+
+*Board Game Mechanisms*: see [Boardgame Mechanism Vocabulary](articles/systems-mechanics/boardgame-mechanism-vocabulary.qmd)
+
+**[Boardgame Mechanism Vocabulary](articles/systems-mechanics/boardgame-mechanism-vocabulary.qmd)**: Map of boardgame mechanism families. Tabletop-only reference (Gate-C1).
+
+*Bot Deck*: see [Solo Modes](articles/systems-mechanics/solo-modes.qmd)
+
+*Bottleneck Mitigation*: see [Hint Systems & Recovery](articles/puzzles-clues-information/hint-systems-and-recovery.qmd)
+
+*Bottleneck Players*: see [Team Sizes & the Bottleneck Problem](articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd)
+
+*Braided Narrative*: see [Parallel Threads & Convergence](articles/structure-pacing/parallel-threads-and-convergence.qmd)
+
+*Branch Budgeting*: see [Scope, Scale & Branching Depth](articles/structure-pacing/scope-scale-and-branching-depth.qmd)
+
+*Branch Voice Auditing*: see [Voice & Register Consistency](articles/story-character-voice/voice-and-register-consistency.qmd)
+
+*Branching Design*: see [Branching Narrative Craft](articles/structure-pacing/branching-narrative-craft.qmd)
+
+**[Branching Narrative Craft](articles/structure-pacing/branching-narrative-craft.qmd)**: Choice architecture; meaningful vs illusory choice; convergence and state-tracking.
+
+*Branching Topologies*: see [IF Graph Structures: A Taxonomy](articles/structure-pacing/if-graph-structures-a-taxonomy.qmd)
+
+*Buy vs Make*: see [Fabrication & Sourcing](articles/space-props-materiality/fabrication-and-sourcing.qmd)
+
+
+## C
+
+*Calibration Tools*: see Safety Contract
+
+*Calibration Workshop*: see [Pre-Game Workshop Design](articles/players-social-dynamics/pre-game-workshop-design.qmd)
+
+**[Campaign Arc Shapes](articles/structure-pacing/campaign-arc-shapes.qmd)**: Episodic/arc-driven/sandbox/faction-driven/braid campaign shapes.
+
+*Campaign Boardgames*: see [Cooperative & Legacy Genres](articles/systems-mechanics/cooperative-and-legacy-genres.qmd)
+
+*Campaign Models*: see [Campaign Arc Shapes](articles/structure-pacing/campaign-arc-shapes.qmd)
+
+*Campaign Structure*: see [Campaign Arc Shapes](articles/structure-pacing/campaign-arc-shapes.qmd)
+
+**[Canon Management](articles/story-character-voice/canon-management.qmd)**: Fact-continuity; cause chains; who-knows-what-when across branches.
+
+*The Caper*: see [Heist & Caper Patterns](articles/story-character-voice/heist-and-caper-patterns.qmd)
+
+*Challenge Design*: see [Encounter & Challenge Design](articles/systems-mechanics/encounter-and-challenge-design.qmd)
+
+*Character Archetypes*: see [Tropes, Archetypes & Variations](articles/story-character-voice/tropes-archetypes-and-variations.qmd)
+
+**[Character Voice](articles/story-character-voice/character-voice.qmd)**: The hub: idiolect, deep POV, voice under player pressure.
+
+**[Children's & YA Conventions](articles/story-character-voice/childrens-and-ya-conventions.qmd)**: The MG/YA split; the Absent Adult; anti-didacticism.
+
+*Choice Architecture*: see [Branching Narrative Craft](articles/structure-pacing/branching-narrative-craft.qmd)
+
+*Choice-Based Structures*: see [IF Graph Structures: A Taxonomy](articles/structure-pacing/if-graph-structures-a-taxonomy.qmd)
+
+**[Ciphers & Codes](articles/puzzles-clues-information/ciphers-and-codes.qmd)**: Selecting and fairly deploying ciphers.
+
+*Class-as-Identity*: see [Playbook Design](articles/systems-mechanics/playbook-design.qmd)
+
+*The Click*: see [Aha Moment](articles/puzzles-clues-information/the-aha-moment.qmd)
+
+*Closure*: see [Endings & Structural Closure](articles/structure-pacing/endings-and-structural-closure.qmd)
+
+*Clue Chain*: see [Clue Sequencing & Chains](articles/puzzles-clues-information/clue-sequencing-and-chains.qmd)
+
+*Clue Construction*: see [Cluing & Fairness](articles/puzzles-clues-information/cluing-and-fairness.qmd)
+
+*Clue Ordering*: see [Clue Sequencing & Chains](articles/puzzles-clues-information/clue-sequencing-and-chains.qmd)
+
+*Clue Packaging*: see [Physical Clue Formats](articles/space-props-materiality/physical-clue-formats.qmd)
+
+**[Clue Sequencing & Chains](articles/puzzles-clues-information/clue-sequencing-and-chains.qmd)**: The order clues arrive and how one unlocks the next.
+
+**[Cluing & Fairness](articles/puzzles-clues-information/cluing-and-fairness.qmd)**: The fairness contract: every clue sound, the answer reachable.
+
+*Co-op Games*: see [Cooperative & Legacy Genres](articles/systems-mechanics/cooperative-and-legacy-genres.qmd)
+
+*Co-op vs Competitive*: see [Cooperative vs Adversarial Formats](articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd)
+
+**[Conflict Patterns](articles/story-character-voice/conflict-patterns.qmd)**: The conflict types; desire-vs-obstacle; the stakes ladder.
+
+*Conflict Types*: see [Conflict Patterns](articles/story-character-voice/conflict-patterns.qmd)
+
+*Consent Mechanics*: see Safety Contract
+
+*Consequence Chains*: see [Moral Dilemmas & Consequence Chains](articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd)
+
+*Consumable vs Reusable Clues*: see [Physical Clue Formats](articles/space-props-materiality/physical-clue-formats.qmd)
+
+*Continuity Management*: see [Canon Management](articles/story-character-voice/canon-management.qmd)
+
+*Control Booth*: see [Cue Management & GM Station](articles/space-props-materiality/cue-management-and-gm-station.qmd)
+
+*Convention Establishment*: see [Teaching Through Play](articles/puzzles-clues-information/teaching-through-play.qmd)
+
+*Conversation Design*: see [Dialogue Craft](articles/story-character-voice/dialogue-craft.qmd)
+
+**[Cooperative & Legacy Genres](articles/systems-mechanics/cooperative-and-legacy-genres.qmd)**: The cooperative genre (quarterbacking) and the legacy genre (permanence).
+
+**[Cooperative vs Adversarial Formats](articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd)**: The five-format spectrum; quarterbacking and traitor failure modes.
+
+*Countdown*: see Progress Clock
+
+*Crime Fiction*: see [Mystery & Detective Fiction](articles/story-character-voice/mystery-and-detective-fiction.qmd)
+
+*Cryptography Puzzles*: see [Ciphers & Codes](articles/puzzles-clues-information/ciphers-and-codes.qmd)
+
+**[Cue Management & GM Station](articles/space-props-materiality/cue-management-and-gm-station.qmd)**: Audio/lighting automation and the human operator's control surface and hint discipline.
+
+*Cue Stack*: see [Cue Management & GM Station](articles/space-props-materiality/cue-management-and-gm-station.qmd)
+
+
+## D
+
+*De-roling*: see [Bleed, Aftercare & Debriefing](articles/players-social-dynamics/bleed-aftercare-and-debriefing.qmd)
+
+*Decipherment*: see [Ciphers & Codes](articles/puzzles-clues-information/ciphers-and-codes.qmd)
+
+*Decision Space*: see [Decision Space & Choice Design](articles/systems-mechanics/decision-space-and-choice-design.qmd)
+
+**[Decision Space & Choice Design](articles/systems-mechanics/decision-space-and-choice-design.qmd)**: Meier's interesting decisions; dominant strategies; metagame health. (Choice-architecture in story is Branching Narrative Craft, Family 1.)
+
+*Deck-Building Games*: see [Deckbuilders](articles/systems-mechanics/deckbuilders.qmd)
+
+**[Deckbuilders](articles/systems-mechanics/deckbuilders.qmd)**: The Dominion lineage; the deck as a sculpted strategic object. Tabletop-only reference (Gate-C1).
+
+*Deckbuilding Genre*: see [Deckbuilders](articles/systems-mechanics/deckbuilders.qmd)
+
+*Dependency Graph*: see [Information Architecture](articles/puzzles-clues-information/information-architecture.qmd)
+
+*Designed Peer Pressure*: see [Trust, Conformity & Social Pressure](articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd)
+
+*Designer Presence*: see [Designer-Community Trust in Long-Form Hunts](articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd)
+
+**[Designer-Community Trust in Long-Form Hunts](articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd)**: The verifiability compact and reputation-as-enforcement in long-running hunts.
+
+*Designing for Observers*: see [Spectator-Friendly Design](articles/players-social-dynamics/spectator-friendly-design.qmd)
+
+**[Dialogue Craft](articles/story-character-voice/dialogue-craft.qmd)**: Subtext, beats, said-bookisms; IF dialogue architectures.
+
+*Dialogue Writing*: see [Dialogue Craft](articles/story-character-voice/dialogue-craft.qmd)
+
+*Dice Mechanics*: see [Mechanical Resolution Types](articles/systems-mechanics/mechanical-resolution-types.qmd)
+
+*Diegesis*: see [Diegetic Design](articles/story-character-voice/diegetic-design.qmd)
+
+**[Diegetic Design](articles/story-character-voice/diegetic-design.qmd)**: The IF/narrative home of diegesis; show-the-world-hide-the-gears. (Live/physical sibling: Theme/Immersion, Family 5; boardgame sibling: Theme-Mechanism Integration, Family 6.)
+
+*Diegetic Devices*: see [Digital Props](articles/space-props-materiality/digital-props.qmd)
+
+*Diegetic Gating*: see [Diegetic Design](articles/story-character-voice/diegetic-design.qmd)
+
+*Diegetic UI*: see [Diegetic Design](articles/story-character-voice/diegetic-design.qmd)
+
+*Difficulty Curve*: see [Session Pacing & Energy Management](articles/structure-pacing/session-pacing-and-energy-management.qmd)
+
+**[Digital Gating & State](articles/systems-mechanics/digital-gating-and-state.qmd)**: Digital infrastructure for hunts/ARGs/hybrid rooms; the digital mechanism-as-judge.
+
+**[Digital Props](articles/space-props-materiality/digital-props.qmd)**: Embedded screens/microcontrollers; companion apps; diegetic interfaces / fake OS in IF.
+
+*Distinct Voices*: see [Character Voice](articles/story-character-voice/character-voice.qmd)
+
+**[Distributing Narrative Authority](articles/systems-mechanics/distributing-narrative-authority.qmd)**: The mechanisms that hand narrative authority around a table.
+
+*Document Forgery*: see [Artefact Design & Document Production](articles/space-props-materiality/artefact-design-and-document-production.qmd)
+
+*Dominant Strategy*: see [Decision Space & Choice Design](articles/systems-mechanics/decision-space-and-choice-design.qmd)
+
+*Don't Prep Plots*: see [Prep Economy](articles/systems-mechanics/prep-economy.qmd)
+
+*Dramatic Conflict*: see [Conflict Patterns](articles/story-character-voice/conflict-patterns.qmd)
+
+*Dread Design*: see [Horror Conventions](articles/story-character-voice/horror-conventions.qmd)
+
+*Drip-Feed*: see [Exposition & Subtext](articles/story-character-voice/exposition-and-subtext.qmd)
+
+*Drop-In Drop-Out Play*: see [West Marches & the Open-Table Format](articles/structure-pacing/west-marches-and-the-open-table-format.qmd)
+
+**[Dungeon & Spatial Topology](articles/space-props-materiality/dungeon-and-spatial-topology.qmd)**: The designed space; Jaquaying/Xandering; loops, connections, faction ecology.
+
+*Dungeon Design*: see [Dungeon & Spatial Topology](articles/space-props-materiality/dungeon-and-spatial-topology.qmd)
+
+
+## E
+
+*Earned Emotion*: see [Emotional Beats & Investment](articles/story-character-voice/emotional-beats-and-investment.qmd)
+
+*Elegance*: see [Elegance, Emergence & Randomness](articles/systems-mechanics/elegance-emergence-and-randomness.qmd)
+
+**[Elegance, Emergence & Randomness](articles/systems-mechanics/elegance-emergence-and-randomness.qmd)**: Minimal rules / maximal behaviour; randomness types and mitigation.
+
+*Embedded Electronics*: see [Digital Props](articles/space-props-materiality/digital-props.qmd)
+
+*Emergence*: see [Elegance, Emergence & Randomness](articles/systems-mechanics/elegance-emergence-and-randomness.qmd)
+
+*Emotional Aftercare*: see [Bleed, Aftercare & Debriefing](articles/players-social-dynamics/bleed-aftercare-and-debriefing.qmd)
+
+**[Emotional Beats & Investment](articles/story-character-voice/emotional-beats-and-investment.qmd)**: Earning feeling; investment before stakes; the interactive multiplier.
+
+**[Encounter & Challenge Design](articles/systems-mechanics/encounter-and-challenge-design.qmd)**: The encounter as a unit of challenge; budget maths; skill challenges.
+
+*Encryption Puzzles*: see [Ciphers & Codes](articles/puzzles-clues-information/ciphers-and-codes.qmd)
+
+*Endings*: see [Endings & Structural Closure](articles/structure-pacing/endings-and-structural-closure.qmd)
+
+**[Endings & Structural Closure](articles/structure-pacing/endings-and-structural-closure.qmd)**: Multiple endings, earned closure, the live-game finale.
+
+*Energy Curve*: see [Session Pacing & Energy Management](articles/structure-pacing/session-pacing-and-energy-management.qmd)
+
+*Ensemble Convergence*: see [Parallel Threads & Convergence](articles/structure-pacing/parallel-threads-and-convergence.qmd)
+
+*Environmental Narrative*: see [Environmental Storytelling & Setting as Character](articles/story-character-voice/environmental-storytelling-and-setting-as-character.qmd)
+
+**[Environmental Storytelling & Setting as Character](articles/story-character-voice/environmental-storytelling-and-setting-as-character.qmd)**: Story through the world; setting as an active force.
+
+*Epiphany*: see [Aha Moment](articles/puzzles-clues-information/the-aha-moment.qmd)
+
+**[Episodic & Serialised Structure](articles/structure-pacing/episodic-and-serialised-structure.qmd)**: Episodic vs serialised; state persistence across instalments; release cadence.
+
+*Episodic Design*: see [Episodic & Serialised Structure](articles/structure-pacing/episodic-and-serialised-structure.qmd)
+
+**Epistemic Tier**: Analytical label for role/venue-differentiated knowledge in large live games (settled here as the canonical term; corpus flagged it as a label, not settled community usage).
+
+*Escape Room Flow*: see [Escape Room Topologies](articles/structure-pacing/escape-room-topologies.qmd)
+
+**[Escape Room Topologies](articles/structure-pacing/escape-room-topologies.qmd)**: Linear/open/multi-linear/hub-and-spoke rooms; why IF branching rarely survives a physical room.
+
+*Eureka*: see [Aha Moment](articles/puzzles-clues-information/the-aha-moment.qmd)
+
+**[Euro vs Ameritrash: The Two Design Poles](articles/systems-mechanics/euro-vs-ameritrash-the-two-design-poles.qmd)**: The two boardgame design poles and the hybrid era. Tabletop-only reference (Gate-C1).
+
+*The Euro-Ameritrash Axis*: see [Euro vs Ameritrash: The Two Design Poles](articles/systems-mechanics/euro-vs-ameritrash-the-two-design-poles.qmd)
+
+**[Exposition & Subtext](articles/story-character-voice/exposition-and-subtext.qmd)**: Delivering information without a lecture; the unsaid.
+
+**[Extraction, Indexing & Meta-Puzzles](articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd)**: Answers-as-data; the meta and its extraction mechanics.
+
+
+## F
+
+**[Fabrication & Sourcing](articles/space-props-materiality/fabrication-and-sourcing.qmd)**: The buy/make/commission decision; workshop tiers; 3D printing; print-on-demand.
+
+*Facilitation Models*: see [GM Role Models & Stances](articles/players-social-dynamics/gm-role-models-and-stances.qmd)
+
+*Facilitator Roles*: see [Host Roles & the Host-Cannot-Play Problem](articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)
+
+*Faction Clocks*: see [Progress Clocks & Faction State](articles/systems-mechanics/progress-clocks-and-faction-state.qmd)
+
+**[Faction Design & Asymmetric Objectives](articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd)**: Factions as teams-within-the-game; asymmetric objective frameworks.
+
+*Faction Structure*: see [Faction Design & Asymmetric Objectives](articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd)
+
+*Failing Forward*: see [Try-Fail Cycles & Escalation](articles/structure-pacing/try-fail-cycles-and-escalation.qmd)
+
+*Fair Play*: see [Cluing & Fairness](articles/puzzles-clues-information/cluing-and-fairness.qmd)
+
+*Fair-Play Mystery*: see [Mystery & Detective Fiction](articles/story-character-voice/mystery-and-detective-fiction.qmd)
+
+*False Bottoms*: see [Hidden Compartments & Reveal Mechanisms](articles/space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd)
+
+**[Fantasy Conventions](articles/story-character-voice/fantasy-conventions.qmd)**: Magic-system design; trope use/subversion; prophecy.
+
+*Fear Mechanics*: see [Horror Conventions](articles/story-character-voice/horror-conventions.qmd)
+
+*Feeder*: see Feeder Answer
+
+**Feeder Answer**: A component-puzzle answer that feeds a meta.
+
+*Fiat vs Ruling*: see [Rulings vs Rules & the Authority Contract](articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd)
+
+*Fiction-First Resolution*: see [Moves & the Fiction-Mechanic-Fiction Loop](articles/systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd)
+
+*Finale Design*: see [Endings & Structural Closure](articles/structure-pacing/endings-and-structural-closure.qmd)
+
+*Format Spectrum*: see [Cooperative vs Adversarial Formats](articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd)
+
+*Fragment Assembly*: see [Nonlinear Narrative Structures](articles/structure-pacing/nonlinear-narrative-structures.qmd)
+
+*Fronts*: see [Progress Clocks & Faction State](articles/systems-mechanics/progress-clocks-and-faction-state.qmd)
+
+
+## G
+
+*Genre Contracts*: see [A Taxonomy of Genre Conventions](articles/story-character-voice/a-taxonomy-of-genre-conventions.qmd)
+
+*Genre Conventions*: see [A Taxonomy of Genre Conventions](articles/story-character-voice/a-taxonomy-of-genre-conventions.qmd)
+
+*The Genuine Dilemma*: see [Moral Dilemmas & Consequence Chains](articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd)
+
+*German-Style vs American-Style*: see [Euro vs Ameritrash: The Two Design Poles](articles/systems-mechanics/euro-vs-ameritrash-the-two-design-poles.qmd)
+
+*The GM as Social Role*: see [GM Role Models & Stances](articles/players-social-dynamics/gm-role-models-and-stances.qmd)
+
+*GM Emulator*: see [Oracle & Solo-Play Resolution](articles/systems-mechanics/oracle-and-solo-play-resolution.qmd)
+
+**[GM Role Models & Stances](articles/players-social-dynamics/gm-role-models-and-stances.qmd)**: The GM as a social role; the six stances and the authority gradient.
+
+*GM Stances*: see [GM Role Models & Stances](articles/players-social-dynamics/gm-role-models-and-stances.qmd)
+
+*GMless Authority*: see [Distributing Narrative Authority](articles/systems-mechanics/distributing-narrative-authority.qmd)
+
+*Group Contract*: see [The Session Zero Playbook](articles/players-social-dynamics/the-session-zero-playbook.qmd)
+
+*Group Size*: see [Team Sizes & the Bottleneck Problem](articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd)
+
+
+## H
+
+*Handout Production*: see [Artefact Design & Document Production](articles/space-props-materiality/artefact-design-and-document-production.qmd)
+
+*Hard Choices*: see [Moral Dilemmas & Consequence Chains](articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd)
+
+*The Heist*: see [Heist & Caper Patterns](articles/story-character-voice/heist-and-caper-patterns.qmd)
+
+**[Heist & Caper Patterns](articles/story-character-voice/heist-and-caper-patterns.qmd)**: The competence engine; crew roles; the plan and the reveal.
+
+**[Hexcrawl & Pointcrawl](articles/structure-pacing/hexcrawl-and-pointcrawl.qmd)**: The hexcrawl as a complete exploration structure; the pointcrawl alternative.
+
+**[Hidden Compartments & Reveal Mechanisms](articles/space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd)**: UV / heat / magnetic / layered-paper reveals; the reveal-as-state-change beat.
+
+*Hidden Information*: see [Information Asymmetry: Hidden Information vs Hidden Roles](articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd)
+
+*Hidden Roles*: see [Information Asymmetry: Hidden Information vs Hidden Roles](articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd)
+
+*Hidden-Role Games*: see [Social Performance Genres](articles/systems-mechanics/social-performance-genres.qmd)
+
+*Hint Delivery*: see [Hint Systems & Recovery](articles/puzzles-clues-information/hint-systems-and-recovery.qmd)
+
+**[Hint Systems & Recovery](articles/puzzles-clues-information/hint-systems-and-recovery.qmd)**: Getting stuck and getting unstuck; pull/push/escalation.
+
+*Hinting*: see [Hint Systems & Recovery](articles/puzzles-clues-information/hint-systems-and-recovery.qmd)
+
+**[Historical Fiction](articles/story-character-voice/historical-fiction.qmd)**: Research balance; period voice; anachronism control; prejudice without endorsement.
+
+**[Horror Conventions](articles/story-character-voice/horror-conventions.qmd)**: Fear mechanics; dread vs shock; sanity/death-state mechanics.
+
+*Host Positions*: see [Host Roles & the Host-Cannot-Play Problem](articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)
+
+**[Host Roles & the Host-Cannot-Play Problem](articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)**: The three host positions; whoever runs a social game cannot also play it fresh.
+
+*Hunt Design*: see [Puzzle Hunt Craft](articles/puzzles-clues-information/puzzle-hunt-craft.qmd)
+
+*Hunt Platforms*: see [Digital Gating & State](articles/systems-mechanics/digital-gating-and-state.qmd)
+
+*Hunt Trust*: see [Designer-Community Trust in Long-Form Hunts](articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd)
+
+
+## I
+
+*The Iceberg*: see [Exposition & Subtext](articles/story-character-voice/exposition-and-subtext.qmd)
+
+*Idiolect*: see [Character Voice](articles/story-character-voice/character-voice.qmd)
+
+**[IF Graph Structures: A Taxonomy](articles/structure-pacing/if-graph-structures-a-taxonomy.qmd)**: Map of branching shapes: time cave, gauntlet, branch-and-bottleneck, hub-and-spoke, QBN.
+
+**[IF Mechanics & Procedural Rhetoric](articles/systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd)**: Mechanics in IF that carry meaning; the system as argument.
+
+*Illusionism*: see [Sandbox, Situation & the Railroad Spectrum](articles/structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd)
+
+*Immersion*: see [Theme, Immersion & Sensory Environment](articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd)
+
+*Incluing*: see [Exposition & Subtext](articles/story-character-voice/exposition-and-subtext.qmd)
+
+*Inclusive Design*: see [Accessibility in Live & Interactive Games](articles/players-social-dynamics/accessibility-in-live-and-interactive-games.qmd)
+
+**[Information Architecture](articles/puzzles-clues-information/information-architecture.qmd)**: Who knows what, when; the clue dependency graph.
+
+**[Information Asymmetry: Hidden Information vs Hidden Roles](articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd)**: The structural choice of what to hide and from whom.
+
+*Information Design*: see [Information Architecture](articles/puzzles-clues-information/information-architecture.qmd)
+
+*Initiative*: see [Turn Structure & Action Economy](articles/systems-mechanics/turn-structure-and-action-economy.qmd)
+
+*Input vs Output Randomness*: see [Elegance, Emergence & Randomness](articles/systems-mechanics/elegance-emergence-and-randomness.qmd)
+
+*Interesting Decisions*: see [Decision Space & Choice Design](articles/systems-mechanics/decision-space-and-choice-design.qmd)
+
+*Internal Logic*: see [Worldbuilding Patterns](articles/story-character-voice/worldbuilding-patterns.qmd)
+
+*Intimate Scenework*: see [One-on-One Scene Design](articles/players-social-dynamics/one-on-one-scene-design.qmd)
+
+*Invisible Ink*: see [Hidden Compartments & Reveal Mechanisms](articles/space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd)
+
+
+## J
+
+**[The Journal as Artefact](articles/story-character-voice/the-journal-as-artefact.qmd)**: The journal as durable output; voice under journaling pressure.
+
+*Journaling as Output*: see [The Journal as Artefact](articles/story-character-voice/the-journal-as-artefact.qmd)
+
+*Journaling Games*: see [Solo Journaling RPGs: Genre & Form](articles/story-character-voice/solo-journaling-rpgs-genre-and-form.qmd)
+
+*Journaling Prompts*: see [Prompt Design in Solo Journaling](articles/story-character-voice/prompt-design-in-solo-journaling.qmd)
+
+
+## K
+
+*Kidlit Conventions*: see [Children's & YA Conventions](articles/story-character-voice/childrens-and-ya-conventions.qmd)
+
+*Kinds of Puzzle*: see [A Taxonomy of Puzzles](articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd)
+
+*Knowledge Distribution*: see [Information Architecture](articles/puzzles-clues-information/information-architecture.qmd)
+
+*Knowledge Tier*: see Epistemic Tier
+
+
+## L
+
+*Legacy Games*: see [Cooperative & Legacy Genres](articles/systems-mechanics/cooperative-and-legacy-genres.qmd)
+
+*Load-Bearing Theme*: see [Theme-Mechanism Integration](articles/systems-mechanics/theme-mechanism-integration.qmd)
+
+*Lock Selection*: see [Lock Taxonomy](articles/space-props-materiality/lock-taxonomy.qmd)
+
+**[Lock Taxonomy](articles/space-props-materiality/lock-taxonomy.qmd)**: Combination/key/directional/word/magnetic/electronic locks; reliability, reset, theme fit.
+
+*Locks*: see [Lock Taxonomy](articles/space-props-materiality/lock-taxonomy.qmd)
+
+*The Loop*: see [Time Loop Patterns](articles/structure-pacing/time-loop-patterns.qmd)
+
+*Luck Management*: see [Elegance, Emergence & Randomness](articles/systems-mechanics/elegance-emergence-and-randomness.qmd)
+
+*Ludonarrative Dissonance*: see [IF Mechanics & Procedural Rhetoric](articles/systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd)
+
+
+## M
+
+*Machine-Checked Solutions*: see [Self-Resolving Puzzles](articles/puzzles-clues-information/self-resolving-puzzles.qmd)
+
+*Magic-System Design*: see [Fantasy Conventions](articles/story-character-voice/fantasy-conventions.qmd)
+
+**[Materials, Durability & Reset](articles/space-props-materiality/materials-durability-and-reset.qmd)**: Material palette; weatherproofing; the reset hierarchy and pre-run checklist.
+
+*Meaningful Choice*: see [Branching Narrative Craft](articles/structure-pacing/branching-narrative-craft.qmd)
+
+*Mechanic as Metaphor*: see [IF Mechanics & Procedural Rhetoric](articles/systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd)
+
+*Mechanic-Revelation Curve*: see [Teaching Through Play](articles/puzzles-clues-information/teaching-through-play.qmd)
+
+**[Mechanical Resolution Types](articles/systems-mechanics/mechanical-resolution-types.qmd)**: The resolution method (d20/2d6/pools/FitD/diceless/cards); probability shape and table-feel.
+
+*Mechanical Safety*: see [Safety Systems as Mechanical Layer](articles/systems-mechanics/safety-systems-as-mechanical-layer.qmd)
+
+*Mechanism as Argument*: see [Theme-Mechanism Integration](articles/systems-mechanics/theme-mechanism-integration.qmd)
+
+*Mechanism as Judge*: see [Self-Resolving Puzzles](articles/puzzles-clues-information/self-resolving-puzzles.qmd)
+
+*Mechanism Families*: see [Boardgame Mechanism Vocabulary](articles/systems-mechanics/boardgame-mechanism-vocabulary.qmd)
+
+*Megagame Faction Architecture*: see [Parallel Team Architectures](articles/players-social-dynamics/parallel-team-architectures.qmd)
+
+*Meta*: see Meta-Puzzle
+
+**Meta-Puzzle**: A puzzle whose inputs are other puzzles' answers (see Extraction, Indexing & Meta-Puzzles).
+
+*Metapuzzle*: see Meta-Puzzle
+
+*MG vs YA*: see [Children's & YA Conventions](articles/story-character-voice/childrens-and-ya-conventions.qmd)
+
+**[Mixed-Ability Groups & Universal Design](articles/players-social-dynamics/mixed-ability-groups-and-universal-design.qmd)**: The seven Universal Design principles; one experience across abilities; redundant paths.
+
+*Mixed-Engagement Design*: see [Spectator-Friendly Design](articles/players-social-dynamics/spectator-friendly-design.qmd)
+
+**[Moral Dilemmas & Consequence Chains](articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd)**: Two-goods/two-bads choice; values not virtue; compounding consequence.
+
+*The Move*: see PbtA Move
+
+**[Moves & the Fiction-Mechanic-Fiction Loop](articles/systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd)**: The home of the canonical **PbtA Move** (see that row); the fiction→trigger→roll→fiction loop.
+
+*Multi-Generational Play*: see [Mixed-Ability Groups & Universal Design](articles/players-social-dynamics/mixed-ability-groups-and-universal-design.qmd)
+
+*Multi-step Puzzle*: see [Extraction, Indexing & Meta-Puzzles](articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd)
+
+*Multi-Team Design*: see [Parallel Team Architectures](articles/players-social-dynamics/parallel-team-architectures.qmd)
+
+*Multi-Thread Structure*: see [Parallel Threads & Convergence](articles/structure-pacing/parallel-threads-and-convergence.qmd)
+
+*Multiple Endings*: see [Endings & Structural Closure](articles/structure-pacing/endings-and-structural-closure.qmd)
+
+**[Mystery & Detective Fiction](articles/story-character-voice/mystery-and-detective-fiction.qmd)**: The mystery genre craft; fair-play cluing (story angle; mechanics in Cluing & Fairness).
+
+*Mystery Hunt Design*: see [Puzzle Hunt Craft](articles/puzzles-clues-information/puzzle-hunt-craft.qmd)
+
+
+## N
+
+*Naming*: see [Naming Craft: Characters & Locations](articles/story-character-voice/naming-craft-characters-and-locations.qmd)
+
+**[Naming Craft: Characters & Locations](articles/story-character-voice/naming-craft-characters-and-locations.qmd)**: Names as a worldbuilding signal; respectful, non-appropriative.
+
+*Narrative Graph Shapes*: see [IF Graph Structures: A Taxonomy](articles/structure-pacing/if-graph-structures-a-taxonomy.qmd)
+
+*Narrative Objects*: see [Artefact Design & Document Production](articles/space-props-materiality/artefact-design-and-document-production.qmd)
+
+*Narrative Perspective*: see [Prose Patterns & Point of View](articles/story-character-voice/prose-patterns-and-point-of-view.qmd)
+
+*Narrative Trigger*: see PbtA Move
+
+*Narrator Contract*: see [Voice & Register Consistency](articles/story-character-voice/voice-and-register-consistency.qmd)
+
+*NFC Tags*: see [QR & NFC Patterns](articles/space-props-materiality/qr-and-nfc-patterns.qmd)
+
+*Node-Path Travel*: see [Hexcrawl & Pointcrawl](articles/structure-pacing/hexcrawl-and-pointcrawl.qmd)
+
+*Non-Chronological Storytelling*: see [Nonlinear Narrative Structures](articles/structure-pacing/nonlinear-narrative-structures.qmd)
+
+*Non-Linear Layout*: see [Dungeon & Spatial Topology](articles/space-props-materiality/dungeon-and-spatial-topology.qmd)
+
+**[Nonlinear Narrative Structures](articles/structure-pacing/nonlinear-narrative-structures.qmd)**: Reverse chronology, frame, mosaic assembly; Kishōtenketsu, Jo-ha-kyū.
+
+*Nonverbal Tutorial*: see [Teaching Through Play](articles/puzzles-clues-information/teaching-through-play.qmd)
+
+*Noticing Puzzles*: see [Search, Observation & Lateral Thinking](articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd)
+
+*The Novum*: see [Science Fiction Conventions](articles/story-character-voice/science-fiction-conventions.qmd)
+
+**[NPC Craft & Voicing](articles/story-character-voice/npc-craft-and-voicing.qmd)**: Designing the supporting cast; the marker pair; LLM-NPC limits.
+
+
+## O
+
+**[One-on-One Scene Design](articles/players-social-dynamics/one-on-one-scene-design.qmd)**: The single-player/facilitator scene; consent and the power gap as load-bearing.
+
+*Onomastics*: see [Naming Craft: Characters & Locations](articles/story-character-voice/naming-craft-characters-and-locations.qmd)
+
+*Open Table*: see [West Marches & the Open-Table Format](articles/structure-pacing/west-marches-and-the-open-table-format.qmd)
+
+**[Oracle & Solo-Play Resolution](articles/systems-mechanics/oracle-and-solo-play-resolution.qmd)**: Oracles as GM-substitute for solo/GMless play; the Chaos Factor.
+
+*Oracle Systems*: see [Oracle & Solo-Play Resolution](articles/systems-mechanics/oracle-and-solo-play-resolution.qmd)
+
+
+## P
+
+*Padlock Taxonomy*: see [Lock Taxonomy](articles/space-props-materiality/lock-taxonomy.qmd)
+
+**[Parallel Team Architectures](articles/players-social-dynamics/parallel-team-architectures.qmd)**: Convergent/competitive/hybrid/faction architectures for many teams at once.
+
+**[Parallel Threads & Convergence](articles/structure-pacing/parallel-threads-and-convergence.qmd)**: Parallel storylines; connection/convergence types; converging without flattening.
+
+*Party Games*: see [Social Performance Genres](articles/systems-mechanics/social-performance-genres.qmd)
+
+*Pasted-On Theme*: see [Theme-Mechanism Integration](articles/systems-mechanics/theme-mechanism-integration.qmd)
+
+**PbtA Move**: A resolution mechanic that bridges fiction and state.
+
+*Perceptual Puzzles*: see [Search, Observation & Lateral Thinking](articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd)
+
+*Period Fiction*: see [Historical Fiction](articles/story-character-voice/historical-fiction.qmd)
+
+*Period Voice*: see [Historical Fiction](articles/story-character-voice/historical-fiction.qmd)
+
+**[Physical Clue Formats](articles/space-props-materiality/physical-clue-formats.qmd)**: The envelope/booklet/card/container taxonomy and the unsealing beat.
+
+**[Physical vs Digital Puzzle Artefacts](articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd)**: The five-modality taxonomy; url-rot; durability horizons.
+
+*Physical-Digital Spectrum*: see [Physical vs Digital Puzzle Artefacts](articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd)
+
+*Place as Character*: see [Environmental Storytelling & Setting as Character](articles/story-character-voice/environmental-storytelling-and-setting-as-character.qmd)
+
+**[Playbook Design](articles/systems-mechanics/playbook-design.qmd)**: The playbook as bundled character identity.
+
+*Playbooks*: see [Playbook Design](articles/systems-mechanics/playbook-design.qmd)
+
+*Player Agency Spectrum*: see [Sandbox, Situation & the Railroad Spectrum](articles/structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd)
+
+*Player Count*: see [Team Sizes & the Bottleneck Problem](articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd)
+
+*Player Motivation Frameworks*: see [Player Types & Casting](articles/players-social-dynamics/player-types-and-casting.qmd)
+
+*Player Taxonomies*: see [Player Types & Casting](articles/players-social-dynamics/player-types-and-casting.qmd)
+
+**[Player Types & Casting](articles/players-social-dynamics/player-types-and-casting.qmd)**: Bartle / Robin's Laws / Mixing Desk typologies as lenses, not boxes; casting.
+
+**Players & Social Dynamics**: The social and interpersonal layer.
+
+*Post-Play Debrief*: see [Bleed, Aftercare & Debriefing](articles/players-social-dynamics/bleed-aftercare-and-debriefing.qmd)
+
+*POV*: see [Prose Patterns & Point of View](articles/story-character-voice/prose-patterns-and-point-of-view.qmd)
+
+*The Pre-Game Agreement*: see [The Session Zero Playbook](articles/players-social-dynamics/the-session-zero-playbook.qmd)
+
+**[Pre-Game Workshop Design](articles/players-social-dynamics/pre-game-workshop-design.qmd)**: Nordic calibration mechanics and relationship workshops before play.
+
+*Pre-Larp Workshop*: see [Pre-Game Workshop Design](articles/players-social-dynamics/pre-game-workshop-design.qmd)
+
+**[Prep Economy](articles/systems-mechanics/prep-economy.qmd)**: Prepping the reusable; situational over plotted prep; the overprep failure.
+
+*Procedural Rhetoric*: see [IF Mechanics & Procedural Rhetoric](articles/systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd)
+
+*Progress Bar*: see Progress Clock
+
+**Progress Clock**: A visual widget for tracking state changes.
+
+**[Progress Clocks & Faction State](articles/systems-mechanics/progress-clocks-and-faction-state.qmd)**: The home of the canonical **Progress Clock** (see that row); offscreen change and faction state.
+
+*Project Scoping*: see [Scope, Scale & Branching Depth](articles/structure-pacing/scope-scale-and-branching-depth.qmd)
+
+*The Prompt as Mechanic*: see [Prompt Design in Solo Journaling](articles/story-character-voice/prompt-design-in-solo-journaling.qmd)
+
+**[Prompt Design in Solo Journaling](articles/story-character-voice/prompt-design-in-solo-journaling.qmd)**: The prompt as the load-bearing unit; generative vs flat; failure modes.
+
+*Prop Durability*: see [Materials, Durability & Reset](articles/space-props-materiality/materials-durability-and-reset.qmd)
+
+*Prop Fabrication*: see [Fabrication & Sourcing](articles/space-props-materiality/fabrication-and-sourcing.qmd)
+
+*Prop Sourcing*: see [Fabrication & Sourcing](articles/space-props-materiality/fabrication-and-sourcing.qmd)
+
+*Props & Feelies*: see [Artefact Design & Document Production](articles/space-props-materiality/artefact-design-and-document-production.qmd)
+
+**[Prose Patterns & Point of View](articles/story-character-voice/prose-patterns-and-point-of-view.qmd)**: Sentence rhythm; the POV taxonomy and tense.
+
+*Prose Rhythm*: see [Prose Patterns & Point of View](articles/story-character-voice/prose-patterns-and-point-of-view.qmd)
+
+*Pure Branching*: see Time Cave
+
+*Puzzle Categories*: see [A Taxonomy of Puzzles](articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd)
+
+*Puzzle Flow*: see [Clue Sequencing & Chains](articles/puzzles-clues-information/clue-sequencing-and-chains.qmd)
+
+**[The Puzzle Hunt & ARG Tradition](articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd)**: History and lineage of hunts and ARGs.
+
+**[Puzzle Hunt Craft](articles/puzzles-clues-information/puzzle-hunt-craft.qmd)**: The hunt format: feeders, rounds, metas, test-solving.
+
+*Puzzle Hunt History*: see [The Puzzle Hunt & ARG Tradition](articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd)
+
+*Puzzle Types*: see [A Taxonomy of Puzzles](articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd)
+
+*Puzzlehunt Construction*: see [Puzzle Hunt Craft](articles/puzzles-clues-information/puzzle-hunt-craft.qmd)
+
+**Puzzles, Clues & Information**: The cognitive loop of investigation and discovery.
+
+
+## Q
+
+**[QR & NFC Patterns](articles/space-props-materiality/qr-and-nfc-patterns.qmd)**: The physical-digital bridge; anti-spoiler gating; tag placement; connectivity fallbacks.
+
+*QR Codes*: see [QR & NFC Patterns](articles/space-props-materiality/qr-and-nfc-patterns.qmd)
+
+
+## R
+
+*Reading Level*: see [Audience & Age-Targeting](articles/story-character-voice/audience-and-age-targeting.qmd)
+
+*Relation Workshop*: see [Pre-Game Workshop Design](articles/players-social-dynamics/pre-game-workshop-design.qmd)
+
+*Relationship Mechanics*: see [Romance & Relationships](articles/story-character-voice/romance-and-relationships.qmd)
+
+*Repetition with Variation*: see [Time Loop Patterns](articles/structure-pacing/time-loop-patterns.qmd)
+
+*Replay Value*: see [Replayability](articles/systems-mechanics/replayability.qmd)
+
+**[Replayability](articles/systems-mechanics/replayability.qmd)**: Variable setup, asymmetry, legacy, metagame depth.
+
+*Reset Narrative*: see [Time Loop Patterns](articles/structure-pacing/time-loop-patterns.qmd)
+
+*Resetability*: see [Materials, Durability & Reset](articles/space-props-materiality/materials-durability-and-reset.qmd)
+
+*The Reskin Test*: see [Theme-Mechanism Integration](articles/systems-mechanics/theme-mechanism-integration.qmd)
+
+*Resolution Mechanics*: see [Mechanical Resolution Types](articles/systems-mechanics/mechanical-resolution-types.qmd)
+
+*Reveals*: see [Hidden Compartments & Reveal Mechanisms](articles/space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd)
+
+*Role Assignment*: see [Player Types & Casting](articles/players-social-dynamics/player-types-and-casting.qmd)
+
+**[Romance & Relationships](articles/story-character-voice/romance-and-relationships.qmd)**: Romance arc beats; affection/flag tracking; NPC agency; consent design.
+
+*Romance Routes*: see [Romance & Relationships](articles/story-character-voice/romance-and-relationships.qmd)
+
+*Room Structure*: see [Escape Room Topologies](articles/structure-pacing/escape-room-topologies.qmd)
+
+*Rotating Roster Campaign*: see [West Marches & the Open-Table Format](articles/structure-pacing/west-marches-and-the-open-table-format.qmd)
+
+*RPG Design Families*: see [TTRPG Format Taxonomy](articles/systems-mechanics/ttrpg-format-taxonomy.qmd)
+
+*Rule of Three*: see [Try-Fail Cycles & Escalation](articles/structure-pacing/try-fail-cycles-and-escalation.qmd)
+
+*Rule Zero*: see [Rulings vs Rules & the Authority Contract](articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd)
+
+*Rules-World Coupling*: see [System vs Setting](articles/systems-mechanics/system-vs-setting.qmd)
+
+*Rulings Not Rules*: see [Rulings vs Rules & the Authority Contract](articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd)
+
+**[Rulings vs Rules & the Authority Contract](articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd)**: Rulings-not-rules; Rule Zero and its abuse; authority held by table consent.
+
+*Running vs Playing*: see [Host Roles & the Host-Cannot-Play Problem](articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)
+
+
+## S
+
+**Safety Contract**: The umbrella concept: the social agreement on content and boundaries. The specific tools (X-Card, Lines and Veils, Script Change, Lookdown, OK Check-In, Cut/Brake) are distinct named techniques, **not** aliases to swap. A safety article must name them precisely (see Safety Tools as Design Layer).
+
+**[Safety Systems as Mechanical Layer](articles/systems-mechanics/safety-systems-as-mechanical-layer.qmd)**: Safety carried in the rules (Trophy dice, Strings); the systems-side complement to Safety Tools (Family 4).
+
+**[Safety Tools as Design Layer](articles/players-social-dynamics/safety-tools-as-design-layer.qmd)**: The safety toolkit as a design layer (X-Card, Script Change, Lookdown, etc.); see the Safety Contract umbrella term.
+
+*Sandbox vs Railroad*: see [Sandbox, Situation & the Railroad Spectrum](articles/structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd)
+
+**[Sandbox, Situation & the Railroad Spectrum](articles/structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd)**: The railroad-to-sandbox spectrum; prep situations not plots; the quantum ogre.
+
+*Scan-to-Unlock*: see [QR & NFC Patterns](articles/space-props-materiality/qr-and-nfc-patterns.qmd)
+
+*Scavenger Hunt*: see [Treasure & Scavenger Hunts](articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd)
+
+**[Scene & Sequel in Interactive Fiction](articles/structure-pacing/scene-and-sequel-in-interactive-fiction.qmd)**: The scene/sequel micro-rhythm; the sequel as the reflection-and-choice beat.
+
+*Scene Breaks*: see [Scene Structure & Transitions](articles/structure-pacing/scene-structure-and-transitions.qmd)
+
+*Scene Craft*: see [Scene Structure & Transitions](articles/structure-pacing/scene-structure-and-transitions.qmd)
+
+**[Scene Structure & Transitions](articles/structure-pacing/scene-structure-and-transitions.qmd)**: The beat-to-prose pipeline; cuts, transitions, scene breaks.
+
+*Scene-Sequel*: see [Scene & Sequel in Interactive Fiction](articles/structure-pacing/scene-and-sequel-in-interactive-fiction.qmd)
+
+**[Science Fiction Conventions](articles/story-character-voice/science-fiction-conventions.qmd)**: The hard/soft contract; the novum; diegetic interfaces.
+
+*Scope Discipline*: see [Scope, Scale & Branching Depth](articles/structure-pacing/scope-scale-and-branching-depth.qmd)
+
+**[Scope, Scale & Branching Depth](articles/structure-pacing/scope-scale-and-branching-depth.qmd)**: Estimating scale; how branching depth multiplies scope; cutting to finish.
+
+*The Score*: see [Heist & Caper Patterns](articles/story-character-voice/heist-and-caper-patterns.qmd)
+
+**[Search, Observation & Lateral Thinking](articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd)**: The noticing / perceptual faculty.
+
+*Secondary-World Craft*: see [Fantasy Conventions](articles/story-character-voice/fantasy-conventions.qmd)
+
+**[Self-Resolving Puzzles](articles/puzzles-clues-information/self-resolving-puzzles.qmd)**: The apparatus confirms the solution itself.
+
+*Self-Validating Puzzles*: see [Self-Resolving Puzzles](articles/puzzles-clues-information/self-resolving-puzzles.qmd)
+
+*Sensory Design*: see [Theme, Immersion & Sensory Environment](articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd)
+
+*Serial Narrative*: see [Episodic & Serialised Structure](articles/structure-pacing/episodic-and-serialised-structure.qmd)
+
+*Server-Side Answer Checking*: see [Digital Gating & State](articles/systems-mechanics/digital-gating-and-state.qmd)
+
+*Session 0*: see [The Session Zero Playbook](articles/players-social-dynamics/the-session-zero-playbook.qmd)
+
+*The Session Arc*: see [Session Pacing & Energy Management](articles/structure-pacing/session-pacing-and-energy-management.qmd)
+
+**[Session Pacing & Energy Management](articles/structure-pacing/session-pacing-and-energy-management.qmd)**: The multi-hour arc; energy variation; the mid-session sag and its cures.
+
+*Session Rhythm*: see [Session Pacing & Energy Management](articles/structure-pacing/session-pacing-and-energy-management.qmd)
+
+**[The Session Zero Playbook](articles/players-social-dynamics/the-session-zero-playbook.qmd)**: The pre-game agreement; expectations/tone/safety/logistics calibration.
+
+*Setting Construction*: see [Worldbuilding Patterns](articles/story-character-voice/worldbuilding-patterns.qmd)
+
+*Setup and Payoff*: see [Emotional Beats & Investment](articles/story-character-voice/emotional-beats-and-investment.qmd)
+
+*SF Conventions*: see [Science Fiction Conventions](articles/story-character-voice/science-fiction-conventions.qmd)
+
+*Shared Authorship*: see [Distributing Narrative Authority](articles/systems-mechanics/distributing-narrative-authority.qmd)
+
+*Show Control*: see [Cue Management & GM Station](articles/space-props-materiality/cue-management-and-gm-station.qmd)
+
+*Show vs Tell*: see [Exposition & Subtext](articles/story-character-voice/exposition-and-subtext.qmd)
+
+*Single-Player Mode*: see [Solo Modes](articles/systems-mechanics/solo-modes.qmd)
+
+*Skins*: see [Playbook Design](articles/systems-mechanics/playbook-design.qmd)
+
+*Smart Prep*: see [Prep Economy](articles/systems-mechanics/prep-economy.qmd)
+
+*Smart Props*: see [Digital Props](articles/space-props-materiality/digital-props.qmd)
+
+*Social Deduction*: see [Trust, Conformity & Social Pressure](articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd)
+
+**[Social Performance Genres](articles/systems-mechanics/social-performance-genres.qmd)**: Boardgame genres where the people are the game (genre view; psychology is Family 4).
+
+*Solo Audience Scene*: see [One-on-One Scene Design](articles/players-social-dynamics/one-on-one-scene-design.qmd)
+
+**[Solo Journaling RPGs: Genre & Form](articles/story-character-voice/solo-journaling-rpgs-genre-and-form.qmd)**: The prompt → response → artefact form; oracle and epistolary lineages.
+
+**[Solo Modes](articles/systems-mechanics/solo-modes.qmd)**: Designing a solo opponent for a multiplayer boardgame.
+
+*Solvability*: see [Cluing & Fairness](articles/puzzles-clues-information/cluing-and-fairness.qmd)
+
+**Space, Props & Materiality**: The physical and sensory layer.
+
+*Spatial Layout*: see [Dungeon & Spatial Topology](articles/space-props-materiality/dungeon-and-spatial-topology.qmd)
+
+**[Spectator-Friendly Design](articles/players-social-dynamics/spectator-friendly-design.qmd)**: Designing for observers; drop-in/drop-out; mixed engagement levels.
+
+*Splitting and Reconvergence*: see [Team Splitting Strategies](articles/players-social-dynamics/team-splitting-strategies.qmd)
+
+*Spoiler Stratification*: see [Canon Management](articles/story-character-voice/canon-management.qmd)
+
+*Stakes & Escalation*: see [Conflict Patterns](articles/story-character-voice/conflict-patterns.qmd)
+
+*Stakes Ladder*: see [Try-Fail Cycles & Escalation](articles/structure-pacing/try-fail-cycles-and-escalation.qmd)
+
+*Story Bible*: see [Canon Management](articles/story-character-voice/canon-management.qmd)
+
+*Story Structure Frameworks*: see [Beat Taxonomies & Craft Models](articles/structure-pacing/beat-taxonomies-and-craft-models.qmd)
+
+**Story, Character & Voice**: The narrative and aesthetic layer.
+
+**Structure & Pacing**: The temporal and macro-rhythmic framework.
+
+*Stuck Recovery*: see [Hint Systems & Recovery](articles/puzzles-clues-information/hint-systems-and-recovery.qmd)
+
+*Sub-Team Design*: see [Team Splitting Strategies](articles/players-social-dynamics/team-splitting-strategies.qmd)
+
+*Sudden Insight*: see [Aha Moment](articles/puzzles-clues-information/the-aha-moment.qmd)
+
+*Supporting Cast*: see [NPC Craft & Voicing](articles/story-character-voice/npc-craft-and-voicing.qmd)
+
+*Swain Structure*: see [Scene & Sequel in Interactive Fiction](articles/structure-pacing/scene-and-sequel-in-interactive-fiction.qmd)
+
+**[System vs Setting](articles/systems-mechanics/system-vs-setting.qmd)**: The coupling between rules and world; the hackability/reskin test.
+
+**Systems & Mechanics**: The engine and resolution layer.
+
+
+## T
+
+*Task Resolution*: see [Mechanical Resolution Types](articles/systems-mechanics/mechanical-resolution-types.qmd)
+
+**[Teaching Through Play](articles/puzzles-clues-information/teaching-through-play.qmd)**: Teaching the rules by demonstration, not instruction.
+
+**[Team Sizes & the Bottleneck Problem](articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd)**: Size thresholds; the one-puzzle-one-bottleneck crowding problem.
+
+**[Team Splitting Strategies](articles/players-social-dynamics/team-splitting-strategies.qmd)**: Splitting a large group into parallel sub-teams (Ringelmann, reconvergence).
+
+*The Telltale Model*: see [Episodic & Serialised Structure](articles/structure-pacing/episodic-and-serialised-structure.qmd)
+
+*Theme*: see [Theme, Immersion & Sensory Environment](articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd)
+
+**[Theme, Immersion & Sensory Environment](articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd)**: Making a built space feel like a real world and keeping the player there.
+
+**[Theme-Mechanism Integration](articles/systems-mechanics/theme-mechanism-integration.qmd)**: Boardgame theme coupling and procedural rhetoric (the systems sibling of Theme/Immersion, Family 5).
+
+*The Three Pillars*: see [Encounter & Challenge Design](articles/systems-mechanics/encounter-and-challenge-design.qmd)
+
+**Time Cave**: A narrative topology where every choice branches.
+
+**[Time Loop Patterns](articles/structure-pacing/time-loop-patterns.qmd)**: Loop arc phases; knowledge-as-progression; exit types.
+
+*Time-Skips*: see [Scene Structure & Transitions](articles/structure-pacing/scene-structure-and-transitions.qmd)
+
+*Toponymy*: see [Naming Craft: Characters & Locations](articles/story-character-voice/naming-craft-characters-and-locations.qmd)
+
+*Track*: see Progress Clock
+
+*Traitor Mechanics*: see [Cooperative vs Adversarial Formats](articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd)
+
+**[Treasure & Scavenger Hunts](articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd)**: The outdoor / distributed trail tradition.
+
+*Treasure Hunt*: see [Treasure & Scavenger Hunts](articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd)
+
+*Trope Subversion*: see [Tropes, Archetypes & Variations](articles/story-character-voice/tropes-archetypes-and-variations.qmd)
+
+**[Tropes, Archetypes & Variations](articles/story-character-voice/tropes-archetypes-and-variations.qmd)**: Archetypes; tropes as tools; subversion techniques (underpins the genre articles).
+
+**[Trust, Conformity & Social Pressure](articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd)**: The hub: designing genuine social pressure on a foundation of consent (Asch/Milgram, social-deduction lineage).
+
+**[Try-Fail Cycles & Escalation](articles/structure-pacing/try-fail-cycles-and-escalation.qmd)**: The four-outcome failure engine; escalation; failure as branch.
+
+**[TTRPG Format Taxonomy](articles/systems-mechanics/ttrpg-format-taxonomy.qmd)**: Map of TTRPG design traditions by design DNA.
+
+*TTRPG Traditions*: see [TTRPG Format Taxonomy](articles/systems-mechanics/ttrpg-format-taxonomy.qmd)
+
+*Turn Order*: see [Turn Structure & Action Economy](articles/systems-mechanics/turn-structure-and-action-economy.qmd)
+
+**[Turn Structure & Action Economy](articles/systems-mechanics/turn-structure-and-action-economy.qmd)**: Who acts when and how much; downtime and its cures.
+
+
+## U
+
+*Universal vs Bespoke Systems*: see [System vs Setting](articles/systems-mechanics/system-vs-setting.qmd)
+
+
+## V
+
+*Variability*: see [Replayability](articles/systems-mechanics/replayability.qmd)
+
+*Verifiability Compact*: see [Designer-Community Trust in Long-Form Hunts](articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd)
+
+**[Voice & Register Consistency](articles/story-character-voice/voice-and-register-consistency.qmd)**: The narrator contract; register shifts; branch-drift audit.
+
+*Voice Drift*: see [Voice & Register Consistency](articles/story-character-voice/voice-and-register-consistency.qmd)
+
+*Voice Markers*: see [Character Voice](articles/story-character-voice/character-voice.qmd)
+
+*Voicing NPCs*: see [NPC Craft & Voicing](articles/story-character-voice/npc-craft-and-voicing.qmd)
+
+
+## W
+
+*Weatherproofing*: see [Materials, Durability & Reset](articles/space-props-materiality/materials-durability-and-reset.qmd)
+
+*Web App Gating*: see [Digital Gating & State](articles/systems-mechanics/digital-gating-and-state.qmd)
+
+**[West Marches & the Open-Table Format](articles/structure-pacing/west-marches-and-the-open-table-format.qmd)**: Player-driven open-table play; persistent shared map; coordination at scale.
+
+*Who Knows What*: see [Information Asymmetry: Hidden Information vs Hidden Roles](articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd)
+
+*Who-Knows-What-When*: see [Information Architecture](articles/puzzles-clues-information/information-architecture.qmd)
+
+*Whodunit*: see [Mystery & Detective Fiction](articles/story-character-voice/mystery-and-detective-fiction.qmd)
+
+*Wilderness Exploration*: see [Hexcrawl & Pointcrawl](articles/structure-pacing/hexcrawl-and-pointcrawl.qmd)
+
+*Workshop Tiers*: see [Fabrication & Sourcing](articles/space-props-materiality/fabrication-and-sourcing.qmd)
+
+*World Consistency*: see [Worldbuilding Patterns](articles/story-character-voice/worldbuilding-patterns.qmd)
+
+*World-Affordance Puzzles*: see [Search, Observation & Lateral Thinking](articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd)
+
+**[Worldbuilding Patterns](articles/story-character-voice/worldbuilding-patterns.qmd)**: Internal logic, Sanderson's First Law, the iceberg, branching world-state.
+
+*Wretched & Alone Games*: see [Solo Journaling RPGs: Genre & Form](articles/story-character-voice/solo-journaling-rpgs-genre-and-form.qmd)
+
+*Writing as the Game*: see [The Journal as Artefact](articles/story-character-voice/the-journal-as-artefact.qmd)
+
+
+## Y
+
+*Yes-But / No-And*: see [Try-Fail Cycles & Escalation](articles/structure-pacing/try-fail-cycles-and-escalation.qmd)
+
+*Yes/No Oracle*: see [Oracle & Solo-Play Resolution](articles/systems-mechanics/oracle-and-solo-play-resolution.qmd)
+

@@ -44,7 +44,8 @@ def main() -> None:
         # and would list a router under every target. Skip them as backlink sources.
         # Exemplar/specimen profiles themselves stay sources, so a profile that
         # cites another profile or an article still registers a backlink.
-        if "primers" in src.parts or "keys" in src.parts or src.name == "index.qmd":
+        if ("primers" in src.parts or "keys" in src.parts
+                or src.name in ("index.qmd", "glossary.qmd")):
             continue
         body = strip_block(src.read_text(encoding="utf-8"))
         for _label, target in LINK_RE.findall(body):
