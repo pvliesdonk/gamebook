@@ -6,7 +6,7 @@ project:
 
 book:
   title: "Field Guide to Narrative & Game Design"
-  author: "—"
+  author: "Compiled by Peter van Liesdonk"
   chapters:
     - index.qmd
     - part: "Structure & Pacing"
