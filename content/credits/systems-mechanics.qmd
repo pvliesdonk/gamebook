@@ -1,0 +1,247 @@
+---
+type: credits
+---
+
+# Works & References {.unnumbered}
+
+The works this part's articles discuss and the texts they cite. The print edition carries the credited works and the references; the web edition adds the wider research consulted.
+
+## Works discussed
+
+- *7 Wonders*. Antoine Bauza, 2010.
+- *80 Days*. inkle, 2014.
+- *Aeon's End*. Kevin Riley, 2016.
+- *Aeon's End Legacy*. Kevin Riley and Nick Little, 2019.
+- *Agricola*. Uwe Rosenberg, 2007.
+- *Amber Diceless Roleplaying Game*. Erick Wujcik, 1991.
+- [*Apocalypse World*](../exemplars/apocalypse-world.qmd). D. Vincent Baker and Meguey Baker, 2010.
+- *Apples to Apples*. Matthew Kirby and Mark Osterhaus, 1999.
+- *Ascension: Chronicle of the Godslayer*. Justin Gary, Brian Kibler and others, 2010.
+- *Band of Blades*. Stras Acimovic and others, 2019.
+- *Battlestar Galactica: The Board Game*. Corey Konieczka, 2008.
+- *Belonging Outside Belonging* (*Dream Askew* / *Dream Apart*). Avery Alder and Benjamin Rosenbaum, 2018.
+- *Betrayal at House on the Hill*. Bruce Glassco, 2004.
+- *BioShock*. 2K Boston (Irrational Games), 2007.
+- [*Blades in the Dark*](../exemplars/blades-in-the-dark.qmd). John Harper, 2017.
+- [*Blood on the Clocktower*](../exemplars/blood-on-the-clocktower.qmd). Steven Medway, 2022.
+- [*Blue Prince*](../exemplars/blue-prince.qmd). Dogubomb, 2025.
+- *Bohnanza*. Uwe Rosenberg, 1997.
+- *Brass: Birmingham*. Martin Wallace, Gavan Brown and Matt Tolman, 2018.
+- *Brass* (*Brass: Lancashire*). Martin Wallace, 2007.
+- *Brinkwood: The Blood of Tyrants*. Erik Bernhardt, 2021.
+- *Burning Wheel*. Luke Crane, 2002 (Gold edition 2011).
+- [*Call of Cthulhu*](../exemplars/call-of-cthulhu.qmd). Sandy Petersen (Chaosium), 1981.
+- *Can't Stop*. Sid Sackson, 1980.
+- *Captain Sonar*. Roberto Fraga and Yohan Lemonnier, 2016.
+- *Carcassonne*. Klaus-Jürgen Wrede, 2000.
+- *Cards Against Humanity*. Temkin, Dranove, Munk, Pinsof, Halpern, Sufrin, Wade and Weinstein, 2011.
+- *Cartographers*. Jordy Adan, 2019.
+- *Cascadia*. Randy Flynn, 2021.
+- *Castle Falkenstein*. Mike Pondsmith, 1994.
+- *Castles of Burgundy*. Stefan Feld, 2011.
+- *Catan* (*Die Siedler von Catan*). Klaus Teuber, 1995.
+- *Catan: Cities & Knights*. Klaus Teuber, 1998.
+- *Caylus*. William Attia, 2005.
+- *Charterstone*. Jamey Stegmaier, 2017.
+- *Choice of Games* (novels). Choice of Games, 2010 onward.
+- *Codenames*. Vlaada Chvátil, 2015.
+- *Cortex Prime*. Cam Banks (Fandom Tabletop), 2020.
+- *Cosmic Encounter*. Bill Eberle, Jack Kittredge, Bill Norton and Peter Olotka, 1977.
+- *Coup*. Rikki Tahta, 2012.
+- *Cypher System*. Monte Cook (Monte Cook Games), 2015.
+- *Deadlands*. Shane Lacy Hensley, 1996.
+- *Disco Elysium*. ZA/UM, 2019.
+- *Dixit*. Jean-Louis Roubira, 2008.
+- *Dogs in the Vineyard*. D. Vincent Baker, 2004.
+- *Dominion*. Donald X. Vaccarino, 2008.
+- [*The Extraordinary Adventures of Baron Munchausen*](../exemplars/baron-munchausen.qmd). James Wallis, 1998.
+- [*Dungeons & Dragons, 5th Edition*](../exemplars/dungeons-and-dragons-5e.qmd). Wizards of the Coast, 2014 (revised 2024).
+- *Dungeon World*. Sage LaTorra and Adam Koebel, 2012.
+- *Eclipse*. Touko Tahkokallio, 2011.
+- *El Grande*. Wolfgang Kramer and Richard Ulrich, 1995.
+- *Everdell*. James A. Wilson, 2018.
+- [*Exit: The Game*](../exemplars/exit-the-game.qmd). Inka and Markus Brand, 2016.
+- *Fallout*. Interplay Productions, 1997.
+- *Fate Core*. Evil Hat Productions, 2013.
+- [*Fiasco*](../exemplars/fiasco.qmd). Jason Morningstar, 2009.
+- *Flee, Mortals!* MCDM Productions, 2023.
+- *Friday*. Friedemann Friese, 2011.
+- *Frosthaven*. Isaac Childres, 2023.
+- *FU: The Freeform Universal RPG*. Nathan Russell, 2008.
+- *Galaxy Trucker*. Vlaada Chvátil, 2007.
+- *Gloomhaven*. Isaac Childres, 2017.
+- *Go*. Traditional; no single author or date.
+- *Godlike*. Dennis Detwiller, Greg Stolze and others, 2001.
+- *gph-site*. Galactic Puzzle Hunt team, 2017 onward.
+- *GURPS*. Steve Jackson, 1986.
+- *Her Story*. Sam Barlow, 2015.
+- [*Ironsworn*](../exemplars/ironsworn.qmd). Shawn Tomkin, 2018.
+- *Just One*. Ludovic Roudy and Bruno Sautter, 2018.
+- *Kingdom*. Ben Robbins, 2013.
+- *King of Tokyo*. Richard Garfield, 2011.
+- *Lost Ruins of Arnak*. Mín and Elwen, 2020.
+- *The Lord of the Rings* (board game). Reiner Knizia, 2000.
+- *Mafia*. Dmitry Davidoff, 1986.
+- *Mage Knight Board Game*. Vlaada Chvátil, 2011.
+- [*Magic: the Gathering*](../exemplars/magic-the-gathering.qmd). Richard Garfield, 1993.
+- *Masks: A New Generation*. Brendan Conway, 2016.
+- [Megagames](../exemplars/megagames.qmd) (incl. *Watch the Skies*). Megagame Makers, 2010s.
+- [*Microscope* & *Kingdom*](../exemplars/microscope-and-kingdom.qmd). Ben Robbins, 2011.
+- *Modern Art*. Reiner Knizia, 1992.
+- *Monsterhearts*. Avery Alder, 2012 (revised 2017).
+- *My City*. Reiner Knizia, 2020.
+- *Mystic Vale*. John D. Clair, 2016.
+- *Mythic Game Master Emulator*. Tana Pigeon, 2003.
+- *Mörk Borg*. Pelle Nilsson and Johan Nohr (Free League), 2020.
+- *Old-School Essentials*. Gavin Norman, 2019.
+- *Once Upon a Time*. Richard Lambert, Andrew Rilstone and James Wallis, 1993.
+- *One Night Ultimate Werewolf*. Ted Alspach and Akihisa Okui, 2014.
+- *Onirim*. Shadi Torbey, 2010.
+- *Orléans*. Reiner Stockhausen, 2014.
+- [*Pandemic*](../exemplars/pandemic.qmd). Matt Leacock, 2008.
+- *Pandemic Legacy: Season 1*. Matt Leacock and Rob Daviau, 2015.
+- *Papers, Please*. Lucas Pope, 2013.
+- [*Paranoia*](../exemplars/paranoia.qmd). Greg Costikyan, Eric Goldberg and Dan Gelber, 1984.
+- *Passage*. Jason Rohrer, 2007.
+- *Patchwork*. Uwe Rosenberg, 2014.
+- *Pathfinder, Second Edition*. Paizo, 2019.
+- *Pax Pamir, Second Edition*. Cole Wehrle, 2019.
+- *Pictionary*. Rob Angel, 1985.
+- *Polaris: Chivalric Tragedy at Utmost North*. Ben Lehman, 2005.
+- *Power Grid*. Friedemann Friese, 2004.
+- *Puerto Rico*. Andreas Seyfarth, 2002.
+- *The Quacks of Quedlinburg*. Wolfgang Warsch, 2018.
+- [*The Quiet Year*](../exemplars/the-quiet-year.qmd). Avery Alder, 2013.
+- *Ra*. Reiner Knizia, 1999.
+- *Race for the Galaxy*. Tom Lehmann, 2007.
+- *Reign*. Greg Stolze, 2007.
+- *The Resistance*. Don Eskridge, 2010.
+- *Risk*. Albert Lamorisse, 1957.
+- *Risk Legacy*. Rob Daviau and Chris Dupuis, 2011.
+- *Root*. Cole Wehrle, 2018.
+- *Scum and Villainy*. Stras Acimovic and John LeBoeuf-Little, 2019.
+- *Scythe*. Jamey Stegmaier, 2016.
+- *Secret Hitler*. Mike Boxleiter, Tommy Maranges and Max Temkin, 2016.
+- *Shadowrun*. Jordan Weisman and others (FASA), 1989.
+- *Shadows over Camelot*. Serge Laget and Bruno Cathala, 2005.
+- *Sherlock Holmes Consulting Detective*. Raymond Edwards, Suzanne Goldberg and Gary Grady, 1981.
+- *Sleeping Gods*. Ryan Laukat, 2021.
+- *Sorcerer*. Ron Edwards, 2001.
+- *Spec Ops: The Line*. Yager Development, 2012.
+- *Spirit Island*. R. Eric Reuss, 2017.
+- *Star Realms*. Robert Dougherty and Darwin Kastle, 2014.
+- *Star Wars: Rebellion*. Corey Konieczka, 2016.
+- *Stars Without Number*. Kevin Crawford, 2010 (revised 2017).
+- *Sushi Go!* Phil Walker-Harding, 2013.
+- *Tactics*. Charles S. Roberts, 1954.
+- *Tainted Grail: The Fall of Avalon*. Krzysztof Piskorski and Marcin Świerkot, 2019.
+- [*Ten Candles*](../exemplars/ten-candles.qmd). Stephen Dewey, 2015.
+- *Terraforming Mars*. Jacob Fryxelius, 2016.
+- *The Crew: The Quest for Planet Nine*. Thomas Sing, 2019.
+- *The Ladder*. Hatch Escapes, 2024.
+- [*The Witness*](../exemplars/the-witness.qmd). Jonathan Blow (Thekla), 2016.
+- [*Thousand Year Old Vampire*](../exemplars/thousand-year-old-vampire.qmd). Tim Hutchings, 2020.
+- *Through the Ages*. Vlaada Chvátil, 2006.
+- *Ticket to Ride*. Alan R. Moon, 2004.
+- *Tigris & Euphrates*. Reiner Knizia, 1997.
+- *Tikal*. Wolfgang Kramer and Michael Kiesling, 1999.
+- *Trains*. Hisashi Hayashi, 2012.
+- *Train*. Brenda Romero, 2009.
+- *Trophy Dark*. Jesse Ross, 2020.
+- *Twilight Imperium*. Christian T. Petersen, 1997.
+- *Twilight Struggle*. Ananda Gupta and Jason Matthews, 2005.
+- *Undertale*. Toby Fox, 2015.
+- [*Unlock!*](../exemplars/unlock-series.qmd). Space Cowboys, 2017.
+- *Vampire: The Masquerade*. Mark Rein-Hagen, 1991.
+- *Viticulture*. Jamey Stegmaier and Alan Stone, 2013.
+- *Wanderhome*. Jay Dragon, 2021.
+- *War of the Ring*. Roberto Di Meglio, Marco Maggi and Francesco Nepitello, 2004.
+- *Wavelength*. Wolfgang Warsch, Alex Hague and Justin Vickers, 2019.
+- *Welcome To...* Benoit Turpin, 2018.
+- *Werewolf*. Andrew Plotkin, 1997.
+- *Wingspan*. Elizabeth Hargrave, 2019.
+- *Wretched & Alone* (*The Wretched*). Chris Bissette and Matt Sanders, 2020.
+- *Year Zero Engine* (*Mutant: Year Zero*). Free League, 2014.
+
+## References
+
+- Alder, Avery. "Belonging Outside Belonging." Buried Without Ceremony, 2018. <https://buriedwithoutceremony.com/belonging>
+- Alexander, Justin. "Don't Prep Plots." The Alexandrian, 2009. <https://thealexandrian.net/wordpress/4147/roleplaying-games/dont-prep-plots>
+- Alexander, Justin. "The Three Clue Rule." The Alexandrian, 2008. <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 2010. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
+- Alexander, Justin. "Whither Exploration? The Invisible Pillar of 5th Edition." The Alexandrian. <https://thealexandrian.net/wordpress/46504/roleplaying-games/whither-exploration-the-invisible-pillar-of-5th-edition>
+- Baker, D. Vincent. "Powered by the Apocalypse, Part 1." Lumpley Games, 2019. <https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/>
+- Baker, D. Vincent. "Powered by the Apocalypse, Part 7: Q&A Round 2." Lumpley Games, 2021. <https://lumpley.games/2021/05/31/powered-by-the-apocalypse-part-7-qa-round-2/>
+- Bogost, Ian. *Persuasive Games: The Expressive Power of Videogames*. MIT Press, 2007. <https://mitpress.mit.edu/9780262514880/persuasive-games/>
+- Burgun, Keith. "Randomness and Game Design." Game Developer, 2014. <https://www.gamedeveloper.com/design/randomness-and-game-design>
+- Colville, Matt. "Action Oriented Monsters" and "Prepping An Adventure." Running the Game. <https://www.youtube.com/watch?v=jXYORWtiLF0>
+- Daviau, Rob. Interview on the legacy system. GameSkinny. <https://www.gameskinny.com/culture/an-interview-with-rob-daviau-discussing-the-legacy-system-board-games-and-more/>
+- Edwards, Ron. "System Does Matter." 1999. <https://www.indie-rpgs.com/_articles/system_does_matter.html>
+- Elumir, Errol. "13 Rules for Escape Room Puzzle Design" and "How Escape Rooms Do Difficulty Wrong." The Codex. <https://thecodex.ca/13-rules-for-escape-room-puzzle-design/>
+- Harper, John. "Progress Clocks," "Setting Position & Effect" and "Effect." Blades in the Dark SRD. <https://bladesinthedark.com/progress-clocks>
+- Hocking, Clint. "Ludonarrative Dissonance in BioShock." Click Nothing, 2007. <https://en.wikipedia.org/wiki/Ludonarrative_dissonance>
+- Hon, Adrian. "A Puzzle Designer on Blue Prince" and "The Ladder." mssv.net, 2025. <https://mssv.net/2025/04/07/a-puzzle-designer-on-blue-prince-a-roguelike-puzzle-masterpiece/>
+- Hunicke, Robin, Marc LeBlanc and Robert Zubek. "MDA: A Formal Approach to Game Design and Game Research." AAAI Workshop, 2004. <https://users.cs.northwestern.edu/~hunicke/MDA.pdf>
+- Irpan, Alex. "A Puzzlehunt Tech Checklist" and "MIT Mystery Hunt 2021." <https://www.alexirpan.com/2020/03/16/puzzlehunt-tech.html>
+- Mearls, Mike. "Exploration in 5e." Patreon, 2024. <https://www.patreon.com/posts/exploration-in-114939055>
+- Meier, Sid. "Interesting Decisions." GDC 2012. GDC Vault. <https://www.gdcvault.com/play/1015756/Interesting>
+- Pedersen, Morten Monrad. "How the Automa Works." Funtails, 2020. <https://funtails.de/en/2020/08/07/how-the-automa-works/>
+- Reuss, R. Eric. "Designer Diary: Spirit Island, or Inverting the Colonization Trope." BoardGameGeek. <https://boardgamegeek.com/blogpost/67955/designer-diary-spirit-island-or-inverting-coloniza>
+- Robbins, Ben. "no veto." Microscope. Lame Mage. <https://www.lamemage.com/microscope/>
+- Rosewater, Mark. "Twenty Years, Twenty Lessons." GDC. <https://gdcvault.com/play/1023186/Twenty-Years-Twenty>
+- Sheldon, Beau Jagr. "Script Change RPG Toolbox." 2013 (updated 2023). <https://briebeau.com/thoughty/script-change/>
+- Shea, Mike. "Return of the Lazy Dungeon Master," "How Long Does it Take You to Prep" and "Action Oriented Monsters." Sly Flourish. <https://slyflourish.com/eight_steps_2023.html>
+- Short, Emily. "Types of Action and Types of Agency" and "Storylets: You Want Them." <https://emshort.blog/2019/11/29/storylets-you-want-them/>
+- Stavropoulos, John. "The X-Card." 2013. <https://en.wikipedia.org/wiki/X-Card>
+- Twice, Erik. "The alpha player in co-ops is a symptom, not the disease." 2021. <https://eriktwice.com>
+- Woods, Stewart. *Eurogames: The Design, Culture and Play of Modern European Board Games*. McFarland, 2012. <https://mcfarlandbooks.com/product/eurogames/>
+
+::: {.content-hidden when-format="typst"}
+
+## Research basis
+
+Consulted while writing; not cited in the text.
+
+- BoardGameGeek mechanism pages ("Browse Board Game Mechanics," "Trick-taking"). <https://boardgamegeek.com/browse/boardgamemechanic>
+- Tabletop Trove and Games Precipice on worker placement and action selection. <https://tabletoptrove.com/mastering-worker-placement-the-evolution-of-action-selection-in-board-games/>
+- "Bushnell's Law." Wikipedia. <https://en.wikipedia.org/wiki/Bushnell%27s_Law>
+- Bruno, Mike. "Quote? Misquote? Cite?" Flash of Steel, 2008. <https://flashofsteel.com/index.php/2008/07/07/quote-misquote-cite/>
+- Magic: The Gathering format and ban references ("Standard," MTG Wiki; "Banned and Restricted List"; "Metagame Mentor"). <https://mtg.fandom.com/wiki/Standard>
+- Sheffield, Brandon. "Sid Meier on interesting decisions." Game Developer, 2012. <https://www.gamedeveloper.com/design/gdc-2012-sid-meier-on-how-to-see-games-as-sets-of-interesting-decisions>
+- fortenforge. "Suggestions for Running a Puzzlehunt." GitHub. <https://github.com/fortenforge/suggestions-for-running-a-puzzlehunt>
+- Playful Technology. "Node-REDscape." <https://github.com/playfultechnology/node-redscape>
+- Cloudflare Pages limits and Mosquitto documentation (escape-room delivery infrastructure). <https://developers.cloudflare.com/pages/platform/limits/>
+- Glide (spreadsheet-backed no-code app builder). <https://www.glideapps.com/>
+- Uniqode. "QR Code for Scavenger Hunt." <https://www.uniqode.com/blog/trending-use-cases/qr-code-for-scavenger-hunt>
+- D&D and Pathfinder encounter-building references (D&D Basic Rules; EN World 2024 thread; Blog of Holding; Pathfinder Authority). <https://www.dndbeyond.com/sources/dnd/basic-rules-2014/building-combat-encounters>
+- "Monster Role" (D&D 4e wiki) and "A Thorough Look at Skill Challenges" (Knight at the Opera). <https://knightattheopera.blogspot.com/2021/12/a-thorough-look-at-skill-challenges.html>
+- "Escape Room Difficulty Levels." ER Workshop. <https://erworkshop.com/escape-room-difficulty-levels/>
+- Skeleton Code Machine and Wikipedia on Reiner Knizia. <https://www.skeletoncodemachine.com/p/reiner-knizia>
+- "Go (game)," "AlphaGo" and "Deep Blue." Wikipedia. <https://en.wikipedia.org/wiki/Go_(game)>
+- "Effect of Input-output Randomness on Gameplay Satisfaction in Collectable Card Games." arXiv. <https://arxiv.org/pdf/2107.08437>
+- "Spiel des Jahres," "Ameritrash," "Avalon Hill," "Charles S. Roberts," "Fantasy Flight Games" and related. Wikipedia. <https://en.wikipedia.org/wiki/Spiel_des_Jahres>
+- "Mark Rosewater." MTG Wiki. <https://mtg.fandom.com/wiki/Mark_Rosewater>
+- Cthonic Studios. "Fiction First in PbtA Games." <https://cthonicstudios.com/fiction-first-in-pbta-games/>
+- Red Moose Games. "Probabilities of 2d6 with common PbtA modifiers." <http://redmoosegames.blogspot.com/2014/10/probabilities-of-2d6-with-common-pbta.html>
+- Montfort, Nick. *Twisty Little Passages*. MIT Press, 2003. <https://nickm.com/twisty/>
+- Solo-play oracle references (Czege Principle discussion; "Ask the Oracle," Ironsworn Wiki; "The Solo Roleplaying Oracle"; Mythic GME reviews). <https://oracle-rpg.com/2023/02/the-solo-roleplaying-oracle/>
+- Guo, Y., et al. "The Collaborative Sensemaking Play of Jubensha Games." ACM Games: Research and Practice, 2025.
+- Four, Johnn. "5 Room Dungeons." Roleplaying Tips. <https://www.roleplayingtips.com/rptn/5-room-dungeons-contest/>
+- Escape-room reset and operations vendors (A+ Props, Escape Room Supplier, Homebase). <https://a-props.com>
+- Alman, Josh, and Puzzlvaria on the 2021 MIT Mystery Hunt. <https://joshalman.com>
+- Stegmaier, Jamey. "The 12 Tenets of Board Game Design" and Kickstarter solo-play essay. Stonemaier Games. <https://stonemaiergames.com/the-12-tenants-of-board-games/>
+- Solo / Automa references (Automa Factory; Wingspan and Spirit Island Automa reviews; Beyond Solitaire; Punchboard). <https://automafactory.com/about/>
+- Action-economy and initiative references (Blog of Heroes; D&D Rules; "Popcorn Initiative," The Angry GM; RPG Museum; Fallout/Giant Bomb action-point wikis). <https://theangrygm.com/popcorn-initiative-a-great-way-to-adjust-dd-and-pathfinder-initiative-with-a-stupid-name/>
+- Quarterbacking in co-ops (Sprites and Dice; Don't Eat the Meeples). <https://www.spritesanddice.com/posts/spirit-island-cure-quarterbacking/>
+- Megagame design references (BeckyBecky Blogs scoping; "Sand Timers in Megagames," Mechanics Are Easy). <https://beckybeckyblogs.com/game-design/megagame-design-3-scoping/>
+- "GNS theory." Wikipedia. <https://en.wikipedia.org/wiki/GNS_theory>
+- Golem Productions. "Do TTRPGs Have a Grimdark Problem?" <https://golemproductions.substack.com/p/do-ttrpgs-have-a-grimdark-problem>
+- "Call of Cthulhu Sanity system." GAMES.GG. <https://games.gg/news/call-of-cthulhu-sanity-system-origin/>
+- Milton, Ben, Steven Lumpkin et al. *Principia Apocrypha*. 2018. <https://lithyscaphe.blogspot.com/p/principia-apocrypha.html>
+- Review pages used for one-line facts (Sherlock Holmes Consulting Detective and Exit: The Game on Wikipedia / Board Game Quest; Trophy Dark and Wanderhome on Cannibal Halfling Gaming; Monsterhearts 2 interview on Thoughty; "80 Days" on IFDB; The Ladder on Room Escape Artist and Hatch Escapes).
+- Edwards, Ron. *Sex and Sorcery* (Lines and Veils). Adept Press, 2003. <https://rpgmuseum.fandom.com/wiki/Lines_and_veils>
+- Stark, Lizzie. "A Primer on Safety in Roleplaying Games." 2014. <https://leavingmundania.com/2014/02/27/primer-safety-in-roleplaying-games/>
+- "Jubensha." Wikipedia. <https://en.wikipedia.org/wiki/Jubensha>
+- Various publisher and Wikipedia title pages used for one-line facts (Caylus, El Grande, Carcassonne, Cosmic Encounter, Root, Spirit Island, Pandemic Legacy, Charterstone, My City, Gloomhaven, Risk Legacy, Star Realms, Mystic Vale, Lost Ruins of Arnak, Trains, Orléans, Quacks of Quedlinburg, Codenames, Dixit, Just One, Wavelength, Apples to Apples, Cards Against Humanity, Secret Hitler, The Resistance, Coup, Mafia).
+
+:::

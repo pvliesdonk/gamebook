@@ -1,0 +1,132 @@
+---
+type: credits
+---
+
+# Works & References {.unnumbered}
+
+The works this part's articles discuss and the texts they cite. The print edition carries the credited works and the references; the web edition adds the wider research consulted.
+
+## Works discussed
+
+- *80 Days*. inkle, 2014.
+- *afternoon, a story*. Michael Joyce, 1990.
+- *All You Need Is Kill*. Hiroshi Sakurazaka, 2004.
+- [*Apocalypse World*](../exemplars/apocalypse-world.qmd). D. Vincent Baker and Meguey Baker (lumpley games), 2010.
+- *Barrowmaze*. Greg Gillespie, 2011.
+- [*Blades in the Dark*](../exemplars/blades-in-the-dark.qmd). John Harper (One Seven Design), 2017.
+- *Braid*. Jonathan Blow (Number None), 2008.
+- *Cain's Jawbone*. Edward Powys Mathers (as Torquemada), 1934.
+- *Cloud Atlas*. David Mitchell, 2004.
+- *Critical Role*. Matthew Mercer and cast, 2015.
+- [DASH (Different Area, Same Hunt)](../exemplars/dash-and-galactic-puzzle-hunt.qmd). DASH organising group, 2009.
+- *Death at the Dive Bar*. Hunt A Killer, 2020.
+- *Disco Elysium*. ZA/UM, 2019.
+- *Dolmenwood*. Gavin Norman (Necrotic Gnome), 2024 to 2025.
+- *Dragonlance* (the DL module series). TSR, 1984.
+- *Dungeons & Dragons*. Gary Gygax and Dave Arneson (TSR), 1974.
+- *Edge of Tomorrow*. Doug Liman (Warner Bros.), 2014.
+- *Fallen London*. Failbetter Games, 2009.
+- [*Fiasco*](../exemplars/fiasco.qmd). Jason Morningstar (Bully Pulpit Games), 2009.
+- *The Forgotten City*. Modern Storyteller (Dear Villagers), 2021.
+- *Gone Home*. The Fullbright Company, 2013.
+- *Grand Theft Auto III*. Rockstar Games, 2001.
+- *Groundhog Day*. Harold Ramis (Columbia Pictures), 1993.
+- *The Halls of Arden Vul*. Richard Barton, 2020.
+- *Heavy Rain*. Quantic Dream, 2010.
+- *Her Story*. Sam Barlow, 2015.
+- Houdini's Workshop. PanIQ Escape Room, New York (escape room; opening year not established).
+- [Hunt A Killer](../exemplars/hunt-a-killer.qmd). Ryan Hogan and Derrick Smith (Baltimore), 2016.
+- *Inception*. Christopher Nolan, 2010.
+- The Ladder. Hatch Escapes (Los Angeles), 2024.
+- *Life is Strange*. DON'T NOD (Square Enix), 2015.
+- *Living Greyhawk*. Wizards of the Coast / RPGA, 2000.
+- *Magnolia*. Paul Thomas Anderson (New Line Cinema), 1999.
+- *Masquerade*. Kit Williams, 1979.
+- [Megagames](../exemplars/megagames.qmd) (incl. *Watch the Skies*). The UK megagame tradition (Jim Wallman / Megagame Makers); *Watch the Skies* first run London 2013.
+- [*Microscope*](../exemplars/microscope-and-kingdom.qmd). Ben Robbins (Lame Mage Productions), 2011.
+- [The MIT Mystery Hunt](../exemplars/mit-mystery-hunt.qmd). Founded by Brad Schaefer, 1981.
+- *Monster of the Week*. Michael Sands (Evil Hat Productions), revised edition 2015.
+- *NORCO*. Geography of Robots (Raw Fury), 2022.
+- *The One Ring* (2nd edition). Free League Publishing, 2021.
+- *Outdoor Survival*. Avalon Hill, 1972.
+- *Outer Wilds*. Mobius Digital (Annapurna Interactive), 2019.
+- *Pulp Fiction*. Quentin Tarantino (Miramax), 1994.
+- RESET. Alfredo Tarancón (a Breathless-system time-loop game; release year not established).
+- *Return of the Obra Dinn*. Lucas Pope (3909), 2018.
+- *Russian Doll*. Natasha Lyonne, Leslye Headland and Amy Poehler (Netflix), 2019.
+- *Save the Date*. Chris Cornell (Paper Dino), 2013.
+- *Stars Without Number*. Kevin Crawford (Sine Nomine), 2010.
+- The Edison. Palace Games, San Francisco, 2018 (escape room).
+- *Time To Drop*. Marn S., 2022.
+- *The Walking Dead*. Telltale Games, 2012.
+- The West Marches campaign. Ben Robbins, 2001 to 2003.
+- *Worlds Without Number*. Kevin Crawford (Sine Nomine), 2020.
+
+## References
+
+- Alexander, Justin. "Don't Prep Plots." The Alexandrian, 23 March 2008. <https://thealexandrian.net/wordpress/1124/roleplaying-games/dont-prep-plots>
+- Alexander, Justin. "Game Structures, Part 6: Hexcrawls." The Alexandrian. <https://thealexandrian.net/wordpress/15156/roleplaying-games/game-structures-part-6-hexcrawls>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
+- Alexander, Justin. "Pointcrawls." The Alexandrian. <https://thealexandrian.net/wordpress/48666/roleplaying-games/pointcrawls>
+- Alexander, Justin. "The Art of Pacing, Part 2: Scene-Framing." The Alexandrian. <https://thealexandrian.net/wordpress/31520/roleplaying-games/the-art-of-pacing-part-2-scene-framing>
+- Alexander, Justin. "The Three Clue Rule." The Alexandrian, 8 May 2008. <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule>
+- Ashwell, Sam Kabo. "Standard Patterns in Choice-Based Games." These Heterogenous Tasks, 26 January 2015. <https://heterogenoustasks.wordpress.com/2015/01/26/standard-patterns-in-choice-based-games/>
+- Baker, D. Vincent, and Meguey Baker. *Apocalypse World*. Lumpley Games, 2010 (2nd ed. 2016).
+- Bergson, Henri. *Laughter: An Essay on the Meaning of the Comic*. 1900.
+- Bickham, Jack M. *Scene and Structure*. Writer's Digest Books, 1993.
+- Bordwell, David. "Mutual Friends and Chronologies of Chance." In *Poetics of Cinema*. Routledge, 2008. <https://en.wikipedia.org/wiki/Hyperlink_cinema>
+- Brody, Jessica. *Save the Cat! Writes a Novel*. Ten Speed Press, 2018.
+- Campbell, Courtney ("-C"). "On Slaying the Quantum Ogre." Hack & Slash, September 2011. <http://hackslashmaster.blogspot.com/2011/09/on-slaying-quantum-ogre.html>
+- Campbell, Joseph. *The Hero with a Thousand Faces*. Pantheon Books, 1949.
+- Coyne, Shawn. *The Story Grid: What Good Editors Know*. Black Irish Entertainment, 2015.
+- Edwards, Ron. "GNS and Other Matters of Role-Playing Theory." The Forge, 2001. <http://www.indie-rpgs.com/articles/1/>
+- Field, Syd. *Screenplay: The Foundations of Screenwriting*. Dell, 1979.
+- Freytag, Gustav. *Die Technik des Dramas*. 1863. <https://en.wikipedia.org/wiki/Dramatic_structure>
+- Genette, Gérard. *Narrative Discourse: An Essay in Method*. Cornell University Press, 1980.
+- Goldman, William. On "start late, leave early" in screenwriting. No Film School. <https://nofilmschool.com/start-late-leave-early>
+- Gygax, Gary, and Dave Arneson. *Dungeons & Dragons* (Original Edition). TSR, 1974.
+- Harmon, Dan. "Story Structure 101 to 104." Channel 101 wiki, discussed by Scott Myers. <https://scottdistillery.medium.com/dan-harmon-the-heros-journey-and-the-circle-theory-of-story-b64bb77d6976>
+- Hon, Adrian. "The Ladder: A Hilariously Absurd, Surprisingly Replayable Escape Room." mssv.net, 6 July 2025. <https://mssv.net/2025/07/06/the-ladder-a-hilariously-absurd-surprisingly-replayable-escape-room/>
+- Ingold, Jon. "Adventures in Text: Innovating in Interactive Fiction." GDC 2015. <https://gdcvault.com/play/1021774/Adventures-in-Text-Innovating-in>
+- Irpan, Alex. "Writing MIT Mystery Hunt 2023." <https://www.alexirpan.com/2023/02/27/mh-2023.html>
+- Jenkins, Henry. "Game Design as Narrative Architecture." In *First Person*, MIT Press, 2004. <http://web.mit.edu/~21fms/People/henry3/games&narrative.html>
+- Kennedy, Alexis. "Storynexus and Quality-Based Narrative." Failbetter Games. <https://www.failbettergames.com/news/storynexus>
+- Kutalik, Chris. "Pointcrawl Series Index" (2014) and "Hexcrawls vs Pointcrawls" (2016). Hill Cantons. <http://hillcantons.blogspot.com/2014/11/pointcrawl-series-index.html>
+- Laws, Robin D. *Robin's Laws of Good Game Mastering*. Steve Jackson Games, 2002.
+- Laws, Robin D. *Hamlet's Hit Points*. Gameplaywright Press, 2010.
+- McKee, Robert. *Story: Substance, Structure, Style, and the Principles of Screenwriting*. ReganBooks, 1997.
+- Mittell, Jason. "Previously On: Prime Time Serials and the Mechanics of Memory." Just TV, 3 July 2009. <https://justtv.wordpress.com/2009/07/03/previously-on-prime-time-serials-and-the-mechanics-of-memory/>
+- Nicholson, Scott. "Peeking Behind the Locked Door: A Survey of Escape Room Facilities." 2015. <https://scottnicholson.com/pubs/erfacwhite.pdf>
+- Robbins, Ben. "Grand Experiments: West Marches." ars ludi, October 2007. <https://arsludi.lamemage.com/index.php/78/grand-experiments-west-marches/>
+- Ryan, Marie-Laure. *Narrative as Virtual Reality*. Johns Hopkins University Press, 2001.
+- Sanderson, Brandon. "Lecture 7: Try/Fail Cycles." BYU writing lectures, 2012. <https://www.youtube.com/watch?v=QkOMl6xTXIg>
+- Short, Emily. "Beyond Branching: Quality-Based, Salience-Based, and Waypoint Narrative Structures." Emily Short's Interactive Storytelling, 12 April 2016. <https://emshort.blog/2016/04/12/beyond-branching-quality-based-and-salience-based-narrative-structures/>
+- Snyder, Blake. *Save the Cat! The Last Book on Screenwriting You'll Ever Need*. Michael Wiese Productions, 2005.
+- Swain, Dwight V. *Techniques of the Selling Writer*. University of Oklahoma Press, 1965.
+- Vogler, Christopher. *The Writer's Journey: Mythic Structure for Writers*. Michael Wiese Productions, 1992.
+- Whitta, Gary. "*The Walking Dead* and the Art of Providing No 'Good' Choice." Game Developer. <https://www.gamedeveloper.com/design/-i-the-walking-dead-i-and-the-art-of-providing-no-good-choice>
+
+::: {.content-hidden when-format="typst"}
+
+## Research basis
+
+Consulted while writing; not cited in the text.
+
+- Further Alexandrian essays (the Hexcrawl series and addendum; "On the Matter of Quantum Ogres"; "The Art of Pacing"; "The Secret Life of Nodes, Part 2"). <https://thealexandrian.net/wordpress/17308/roleplaying-games/hexcrawl>
+- Analog Game Studies. "Computing Models of Escape Rooms." December 2020. <https://analoggamestudies.org/2020/12/computing-models-of-escape-rooms/>
+- Narrative-craft references on the "surprising yet inevitable" ending (Writers.com; Electric Literature on Aristotle's *Poetics*). <https://writers.com/feature/better-endings-surprising-yet-inevitable-and-astonishing>
+- "Chekhov's Gun" (Wikipedia; Scribophile) and "Deus Ex Machina" (Chapter Blog). <https://en.wikipedia.org/wiki/Chekhov%27s_gun>
+- Choice of Games design posts ("How We Plan a ChoiceScript Game"; "Length and Coding Efficiency"; "Vignette Structure as a Means of Controlling Branching"). <https://www.choiceofgames.com/2010/05/planning-a-choicescript-game/>
+- Old-school and open-table campaign references (Crawling for Coppers on Stonehell; Grumpy Wizard; Principia Apocrypha; Prismatic Wasteland; The Retired Adventurer; Jeff Rients on Wessex and FLAILSNAILS; WestMarches.games; ALA Games and Gaming Round Table). <https://lithyscaphe.blogspot.com/p/principia-apocrypha.html>
+- Japanese dramatic-structure references ("Jo-ha-kyū" and "Kishōtenketsu," Wikipedia). <https://en.wikipedia.org/wiki/Jo-ha-ky%C5%AB>
+- Scene-and-sequel craft (Fawkes on Swain; "Scene and sequel," Wikipedia; Weiland on Motivation-Reaction Units). <https://www.septembercfawkes.com/2021/09/scene-structure-according-to-dwight-v.html>
+- Pacing guides (Sly Flourish; Roleplaying Tips; Run a Game; The TTRPG Factory; Phd20; The Angry GM). <https://slyflourish.com/pacing.html>
+- Hexcrawl and pointcrawl design (Smale's Welsh Piper series; Silverarm Press; Traverse Fantasy on OD&D and Outdoor Survival; Wayne's Books). <https://welshpiper.com/hex-based-campaign-design-part-1/>
+- Escape-room pacing and finale references (Elumir on The Codex; ER Workshop; EscapeRoomSupplier; The Escape Revolution; Mystery Soup Games; Room Escape Artist reviews). <https://thecodex.ca/13-rules-for-escape-room-puzzle-design/>
+- Title/series background pages (Wikipedia on *Inception*, *Dragonlance*, *Living Greyhawk*, *Stars Without Number*, *Outdoor Survival*, *afternoon, a story*; The Digital Antiquarian on Kit Williams; Hatch Escapes and Room Escape Artist on The Ladder; The Edison and Houdini's Workshop operator pages).
+- Murray, Janet. *Hamlet on the Holodeck*. Free Press, 1997.
+- Provost, Gary. *100 Ways to Improve Your Writing*. Mentor, 1985.
+- Railroading-and-sandbox discourse (RPG Diegesis "Whence cometh 'Railroading'?"; luckthebard; EN World threads). <https://rpgdiegesis.wordpress.com/2023/02/05/whence-cometh-railroading-some-history-of-the-term-and-on-the-german-love-for-trains/>
+- Totten, Christopher. "Designing and Integrating Puzzles in Action-Adventure Games." Game Developer, 2019.
+
+:::
