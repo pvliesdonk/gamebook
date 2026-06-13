@@ -115,6 +115,7 @@ This is also where the form proves its reach across other media. In live and phy
 ## Referenced by
 
 - [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
+- [Blue Prince](../../exemplars/blue-prince.qmd)
 - [Branching Narrative Craft](branching-narrative-craft.qmd)
 - [Canon Management](../story-character-voice/canon-management.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)

@@ -128,6 +128,7 @@ The reset is generous, and that generosity is the danger. Because nothing the pl
 
 ## Referenced by
 
+- [Blue Prince](../../exemplars/blue-prince.qmd)
 - [Endings & Structural Closure](endings-and-structural-closure.qmd)
 - [IF Graph Structures: A Taxonomy](if-graph-structures-a-taxonomy.qmd)
 - [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd)

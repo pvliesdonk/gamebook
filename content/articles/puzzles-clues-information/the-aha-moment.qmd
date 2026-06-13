@@ -103,6 +103,8 @@ The two failure modes sit on opposite sides of the click, and either one is a tr
 ## Referenced by
 
 - [A Taxonomy of Puzzles](a-taxonomy-of-puzzles.qmd)
+- [Baba Is You](../../exemplars/baba-is-you.qmd)
+- [Blue Prince](../../exemplars/blue-prince.qmd)
 - [Ciphers & Codes](ciphers-and-codes.qmd)
 - [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd)
 - [Cluing & Fairness](cluing-and-fairness.qmd)
@@ -114,5 +116,6 @@ The two failure modes sit on opposite sides of the click, and either one is a tr
 - [Mystery & Detective Fiction](../story-character-voice/mystery-and-detective-fiction.qmd)
 - [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd)
 - [Teaching Through Play](teaching-through-play.qmd)
+- [The Witness](../../exemplars/the-witness.qmd)
 
 <!-- BACKLINKS:END -->

@@ -1,0 +1,73 @@
+---
+title: "Blue Prince"
+type: exemplar
+medium: video-game
+year: 2025
+designer: "Dogubomb (published by Raw Fury)"
+mechanisms:
+  - ../articles/puzzles-clues-information/information-architecture.qmd
+  - ../articles/structure-pacing/time-loop-patterns.qmd
+  - ../articles/systems-mechanics/replayability.qmd
+  - ../articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd
+  - ../articles/structure-pacing/nonlinear-narrative-structures.qmd
+  - ../articles/puzzles-clues-information/the-aha-moment.qmd
+  - ../articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd
+  - ../articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd
+provenance: "corpus"
+---
+
+*Profile: a roguelike puzzle game where a mansion redraws its own floor-plan every night, so the only thing the player keeps between days is what they have worked out.*
+
+Blue Prince hands you a deed and a problem. A letter promises you Mount Holly estate on one condition. You must reach its forty-sixth room. That is an antechamber hidden at the north end of a house whose blueprint shows only forty-five. The catch is that the house is not built. You draft it into being each day. Behind every door you open the game offers three floor-plans, and the one you choose becomes the room on the far side. This continues until your step budget empties and the whole layout dissolves overnight. Tonda Ros built it over roughly eight years as a near-solo project under the studio name Dogubomb, self-funded out of a Magic: The Gathering fan site, and Raw Fury published it on 10 April 2025. At launch it was the highest-rated game of the year by Metacritic average. [corpus]
+
+It earns a place in this gazetteer because it puts two design traditions that usually pull apart into the same machine. A roguelike wants to shuffle everything between runs. A puzzle wants its clues and its answers to sit still long enough that the solver can fit them together. Blue Prince keeps the shuffle and the puzzle both, and the strain between them is the whole design. The links below run to the articles each part exemplifies.
+
+## The design profile
+
+The estate is a five-by-nine grid of forty-five rooms you draft, explored in the first person with a blueprint overlay showing the layout so far. [corpus] Every door opened offers three floor-plan cards from a weighted pool. You keep one of the three; the other two leave play for that run. A budget of around fifty steps ends the day once it empties. Every transition costs a step. Even walking back through rooms you have already placed draws the budget down. [corpus] There is no saving mid-run and no resting. Once the steps are gone the mansion resets, and the next day starts from an empty plot.
+
+That loop is borrowed wholesale from card-drafting boardgames, and it is what makes the game a worked example of [replayability](../articles/systems-mechanics/replayability.qmd) built on procedural variety rather than authored content. Each draft asks two questions at once. The first is immediate. Which room do I want in front of me now? The second looks further ahead, to the rooms that might matter later down a corridor I have not yet committed to. [corpus] No two days produce the same house, so the variety here is real. But it is bought against a fixed underlying mystery. That trade-off is the tension the rest of the design has to manage. [synthesis]
+
+::: {.callout-note}
+### The Signature
+Almost nothing carries between days, except the one thing that matters. The reset is asymmetric. The mansion's layout, every carried item, every key and gem and coin, and the positions you drafted rooms into are all wiped at dawn. What persists is what you have understood. A safe combination you once read. The meaning of a particular arrangement of rooms. The standing total of stars at the Observatory, and the notes you keep on paper beside the screen. A player who grasps what a combination of rooms means can act on it the instant those rooms reappear, even though the game hands them no record of the insight. [corpus]
+:::
+
+This is the move that places Blue Prince in the same lineage as the [time loop](../articles/structure-pacing/time-loop-patterns.qmd), where the world rewinds and the person living through it does not. The loop makes knowledge the only currency a player can bank, because the reset takes back everything else, and progress is measured by what you come to understand rather than what you collect. [corpus] The community calls this strain of game a metroidbrainia, after the way understanding rather than an item is the upgrade that unlocks the next door, with Outer Wilds and Return of the Obra Dinn as the canonical cases. [corpus]
+
+Because the house is shuffled, part of what the player learns is where information lives: which room types carry which kinds of clue, how an adjacency turns a code in one room into the lock it opens in another. That distributed assembly is a study in [information architecture](../articles/puzzles-clues-information/information-architecture.qmd), the layer that governs what the solver knows at each point and by what route it reached them. [corpus] Here the dependency graph is laid over a board that reshuffles nightly, so the solver is reconstructing a structure from evidence scattered across both space and runs. The same shuffling drives the game's nonlinear shape. Clues surface in whatever order the draft happens to deal them, and the player assembles the case out of sequence, which is exactly the bargain the article on [nonlinear narrative structures](../articles/structure-pacing/nonlinear-narrative-structures.qmd) describes: you give up guaranteed order in exchange for the reader doing the assembling. [corpus]
+
+Two further parts sharpen the point. Much of the estate's meaning is held in plain documents that read as unremarkable until a tool changes what you can see, most prominently the Magnifying Glass, which reveals fine print, invisible-ink annotations, and hidden imagery, and logs inspected stamps permanently in a Scrapbook. [corpus] That is [search, observation and lateral thinking](../articles/puzzles-clues-information/search-observation-and-lateral-thinking.qmd) in its purest form, the puzzle whose difficulty is noticing what was already in front of you, with the twist that the toolkit which lets you notice persists even when the room itself has reset. [corpus] And because a single solution may rest on rooms that the day's draft pushes across many separate runs, the payoff often comes slowly. It is less a single click than a recognition built up over days, a long-arc variant of [the aha moment](../articles/puzzles-clues-information/the-aha-moment.qmd) in place of the instant kind a fixed puzzle gives. [synthesis]
+
+::: {.callout-warning}
+### The Hazard
+The draft can deal a clue without ever dealing its answer. A player might read a safe's combination on a day the safe never appears. On another day the rooms needed to interpret a code all turn up, while the room holding its solution sits in the discard pile. Mark Brown of Game Maker's Toolkit named this the game's central structural friction: the roguelike reset works against the puzzle's need for controlled clue assembly, the very control a fixed game like The Witness keeps by never moving its panels. [corpus] If you borrow the daily-shuffle thrill without a way to keep a clue and its solution reachable in the same window, you inherit the dead-end run along with the variety. [synthesis]
+:::
+
+## The wider influence
+
+Blue Prince matters less as a template to copy than as a proof that puzzle-as-knowledge can run on a procedurally arranged space at all. Outer Wilds held its geography fixed, so the only thing a player learned was the meaning of that fixed space. Blue Prince shuffles the geography instead. Part of the learning is now a question of where meaning lives on a given day. A player ends a session holding a mental map that is partly topological and partly an index of which room holds what. [corpus] Its cited ancestors sit on the digital side of the puzzle-artefact spectrum. Lorelei and the Laser Eyes supplies the mansion as a single integrated system. The Witness supplies the withholding pedagogy. Tunic supplies the working assumption that the player will annotate documents by hand. [corpus]
+
+That last assumption is the design's quietest and most consequential choice. There is no in-game journal that gathers discovered clues. The notebook or spreadsheet beside the player is the real archive, which makes Blue Prince a pointed example along the [physical versus digital artefact](../articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd) spectrum: a fully digital game whose load-bearing record of state lives on paper, outside the software entirely. [corpus] It also reaches back past digital puzzles altogether. Ros cites Christopher Manson's illustrated puzzle book Maze (1985) as a primary influence and commissioned Manson to contribute art and puzzle design, which threads the game directly into [the print-puzzle and ARG tradition](../articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd), the lineage of a single object that holds far more than it shows and rewards the solver who finds the method nobody handed them. [corpus] The clearest lesson for a designer is that the metroidbrainia and the roguelike can be joined only where the seam between them is worked with care. The Observatory is that seam made visible. Each one drafted adds a permanent star, and a star total buys constellation bonuses at set thresholds. The result is a middle path. Full permanence would dissolve the daily tension; full impermanence would make a failed run feel futile; the star total sits between the two and slowly changes what the game offers. [corpus]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Single-player puzzle and deduction video game (roguelike structure) |
+| Designer | Tonda Ros, under the studio name Dogubomb |
+| Published | 10 April 2025, Raw Fury |
+| Players | One |
+| Format | Daily runs bounded by a step budget, the layout reset each in-game night |
+| Substrate | PlayStation 5, Windows, Xbox Series X/S; later macOS and Nintendo Switch 2 ports; an external notebook the player keeps by hand |
+| Reception | Highest-rated game of 2025 by Metacritic average at launch; D.I.C.E. Award for Outstanding Achievement in Game Design |
+
+## Sources
+
+- "Blue Prince." Wikipedia. (Development history, the room-drafting and step-budget rules, the five-by-nine grid and Room 46, platforms and ports, awards.) <https://en.wikipedia.org/wiki/Blue_Prince>
+- Hon, Adrian. "A Puzzle Designer on Blue Prince: A Roguelike Puzzle Masterpiece." *mssv.net*, 7 April 2025. (The metroidbrainia framing, knowledge-as-progress, the external-notes assumption.) <https://mssv.net/2025/04/07/a-puzzle-designer-on-blue-prince-a-roguelike-puzzle-masterpiece/>
+- Brown, Mark. "Blue Prince: Can a Random Puzzle Game Actually Work?" *Game Maker's Toolkit*, 2025. (The structural friction between the roguelike reset and controlled clue assembly; the contrast with The Witness.) <https://gmtk.substack.com/p/blue-prince-can-a-random-puzzle-game>
+- "How To Get Stars And Constellations In Blue Prince." *GameSpot*. (The Observatory, star accumulation, constellation thresholds.) <https://www.gamespot.com/gallery/blue-prince-stars-constellations-spiral/2900-6504/>
+- "Magnifying Glass." *Blue Prince Wiki* (blueprince.wiki.gg). (Tool-mediated reveal of fine text and hidden imagery; the Scrapbook log.) <https://blueprince.wiki.gg/wiki/Magnifying_Glass>
+- "Solo dev who worked 80 hours a week for 8 years straight to finish roguelike puzzle hit Blue Prince." *GamesRadar+*. (Tonda Ros, the eight-year solo development, self-funding via Mythic Spoiler, the Maze influence.) <https://www.gamesradar.com/games/puzzle/solo-dev-who-worked-80-hours-a-week-for-8-years-straight-to-finish-roguelike-puzzle-hit-blue-prince-says-he-physically-cannot-make-another-game-this-ambitious/>
+- "Blue Prince Doesn't Have A Satisfying Ending, But That's The Point." *GameSpot*. (The withheld, elliptical ending and its meta-textual reading.) <https://www.gamespot.com/articles/blue-prince-doesnt-have-a-satisfying-ending-but-thats-the-point/1100-6532795/>

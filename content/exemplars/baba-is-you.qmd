@@ -1,0 +1,74 @@
+---
+title: "Baba Is You"
+type: exemplar
+medium: video-game
+year: 2019
+designer: "Arvi Teikari (Hempuli)"
+mechanisms:
+  - ../articles/puzzles-clues-information/self-resolving-puzzles.qmd
+  - ../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd
+  - ../articles/puzzles-clues-information/teaching-through-play.qmd
+  - ../articles/puzzles-clues-information/the-aha-moment.qmd
+  - ../articles/systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd
+provenance: "corpus"
+---
+
+*Profile: a grid puzzle whose rules are written on movable tiles, so that reading a rule and breaking it become the same hand movement.*
+
+Baba Is You is a puzzle game in which the rules of each level sit on the board as word tiles the player can push around. The sentence `BABA IS YOU` means you steer the white creature called Baba. `FLAG IS WIN` means a flag clears the level. Both sentences are made of tiles, and shoving one out of line deletes the rule it spelled. Arvi Teikari, who works under the name Hempuli, built the first version at the 2017 Nordic Game Jam in Copenhagen and spent roughly two years turning it into the full release of 13 March 2019. [corpus]
+
+It earns a place in this gazetteer because of one move that almost nothing else makes so cleanly: the logic layer and the play layer are the same layer. A rule is not a constraint printed in a manual; it is an object on the grid with a position you can change. That single decision is what lets the game serve as a worked example of [self-resolving puzzles](../articles/puzzles-clues-information/self-resolving-puzzles.qmd), [a taxonomy of puzzles](../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd), [teaching through play](../articles/puzzles-clues-information/teaching-through-play.qmd), and the [procedural rhetoric](../articles/systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd) of rules-as-content all at once. The links below run to the articles each part exemplifies.
+
+## The design profile
+
+Every level is a grid of three kinds of tile: nouns (BABA, ROCK, WALL, FLAG, WATER), the verb IS, and properties (YOU, WIN, PUSH, STOP, FLOAT, SINK, DEFEAT). A valid sentence read left-to-right or top-to-bottom, of the form noun-IS-property or noun-IS-noun, becomes an active rule the moment its tiles line up. [corpus] The engine re-reads the whole grid after every move, so one push can switch a rule on and another off in the same instant. Separate STOP from WALL and the wall is suddenly walkable; slide YOU onto ROCK and you now control the rocks instead of Baba. [corpus]
+
+This is the digital answer to the question the article on [self-resolving puzzles](../articles/puzzles-clues-information/self-resolving-puzzles.qmd) frames as central to any self-refereed game: how does the game know you have won without a referee watching. In Baba there is no separate win-checker. The win condition is itself a rule-tile arrangement, so the state of the board adjudicates its own correctness. A level is solved when `[something] IS WIN` is true and you are touching that something, and the same parse pass that runs the world is the pass that confirms the solve. [corpus] The board is judge and puzzle at once.
+
+::: {.callout-note}
+### The Signature
+
+Reading a rule is already the first half of breaking it. When you see `WALL IS STOP`, the sentence is not just an obstacle; it is an instruction for how to remove the obstacle, because the words STOP and WALL are right there to be pulled apart. [corpus] The puzzle begins with comprehension rather than exploration. You are rarely blocked by reflexes or by a hidden corner of the map. The obstacle is your own assumption about what the rules will permit. A solve arrives at the moment you stop treating the grammar as fixed and recognise it as raw material. [synthesis]
+:::
+
+That structure makes the game an unusually pure case of the [aha moment](../articles/puzzles-clues-information/the-aha-moment.qmd). Most puzzle solves reward search or persistence; a Baba solve almost always rewards a reframing, the instant you see the board fall into a category you had not considered. [corpus] Teikari tuned the levels so each one usually turns on one or two insight steps once the right reframing arrives, which keeps forward motion feeling earned rather than ground out. [corpus]
+
+Across a single playthrough the puzzles still span the familiar cognitive divisions the article on [a taxonomy of puzzles](../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd) lays out. There is spatial manipulation of where tiles end up. There is logical reasoning about which sentences will be true after a move. And there is a kind of reading comprehension specific to this game. [corpus] What unifies them is that the puzzle type is rarely stated. The base game runs to 231 levels across distinct worlds, and the full release with its later packs reaches 481. [corpus] Each world adds one or two new words to the vocabulary, and the property of a word such as `LEVEL`, which puts the overworld map itself under the same rules, means the system keeps surprising the player with what its own grammar permits. [corpus]
+
+The progression is, in effect, a vocabulary lesson, and that is where the game models [teaching through play](../articles/puzzles-clues-information/teaching-through-play.qmd). Early levels in a world demonstrate a new word cleanly, with no text and no tooltip, so the player builds a confident model of how it behaves by watching it act. [corpus] Later levels then combine two or three words in a way the player could not have predicted but which reads as inevitable once solved. The early confidence is built on purpose, so the later levels have something specific to subvert. A rule learned without words is a rule the game can later break without warning. [synthesis]
+
+## The wider influence
+
+Baba Is You is the clearest proof of a wider idea that puzzle and interactive-fiction designers had been circling for years: that a mechanic can carry meaning directly, which the article on [IF mechanics and procedural rhetoric](../articles/systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd) treats as rules-as-content rather than rules-as-wrapper. [corpus] Here the rules are not a frame around the content. They are the content. The thing you manipulate, learn, and argue with is the rule system itself, laid bare on the board.
+
+The game also named a small subgenre. The titles that followed share a family resemblance. Each puts a formal grammar on display and lets the player rewrite the rules mid-puzzle. Each also teaches by letting the player find the edge cases of the system instead of being told them. [corpus] Patrick's Parabox, from 2022, is the most-cited successor; where Baba makes rules pushable, Parabox makes containment recursive, with boxes that nest inside themselves. [corpus] Both games take a single idea to exhaustion across hundreds of authored levels. That is depth over breadth, the opposite of using a mechanic as a delivery vehicle for unrelated content. [synthesis]
+
+The recognition came quickly. Baba earned Excellence in Design and Best Student Game at the 2018 Independent Games Festival, then Best Design and the Innovation Award at the 2020 Game Developers Choice Awards. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+
+The rules-are-state move sells itself as freedom, and that is the trap for anyone borrowing it. A sandbox where the player edits rules for fun is not a puzzle game, and Teikari was firm that Baba is a puzzle game with authored solutions rather than a freeform rule editor. [corpus] The craft is not in handing players the grammar; it is in building levels that have one or two intended cracks and resist the rest. Teikari also noted he grew blind to the game's difficulty during solo development, and the result is widely held to be punishing despite real accessibility work. [corpus] A grammar the designer finds transparent is rarely as legible to a first-time reader, so this kind of system needs harder playtesting than its elegance suggests. [synthesis]
+:::
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Single-player digital puzzle game |
+| Designer | Arvi Teikari (Hempuli) |
+| Published | 13 March 2019 (PC and Nintendo Switch); 2021 (iOS and Android) |
+| Players | One |
+| Format | 231 levels in the base game, reaching 481 with the later packs; solved by rearranging on-grid rule tiles |
+| Substrate | A custom engine that re-parses the grid after every move to revalidate every possible sentence |
+| Origin | First place at the 2017 Nordic Game Jam, theme "Not There", then roughly two years of solo expansion |
+
+## Sources
+
+- "Baba Is You." Wikipedia. (Release dates, level counts, premise, and award history.) <https://en.wikipedia.org/wiki/Baba_Is_You>
+- Teikari, Arvi. "When We Made... Baba Is You." MCV/Develop. (Origin at the Nordic Game Jam, the two-year expansion, and the rule-tile concept.) <https://mcvuk.com/development-news/when-we-made-baba-is-you/>
+- "Designing Baba Is You's rule-writing system." Game Developer. (The parse-after-every-move system, stacked tiles, and vocabulary growth.) <https://www.gamedeveloper.com/design/designing-i-baba-is-you-i-s-delightfully-innovative-rule-writing-system>
+- "Road to the IGF: Hempuli Oy's Baba Is You." Game Developer. (Teikari on the puzzle-not-sandbox design stance and difficulty.) <https://www.gamedeveloper.com/business/road-to-the-igf-hempuli-oy-s-i-baba-is-you-i->
+- "Designing the mind-bending puzzles in Patrick's Parabox." Game Developer. (The syntactic-puzzle lineage and the recursive-containment successor.) <https://www.gamedeveloper.com/design/patrick-s-parabox->
+- "Night in the Woods tops IGF Awards, student game Baba Is You wins big." PC Gamer, 2018. (Excellence in Design and Best Student Game at the 2018 IGF.) <https://www.pcgamer.com/night-in-the-woods-tops-igf-awards-student-game-baba-is-you-wins-big/>
+- "20th Annual Game Developers Choice Awards." GlobeNewswire, 2020. (Best Design and the Innovation Award for 2019 releases.) <https://www.globenewswire.com/news-release/2020/03/19/2003087/0/en/UNTITLED-GOOSE-GAME-SNEAKS-AWAY-WITH-THE-WIN-FOR-GAME-OF-THE-YEAR-AT-THE-20th-ANNUAL-GAME-DEVELOPERS-CHOICE-AWARDS.html>

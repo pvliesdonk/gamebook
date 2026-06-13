@@ -112,6 +112,7 @@ The live game asks it through hardware and space. In an escape room the question
 
 ## Referenced by
 
+- [Baba Is You](../../exemplars/baba-is-you.qmd)
 - [Diegetic Design](../story-character-voice/diegetic-design.qmd)
 - [Digital Gating & State](digital-gating-and-state.qmd)
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
