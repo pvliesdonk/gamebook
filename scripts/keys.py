@@ -94,9 +94,9 @@ def write_page(stem, title, intro, by_value, glosses):
 
 
 def write_index():
-    lines = ["---", 'title: "Keys"', "pdf: false", "---", "", "Routers from intent to mechanism: find an article by the effect you want, the problem you face, the component you hold, the genre or format you are working in, or the medium.", ""]
+    lines = ["---", 'title: "Keys"', "pdf: false", "---", "", "Routers from intent to mechanism: reach an article by the effect you want to create or the problem you face, and by component, genre, format, or medium.", ""]
     for _, stem, t, intro in AXES:
-        lines.append(f"- [{t}]({stem}.qmd) — {intro[0].lower() + intro[1:]}")
+        lines.append(f"- [{t}]({stem}.qmd): {intro[0].lower() + intro[1:]}")
     (ROOT / "content/keys/index.qmd").write_text("\n".join(lines) + "\n", encoding="utf-8")
 
 

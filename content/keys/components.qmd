@@ -6,7 +6,7 @@ pdf: false
 Find an article by the kind of component you are working with.
 
 ## narrative-primitives
-*craft abstractions of story/voice — beat, scene, POV, trope, oracle, reveal*
+*craft abstractions of story/voice: beat, scene, POV, trope, oracle, reveal*
 
 - [Mixed-Ability Groups & Universal Design](../articles/players-social-dynamics/mixed-ability-groups-and-universal-design.qmd) · Players & Social Dynamics
 - [Cluing & Fairness](../articles/puzzles-clues-information/cluing-and-fairness.qmd) · Puzzles, Clues & Information
@@ -59,7 +59,7 @@ Find an article by the kind of component you are working with.
 - [TTRPG Format Taxonomy](../articles/systems-mechanics/ttrpg-format-taxonomy.qmd) · Systems & Mechanics
 
 ## state-and-resource-trackers
-*quantified state + resolution dials — flag, meter, track, win-condition, skill-check*
+*quantified state + resolution dials: flag, meter, track, win-condition, skill-check*
 
 - [Accessibility in Live & Interactive Games](../articles/players-social-dynamics/accessibility-in-live-and-interactive-games.qmd) · Players & Social Dynamics
 - [Cooperative vs Adversarial Formats](../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd) · Players & Social Dynamics
@@ -109,7 +109,7 @@ Find an article by the kind of component you are working with.
 - [Turn Structure & Action Economy](../articles/systems-mechanics/turn-structure-and-action-economy.qmd) · Systems & Mechanics
 
 ## roles-and-social-frame
-*people-parts + the social/safety contract — faction, hidden-role, safety-tool, gm-role*
+*people-parts + the social/safety contract: faction, hidden-role, safety-tool, gm-role*
 
 - [Accessibility in Live & Interactive Games](../articles/players-social-dynamics/accessibility-in-live-and-interactive-games.qmd) · Players & Social Dynamics
 - [Bleed, Aftercare & Debriefing](../articles/players-social-dynamics/bleed-aftercare-and-debriefing.qmd) · Players & Social Dynamics
@@ -152,7 +152,7 @@ Find an article by the kind of component you are working with.
 - [Theme-Mechanism Integration](../articles/systems-mechanics/theme-mechanism-integration.qmd) · Systems & Mechanics
 
 ## structural-primitives
-*abstract graph/flow — node, branch, gate, hub, bottleneck, thread, clock*
+*abstract graph/flow: node, branch, gate, hub, bottleneck, thread, clock*
 
 - [Mixed-Ability Groups & Universal Design](../articles/players-social-dynamics/mixed-ability-groups-and-universal-design.qmd) · Players & Social Dynamics
 - [Spectator-Friendly Design](../articles/players-social-dynamics/spectator-friendly-design.qmd) · Players & Social Dynamics
@@ -195,7 +195,7 @@ Find an article by the kind of component you are working with.
 - [Progress Clocks & Faction State](../articles/systems-mechanics/progress-clocks-and-faction-state.qmd) · Systems & Mechanics
 
 ## procedures-and-protocols
-*run-time routines — hint systems, debrief, calibration, reset, verification*
+*run-time routines: hint systems, debrief, calibration, reset, verification*
 
 - [Accessibility in Live & Interactive Games](../articles/players-social-dynamics/accessibility-in-live-and-interactive-games.qmd) · Players & Social Dynamics
 - [Bleed, Aftercare & Debriefing](../articles/players-social-dynamics/bleed-aftercare-and-debriefing.qmd) · Players & Social Dynamics
@@ -237,7 +237,7 @@ Find an article by the kind of component you are working with.
 - [Turn Structure & Action Economy](../articles/systems-mechanics/turn-structure-and-action-economy.qmd) · Systems & Mechanics
 
 ## paper-artefacts
-*documents/handouts/reference texts — clue-text, codex, map, story-bible, feelie*
+*documents/handouts/reference texts: clue-text, codex, map, story-bible, feelie*
 
 - [Faction Design & Asymmetric Objectives](../articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd) · Players & Social Dynamics
 - [Host Roles & the Host-Cannot-Play Problem](../articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd) · Players & Social Dynamics
@@ -277,7 +277,7 @@ Find an article by the kind of component you are working with.
 - [Theme-Mechanism Integration](../articles/systems-mechanics/theme-mechanism-integration.qmd) · Systems & Mechanics
 
 ## physical-parts
-*tangible game pieces — dice, cards, tokens, board, miniatures, decks*
+*tangible game pieces: dice, cards, tokens, board, miniatures, decks*
 
 - [Spectator-Friendly Design](../articles/players-social-dynamics/spectator-friendly-design.qmd) · Players & Social Dynamics
 - [The Puzzle Hunt & ARG Tradition](../articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd) · Puzzles, Clues & Information
@@ -322,7 +322,7 @@ Find an article by the kind of component you are working with.
 - [Cooperative & Legacy Genres](../articles/systems-mechanics/cooperative-and-legacy-genres.qmd) · Systems & Mechanics
 
 ## electronics-and-digital
-*powered/networked/scannable — QR/NFC, app, screen, sensor, timer, server*
+*powered/networked/scannable: QR/NFC, app, screen, sensor, timer, server*
 
 - [Designer-Community Trust in Long-Form Hunts](../articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd) · Players & Social Dynamics
 - [Ciphers & Codes](../articles/puzzles-clues-information/ciphers-and-codes.qmd) · Puzzles, Clues & Information
@@ -338,7 +338,7 @@ Find an article by the kind of component you are working with.
 - [Turn Structure & Action Economy](../articles/systems-mechanics/turn-structure-and-action-economy.qmd) · Systems & Mechanics
 
 ## set-dressing-and-environment
-*sensory/spatial environment — lighting, soundscape, scent, props, costume*
+*sensory/spatial environment: lighting, soundscape, scent, props, costume*
 
 - [Parallel Team Architectures](../articles/players-social-dynamics/parallel-team-architectures.qmd) · Players & Social Dynamics
 - [Spectator-Friendly Design](../articles/players-social-dynamics/spectator-friendly-design.qmd) · Players & Social Dynamics
