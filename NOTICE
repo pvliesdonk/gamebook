@@ -1,0 +1,18 @@
+Field Guide to Narrative & Game Design
+Copyright (c) 2026 Peter van Liesdonk
+
+This repository is dual-licensed.
+
+- The guide content (the articles, primers, keys, and exemplars under content/,
+  the editorial material under docs/ and research/, and the rendered book made
+  from them) is licensed under the Creative Commons Attribution-NonCommercial 4.0
+  International licence (CC BY-NC 4.0). See LICENSE.
+
+- The build scaffolding (the scripts under scripts/, the Pandoc/Lua filters under
+  filters/, the Typst partials under partials/, the content templates under
+  templates/, and the Quarto and build configuration) is licensed under the MIT
+  licence. See LICENSE-CODE.
+
+Third-party fonts are NOT covered by either licence and are NOT distributed with
+this repository. The Typst PDF build expects licensed fonts to be supplied locally
+under assets/fonts/ (gitignored). Obtain them under your own licence; see README.
