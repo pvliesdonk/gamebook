@@ -3,6 +3,7 @@ project:
   pre-render:
     - python3 scripts/backlinks.py
     - python3 scripts/keys.py
+    - python3 scripts/glossary.py
     - python3 scripts/curate.py
 
 book:
@@ -188,6 +189,9 @@ book:
         - content/exemplars/the-witness.qmd
         - content/exemplars/thousand-year-old-vampire.qmd
         - content/exemplars/unlock-series.qmd
+    - part: "Glossary & Index"
+      chapters:
+        - content/glossary.qmd
 
 format:
   html:
