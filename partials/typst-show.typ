@@ -30,6 +30,10 @@
   #box(stack(dir: ltr, spacing: 0pt, ..fam-order.map(f => box(width: 1.3cm, height: 7pt, fill: fam.at(f)))))
   #v(1fr)
   #text(font: "Cronos Pro", size: 9pt, fill: ink-muted, tracking: 2pt)[A NATURALIST FIELD GUIDE · SIX DESIGN DISCIPLINES]
+$if(by-author)$
+  #v(1.1em)
+  #text(font: "Cronos Pro", size: 9.5pt, fill: ink-deep, tracking: 1.5pt)[$for(by-author)$$it.name.literal$$sep$ · $endfor$]
+$endif$
   #v(2.2fr)
 ]
 
