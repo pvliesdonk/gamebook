@@ -105,6 +105,7 @@ The prompt-delivery side reaches the other way, into the engine room. A prompt d
 
 ## Referenced by
 
+- [De Profundis](../../exemplars/de-profundis.qmd)
 - [Prompt Design in Solo Journaling](prompt-design-in-solo-journaling.qmd)
 - [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd)
 - [Thousand Year Old Vampire](../../exemplars/thousand-year-old-vampire.qmd)

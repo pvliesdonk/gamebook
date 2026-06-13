@@ -1,0 +1,78 @@
+---
+title: "Megagames"
+type: exemplar
+medium: live-game
+year: 1970
+designer: "Various; the UK megagame tradition, e.g. Jim Wallman / Megagame Makers"
+mechanisms:
+  - ../articles/players-social-dynamics/parallel-team-architectures.qmd
+  - ../articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd
+  - ../articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd
+  - ../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd
+  - ../articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd
+  - ../articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd
+  - ../articles/systems-mechanics/distributing-narrative-authority.qmd
+  - ../articles/players-social-dynamics/spectator-friendly-design.qmd
+  - ../articles/structure-pacing/session-pacing-and-energy-management.qmd
+provenance: "researched"
+---
+
+*Profile: a hall of thirty to three hundred players in small teams that nest inside larger rival powers, across one long day of crisis. A Control team runs the world around them and rules on whatever the written rules never anticipated.*
+
+A megagame is not one game so much as a way of building one very large game out of many small ones. The form sits at the meeting point of the wargame, the tabletop game, the roleplaying game, and the live event, and it scales the count of players far past what any of those usually carries: a typical session runs thirty to one hundred people across a full day, and the largest have gathered several hundred at once. [researched] What holds that crowd together is structure. Players are sorted into small teams, and the teams are nested into larger powers, so that the room is built from [layers of teams](../articles/players-social-dynamics/parallel-team-architectures.qmd) that cooperate or compete toward objectives that rarely line up. [researched] Above all of it sits a [Control team](../articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd) that runs the world the players act on and decides what the written rules do not.
+
+This profile treats the form itself as the exemplar and reads it through the British tradition that defined it and the two games that carry it best. *Watch the Skies*, in which the nations of Earth meet an alien arrival, is the game that travelled furthest and is now run worldwide. [researched] Behind it stands decades of work by Jim Wallman and the Society of Megagame Makers, who built the grammar the modern wave inherited. [researched] The links below run to the articles each part of that grammar exemplifies.
+
+## The design profile
+
+The defining structural move is nesting. A single player holds one role, that role sits inside a team, and the team sits inside a larger power. In *Watch the Skies* a nation is run by a team of five. A Head of State leads and coordinates. A Deputy works the press and keeps the plan on track. A Foreign Minister negotiates with other countries and the UN. A Top Scientist researches new and alien technology, and a Military Chief commands the armed forces and the spies. [researched] Each of those roles spends part of every round somewhere different. Scientists gather at a science conference, foreign ministers at the UN, heads of state and military chiefs at the central map. [researched] One person never sees the whole board, and that is the point.
+
+That deliberate scattering is the engine of the form. Because a single player holds only a sliver of the picture and has to rely on hierarchies and reports to learn the rest, the room runs on [information asymmetry](../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd) at a scale most games never reach. [researched] What a foreign minister hears at the UN has to be carried back, retold, and acted on by people who were not there, so rumour, partial intelligence, and outright deception become the medium the game is played in rather than a flavour laid on top. [synthesis] Communication is the load-bearing wall. Where the channels between teams are well designed, the game lives; where they are thin, it stalls. [researched]
+
+::: {.callout-note}
+### The Specimen
+
+*Watch the Skies* makes the nesting visible on the floor. The teams are nations, and the nations are the factions. Each one carries a private agenda and a private fear of the aliens, and they have to negotiate at the UN while a separate, hidden alien team pursues its own ends. When the Society of Megagame Makers staged the sequel in 2015, it ran over three hundred players, with figures as specific as the Pope fielded as a team in their own right. The Shut Up & Sit Down crew, who played the run as Japan, described the result as a model UN turned up until the tables start exploding. [researched]
+:::
+
+The nations are not symmetric, and the asymmetry is the design. A great power and a minor state begin the day with different reach, different resources, and different things to be afraid of, which is the lever the article on [faction design and asymmetric objectives](../articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd) is built around. [synthesis] Two teams with the same goal would only race each other. Give teams incompatible goals and uneven means to reach them, and you get the diplomacy, the betrayal, and the shifting blocs that fill the day. [synthesis]
+
+Sitting above every team is Control. The Control team is not a neutral scorekeeper. It runs the world the players push against, it plays the parts no player holds, and it feeds new events into the day. Jim Wallman describes a megagame's rules as a loose scaffold rather than a closed system, from which Control makes rulings on the fly much as a Dungeon Master does. It announces clarifications, it springs new events on the room, and it writes fresh rules in the moment to answer what the players try to do. [researched] This is the [rulings-over-rules contract](../articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd) at room scale: the written rules are kept light on purpose so that Control can keep the world coherent when players reach past what anyone wrote down. [synthesis]
+
+Because the rules stay thin, the design hands a great deal of narrative authority away from any single book and out to the table. Control sets the frame and the pressures, but the story of the day is authored by the players inside their teams, scene by scene and deal by deal, which makes the megagame a clean study in [distributing narrative authority](../articles/systems-mechanics/distributing-narrative-authority.qmd) across a very large group. [synthesis] No one holds the whole plot. It emerges from hundreds of local choices that Control keeps consistent rather than dictates.
+
+::: {.callout-warning}
+### The Hazard
+
+A nested structure can starve its own players. Put too many people on a team and most of them stand idle while one or two do the talking, which is the [bottleneck problem](../articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd) the form fights constantly. The standard answer is to give each role its own job and its own destination each round, so the team physically splits and everyone has somewhere to be. Get the role split wrong and a team of five collapses into a duo with three spectators. The test of a megagame is not whether it works for the loudest player at each table but whether the quietest one still has a turn worth taking. [synthesis]
+:::
+
+## The wider influence
+
+The form is older than the recent boom. Megagames grew out of British wargaming in the 1970s, with the designers Paddy Griffith and Jim Wallman among the originators, and Wallman alone has since designed more than eighty of them. [researched] The Society of Megagame Makers ran a long catalogue across the 1980s and 1990s on history, politics, and war, from Napoleonic and Second World War operations to Roman succession crises, some of them already gathering well over a hundred and fifty players in a single hall. [researched] The [single-day arc](../articles/structure-pacing/session-pacing-and-energy-management.qmd), the team-and-Control split, and the light-rules-plus-rulings philosophy were all settled long before the form had an audience outside the hobby. Running a satisfying story across a whole day, with a clear opening, a turning crisis and a close, is the pacing problem the form had to solve before any of the rest could matter. [synthesis]
+
+The audience arrived in 2014, when Shut Up & Sit Down filmed their first *Watch the Skies* and the video spread far past the usual wargaming circles. Wallman has said his pool of regular players grew from hundreds into thousands in its wake, and independent groups began staging their own runs across Britain, the United States, and beyond. [researched] What the wave proved is that the structure travels: the same nesting and the same Control role that ran a Napoleonic campaign for a club of enthusiasts also runs an alien-contact thriller for a hall of strangers who have never played before.
+
+The crowd it draws makes the megagame an unusual case in [spectator-friendly design](../articles/players-social-dynamics/spectator-friendly-design.qmd). Roles such as the press and the news teams exist partly to watch the other players and write them up. That folds the act of spectating into the game as a paid job rather than leaving it at the edge. [researched] A player who is briefly out of the action at their own table can read the room as a story unfolding. The structure makes the wider game legible from any seat, and that legibility is what lets a first-timer follow a day this large without drowning. [synthesis]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Live game: large-scale, in-person multiplayer simulation |
+| Tradition | The British megagame scene; Jim Wallman, Paddy Griffith, the Society of Megagame Makers |
+| Emerged | 1970s wargaming roots; popularised from 2014 to 2015 by Shut Up & Sit Down's *Watch the Skies* coverage |
+| Players | Typically thirty to one hundred; the largest runs several hundred at once |
+| Format | A single full-day event; players in small teams, teams nested into rival powers, all run by a Control team |
+| Substrate | A central map or boards, role briefings, team rooms or zones, paper communications, a Control desk that adjudicates and feeds in events |
+| Adjudication | A light written scaffold plus Control rulings made on the fly, in the manner of a games master |
+
+## Sources
+
+- "Megagame." Wikipedia. (Definition as a large-scale simulation blending roleplaying, tabletop, LARP, and wargame; the thirty-to-one-hundred-player full-day scale; the nesting of players into hierarchies of teams; Control members making rulings like a Dungeon Master; players never holding all the information; 1970s British origins with Paddy Griffith and Jim Wallman; Wallman's more than eighty designs; *Watch the Skies* as the most-played example; the 2014 Shut Up & Sit Down video and the growth from hundreds to thousands of players.) <https://en.wikipedia.org/wiki/Megagame>
+- "Last Turn Madness: Jim Wallman on megagames." PAXsims, 10 October 2016. (Megagames as mass-participation games on historical and fictional topics, built on minimalist rules that emphasise narrative, player interaction, and emergent play; the Control team and the "less is more" design philosophy.) <https://paxsims.wordpress.com/2016/10/10/last-turn-madness-jill-wallman-on-megagames/>
+- "Games for lots of players on history, politics and war." Megagame Makers. (The Society's catalogue of over sixty megagames across roughly 1980 to 1999 on history, politics, and war; named games including Death of Fascism with 173 participants; the single-day, large-cast format.) <https://www.megagame-makers.org.uk/previous.html>
+- "Watch The Skies - Roles Guide." SW Megagames. (The five-role nation team of Head of State, Deputy, Foreign Minister, Top Scientist and Military Chief, with each role's remit; the way the roles split off each round to the UN headquarters, to the science conference and to the central map.) <https://www.swmegagames.co.uk/watch-the-skies-roles-guide>
+- "Watch The Skies - Shut Up & Sit Down Play a Goddamn Megagame!" Shut Up & Sit Down, 2014. (The crew's first sixty-person *Watch the Skies* run playing as Japan; the model-UN framing of the form.) <https://www.shutupandsitdown.com/tag/watch-the-skies/>
+- "SU&SD Play... Watch the Skies 2." Shut Up & Sit Down, 10 April 2015. (The over-three-hundred-player sequel staged by the Society of Megagame Makers; the Pope fielded as a team; billed as the largest game yet staged.) <https://www.shutupandsitdown.com/videos/susd-play-megagame-2-pt1/>
+- "Megagame Report: Bring Them Home." Shut Up & Sit Down. (Communication treated as a central part of the structure; deliberately garbled message channels between teams; press and journalist roles that observe and report; the immersive staging of a megagame.) <https://www.shutupandsitdown.com/megagame-report-bring-them-home/>

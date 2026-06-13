@@ -115,6 +115,7 @@ The genre that leans hardest on conflict structure is the heist, where the obsta
 - [Moral Dilemmas & Consequence Chains](moral-dilemmas-and-consequence-chains.qmd)
 - [NPC Craft & Voicing](npc-craft-and-voicing.qmd)
 - [Romance & Relationships](romance-and-relationships.qmd)
+- [The Extraordinary Adventures of Baron Munchausen](../../exemplars/baron-munchausen.qmd)
 - [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd)
 
 <!-- BACKLINKS:END -->

@@ -116,6 +116,7 @@ Chronicles of Crime (Corentin Lebrat and Wenceslas, 2018) runs an entire investi
 ## Referenced by
 
 - [Artefact Design & Document Production](artefact-design-and-document-production.qmd)
+- [Cicada 3301](../../exemplars/cicada-3301.qmd)
 - [Cue Management & GM Station](cue-management-and-gm-station.qmd)
 - [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd)
 - [Digital Props](digital-props.qmd)

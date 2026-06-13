@@ -1,0 +1,75 @@
+---
+title: "The Murder Mystery Party"
+type: exemplar
+medium: live-game
+year: 1985
+designer: "Various; the boxed form popularised by How to Host a Murder (1985)"
+mechanisms:
+  - ../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd
+  - ../articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd
+  - ../articles/story-character-voice/mystery-and-detective-fiction.qmd
+  - ../articles/players-social-dynamics/player-types-and-casting.qmd
+  - ../articles/puzzles-clues-information/cluing-and-fairness.qmd
+  - ../articles/players-social-dynamics/pre-game-workshop-design.qmd
+  - ../articles/systems-mechanics/social-performance-genres.qmd
+provenance: "researched"
+---
+
+*Profile: a dinner party where every guest is a suspect with a secret to hide. The killer sits in plain sight at the table, sometimes without knowing it.*
+
+The murder mystery party is not a single product but a parlour form, and it belongs in this gazetteer because it solved a hard problem with no rulebook in sight: how to make a roomful of amateurs play a fair whodunnit over the course of a meal. Decipher's *How to Host a Murder* line, which opened in 1985 with *The Watersdown Affair*, fixed the conventions most home games still follow. [researched] A boxed kit hands each guest a printed character to inhabit and parcels the evening into timed rounds. The solution is split across the table so that no one person can see the whole picture. The craft sits in how the [secrets are split between guests](../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd), how a [host runs the table](../articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd) without playing the detective for everyone, and how the script honours the [fair-play tradition of detective fiction](../articles/story-character-voice/mystery-and-detective-fiction.qmd) it inherits.
+
+This profile treats the form itself as the exemplar and reads it through documented kits and their conventions: the original *How to Host a Murder* boxed sets, and the downloadable scripts of publishers such as Freeform Games and Red Herring Games that carried the form into the era of PDF and on-demand play. Each shows a different answer to the same design questions. The links below run to the articles those answers exemplify.
+
+## The design profile
+
+The engine of the form is split knowledge. Every guest receives a character packet, and a strong packet holds more than a name. It carries a private backstory, a personal goal or two, a handful of facts the character knows that no one else does, and a secret the character has reason to hide whether or not they are guilty. [researched] The facts are written to interlock: a detail on one guest's sheet only matters when set against a detail on another's. This produces the jigsaw structure that makes the form a worked example of [hidden information rather than a hidden role](../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd). The killer is one hidden role at the table, but the deduction runs on dozens of hidden facts that have to be pooled before the picture resolves. [synthesis]
+
+Concealment is deliberately universal. If only the murderer had something to hide, an innocent guest could sit back and observe the others. The form cannot allow that kind of passive watching. So a well-built script gives every character a guilty-looking secret unrelated to the killing (an affair, perhaps, or an unpaid debt). [researched] Now no one can coast. Every guest has to deflect suspicion and protect their own embarrassment while still hunting the killer. That share-or-hoard tension is the social texture of the evening, and it is why the form reads as a [social performance genre](../articles/systems-mechanics/social-performance-genres.qmd) as much as a deduction puzzle: a guest is performing innocence and improvising a defence, not just solving a case.
+
+::: {.callout-note}
+### The Specimen
+
+*How to Host a Murder* shipped the conventions in a box. The original sets contained a host's booklet, a separate booklet for each of eight guests, and a cassette tape to set the scene, along with eight invitations, six sealed clue packages, name tags, and even a suggested menu and costume list. [researched] The sealed packages are the load-bearing piece. They let an untrained host meter the evidence across rounds without reading ahead or making a judgement call. The box itself decides when each clue opens. Decipher founded the line in 1983 and ran it for two decades across seventeen titles. [researched] When the people running your game have no training, the physical kit has to carry the pacing that a game master would otherwise carry in their head.
+:::
+
+Most commercial scripts fix the number of suspects to the number of players, so everyone at the table is at once an investigator and a possible murderer. [researched] That choice puts real weight on who plays whom. A showy, secret-laden role handed to a shy guest stalls the whole table, while the same role handed to an extrovert lifts the evening, which makes [casting guests to characters](../articles/players-social-dynamics/player-types-and-casting.qmd) a genuine design and hosting decision rather than a random deal. Many kits lean on this before anyone arrives: the invitation names the character and asks the guest to come dressed and ready to play, so the costume and the first read-through act as a [pre-game briefing](../articles/players-social-dynamics/pre-game-workshop-design.qmd) that puts the player in role before the meal begins. [researched]
+
+In most designs the killer does not know they are guilty until the final reveal, and the victim does not know they will die until the script says so. [researched] This keeps everyone playing an honest investigator instead of an actor concealing foreknowledge for two hours. It also hands the script a hard obligation borrowed straight from the detective novel. The fair-play canon, codified by Ronald Knox and S. S. Van Dine in the late 1920s, holds that the solver must have the same chance as the detective and that every decisive clue must be plainly laid out. [researched] Translated to a dinner table, that means the evidence needed to name the killer has to be in the guests' hands by the time the accusations open, which is the [cluing-and-fairness](../articles/puzzles-clues-information/cluing-and-fairness.qmd) contract the form lives or dies by.
+
+::: {.callout-warning}
+### The Hazard
+
+The most common failure is evidence hoarding. If the rules never compel a guest to share, a player can sit on the one fact that breaks the case while the clock runs out. [researched] The fix is to build disclosure into the round rather than leave it to courtesy. Each character's notes should specify what must be said aloud and at which round. The decisive clues then circulate even when no one volunteers them. For the evening, a clue that exists but never surfaces is a clue that was never written. [synthesis]
+:::
+
+## The wider influence
+
+The form scales in two directions, and the choices made at each end are instructive. At the small end sits the participant host, who holds a character and plays alongside the guests. This is the warmest register for a gathering of friends, but it forces a mechanical sacrifice. Anything that needs neutral adjudication has to be cut or replaced with an honour system, because a host with a stake in the outcome cannot fairly call rulings that touch their own character. [researched] Publishers such as Freeform Games sell kits built for exactly this, with every conflict resolved peer to peer so the host can stop being a referee. [researched]
+
+At the large end, the form stretches well past the eight-guest dinner. Freeform's catalogue runs games for six to thirty-plus players, with titles such as *The Reality is Murder* written for twenty-three to thirty guests and one or two hosts. [researched] Scaling this far means abandoning the single linear plot. Instead the script runs several parallel storylines, so not every guest is chasing the murder at every moment, yet each one has personal goals to pursue, whether a deal to close or a rival to ruin. [researched] Red Herring Games warns against the lazy version of growth, the optional "spare part" guest tacked on to fit one more person, because a character with no substantive stake disengages and drifts to the edge of the party. [researched] Their answer is fixed counts with a real role for everyone, which is the same lesson the small-table form teaches, read at scale.
+
+The container has kept changing while the loop survives. The cassette tape gave way to the printed PDF, the PDF to subscription and on-demand kits a buyer downloads and prints at home. What persists across every version is the parlour-game core that Decipher packaged in 1985. Split the truth across the table and give everyone something to hide, then trust a host with no training to run a fair mystery from a script. [synthesis]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Live game: hosted social deduction played over a meal |
+| Origin | The boxed form popularised by Decipher's *How to Host a Murder* |
+| Emerged | 1985 (*The Watersdown Affair*); conventions still in use |
+| Players | Commonly six to twelve; large-group scripts run to thirty-plus |
+| Format | Character packets, timed rounds of clue release, an accusation and reveal, over roughly two to three hours |
+| Substrate | Printed character booklets, sealed clue packages, invitations and costumes; modern kits ship as downloadable PDFs |
+| Host model | Participant host (plays a role) or facilitator host (runs the table, knows the solution) |
+
+## Sources
+
+- "Murder mystery game." Wikipedia. (Form history, the 1980s "How To Host" boxed format, scripted versus interactive variants, three-course-dinner structure, scaling characters into teams for larger groups.) <https://en.wikipedia.org/wiki/Murder_mystery_game>
+- "How to Host a Murder." Wikipedia. (Decipher Inc., founding in 1983, first title *The Watersdown Affair* in 1985, seventeen titles in the line, spin-off ranges.) <https://en.wikipedia.org/wiki/How_to_Host_a_Murder>
+- "The Watersdown Affair." Wikipedia. (Box contents, including host and guest booklets and a cassette tape, plus eight invitations, six sealed clue packages, name tags, and menu and costume suggestions; eight-guest dinner-party premise.) <https://en.wikipedia.org/wiki/The_Watersdown_Affair>
+- Freeform Games. Publisher site and catalogue. (Downloadable kits for six to thirty-plus players; *The Reality is Murder* for twenty-three to thirty guests; unscripted goal-driven design; host-and-play model.) <https://www.freeformgames.com/>
+- Red Herring Games. "Common Problems with Murder Mystery Games (And How We Solve Them)." (The "spare part" optional-guest failure, the case for fixed player counts with substantive roles, evidence-hoarding as a documented problem.) <https://www.red-herring-games.com/common-problems-with-murder-mystery-games-and-how-we-solve-them/>
+- IndigoExtra. "How to Create Your Own Murder Mystery Party." (Character-packet anatomy: secrets, multiple personal goals, clues seeded across characters, inter-character ties; round-based information release.) <https://www.indigoextra.com/blog/how-to-create-murder-mystery-party>
+- Great Murder Mystery Games. "Playing and Hosting a Murder Mystery Game." (The participant-host model and the removal of adjudicated mechanics so a playing host need not arbitrate.) <https://www.great-murder-mystery-games.com/playing-and-hosting-a-murder-mystery-game.html>
+- Knox, Ronald. "A Detective Story Decalogue" (1929) and Van Dine, S. S. "Twenty Rules for Writing Detective Stories" (1928). (The fair-play obligation: the solver must have equal opportunity, every decisive clue plainly stated.) <https://en.wikipedia.org/wiki/Ronald_Knox#Ten_Commandments_of_Detective_Fiction>

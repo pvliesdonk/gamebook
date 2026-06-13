@@ -107,9 +107,11 @@ Control overhead is the line most often underestimated, and it falls hardest on 
 
 ## Referenced by
 
+- [DASH & the Galactic Puzzle Hunt](../../exemplars/dash-and-galactic-puzzle-hunt.qmd)
 - [Designer-Community Trust in Long-Form Hunts](designer-community-trust-in-long-form-hunts.qmd)
 - [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd)
 - [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd)
+- [Megagames](../../exemplars/megagames.qmd)
 - [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd)
 - [Team Splitting Strategies](team-splitting-strategies.qmd)
 - [The Crystal Maze](../../exemplars/crystal-maze.qmd)

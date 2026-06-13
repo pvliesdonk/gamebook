@@ -108,6 +108,7 @@ The tabletop tradition reaches the same destination from the opposite direction:
 - [Exposition & Subtext](exposition-and-subtext.qmd)
 - [Fantasy Conventions](fantasy-conventions.qmd)
 - [Historical Fiction](historical-fiction.qmd)
+- [Microscope & Kingdom](../../exemplars/microscope-and-kingdom.qmd)
 - [Mystery & Detective Fiction](mystery-and-detective-fiction.qmd)
 - [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd)
 - [Science Fiction Conventions](science-fiction-conventions.qmd)

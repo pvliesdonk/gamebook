@@ -121,6 +121,7 @@ In live and immersive formats the cut becomes an act-break. The Chinese *jubensh
 - [Beat Taxonomies & Craft Models](beat-taxonomies-and-craft-models.qmd)
 - [Dialogue Craft](../story-character-voice/dialogue-craft.qmd)
 - [Fiasco](../../exemplars/fiasco.qmd)
+- [Microscope & Kingdom](../../exemplars/microscope-and-kingdom.qmd)
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
 - [Prose Patterns & Point of View](../story-character-voice/prose-patterns-and-point-of-view.qmd)
 - [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)

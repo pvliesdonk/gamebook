@@ -95,6 +95,7 @@ The audit that catches drift once it has happened is mechanical and worth runnin
 - [Prompt Design in Solo Journaling](prompt-design-in-solo-journaling.qmd)
 - [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd)
 - [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd)
+- [The Extraordinary Adventures of Baron Munchausen](../../exemplars/baron-munchausen.qmd)
 - [The Journal as Artefact](the-journal-as-artefact.qmd)
 
 <!-- BACKLINKS:END -->

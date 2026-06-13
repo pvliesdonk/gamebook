@@ -101,6 +101,7 @@ The clearest demonstration is *Twitch Plays Pokémon* (2014), where viewers ente
 - [Accessibility in Live & Interactive Games](accessibility-in-live-and-interactive-games.qmd)
 - [Blood on the Clocktower](../../exemplars/blood-on-the-clocktower.qmd)
 - [Designer-Community Trust in Long-Form Hunts](designer-community-trust-in-long-form-hunts.qmd)
+- [Megagames](../../exemplars/megagames.qmd)
 - [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Sleep No More & Punchdrunk](../../exemplars/sleep-no-more-and-punchdrunk.qmd)

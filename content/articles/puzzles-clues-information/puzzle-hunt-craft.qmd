@@ -111,6 +111,7 @@ Shipping without enough test-solving is the failure that no amount of clever con
 
 ## Referenced by
 
+- [DASH & the Galactic Puzzle Hunt](../../exemplars/dash-and-galactic-puzzle-hunt.qmd)
 - [Designer-Community Trust in Long-Form Hunts](../players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd)
 - [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd)
 - [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd)

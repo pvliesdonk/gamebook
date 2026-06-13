@@ -126,6 +126,7 @@ A live game meets the question with its own constraints. Errol Elumir's escape-r
 - [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
 - [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
 - [Magic: the Gathering](../../exemplars/magic-the-gathering.qmd)
+- [Microscope & Kingdom](../../exemplars/microscope-and-kingdom.qmd)
 - [Player Types & Casting](../players-social-dynamics/player-types-and-casting.qmd)
 - [Prompt Design in Solo Journaling](../story-character-voice/prompt-design-in-solo-journaling.qmd)
 - [Replayability](replayability.qmd)

@@ -117,6 +117,7 @@ The seductive mistake is the borrowed mechanic that arrives without its traditio
 ## Referenced by
 
 - [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
+- [De Profundis](../../exemplars/de-profundis.qmd)
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
 - [Dungeons & Dragons, 5th Edition](../../exemplars/dungeons-and-dragons-5e.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
@@ -127,6 +128,7 @@ The seductive mistake is the borrowed mechanic that arrives without its traditio
 - [Progress Clocks & Faction State](progress-clocks-and-faction-state.qmd)
 - [Safety Systems as Mechanical Layer](safety-systems-as-mechanical-layer.qmd)
 - [System vs Setting](system-vs-setting.qmd)
+- [The Extraordinary Adventures of Baron Munchausen](../../exemplars/baron-munchausen.qmd)
 - [Tropes, Archetypes & Variations](../story-character-voice/tropes-archetypes-and-variations.qmd)
 
 <!-- BACKLINKS:END -->

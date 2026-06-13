@@ -117,5 +117,7 @@ Jubensha matters here because it shows the genre's two moods fused. The hidden-r
 
 - [Blood on the Clocktower](../../exemplars/blood-on-the-clocktower.qmd)
 - [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd)
+- [The Extraordinary Adventures of Baron Munchausen](../../exemplars/baron-munchausen.qmd)
+- [The Murder Mystery Party](../../exemplars/murder-mystery-party.qmd)
 
 <!-- BACKLINKS:END -->

@@ -1,0 +1,74 @@
+---
+title: "De Profundis"
+type: exemplar
+medium: tabletop
+year: 2002
+designer: "Michał Oracz"
+mechanisms:
+  - ../articles/systems-mechanics/distributing-narrative-authority.qmd
+  - ../articles/systems-mechanics/ttrpg-format-taxonomy.qmd
+  - ../articles/story-character-voice/the-journal-as-artefact.qmd
+  - ../articles/space-props-materiality/artefact-design-and-document-production.qmd
+  - ../articles/story-character-voice/diegetic-design.qmd
+  - ../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
+  - ../articles/structure-pacing/episodic-and-serialised-structure.qmd
+  - ../articles/story-character-voice/horror-conventions.qmd
+provenance: "researched"
+---
+
+*Profile: a horror game with no table and no referee. You play it by posting letters in character, until the world outside the envelope starts to feel as wrong as the one inside it.*
+
+De Profundis is the game that argues a roleplaying session need not happen in a room, in an evening, or out loud. Michał Oracz first published it through the Polish company Portal in 2001, and Hogshead Publishing translated it into English in 2002 as the last release in its New Style line, with Cubicle 7 reprinting it in 2010. [researched] Two or more people write each other letters in the voice of characters sliding into a Lovecraftian unease, and the fiction is simply whatever those letters describe. There is no game master, no resolution roll and no win. [researched] Because the right to say what is true in the story rests in the next letter rather than with a referee, it is a clean worked example of [distributing narrative authority](../articles/systems-mechanics/distributing-narrative-authority.qmd). [synthesis]
+
+It earns a place in this gazetteer for pushing one idea to its limit: the letter is at once the game move and a lasting prop, so the game and its artefact turn out to be one object. The links below run to the articles each part exemplifies. Read in the other direction, those articles list De Profundis in their *Referenced by* register.
+
+## The design profile
+
+The procedure is spare enough to state in a sentence. One person writes an in-character letter to another, establishing who they are, where they are, and a first uncanny incident. The recipient replies as their own character, accepting or deflecting the premise, and the exchange continues. [researched] A character falls ill because a letter says so. A ritual works because the next letter does not contradict it. [researched] Nobody owns the whole fiction. Each writer controls only what their character commits to paper, and so only what that character knows, which is the everyday shape of [shared narrative authority](../articles/systems-mechanics/distributing-narrative-authority.qmd) when there is no referee to hold the rest. [synthesis]
+
+That makes it sit at one far edge of the [TTRPG format taxonomy](../articles/systems-mechanics/ttrpg-format-taxonomy.qmd): correspondence rather than the shared session. There is no scheduled meeting and no common moment of play. Each writer composes when they can and sends when ready, so the story moves at the pace of the post or the inbox. [synthesis] Oracz treats that slowness as the point. The days or weeks between letters are time to compose, time to dread, and time for the fiction to settle into the writer's ordinary life. [researched] The game runs as an open serial with the gap between instalments doing real work, which is the postal cousin of [episodic and serialised structure](../articles/structure-pacing/episodic-and-serialised-structure.qmd): the wait is not dead time but dramatic time. [synthesis]
+
+::: {.callout-note}
+### The Signature
+
+The book practises what it asks. Oracz wrote the rulebook itself as a sequence of letters in the Lovecraftian epistolary style, framed as the transcript of a game its author witnessed in a dream. [researched] Hogshead then sold it with the line "This game is intended for mentally stable adults", a wink at the horror tradition and a flag for the psychological register the game wants. [researched] The instruction to players is mood before plot. Write atmospheric dread rather than a tidy resolution, and treat "action" only as a pretext for thought. [researched]
+:::
+
+The horror is carried by voice rather than by a monster manual, so the game leans hard on the conventions the article on [horror conventions](../articles/story-character-voice/horror-conventions.qmd) sets out. The model is Lovecraft's own use of the form, the slow accretion of detail in tales told through documents, where the reader assembles the threat from letters that each saw only a fragment of it. [researched] The first-person correspondent voice has to stay consistent across weeks, because the character is not approximate memory recalled at the table. The character is the document. [synthesis]
+
+That documentary quality is what makes De Profundis the form's clearest case of [the journal as artefact](../articles/story-character-voice/the-journal-as-artefact.qmd). A letter is a composed, edited, deliberate piece of writing, so the game preserves each player's voice as an authoritative textual record rather than as a remembered utterance. [synthesis] Players are encouraged to keep what they send and to treasure what they receive, and a campaign leaves behind a stack of paper that is both the transcript and the trophy. [researched]
+
+Postal play also turns the letter into a physical prop, and the game invites the full kit of [artefact craft](../articles/space-props-materiality/artefact-design-and-document-production.qmd): a fountain pen, era-appropriate stationery, sealing wax, even a found photograph or a small object slipped into the envelope as in-character evidence. [researched] None of this is decoration. Pulling a letter that genuinely feels old from a wax-sealed envelope is a small physical performance of the premise, the kind of sensory work the article on [theme, immersion and sensory environment](../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd) is built around. The materiality carries atmosphere that the text alone cannot. [synthesis]
+
+The perspective is what seals the effect, and it is a strict case of [diegetic design](../articles/story-character-voice/diegetic-design.qmd). Every surface a player touches is in-fiction. The character writes to another character, the envelope carries a real name and a real stamp, and nothing in the exchange admits to being a game. [researched] Oracz pushes the immersion past the page as well, asking players to keep the character's eye in daily life, reading omens into the behaviour of clouds or birds and looking at the mundane world through a filter of horror imaginings. [researched] The fiction is meant to be a thread woven through an ordinary week, not an event to attend.
+
+## The wider influence
+
+De Profundis is the most cited and most studied example of the correspondence form, the reference point any later letter-writing game is measured against. [synthesis] It was shortlisted for the Diana Jones Award for Excellence in Gaming in 2001. [researched] Its real export is a posture other designers can take up without the Portal or Hogshead imprint behind it: that a game can be slow, asynchronous and free of any referee and still hold genuine social and dramatic weight, a lesson the older play-by-mail tradition had proved for wargames and that De Profundis carried into character-driven horror. [synthesis]
+
+::: {.callout-warning}
+### The Hazard
+
+The model breaks at the seams the format cannot police. A correspondence game has none of the social pressure of a shared table. Nobody is obliged to write back. When one player goes quiet without explanation the story simply stops. [researched] Two players is intimate but fragile, since the loss of either ends it. Five or more buries each writer under an unanswerable inbox. [researched] The other recurring failure is drift. With no built-in resolution, an exchange can wander on indefinitely. The game leaves the end condition open, and practitioners have learned to name one before the first letter goes out: a calendar limit, perhaps, or a triggering event, or an agreed point of dissolution. [researched]
+:::
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Correspondence roleplaying game; a horror story told through exchanged letters |
+| Designer | Michał Oracz |
+| Published | 2001 (Portal, Polish); 2002 (Hogshead, English); 2010 (Cubicle 7 reprint) |
+| Players | Two or more, with no game master; optional solo play |
+| Format | Asynchronous serial played by post or email over weeks to months |
+| Substrate | In-character letters, optionally aged stationery, sealing wax, photographs and enclosed objects |
+| Status | In print; second edition available from Cubicle 7 |
+
+## Sources
+
+- "De Profundis (role-playing game)." Wikipedia. (Designer, the Portal 2001, Hogshead 2002 and Cubicle 7 2010 editions, the no-dice/no-GM/no-stats design, the letter-writing Lovecraftian format, the rulebook written as letters, the "mentally stable adults" tagline, the 2001 Diana Jones Award shortlisting, two-or-more players with optional solo rules, and the exchange of props.) <https://en.wikipedia.org/wiki/De_Profundis_(role-playing_game)>
+- "De Profundis (2001)." Vintage RPG, 11 November 2021. (Design overview: correspondence play, Lovecraftian epistolary style, the recommendation for physical mail and props, and the editions.) <https://www.vintagerpg.com/2021/11/de-profundis-2001/>
+- Brown, Kathy L. "A Letter-Writing Game Review: De Profundis by Michał Oracz." Kathy L. Brown Writes. (Play in practice: the no-GM/no-dice/no-win procedure, correspondence psychodrama, living the nightmare through a horror filter on daily life, the physical letter-writing kit, keeping and treasuring letters, "yes...and" reply discipline, and short frequent letters.) <https://kathylbrown.com/a-letter-writing-game-review-de-profundis-by-michal-oracz/>
+- "De Profundis." The Hermetic Library Blog, 12 November 2011. (The psychodrama framing, no single game-master, play by snail mail, email or forum, the rules-light approach, and the collective-narrative structure.) <https://library.hrmtc.com/2011/11/12/de-profundis/>
+- "De Profundis Second Edition." Cubicle 7 Entertainment, DriveThruRPG. (The Cubicle 7 second edition: correspondence storytelling influenced by Lovecraft, played by letter or email according to the chosen era of play.) <https://www.drivethrurpg.com/en/product/84298/De-Profundis-Second-Edition>
+- "De Profundis: Letters from the Abyss, 1st Edition." Noble Knight Games. (The Hogshead first-edition release and its place as a New Style line title.) <https://www.nobleknight.com/P/16187/De-Profundis---Letters-from-the-Abyss-1st-Edition>

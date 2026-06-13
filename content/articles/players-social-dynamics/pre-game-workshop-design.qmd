@@ -92,6 +92,7 @@ The mandatory part is mandatory for a reason, and the failure mode has a documen
 - [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd)
 - [One-on-One Scene Design](one-on-one-scene-design.qmd)
 - [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
+- [The Murder Mystery Party](../../exemplars/murder-mystery-party.qmd)
 - [The Session Zero Playbook](the-session-zero-playbook.qmd)
 
 <!-- BACKLINKS:END -->

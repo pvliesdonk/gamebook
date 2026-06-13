@@ -157,18 +157,26 @@ book:
         - content/exemplars/index.qmd
         - content/exemplars/apocalypse-world.qmd
         - content/exemplars/baba-is-you.qmd
+        - content/exemplars/baron-munchausen.qmd
         - content/exemplars/blades-in-the-dark.qmd
         - content/exemplars/blood-on-the-clocktower.qmd
         - content/exemplars/blue-prince.qmd
         - content/exemplars/call-of-cthulhu.qmd
+        - content/exemplars/cicada-3301.qmd
         - content/exemplars/crystal-maze.qmd
+        - content/exemplars/dash-and-galactic-puzzle-hunt.qmd
+        - content/exemplars/de-profundis.qmd
         - content/exemplars/dungeons-and-dragons-5e.qmd
         - content/exemplars/exit-the-game.qmd
         - content/exemplars/fiasco.qmd
         - content/exemplars/hunt-a-killer.qmd
         - content/exemplars/ironsworn.qmd
+        - content/exemplars/jubensha.qmd
         - content/exemplars/magic-the-gathering.qmd
+        - content/exemplars/megagames.qmd
+        - content/exemplars/microscope-and-kingdom.qmd
         - content/exemplars/mit-mystery-hunt.qmd
+        - content/exemplars/murder-mystery-party.qmd
         - content/exemplars/mysterious-package-company.qmd
         - content/exemplars/notable-real-escape-rooms.qmd
         - content/exemplars/pandemic.qmd

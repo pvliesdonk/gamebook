@@ -106,6 +106,7 @@ The seductive failure is to treat "diegetic" as a quality score, where more is a
 
 - [Canon Management](canon-management.qmd)
 - [Character Voice](character-voice.qmd)
+- [De Profundis](../../exemplars/de-profundis.qmd)
 - [Digital Props](../space-props-materiality/digital-props.qmd)
 - [Environmental Storytelling & Setting as Character](environmental-storytelling-and-setting-as-character.qmd)
 - [Exposition & Subtext](exposition-and-subtext.qmd)

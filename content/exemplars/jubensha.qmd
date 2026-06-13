@@ -1,0 +1,75 @@
+---
+title: "Jubensha"
+type: exemplar
+medium: live-game
+year: 2016
+designer: "Various; a script-driven venue form that rose in China in the late 2010s"
+mechanisms:
+  - ../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd
+  - ../articles/story-character-voice/mystery-and-detective-fiction.qmd
+  - ../articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd
+  - ../articles/players-social-dynamics/player-types-and-casting.qmd
+  - ../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
+  - ../articles/puzzles-clues-information/cluing-and-fairness.qmd
+  - ../articles/story-character-voice/audience-and-age-targeting.qmd
+provenance: "researched"
+---
+
+*Profile: a circle of strangers in a themed room. Each holds a different script for the same murder, and they question one another toward a culprit who is one of them.*
+
+Jubensha (剧本杀, "script murder") is the clearest proof in living memory that a niche hobby format can become a mass-market night out. It is not one game but a whole industry built on one shape. A group of players are assigned pre-written roles in a murder mystery and given a private script each. The table then spends several hours in questioning that works toward naming the killer. The form grew out of imported boxed mysteries and a celebrity reality show, then spread from a handful of venues to tens of thousands of dedicated shops across China inside about five years. [researched] Every session runs on the same tight social engine. The fun lives in the gap between what each player knows, the [private scripts that create that gap](../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd), and a host who steers the room without playing it.
+
+This profile treats the medium itself as the exemplar. It reads jubensha as a venue form rather than profiling any single script, because the design lessons sit in the format and its commercial scaling rather than in one whodunit. The links below run to the articles those lessons exemplify.
+
+## The design profile
+
+Jubensha is a [whodunit](../articles/story-character-voice/mystery-and-detective-fiction.qmd) turned inside out. In a detective novel one reader chases a culprit through a fixed text. Here the suspects are the players, and the text is split into as many private scripts as there are people at the table. Each player gets a character who arrives with a backstory, a private goal, and secrets that nobody else can see. [researched] The whole session is a controlled release of that hidden material through conversation, so the design is a worked example of [information asymmetry](../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd) run at table scale. The killer holds a script that tells them they did it; everyone else holds a script that hides a motive. The room talks until the gaps close.
+
+Because the answer is fixed in advance, the script has to be [fair](../articles/puzzles-clues-information/cluing-and-fairness.qmd) in the way a good mystery is fair. Every clue a table needs to convict the right character has to be reachable from the combined scripts and the physical evidence laid out in the room. A script fails this test when it withholds the deciding fact or buries it where no reasonable line of questioning will reach it. Either way the result is the same collapse as an unfair novel. The table abandons reasoning for guesswork. [synthesis] The best commercial scripts earned their price on exactly this reputation for a clean solve, and the writers who could deliver it became a paid profession of their own. [researched]
+
+::: {.callout-note}
+### The Specimen
+
+The format did not appear from nothing. A French-designed boxed mystery, *Death Wears White*, was imported and translated into Chinese around 2013 to 2015 and gave local gamers their first taste of the role-and-secret structure. [researched] What turned that taste into a craze was television. *Who's the Murderer*, an online celebrity whodunit, premiered on Mango TV in 2016 and is widely credited with fixing the modern jubensha format in the public mind. [researched] Within a year or two, physical shops were opening to let ordinary players do what they had watched celebrities do on screen. The interesting part is adoption rather than invention. A hobby structure can wait years for a piece of mainstream media to show a mass audience what it feels like from the inside. [synthesis]
+:::
+
+The person who makes it all run is the host, and the host carries the [host-cannot-play problem](../articles/players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd) in a pure form. The host knows every script and knows the killer, so they are never a guest at their own table. The host hands out the scripts and keeps the rounds of reading and questioning moving. The search and voting phases fall to them as well. So does the work of rescuing a stalled table when it goes quiet. [researched] A skilled host is a real draw. The same script plays flat or gripping depending on how the room is steered. This is paid and repeatable labour. The venue business depends on hosts who can run the same script many times a week without going stale.
+
+Casting matters as much as hosting. A jubensha table mixes appetites in one room, which makes it a live test of [player types and casting](../articles/players-social-dynamics/player-types-and-casting.qmd). One guest came to solve the crime, another to perform a character in costume, a third mostly to be out with friends. Good scripts and good hosts give each of them a role that suits them, weighting some characters toward deduction and others toward emotional performance, so the table does not leave the quieter or the less analytical players idle. [synthesis] Many scripts lean hard on feeling rather than logic, building toward a tearful reveal rather than a clever one, which broadens the appeal well past the puzzle crowd. [researched]
+
+::: {.callout-warning}
+### The Hazard
+
+A reputation for emotional intensity cuts both ways. Many scripts reached for horror, gore, and sexual content to deepen the experience, and that content became the industry's biggest political liability. [researched] From late 2021 Chinese state media criticised increasingly violent and supernatural scripts, warning that frightening content could harm minors and blur reality for them. [researched] By 2022 cities including Shanghai and Guangdong began requiring operators to submit scripts for content review before play. [researched] A design choice made to stand out in a crowded market became the exact feature that invited regulation. The reach a strong sensory hook buys you is also the reach that gets you noticed by the people who write the rules. [synthesis]
+:::
+
+## The wider influence
+
+The venue itself is part of the design, which ties jubensha to [theme, immersion and sensory environment](../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd). Many shops moved beyond a table and chairs into dressed rooms, costumes, and props, borrowing from escape rooms and live-action roleplay so that players walked into a set rather than sat around a board. [researched] A horror script gets a dim room with red lighting; a period script gets costumes and a dressed parlour. The set does atmospheric work the bare script cannot, and the higher-end venues compete on production as much as on writing. This is the same move escape rooms made, applied to a deduction game instead of a puzzle chain.
+
+The commercial scale is the part hardest to overstate. By the early 2020s China had tens of thousands of jubensha venues, with reporting putting the count above 30,000 and some estimates of registered operators far higher, against a market valued in the tens of billions of yuan. [researched] Players skewed strikingly young, with surveys finding well over 70 per cent of consumers under 30 and a large share playing weekly. [researched] For a stretch it was cited as one of the most popular leisure activities for young urban Chinese, sitting close behind cinema. The script-publishing ecosystem grew up alongside the venues. Thousands of scripts went into print, sold in a tiered market that ran from cheap reusable box sets up to expensive venue-exclusive titles. Piracy was a constant problem, with shops running scripts they had never licensed. [researched]
+
+That same youth appeal is what pulled the form under the [age-targeting](../articles/story-character-voice/audience-and-age-targeting.qmd) lens of regulators. The 2023 guidance from the Ministry of Culture and Tourism set age rules alongside the content review: players under 14 only on weekends and holidays, and only when accompanied by a parent or guardian. [researched] A format that had grown by being adult, intense, and a little transgressive now had to prove it could be sorted by audience age. That is the same calibration any children's publisher has always faced, arriving here late and from the outside.
+
+Set beside Western practice, jubensha is the murder-mystery party and the live-action roleplay grown into a commercial sector. The dinner-party whodunit and the weekend larp both stayed broadly amateur and occasional in the West. In China the same impulse was professionalised into ticketed venues, paid hosts, a publishing industry, and a regulatory regime. The structure travelled; what changed was scale, and the scale is the lesson. [synthesis]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Live game: scripted social-deduction mystery, played at dedicated venues or online |
+| Origin | China; seeded by imported boxed mysteries and the reality show *Who's the Murderer* |
+| Emerged | 2016 (*Who's the Murderer* premiere on Mango TV); venue boom roughly 2019 to 2021 |
+| Players | Typically four to twelve per session, one per scripted role, plus a host |
+| Format | Several hours of reading, questioning, searching, and voting toward naming a culprit |
+| Substrate | Per-player printed scripts, physical clues and evidence, dressed rooms, costumes and props, a paid host |
+| Industry scale | Tens of thousands of venues at peak; a multi-billion-yuan market, players mostly under 30 |
+
+## Sources
+
+- "Jubensha." Wikipedia. (Definition, format of four to twelve players over multi-hour sessions, *Death Wears White* import, the 2016 *Who's the Murderer* origin, venue and market figures, content and minors regulation.) <https://en.wikipedia.org/wiki/Jubensha>
+- Sixth Tone. "Murder, They Scripted: Extreme Role-Play Games Thrill, Shock China." (Character scripts with backstory and costume, escape-room-style venues, session length over four hours, per-person pricing, the scriptwriter and host professions, concerns over violent and sexual content.) <https://www.sixthtone.com/news/1004985/>
+- China Media Project. "Curbing China's Script Murder Craze." 1 October 2021. (State-media criticism from September 2021, including the Xinhua agency, on violent and supernatural scripts and the risk to minors.) <https://chinamediaproject.org/2021/10/01/state-media-criticize-chinas-murder-mystery-craze/>
+- The World of Chinese. "The Business of Murder: Role-Playing Murder Mystery Games in China Hit by Regulations." March 2022. (Market size near 24 billion yuan, venue counts, player demographics with over 70 per cent under 30, the 2022 municipal content supervision in Shanghai and Guangdong.) <https://www.theworldofchinese.com/2022/03/the-business-of-murder-regulations-hit-role-playing-murder-mystery-games/>
+- DaoInsights. "Ministry of Culture and Tourism proposes regulations on jubensha." April 2023. (The 2023 national guidance on content direction and script standards, plus the under-14 rule that limits play to weekends and holidays with a guardian present.) <https://daoinsights.com/news/ministry-of-culture-and-tourism-proposes-regulations-on-jubensha/>
+- Nordic Larp. "The Chinese Hotpot of Larp." 31 October 2022. (*Death Wears White* by Guillaume Montiage as a seminal import around 2013 to 2015, and jubensha read against larp and murder-mystery traditions.) <https://www.nordiclarp.org/2022/10/31/the-chinese-hotpot-of-larp/>

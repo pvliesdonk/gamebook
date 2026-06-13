@@ -115,6 +115,7 @@ The tabletop version of the same craft runs on the marker pair and warns against
 - [Romance & Relationships](romance-and-relationships.qmd)
 - [Science Fiction Conventions](science-fiction-conventions.qmd)
 - [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd)
+- [The Extraordinary Adventures of Baron Munchausen](../../exemplars/baron-munchausen.qmd)
 - [The Journal as Artefact](the-journal-as-artefact.qmd)
 - [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd)
 - [Voice & Register Consistency](voice-and-register-consistency.qmd)
