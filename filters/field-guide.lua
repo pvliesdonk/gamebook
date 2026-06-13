@@ -157,8 +157,11 @@ function Pandoc(doc)
       elseif is_unnumbered then
         -- Back-matter reference within a family (the per-family Works & References
         -- pages): rendered but never numbered, so the article counter and the
-        -- glossary's 1..116 stay aligned.
+        -- glossary's 1..116 stay aligned. The flag tells the opener and side tab
+        -- to show no (stale) article number.
+        marked[#marked + 1] = pandoc.RawBlock("typst", "#fg-unnumbered.update(true)")
         marked[#marked + 1] = b
+        marked[#marked + 1] = pandoc.RawBlock("typst", "#fg-unnumbered.update(false)")
       else
         marked[#marked + 1] = pandoc.RawBlock("typst", "#fg-article.step()")
         marked[#marked + 1] = b

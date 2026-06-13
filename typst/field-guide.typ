@@ -49,6 +49,10 @@
 #let fg-in-body = state("fg-in-body", false)
 // True only at a primer chapter heading (set/cleared around it by the filter).
 #let fg-primer-flag = state("fg-primer-flag", false)
+// Raised by the Lua filter on unnumbered family back-matter (the per-family
+// Works & References credits page): rendered, but never numbered, so its opener
+// and side tab show no (stale) article number.
+#let fg-unnumbered = state("fg-unnumbered", false)
 
 #let kicker(s, c: ink-muted, size: 8.5pt) = text(
   font: "Cronos Pro", size: size, weight: "semibold", fill: c, tracking: 1.2pt,
@@ -92,6 +96,15 @@
   ]
   if fg-primer-flag.get() {
     opener[Primer]
+  } else if fg-in-body.get() and fg-unnumbered.get() {
+    // family back-matter (Works & References): family rule and kicker, no number
+    block(width: 100%, above: 0pt, below: 0.9em, breakable: false)[
+      #line(length: 100%, stroke: 2pt + c)
+      #v(0.55em, weak: true)
+      #box(kicker(fam-label.at(f, default: "")))
+      #v(0.4em, weak: true)
+      #text(font: "Adobe Jenson Pro", size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
+    ]
   } else if fg-in-body.get() {
     opener[№ #fg-article.get().first()]
   } else {
@@ -180,7 +193,7 @@
     // inactive tabs show the family letter (A-F); the active tab shows the
     // current article number (falls back to the letter on divider pages).
     let n = fg-article.get().first()
-    let lab = if on and n > 0 { numbering("1", n) } else { numbering("A", i + 1) }
+    let lab = if on and n > 0 and not fg-unnumbered.get() { numbering("1", n) } else { numbering("A", i + 1) }
     box(
       width: if on { 24pt } else { 14pt }, height: 28pt, fill: fam.at(f),
       radius: if recto { (left: 2pt) } else { (right: 2pt) },
