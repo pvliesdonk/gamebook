@@ -1,25 +1,3 @@
-Field Guide to Narrative & Game Design
-Copyright (c) 2026 Peter van Liesdonk
-
-This repository is content-first. The guide itself — every article, primer, key,
-exemplar and specimen under content/, together with the editorial material under
-docs/ and research/ and the rendered book produced from them — is the work, and
-it is licensed under the Creative Commons Attribution-NonCommercial 4.0
-International licence (CC BY-NC 4.0), reproduced in full below.
-
-The build scaffolding is a thin tooling layer, not the work: the scripts under
-scripts/, the Pandoc/Lua filters under filters/, the Typst partials under
-partials/, the content templates under templates/, and the Quarto and build
-configuration. That scaffolding is licensed separately under the MIT licence;
-see the companion file LICENSE-CODE.
-
-In short: the writing is CC BY-NC 4.0; the machinery that renders it is MIT.
-
-Canonical licence deed: https://creativecommons.org/licenses/by-nc/4.0/
-Canonical legal code:   https://creativecommons.org/licenses/by-nc/4.0/legalcode
-
-======================================================================
-
 Attribution-NonCommercial 4.0 International
 
 =======================================================================

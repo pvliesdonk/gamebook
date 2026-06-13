@@ -1,11 +1,5 @@
 MIT License
 
-This licence covers only the build scaffolding in this repository: the scripts
-under scripts/, the Pandoc/Lua filters under filters/, the Typst partials under
-partials/, the content templates under templates/, and the Quarto and build
-configuration. The guide content itself is licensed under CC BY-NC 4.0; see the
-companion file LICENSE.
-
 Copyright (c) 2026 Peter van Liesdonk
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

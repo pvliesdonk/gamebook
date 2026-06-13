@@ -20,11 +20,17 @@ quarto render --to typst  # PDF only
 Build output goes to `_book/` (gitignored). See `CLAUDE.md` for the project
 conventions and `docs/` for the style guide, decision register, and term registry.
 
+**Fonts.** The Typst PDF uses licensed commercial fonts (Adobe Jenson Pro, Cronos
+Pro, Letter Gothic Std) that are **not redistributable and not included in this
+repository**. Supply your own licensed copies under `assets/fonts/` (gitignored)
+to build the PDF; the HTML wiki uses free look-alike web fonts and needs nothing
+extra. See [`NOTICE`](NOTICE).
+
 ## Layout
 
 | Path | What it holds |
 |------|---------------|
-| `content/` | The work: articles, primers, keys, exemplars, specimens |
+| `content/` | The work: articles, primers, keys, exemplars |
 | `docs/` | Style guide, decision register, term registry, reference docs |
 | `research/` | Research notes and the point-in-time corpus snapshot |
 | `scripts/`, `filters/`, `partials/`, `templates/` | Build scaffolding |
@@ -41,6 +47,10 @@ renders it.
 - **The build scaffolding** (`scripts/`, `filters/`, `partials/`, `templates/`,
   and the build configuration) is licensed under the MIT licence. See
   [`LICENSE-CODE`](LICENSE-CODE).
+- **Fonts** under `assets/fonts/` are third-party licensed works, covered by
+  neither licence and not distributed here (see Building, above).
+
+See [`NOTICE`](NOTICE) for the full attribution and scope.
 
 ## Contributing
 
