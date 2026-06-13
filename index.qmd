@@ -2,6 +2,10 @@
 title: "How to Use This Guide"
 ---
 
+This guide is organised by design function: six families of articles, each opened
+by a primer and illustrated by a gazetteer of real-world exemplars.
 
-This guide is organised by design function. The Keys section lets you search by
-the effect you want to create or the problem you are trying to solve.
+::: {.content-hidden when-format="typst"}
+The Keys section lets you search by the effect you want to create or the problem
+you are trying to solve.
+:::
