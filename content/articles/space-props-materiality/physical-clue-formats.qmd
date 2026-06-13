@@ -101,6 +101,7 @@ The seductive failure is to fall in love with the consumable beat and forget who
 ## Referenced by
 
 - [Artefact Design & Document Production](artefact-design-and-document-production.qmd)
+- [Exit: The Game](../../exemplars/exit-the-game.qmd)
 - [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
 - [Hidden Compartments & Reveal Mechanisms](hidden-compartments-and-reveal-mechanisms.qmd)
 - [Hunt A Killer](../../exemplars/hunt-a-killer.qmd)
@@ -109,5 +110,6 @@ The seductive failure is to fall in love with the consumable beat and forget who
 - [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd)
 - [The Mysterious Package Company](../../exemplars/mysterious-package-company.qmd)
 - [Treasure & Scavenger Hunts](../puzzles-clues-information/treasure-and-scavenger-hunts.qmd)
+- [Unlock!](../../exemplars/unlock-series.qmd)
 
 <!-- BACKLINKS:END -->

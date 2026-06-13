@@ -106,6 +106,7 @@ Solo and pair formats are underserved in commercial escape rooms, because the bu
 - [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd)
 - [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd)
 - [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd)
+- [Notable Escape Rooms](../../exemplars/notable-real-escape-rooms.qmd)
 - [One-on-One Scene Design](one-on-one-scene-design.qmd)
 - [Parallel Team Architectures](parallel-team-architectures.qmd)
 - [Spectator-Friendly Design](spectator-friendly-design.qmd)

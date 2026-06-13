@@ -115,6 +115,7 @@ The structural advantage is that the place outlives the platform. Hosted service
 - [Designer-Community Trust in Long-Form Hunts](../players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd)
 - [Digital Props](digital-props.qmd)
 - [Dungeon & Spatial Topology](dungeon-and-spatial-topology.qmd)
+- [Exit: The Game](../../exemplars/exit-the-game.qmd)
 - [Fabrication & Sourcing](fabrication-and-sourcing.qmd)
 - [Materials, Durability & Reset](materials-durability-and-reset.qmd)
 - [Physical Clue Formats](physical-clue-formats.qmd)

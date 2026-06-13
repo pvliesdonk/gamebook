@@ -117,6 +117,9 @@ The seductive failure is variety bought on the surface. A game ships with many c
 - [Deckbuilders](deckbuilders.qmd)
 - [Elegance, Emergence & Randomness](elegance-emergence-and-randomness.qmd)
 - [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
+- [Magic: the Gathering](../../exemplars/magic-the-gathering.qmd)
+- [Notable Escape Rooms](../../exemplars/notable-real-escape-rooms.qmd)
 - [Solo Modes](solo-modes.qmd)
+- [Unlock!](../../exemplars/unlock-series.qmd)
 
 <!-- BACKLINKS:END -->

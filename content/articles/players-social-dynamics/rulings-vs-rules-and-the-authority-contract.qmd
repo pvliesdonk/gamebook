@@ -106,6 +106,7 @@ The practical lesson from all three is that the authority contract is settled be
 ## Referenced by
 
 - [Distributing Narrative Authority](../systems-mechanics/distributing-narrative-authority.qmd)
+- [Dungeons & Dragons, 5th Edition](../../exemplars/dungeons-and-dragons-5e.qmd)
 - [GM Role Models & Stances](gm-role-models-and-stances.qmd)
 - [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd)
 - [Mechanical Resolution Types](../systems-mechanics/mechanical-resolution-types.qmd)

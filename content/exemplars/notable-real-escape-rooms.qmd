@@ -1,0 +1,77 @@
+---
+title: "Notable Escape Rooms"
+type: exemplar
+medium: live-game
+year: 2007
+designer: "Various; the form originates with SCRAP / Takao Kato and the wave that followed"
+mechanisms:
+  - ../articles/structure-pacing/escape-room-topologies.qmd
+  - ../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
+  - ../articles/space-props-materiality/lock-taxonomy.qmd
+  - ../articles/puzzles-clues-information/hint-systems-and-recovery.qmd
+  - ../articles/space-props-materiality/cue-management-and-gm-station.qmd
+  - ../articles/space-props-materiality/materials-durability-and-reset.qmd
+  - ../articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd
+  - ../articles/structure-pacing/session-pacing-and-energy-management.qmd
+  - ../articles/systems-mechanics/replayability.qmd
+provenance: "corpus"
+---
+
+*Profile: a locked room on a sixty-minute clock, worked by a small team while an operator at a screen watches and decides when to speak.*
+
+The escape room is not one game but a form, and the form is younger than most of the people who play it. SCRAP ran the first commercial Real Escape Game in Kyoto in 2007, and within a few years the small-room version of the idea had spread across the world. [corpus] What every venue shares is a tight loop. A team enters a themed space with roughly sixty to ninety minutes on a clock, then works toward a way out through a chain of physical puzzles. The craft sits in how the [room is laid out](../articles/structure-pacing/escape-room-topologies.qmd), how the [set carries the fiction](../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd), and how an operator [watches and hints](../articles/space-props-materiality/cue-management-and-gm-station.qmd) without taking the game over.
+
+This profile treats the medium itself as the exemplar and reads it through a handful of documented landmark rooms: Sherlocked's *The Vault* in Amsterdam, Palace Games' *The Edison* in San Francisco, Hatch Escapes' *The Ladder* in Los Angeles, and SCRAP's venue-scale Real Escape Games. Each one pushed a single design idea hard enough that the wider industry absorbed it. The links below run to the articles those ideas exemplify.
+
+## The design profile
+
+Most of what an escape room asks of a designer is physical. A puzzle is solved not by a die roll but by an object doing something. A drawer slides open, or a panel lights up, or a padlock shackle drops free. The workhorse of the form is the [lock](../articles/space-props-materiality/lock-taxonomy.qmd), in all its variety, because a lock is a puzzle that checks its own answer and needs no operator to adjudicate. Sherlocked built *The Vault* inside the genuine safe-deposit complex of the Beurs van Berlage, the old Amsterdam Stock Exchange, and made its centrepiece a century-old safe whose door is heavy enough that opening it takes real physical effort. [corpus] The room did not theme a vault. It used one that had actually held wealth for a hundred years, and that authenticity does atmospheric work no set budget can buy. [synthesis]
+
+The set is rarely decoration in a strong room. *The Edison* is built as Thomas Edison's Menlo Park laboratory and threads 34,000 individually controllable LEDs through the space. [corpus] Those lights are not mood lighting. They respond to what players do and signal whether a puzzle has been solved, which closes a feedback loop that static rooms leave open. This is the case study the article on [theme and sensory environment](../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd) keeps returning to: when the room visibly reacts, players always know whether their last action mattered. [corpus]
+
+::: {.callout-note}
+### The Signature
+
+The sharpest single idea in the documented record is Sherlocked's pre-game app. *The Vault* ends at a combination lock on that heavy safe, and learning the feel of the dial under pressure would normally cost a team minutes of fumbling. So Sherlocked released a free mobile app that simulates the exact rotational feel of the lock. A player who downloaded it before arrival walked in with genuine muscle memory rather than a tutorial they had read once. [corpus] What this teaches is narrower than "build an app." The game clock can start before the door opens, and a designer's authority over the experience does not begin when the briefing ends. [synthesis]
+:::
+
+Because the puzzles check themselves, the live operator is freed to do the one thing only a person can do: read the team and decide when to step in. That operator runs the room from a [station of screens and audio](../articles/space-props-materiality/cue-management-and-gm-station.qmd), watching every move and choosing the moment to nudge. The nudge itself is a [hint system](../articles/puzzles-clues-information/hint-systems-and-recovery.qmd), and it is the one part of a room a designer cannot fully predetermine. By the time a hint matters, the room has already failed to communicate something to that particular team, so the hint is a real-time recovery mechanism rather than a feature. [corpus] The strongest rooms answer "did that do something?" in real time, whether through a reactive set like *The Edison*'s or through a watchful operator who confirms a beat before doubt sets in. [corpus]
+
+The team itself is a design variable. Most commercial rooms target four to six players, the band where two or three puzzle threads can run in parallel without anyone going idle and without the group colliding around a single prop. [corpus] *The Edison* takes four to eight and is built to suit it. Its puzzle architecture alternates between parallel tracks, where sub-teams work separate problems, and convergence moments that pull everyone onto one physical challenge at once. [corpus] That alternation stops a split team from fragmenting permanently, and it is the practical answer to the [bottleneck problem](../articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd) that larger groups invite. A run that opens parallel and closes on a shared challenge also gives the session its [pacing](../articles/structure-pacing/session-pacing-and-energy-management.qmd) shape: a spread-out start, then a middle that risks sagging before a finale that needs every hand. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+
+A reactive set and a watchful operator only help if the room can be put back together. A game master typically has ten to twenty minutes between groups. In that window every lock must be re-verified and every consumable reset, while a chemical reveal has to be reset or replaced outright. [corpus] A clever single-use prop that cannot be restored in time is not clever in production; it is a queue forming in the lobby. The real test of any mechanism in this form is not "does it work?" but "does it work forty times a week?" The article on [materials, durability and reset](../articles/space-props-materiality/materials-durability-and-reset.qmd) treats that turnover as a first-order constraint, not an afterthought. [corpus]
+:::
+
+## The wider influence
+
+SCRAP stretched the form along a different axis. Its Real Escape Games were never small rooms. They were venue-scale events for fifty to five hundred players at once, split into teams of six and run in stadiums, theatres, and convention halls, with licensed events reaching San Francisco, New York, and London. [corpus] The puzzle architecture rewards teams who pool what others have found, so the core loop of incomplete information under a clock survives at audience scale and even intensifies. What this proves is structural: escape-game logic is separable from the small-room container that first carried it. [corpus]
+
+Hatch Escapes pushed the opposite direction, toward depth rather than breadth. *The Ladder*, opened in Los Angeles in 2024 after five years in development, holds five playable avatars, eight distinct physical sets, and close to a dozen endings, with an optional puzzle track that unlocks sets most first-time teams never enter. [corpus] Marketed as the world's first genuinely [replayable](../articles/systems-mechanics/replayability.qmd) escape room, it makes replayability an architectural decision rather than a difficulty one. It builds more content than any single ninety-minute play can exhaust, borrowing the content-gating logic of hidden video-game levels and applying it to physical space. [corpus] The catch is that the production cost scales with the hidden content, most of which most players never see. [synthesis]
+
+The form also produced a boxed descendant. Tabletop publishers took the loop, stripped out the room, and shipped it as a destructible game in a box: Kosmos's *Exit: The Game* and the *Unlock!* series put the locks, the hint escalation, and the timed pressure of a venue onto a kitchen table for the price of a board game. [corpus] The container changed again, and the loop survived again, which is the through-line that runs across every landmark here.
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Live game: physical, room-scale puzzle experience |
+| Origin | SCRAP (Takao Kato), with the worldwide wave that followed |
+| Emerged | 2007 (first commercial Real Escape Game, Kyoto) |
+| Players | Typically four to six per team; venue-scale events run fifty to five hundred |
+| Format | One themed space (or a venue of them), a chain of physical puzzles, a sixty- to ninety-minute clock |
+| Substrate | Built sets, mechanical and electronic locks, hidden compartments, reactive lighting, a game-master station |
+| Industry scale | A global commercial sector; thousands of venues, plus boxed descendants such as *Exit* and *Unlock!* |
+
+## Sources
+
+- "Escape room." Wikipedia. (Form history, SCRAP and Takao Kato origin in 2007, typical team sizes and session length, global spread.) <https://en.wikipedia.org/wiki/Escape_room>
+- "Sherlocked The Vault." Room Escape Artist review, 7 June 2017 (playthrough 7 May 2017). (Beurs van Berlage location, century-old safe, heist framing, 2017 Golden Lock-In regional standout.) <https://roomescapeartist.com/2017/06/07/the-vault-sherlocked/>
+- Sherlocked. Operator site. (Beurs van Berlage vault setting, pre-game mobile app simulating the lock.) <https://sherlocked.nl/>
+- "Palace Games The Edison." Room Escape Artist review, 10 September 2018 (playthrough 20 August 2018). (Menlo Park laboratory theme, 34,000 reactive LEDs, adaptive difficulty, parallel-and-convergence structure, prop layering, 2018 Golden Lock-In award.) <https://roomescapeartist.com/2018/09/10/the-edison-palace-games/>
+- SCRAP. "Real Escape Game" operator sites. (2007 founding, large-cast format of fifty to five hundred participants in teams of six, San Francisco, New York and London events.) <https://realescapegame.com/>
+- "Hatch Escapes' The Ladder." Room Escape Artist Spoilers Club preview, 24 January 2025. (Five avatars, eight sets, roughly a dozen endings, bonus room, optional puzzle track.) <https://roomescapeartist.com/>
+- Spira, David. "Hints Are Surrender." Room Escape Artist, 2016. (The hint as a real-time recovery mechanism; push versus pull delivery.) <https://roomescapeartist.com/2016/05/16/hints-are-surrender/>
+- Nicholson, Scott. "Peeking Behind the Locked Door: A Survey of Escape Room Facilities." 2015. (Worldwide team-size ranges, the four-to-six sweet spot.) <https://scottnicholson.com/pubs/erfacwhite.pdf>

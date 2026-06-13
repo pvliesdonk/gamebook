@@ -106,5 +106,6 @@ The two ways a prompt fails are mirror images, and both are caught the same way.
 - [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd)
 - [Solo Modes](../systems-mechanics/solo-modes.qmd)
 - [The Journal as Artefact](the-journal-as-artefact.qmd)
+- [Thousand Year Old Vampire](../../exemplars/thousand-year-old-vampire.qmd)
 
 <!-- BACKLINKS:END -->

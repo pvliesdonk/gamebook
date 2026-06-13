@@ -1,0 +1,77 @@
+---
+title: "Unlock!"
+type: exemplar
+medium: tabletop
+year: 2017
+designer: "Space Cowboys"
+mechanisms:
+  - ../articles/puzzles-clues-information/self-resolving-puzzles.qmd
+  - ../articles/puzzles-clues-information/hint-systems-and-recovery.qmd
+  - ../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd
+  - ../articles/space-props-materiality/physical-clue-formats.qmd
+  - ../articles/space-props-materiality/digital-props.qmd
+  - ../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
+  - ../articles/systems-mechanics/digital-gating-and-state.qmd
+  - ../articles/systems-mechanics/replayability.qmd
+provenance: "corpus"
+---
+
+*Profile: an escape room folded down into a deck of cards, with a phone in the middle of the table acting as timekeeper, referee, and the only thing in the box that ever changes state.*
+
+Unlock! is what happens when the escape room is boxed for the kitchen table. Space Cowboys shipped the first set, *Escape Adventures*, in 2017, with Cyril Demaegd as lead designer, and it has since become the most commercially sustained app-assisted escape series in the tabletop market, with roughly two dozen adventure boxes by the mid-2020s that range over original scenarios and licensed properties such as Star Wars. [corpus] The game keeps the shape of a venue escape room, with the same searching and code-cracking against a falling clock, but none of the walls. A scenario is a deck of about 60 to 80 cards, and a free companion app does the work a human gamemaster would otherwise do. [corpus]
+
+It earns a place in this gazetteer because of where it draws the line between the physical and the digital. The cards hold the puzzles and never change; the app holds the state and never stops changing. That single split is the design decision worth studying, and most of what follows hangs off it. The links below run to the articles each part exemplifies.
+
+## The design profile
+
+The card layer runs on a small, fixed grammar. Every card carries a coloured header that tells you what kind of thing it is. Object cards print a number, and when two objects plausibly combine you add their numbers and draw the card with that sum, which represents what happens when the two things meet. Location cards anchor the fiction and list what can be examined. Machine and lock cards demand a code typed into the app. [corpus] The rule never changes from box to box. What changes is what the numbers stand for: a wrench in one scenario, a chemical compound in the next. So the series reads as a worked example for [a taxonomy of puzzles](../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd): the card-combination puzzle is one clean category, held constant at the rule level so the content can stay fresh on top of it. [corpus]
+
+::: {.callout-note}
+### The Signature
+
+The app is the judge, and the judge is a machine. A code is right or it is wrong, with no "you are close enough" ruling of the kind a human gamemaster would give. [corpus] Type a wrong code and the app deducts time and deals a penalty card. The phone counts down from 60 minutes. It also keeps a log of which hints you have asked for, and it verifies every submission the instant you enter it. [corpus] The cards never change state; the app is the only component that does. Pulling the entire verification layer into software is what gives the puzzles their precision: the designer knows exactly what the machine will accept and can test every solution before the box ships. [synthesis]
+:::
+
+Because the machine checks the answer rather than a person, the puzzle has to be tight. A gamemaster can read player intent generously and wave through a near-miss; software cannot, so the intended solution path has to be unambiguous and the playtesting more rigorous. [corpus] That app-as-judge model is the digital cousin of the principle behind [self-resolving puzzles](../articles/puzzles-clues-information/self-resolving-puzzles.qmd), where the mechanism itself confirms the answer and no referee is needed to adjudicate it. [synthesis] It also makes the app a piece of [digital gating and state](../articles/systems-mechanics/digital-gating-and-state.qmd): the code you find is not the secret but the key, and the gate it opens lives inside the software rather than on the card. [synthesis]
+
+Hints work through the same channel and quietly fix a social problem. To ask for help you type the relevant card number into the app, and a graded sequence comes back for that specific card. The first level offers a gentle nudge; a later level spells the answer out in full. [corpus] In a staffed escape room, asking for a hint is a public act. You have to admit out loud that the group is stuck, then weigh whether the answer that comes back is the one you needed. The app turns that transaction into a private query any player can make without a group vote. This lowers the cost of asking and keeps a team from grinding to a halt on a single puzzle. [corpus] The article on [hint systems and recovery](../articles/puzzles-clues-information/hint-systems-and-recovery.qmd) treats this app-mediated query as one delivery model among several, alongside the operator and the printed help card. The app also logs each hint, so a player can look back at a clue received earlier rather than ask a person for it twice. [corpus]
+
+The app is more than a validator. Later scenarios trigger atmospheric audio on certain code entries, and some sets add what the developer calls virtual-reality interfaces: a screen the players read or manipulate to extract a code. [corpus] At that point the phone is running a second layer of content alongside the cards, which makes it a clear case of a [digital prop](../articles/space-props-materiality/digital-props.qmd) doing narrative work rather than mere bookkeeping. [synthesis] When sound becomes a puzzle element, as in the horror scenario *The House on the Hill*, the series draws on [theme and sensory environment](../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd). The audio is part of the puzzle here, not background dressing. [corpus]
+
+The cards themselves are the other half of the story. Nothing is cut, folded, written on, or destroyed, so the deck resets completely after a play and the box can pass to the next group intact. [corpus] In the taxonomy of printed escape kits, this is the cleanest reusable-deck-plus-app hybrid, and the article on [physical clue formats](../articles/space-props-materiality/physical-clue-formats.qmd) treats it as the reusable pole opposite the destructible-book designs that consume themselves on first play. [corpus]
+
+## The wider influence
+
+Unlock! sits at the head of the app-assisted tabletop category: a printed game whose rules, timing, and verification are delegated to a smartphone, played at home rather than booked at a venue. The free app runs offline once installed and supports every released scenario, which matters for play on the move or in a venue with no signal. [corpus] By keeping the components reusable it turned the box into a lending asset. A single Unlock! box can circulate through a games club or a library and be solved by many teams over time. That is a distribution model destructible competitors cannot offer, because their components are spent on first use. [corpus]
+
+That same reusability sets the boundary of its [replayability](../articles/systems-mechanics/replayability.qmd). The components survive, but the puzzle content does not. Once a group has the codes, the scenario is solved for good, with no procedural variation or randomised element in the card grammar to refresh a second run. [corpus] The design investment is amortised across many different groups, not many plays by the same group. [synthesis] The other structural bet is on the platform. Every scenario needs the app, so a purchase is an implicit wager on continued maintenance by Asmodee, the parent group. As of early 2026 the app is current and actively updated, but a component-only design carries no such dependency, and reviewers have flagged the long-term risk in print since 2020. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+
+The machine judge has a sharp edge. Because a wrong code costs time and a penalty card, and because every logged hint marks down the final star rating, players who chase a high score are pushed to stop guessing and stop asking. [corpus] The intent is to reward thorough deduction. The felt experience can tip into low-grade anxiety about the clock, and a collaborative evening can curdle into internal pressure not to be the one who wastes a hint. A scoring layer meant to motivate can quietly punish the exploration that makes the puzzle fun. [synthesis]
+:::
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | App-assisted tabletop escape game (boxed, played at a table) |
+| Designer | Space Cowboys (lead designer Cyril Demaegd) |
+| Published | 2017, Space Cowboys (Asmodee Group) |
+| Players | One to six, cooperative |
+| Format | Self-contained card scenarios of 60 to 90 minutes, raced against a 60-minute app timer |
+| Substrate | A deck of roughly 60 to 80 cards per scenario, plus a free companion app (iOS and Android, offline-capable) |
+| Series | Roughly two dozen boxes by the mid-2020s, including Mysteries, Epic Adventures, Short Adventures, and Star Wars sets |
+
+## Sources
+
+- "Unlock!" Space Cowboys official product page. (Series overview, format, the companion app and its scenario support.) <https://www.spacecowboys-games.com/game/unlock/>
+- "Unlock! Escape Adventures." Meeple Mountain review. (The first box, card grammar, app-as-judge, and the play experience.) <https://www.meeplemountain.com/reviews/unlock-escape-adventures/>
+- "Unlock! Review." Board Game Quest. (Card colour-coding, code entry, hint and penalty mechanics, scoring.) <https://www.boardgamequest.com/unlock-review/>
+- "Unlock! Review." Islay the Dragon. (Scenario design, *Squeek and Sausage* and *The House on the Hill*, the hint penalty critique.) <https://islaythedragon.com/featured/review-unlock/>
+- "Unlock! vs EXIT." The Dao of Board Gaming, July 2025. (Reusable-versus-destructible comparison and the platform-dependency risk.) <https://daoofboardgaming.home.blog/2025/07/17/unlock-vs-exit-which-escape-room-board-game-series-reigns-supreme-and-is-suitable-for-my-family/>
+- "Unlock! Star Wars." CoopGestalt review, November 2020. (Licensed sets and their reach to a new audience.) <https://coopgestalt.com/2020/11/30/a-review-of-unlock-star-wars/>
+- "Unlock! Mystery Adventures." English Rose from Manchester's Blog, March 2023. (Themed trilogy with light narrative continuity across scenarios.) <https://englishrosefrommanchester.com/2023/03/11/unlock-mystery-adventures-board-game-review/>
+- "Unlock! Short Adventures." Amazon product listing. (Designer credits for the single-scenario family packs.) <https://www.amazon.com/Space-Cowboys-Unlock-Short-Adventures/dp/B0D5DGV33G>
+- "Unlock!" companion app store listing. (Confirms the app was at version 18.8 in February 2026, evidencing continued maintenance.) <https://apkpure.com/unlock/com.spacecowboys.unlocks01/amp>

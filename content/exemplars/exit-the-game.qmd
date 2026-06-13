@@ -1,0 +1,72 @@
+---
+title: "Exit: The Game"
+type: exemplar
+medium: tabletop
+year: 2016
+designer: "Inka & Markus Brand (Kosmos)"
+mechanisms:
+  - ../articles/space-props-materiality/physical-clue-formats.qmd
+  - ../articles/space-props-materiality/materials-durability-and-reset.qmd
+  - ../articles/puzzles-clues-information/self-resolving-puzzles.qmd
+  - ../articles/puzzles-clues-information/hint-systems-and-recovery.qmd
+  - ../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd
+  - ../articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd
+  - ../articles/structure-pacing/escape-room-topologies.qmd
+provenance: "corpus"
+---
+
+*Profile: a physical escape room folded into a 300-gram box, played at a kitchen table by a group who fold, cut, and tear the components on their way out.*
+
+Exit: The Game is the series that proved an escape room could ship as a paperback. Inka and Markus Brand, a married design partnership working for Kosmos, took the room-scale craze of the early 2010s and asked what survived once you removed the room. With the venue and the staff and the wall-mounted props all gone, what remained was a booklet, a deck of cards, and a plastic dial. The first three titles appeared in Germany in autumn 2016, and by 2026 the line ran past eighty boxes and more than thirty million copies sold. [corpus] The escape room is the ancestor in the prose throughout this profile, because almost every choice in the box is an answer to the question of what a room does that a box cannot, and what a box can do that a room cannot.
+
+It earns a place in this gazetteer because the format is a tight kit of four parts that solve, between them, the whole problem of running an escape room with no operator present. The booklet carries the puzzles. The card deck checks answers and meters help. The decoder dial does the refereeing. The fiction supplies a reason to destroy all of it. The links below run to the articles each part exemplifies.
+
+## The design profile
+
+The booklet is the heart of the box and the clearest break from the room. Each title ships a stapled booklet whose pages depict rooms, documents, and maps, and players are required to fold, cut, mark, or tear those pages to reveal what is hidden. [corpus] A clock face is folded so its hands overlap; a map gives up a symbol only once a page is torn away. The booklet is a consumable game board, and so it is the case study the article on [physical clue formats](../articles/space-props-materiality/physical-clue-formats.qmd) treats as the consumable pole of the spectrum: a printed surface costs almost nothing to produce yet carries a high density of puzzle, where a physical room would need a built prop for each reveal. [corpus] A page can be cut where a wall cannot. [synthesis]
+
+That consumable surface is a deliberate stance on a tension most tabletop designers resolve the other way. A board game is engineered to survive a hundred plays; Exit is engineered to be used up in one. The article on [materials, durability, and reset](../articles/space-props-materiality/materials-durability-and-reset.qmd) treats reset as a first-order design axis that trades permanence against tactile drama, and Exit sits at the far permanent-loss end of it. [corpus] The act of destroying the game is part of the play. [corpus] Once the components are altered, the same group cannot run the scenario again, and that is the point rather than a defect.
+
+::: {.callout-note}
+### The Signature
+
+Answer-checking is done by a plastic decoder dial, and the dial is the part of the box that is never destroyed. To verify a solution, players line up a symbol on the outer ring against a colour on an inner ring and read what the window shows. [corpus] The cleverness is that the dial's output means nothing unless you already hold the answer you are checking, so it cannot leak a solution you have not yet earned. It is a physical filter that needs no power, no app, and no connection, and it cannot fail silently the way a screen can. [corpus] This is the box doing for itself what a games master does in a staffed room: confirming a solve without ever handing it over.
+:::
+
+That dial is the analog answer to a problem the article on [self-resolving puzzles](../articles/puzzles-clues-information/self-resolving-puzzles.qmd) frames as the central one in any self-refereed game, namely how players check their work without seeing information they have not earned. [corpus] A staffed room can put a lock on the door and let the mechanism be the judge. Exit ports that logic onto a cardboard dial, so the box can referee itself with nobody watching.
+
+Help is metered the same way, through the cards rather than a person. Every riddle carries three help cards labelled A, B, and C. Card A nudges, card B hints harder, and card C gives the answer outright, so a single scenario satisfies an expert who opens none of them and a newcomer who opens every C. [corpus] This is the self-administered version of the staffed hint desk that the article on [hint systems and recovery](../articles/puzzles-clues-information/hint-systems-and-recovery.qmd) describes. The final score counts elapsed time alongside how many help cards were opened, so the metering is not just a recovery valve but a record. [corpus] The cost is honesty. The group administers its own hints, so a table that cannot agree on how much help is acceptable can sour the session. A room's operator would simply hold the line. [synthesis]
+
+Across a single box the puzzles span observation, manipulation, logic, and code-breaking, the divisions the article on [a taxonomy of puzzles](../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd) sets out, and the variety is load-bearing rather than decorative. [corpus] A group of two to four shares one booklet for sixty to ninety minutes, and a run made of one kind of puzzle would exhaust them in one particular way and punish anyone weak at that one thing. [synthesis] Mixing the cognitive load is what keeps a small group engaged around a single page for an hour and a half.
+
+## The wider influence
+
+The Spiel des Jahres jury handed the series the 2017 Kennerspiel des Jahres, the connoisseur category, beating Terraforming Mars and Raiders of the North Sea. [corpus] The award did real market work. It told retailers and buyers that a puzzle-experience box demanded genuine engagement rather than casual play, and it gave them confidence to stock a format with no shelf precedent. [corpus] What followed was a template the rest of the category borrowed from, then argued with, from competing destructible-book lines through to formats that rejected the single-use economics outright.
+
+The sharpest reaction came from the app-driven side. Exit is deliberately and entirely analog: its companion app offers only a timer and ambient sound and carries no puzzle content. [corpus] The rival Unlock line moves the decoder layer into a smartphone instead, which is the contrast the article on [physical vs digital puzzle artefacts](../articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd) is built around. [corpus] Each pole pays a different price. Exit's dial cannot adapt or escalate the way software can, but it never goes inert when a platform stops being maintained, which is the standing risk an app-checked catalogue carries. [synthesis] Read against its escape-room ancestor, the four-part kit routes a set of puzzles through one booklet, the print-scale cousin of the layouts the article on [escape room topologies](../articles/structure-pacing/escape-room-topologies.qmd) catalogues for built venues. [synthesis]
+
+::: {.callout-warning}
+### The Hazard
+
+The destructible-book model lives or dies on a two-dimensional surface, and that ceiling is real. A printed page cannot offer the weight of a box, the click of a shackle, or the room-scale searching a built escape room trades on, so the geometry of every Exit puzzle stays flat. [corpus] Clever printing, such as overlays, hidden ink, and folding, stretches the page a long way. A designer who reaches for the consumable booklet because it is cheap is buying its flatness too. There is a second ceiling, this one on group size. Optimal play tops out at four people around a single booklet. Beyond that number, the page is no longer legible to the whole table. A staffed room could spread the extra players across separate spaces; the box cannot. [corpus]
+:::
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Boxed tabletop escape game |
+| Designer | Inka & Markus Brand (Kosmos) |
+| Published | First three titles autumn 2016, Kosmos; English editions from Thames & Kosmos |
+| Players | One to four, played best by two to four around a single booklet |
+| Format | Self-refereed escape scenario of roughly 60 to 90 minutes, scored out of ten on time plus hints |
+| Substrate | Booklet, riddle and answer and help cards, a reusable plastic decoder dial, destructible printed artefacts |
+| Series | More than eighty titles by 2026; Kennerspiel des Jahres 2017 |
+
+## Sources
+
+- Brand, Inka and Markus. Interview, Mojo Nation. (Origins of the series and its escape-room inspiration.) <https://www.mojo-nation.com/inka-markus-brand-origins-escape-room-inspired-exit-game-series/>
+- Martin, Weric. "After Ten Years of EXITs." (Sales figures, title count, and series history; sourced from Kosmos and Thames & Kosmos promotional material.) <https://www.wericmartin.com/exit-the-game-inka-markus-brand-kosmos/>
+- "EXIT: The Game, Dead Man on the Orient Express review." Room Escape Artist, 2018. (The destructible-component design and how the series handles motivated destruction.) <https://roomescapeartist.com/2018/10/11/exit-the-game-dead-man-on-the-orient-express-review/>
+- "Complete List of EXIT: The Game Series." Board Game Halv. (Title list and the Kosmos five-point difficulty scale per title.) <https://www.boardgamehalv.com/complete-list-of-exit-the-game-series-escape-room-games/>
+- "Series: EXIT: The Game." BoardGameGeek. (The full series index; per-title player counts and durations, and the decoder-dial and help-card components.) <https://boardgamegeek.com/boardgamefamily/36963/series-exit-the-game>

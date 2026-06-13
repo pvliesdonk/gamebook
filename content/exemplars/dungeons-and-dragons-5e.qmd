@@ -1,0 +1,78 @@
+---
+title: "Dungeons & Dragons, 5th Edition"
+type: exemplar
+medium: tabletop
+year: 2014
+designer: "Wizards of the Coast (lead designers Mike Mearls & Jeremy Crawford)"
+mechanisms:
+  - ../articles/systems-mechanics/mechanical-resolution-types.qmd
+  - ../articles/systems-mechanics/turn-structure-and-action-economy.qmd
+  - ../articles/systems-mechanics/ttrpg-format-taxonomy.qmd
+  - ../articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd
+  - ../articles/players-social-dynamics/gm-role-models-and-stances.qmd
+  - ../articles/systems-mechanics/encounter-and-challenge-design.qmd
+  - ../articles/systems-mechanics/safety-systems-as-mechanical-layer.qmd
+provenance: "corpus"
+---
+
+*Profile: the hobby's centre of gravity, an accessible d20 engine that caps its own numbers so a goblin still bites at high level and a new table can learn the whole resolution rule from one page.*
+
+Dungeons & Dragons in its fifth edition is the game most people mean when they say "tabletop roleplaying". A table that has never argued over an earlier edition still rolls a d20 against a [difficulty class](../articles/systems-mechanics/mechanical-resolution-types.qmd) and still grabs a second die for [advantage](../articles/systems-mechanics/mechanical-resolution-types.qmd) rather than hunting for a stack of bonuses. It still moves through combat on the [action and reaction economy](../articles/systems-mechanics/turn-structure-and-action-economy.qmd) the rest of the hobby now treats as a default. Wizards of the Coast launched it on 19 August 2014, with Mike Mearls and Jeremy Crawford as lead designers, after a public playtest run through 2012 and 2013 under the codename "D&D Next". [corpus] What shipped was built for reunification: an edition that veterans of the original game and players of the tactical fourth edition could both adopt.
+
+It earns a place in this gazetteer less for inventing parts than for setting the baseline the whole field measures itself against. Most exemplars here illustrate one or two mechanisms cleanly. This one illustrates the default a designer is reacting to when they reach for something else, and a few of its structural choices have become quiet common sense. The links below run to the articles each part exemplifies; read in the other direction, those articles list this edition in their *Referenced by* register.
+
+## The design profile
+
+The resolution core is unchanged from the third edition in form. A player rolls a d20 and adds a modifier, then reads the total against a difficulty class. Attack rolls, saving throws, and ability checks all run on that same structure. [corpus] What changed is the scale of the numbers, and that single restraint carries most of the design.
+
+::: {.callout-note}
+### The Signature
+
+Bounded accuracy is the most consequential choice in the edition, and it is not a rule printed in the book. It is a constraint the designers held during development, and the aim is to keep the numbers small. The proficiency bonus tops out at +6 across all twenty levels. Ability scores cap at 20 in normal play, and magic weapons add at most +3. [corpus] In the third edition and its descendant Pathfinder, attack bonuses and armour class often climbed past +30. A low-level creature then stood no chance of landing a hit on a high-level one, and the maths had to be re-tuned tier by tier. With the range held narrow, a horde of goblins stays a credible threat to a high-level party. A difficulty class of 15 means the same thing at every level. A monster can be dropped into any bracket and its odds stay predictable. [corpus]
+:::
+
+The same instinct for restraint shows in advantage and disadvantage. Earlier editions stacked circumstance, flanking, and terrain bonuses into towers of arithmetic. The fifth replaced nearly all of that with a binary. To roll with advantage, you throw two d20s and keep the higher; to roll with disadvantage, you keep the lower; and one of each cancels however many you hold. [corpus] The trade is stated plainly in the design: fine detail is given up for speed, so a character who is blessed and behind cover and flanking does not add three bonuses but simply rolls with advantage. So the edition reads as a worked example of [graded and binary resolution](../articles/systems-mechanics/mechanical-resolution-types.qmd): the interesting question is not how big the modifier is but whether the dice tilt your way at all. Multiple sources of advantage never compound, so the old incentive to pile on buffs disappears, a direct lesson taken from the optimisation culture of the third edition. [corpus]
+
+Combat is where the edition spends its mechanical budget. Initiative orders the round, and each turn carries an action plus a bonus action and a reaction, with a shared vocabulary of conditions on top. All of it exists to support tactical fighting, and that turn grammar is the case the article on [action economy](../articles/systems-mechanics/turn-structure-and-action-economy.qmd) returns to. [corpus] The 2014 Player's Handbook names three pillars of play, combat alongside exploration and social interaction, but the support is uneven. Social play has Charisma checks and a Persuasion and Deception skill cluster, yet most of it resolves by table consensus rather than a subsystem. Exploration is the thinnest: wilderness travel and survival sit in the Dungeon Master's Guide as optional rules, and almost no character build reliably invests in them the way a fighter invests in combat. [corpus]
+
+Where the rules stop, the referee starts. The 2014 Dungeon Master's Guide opens by naming the DM the final adjudicator: the rules help the game run but the DM is the authority, an echo of the old-school "rulings, not rules" formulation. [corpus] In practice the book hands a wide surface of the game to that discretion, resting, downtime, exploration, improvised actions, without always supplying tools to exercise it. The result is high referee burden: a worked example of the [authority contract](../articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd) that experienced GMs find liberating and many newcomers find disorienting. [synthesis] The stance itself, a referee with narrative latitude rather than a fan of the characters in the PbtA sense or a strict old-school adjudicator, sits in the middle of the spectrum the article on [GM roles and stances](../articles/players-social-dynamics/gm-role-models-and-stances.qmd) maps. [corpus]
+
+That middle position is the edition's structural home. It is a GM-led, d20-centric game with class and level progression and no dice pool, which places it at a particular coordinate in the [format taxonomy](../articles/systems-mechanics/ttrpg-format-taxonomy.qmd). [corpus] Its encounter defaults are combat-centric, supported by an experience-point budget in the Dungeon Master's Guide that much of the play culture has since set aside for narrative pacing, and that budget is one of the worked cases in [encounter and challenge design](../articles/systems-mechanics/encounter-and-challenge-design.qmd). [corpus]
+
+The edition also carried an indie practice into the mainstream. *Tasha's Cauldron of Everything* (November 2020) printed a section on session-zero and safety tools, including the X-Card and the lines-and-veils technique, inside a bestselling Wizards hardcover. [corpus] Until then those tools lived mostly in independent roleplaying and live-action circles. Their appearance in a major release reached an audience several orders larger and pulled them toward the [mechanical safety layer](../articles/systems-mechanics/safety-systems-as-mechanical-layer.qmd) the article treats as a designed part of the system rather than an afterthought. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+
+Bounded accuracy is easy to admire and easy to break. Its flat maths only holds while everything stays inside the cap: the +6 proficiency ceiling and the score limit of 20, with magic items adding no more than +3. Hand out a homebrew item that adds +5, or let a build push a check modifier far past the band, and the careful property that keeps a goblin relevant at high level quietly collapses. The elegance is a budget, not a guarantee, and it spends down the moment the numbers escape their bounds. [synthesis]
+:::
+
+## The wider influence
+
+The fifth edition did not just sell well; it changed who plays. *Critical Role*, a game among voice actors that went public on Twitch in March 2015, was the dominant live-play show in the hobby by 2017, and it presented the game as dramatic entertainment to audiences who had never thought of sitting at a table. [corpus] It normalised longer sessions and emotionally invested characters and made Matthew Mercer's accessible, improv-inflected GM style an aspirational model. The crossover reach is hard to measure but visible in bookshop spikes and in the 2019 Kickstarter for the animated *The Legend of Vox Machina*, which raised 11.3 million US dollars in 24 hours. [corpus]
+
+Commercially the edition is dominant by a wide margin. The Player's Handbook recorded 1.56 million sales through BookScan, which covers major retail only, through 2023, with true figures across all channels considerably higher. [corpus] How much the rest of the field leans on that dominance became plain in early 2023. Wizards proposed revising the Open Game Licence in ways that constrained third-party publishers. The backlash revealed how much of the broader ecosystem depends on compatibility with this one game. It also revealed how fast that ecosystem can mobilise: Wizards reversed the revision within weeks. [corpus] A 2024 revision of the core books followed, framed as backwards-compatible rather than a new edition. It re-ordered character creation and rebuilt several classes while preserving the existing library. [corpus]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop roleplaying game |
+| Designer | Wizards of the Coast (lead designers Mike Mearls and Jeremy Crawford) |
+| Published | 2014, Wizards of the Coast (core books revised 2024) |
+| Players | One Dungeon Master and three to six players |
+| Format | Campaign play, run in sessions of roughly three to four hours |
+| Substrate | Player's Handbook, Monster Manual, Dungeon Master's Guide, character sheets, a polyhedral dice set |
+| Edition lineage | Fifth edition of the line begun in 1974; succeeds the fourth edition (2008); revised core books 2024 |
+
+## Sources
+
+- "Player's Handbook." Wikipedia. (Publication dates, the 2012-2013 "D&D Next" playtest, edition history.) <https://en.wikipedia.org/wiki/Player%27s_Handbook>
+- "Bounded Accuracy." Dungeons & Dragons Wiki. (The proficiency, ability-score, and magic-item caps and their mechanical effect.) <https://dungeonsdragons.fandom.com/wiki/Bounded_accuracy>
+- "Understanding Bounded Accuracy (5e Guideline)." D&D Wiki. (Design goals behind the bounded-accuracy constraint.) <https://www.dandwiki.com/wiki/Understanding_Bounded_Accuracy_(5e_Guideline)>
+- "Tasha's Cauldron of Everything." Wikipedia. (Chapter structure, the session-zero and safety-tools content, floating ability bonuses.) <https://en.wikipedia.org/wiki/Tasha%27s_Cauldron_of_Everything>
+- Roeland, Teos ("Alphastream"). "How D&D Sells and What It Means for the Hobby." 2023. (BookScan data, the 1.56 million Player's Handbook figure.) <https://alphastream.org/index.php/2023/09/25/how-dd-sells-and-what-it-means-for-the-hobby/>
+- "Critical Role Helped Spark a Dungeons & Dragons Renaissance." CNBC, 14 March 2020. (The live-play effect on mainstream adoption, the Vox Machina Kickstarter.) <https://www.cnbc.com/2020/03/14/critical-role-helped-spark-a-dungeons-dragons-renaissance.html>
+- "Why Exploration Is the Worst Pillar." EN World forums. (The exploration-pillar critique used by the design community.) <https://www.enworld.org/threads/why-exploration-is-the-worst-pillar.673489/>
+- "2024 Player's Handbook Is 'Fastest-Selling D&D Book Ever'." EN World. (The 2024 revision and its commercial claim.) <https://www.enworld.org/threads/2024-player%E2%80%99s-handbook-is-%E2%80%98fastest-selling-d-d-book-ever%E2%80%99.706875/>
+- "D&D 2024 5e Transition Guide and Change Log." RPGBOT. (The substantive 2024 changes and their backwards compatibility.) <https://rpgbot.net/dnd-2024-5e-transition-guide-and-change-log-everything-thats-different-in-the-new-players-handbook/>

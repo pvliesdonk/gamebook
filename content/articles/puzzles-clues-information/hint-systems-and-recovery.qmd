@@ -127,8 +127,10 @@ The hint that solves the puzzle *for* the solver kills the aha it was meant to r
 - [Cluing & Fairness](cluing-and-fairness.qmd)
 - [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
+- [Exit: The Game](../../exemplars/exit-the-game.qmd)
 - [Host Roles & the Host-Cannot-Play Problem](../players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)
 - [Information Architecture](information-architecture.qmd)
+- [Notable Escape Rooms](../../exemplars/notable-real-escape-rooms.qmd)
 - [Puzzle Hunt Craft](puzzle-hunt-craft.qmd)
 - [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd)
 - [Self-Resolving Puzzles](self-resolving-puzzles.qmd)
@@ -137,5 +139,6 @@ The hint that solves the puzzle *for* the solver kills the aha it was meant to r
 - [The Aha Moment](the-aha-moment.qmd)
 - [Treasure & Scavenger Hunts](treasure-and-scavenger-hunts.qmd)
 - [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd)
+- [Unlock!](../../exemplars/unlock-series.qmd)
 
 <!-- BACKLINKS:END -->

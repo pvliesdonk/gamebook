@@ -118,6 +118,7 @@ The seductive mistake is the borrowed mechanic that arrives without its traditio
 
 - [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
+- [Dungeons & Dragons, 5th Edition](../../exemplars/dungeons-and-dragons-5e.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
 - [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
 - [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)

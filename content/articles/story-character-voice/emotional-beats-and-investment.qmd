@@ -104,5 +104,6 @@ The Nordic larp *Just a Little Lovin'* is built as a machine for earned emotion.
 - [Romance & Relationships](romance-and-relationships.qmd)
 - [Solo Journaling RPGs: Genre & Form](solo-journaling-rpgs-genre-and-form.qmd)
 - [The Journal as Artefact](the-journal-as-artefact.qmd)
+- [Thousand Year Old Vampire](../../exemplars/thousand-year-old-vampire.qmd)
 
 <!-- BACKLINKS:END -->

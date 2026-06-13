@@ -116,7 +116,9 @@ A point of lineage closes the picture. The live-action tradition built this voca
 
 - [Blood on the Clocktower](../../exemplars/blood-on-the-clocktower.qmd)
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
+- [Dungeons & Dragons, 5th Edition](../../exemplars/dungeons-and-dragons-5e.qmd)
 - [Horror Conventions](../story-character-voice/horror-conventions.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
+- [Thousand Year Old Vampire](../../exemplars/thousand-year-old-vampire.qmd)
 
 <!-- BACKLINKS:END -->

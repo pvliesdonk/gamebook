@@ -1,0 +1,76 @@
+---
+title: "Thousand Year Old Vampire"
+type: exemplar
+medium: tabletop
+year: 2020
+designer: "Tim Hutchings"
+mechanisms:
+  - ../articles/story-character-voice/solo-journaling-rpgs-genre-and-form.qmd
+  - ../articles/story-character-voice/prompt-design-in-solo-journaling.qmd
+  - ../articles/story-character-voice/the-journal-as-artefact.qmd
+  - ../articles/systems-mechanics/solo-modes.qmd
+  - ../articles/story-character-voice/emotional-beats-and-investment.qmd
+  - ../articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd
+  - ../articles/structure-pacing/nonlinear-narrative-structures.qmd
+  - ../articles/systems-mechanics/safety-systems-as-mechanical-layer.qmd
+  - ../articles/systems-mechanics/ttrpg-format-taxonomy.qmd
+provenance: "corpus"
+---
+
+*Profile: a single player follows an immortal vampire across centuries by writing each turn into a journal and striking out the memories the years take, so that to play the game is to forget.*
+
+Thousand Year Old Vampire is the game that made the [solo journaling RPG](../articles/story-character-voice/solo-journaling-rpgs-genre-and-form.qmd) look like a place a serious designer would want to work. There is no group and no referee, and no dice roll that passes or fails. A [numbered prompt](../articles/story-character-voice/prompt-design-in-solo-journaling.qmd) tells you what has happened to your vampire. You write the answer into [a journal you keep by hand](../articles/story-character-voice/the-journal-as-artefact.qmd), and that writing is the whole of the turn. Tim Hutchings self-published it as a PDF in 2019 and brought out a hardcover through the Petit Guignol imprint in 2020 after a funded crowdfunding campaign, with a leather spine, marbled endpapers, and collaged illustrations meant to feel as old as the centuries the vampire inhabits. [corpus]
+
+It earns a place in this gazetteer because of one clean alignment. Most games bolt a theme onto a system that could carry any other. Here the rule that runs play is the forced loss of memory, and that rule is the theme itself rather than a representation of it. The links below run to the articles each part exemplifies; read in the other direction, those articles list this game in their *Referenced by* register.
+
+## The design profile
+
+The frame is a vampire's life across centuries. A threat arrives, or a mortal you loved grows old. A hard-won skill is lost as another hundred years turn. [corpus] Play does not march through the book in order. The player rolls a ten-sided die and a six-sided die. Subtract the smaller from the larger and move that many prompts forward, or backward on a negative result. [corpus] The walk loops back, skips ahead, and revisits situations out of sequence, so two playthroughs of the same book produce different spans of time and different emphases. That [non-linear traversal](../articles/structure-pacing/nonlinear-narrative-structures.qmd) is also a statement about its subject: memory does not arrive in order, and what the vampire recalls is only whatever the centuries have left reachable. [synthesis]
+
+The prompt does the work a resolution roll does elsewhere. It is the random result, the fictional situation, and the instruction to write, all at once, with no pass-or-fail layer between the question and the answer. [corpus] This is the [prompt-as-instruction pattern](../articles/story-character-voice/prompt-design-in-solo-journaling.qmd) at its plainest, and the genre has treated the book as a worked model of it.
+
+::: {.callout-note}
+### The Signature
+
+The character sheet is not a list of statistics. It is a list of Memories. The player holds exactly five at a time. Each Memory can carry up to three Experiences. An Experience is just a short phrase such as a name or an event. A prompt may require you to record a new Experience while every Memory is already full. When that happens you must strike out one Memory in full and lose its Experiences with it. There is no rule that recovers a lost Memory. A supplementary diary can hold a few more. A prompt can have that diary stolen, and nothing written in it can ever be revised. [corpus]
+:::
+
+The mechanic turns accumulation into loss. The longer you play, the more you have given up, and the game never frames this as poor play. Forgetting is not a penalty you can avoid by playing well; it is structurally guaranteed. You do not lose because you played badly. You lose because you played. [corpus] That is why the forced strike-out reads as a worked example of [a consequence chain with no costless option](../articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd). Every full sheet demands a choice, and something the player wrote, and came to care about, has to be given up. Hutchings has described the game as an exploration of the futility of memory, and the rule is not a metaphor for that idea but the idea made procedural. [corpus] The dominant register that falls out of it is melancholy, which makes the game a clean case of [rules engineered for an emotional beat](../articles/story-character-voice/emotional-beats-and-investment.qmd) rather than for challenge or mastery. [synthesis]
+
+Because there is no GM, no audience, and no shared table, the journal the player fills is the primary output and the medium the vampire exists in. [corpus] Crossing out a lost Memory, or squeezing a new Experience onto a near-full sheet and writing each entry by hand, does not record play from the side. This handwork is the play. The player serves at once as author and character. The player is also the first reader of the document as it grows. The antiqued hardcover is built to make the player's own notebook feel as old as the thing it records. [corpus] This sits the game squarely in the [solo and GMless mode](../articles/systems-mechanics/solo-modes.qmd): one player and no referee, with the structure carrying the work a GM would otherwise do.
+
+The book also takes its own weight seriously. Its prompts reach into self-harm, the loss of loved ones, bodily decay, and centuries of violence, and a solo player has no table to check in with. [corpus] Appendix Three provides what Hutchings calls the Support Flower, a [safety tool built into the rules](../articles/systems-mechanics/safety-systems-as-mechanical-layer.qmd) rather than left to the player's own judgement, adapted from group-play consent practice for solitary use, with guidance from Tayler Stokes on carrying that practice into a single-player context. [corpus] It gives permission structures and pause procedures, and tells the player plainly that stepping away or ending a session is no failure of the game. [corpus] At publication this stood out for treating solo safety as its own problem rather than assuming a group tool would transfer unchanged. [synthesis]
+
+::: {.callout-warning}
+### The Hazard
+
+The melancholy only lands if forgetting actually costs the player something. The strike-out bites because the Experiences were written by the same person who now has to lose them, in their own hand, on a sheet they have been building. [synthesis] Lift the five-slot memory rule onto a game whose entries are throwaway and the forced loss becomes nothing but bookkeeping. The same thing happens if the player quietly keeps a full backup off the sheet. The vampire forgets, but the player feels nothing. The whole emotional engine stalls. [synthesis]
+:::
+
+## The wider influence
+
+The game won the 2020 IndieCade Tabletop Design Award, two Gold ENNIE Awards for Best Rules and Best Production Values, and a Silver ENNIE for Product of the Year, recognition that arrived for a designer working alone and distributing through itch.io and his own storefront rather than a major publisher. [corpus] The period right after coincides with the largest expansion the solo journaling RPG has seen. Games citing it as an influence, or formally answering its design, appeared within months, with Chris Bissette's Wretched & Alone (2020) the most cited. [corpus]
+
+Several things made it the generative text rather than just an early one. The awards lent outside legitimacy. The PDF-first, itch.io-native release found a wide audience for a solo journaling game with no traditional publishing behind it. [corpus] And the design was legible to anyone who wanted to build in the same space. A numbered prompt book and a tightly bounded character sheet make up the kit, with dice for navigation and writing in place of any resolution roll. That template proved easy to read and easy to remix. The pandemic years then sharpened the demand, because a solo journaling game fits a moment when group play is hard to arrange. [corpus] The honest reading is that the game was a crystallisation point rather than a sole cause. Precursors such as Scott Malthouse's The Quill (2016) and Ironsworn (2018), the growth of itch.io as a platform, and the specific conditions of 2020 all fed the same wave. [synthesis] It also placed the game in a strain of design, alongside Ten Candles, Microscope, and Fiasco, that treats narrative loss as the engine of drama rather than as the price of failure. [corpus]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop roleplaying game |
+| Designer | Tim Hutchings |
+| Published | PDF 2019; hardcover 2020, Petit Guignol |
+| Players | One, solo, no GM |
+| Format | Single-session to open-ended solo play through a numbered prompt book |
+| Substrate | Prompt book, one ten-sided and one six-sided die, a handwritten journal |
+| Awards | 2020 IndieCade Tabletop Design Award; 2020 ENNIE Gold (Best Rules, Best Production Values), Silver (Product of the Year) |
+
+## Sources
+
+- Hutchings, Tim. *Thousand Year Old Vampire*. Self-published 2019; hardcover via Petit Guignol, 2020. Official product page: <https://thousandyearoldvampire.com/products/thousand-year-old-vampire>
+- "Thousand Year Old Vampire." Wikipedia. (Publication history, the Memory mechanic, the d10/d6 navigation, the hardcover production, and the awards.) <https://en.wikipedia.org/wiki/Thousand_Year_Old_Vampire>
+- "Thousand Year Old Vampire (2019)." Vintage RPG. (Retrospective on the design, the journal-as-artefact, and the melancholy register.) <https://www.vintagerpg.com/2022/03/thousand-year-old-vampire-2019/>
+- "Review: Thousand Year Old Vampire." Veritas Tabletop. (The prompt structure and the five-Memory sheet, with notes on the feel of play in practice.) <https://www.veritastabletop.com/review-thousand-year-old-vampire/>
+- "Tim Hutchings on Thousand Year Old Vampire." Justin Gary Design (Substack). (Designer interview: the futility-of-memory theme and the design intent behind forced forgetting.) <https://justingarydesign.substack.com/p/tim-hutchings-thousand-year-old-vampire>
+- "Thousand Year Old Vampire." IndieCade 2020 nominated games. (Award recognition.) <https://anywhere.indiecade.com/nominated-games_2020/thousand-year-old-vampire/>
+- "Appendix Three: The Support Flower." RPGGeek thread. (The solo safety appendix and its reception.) <https://rpggeek.com/thread/2897840/appendix-three-support-flower>
