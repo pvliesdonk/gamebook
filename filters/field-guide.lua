@@ -54,17 +54,25 @@ local function strip_label(inlines)
   return inlines
 end
 
+-- A part divider is a Div with class "quarto-book-part" (Quarto turns it into a
+-- `#part[...]` call later, in the typst writer; at filter time it is still a Div).
+-- Chapters are flat level-1 headings between these part Divs.
+local function is_part_div(b)
+  if b.t ~= "Div" then return false end
+  for _, c in ipairs(b.classes) do if c == "quarto-book-part" then return true end end
+  return false
+end
+
 function Pandoc(doc)
   -- 0. Curated PDF (decision #17): drop whole chapters flagged `pdf: false`.
-  -- A chapter runs from its level-1 heading to the next level-1 heading or the
-  -- next part (#part raw block); level-2 sections and Divs inside it do NOT end
-  -- it. The TOC and article numbering follow automatically, since both derive
-  -- from the level-1 headings that remain.
+  -- A chapter runs from its level-1 heading to the next chapter boundary (the next
+  -- level-1 heading or the next part Div); level-2 sections and callout Divs inside
+  -- it do NOT end it. The TOC and article numbering follow automatically, since
+  -- both derive from the level-1 headings that remain.
   local excluded = read_excluded()
   if next(excluded) ~= nil then
     local function chapter_boundary(b)
-      return (b.t == "Header" and b.level == 1)
-        or (b.t == "RawBlock" and b.text ~= nil and b.text:find("#part", 1, true) ~= nil)
+      return (b.t == "Header" and b.level == 1) or is_part_div(b)
     end
     local kept0, i = {}, 1
     while i <= #doc.blocks do
@@ -78,6 +86,28 @@ function Pandoc(doc)
       end
     end
     doc.blocks = kept0
+
+    -- Drop any part divider left empty by those chapter drops: a part Div with no
+    -- level-1 heading before the next part Div or the end of the book.
+    local kept1, j = {}, 1
+    while j <= #doc.blocks do
+      local b = doc.blocks[j]
+      if is_part_div(b) then
+        local k, has_chapter = j + 1, false
+        while k <= #doc.blocks and not is_part_div(doc.blocks[k]) do
+          if doc.blocks[k].t == "Header" and doc.blocks[k].level == 1 then
+            has_chapter = true
+            break
+          end
+          k = k + 1
+        end
+        if has_chapter then kept1[#kept1 + 1] = b end
+      else
+        kept1[#kept1 + 1] = b
+      end
+      j = j + 1
+    end
+    doc.blocks = kept1
   end
 
   -- 1. Drop the Sources / Referenced-by sections. `dropping` resets at any

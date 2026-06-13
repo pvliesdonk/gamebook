@@ -1,5 +1,6 @@
 ---
 title: "Keys"
+pdf: false
 ---
 
 Routers from intent to mechanism: find an article by the effect you want, the problem you face, the component you hold, the genre or format you are working in, or the medium.
