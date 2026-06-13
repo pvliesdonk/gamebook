@@ -70,7 +70,6 @@ The largest scale adds a third differentiator. Megagames in the *Watch the Skies
 
 The skeleton underneath is a three-layer briefing. A public setting briefing goes to everyone, and a partly-public faction briefing goes to each faction. On top of those sits an individual briefing, handed out on game day to stop players over-preparing in advance. [corpus] This role-and-venue pattern is what lets a clue-driven structure scale to hundreds of players without collapsing into either chaos or a single dominant knower. The naming here is unsettled in the source community, so use it as shorthand rather than house vocabulary.
 
-
 ### What the architecture costs
 
 The structure is not free, and its costs are predictable enough to plan around. A jigsaw mystery is cheap to run (the host just keeps things moving and makes no live rulings) but carries high single-point-of-failure risk if any unique clue sits with one player. A multi-act jubensha needs a host who times the acts and redistributes private cards in order, so its main hazard is reset: the material order matters between runs, and most run-time mishaps happen there. [corpus] An epistemic-tier megagame is expensive in control overhead and venue setup, but degrades gracefully, since a vacant role just severs one channel rather than stalling the whole game, and it replays better than the others because the negotiation layer survives knowing the facts. [corpus] The general rule across all of them: the static-fact layer of a clue game does not replay once solved, but the emergent layer (negotiation, deception, performance) does. [corpus]
@@ -85,25 +84,6 @@ The seductive failure is the packet that knows too much. You write one character
 **The bigger picture.** Information architecture is the load-bearing layer of this whole family, the structure the individual puzzles hang from. [Cluing & Fairness](cluing-and-fairness.qmd) keeps each clue sound; information architecture decides where each clue sits in the graph and who reaches it, and whether the structure survives a player going missing. Here the family's two oldest principles meet. The detective story's fair-play contract scales from one reader to many players, while the redundancy of the Three Clue Rule scales from one conclusion to a whole cast. Get the graph wrong and no amount of clue polish saves the evening, because the solver never reaches the polished clue. Get it right and every other concern in the family, sequencing, theming, the payoff, becomes a question of craft rather than survival.
 
 **Next steps.** Once the graph is drawn, the order in which players traverse it is [Clue Sequencing & Chains](clue-sequencing-and-chains.qmd), and the moment of insight the structure is built to deliver is [The Aha Moment](the-aha-moment.qmd). Where a puzzle hunt stacks answers-as-inputs on top of the graph, that meta layer is [Extraction, Indexing & Meta-Puzzles](extraction-indexing-and-meta-puzzles.qmd); where a machine rather than a host adjudicates the players' progress through it, that is [Self-Resolving Puzzles](self-resolving-puzzles.qmd). And when a well-built graph still leaves a group stranded for reasons no extra arrow will fix, the graceful exit is [Hint Systems & Recovery](hint-systems-and-recovery.qmd).
-
-## Sources
-
-- Knox, Ronald. "A Detective Story Decalogue," preface to *The Best English Detective Stories of 1928* (Faber and Faber / Horace Liveright, 1929). The clue-simultaneity rule and the early-suspect rule. Wikipedia summary: <https://en.wikipedia.org/wiki/Ronald_Knox>
-- Van Dine (pseudonym of Willard Huntington Wright). "Twenty Rules for Writing Detective Stories." *The American Magazine*, September 1928. The reader-equal-opportunity contract and the truth-apparent-in-retrospect rule. <http://gaslight-lit.s3-website.ca-central-1.amazonaws.com/gaslight/vandine.htm>
-- Doelle, Mark, and Mukerji, Souvik. "Computing Models of Escape Rooms." *Analog Game Studies*, December 2020. The Object Graph Model of escape-room dependencies. <https://analoggamestudies.org/2020/12/computing-models-of-escape-rooms/>
-- Strange Bird Immersive. "Bottlenecks: Designing for Focus Mid-Experience" (Immersology). Intentional bottlenecks as deliberate serial moments. <https://strangebirdimmersive.com/>
-- Room Escape Artist. "Red Herrings in Escape Rooms" (2019, citing Eric Harshbarger). The case against designed dead ends. <https://roomescapeartist.com/>
-- Freeform Games. "Writing a Murder" and "How to Write an Extra Character." Distributed-clue practice and the redundancy rule when scaling above the core cast. <https://www.freeformgames.com/>
-- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. The scenario as a web of information nodes. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
-- Alexander, Justin. "The Three Clue Rule." The Alexandrian, 8 May 2008. Redundant clues per conclusion; the chokepoint. <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule>
-- Hon, Adrian. "Here's What Makes Jubensha Different." mssv.net, 26 March 2025. Collaborative sensemaking; packet structure; the detective-and-suspect dual role. <https://mssv.net/2025/03/26/heres-what-makes-jubensha-different/>
-- Hong et al. "The Collaborative Sensemaking Play of Jubensha Games." *Games: Research and Practice*, ACM, 2025. DOI 10.1145/3721121. The multi-act release as the format's defining cognitive structure.
-- Twist n Turn Studios. "The Jubensha Structure Explained." The "spiciest clues at the bottom of the pile" ordering convention. <https://www.twistnturnstudios.ca/blog/jubensha-structure-and-free-jubensha>
-- Wallman, Jim. *Watch the Skies* (first run London, 2013). Role-and-venue exclusive-information mapping; press as mediator. <https://watchtheskies.net/>
-- Annison, Becky. "How to Write a Megagame Part 5: Briefings." BeckyBecky Blogs. The three-layer briefing structure. <https://beckybeckyblogs.wordpress.com/>
-- Barlow, Sam. *Her Story* (2015). Searchable contradicting interview clips; investigation as play. Cited in Wayne C. Booth, *The Rhetoric of Fiction* (1961) for the originating "unreliable narrator." <https://en.wikipedia.org/wiki/Her_Story_(video_game)>
-- Kurosawa, Akira. *Rashomon* (1950). The original multi-perspective contradiction structure.
-- Room Escape Artist. Critique of Hunt A Killer's first season (no in-session feedback loop). <https://roomescapeartist.com/>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
