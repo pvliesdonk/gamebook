@@ -18,7 +18,19 @@
 // reused `1fr` box breaks Typst's contents layout.
 #let fg-leader() = box(width: 1fr, inset: (x: 4pt), repeat[#text(fill: ink-faint)[.]#h(3pt)])
 
-// --- Cover --------------------------------------------------
+// --- Printed cover (full-bleed image; PDF only) -------------
+// The designed cover art fills the page edge to edge. A stand-in until the
+// final cover lands; swap assets/cover.png to replace it. fit:"cover" bleeds
+// to the trim (the art carries its own inner frame, so the small overscan is
+// safe); switch to "contain" if the whole frame must show.
+#let fg-cover-image() = page(
+  header: none, footer: none, background: none, numbering: none,
+  margin: 0pt, fill: paper,
+)[
+  #image("assets/cover.png", width: 100%, height: 100%, fit: "cover")
+]
+
+// --- Title page ---------------------------------------------
 #let fg-cover() = page(header: none, footer: none, background: none, numbering: none, fill: paper)[
   #set align(center)
   #set par(justify: false)
@@ -175,7 +187,9 @@ $endif$
   it
 }
 
-// Front matter: the cover and the contents, then the body flows.
+// Front matter: the printed cover, the title page, the colophon, the contents,
+// then the body flows.
+#fg-cover-image()
 #fg-cover()
 #fg-colophon()
 #fg-toc()
