@@ -121,6 +121,7 @@ Jubensha, the Chinese scripted murder-mystery format, makes canon-as-staged-reve
 
 - [Historical Fiction](historical-fiction.qmd)
 - [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd)
+- [The Mysterious Package Company](../../exemplars/mysterious-package-company.qmd)
 - [Voice & Register Consistency](voice-and-register-consistency.qmd)
 - [Worldbuilding Patterns](worldbuilding-patterns.qmd)
 

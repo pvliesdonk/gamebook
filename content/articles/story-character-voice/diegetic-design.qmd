@@ -113,6 +113,7 @@ The seductive failure is to treat "diegetic" as a quality score, where more is a
 - [IF Mechanics & Procedural Rhetoric](../systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd)
 - [Nonlinear Narrative Structures](../structure-pacing/nonlinear-narrative-structures.qmd)
 - [Science Fiction Conventions](science-fiction-conventions.qmd)
+- [The Mysterious Package Company](../../exemplars/mysterious-package-company.qmd)
 - [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd)
 
 <!-- BACKLINKS:END -->

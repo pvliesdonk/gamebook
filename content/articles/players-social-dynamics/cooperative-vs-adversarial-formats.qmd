@@ -109,10 +109,14 @@ These formats are live-game native, but their grammar carries into single-player
 
 ## Referenced by
 
+- [Blood on the Clocktower](../../exemplars/blood-on-the-clocktower.qmd)
 - [Cooperative & Legacy Genres](../systems-mechanics/cooperative-and-legacy-genres.qmd)
 - [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd)
 - [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd)
+- [Ironsworn](../../exemplars/ironsworn.qmd)
+- [Pandemic](../../exemplars/pandemic.qmd)
 - [Parallel Team Architectures](parallel-team-architectures.qmd)
+- [Paranoia](../../exemplars/paranoia.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Spectator-Friendly Design](spectator-friendly-design.qmd)
 - [Team Splitting Strategies](team-splitting-strategies.qmd)

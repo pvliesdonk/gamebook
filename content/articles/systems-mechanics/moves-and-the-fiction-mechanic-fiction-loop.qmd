@@ -129,10 +129,12 @@ The loop turns out to survive the loss of its own randomiser, which is the stron
 
 ## Referenced by
 
+- [Apocalypse World](../../exemplars/apocalypse-world.qmd)
 - [Branching Narrative Craft](../structure-pacing/branching-narrative-craft.qmd)
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
 - [Encounter & Challenge Design](encounter-and-challenge-design.qmd)
 - [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
+- [Ironsworn](../../exemplars/ironsworn.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
 - [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)
 - [Playbook Design](playbook-design.qmd)

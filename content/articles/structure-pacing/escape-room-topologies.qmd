@@ -118,5 +118,6 @@ The selection logic reduces to two inputs. The first is how many solvers you exp
 - [Information Architecture](../puzzles-clues-information/information-architecture.qmd)
 - [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)
 - [Team Sizes & the Bottleneck Problem](../players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd)
+- [The Crystal Maze](../../exemplars/crystal-maze.qmd)
 
 <!-- BACKLINKS:END -->

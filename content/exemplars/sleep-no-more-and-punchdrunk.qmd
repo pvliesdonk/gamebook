@@ -1,0 +1,74 @@
+---
+title: "Sleep No More & Punchdrunk"
+type: exemplar
+medium: live-game
+year: 2011
+designer: "Punchdrunk (Felix Barrett)"
+mechanisms:
+  - ../articles/structure-pacing/time-loop-patterns.qmd
+  - ../articles/players-social-dynamics/one-on-one-scene-design.qmd
+  - ../articles/players-social-dynamics/spectator-friendly-design.qmd
+  - ../articles/players-social-dynamics/player-types-and-casting.qmd
+  - ../articles/story-character-voice/environmental-storytelling-and-setting-as-character.qmd
+  - ../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
+  - ../articles/structure-pacing/nonlinear-narrative-structures.qmd
+provenance: "corpus"
+---
+
+*Profile: a masked crowd let loose in a hundred-room hotel to chase whichever character it likes through a wordless Macbeth. The whole show resets on the hour, three times an evening.*
+
+When designers say "immersive theatre," they almost always mean what Punchdrunk built. Felix Barrett founded the company in 2000, and its New York production of Sleep No More opened at the McKittrick Hotel in March 2011 and ran until January 2025, close to fourteen years in one converted Chelsea warehouse. [corpus] In that time it became the work against which every escape room, promenade show and live-action game is quietly measured. The hook is simple to state and hard to copy. The audience wears masks and never speaks, and it walks wherever it pleases through a building staged in full period detail, while a [repeating one-hour loop](../articles/structure-pacing/time-loop-patterns.qmd) of performance plays out across five floors at once.
+
+It earns a place in this gazetteer because its parts come apart cleanly. The mask is one rule that does several jobs. The loop is a scheduling device that doubles as a [nonlinear story engine](../articles/structure-pacing/nonlinear-narrative-structures.qmd). The rooms tell the tale with no one in them. Each of those ideas survives being lifted out of the warehouse and dropped into a much smaller room, which is the test this profile cares about. The links below run to the article each part exemplifies; read the other way, those articles list Sleep No More in their *Referenced by* register.
+
+## The design profile
+
+The show adapts Macbeth, staged with no spoken dialogue and carried instead by acrobatic choreography from Maxine Doyle, who shared the New York creative lead with Barrett. [corpus] Over a hundred rooms were built across five accessible floors of the McKittrick. There was a sanatorium and a forest, a ballroom and a candy shop, and hotel rooms with private letters left in the drawers. [corpus] The density of that build was the production's most-discussed quality, and it does narrative work on its own. A locked diary open to a telling page, a row of medicines arranged with apparent intent, a wall papered in handwritten letters: each of these carries story without a performer present to activate it. This is [environmental storytelling](../articles/story-character-voice/environmental-storytelling-and-setting-as-character.qmd) at full commitment, where the set is the medium rather than the backdrop. [corpus] A spectator who never caught a single scene could still spend hours reading the building. [synthesis]
+
+::: {.callout-note}
+### The Signature
+
+Every audience member is given a white mask on arrival and must wear it for the whole performance. Performers wear none; McKittrick staff wear black. The mask does several jobs at once. It anonymises spectators, which Barrett credits with granting "a sense of freedom," and it marks at a glance who is watching and who is being watched. Silence comes with it too. Speaking is barred everywhere apart from the entry bar and the private one-on-one scenes, so the mask sets the audience's default register without a word of spoken instruction. The white mask is the production's primary rule-delivery device, not a costume flourish. [corpus]
+:::
+
+That mask is also a permission structure, and the principle generalises well below warehouse scale. It licenses behaviour that would be socially strange otherwise. A masked guest is free to follow a stranger down a corridor or to open a drawer in someone else's room. Watching from the corner becomes normal rather than rude. Any live game that drops participants into an ambiguous social situation benefits from an equivalent signal, whether a printed badge, a costume item or a spoken framing such as "for the next hour you are a guest at the hotel." [synthesis] The mask is, in effect, the company's answer to a design problem the wider literature treats as casting: it makes the watcher a deliberate [player type](../articles/players-social-dynamics/player-types-and-casting.qmd) rather than a failed participant, and it gives every [spectator a sanctioned role](../articles/players-social-dynamics/spectator-friendly-design.qmd) in the fiction. [corpus]
+
+Underneath the wandering sits the loop. Each character runs a repeating arc of roughly one hour, so the full show cycles three times an evening before the doors close. [corpus] Mechanically this is a scheduling trick, but it is the structural heart of the design. A spectator who arrives late, or who backs the wrong character and misses a scene, can catch it on a later pass. A returning spectator already knows what is coming and can stake out a position to see what they missed before. The loop is what turns a single ticket into a [multiple-visit engine](../articles/structure-pacing/time-loop-patterns.qmd). The content far exceeds what any one person can absorb in an evening, so people came back. Many of them returned dozens of times. [corpus]
+
+Because the crowd is scattered and the arcs repeat, no spectator sees the whole story, and that incompleteness is the experience rather than a fault in it. In a conventional theatre, directing attention is solved: everyone watches the same thing at once. Here the distribution of attention across five floors is itself the work, which makes the show a worked example of [nonlinear structure](../articles/structure-pacing/nonlinear-narrative-structures.qmd) built from partial knowledge. [synthesis] The whole sensory build, the lighting, the period dressing, the continuous score, exists to hold belief in the absence of a narrator, and it is a reference point for [theme and sensory environment](../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd) pushed to its limit. [corpus] Two fixed points keep the sprawl from dissolving. Each loop ends with every character converging on a shared finale in the ballroom, where Macbeth is killed, the one moment the scattered audience experiences together. [corpus] And at scripted points a performer selects a single masked guest and leads them off into a locked room or hidden alcove for a brief private encounter, the only time a spectator is allowed to speak. [corpus]
+
+Those private scenes are the peak of the whole structure, and the reason they land is that they are rationed. The Hecate character sometimes asked one spectator to carry a message; a guest who passed an unstated test was taken to a hidden room and given tea and a private story, after which a paper boat dropped in the cup turned the tea red. [corpus] Their rarity made them the most sought-after and most sharply remembered moments in the show. The lesson for smaller games inverts the scale. With six participants rather than six hundred, a [one-on-one scene](../articles/players-social-dynamics/one-on-one-scene-design.qmd) is no longer a scarce prize to be guarded; it becomes a normal design tool you can build into the expected flow. [synthesis]
+
+::: {.callout-warning}
+### The Hazard
+
+The mask anonymises in both directions. A 2018 BuzzFeed News investigation documented performers and staff reporting that masked audience members had physically and sexually assaulted them during shows, on a production that was not unionised and whose response staff called inadequate. [researched] The same freedom that let spectators explore boldly also shielded those who behaved badly. Any permission structure that lowers normal social inhibition has to be paired with a way to hold the line on conduct, or it licenses the worst of the room along with the best. [synthesis]
+:::
+
+## The wider influence
+
+Punchdrunk's vocabulary was set from the company's first show in 2000, a deconstructed Woyzeck staged for a masked, wandering audience in a Territorial Army barracks, and it has been restaged at wildly different scales ever since. [corpus] The Drowned Man (2013 to 2014), co-produced with the National Theatre in a disused Paddington sorting office, broke that theatre's box-office records and pushed the format to genuinely industrial scale. [corpus] The Burnt City (2022 to 2023) ran for eighteen months at the Royal Arsenal in Woolwich, adapting the Trojan War cycle across two warehouses for more than 200,000 visitors. [corpus] Viola's Room (2024, at The Shed in New York) ran the idea the other way: audio-driven, one spectator at a time, no large building at all. [corpus] The company also founded Punchdrunk Enrichment in 2008 as a charity arm doing schools and community work, which is good evidence that masked-wandering need not depend on a warehouse and a commercial budget. [corpus]
+
+The portability is the real lesson. A single room with three things happening in different corners reproduces the core phenomenology of choice and partial knowledge at a fraction of the scale. [synthesis] What does not travel is the sense of solitary discovery: stumbling on a scene no one else is watching is a direct product of having a hundred rooms to be alone in, and a four-room space with twenty participants cannot manufacture it. [synthesis] Smaller applications are doing something categorically different, and they work best designed as their own thing rather than as a shrunken McKittrick. [synthesis]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Immersive theatre / live promenade performance |
+| Designer | Punchdrunk (Felix Barrett, direction and design; Maxine Doyle, choreography) |
+| Premiere | 7 March 2011, McKittrick Hotel, 530 West 27th Street, New York (Punchdrunk founded 2000) |
+| Players | Open masked audience, several hundred per night, free-roaming and silent |
+| Format | Promenade performance across five floors; three one-hour loops per evening |
+| Substrate | A converted warehouse of over 100 staged rooms, white audience masks, wordless choreography, continuous score |
+| Status | Closed 5 January 2025 after nearly fourteen years; 2011 Drama Desk Award for Unique Theatrical Experience |
+
+## Sources
+
+- "Sleep No More (2011 play)." Wikipedia. (Production timeline, creative credits, the loop structure, the one-on-one format, awards.) <https://en.wikipedia.org/wiki/Sleep_No_More_(2011_play)>
+- "Punchdrunk (theatre company)." Wikipedia. (Company founding, full production list, philosophy, the Enrichment programme.) <https://en.wikipedia.org/wiki/Punchdrunk>
+- Punchdrunk. Official company website. (Production descriptions for Sleep No More and The Burnt City.) <https://www.punchdrunk.com>
+- The McKittrick Hotel. Official venue website. (Venue details, audience instructions, the mask and silence rules.) <https://mckittrickhotel.com>
+- Hunt, Elle. "Inside Punchdrunk's radical immersive theatre show, The Burnt City." Dazed Digital, 2022. (The Burnt City format and attendance.) <https://www.dazeddigital.com>
+- "Performers And Staffers At 'Sleep No More' Say Audience Members Have Sexually Assaulted Them." BuzzFeed News, 2018. (Performer-welfare critique.) <https://www.buzzfeednews.com>
+- Malliaraki, Eirini. "Finding Hecate's ring." Medium, 2017. (The Hecate one-on-one scene in detail.) <https://eirinimalliaraki.medium.com>

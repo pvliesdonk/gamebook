@@ -127,6 +127,8 @@ This is the load-bearing claim of the article, so it is worth saying plainly. De
 - [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd)
 - [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd)
 - [One-on-One Scene Design](one-on-one-scene-design.qmd)
+- [Pandemic](../../exemplars/pandemic.qmd)
+- [Paranoia](../../exemplars/paranoia.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Pre-Game Workshop Design](pre-game-workshop-design.qmd)
 - [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)

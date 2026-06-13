@@ -115,6 +115,7 @@ Jubensha matters here because it shows the genre's two moods fused. The hidden-r
 
 ## Referenced by
 
+- [Blood on the Clocktower](../../exemplars/blood-on-the-clocktower.qmd)
 - [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd)
 
 <!-- BACKLINKS:END -->

@@ -1,0 +1,79 @@
+---
+title: "Apocalypse World"
+type: exemplar
+medium: tabletop
+year: 2010
+designer: "D. Vincent Baker & Meguey Baker (lumpley games)"
+mechanisms:
+  - ../articles/systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd
+  - ../articles/systems-mechanics/mechanical-resolution-types.qmd
+  - ../articles/systems-mechanics/playbook-design.qmd
+  - ../articles/players-social-dynamics/gm-role-models-and-stances.qmd
+  - ../articles/systems-mechanics/distributing-narrative-authority.qmd
+  - ../articles/systems-mechanics/progress-clocks-and-faction-state.qmd
+  - ../articles/systems-mechanics/system-vs-setting.qmd
+  - ../articles/systems-mechanics/ttrpg-format-taxonomy.qmd
+provenance: "corpus"
+---
+
+*Profile: a collapsed world run by an engine of small, second-person rules that fire when the fiction reaches a particular shape, where the referee never rolls and never plans the story.*
+
+Apocalypse World is the source text most of a generation of tabletop designers learned from. A table that has never set foot in its wasteland still writes rules as [moves with named triggers](../articles/systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd), still treats a 7-9 result as a complication rather than a failure, still hands each character type a [playbook](../articles/systems-mechanics/playbook-design.qmd) that carries its whole identity. Vincent Baker and Meguey Baker published it in 2010 through lumpley games, after public playtesting and at the end of a decade of Forge-era theory. [corpus] What shipped kept that theory's ambitions and threw out its density: a direct, voice-driven game that played the moment you opened it. [corpus]
+
+It earns a place in this gazetteer because almost every part of it travelled. The Bakers named their licence Powered by the Apocalypse and invited other designers to take the mechanics wholesale, and the family that followed runs to many hundreds of games. [corpus] The links below run to the articles each part exemplifies; read in the other direction, those articles list Apocalypse World in their *Referenced by* register.
+
+## The design profile
+
+The game is set after an unnamed catastrophe, in a world with no fixed geography and no canonical timeline. [corpus] That vagueness is a design choice, not a gap. A collapsed world is one whose rules are unknown and whose social contracts are still being written, so the table does not learn what this world is until play produces it. [corpus] The post-apocalypse gave Baker a reason for player-scale stakes, where a single character can found a settlement or start a cult, without an elaborate geopolitical backstory. The deliberately blank setting also made the game trivial to re-skin. [corpus] That is why it reads as a worked example of [system against setting](../articles/systems-mechanics/system-vs-setting.qmd): strip out the wasteland markers and keep the machinery underneath, and you have a new game.
+
+Underneath the fiction sits the move. A move is a discrete rule with a trigger, a condition in the fiction that switches it on, and a resolution structure. [corpus] The standard form rolls 2d6 against three bands, and that gradient is the game's most copied idea: its approach to [graded outcomes](../articles/systems-mechanics/mechanical-resolution-types.qmd).
+
+::: {.callout-note}
+### The Signature
+
+Every move is written in the second person, present tense, addressed to a character: *when you go aggro on someone, roll+Hard.* Roll 2d6 and add a stat. On 10+ you get a strong hit. On 7-9 you get a partial success, advancing the fiction while imposing a cost or forcing a choice. On 6 or under, the MC makes a move against you. The 7-9 band is the heart of it: it reframes a miss as a complication rather than a dead end, keeping the story in motion while the stakes stay real. The moves are not exceptions to a base resolution system. Assembled together, they become the resolution system. [corpus]
+:::
+
+Because each move waits on a specific shape in the fiction, the rules and the story drive each other in a loop rather than running on parallel tracks. The fiction triggers a move, the move resolves and changes the fiction, the changed fiction triggers the next move. That loop is the pattern the [moves article](../articles/systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd) is built around, and Apocalypse World is where it was first cut clean. [corpus]
+
+Character types arrive as playbooks, folded sheets with one per type. A single sheet holds the name list, the look options, the stats array, the starting moves, and the advancement track for that character. [corpus] Only one person at the table may hold a given playbook, so niche protection falls out of the physical object without a rule forbidding duplicate types. [corpus] The Hardholder runs a settlement, the Operator juggles a crew and its jobs, the Skinner works performance and influence. Each bundles a mechanical kit, a social position, and a set of narrative preoccupations together, and that bundling is the structural idea the [playbook article](../articles/systems-mechanics/playbook-design.qmd) traces back to this game. [corpus]
+
+The MC is a designed role rather than a default referee. Three tool sets interlock: an agenda, a list of principles, and a list of MC moves. [corpus] The agenda's load-bearing item, *play to find out what happens*, forbids the MC from planning a story and steering toward it, and it became a slogan for the whole fiction-first movement. [corpus] The principles ("be a fan of the players' characters", "ask provocative questions and build on the answers") are brief operating instructions, each concrete enough to settle one in-session decision. The MC moves list enumerates the permitted responses when the fiction calls for one, so a missed roll never collapses into the same two reactions every time. [corpus] This designed-facilitator stance is the case the article on [GM roles and stances](../articles/players-social-dynamics/gm-role-models-and-stances.qmd) returns to.
+
+The asymmetry runs deeper than tools. The MC never rolls dice. Player results trigger MC moves; the MC's job is to create pressure and consequence, not to compete over outcomes. [corpus] Underneath sits the Lumpley Principle, which Baker and Emily Care Boss articulated in the Forge years: system is the means by which a group agrees on what is true in the shared fiction, the rules together with all the social machinery around them. [corpus] Moves, MC moves, agenda, and principles together form a complete agreement about who may declare what, which is the question the article on [distributing narrative authority](../articles/systems-mechanics/distributing-narrative-authority.qmd) sets out to answer. [synthesis]
+
+After a first session the MC prepares blind, campaign management arrives as Fronts. A Front is a named threat with a type, a description, a cast of connected characters, and a clock that counts down to what happens if it is left alone. [corpus] The MC runs several at once and tracks what each would do if the players did nothing; play is what happens when they do something instead. That clock is the same widget the article on [progress clocks and faction state](../articles/systems-mechanics/progress-clocks-and-faction-state.qmd) treats as the canonical pressure tool, and Fronts are where it first carried a campaign spine. The second edition added threat maps, visual diagrams of how Fronts connect, alongside the clocks. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+
+A move list copied without its triggers is just a menu. The grammar bites because each move is anchored to a precise condition in the fiction: it fires when the character *goes aggro*, not when the player wants to roll. Lift the second-person moves onto a game where they fire on player request rather than on a fictional trigger, and the fiction-mechanic loop unwinds into ordinary skill checks wearing new names. [synthesis]
+:::
+
+## The wider influence
+
+Powered by the Apocalypse began as a licensing policy. A designer could take the mechanics into their own hack and then label the result to match. [corpus] By April 2023 Itch.io listed over 800 products carrying the tag. [corpus] The direct line runs through Dungeon World (2012), which fitted the move grammar to D&D-style fantasy. Monsterhearts (2012) turned it on teenage identity and monster fiction. Masks (2016) aimed it at superheroes. [corpus]
+
+Two later games matter most as departures in dialogue with the original. John Harper's Blades in the Dark (2017) swapped the move grammar for a dice pool and grew the Forged in the Dark sub-family. [corpus] Alder and Rosenbaum's Dream Askew / Dream Apart (2019) removed dice and the GM role altogether, founding the Belonging Outside Belonging sub-family. [corpus] Neither was ignorant of Apocalypse World. Each answered a specific limit designers had found in PbtA after years of use, and that is the surest sign of a source text: the field argues with it rather than around it. [synthesis]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop roleplaying game |
+| Designer | D. Vincent Baker and Meguey Baker (lumpley games) |
+| Published | 2010 (first edition), 2016 (second edition) |
+| Players | One MC and three to five players |
+| Format | Campaign play, run in sessions of roughly three to four hours |
+| Substrate | Core rulebook, printed playbooks, two six-sided dice, Front and threat sheets |
+| Open licence | Powered by the Apocalypse (hack-and-attribute policy, 2010) |
+
+## Sources
+
+- Baker, D. Vincent, and Meguey Baker. *Apocalypse World*. lumpley games, 2010 (1st ed.); 2016 (2nd ed.). (Move grammar, the 2d6 bands, playbooks, MC agenda and principles, Hx, Fronts.) <http://apocalypse-world.com/>
+- "Apocalypse World." Wikipedia. (Publication history, core mechanics, awards, the origin of the Powered by the Apocalypse licence.) <https://en.wikipedia.org/wiki/Apocalypse_World>
+- "Powered by the Apocalypse." Wikipedia. (Derivatives, the Forged in the Dark and Belonging Outside Belonging sub-families, the scale of the ecosystem.) <https://en.wikipedia.org/wiki/Powered_by_the_Apocalypse>
+- "D. Vincent Baker." Wikipedia. (Designer biography, the Lumpley Principle, prior works.) <https://en.wikipedia.org/wiki/D._Vincent_Baker>
+- Appelcline, Shannon. "The Evolution of the Apocalypse: A System History." Designers & Dragons, 2021. (Design lineage, Forge-era context, second-edition changes, derivative games.) <https://www.designers-and-dragons.com/2021/11/02/the-evolution-of-the-apocalypse-a-system-history/>
+- "Turn Order: Apocalypse World and its Impact on RPGs." Goonhammer. (MC role structure, agenda and principles, move-grammar detail.) <https://www.goonhammer.com/turn-order-apocalypse-world-and-its-impact-on-rpgs/>
+- "The Evolution of PbtA." ttrpg-games.com. (Partial-success design, fiction-first framing, genre-emulation mechanics.) <https://www.ttrpg-games.com/blog/the-evolution-of-pbta-from-apocalypse-world-to-brindlewood-bay>

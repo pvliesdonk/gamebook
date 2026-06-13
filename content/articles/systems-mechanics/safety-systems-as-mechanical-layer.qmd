@@ -114,6 +114,7 @@ A point of lineage closes the picture. The live-action tradition built this voca
 
 ## Referenced by
 
+- [Blood on the Clocktower](../../exemplars/blood-on-the-clocktower.qmd)
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
 - [Horror Conventions](../story-character-voice/horror-conventions.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)

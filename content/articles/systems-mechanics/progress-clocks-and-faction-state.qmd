@@ -101,6 +101,8 @@ The same accumulation logic shows up outside the tabletop. In a large live game 
 
 ## Referenced by
 
+- [Apocalypse World](../../exemplars/apocalypse-world.qmd)
+- [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
 - [Campaign Arc Shapes](../structure-pacing/campaign-arc-shapes.qmd)
 - [Clue Sequencing & Chains](../puzzles-clues-information/clue-sequencing-and-chains.qmd)
 - [Cluing & Fairness](../puzzles-clues-information/cluing-and-fairness.qmd)
@@ -112,6 +114,7 @@ The same accumulation logic shows up outside the tabletop. In a large live game 
 - [Heist & Caper Patterns](../story-character-voice/heist-and-caper-patterns.qmd)
 - [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd)
 - [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
+- [Ironsworn](../../exemplars/ironsworn.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
 - [NPC Craft & Voicing](../story-character-voice/npc-craft-and-voicing.qmd)
 - [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)

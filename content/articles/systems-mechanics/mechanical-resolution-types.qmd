@@ -117,6 +117,9 @@ A live game answers the same question with hardware. A self-resolving puzzle mak
 
 ## Referenced by
 
+- [Apocalypse World](../../exemplars/apocalypse-world.qmd)
+- [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
+- [Call of Cthulhu](../../exemplars/call-of-cthulhu.qmd)
 - [Decision Space & Choice Design](decision-space-and-choice-design.qmd)
 - [Deckbuilders](deckbuilders.qmd)
 - [Digital Gating & State](digital-gating-and-state.qmd)
@@ -125,6 +128,7 @@ A live game answers the same question with hardware. A self-resolving puzzle mak
 - [Encounter & Challenge Design](encounter-and-challenge-design.qmd)
 - [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
 - [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
+- [Ironsworn](../../exemplars/ironsworn.qmd)
 - [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
 - [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)
 - [Playbook Design](playbook-design.qmd)

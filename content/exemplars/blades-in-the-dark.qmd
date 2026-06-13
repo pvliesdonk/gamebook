@@ -1,0 +1,75 @@
+---
+title: "Blades in the Dark"
+type: exemplar
+medium: tabletop
+year: 2017
+designer: "John Harper (One Seven Design)"
+mechanisms:
+  - ../articles/systems-mechanics/mechanical-resolution-types.qmd
+  - ../articles/story-character-voice/conflict-patterns.qmd
+  - ../articles/systems-mechanics/progress-clocks-and-faction-state.qmd
+  - ../articles/systems-mechanics/playbook-design.qmd
+  - ../articles/systems-mechanics/prep-economy.qmd
+  - ../articles/story-character-voice/heist-and-caper-patterns.qmd
+  - ../articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd
+  - ../articles/systems-mechanics/ttrpg-format-taxonomy.qmd
+provenance: "corpus"
+---
+
+*Profile: a crew of scoundrels in a haunted industrial city, run by an engine that turns every dice roll into a small negotiation over danger and reward.*
+
+Blades in the Dark is the rare design that is quoted more often than it is played. A table that has never touched Doskvol still reaches for its [progress clocks](../articles/systems-mechanics/progress-clocks-and-faction-state.qmd), still weighs a roll's [position and effect](../articles/systems-mechanics/mechanical-resolution-types.qmd), still lets a player rewind the fiction to explain a precaution they never declared. John Harper published it in 2017 through Evil Hat, after a Kickstarter that funded its modest goal in a single day and an extended public playtest. [corpus] What shipped was a campaign engine for criminal crews that has since been borrowed from, piece by piece, across the hobby.
+
+It earns a place in this gazetteer because so many of its parts travel. Most exemplars here illustrate one or two mechanisms cleanly. Blades illustrates most of a [system family](../articles/systems-mechanics/ttrpg-format-taxonomy.qmd) at once, and several of its parts have escaped the game entirely to become common vocabulary. The links below run to the articles each part exemplifies; read in the other direction, those articles now list Blades in their *Referenced by* register.
+
+## The design profile
+
+The game is set in Doskvol, a walled port city on a world whose sun has died, where the dead rise as ghosts unless held back by electroplasmic barriers. [corpus] The setting is not backdrop. The dead sun produces the ghost economy, which produces the specific crimes the crew commits and the specific dangers beyond the walls, so the fiction and the mechanics are wound together rather than laid side by side. [synthesis]
+
+Underneath that fiction sits a deliberately blunt resolution core. The dice stay simple, and the judgement happens before any of them are thrown. That judgement is the game's most exported idea: its approach to [graded outcomes](../articles/systems-mechanics/mechanical-resolution-types.qmd).
+
+::: {.callout-note}
+### The Signature
+
+Before any roll, the table fixes two dials. **Position** says how exposed you are if it goes wrong: controlled, risky, or desperate. **Effect** says how much you accomplish if it goes right: limited, standard, or great. A player can push for greater effect by accepting a worse position in return. The dice themselves are deliberately crude: a pool of six-sided dice from which you keep the single highest. The whole craft of the system lives in that pre-roll framing rather than in modifiers. [corpus]
+:::
+
+Because both dials are set in the fiction before anyone rolls, every action becomes a small negotiation over stakes rather than a pass-or-fail check. That is why the game reads as a worked example of [conflict as a stakes negotiation](../articles/story-character-voice/conflict-patterns.qmd): the interesting decision is what you are willing to risk, named out loud before the dice land. [corpus]
+
+The same openness runs through the [progress clocks](../articles/systems-mechanics/progress-clocks-and-faction-state.qmd). A clock is a segmented circle drawn on the table to track any building situation, such as a rising alarm or a wound that has begun to close. It sits in the open as a shared picture of pressure. A filled clock triggers a change. The device is generic enough that it has spread far past this game, so the article treats it as the canonical tension tool. [corpus]
+
+The flashback is the crew's answer to planning. Rather than budget a scene for the heist to be plotted, a player spends stress mid-job to establish a precaution their character took earlier, resolved as an ordinary roll. This inverts the trap that [prep economy](../articles/systems-mechanics/prep-economy.qmd) names, paying for preparation only when it surfaces, and it hands the table the [heist-film rhythm](../articles/story-character-voice/heist-and-caper-patterns.qmd) where the audience learns the plan as it executes. [corpus]
+
+Two further parts round out the engine. Character and crew each carry a [playbook](../articles/systems-mechanics/playbook-design.qmd), so the gang advances as its own entity alongside the people in it. [corpus] And the city runs on [faction clocks](../articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd). A dozen factions each hold a tier and a standing toward the crew, and they pursue their own agendas between sessions whether or not the players intervene. That autonomous agenda is the problem the article is built around. [corpus] Crew reputation gates what those factions will offer; crew tier sets the scale of job they can attempt.
+
+## The wider influence
+
+In December 2017 Harper released the Forged in the Dark SRD under a Creative Commons CC-BY licence, keeping only the mechanics and explicitly inviting derivative games. [corpus] By 2023 itch.io listed more than three hundred products carrying the tag, from the space-opera *Scum and Villainy* to the magical-girl *Girl by Moonlight*. [corpus] The permissive licence, attribution without share-alike, did as much to grow that family as the rules did, and it pushed open licensing toward the norm in the indie scene. [synthesis]
+
+The parts have also travelled on their own. Designers who have never read the game still draw progress clocks, still frame a roll as position against effect, still alternate a campaign between high-pressure operations and quieter recovery. That portability is the real lesson of the profile. A rule that does one job cleanly, with no dependency on the rest of the system, becomes a tool the whole field can lift.
+
+::: {.callout-warning}
+### The Hazard
+
+A clock borrowed without its pressure is just a tally. Blades's clocks bite because filling one *does something* the table already fears, and because position and effect keep raising the stakes that feed them. Lifting the circle onto a game that has no equivalent source of escalation gives you the picture of tension without the tension. [synthesis]
+:::
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop roleplaying game |
+| Designer | John Harper (One Seven Design) |
+| Published | 2017, Evil Hat Productions |
+| Players | A GM and one to four players sharing a single crew |
+| Format | Campaign play, run as scores of roughly three to four hours |
+| Substrate | Core rulebook, pools of six-sided dice, character and crew playbooks, segmented clocks |
+| Open licence | Forged in the Dark SRD (Creative Commons CC-BY, 2017) |
+
+## Sources
+
+- Harper, John. *Blades in the Dark*. Evil Hat Productions, 2017. Core rules: <https://bladesinthedark.com/basics>
+- Harper, John. "Forged in the Dark" SRD. One Seven Design, 2017. <https://bladesinthedark.com/forged-dark>
+- "Blades in the Dark." Wikipedia. (Publication history, the position-and-effect system, progress clocks, the flashback, and the Forged in the Dark family.) <https://en.wikipedia.org/wiki/Blades_in_the_Dark>
+- "Blades in the Dark." Kickstarter, One Seven Design, 2015. (Funding history: one-day funding, final raise.) <https://www.kickstarter.com/projects/2080350433/blades-in-the-dark>
+- "Blades in the Dark." RPG Museum. (Crew and character playbook structure, faction tiers and clocks.) <https://rpgmuseum.fandom.com/wiki/Blades_in_the_Dark>

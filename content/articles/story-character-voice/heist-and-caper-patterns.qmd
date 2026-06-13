@@ -127,6 +127,7 @@ The flashback is the heist genre handing interactive design its own solution. Th
 
 ## Referenced by
 
+- [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
 - [Conflict Patterns](conflict-patterns.qmd)
 
 <!-- BACKLINKS:END -->

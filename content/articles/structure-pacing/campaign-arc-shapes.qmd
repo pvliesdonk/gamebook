@@ -132,6 +132,7 @@ The West Marches format, described by Ben Robbins in 2007, is the cleanest examp
 - [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd)
 - [Faction Design & Asymmetric Objectives](../players-social-dynamics/faction-design-and-asymmetric-objectives.qmd)
 - [Hexcrawl & Pointcrawl](hexcrawl-and-pointcrawl.qmd)
+- [Hunt A Killer](../../exemplars/hunt-a-killer.qmd)
 - [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
 - [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)

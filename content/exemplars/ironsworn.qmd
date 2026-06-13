@@ -1,0 +1,74 @@
+---
+title: "Ironsworn"
+type: exemplar
+medium: tabletop
+year: 2018
+designer: "Shawn Tomkin (Tomkin Press)"
+mechanisms:
+  - ../articles/systems-mechanics/oracle-and-solo-play-resolution.qmd
+  - ../articles/systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd
+  - ../articles/systems-mechanics/mechanical-resolution-types.qmd
+  - ../articles/systems-mechanics/progress-clocks-and-faction-state.qmd
+  - ../articles/systems-mechanics/playbook-design.qmd
+  - ../articles/systems-mechanics/solo-modes.qmd
+  - ../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd
+  - ../articles/systems-mechanics/ttrpg-format-taxonomy.qmd
+provenance: "corpus"
+---
+
+*Profile: a grim frontier of oaths and ruins, run by a PbtA engine that swaps the absent referee for a table of dice you ask out loud, so the same rulebook plays with a group, with friends and no GM, or entirely alone.*
+
+Ironsworn is the game that made solo roleplaying look like a first-class design problem rather than a workaround for a missing player. A table reaching for an [oracle to ask the dice what happens next](../articles/systems-mechanics/oracle-and-solo-play-resolution.qmd), tracking a quest on a filled-box [progress track](../articles/systems-mechanics/progress-clocks-and-faction-state.qmd), or running a campaign with [no GM at the table](../articles/systems-mechanics/solo-modes.qmd) is often, knowingly or not, reaching for something Ironsworn cut clean. Shawn Tomkin self-published it in 2018 through Tomkin Press after roughly three years of playtesting, and gave the core rulebook away as a free PDF under a permissive licence. [corpus] What shipped was a complete game in a single book: rules, setting, oracle tables, and worked examples, with no second purchase needed to play. [corpus]
+
+It earns a place in this gazetteer because of one structural bet. Most games that support solo play bolt a variant onto a GM-required core. Ironsworn does the reverse: it is built for play without a referee first, and the GM mode is the addition. The links below run to the articles each part exemplifies; read in the other direction, those articles list Ironsworn in their *Referenced by* register.
+
+## The design profile
+
+The setting is the Ironlands, a harsh frontier peninsula in a broadly Norse Iron Age register. Fjord coasts and boreal forest hold the cyclopean ruins of an unnamed prior people, and the culture on top of it is built on oaths and survival. [corpus] The world is deliberately underspecified. Nine regions are sketched in broad strokes, and a "Your Truths" step lets players answer about twenty setting questions before play, settling whether magic works, whether the gods are real, what the old ruins were. [corpus] The Ironlands is a scaffold rather than a fixed canon, which keeps the genre grammar (cold, grim, morally earnest) without locking in detail that a player's own answers might contradict. [synthesis]
+
+Underneath sits a move engine in the Powered by the Apocalypse line: rules with fictional triggers, fiction-first framing, and a graded result. [corpus] That inheritance is why the game reads as a worked example of [moves driving the fiction in a loop](../articles/systems-mechanics/moves-and-the-fiction-mechanic-fiction-loop.qmd). The resolution core, though, departs from the standard 2d6.
+
+::: {.callout-note}
+### The Signature
+
+The action roll throws a single d6 plus a stat against two separate d10 challenge dice. Beat both and you get a strong hit, a clean success that gains momentum. Beat one and you get a weak hit, where the success arrives with a cost or a complication. Beat neither and you miss, which means failure and a price to pay. The two challenge dice add a wrinkle the standard form lacks. When they show the same number, a "match" fires, and the result swings harder than usual, for good or ill. That match hands the dice the job a GM would normally do, deciding when a moment escalates beyond the ordinary. [corpus]
+:::
+
+The hit, weak hit, and miss gradient is the same family as the PbtA partial success, so the game sits cleanly alongside other [graded-outcome systems](../articles/systems-mechanics/mechanical-resolution-types.qmd), but two resources give it a longer memory. Momentum is a track running from -6 to +10, banked through successes and narrative wins, that a player can burn to swap out a challenge die after the fact. [corpus] Progress tracks are the second: every vow, fight, and journey gets its own ten-box track, filled by fictional milestones rather than by counting rolls. [corpus] That distinction, fictional weight advancing the track rather than dice thrown, is exactly the property the article on [progress tracks as a tension tool](../articles/systems-mechanics/progress-clocks-and-faction-state.qmd) is built around, applied here to a personal quest rather than a faction clock.
+
+The vow is the narrative engine. A character swears an iron vow, such as a promise to bring back a stolen relic, at a rank from Troublesome to Epic. A higher rank means each milestone advances the track by more boxes, against a harder roll at the end. [corpus] The Swear an Iron Vow move opens the arc. Progress then comes through Reach a Milestone, a marker earned in the fiction rather than claimed by a roll. The closing move, Fulfil Your Vow, drops the action die in favour of the two challenge dice against the filled track, so momentum cannot stand in for real progress. [corpus] A broken or abandoned vow exacts a price in spirit and a possible debility. This makes narrative retreat costly and holds the honour-and-consequence register in place. [corpus]
+
+The piece that makes the solo and co-op modes work is the oracle, and Ironsworn promotes it from sidebar to rule. Ask the Oracle is a named move, a first-class action rather than advice, which normalises mid-session table consultation as legitimate play. [corpus] The suite runs to roughly twenty tables: yes/no questions with weighted odds, place names, NPC descriptors, region features, and at its heart a paired Action and Theme draw. Roll Action ("Explore"), roll Theme ("Corruption"), and read the pairing in context. [corpus] The combinatorial word-pair approach descends from the Mythic Game Master Emulator's Action and Subject tables, but Ironsworn writes the vocabulary in the Ironlands' own register, so the prompts arrive already tonally consistent and need little translation. [corpus] This is the machinery the article on [the oracle as a solo-resolution tool](../articles/systems-mechanics/oracle-and-solo-play-resolution.qmd) treats as canonical.
+
+One rulebook carries three configurations. Guided play keeps a GM and one or more players. Co-op drops the GM and lets the group share the oracle's work between them. Solo runs a single player against the oracle alone. [corpus] Because moves carry explicit guidance on when to consult an oracle, the same text serves all three without duplication, and the architecture is GMless-first with the guided mode layered on top. [corpus] That puts the game at the joint of two articles: the [solo and GMless modes](../articles/systems-mechanics/solo-modes.qmd) it was designed around, and the [cooperative, non-adversarial format](../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd) of its co-op table, where the players face the situation together rather than any one of them running it. A group that begins guided can lose their GM and carry on co-op with the same characters and the same book. [corpus] Characters themselves are built from assets, a deck of about seventy-five printable cards bundling a role and its moves, which gives the game its own answer to [the playbook as a packaged identity](../articles/systems-mechanics/playbook-design.qmd). [corpus]
+
+::: {.callout-warning}
+### The Hazard
+
+The vow track only bites if the milestones are genuinely earned. No GM is present to validate what counts as progress. A solo player marks their own track, and nothing in the dice stops a box being filled for a milestone the fiction did not really reach. [corpus] Lift the progress track onto a solo game without that fictional gate and it slides into a tally the player advances at will, which is the failure mode the solo-RPG community has long flagged. [synthesis]
+:::
+
+## The wider influence
+
+Ironsworn won the 2019 ENNIE Gold Award for Best Free Product, the top prize for freely available material, and holds a rating near 4.9 out of 5 across close to three hundred reviews on itch.io. [corpus] John Harper, designer of Blades in the Dark, called it a masterpiece that advanced the state of solo RPG design. [corpus] The free release under an open community licence seeded a wide third-party ecosystem of supplements, oracle expansions, and digital tools, and it helped settle a norm in the solo scene where free-to-play is the baseline for a genre-defining title. [corpus]
+
+The deeper influence is the architecture. By placing oracle consultation inside the move structure rather than beside it, Ironsworn made the oracle core play rather than bookkeeping, and it dissolved an old assumption, dating to the Mythic Game Master Emulator in 2003, that solo emulation was a stopgap for missing players rather than a primary goal. [corpus] The vow track gave designers a model for quest-scoped pacing that leans on fictional milestones instead of encounter counts or a timer, and adjacent work in campaign and collaborative-fiction tools has cited it. [corpus] Tomkin then proved the pattern was portable: after the Delve expansion (2020) came Starforged (2022), a standalone science fiction game that rebuilt the oracle tables, moves, and setting-truth system for precursor starships rather than reskinning the originals. [corpus] A design argued with and carried into a new genre is the surest sign of a source text. [synthesis]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop roleplaying game |
+| Designer | Shawn Tomkin (Tomkin Press) |
+| Published | 2018, self-published via itch.io |
+| Players | One to several, in guided, co-op, or solo configurations |
+| Format | Campaign play structured around sworn vows |
+| Substrate | Core rulebook, one six-sided and two ten-sided dice, character sheet, around seventy-five printable asset cards |
+| Status | Free core PDF under an open community licence; print editions sold separately |
+
+## Sources
+
+- Tomkin, Shawn. *Ironsworn*. Tomkin Press, 2018. (Free core rulebook: the action roll and challenge dice, momentum, progress tracks, the iron vow moves, the oracle suite, the three play modes, assets, the Ironlands setting.) <https://shawn-tomkin.itch.io/ironsworn>
+- Tomkin Press. (Publisher page: the full Ironsworn line, Delve, Starforged, and supplement descriptions.) <https://tomkinpress.com/>
+- "Ironsworn." Wikipedia. (Publication history, the play modes, the ENNIE Gold award, design influences including the Mythic Game Master Emulator, and the supplement timeline.) <https://en.wikipedia.org/wiki/Ironsworn>
+- "Ironsworn." TV Tropes. (Community documentation of the setting, the vow system, and the oracle tables.) <https://tvtropes.org/pmwiki/pmwiki.php/TabletopGame/Ironsworn>

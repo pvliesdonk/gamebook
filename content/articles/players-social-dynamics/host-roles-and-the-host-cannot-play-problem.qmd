@@ -105,11 +105,13 @@ Interactive fiction does not have a host in the room, yet it inherits the same p
 
 ## Referenced by
 
+- [Blood on the Clocktower](../../exemplars/blood-on-the-clocktower.qmd)
 - [GM Role Models & Stances](gm-role-models-and-stances.qmd)
 - [Parallel Team Architectures](parallel-team-architectures.qmd)
 - [Prep Economy](../systems-mechanics/prep-economy.qmd)
 - [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
 - [Team Sizes & the Bottleneck Problem](team-sizes-and-the-bottleneck-problem.qmd)
 - [Team Splitting Strategies](team-splitting-strategies.qmd)
+- [The Crystal Maze](../../exemplars/crystal-maze.qmd)
 
 <!-- BACKLINKS:END -->

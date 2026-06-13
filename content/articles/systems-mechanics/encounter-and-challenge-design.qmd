@@ -122,6 +122,7 @@ In single-player digital puzzle games the unit is the puzzle or the room, and th
 
 ## Referenced by
 
+- [Call of Cthulhu](../../exemplars/call-of-cthulhu.qmd)
 - [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
 - [Prep Economy](prep-economy.qmd)

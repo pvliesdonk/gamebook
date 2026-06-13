@@ -95,6 +95,8 @@ The live form is the question of diegetic mechanics. In an escape room a designe
 
 ## Referenced by
 
+- [Apocalypse World](../../exemplars/apocalypse-world.qmd)
+- [Call of Cthulhu](../../exemplars/call-of-cthulhu.qmd)
 - [Fantasy Conventions](../story-character-voice/fantasy-conventions.qmd)
 - [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)

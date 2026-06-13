@@ -114,6 +114,7 @@ The cliffhanger earns its own mention because it is a scheduling tool as much as
 
 ## Referenced by
 
+- [Call of Cthulhu](../../exemplars/call-of-cthulhu.qmd)
 - [Campaign Arc Shapes](campaign-arc-shapes.qmd)
 - [Dungeon & Spatial Topology](../space-props-materiality/dungeon-and-spatial-topology.qmd)
 - [Encounter & Challenge Design](../systems-mechanics/encounter-and-challenge-design.qmd)
@@ -127,6 +128,7 @@ The cliffhanger earns its own mention because it is a scheduling tool as much as
 - [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd)
 - [Scene Structure & Transitions](scene-structure-and-transitions.qmd)
 - [Team Sizes & the Bottleneck Problem](../players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd)
+- [The Crystal Maze](../../exemplars/crystal-maze.qmd)
 - [Time Loop Patterns](time-loop-patterns.qmd)
 - [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd)
 - [Turn Structure & Action Economy](../systems-mechanics/turn-structure-and-action-economy.qmd)

@@ -1,0 +1,71 @@
+---
+title: "Pandemic"
+type: exemplar
+medium: tabletop
+year: 2008
+designer: "Matt Leacock (Z-Man Games)"
+mechanisms:
+  - ../articles/systems-mechanics/theme-mechanism-integration.qmd
+  - ../articles/systems-mechanics/cooperative-and-legacy-genres.qmd
+  - ../articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd
+  - ../articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd
+  - ../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd
+  - ../articles/systems-mechanics/turn-structure-and-action-economy.qmd
+  - ../articles/systems-mechanics/elegance-emergence-and-randomness.qmd
+provenance: "corpus"
+---
+
+*Profile: a four-disease world map that fills with crisis on a timer, played by a team that wins or loses together against a deck rigged to keep flaring the cities you already failed to treat.*
+
+Pandemic is the game most people reach for when they want to explain what a cooperative board game is. Matt Leacock published it through Z-Man Games in 2008, and it set the shape the genre still argues with. A team shares one win-or-lose condition, the board visibly worsens turn by turn, and a small set of [asymmetric specialist roles](../articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd) gives each player a distinct reason to act. [corpus] Its contagion rules are a clean case of [theme carried by the mechanism](../articles/systems-mechanics/theme-mechanism-integration.qmd) rather than printed on top of it, and its central social strain, the risk that one player ends up directing everyone, is the defining tension of [fully transparent co-op play](../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd). [corpus]
+
+It earns a place in this gazetteer because the genre that followed treats it as a baseline. Designers extend its escalating-threat engine, or they engineer around its weaknesses, but they start from it. The links below run to the articles each part exemplifies; read in the other direction, those articles now list Pandemic in their *Referenced by* register.
+
+## The design profile
+
+Leacock began the design in 2004, wanting an evening game where his wife and he were allies rather than opponents, and he drew the disease-response frame loosely from the 2002 to 2004 SARS outbreak. [corpus] The prototype was rejected for years, once on the grounds that the title itself was uncommercial, before strong enthusiasm at Alan R. Moon's Gathering of Friends in 2007 led Zev Shlasinger at Z-Man to publish it. [corpus] First-edition copies sold out within months, and by 2021 the franchise had passed five million copies. [corpus]
+
+Four diseases spread across a 48-city map as coloured cubes. Each turn an infection step draws cards and places cubes, and when a city already holding three cubes of a colour takes a fourth, it outbreaks. The cube then spreads into every connected city, and a chain of further outbreaks can follow. [corpus] The board grows into a visible map of crisis. The chain rule does the teaching by itself: overloaded regions push pressure onto their neighbours, so concentration becomes the danger and a neglected corner can cascade. [corpus] This is the case the article on [theme-mechanism integration](../articles/systems-mechanics/theme-mechanism-integration.qmd) returns to: the epidemiology is encoded in the procedure, not in flavour text the table can skip. [synthesis]
+
+::: {.callout-note}
+### The Signature
+
+The player deck is seeded with epidemic cards, shuffled into sub-stacks so they arrive spread out. When one resolves, three things happen in order. The infection rate rises, so more cards are drawn each turn. The bottom card of the infection deck is drawn and that city takes three cubes at once. Then the infection discard pile is shuffled and placed back on top of the infection deck. That last step is the engine. Cities already infected come back to the top of the draw order, so the places you partially treated will be the next to flare. The mechanic captures disease resurgence entirely through procedure. It also lends the table a distinctive rhythm: calm turns broken by a sudden scramble to re-plan whenever an epidemic card lands. [corpus]
+:::
+
+The roles carry the same economy of means. Players draw from a roster, Medic, Scientist, Researcher, Dispatcher, Operations Expert, and others in later printings, each with a single printed ability. [corpus] The Medic clears all cubes of one colour in one action instead of one at a time; the Scientist needs four matching city cards to find a cure rather than five; the Dispatcher moves other players' pawns. Each rule is one line, yet their interactions produce real depth. That large return from a spare ruleset is the kind of result the article on [elegance and emergence](../articles/systems-mechanics/elegance-emergence-and-randomness.qmd) is built around. [corpus] The asymmetry is also load-bearing socially. The Medic depends on the Researcher to hand over cards, while the Scientist depends on the Medic to hold the board, so the team is genuinely interdependent rather than parallel. That is the structural idea the article on [asymmetric roles and objectives](../articles/players-social-dynamics/faction-design-and-asymmetric-objectives.qmd) traces. [corpus]
+
+Difficulty rides on the same epidemic card. Four, five, or six of them go into the deck for the Introductory, Standard, or Heroic levels, and the count alone sets both how often the infection rate climbs and how often treated cities recycle to the top. [corpus] Six epidemics play very differently from four while the rules stay word-for-word identical: the slider is a matter of counting out cards, not reading a separate ruleset. Each player also takes a fixed budget of four actions per turn, and the whole game is the squeeze between that budget and a board filling faster than it can be cleared, which is the pressure the article on [turn structure and the action economy](../articles/systems-mechanics/turn-structure-and-action-economy.qmd) examines. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+
+Full transparency invites quarterbacking. Because no information is hidden, every threat sits on the board, and the optimal move is often plain to the most experienced player, that player can end up calling everyone's turns, reducing the rest to executors of one mind. [corpus] Leacock does not solve this; he contains it, by giving each role abilities most efficiently used by the player holding it, which builds a mild reason to defer to whoever owns the turn. The same pull toward one voice is the [conformity-and-domination problem](../articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd) that surfaces wherever a shared goal meets visible state: a co-op design has to engineer against it on purpose, or the table quietly hands the game to its loudest seat. [synthesis]
+:::
+
+## The wider influence
+
+Pandemic did not invent the form. Arkham Horror (1987) and Knizia's Lord of the Rings (2000) came earlier. [corpus] What it set was the template later designers respond to, and the clearest responses are answers to the quarterbacking problem. Spirit Island (2017) loads each player with so much per-turn calculation that working out anyone else's turn becomes impractical; Aeon's End (2016) hides hand management so each player carries information the others cannot see. [corpus] Both treat Pandemic as the structural ancestor of their tradition, the game that proved a co-op design could be mainstream and rigorous at once. [synthesis]
+
+The other line of influence runs through the [legacy format](../articles/systems-mechanics/cooperative-and-legacy-genres.qmd). Pandemic Legacy: Season 1 (2015), co-designed with Rob Daviau, who originated legacy design with Risk Legacy (2011), runs a twelve-month campaign where each session permanently alters the board, the rules, and the components. A city that suffers too many outbreaks falls and takes a permanent sticker. Characters can pick up lasting scars. New rules emerge from sealed packets that the players open at story triggers. [corpus] On a cooperative base, the format makes one question central. Do you win the session in front of you? Or do you protect the board for the sessions still to come? A character burned out now is lost to every future game. [corpus] It reached the top of BoardGameGeek's all-games ranking and held that position for an extended run. Two further instalments followed: Season 2 (2017) and the Season 0 prequel (2020). [corpus]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Cooperative board game |
+| Designer | Matt Leacock |
+| Published | 2008, Z-Man Games |
+| Players | Two to four, sharing a single win-or-lose condition |
+| Format | One session of roughly 45 minutes; legacy editions run as twelve-session campaigns |
+| Substrate | 48-city board, four colours of disease cube, role cards, player and infection decks with seeded epidemic cards |
+| Series | Thematic editions, Forbidden Island and its siblings, and the Pandemic Legacy campaigns |
+
+## Sources
+
+- "Pandemic (board game)." Wikipedia. (Publication history, the contagion and outbreak rules, the epidemic card, roles, difficulty levels, sales figures, and awards.) <https://en.wikipedia.org/wiki/Pandemic_(board_game)>
+- "Matt Leacock." Wikipedia. (Designer biography, the 2004 origin and SARS-era framing, the cooperative design focus, and later titles.) <https://en.wikipedia.org/wiki/Matt_Leacock>
+- Leacock, Matt. Official games list. (Full list of designs, publication years, and the Forbidden and Pandemic Legacy series.) <https://www.leacock.com/games>
+- "Pandemic: How It Became a Global Phenomenon." Tabletop Trove. (How the rejected prototype found a home, and how the franchise expanded afterwards.) <https://tabletoptrove.com/pandemic-game-history-how-it-became-a-global-phenomenon/>
+- "The Game of Real Life: Creator Matt Leacock Discusses Pandemic." The Spokesman-Review, 9 April 2020. (Design motivation, the all-allies goal, and Leacock's account of the system.) <https://www.spokesman.com/stories/2020/apr/09/the-game-of-real-life-creator-matt-leacock-discuss/>
+- "Pandemic Legacy: Season 1." Spiel des Jahres. (The legacy campaign structure, permanent board changes, and the Kennerspiel des Jahres nomination.) <https://www.spiel-des-jahres.de/spiele/pandemic-legacy-season-1/>

@@ -133,5 +133,6 @@ The reset is generous, and that generosity is the danger. Because nothing the pl
 - [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd)
 - [Nonlinear Narrative Structures](nonlinear-narrative-structures.qmd)
 - [Replayability](../systems-mechanics/replayability.qmd)
+- [Sleep No More & Punchdrunk](../../exemplars/sleep-no-more-and-punchdrunk.qmd)
 
 <!-- BACKLINKS:END -->
