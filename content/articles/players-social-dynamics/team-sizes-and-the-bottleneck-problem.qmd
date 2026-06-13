@@ -111,5 +111,6 @@ Solo and pair formats are underserved in commercial escape rooms, because the bu
 - [Parallel Team Architectures](parallel-team-architectures.qmd)
 - [Spectator-Friendly Design](spectator-friendly-design.qmd)
 - [Team Splitting Strategies](team-splitting-strategies.qmd)
+- [The MIT Mystery Hunt](../../exemplars/mit-mystery-hunt.qmd)
 
 <!-- BACKLINKS:END -->

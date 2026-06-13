@@ -102,6 +102,7 @@ The category is not the design. A taxonomy tells you a puzzle counts as an obser
 - [Teaching Through Play](teaching-through-play.qmd)
 - [The Aha Moment](the-aha-moment.qmd)
 - [The Crystal Maze](../../exemplars/crystal-maze.qmd)
+- [The MIT Mystery Hunt](../../exemplars/mit-mystery-hunt.qmd)
 - [The Witness](../../exemplars/the-witness.qmd)
 - [Treasure & Scavenger Hunts](treasure-and-scavenger-hunts.qmd)
 - [Unlock!](../../exemplars/unlock-series.qmd)

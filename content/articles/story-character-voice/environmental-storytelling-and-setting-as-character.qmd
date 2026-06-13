@@ -101,6 +101,7 @@ At the table the channel narrows back to language, and the gamemaster becomes th
 - [Prose Patterns & Point of View](prose-patterns-and-point-of-view.qmd)
 - [Sleep No More & Punchdrunk](../../exemplars/sleep-no-more-and-punchdrunk.qmd)
 - [Spectator-Friendly Design](../players-social-dynamics/spectator-friendly-design.qmd)
+- [The Quiet Year](../../exemplars/the-quiet-year.qmd)
 - [The Witness](../../exemplars/the-witness.qmd)
 - [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd)
 - [Worldbuilding Patterns](worldbuilding-patterns.qmd)

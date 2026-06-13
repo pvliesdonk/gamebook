@@ -116,6 +116,7 @@ The two failure modes sit on opposite sides of the click, and either one is a tr
 - [Mystery & Detective Fiction](../story-character-voice/mystery-and-detective-fiction.qmd)
 - [Search, Observation & Lateral Thinking](search-observation-and-lateral-thinking.qmd)
 - [Teaching Through Play](teaching-through-play.qmd)
+- [The MIT Mystery Hunt](../../exemplars/mit-mystery-hunt.qmd)
 - [The Witness](../../exemplars/the-witness.qmd)
 
 <!-- BACKLINKS:END -->

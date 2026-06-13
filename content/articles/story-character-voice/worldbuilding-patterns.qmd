@@ -111,6 +111,7 @@ The tabletop tradition reaches the same destination from the opposite direction:
 - [Mystery & Detective Fiction](mystery-and-detective-fiction.qmd)
 - [Naming Craft: Characters & Locations](naming-craft-characters-and-locations.qmd)
 - [Science Fiction Conventions](science-fiction-conventions.qmd)
+- [The Quiet Year](../../exemplars/the-quiet-year.qmd)
 - [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd)
 
 <!-- BACKLINKS:END -->

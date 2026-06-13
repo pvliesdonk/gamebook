@@ -1,0 +1,77 @@
+---
+title: "Ten Candles"
+type: exemplar
+medium: tabletop
+year: 2015
+designer: "Stephen Dewey (Cavalry Games)"
+mechanisms:
+  - ../articles/structure-pacing/session-pacing-and-energy-management.qmd
+  - ../articles/structure-pacing/endings-and-structural-closure.qmd
+  - ../articles/systems-mechanics/theme-mechanism-integration.qmd
+  - ../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
+  - ../articles/systems-mechanics/distributing-narrative-authority.qmd
+  - ../articles/story-character-voice/horror-conventions.qmd
+  - ../articles/story-character-voice/emotional-beats-and-investment.qmd
+  - ../articles/players-social-dynamics/safety-tools-as-design-layer.qmd
+  - ../articles/players-social-dynamics/bleed-aftercare-and-debriefing.qmd
+provenance: "researched"
+---
+
+*Profile: a horror game played by literal candlelight. Ten real flames are the clock. As the story darkens so does the room, until the last flame is pinched out over a table of dead characters.*
+
+Ten Candles is the game that moved the timer off the character sheet and onto the table as fire. Stephen Dewey published it through Cavalry Games in 2015 as a "zero-prep" one-shot of tragic horror built for a single sitting of two to four hours. [researched] The premise is spare and total. Ten days ago the sun went out. In the unlit dark Things now hunt anyone beyond the reach of a flame, and the people you play will not survive the evening. The publisher is precise about the label: it calls the game tragic horror rather than survival horror, "because in Ten Candles there are no survivors." [researched]
+
+It earns a place in this gazetteer because of one move that the rest of the design hangs from. Most games count down on paper. This one counts down in [a sensory environment that darkens as you play](../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd), and it makes the same physical object the [pacing engine](../articles/structure-pacing/session-pacing-and-energy-management.qmd), the [resolution stakes](../articles/systems-mechanics/theme-mechanism-integration.qmd), and the ending. The links below run to the articles each part exemplifies; read the other way, those articles list this game in their *Referenced by* register.
+
+## The design profile
+
+Ten tea-light candles are lit at the table, and the room holds no other light. Nine go up during character creation, the tenth as play begins. [researched] Each candle stands for a scene, so the game runs ten scenes at most. The pool of six-sided dice the players share is always equal to the number of candles still burning, which means the timer is not a decoration beside the rules but the rules themselves: as the light dies, the players literally have fewer dice to act with. [researched]
+
+::: {.callout-note}
+### The Signature
+
+Conflicts resolve against the communal dice pool. Roll the dice equal to lit candles. A single 6 anywhere in the roll is a success and the scene continues. No 6 at all is a failure. The acting character's intent comes to nothing. A candle goes out, and the scene closes on that beat. Any die showing a 1 leaves the pool for the rest of the scene, so the dice erode within a scene, not only between them. A player can burn their Virtue or Vice card to reroll the 1s, or play a hidden Brink card to reroll the whole pool, spending the character's last reserves to buy one more success. [researched] The craft of the game lives in that single shrinking pool, which encodes the hopelessness directly in the mathematics rather than describing it in the setting text. [synthesis]
+:::
+
+Because the pool only ever shrinks, the evening has a built-in shape. Early scenes are comparatively loose, with eight or nine dice in hand. Late scenes are short and frantic, two or three dice against the dark. That descending curve is what makes Ten Candles a worked example of [pacing managed by an external clock](../articles/structure-pacing/session-pacing-and-energy-management.qmd): no one at the table has to manufacture rising tension. The dwindling light supplies it without help, and an errant draught snuffing a candle early can tighten the whole arc by accident. [researched]
+
+The coupling of timer and stakes is also why the game reads as a clean case of [theme carried in the mechanism rather than pasted onto it](../articles/systems-mechanics/theme-mechanism-integration.qmd). Strip the candles out and play with a brightly lit room and a paper tally, and the design collapses. The physical extinction of light is what gives the maths its dread. [synthesis] The character sheet follows the same principle on burnable cards. A Virtue and a Vice, a Moment of brief hope, and a secret Brink each sit on their own index card, and the rules have you set them alight as you spend them, so the character is consumed in front of the player rather than erased with a rubber. [researched]
+
+Authority moves as the light dies. Each character holds a Moment, a single condition for hope phrased as a line such as "I find hope when my daughter laughs." Reach that Moment in the fiction and you earn a Hope die, the one die that cannot be lost and that succeeds on a 5 or a 6. [researched] Scenes open with a shared ceremony of Truths. The table speaks single-sentence facts about the situation, beginning "These things are true. The world is dark" and closing "and we are alive." [researched] As candles go out, the gamemaster gains narrative ground, until at the final flame the GM narrates how each failed character dies. This makes the game a study in [distributing narrative authority through a non-human constraint](../articles/systems-mechanics/distributing-narrative-authority.qmd): the candles are an authority no player can argue with, deciding when the story ends though never what happens inside it. [researched]
+
+For a horror game the dread is unusually patient, and it works because the genre's hardest problem is solved by the clock. Fear numbs under repetition, so [horror has to ration and time its pressure](../articles/story-character-voice/horror-conventions.qmd) rather than pour it out. Ten Candles paces that pressure with the candles, each one pinched out a fresh drop into a darker room, so the table never adapts to a steady level of fear. [synthesis] One reviewer called it the scariest experience they had met in any roleplaying game. [researched]
+
+The emotional core is set before the horror starts. During character creation each player records an in-character final message, a goodbye to someone or something they are leaving behind, and that recording is played back at the moment their character dies. [researched] The recording is a setup with a guaranteed, devastating payoff, which is exactly the structure [an earned emotional beat depends on](../articles/story-character-voice/emotional-beats-and-investment.qmd): the table spends the whole game investing in a person, then the person's own voice comes back to mark their loss. The closing ritual works on the same principle. Every surviving player speaks the final Truth, "and we are alive," as the last candle is put out. [researched]
+
+## The wider influence
+
+The lasting lesson of Ten Candles is the physical timer as a design instrument. An in-room object whose state changes with play, holding the pace from outside the group, has shown up since in horror larps that run on timed clocks and in the wider family of "doomed from the start" games that treat loss as the premise rather than a possible result of failure. [synthesis] Trophy Dark and the broader Wretched and Alone lineage share that contract of inevitable, structural tragedy, and designers cite Ten Candles for its tone. [researched]
+
+Its strongest single idea travels even when the candles do not. Building the ending into the rules, so that there is nothing to win, was a deliberate move to dissolve the player-versus-GM contest. Dewey has explained that removing the possibility of survival frees the table to commit to the darker corners of the story, because no one is angling for a way out. [researched] That is the reasoning behind treating [the foregone ending as a source of closure rather than a failure state](../articles/structure-pacing/endings-and-structural-closure.qmd): the question the design poses is never whether the characters die, only how meaningfully they meet it.
+
+::: {.callout-warning}
+### The Hazard
+
+The contract has no enforcement. Ten Candles asks every player to accept that their character will die, and the rules give the GM no mechanical lever to override a player who plays for survival instead. [researched] That makes the agreement on tone a pre-game requirement, not a thing the system can save in the moment, so the design depends on a [deliberate safety-and-consent layer](../articles/players-social-dynamics/safety-tools-as-design-layer.qmd) being set up before the first candle is lit. The same intensity that makes the game land also produces heavy bleed, so a charged session wants [a closing and aftercare ritual](../articles/players-social-dynamics/bleed-aftercare-and-debriefing.qmd) for the same reason it wants its opening ceremony: the feeling is real even though the fiction is not. [synthesis]
+:::
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop roleplaying game |
+| Designer | Stephen Dewey (Cavalry Games) |
+| Published | 2015, Cavalry Games |
+| Players | One GM and two to five players, all characters doomed |
+| Format | Zero-prep one-shot, run in a single sitting |
+| Substrate | Rulebook, ten tea-light candles and matches, a pool of six-sided dice, burnable Virtue, Vice, Moment and Brink cards, a recording device |
+| Running time | Roughly two to four hours, ending when the last candle goes out |
+
+## Sources
+
+- Dewey, Stephen. *Ten Candles: A Roleplaying Game of Tragic Horror*. Cavalry Games, 2015. (Premise, the candle timer, the dice pool, Hope dice, Virtue/Vice/Moment/Brink cards, the Truths ceremony, final recordings, and the all-death contract.) <https://cavalrygames.com/ten-candles-info>
+- "Ten Candles." Wikipedia. (Publication history, designer and publisher, scene-and-candle structure, conflict resolution, Brinks, awards and reception.) <https://en.wikipedia.org/wiki/Ten_Candles>
+- "Review: Ten Candles." Shut Up & Sit Down. (Play by candlelight as the room darkens with the fiction; the recordings; ritual and bleed; the GM's authority growing on failure.) <https://www.shutupandsitdown.com/review-ten-candles/>
+- Alexander, Justin. "Review: Ten Candles." The Alexandrian. (Scene pacing through the shrinking pool, the Truths ceremony, and Dewey on the no-winning design.) <https://thealexandrian.net/wordpress/38589/roleplaying-games/review-ten-candles>
+- "Ten Candles Tragic Horror RPG Review." My Kind of Meeple. (Character creation, Virtues and Vices, Moments, Brinks, and the final recordings.) <https://mykindofmeeple.com/ten-candles-rpg-review/>
+- "Ten Candles Makes Your Final Moments Have Meaning." Nerdarchy. (The recorded farewell and its playback at character death, and the tone of inevitable loss.) <https://nerdarchy.com/ten-candles-makes-your-final-moments-have-meaning/>

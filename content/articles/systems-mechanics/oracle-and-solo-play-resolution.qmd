@@ -105,5 +105,6 @@ The contemporary version of the question is sharpest when the non-human particip
 - [Solo Modes](solo-modes.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
 - [The Journal as Artefact](../story-character-voice/the-journal-as-artefact.qmd)
+- [The Quiet Year](../../exemplars/the-quiet-year.qmd)
 
 <!-- BACKLINKS:END -->
