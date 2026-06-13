@@ -12,6 +12,16 @@ accurate) but is **not** rendered as a browse entry — a one-article key is not
 ## `media` — the four faces (already controlled)
 `interactive-fiction` · `live-game` · `tabletop` · `puzzle-hunt`
 
+These four faces are the **article** `media` facet: they drive the cross-media matrix
+and the By-Medium key, and the whole guide is framed around them. Adding a face here
+means re-auditing every article (tracked as issue #65), so the set is closed.
+
+**Exemplar-only label:** an *exemplar* profile's singular `medium` field may additionally
+take **`video-game`** for digital single-player games (The Witness, Baba Is You, Blue
+Prince) that illustrate guide mechanisms but sit outside the four craft-traditions. This is
+a gazetteer label only — it is **not** a fifth face, is consumed by nothing automated (keys
+read article `media`, not exemplar `medium`), and must never be added to an article's `media`.
+
 ## `effects` — what a mechanism is *for* (18)
 | term | gloss |
 |---|---|

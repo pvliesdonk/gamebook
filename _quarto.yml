@@ -156,8 +156,10 @@ book:
       chapters:
         - content/exemplars/index.qmd
         - content/exemplars/apocalypse-world.qmd
+        - content/exemplars/baba-is-you.qmd
         - content/exemplars/blades-in-the-dark.qmd
         - content/exemplars/blood-on-the-clocktower.qmd
+        - content/exemplars/blue-prince.qmd
         - content/exemplars/call-of-cthulhu.qmd
         - content/exemplars/crystal-maze.qmd
         - content/exemplars/dungeons-and-dragons-5e.qmd
@@ -170,6 +172,7 @@ book:
         - content/exemplars/pandemic.qmd
         - content/exemplars/paranoia.qmd
         - content/exemplars/sleep-no-more-and-punchdrunk.qmd
+        - content/exemplars/the-witness.qmd
         - content/exemplars/thousand-year-old-vampire.qmd
         - content/exemplars/unlock-series.qmd
     - part: "Style Specimens"

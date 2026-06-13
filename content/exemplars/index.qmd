@@ -30,3 +30,12 @@ article's *Referenced by* register to find the works that demonstrate it.
 - [The Mysterious Package Company](mysterious-package-company.qmd): a story delivered as real artefacts in the post, with no visible game layer.
 - [Notable Escape Rooms](notable-real-escape-rooms.qmd): the live escape-room form, read through several landmark venues.
 - [Sleep No More & Punchdrunk](sleep-no-more-and-punchdrunk.qmd): free-roaming immersive theatre, the mask contract, and the repeating loop as a multiple-visit engine.
+
+## Digital games
+
+Single-player video games that sit outside the guide's four craft-traditions but
+illustrate its mechanisms cleanly, especially in puzzle design.
+
+- [Baba Is You](baba-is-you.qmd): a puzzle game whose rules are tiles you rearrange, teaching its own grammar without a word.
+- [Blue Prince](blue-prince.qmd): a roguelike of drafted rooms over a fixed mystery, where the only thing that persists between runs is what you understand.
+- [The Witness](the-witness.qmd): an island of line-drawing panels that teach themselves in silence, until the world itself becomes the puzzle.

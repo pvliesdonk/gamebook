@@ -107,6 +107,7 @@ The seductive failure is to trust the verdict. A self-resolving mechanism gives 
 
 ## Referenced by
 
+- [Baba Is You](../../exemplars/baba-is-you.qmd)
 - [Cue Management & GM Station](../space-props-materiality/cue-management-and-gm-station.qmd)
 - [Digital Gating & State](../systems-mechanics/digital-gating-and-state.qmd)
 - [Digital Props](../space-props-materiality/digital-props.qmd)

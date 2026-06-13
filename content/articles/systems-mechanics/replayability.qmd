@@ -111,6 +111,7 @@ The seductive failure is variety bought on the surface. A game ships with many c
 
 ## Referenced by
 
+- [Blue Prince](../../exemplars/blue-prince.qmd)
 - [Boardgame Mechanism Vocabulary](boardgame-mechanism-vocabulary.qmd)
 - [Cooperative & Legacy Genres](cooperative-and-legacy-genres.qmd)
 - [Decision Space & Choice Design](decision-space-and-choice-design.qmd)
