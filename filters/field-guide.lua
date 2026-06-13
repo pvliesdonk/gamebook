@@ -5,8 +5,11 @@
 --   * drops chapters flagged `pdf: false` (curated PDF, decision #17; the
 --     HTML wiki keeps them since this filter is typst-only). The excluded
 --     titles are listed in filters/_pdf-exclude.txt by scripts/curate.py.
---   * drops the Sources and "Referenced by" sections (web artifacts;
---     a consolidated bibliography appendix is issue #61)
+--   * drops the legacy "Sources" and "Referenced by" sections (web artifacts).
+--     Per-family credits now live in content/credits/<family>.qmd: their "Works
+--     discussed" and "References" print, while the "Research basis" is web-only
+--     (a content-hidden block Quarto strips for typst). Those credits pages are
+--     unnumbered chapters, so they skip the article counter (see step 1b).
 --   * the Silhouette line  -> #fg-silhouette[...] (label stripped)
 --   * the lead paragraph   -> #fg-lead[...] (drop cap)
 -- Family colouring is handled by the part dividers (typst-show.typ),
@@ -142,12 +145,20 @@ function Pandoc(doc)
   local marked = {}
   for _, b in ipairs(doc.blocks) do
     if b.t == "Header" and b.level == 1 then
-      local is_primer = false
-      for _, c in ipairs(b.classes) do if c == "primer" then is_primer = true end end
+      local is_primer, is_unnumbered = false, false
+      for _, c in ipairs(b.classes) do
+        if c == "primer" then is_primer = true end
+        if c == "unnumbered" then is_unnumbered = true end
+      end
       if is_primer then
         marked[#marked + 1] = pandoc.RawBlock("typst", "#fg-primer-flag.update(true)")
         marked[#marked + 1] = b
         marked[#marked + 1] = pandoc.RawBlock("typst", "#fg-primer-flag.update(false)")
+      elseif is_unnumbered then
+        -- Back-matter reference within a family (the per-family Works & References
+        -- pages): rendered but never numbered, so the article counter and the
+        -- glossary's 1..116 stay aligned.
+        marked[#marked + 1] = b
       else
         marked[#marked + 1] = pandoc.RawBlock("typst", "#fg-article.step()")
         marked[#marked + 1] = b

@@ -1,0 +1,149 @@
+---
+type: credits
+---
+
+# Works & References {.unnumbered}
+
+The works this part's articles discuss and the texts they cite. The print edition carries the credited works and the references; the web edition adds the wider research consulted.
+
+## Works discussed
+
+- *80 Days*. inkle, 2014.
+- *amiibo*. Nintendo, 2014.
+- [*Blue Prince*](../exemplars/blue-prince.qmd). Dogubomb (Raw Fury), 2025.
+- *Cain's Jawbone*. Edward Powys Mathers ("Torquemada"), 1934.
+- *Catan*. Klaus Teuber, 1995.
+- *Caverns of Thracia*. Jennell Jaquays (Judges Guild), 1979.
+- *Chronicles of Crime*. Corentin Lebrat and Wenceslas, 2018.
+- *Deadline*. Infocom, 1982.
+- *Deckscape: Test Time*. Martino Chiacchiera and Silvano Sorrentino (dV Giochi), 2017.
+- [*Exit: The Game*](../exemplars/exit-the-game.qmd). Inka and Markus Brand (Kosmos), 2016.
+- The Fenn treasure. Forrest Fenn, hidden circa 2010.
+- *The Halls of Arden Vul*. Richard Barton (Expeditious Retreat Press), 2020.
+- *Her Story*. Sam Barlow, 2015.
+- [*Hunt A Killer*](../exemplars/hunt-a-killer.qmd). Ryan Hogan and Derrick Smith, 2016.
+- *Hypnospace Outlaw*. Tendershoot (Jay Tholen), 2019.
+- *I Love Bees*. 42 Entertainment, 2004.
+- *Journal 29*. Dimitris Chassapakis (Rain Projects), 2017.
+- *The Man From Beyond*. Strange Bird Immersive, 2017.
+- *Masquerade*. Kit Williams, 1979.
+- *Maze: Solve the World's Most Challenging Puzzle*. Christopher Manson, 1985.
+- [The MIT Mystery Hunt](../exemplars/mit-mystery-hunt.qmd). Founded by Brad Schaefer, 1981.
+- [The Mysterious Package Company](../exemplars/mysterious-package-company.qmd). Colin Bolton, Misha Schneider and Tim Sullivan, 2013.
+- *Pandemic Legacy: Season 1*. Rob Daviau and Matt Leacock, 2015.
+- *Return of the Obra Dinn*. Lucas Pope, 2018.
+- *Risk Legacy*. Rob Daviau, 2011.
+- *The Secret: A Treasure Hunt*. Byron Preiss, 1982.
+- *Secret Cinema: Bridgerton*. Secret Cinema, 2022.
+- *Skylanders: Spyro's Adventure*. Toys for Bob, 2011.
+- [*Sleep No More*](../exemplars/sleep-no-more-and-punchdrunk.qmd). Punchdrunk (Felix Barrett), 2011.
+- *Spirit Island*. R. Eric Reuss (Greater Than Games), 2017.
+- *Star Trek Catan*. Klaus Teuber (Mayfair Games), 2012.
+- *Stonehell Dungeon*. Michael Curtis, 2009.
+- *Terraforming Mars*. Jacob Fryxelius (FryxGames), 2016.
+- *Tomb of Horrors*. Gary Gygax (TSR), 1978.
+- [*Unlock!*](../exemplars/unlock-series.qmd). Cyril Demaegd (Space Cowboys), 2017.
+- *Wingspan*. Elizabeth Hargrave, 2019.
+
+## References
+
+- Alexander, Justin. "Xandering the Dungeon" and "Jaquaying the Dungeon, Part 2: The Jaquays Techniques." The Alexandrian. <https://thealexandrian.net/wordpress/13085/roleplaying-games/xandering-the-dungeon>
+- Cone, Jason ("Philotomy Jurament"). "Philotomy's Musings" (the mythic underworld). <https://www.grey-elf.com/philotomy.pdf>
+- Curtis, Michael. *Stonehell Dungeon.* 2009. <https://www.vintagerpg.com/2024/07/stonehell-2009-2015/>
+- Cycleback, David. "Identifying and Dating Paper." February 2013. <https://davidcycleback.com/2013/02/10/identifying-and-dating-paper/>
+- Dambrogio, Jana, and Daniel Starza Smith. *Letterlocking: The Hidden History of the Letter.* MIT Press, 2025. <https://mitpress.mit.edu/9780262049276/letterlocking/>
+- Hon, Adrian. "Blue Prince is a Roguelike Puzzle Masterpiece." mssv.net, 7 April 2025. <https://mssv.net/2025/04/07/a-puzzle-designer-on-blue-prince-a-roguelike-puzzle-masterpiece/>
+- K, Arnold. "The Underclock: Fixing the Random Encounter." Goblin Punch, April 2023. <https://goblinpunch.blogspot.com/2023/04/the-underclock-fixing-random-encounter.html>
+- Nelson, Graham. *The Inform Designer's Manual* (DM4), section 50, "The design of puzzles." <http://inform-fiction.org/manual/html/s50.html>
+- Nicholson, Scott. "Peeking Behind the Locked Door: A Survey of Escape Room Facilities." 2015. <https://scottnicholson.com/pubs/erfacwhite.pdf>
+- Shea, Mike (Sly Flourish). "Making Great Handouts." <https://slyflourish.com/making_great_handouts.html>
+- Short, Emily. "The Century Beast (Mysterious Package Company)." June 2015. <https://emshort.blog/2015/06/12/the-century-beast-the-mysterious-package-company/>
+- Short, Emily. "Her Story (Sam Barlow)." Emily Short's Interactive Storytelling, June 2015. <https://emshort.blog/2015/06/24/her-story-sam-barlow/>
+- Short, Emily. "The Prose Medium and IF." <https://emshort.blog/how-to-play/writing-if/my-articles/the-prose-medium-and-if/>
+- Spira, David. "An Exploration of Escape Room Hint Systems." Room Escape Artist, 24 October 2019. <https://roomescapeartist.com/2019/10/24/escape-room-hint-systems/>
+- Szulborski, Dave. *This Is Not A Game: A Guide to Alternate Reality Gaming.* <https://archive.org/details/TINAG>
+- Zittrain, Jonathan, Kendra Albert and Lawrence Lessig. "Perma: Scoping and Addressing the Problem of Link and Reference Rot in Legal Citations." *Harvard Law Review* Vol. 127, 2014. <https://harvardlawreview.org/forum/vol-127/perma-scoping-and-addressing-the-problem-of-link-and-reference-rot-in-legal-citations/>
+
+::: {.content-hidden when-format="typst"}
+
+## Research basis
+
+Consulted while writing; not cited in the text.
+
+- A+ Props. "Reset and Automation" and "Reset in Escape Rooms." <https://a-props.com/reset_article>
+- ABUS combination locks (product range). <https://www.abus.com/int/Consumer/Padlocks/By-series/Combination-Locks>
+- Alexander, Justin. "Running Castle Blackmoor." The Alexandrian. <https://thealexandrian.net/wordpress/40789/roleplaying-games/running-castle-blackmoor>
+- American Chemical Society. "Appearing and Disappearing Ink." <https://www.acs.org/education/activities/appearing-and-disappearing-ink.html>
+- Apple. "Core NFC" developer documentation. <https://developer.apple.com/documentation/corenfc>
+- "Barlow's (Her) Story: Interactivity, Immersion, and Authorship." Interactive Media Archive. <https://interactivemediaarchive.wordpress.com/barlows-her-story-interactivity-immersion-and-authorship/>
+- Bausenhardt, Julia. "How to Make Walnut Ink." <https://juliabausenhardt.com/how-to-make-walnut-ink/>
+- "Blue Prince." Wikipedia. <https://en.wikipedia.org/wiki/Blue_Prince>
+- Blue Bottle Tree. "Sealing Polymer Clay." <https://thebluebottletree.com/best-sealants-for-polymer-clay/>
+- "Cain's Jawbone." Wikipedia. <https://en.wikipedia.org/wiki/Cain%27s_Jawbone>
+- "The Caverns of Thracia." Wikipedia. <https://en.wikipedia.org/wiki/The_Caverns_of_Thracia>
+- Cephalopod Productions. "Paper Ageing Techniques." 2009. <https://cephalopodprods.wordpress.com/2009/02/09/paper-ageing-techniques/>
+- "Chronicles of Crime" reviews. Big Red Barrel and Big Boss Battle. <https://www.bigredbarrel.com/2019/12/02/review-chronicles-of-crime/>
+- CJ Leo. "Journal 29 Review." <https://cjleo.com/blog/journal-29-review-a-tedious-incomplete-puzzle-book/>
+- The Codex. "13 Rules for Escape Room Puzzle Design" and "Mimesis vs Diegesis in Escape Rooms." <https://thecodex.ca/13-rules-for-escape-room-puzzle-design/>
+- COGS show-control (DMX/OSC/MIDI). <https://cogs.show/>
+- Cricut and Silhouette product documentation. <https://cricut.com/> and <https://www.silhouetteamerica.com/>
+- "Diegetic Interface." TV Tropes. <https://tvtropes.org/pmwiki/pmwiki.php/Main/DiegeticInterface>
+- Escape Room Command Center, Escape Room Supplier, EscapeRoomTechs and HintControl: escape-room control and prop-electronics vendors. <https://www.escaperoomcommandcenter.com/>
+- "Feelie." Wikipedia. <https://en.wikipedia.org/wiki/Feelie>
+- "Fenn treasure." Wikipedia. <https://en.wikipedia.org/wiki/Fenn_treasure>
+- The Game Crafter. "Custom Dice" and "Custom Punchouts and Card Stock." <https://help.thegamecrafter.com/article/370-custom-dice>
+- Geocaching multi-cache and waypoint guidelines; "Geocaching," Wikipedia; geocache container guides. <https://www.geocaching.com/play/guidelines>
+- Glanc, Josh. "How to use Heat-Reactive Pens" and "Let's Talk Locks!" Constructed Adventures. <https://www.constructedadventures.com/>
+- Home Assistant. "Sonos integration" and "Tags." <https://www.home-assistant.io/integrations/tag/>
+- "Hypnospace Outlaw." Steam store page. <https://store.steampowered.com/app/844590/Hypnospace_Outlaw/>
+- iBookBinding. "The Lost Art of Letterlocking." <https://www.ibookbinding.com/blog/the-lost-art-of-letterlocking-tutorials-personal-experience-and-application-in-bookbinding/>
+- IEC 60529 (IP ratings), summarised by Polycase Tech Talk. <https://www.polycase.com/techtalk/electronics-tips/what-do-ip-ratings-mean.html>
+- Immersology and Strange Bird Immersive. "On-Theme vs Immersive," "The Magic Circle," "Hard Mode." <https://strangebirdimmersive.com/immersology/on-theme-vs-immersive/>
+- Inc. magazine. "This Business Made a Killing by Mailing Murder Mysteries." <https://www.inc.com/magazine/202009/kevin-j-ryan/hunt-killer-murder-mystery-subscription-box-game-2020-inc5000.html>
+- Kiosk Group. "iOS Single App Mode vs Guided Access." <https://www.kioskgroup.com/>
+- "Legacy game." Wikipedia. <https://en.wikipedia.org/wiki/Legacy_game>
+- Library of Congress. "The Average Lifespan of a Webpage." 2011. <https://blogs.loc.gov/thesignal/2011/11/the-average-lifespan-of-a-webpage/>
+- Locatify. "The Complete Guide to Scavenger Hunt Apps" and "How Scavenger Hunt Apps Work." <https://locatify.com/the-complete-guide-to-scavenger-hunt-apps/>
+- The Logic Escapes Me. "When Escape Rooms Go Wrong: Handling Breakages and Mis-Sets." <https://thelogicescapesme.com/opinion/when-escape-rooms-go-wrong-handling-breakages-and-mis-sets/>
+- MacMost. "How To Create a Treasure Hunt Game With Your iPhone and NFC Tags." <https://macmost.com/how-to-create-a-treasure-hunt-game-with-your-iphone-and-nfc-tags.html>
+- Maliszewski, James. "Retrospective: Caverns of Thracia." Grognardia, December 2008. <http://grognardia.blogspot.com/2008/12/retrospective-caverns-of-thracia.html>
+- Master Lock product pages (1500iD, 1535DWD) and Room Escape Artist lock word-list posts. <https://www.masterlock.com/products/product/1500iD>
+- "Maze: Solve the World's Most Challenging Puzzle." Wikipedia. <https://en.wikipedia.org/wiki/Maze:_Solve_the_World%27s_Most_Challenging_Puzzle>
+- MIT News. "The Art and Science of Letterlocking" (2014) and "Researchers Virtually Open Sealed Historic Letters" (2021). <https://news.mit.edu/2014/art-and-science-letterlocking>
+- Mystery Soup Games. "Linear vs. Non-Linear Game Flow" and "Signposting in Escape Room Design." <https://mysterysoupgames.com/>
+- NXP Semiconductors. "NTAG213/215/216" and "NTAG 424 DNA" product data and datasheets. <https://www.nxp.com/products/NTAG213_215_216>
+- Node-RED, flow automation. <https://nodered.org/>
+- Old-School Essentials SRD, "Encounters." <https://oldschoolessentials.necroticgnome.com/srd/index.php/Encounters>
+- Olorama and AromaPrime: scent systems for escape rooms. <https://olorama.com/scented-escape-rooms-immersion-with-all-five-senses/>
+- Palace Games. "The Art of Narrative Puzzle Design." 2025. <https://palace-games.com/2025/11/art-of-narrative-puzzle-design/>
+- Pimoroni. "Inky Impression 7.3in (Spectra 6)." <https://shop.pimoroni.com/products/inky-impression-7-3>
+- "Polylactic acid" and "PETG" (PLA/PETG), Xometry. <https://www.xometry.com/resources/3d-printing/petg-vs-pla-3d-printing/>
+- Printables escape-room tags and Creative Commons licence terms. <https://www.printables.com/tag/escaperoom>
+- Punished Props Academy (Bill Doran). *Foamsmith* series and "How to Seal EVA Foam." <https://punishedprops.com/>
+- Punchdrunk handbook (via WXO) and Future of Storytelling. "Behind the Mask with Punchdrunk." <https://worldxo.org/punchdrunk-handbook-immersive-pioneers-share-20-years-of-learnings/>
+- Puzzlvaria. "2021 MIT Mystery Hunt, Part 1." 2021. <https://puzzlvaria.wordpress.com/>
+- Resin Obsession and Smooth-On: resin safety, mould-making and casting. <https://www.resinobsession.com/resin-tips-techniques/resin-safety/>
+- "Return of the Obra Dinn." Wikipedia. <https://en.wikipedia.org/wiki/Return_of_the_Obra_Dinn>
+- "Root (board game)" and reskin/theme context. Wikipedia. <https://en.wikipedia.org/wiki/Root_(board_game)>
+- Scanova. "Static vs Dynamic QR Codes." 2026. <https://scanova.io/blog/static-vs-dynamic-qr-codes/>
+- Science Buddies. "Secret Messages with Invisible Ink." <https://www.sciencebuddies.org/stem-activities/invisible-ink>
+- "The Secret (treasure hunt)." Wikipedia. <https://en.wikipedia.org/wiki/The_Secret_(treasure_hunt)>
+- Sherlocked. "Designing Escape Rooms for Emotion." <https://www.sherlocked.nl/blog/designing-escape-rooms-for-emotion>
+- "Shut Up & Sit Down" ("Exit vs Unlock!" comparison). 2017. <https://www.shutupandsitdown.com/>
+- "Sleep No More (2011 play)." Wikipedia. <https://en.wikipedia.org/wiki/Sleep_No_More_(2011_play)>
+- "Some URLs Are Immortal, Most Are Ephemeral." iPRES 2024, Zenodo. <https://zenodo.org/records/13687116>
+- Sotheby's London. "The Masquerade Hare" lot listing, November 2025. <https://www.sothebys.com/en/buy/auction/2025/fine-jewelry-l25051/the-masquerade-hare>
+- "Spirit Island: Considering the theme." Played by the Past. <https://historyprofnichols.wordpress.com/2021/04/07/spirit-island-the-board-game-considering-the-theme/>
+- Supermagnete. Neodymium magnet documentation and pull-force calculator. <https://www.supermagnete.de/eng/>
+- "Terraforming Assistant" and "WingMate Companion" companion apps. Apple App Store. <https://apps.apple.com/us/app/terraforming-assistant/id1419254320>
+- "Tomb of Horrors," "Toys-to-life" and "Amiibo." Wikipedia. <https://en.wikipedia.org/wiki/Tomb_of_Horrors>
+- TTRPG Games. "Best Initiative Trackers" and "Ultimate Guide to TTRPG Props and Handouts." <https://www.ttrpg-games.com/blog/ultimate-guide-to-ttrpg-props-and-handouts/>
+- TV Tropes. "Font Anachronism." <https://tvtropes.org/pmwiki/pmwiki.php/Main/FontAnachronism>
+- UltraBoardGames. "How to play Chronicles of Crime." <https://www.ultraboardgames.com/chronicles-of-crime/game-rules.php>
+- Vinawood. "Marine Plywood vs Exterior Plywood." <https://vinawoodltd.com/marine-plywood-vs-exterior-plywood/>
+- VRcave. "Reduce Your Escape Room Reset Time." <https://blog.vrcave.ca/blog/reduce-your-escape-room-reset-time-and-support-more-patrons>
+- Watson Adventures (location-as-clue city-hunt design). <https://www.watsonadventures.com/>
+- Xometry. "Acrylic (PMMA): Properties, Uses, and Laser Cutting Design." <https://www.xometry.com/resources/materials/acrylic-pmma/>
+- "150+ Developers Push to Define a New 'Fake OS' Genre on Steam." 80.lv. <https://80.lv/articles/150-developers-push-to-define-a-new-fake-os-genre-on-steam>
+
+:::

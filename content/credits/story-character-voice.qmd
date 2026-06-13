@@ -1,0 +1,140 @@
+---
+type: credits
+---
+
+# Works & References {.unnumbered}
+
+The works this part's articles discuss and the texts they cite. The print edition carries the credited works and the references; the web edition adds the wider research consulted.
+
+## Works discussed
+
+- *87th Precinct* (beginning with *Cop Hater*). Ed McBain, 1956.
+- *Alone Among the Stars*. Takuma Okada, 2018.
+- [*Apocalypse World*](../exemplars/apocalypse-world.qmd). D. Vincent Baker and Meguey Baker (lumpley games), 2010.
+- *Apothecaria*. Anna Blackwell, 2021.
+- *Best of Three*. Emily Short, 2008.
+- *BioShock*. 2K Boston (Irrational Games), 2007.
+- *Birdland*. Brendan Patrick Hennessy, 2015.
+- *The Black Company*. Glen Cook, 1984.
+- [*Blades in the Dark*](../exemplars/blades-in-the-dark.qmd). John Harper (Evil Hat Productions), 2017.
+- *Boyfriend Dungeon*. Kitfox Games, 2021.
+- *Burning Wheel*. Luke Crane, 2002.
+- [*Call of Cthulhu*](../exemplars/call-of-cthulhu.qmd). Sandy Petersen and Lynn Willis (Chaosium), 1981.
+- *Choose Your Own Adventure*. Edward Packard and R. A. Montgomery (Bantam Books), 1979.
+- [Cicada 3301](../exemplars/cicada-3301.qmd). Anonymous, 2012.
+- *Dark Souls*. FromSoftware, 2011.
+- *Dead Space*. Electronic Arts (Visceral Games), 2008.
+- [*De Profundis*](../exemplars/de-profundis.qmd). Michał Oracz, 2002.
+- *Disco Elysium*. ZA/UM, 2019.
+- *Dragon Age II*. BioWare, 2011.
+- *Dungeon World*. Sage LaTorra and Adam Koebel, 2012.
+- *Fighting Fantasy* (beginning with *The Warlock of Firetop Mountain*). Steve Jackson and Ian Livingstone (Puffin Books), 1982.
+- [*Fiasco*](../exemplars/fiasco.qmd). Jason Morningstar (Bully Pulpit Games), 2009.
+- *Frasier*. David Angell, Peter Casey and David Lee, 1993.
+- *Gone Home*. The Fullbright Company, 2013.
+- *The Great Gatsby*. F. Scott Fitzgerald, 1925.
+- *Harry Potter and the Philosopher's Stone*. J. K. Rowling, 1997.
+- *Her Story*. Sam Barlow, 2015.
+- *The Hollow Man* (US title *The Three Coffins*). John Dickson Carr, 1935.
+- [*Ironsworn*](../exemplars/ironsworn.qmd). Shawn Tomkin, 2018.
+- [Jubensha](../exemplars/jubensha.qmd). A script-driven venue form, China, from c. 2016.
+- *Just a Little Lovin'*. Tor Kjetil Edland and Hanne Grasmo, 2011.
+- *Leverage*. John Rogers and Chris Downey, 2008.
+- *M\*A\*S\*H*. Larry Gelbart, 1972.
+- *Mass Effect*. BioWare, 2007.
+- *Mistborn: The Final Empire*. Brandon Sanderson, 2006.
+- *Monster Prom*. Beautiful Glitch, 2018.
+- *Mythic Role Playing* / *Mythic Game Master Emulator*. Tana Pigeon (Word Mill Games), 2003 / 2006.
+- *Of Mice and Men*. John Steinbeck, 1937.
+- [*Paranoia*](../exemplars/paranoia.qmd). Greg Costikyan, Eric Goldberg and Dan Gelber (West End Games), 1984.
+- *Psy High*. Rebecca Slitt (Choice of Games), 2014.
+- *Quill*. Scott Malthouse (Trollish Delver Games), 2016.
+- *Reign*. Greg Stolze, 2007.
+- *Resident Evil*. Capcom, 1996.
+- *Rififi*. Jules Dassin, 1955.
+- [*Sleep No More*](../exemplars/sleep-no-more-and-punchdrunk.qmd). Punchdrunk (Felix Barrett), 2011.
+- *Stardew Valley*. ConcernedApe, 2016.
+- *Stars Without Number*. Kevin Crawford (Sine Nomine Publishing), 2017.
+- *The Sting*. George Roy Hill, 1973.
+- [*Thousand Year Old Vampire*](../exemplars/thousand-year-old-vampire.qmd). Tim Hutchings, 2020.
+- *The Witcher 2: Assassins of Kings* and *The Witcher 3: Wild Hunt*. CD Projekt Red, 2011 and 2015.
+- *Werewolf*. Andrew Plotkin, 1997 (reskinning Dmitry Davidoff's 1986 *Mafia*).
+- *Wolf Hall*. Hilary Mantel, 2009.
+- *The Wretched*. Chris Bissette, 2020.
+
+## References
+
+- Aristotle. *Poetics*. c. 335 BCE. <https://iep.utm.edu/aristotle-poetics/>
+- Berlin, Isaiah. "Two Concepts of Liberty." In *Four Essays on Liberty*, Oxford University Press, 1969.
+- Boss, Emily Care. "Bleed" (coinage). Ropecon, 2007.
+- Burke, Edmund. *A Philosophical Enquiry into the Origin of our Ideas of the Sublime and Beautiful*. 1757. <https://en.wikipedia.org/wiki/A_Philosophical_Enquiry_into_the_Origin_of_Our_Ideas_of_the_Sublime_and_Beautiful>
+- Campbell, Joseph. *The Hero with a Thousand Faces*. Pantheon Books, 1949.
+- Card, Orson Scott. *Characters and Viewpoint*. Writer's Digest Books, 1988.
+- Carson, Don. "Environmental Storytelling: Creating Immersive 3D Worlds." Gamasutra, 2000. <https://www.gamedeveloper.com/design/environmental-storytelling-creating-immersive-3d-worlds-using-lessons-learned-from-the-theme-park-industry>
+- Chandler, Raymond. "The Simple Art of Murder." *The Atlantic Monthly*, December 1944. <https://en.wikipedia.org/wiki/The_Simple_Art_of_Murder>
+- Clarke, Arthur C. "Hazards of Prophecy: The Failure of Imagination." In *Profiles of the Future*, revised edition, 1973. <https://en.wikipedia.org/wiki/Clarke%27s_three_laws>
+- Clover, Carol J. *Men, Women, and Chain Saws: Gender in the Modern Horror Film*. Princeton University Press, 1992. <https://press.princeton.edu/books/paperback/9780691166292/men-women-and-chain-saws>
+- Fagerholt, Erik, and Magnus Lorentzon. *Beyond the HUD: User Interfaces for Increased Player Immersion in FPS Games*. Master's thesis, Chalmers University of Technology, 2009.
+- Fatland, Eirik. "Emotional design as building a container." Knutpunkt anthologies.
+- Genette, Gérard. *Narrative Discourse: An Essay in Method*. Cornell University Press, 1980.
+- Giner-Sorolla, Roger. "Crimes Against Mimesis." rec.arts.int-fiction, 1996. <https://www.ifwiki.org/Mimesis>
+- Green, Melanie C., and Timothy C. Brock. "The role of transportation in the persuasiveness of public narratives." *Journal of Personality and Social Psychology*, 2000. <https://en.wikipedia.org/wiki/Transportation_theory_(psychology)>
+- Hale, Constance. *Sin and Syntax: How to Craft Wickedly Effective Prose*. Broadway Books, 2013.
+- Harper, John. *Blades in the Dark* (the engagement roll). Evil Hat Productions, 2017. <https://bladesinthedark.com/planning-engagement>
+- Hayes, Gwen. *Romancing the Beat: Story Structure for Romance Novels*. 2016.
+- Hemingway, Ernest. *Death in the Afternoon*. Charles Scribner's Sons, 1932. <https://en.wikipedia.org/wiki/Iceberg_theory>
+- Hon, Adrian. "Here's What Makes Jubensha Different." mssv.net, March 2025. <https://mssv.net/2025/03/26/heres-what-makes-jubensha-different/>
+- Ignacio, Dino. "Crafting Destruction: The Evolution of the Dead Space User Interface." GDC 2013. <https://www.gamedeveloper.com/design/game-ui-discoveries-what-players-want>
+- Jenkins, Henry. "Game Design as Narrative Architecture." In *First Person*, MIT Press, 2004.
+- Joos, Martin. *The Five Clocks*. Harcourt, Brace & World, 1961. <https://en.wikipedia.org/wiki/Martin_Joos>
+- Jung, Carl Gustav. *The Archetypes and the Collective Unconscious*. Princeton University Press, 1959. <https://en.wikipedia.org/wiki/Collective_unconscious>
+- Kenner, Hugh. *Joyce's Voices*. University of California Press, 1978. <https://en.wikipedia.org/wiki/Uncle_Charles_Principle>
+- King, Stephen. *Danse Macabre*. Everest House, 1981. <https://en.wikipedia.org/wiki/Danse_Macabre_(King_book)>
+- King, Stephen. *On Writing: A Memoir of the Craft*. Scribner, 2000.
+- Knox, Ronald. "The Detective Story Decalogue." Introduction to *The Best English Detective Stories of 1928*, 1929. <https://en.wikipedia.org/wiki/Ronald_Knox>
+- Köhler, Wolfgang. *Gestalt Psychology*. Liveright, 1929.
+- Leonard, Elmore. "Easy on the Adverbs, Exclamation Points and Especially Hooptedoodle." *The New York Times*, 16 July 2001. <https://www.nytimes.com/2001/07/16/arts/writers-writing-easy-adverbs-exclamation-points-especially-hooptedoodle.html>
+- Lovecraft, H. P. "Supernatural Horror in Literature." 1927 (revised 1933 to 1935). <https://www.hplovecraft.com/writings/texts/essays/shil.aspx>
+- Maass, Donald. *The Fire in Fiction*. Writer's Digest Books, 2009.
+- McKee, Robert. *Dialogue: The Art of Verbal Action for the Page, Stage, and Screen*. Twelve, 2016.
+- McKee, Robert. *Story: Substance, Structure, Style, and the Principles of Screenwriting*. ReganBooks, 1997.
+- Nielsen, Jakob. "How Users Read on the Web." Nielsen Norman Group, 1 October 1997. <https://www.nngroup.com/articles/how-users-read-on-the-web/>
+- Pinter, Harold. "Art, Truth and Politics." Nobel Lecture, 2005. <https://www.nobelprize.org/prizes/literature/2005/pinter/lecture/>
+- Provost, Gary. *100 Ways to Improve Your Writing*. New American Library, 1985. <https://en.wikipedia.org/wiki/Gary_Provost>
+- Radcliffe, Ann. "On the Supernatural in Poetry." *New Monthly Magazine*, 1826.
+- Ramachandran, V. S., and E. M. Hubbard. "Synaesthesia: A Window Into Perception, Thought and Language." *Journal of Consciousness Studies* 8(12), 2001.
+- Rosenfelder, Mark. *The Language Construction Kit*. Yonagu Books, 2010.
+- Ruskin, John. *Modern Painters*, vol. III. 1856. <https://en.wikipedia.org/wiki/Pathetic_fallacy>
+- Sanderson, Brandon. "Sanderson's First, Second and Third Laws." brandonsanderson.com, 2007 to 2013. <https://www.brandonsanderson.com/blogs/blog/sandersons-first-law>
+- Short, Emily. "Conversation." Emily Short's Interactive Storytelling. <https://emshort.blog/how-to-play/writing-if/my-articles/conversation/>
+- Snyder, Blake. *Save the Cat! The Last Book on Screenwriting You'll Ever Need*. Michael Wiese Productions, 2005.
+- Stein, Sol. *Stein on Writing*. St. Martin's Press, 1995.
+- Sterling, Bruce, and Lewis Shiner (compilers). "Turkey City Lexicon: A Primer for SF Workshops." SFWA, 1988. <https://www.sfwa.org/2009/06/17/turkey-city-lexicon-a-primer-for-sf-workshops/>
+- Suvin, Darko. *Metamorphoses of Science Fiction*. Yale University Press, 1979. <https://strangehorizons.com/non-fiction/articles/estrangement-and-cognition/>
+- Tolkien, J. R. R. "On Fairy-Stories." In *Essays Presented to Charles Williams*, Oxford University Press, 1947. <https://en.wikipedia.org/wiki/On_Fairy-Stories>
+- Truby, John. *The Anatomy of Story: 22 Steps to Becoming a Master Storyteller*. Faber and Faber, 2007.
+- Van Dine, S. S. "Twenty Rules for Writing Detective Stories." *The American Magazine*, September 1928. <http://gaslight-lit.s3-website.ca-central-1.amazonaws.com/gaslight/vandine.htm>
+- Vogler, Christopher. *The Writer's Journey: Mythic Structure for Writers*. Michael Wiese Productions, 1992.
+- Walton, Jo. "SF Reading Protocols." Reactor (Tor.com), 2010. <https://reactormag.com/sf-reading-protocols/>
+- Wieslander, Emma. "Ars Amandi." In *Nordic Larp*, ed. Stenros and Montola, Fëa Livia, 2010.
+- Zinsser, William. *On Writing Well*. Harper & Row, 1976.
+
+::: {.content-hidden when-format="typst"}
+
+## Research basis
+
+Consulted while writing; not cited in the text.
+
+- Genre and trope references (TV Tropes on Chekhov's Gun, Lampshade Hanging, The Chosen One, subversion, said-bookisms, retcon and continuity; Wikipedia on Bildungsroman, grimdark, space opera, police procedural, hard SF). <https://tvtropes.org/>
+- Craft and point-of-view guides (Gardner, *The Art of Fiction*; Wood, *How Fiction Works*; Mamet, *On Directing Film*; Kennedy and Nelson on deep point of view; Casagrande on punctuation; Fludernik).
+- Worldbuilding and naming references (Le Guin, "From Elfland to Poughkeepsie"; Jemisin's craft essays; Ekwall and the English Place-Name Society on toponymy; etymology of "scientist" and "OK"; car-naming case studies via Snopes and Wikipedia).
+- Detective-fiction background (P. D. James, *Talking About Detective Fiction*; "Detection Club," Wikipedia; Kaminsky, *American Film Genres*).
+- Audience and reading-level references (ESRB, PEGI, Common Sense Media; Flesch-Kincaid, Lexile and ATOS readability frameworks; Reedsy and Mary Kole on middle-grade and YA; sensitivity-reading guides).
+- Interactive-fiction and game-narrative references (Emily Short on the prose medium, agency, and the Mysterious Package Company; choice-of-games and IF craft posts; Murray and Bordwell on screen narrative).
+- Story-bible and continuity references (Friedman and "Bible (screenwriting)," Wikipedia).
+- Music and sound references (Collins, *Game Sound*; Gorbman, *Unheard Melodies*; Winters on the non-diegetic fallacy).
+- Philosophy and psychology touchstones (Foot on double effect; Cialdini, *Influence*; Britannica on catharsis).
+- Solo-journaling craft (Cameron, *The Artist's Way*; Carroll, *The Bullet Journal Method*; Soloist on journaling tips).
+- Immersive-theatre reference (Machon, *Immersive Theatres*).
+
+:::

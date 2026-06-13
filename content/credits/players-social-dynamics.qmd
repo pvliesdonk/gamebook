@@ -1,0 +1,151 @@
+---
+type: credits
+---
+
+# Works & References {.unnumbered}
+
+The works this part's articles discuss and the texts they cite. The print edition carries the credited works and the references; the web edition adds the wider research consulted.
+
+## Works discussed
+
+- *Allegiance*. Ida Foss and Martin Nielsen, 2022.
+- *Among Us*. InnerSloth, 2018.
+- *And Then There Were None*. Agatha Christie, 1939.
+- *Are You Now Or Have You Ever Been*. Andrew Shiel Dods (year not established).
+- AScapeD (an autism-inclusive escape room). Cocx et al., 2021.
+- *Battlestar Galactica: The Board Game*. Corey Konieczka (Fantasy Flight Games), 2008.
+- Beale ciphers. Anonymous; first published 1885.
+- [*Blood on the Clocktower*](../exemplars/blood-on-the-clocktower.qmd). Steven Medway (The Pandemonium Institute), 2022.
+- *Burning Empires*. Luke Crane, 2006.
+- *Burning Wheel*. Luke Crane, 2011.
+- *Cain's Jawbone*. Edward Powys Mathers ("Torquemada"), 1934.
+- [Cicada 3301](../exemplars/cicada-3301.qmd). Anonymous, 2012.
+- *College of Wizardry*. Rollespilsfabrikken / Liveform, 2014.
+- *The Crew: The Quest for Planet Nine*. Thomas Sing (Kosmos), 2019.
+- *Crisis in Elysium*. Alex Beck, 2017.
+- *Dead of Winter*. Jonathan Gilmour and Isaac Vega (Plaid Hat Games), 2014.
+- *Den of Wolves*. John Mizon (South West Megagames), 2019.
+- [*Dungeon Master's Guide* (D&D 5e)](../exemplars/dungeons-and-dragons-5e.qmd). Wizards of the Coast, 2014.
+- *Dungeon Masters Guide* (AD&D). Gary Gygax (TSR), 1979.
+- *Dungeon World*. Sage LaTorra and Adam Koebel, 2012.
+- *Europa*. Eirik Fatland, 2001.
+- *Fate Core*. Evil Hat Productions, 2013.
+- Free Kriegsspiel Renaissance. A contemporary RPG movement (no single creator).
+- *Hanabi*. Antoine Bauza (Cocktail Games / R&R Games), 2010.
+- *Inside Hamlet*. Participation Design Agency (with Atropos), 2015.
+- [Jubensha](../exemplars/jubensha.qmd). A script-driven venue form, China, c. 2016.
+- *Just a Little Lovin'*. Tor Kjetil Edland and Hanne Grasmo, 2011.
+- *Knave*. Ben Milton, 2018.
+- *Mad About the Boy*. Tor Kjetil Edland, Margrete Raaum and Trine Lise Lindahl, 2010.
+- *Mafia*. Dmitry Davidoff, 1986.
+- [*Magic: The Gathering*](../exemplars/magic-the-gathering.qmd). Richard Garfield (Wizards of the Coast), 1993.
+- *Masquerade*. Kit Williams, 1979.
+- *Maze Rats*. Ben Milton, 2016.
+- [The MIT Mystery Hunt](../exemplars/mit-mystery-hunt.qmd). MIT solver community, from 1981.
+- *Mirrorshades*. Alex Beck, 2018.
+- *My Life with Master*. Paul Czege, 2003.
+- *Nemesis*. Adam Kwapinski (Awaken Realms), 2018.
+- *New World Magischola*. Maury Brown and Ben Morrow (Learn Larp), 2016.
+- *Not Over By Christmas*. Rob Cooper, 2015.
+- Oak Island. A real-world treasure-hunt tradition (no single creator).
+- [*Pandemic*](../exemplars/pandemic.qmd). Matt Leacock (Z-Man Games), 2008.
+- *Pathfinder Second Edition*. Paizo, 2019.
+- *Principia Apocrypha*. Ben Milton, Steven Lumpkin and David Perry, 2018.
+- *A Quick Primer for Old School Gaming*. Matt Finch (Mythmere Games), 2008.
+- *The Resistance*. Don Eskridge, 2009.
+- *Robin's Laws of Good Game Mastering*. Robin D. Laws (Steve Jackson Games), 2002.
+- *Scotland Yard*. Ravensburger, 1983.
+- *The Secret*. Byron Preiss, 1982.
+- *Secret Hitler*. Mike Boxleiter, Tommy Maranges and Max Temkin, 2016.
+- *Sherlock Holmes Consulting Detective*. Raymond Edwards, Suzanne Goldberg and Gary Grady (Sleuth Publications), 1982.
+- "Shoot for the Stars" (an escape room). SJ Chen, 2023.
+- [*Sleep No More*](../exemplars/sleep-no-more-and-punchdrunk.qmd). Punchdrunk, 2011.
+- *Spirit Island*. R. Eric Reuss (Greater Than Games), 2017.
+- *Strike Force*. Aaron Allston, 1988.
+- *Then She Fell*. Third Rail Projects, 2012.
+- [*Thousand Year Old Vampire*](../exemplars/thousand-year-old-vampire.qmd). Tim Hutchings, 2020.
+- *Tomb of Horrors*. Gary Gygax (TSR), 1978.
+- *Twelve Angry Men*. Reginald Rose, 1954.
+- *Twitch Plays Pokémon*. Anonymous (Twitch), 2014.
+- *Watch the Skies*. Jim Wallman, 2013.
+- *Werewolf*. Andrew Plotkin, 1997.
+- World Escape Room Championship (ER Champ). Organised by Lockme, founded 2017.
+- *The Wretched* / *Wretched & Alone*. Chris Bissette, 2020.
+- *You Me Bum Bum Train*. Kate Bond and Morgan Lloyd, 2004.
+
+## References
+
+- Alexander, Justin. "Rulings vs Fiat" and "Thought of the Day: Evolution of Session Zero." The Alexandrian. <https://thealexandrian.net/wordpress/10681/roleplaying-games/thought-of-the-day-rulings-vs-fiat>
+- Andresen, Martin Eckhoff, and Martin Nielsen. "The Mixing Desk of Larp." Analog Game Studies, November 2016. <https://analoggamestudies.org/2016/11/the-mixing-desk-of-larp-history-and-current-state-of-a-design-theory/>
+- Annison, Becky. "How to Write a Megagame Part 8: Teams." BeckyBecky Blogs. <https://beckybeckyblogs.com/game-design/megagame-design-8-teams/>
+- Asch, Solomon E. "Effects of group pressure upon the modification and distortion of judgments." In *Groups, Leadership and Men*, Carnegie Press, 1951. <https://www.simplypsychology.org/asch-conformity.html>
+- Baker, Vincent. "The MC Agenda and Principles" (Apocalypse World). lumpley games, 2016. <https://gnomestew.com/the-gms-agenda-and-principles/>
+- Bartle, Richard. "Hearts, Clubs, Diamonds, Spades: Players Who Suit MUDs." Journal of MUD Research 1(1), 1996. <https://mud.co.uk/richard/hcds.htm>
+- Bernareggi, C., et al. "Twine Screen Reader." Interactive Storytelling (ICIDS 2022), Springer. <https://link.springer.com/chapter/10.1007/978-3-031-22298-6_37>
+- Blackwell, Angela Glover. "The Curb-Cut Effect." Stanford Social Innovation Review, Winter 2017. <https://ssir.org/articles/entry/the_curb_cut_effect>
+- Bockman, Petter. "The Three Way Model." In *As Larp Grows Up*, 2003. <http://www.laivforum.dk/dk3_2/external/seminars/algu_threewaymodel.pdf>
+- Boss, Emily Care. "Bleed" (introduced at Ropecon 2007). Nordic Larp wiki. <https://nordiclarp.org/wiki/Bleed>
+- Bowman, Sarah Lynne. "Returning to the Real World," "Post-Larp Depression" (with Evan Torner, 2014) and "Post-Play Activities for Larp" (2018). nordiclarp.org and Analog Game Studies. <https://analoggamestudies.org/2014/08/post-larp-depression/>
+- Brederoo et al. "AScapeD: an escape room for autism inclusion." 2021. <https://pmc.ncbi.nlm.nih.gov/articles/PMC8294642/>
+- Brown, Maury. "Creating a Culture of Trust through Safety and Calibration Mechanics." nordiclarp.org, 2016. <https://nordiclarp.org/2016/06/14/creating-culture-trust-safety-calibration-mechanics-larps/>
+- Chen, Fadong, and Ian Krajbich. "Biased sequential sampling underlies the effects of time pressure and delay in social decision making." Nature Communications 9, 2018. <https://www.nature.com/articles/s41467-018-05994-9>
+- Crawford, Jeremy. "The first rule of D&D is that the DM adjudicates the rules." 2019. <https://x.com/JeremyECrawford/status/1151295401791651840>
+- Czege, Paul. "The Czege Principle" (2003). RPG Museum. <https://rpgmuseum.fandom.com/wiki/Czege_Principle>
+- Easley, David, and Jon Kleinberg. "Mafia: The Game of Information Asymmetry." Cornell, 2014. <https://blogs.cornell.edu/info2040/2014/09/27/mafia-the-game-of-information-asymmetry/>
+- Edwards, Ron. *Sex and Sorcery* (Lines and Veils), Adept Press, 2003, and "System Does Matter" / GNS theory, 1999. <https://en.wikipedia.org/wiki/GNS_theory>
+- Fatland, Eirik. "The Open Door," and (with Markus Montola) "The Blockbuster Formula." nordiclarp.org, 2015. <https://nordiclarp.org/2015/02/02/the-blockbuster-formula-brute-force-design-in-the-monitor-celestra/>
+- Finch, Matt. *A Quick Primer for Old School Gaming*. Mythmere Games, 2008. <https://archive.org/details/old-school-primer>
+- Grasmo, Hanne. "Taking Care." Playground: The New Wave in Roleplaying no. 2, 2011.
+- Gygax, Gary. *Advanced Dungeons & Dragons Dungeon Master's Guide*. TSR, 1979. <https://archive.org/details/advanceddungeons0000gyga>
+- Hamilton, Ian, and contributors. Game Accessibility Guidelines. 2012. <https://gameaccessibilityguidelines.com/>
+- Heron, Michael. "Meeple Centred Design: A Heuristic Toolkit for Evaluating the Accessibility of Tabletop Games." Game Developer. <https://www.gamedeveloper.com/audio/meeple-centred-design-a-heuristic-toolkit-for-evaluating-the-accessibility-of-tabletop-games>
+- Holmes, Kat. *Mismatch: How Inclusion Shapes Design*. MIT Press, 2018.
+- Hon, Adrian. "Here's what makes jubensha different." mssv.net, 2025. <https://mssv.net>
+- Hugaas, Kjell Hedgard. "Investigating Types of Bleed in Larp." nordiclarp.org, 2019. <https://www.nordiclarp.org/2019/01/25/investigating-types-of-bleed-in-larp-emotional-procedural-and-memetic/>
+- Jamieson, Amber. "Performers And Staffers At 'Sleep No More' Say Audience Members Have Sexually Assaulted Them." BuzzFeed News, January 2018. <https://www.buzzfeednews.com/article/amberjamieson/sleep-no-more>
+- Karau, Steven J., and Kipling D. Williams. "Social Loafing: A Meta-Analytic Review and Theoretical Integration." Journal of Personality and Social Psychology 65(4), 1993.
+- Kim, John H. "The Threefold Model" (formalising the rec.games.frp.advocacy discussion), 1997.
+- Koljonen, Johanna. "Safety and Calibration Design Tools and Their Uses." nordiclarp.org, 24 January 2018. <https://nordiclarp.org/2018/01/24/safety-calibration-design-tools-uses/>
+- Latane, Bibb, Kipling Williams and Stephen Harkins. "Many Hands Make Light the Work." Journal of Personality and Social Psychology 37(6), 1979.
+- Laws, Robin D. *Robin's Laws of Good Game Mastering*. Steve Jackson Games, 2002. <https://www.darkshire.net/jhkim/rpg/theory/models/robinslaws.html>
+- Le Texier, Thibault. "Debunking the Stanford Prison Experiment." American Psychologist 74(7), 2019.
+- Loqace, Chiara. "Linguistic and Geographic Localization for Puzzles and Riddles." Medium, 2025. <https://medium.com/design-bootcamp/linguistic-and-geographic-localization-for-puzzles-and-riddles-overview-solutions-and-suggestions-de4f2b3bf229>
+- Mace, Ronald L., et al. "The Principles of Universal Design, Version 2.0." NCSU Center for Universal Design, 1997. <https://web.stanford.edu/class/engr110/2007/PUD.pdf>
+- Machon, Josephine. *Immersive Theatres: Intimacy and Immediacy in Contemporary Performance*. Palgrave Macmillan, 2013.
+- Milgram, Stanley. "Behavioral Study of Obedience." Journal of Abnormal and Social Psychology 67(4), 1963. <https://pubmed.ncbi.nlm.nih.gov/14049516/>
+- Miller, Travis. "Subtleties of Rulings, not Rules." Grumpy Wizard, July 2023. <https://grumpywizard.home.blog/2023/07/13/subtleties-of-rulings-not-rules/>
+- Nicholson, Scott. "Peeking Behind the Locked Door: A Survey of Escape Room Facilities." 2015. <https://scottnicholson.com/pubs/erfacwhite.pdf>
+- O'Szabo, Rebeka, Sandeep Chowdhary, David Deritei and Federico Battiston. "The anatomy of social dynamics in escape rooms." Scientific Reports 12, 2022. <https://www.nature.com/articles/s41598-022-13929-0>
+- Oliver, Mike. *Social Work with Disabled People*. 1983 (coined the social model of disability). <https://www.sense.org.uk/about-us/the-social-model-of-disability/>
+- Pohjola, Mike. "The Manifesto of the Turku School." 2000. <https://nordiclarp.org/wiki/The_Turku_Manifesto>
+- Quade, Lu. "Stars and Wishes." The Gauntlet, 22 August 2018. <https://www.gauntlet-rpg.com/blog/stars-and-wishes>
+- Ringelmann, Max. "Recherches sur les moteurs animes: Travail de l'homme." Annales de l'Institut National Agronomique, 1913.
+- Shea, Mike (Sly Flourish). "Running Session Zeros." 2021. <https://slyflourish.com/running_session_zeros.html>
+- Sheldon, Brie Beau. "Script Change RPG Toolbox." 2013 (revised 2019, final 2023). <https://briebeau.com/thoughty/script-change/>
+- Spira, David (Room Escape Artist). "Players Per Escape Room" (2015), "Split Team Challenge Structures" (2023) and "The Split Team Regrouping Problem" (2019). <https://roomescapeartist.com/2015/06/25/players-per-escape-room/>
+- Stark, Lizzie. "How to Run a Post-Larp Debrief." leavingmundania.com, 2013.
+- Stavropoulos, John. "The X-Card." 2013. <http://tinyurl.com/x-card-rpg>
+- Stenros, Jaakko, and Markus Montola, eds. *Nordic Larp*. Fëa Livia, 2010. <https://nordiclarp.org/wiki/Nordic_Larp_(book)>
+- Striner, Alina, Andrew M. Webb, Jessica Hammer and Amy Cook. "Mapping Design Spaces for Audience Participation in Game Live Streaming." CHI 2021. <https://dl.acm.org/doi/10.1145/3411764.3445511>
+- Twice, Erik. "The 'alpha player' in coops is a symptom, not the disease." eriktwice.com, 12 March 2021. <https://eriktwice.com/en/2021/03/12/alpha-player-cooperative-games-symptom/>
+
+::: {.content-hidden when-format="typst"}
+
+## Research basis
+
+Consulted while writing; not cited in the text.
+
+- Accessibility standards and toolkits (ADA reach-range guidance; WCAG 2.1; EN 301 549; EN 17210:2021; CAST's UDL Guidelines; Microsoft Inclusive Design Toolkit; the Centre for Excellence in Universal Design; UK Equality Act 2010 guidance; epilepsy and photosensitivity guidance).
+- Megagame design and reports (Megagame Assembly "The Traitor Problem"; Mechanics Are Easy on objectives; "Megagame," Wikipedia; Megagame Makers UK; PAXsims; SW Megagames role guides; after-action reports for Den of Wolves, Crisis in Elysium and Mirrorshades; Wallman, *It's Only A Game*).
+- Larp safety, casting and aftercare background (nordiclarp.org on pre-larp workshops, player chemistry, ars amandi and aftercare; Fair Escape on casting; No Proscenium and Fast Familiar on consent and ethics of interactive theatre).
+- Escape-room operations and accessibility (Room Escape Artist on colourblindness, hint systems, cold starts and immersive-theatre rooms; The Logic Escapes Me on colour and lighting; Escape Room Era / Mission Escape / 60out on the game-master role; ER Champ and The Escape Roomer on the championship; SJ Chen on "Shoot for the Stars"; Cohen et al. on escape rooms and team cohesion).
+- Social-psychology background (Janis, *Victims of Groupthink*; museum-visitor research by Falk and Dierking).
+- Hidden-role and social-deduction context ("Designing Games with Hidden Roles," Minifiniti; Easley and Kleinberg on Mafia).
+- Treasure and cipher background (Wikipedia on the Beale ciphers, Fenn treasure, The Secret, Masquerade, Oak Island and Cain's Jawbone; The Digital Antiquarian on Kit Williams; CrimeReads on Cain's Jawbone).
+- Cicada 3301 background (Wikipedia; The Face).
+- Jubensha background (Wikipedia; Chronic Insanity).
+- GM-assistant and session-prep guides (Roleplaying Tips; Colville's "Pitching Your Campaign"; Storybrewers on playtesting; "The Origins of Rule Zero," Playing at the World).
+- Immersive-theatre productions (Sleep No More and Punchdrunk via Wikipedia and Future of Storytelling; Then She Fell via Third Rail Projects and BroadwayWorld; You Me Bum Bum Train, Wikipedia).
+- Free Kriegsspiel Renaissance primer. <https://fdisk.quest/fkr/>
+
+:::

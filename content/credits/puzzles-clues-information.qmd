@@ -1,0 +1,100 @@
+---
+type: credits
+---
+
+# Works & References {.unnumbered}
+
+The works this part's articles discuss and the texts they cite. The print edition carries the credited works and the references; the web edition adds the wider research consulted.
+
+## Works discussed
+
+- *Animal Well*. Billy Basso (Bigmode), 2024.
+- *Avon*. Jon Thackray and Jonathan Partington, 1982.
+- [*Baba Is You*](../exemplars/baba-is-you.qmd). Arvi Teikari (Hempuli), 2019.
+- *The Beast*. Jordan Weisman, Elan Lee and Sean Stewart (Microsoft / Warner Bros.), 2001.
+- [*Blue Prince*](../exemplars/blue-prince.qmd). Dogubomb (Raw Fury), 2025.
+- *Cain's Jawbone*. Edward Powys Mathers (as Torquemada), 1934.
+- [Cicada 3301](../exemplars/cicada-3301.qmd). Anonymous, 2012.
+- [DASH & the Galactic Puzzle Hunt](../exemplars/dash-and-galactic-puzzle-hunt.qmd). Various organisers, 2009.
+- *The Edifice*. Lucian P. Smith, 1997.
+- [*Exit: The Game*](../exemplars/exit-the-game.qmd). Inka and Markus Brand (Kosmos), 2016.
+- *The Thrill of the Chase* (the Fenn treasure). Forrest Fenn, 2010.
+- *Her Story*. Sam Barlow, 2015.
+- [Hunt A Killer](../exemplars/hunt-a-killer.qmd). Ryan Hogan and Derrick Smith, 2016.
+- *I Love Bees*. 42 Entertainment, 2004.
+- *Infidel*. Michael Berlyn and Patricia Fogleman (Infocom), 1983.
+- *The Jejune Institute*. Jeff Hull (Nonchalance), 2008.
+- [Jubensha](../exemplars/jubensha.qmd). A script-driven venue form, China, c. 2016.
+- *La-Mulana*. Nigoro (GR3 Project), 2005.
+- *Masquerade*. Kit Williams, 1979.
+- *Maze: Solve the World's Most Challenging Puzzle*. Christopher Manson, 1985.
+- [Megagames / *Watch the Skies*](../exemplars/megagames.qmd). Jim Wallman, first run London 2013.
+- [The MIT Mystery Hunt](../exemplars/mit-mystery-hunt.qmd). Founded by Brad Schaefer, 1981.
+- *Outer Wilds*. Mobius Digital (Annapurna Interactive), 2019.
+- *Portal*. Valve, 2007.
+- *Rashomon*. Akira Kurosawa, 1950.
+- *The Secret*. Byron Preiss (Bantam Books), 1982.
+- *Super Mario Bros.* Nintendo, 1985.
+- *Tunic*. Andrew Shouldice (Finji), 2022.
+- [*Unlock!*](../exemplars/unlock-series.qmd). Space Cowboys, 2017.
+- [*The Witness*](../exemplars/the-witness.qmd). Jonathan Blow (Thekla), 2016.
+
+## References
+
+- Alexander, Justin. "The Three Clue Rule." The Alexandrian, 8 May 2008. <https://thealexandrian.net/wordpress/1118/roleplaying-games/three-clue-rule>
+- Alexander, Justin. "Node-Based Scenario Design, Part 1." The Alexandrian, 27 May 2010. <https://thealexandrian.net/wordpress/7949/roleplaying-games/node-based-scenario-design-part-1-the-plotted-approach>
+- Anthropy, Anna. "Level Design Lessons: To the right, hold on tight." <https://w.itch.io/level-design-lessons>
+- Bowden, Edward M., and Mark Jung-Beeman. "Aha! Insight experience correlates with solution activation in the right hemisphere." *Psychonomic Bulletin & Review* 10(3), 2003, 730 to 737. <https://link.springer.com/article/10.3758/BF03196539>
+- Brown, Mark. "What Makes a Good Puzzle?" Game Maker's Toolkit. <https://www.youtube.com/watch?v=zsjC6fa_YBg>
+- Chen, Evan. "Puzzlehunting" guides. <https://web.evanchen.cc/puzzlehunt.html>
+- Christie, Agatha. Detective-fiction technique (the red herring kept in focus while the real clue sits in plain view); named in passing.
+- Doelle, Mark, and Souvik Mukerji. "Computing Models of Escape Rooms" (the Object Graph Model). *Analog Game Studies*, December 2020. <https://analoggamestudies.org/2020/12/computing-models-of-escape-rooms/>
+- Elumir, Errol. "13 Rules for Escape Room Puzzle Design." The Codex. <https://thecodex.ca/13-rules-for-escape-room-puzzle-design/>
+- Elumir, Errol. "How Escape Rooms Do Difficulty Wrong: The Player Loop." The Codex. <https://thecodex.ca/how-escape-rooms-do-difficulty-wrong-the-player-loop/>
+- Hon, Adrian. "Here's What Makes Jubensha Different." mssv.net, 26 March 2025. <https://mssv.net/2025/03/26/heres-what-makes-jubensha-different/>
+- Irpan, Alex. "Writing MIT Mystery Hunt 2023." 21 April 2023. <https://www.alexirpan.com/2023/04/21/mh-2023.html>
+- Jung-Beeman, Mark, Edward M. Bowden, et al. "Neural Activity When People Solve Verbal Problems with Insight." *PLOS Biology* 2(4), 2004, e97. <https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.0020097>
+- Knox, Ronald. "The Detective Story Decalogue," introduction to *The Best English Detective Stories of 1928*, 1929. <https://en.wikipedia.org/wiki/Ronald_Knox>
+- Köhler, Wolfgang. *The Mentality of Apes*. Kegan Paul, Trench, Trubner, 1925 (orig. 1917).
+- Mathers, Edward Powys ("Torquemada") and the cryptic-setter tradition, including Afrit (Alistair Ferguson Ritchie), on two-route fair cluing in cryptic crosswords.
+- Nelson, Graham. *The Inform Designer's Manual*, 4th edition, section 50, "The design of puzzles." <http://inform-fiction.org/manual/html/s50.html>
+- Ni, Brian ("betaveros"). "Introduction to Puzzlehunts." Bounded-Error Log. <https://blog.vero.site/post/puzzlehunts>
+- Nicholson, Scott. "Peeking Behind the Locked Door: A Survey of Escape Room Facilities." White Paper, 2015. <https://scottnicholson.com/pubs/erfacwhite.pdf>
+- Sayers, Dorothy L. Author of the Detection Club initiation oath (1930).
+- Spira, David. "Hints and Hinting Systems [Room Design]." Room Escape Artist, 2 October 2016. <https://roomescapeartist.com/2016/10/02/hints-and-hinting-systems-room-design/>
+- Strange Bird Immersive. "Bottlenecks: Designing for Focus Mid-Experience" and "Hard Mode" (intentional bottlenecks; the in-world character as hint). <https://strangebirdimmersive.com/>
+- Van Dine, S. S. (Willard Huntington Wright). "Twenty Rules for Writing Detective Stories." *The American Magazine*, September 1928. <http://gaslight-lit.s3-website.ca-central-1.amazonaws.com/gaslight/vandine.htm>
+- Wilson, Dan. "Introduction to Writing Good Puzzle Hunt Puzzles." MIT. <http://web.mit.edu/dwilson/www/puzzles/puzzlewriting.html>
+
+::: {.content-hidden when-format="typst"}
+
+## Research basis
+
+Consulted while writing; not cited in the text.
+
+- Selinker, Mike, and Thomas Snyder. *Puzzlecraft: The Ultimate Guide to the Construction of Every Kind of Puzzle*. Lone Shark Games, 2012.
+- Singh, Simon. *The Code Book*. Fourth Estate, 1999.
+- Kounios, John, and Mark Beeman. "The Aha! Moment: The Cognitive Neuroscience of Insight." *Current Directions in Psychological Science* 18(4), 2009, 210 to 216.
+- Kounios, John, and Mark Beeman. *The Eureka Factor: Aha Moments, Creative Insight, and the Brain*. Random House, 2015.
+- Knoblich, G., S. Ohlsson, H. Haider and D. Rhenius. "Constraint Relaxation and Chunk Decomposition in Insight Problem Solving." *Journal of Experimental Psychology: LMC* 25(6), 1999.
+- Ohlsson, S. "Information-processing explanations of insight and related phenomena." In *Advances in the Psychology of Thinking*, Harvester-Wheatsheaf, 1992.
+- Anthropy, Anna. *Rise of the Videogame Zinesters*. Seven Stories Press, 2012.
+- McGonigal, Jane. *Reality Is Broken*. Penguin Press, 2011.
+- Hong et al. "The Collaborative Sensemaking Play of Jubensha Games." *Games: Research and Practice*, ACM, 2025. DOI 10.1145/3721121.
+- Annison, Becky. "How to Write a Megagame Part 5: Briefings." BeckyBecky Blogs.
+- Freeform Games. "Writing a Murder" and "How to Write an Extra Character." <https://www.freeformgames.com/>
+- Twist n Turn Studios. "The Jubensha Structure Explained." <https://www.twistnturnstudios.ca/blog/jubensha-structure-and-free-jubensha>
+- "DASH: Frequently Asked Questions." DASH. <https://playdash.org/faq.php>
+- Room Escape Artist. "DASH 12 [Puzzle Hunt Review]," 14 December 2025.
+- Constructed Adventures. "Structures for Building a Puzzle Adventure" and "What's the Meta with Meta Puzzles?" <https://www.constructedadventures.com/>
+- Indigoextra. "Treasure Hunt Clues and Ideas." <https://www.indigoextra.com/blog/treasure-hunt-clues-and-ideas>
+- Watson Adventures. <https://www.watsonadventures.com/>
+- Geocaching.com and GAGB. "Hiding a Multi-Cache," "Geocache Hiding Guidelines," "Solving Geocaching Puzzles."
+- Boxentriq. "Cipher Identifier and Analyzer." <https://www.boxentriq.com/code-breaking/cipher-identifier>
+- Lock Paper Scissors. "63 DIY Escape Room Puzzle Ideas" and "13 Escape Room Cipher Ideas." <https://lockpaperscissors.co/>
+- FrightProps and FrightIdeas. "EscapeKeeper" controller and operating manual. <https://www.frightprops.com/escapekeeper.html>
+- "Glossary of Puzzle Hunt Terms," "Metapuzzle" and "Indexing." Puzzles Wiki. <https://www.puzzles.wiki/>
+- PlayTours, Eventzee and Let's Roam scavenger-hunt operational guides (weather backup, GPS behaviour, wheelchair routing).
+- Pyrogram and n8n documentation (Telegram scheduled delivery; Discord/Telegram integration nodes).
+
+:::

@@ -11,7 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-
 *Silhouette: The art of spending a group's attention so the last hour is the best one.*
 
 A session is a span of time with a shape. Three or four hours at a table, an hour in a locked room, an evening with a long branching story: each is a finite stretch of attention that rises, dips, and has to land somewhere. The designer who ignores that shape gets a flat run of events that technically happened. The one who works with it gets a session people remember as having gone somewhere.
@@ -85,30 +84,6 @@ The cliffhanger earns its own mention because it is a scheduling tool as much as
 **The bigger picture.** Session pacing is the layer where every other structural decision meets the clock. The shapes a story can take, the branches it can afford, the beats it is built from: all of them get spent inside a finite span of group attention, and this is the article about that span. It depends on the smaller units beneath it, the scene-by-scene rhythm of [Scene & Sequel in Interactive Fiction](scene-and-sequel-in-interactive-fiction.qmd) and the rising stakes of [Try-Fail Cycles & Escalation](try-fail-cycles-and-escalation.qmd), and it feeds upward into the longer forms, the multi-session shapes of [Campaign Arc Shapes](campaign-arc-shapes.qmd) and the self-contained installments of [Episodic & Serialised Structure](episodic-and-serialised-structure.qmd). It is also the practical face of the same craft a branching story manages structurally, because a branch that strands a group at the wrong point in the arc is a pacing failure before it is a structural one, which is the concern of [Branching Narrative Craft](branching-narrative-craft.qmd).
 
 **Next steps.** Once the session's arc is set, the live questions are about texture and recovery. To vary the energy curve through the built environment rather than the plot (quiet rooms, loud reveals, the sensory pacing of a space), the work is [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd). To buy back the preparation time that all this real-time management assumes, so the strong start and the reserve climax are cheap to have ready, the discipline is [The Prep Economy](../systems-mechanics/prep-economy.qmd). And to handle the late-game stall that no amount of curve design fully prevents, the recovery layer is [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd).
-
-## Sources
-
-- Shea, Mike (Sly Flourish). "Improving Pacing." <https://slyflourish.com/pacing.html>
-- Shea, Mike. "Timing and Pacing Adventures." <https://slyflourish.com/timing_and_pacing_adventures.html>
-- Shea, Mike. "Starting Strong." <https://slyflourish.com/starting_strong.html>
-- Shea, Mike. "Upward and Downward Beats." <https://slyflourish.com/upward_and_downward_beats.html>
-- Laws, Robin D. *Robin's Laws of Good Game Mastering*. Steve Jackson Games, 2002.
-- Laws, Robin D. *Hamlet's Hit Points*. Gameplaywright Press, 2010. (Hopeful/fearful beat alternation.)
-- EN World community. "How long should a gaming session be?" <https://www.enworld.org/threads/how-long-should-a-gaming-session-be.702771/>
-- Morningstar, Jason. *Fiasco*. Bully Pulpit Games, 2009. (The Tilt as mid-game escalation.)
-- Run a Game. "RPG Session Pacing." <https://www.runagame.net/2015/09/rpg-session-pacing.html>
-- Roleplaying Tips. "How Do You Pace Game Sessions Well?" <https://www.roleplayingtips.com/running-games/how-do-you-pace-game-sessions-well/>
-- The TTRPG Factory. "Pacing Your RPG." <https://ttrpgfactory.com/2023/03/15/pacing-your-rpg/>
-- Phd20. "Running Shorter Sessions." <https://phd20.com/blog/running-shorter-sessions/>
-- Elumir, Errol. "13 Rules for Escape Room Puzzle Design." The Codex. <https://thecodex.ca/13-rules-for-escape-room-puzzle-design/>
-- Elumir, Errol. "How Escape Rooms Do Difficulty Wrong: The Player Loop." The Codex. <https://thecodex.ca/how-escape-rooms-do-difficulty-wrong-the-player-loop/>
-- Spira, David. "How Difficult Should an Escape Game Be?" Room Escape Artist, 29 March 2015. <https://roomescapeartist.com/2015/03/29/how-difficult-should-an-escape-game-be/>
-- Room Escape Artist. "Priming Puzzles in Escape Rooms." 21 October 2020. <https://roomescapeartist.com/2020/10/21/priming-puzzles-escape-rooms/>
-- Room Escape Artist. "What Escape Rooms Can Learn from Puzzle Hunts." 28 August 2025. <https://roomescapeartist.com/2025/08/28/what-escape-rooms-can-learn-from-puzzle-hunts/>
-- DASH ("Different Area, Same Hunt"). Format details and FAQ. <https://www.playdash.org/>
-- Irpan, Alex. "Writing MIT Mystery Hunt 2023." (Act structure and fractal difficulty curve.) <https://www.alexirpan.com/2023/02/27/mh-2023.html>
-- Swain, Dwight V. *Techniques of the Selling Writer*. University of Oklahoma Press, 1965. (Scene-sequel structure.)
-- Bickham, Jack M. *Scene and Structure*. Writer's Digest Books, 1993. (The beat as the minimal scene unit.)
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 

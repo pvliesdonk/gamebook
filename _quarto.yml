@@ -32,6 +32,7 @@ book:
         - content/articles/structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd
         - content/articles/structure-pacing/hexcrawl-and-pointcrawl.qmd
         - content/articles/structure-pacing/west-marches-and-the-open-table-format.qmd
+        - content/credits/structure-pacing.qmd
     - part: "Puzzles, Clues & Information"
       chapters:
         - content/primers/the-fairness-contract.qmd
@@ -49,6 +50,7 @@ book:
         - content/articles/puzzles-clues-information/puzzle-hunt-craft.qmd
         - content/articles/puzzles-clues-information/treasure-and-scavenger-hunts.qmd
         - content/articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd
+        - content/credits/puzzles-clues-information.qmd
     - part: "Story, Character & Voice"
       chapters:
         - content/primers/making-it-matter.qmd
@@ -80,6 +82,7 @@ book:
         - content/articles/story-character-voice/the-journal-as-artefact.qmd
         - content/articles/story-character-voice/npc-craft-and-voicing.qmd
         - content/articles/story-character-voice/audience-and-age-targeting.qmd
+        - content/credits/story-character-voice.qmd
     - part: "Players & Social Dynamics"
       chapters:
         - content/primers/the-social-contract-and-safety.qmd
@@ -103,6 +106,7 @@ book:
         - content/articles/players-social-dynamics/mixed-ability-groups-and-universal-design.qmd
         - content/articles/players-social-dynamics/gm-role-models-and-stances.qmd
         - content/articles/players-social-dynamics/rulings-vs-rules-and-the-authority-contract.qmd
+        - content/credits/players-social-dynamics.qmd
     - part: "Space, Props & Materiality"
       chapters:
         - content/primers/making-it-real.qmd
@@ -118,6 +122,7 @@ book:
         - content/articles/space-props-materiality/materials-durability-and-reset.qmd
         - content/articles/space-props-materiality/physical-vs-digital-puzzle-artefacts.qmd
         - content/articles/space-props-materiality/dungeon-and-spatial-topology.qmd
+        - content/credits/space-props-materiality.qmd
     - part: "Systems & Mechanics"
       chapters:
         - content/primers/the-engine-room.qmd
@@ -145,6 +150,7 @@ book:
         - content/articles/systems-mechanics/boardgame-mechanism-vocabulary.qmd
         - content/articles/systems-mechanics/euro-vs-ameritrash-the-two-design-poles.qmd
         - content/articles/systems-mechanics/deckbuilders.qmd
+        - content/credits/systems-mechanics.qmd
     - part: "Keys"
       chapters:
         - content/keys/index.qmd

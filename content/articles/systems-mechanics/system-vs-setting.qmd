@@ -11,7 +11,6 @@ facets:
 provenance: "researched"
 ---
 
-
 *Silhouette: The question of whether a game's rules are its world spoken twice, or a neutral engine the world is poured into.*
 
 Every game carries two things a designer holds apart in the mind. A system is the rule set that settles what happens. A setting is the world in which it all takes place. The interesting question is how tightly the two are bolted together. In some games you cannot pull them apart at all. There the rules are simply the world restated as procedure. In other games the rules form a clean engine while the world rides along as cargo that slots in without touching the machine underneath.
@@ -72,24 +71,6 @@ The live form is the question of diegetic mechanics. In an escape room a designe
 **The bigger picture.** System-versus-setting is the framing question that sits above most of the rest of this family, because it decides what every other mechanism is for. A [resolution method](mechanical-resolution-types.qmd) can be a neutral randomiser or a thematic statement; a [PbtA Move](moves-and-the-fiction-mechanic-fiction-loop.qmd) is the tight-coupling case taken to its logical end, where the rule and the fiction are locked into one bidirectional event. Where a given game sits on this axis predicts a great deal. It tells you how stubbornly the rules will resist a hack. It tells you how much setting text the game needs before it feels like somewhere specific. And it tells you whether the flavour and the mechanics will pull together or quietly fight. Misread it, and a death-is-cheap world built on heroic-recovery rules will feel off at the table for reasons no amount of setting prose can fix.
 
 **Next steps.** Once you know how tightly a system is meant to couple, the craft turns to making the weld actually hold, which is [Theme-Mechanism Integration](theme-mechanism-integration.qmd): the discipline of keeping a mechanic load-bearing rather than pasted on. To place a given system within the design traditions that lean tight or loose, start from the [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd). To see the tightest coupling worked out at the level of a single roll, where the fiction triggers the rule and the rule feeds back into the fiction, go to [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd). And to follow the same weld into the digital and live media, the parallel cases are [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd) and [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd).
-
-## Sources
-
-- Baker, D. Vincent and Baker, Meguey. *Apocalypse World* (lumpley games, 2010; 2nd edition 2016); the move list and the bidirectional fiction-mechanic lock. <https://en.wikipedia.org/wiki/Apocalypse_World>
-- Baker, D. Vincent. "Powered by the Apocalypse, Part 1" (2019); the character as both fictional person and playing piece. <https://lumpley.games/2019/12/30/powered-by-the-apocalypse-part-1/>
-- "Apocalypse World" rule formulation, The Alexandrian. <https://thealexandrian.net/wordpress/9584/roleplaying-games/apocalypse-world>
-- *Dogs in the Vineyard* (D. Vincent Baker, lumpley games, 2004); the Conversation-Fists-Guns escalation chain. <https://en.wikipedia.org/wiki/Dogs_in_the_Vineyard>
-- *The Burning Wheel* (Luke Crane; Burning Wheel Gold, 2011); Beliefs, Instincts, Traits, and the Duel of Wits. <https://en.wikipedia.org/wiki/The_Burning_Wheel>
-- *Monsterhearts* (Avery Alder, Buried Without Ceremony; 1st edition 2012, 2nd edition 2017); the Skin list as the world's roster. <https://en.wikipedia.org/wiki/Monsterhearts>
-- *Masks: A New Generation* (Brendan Conway, Magpie Games, 2017); personality-based playbooks and the Influence stat. <https://en.wikipedia.org/wiki/Masks:_A_New_Generation>
-- *Blades in the Dark* (John Harper, Evil Hat Productions, 2017); the stress / vice / trauma cycle and the Forged in the Dark licence. <https://en.wikipedia.org/wiki/Blades_in_the_Dark>
-- Forged in the Dark games list (including *Scum and Villainy*, *Band of Blades*). <https://bladesinthedark.com/forged-dark>
-- *GURPS* (Steve Jackson Games, 1986); the universal-system pitch and its supplement cost. <https://en.wikipedia.org/wiki/GURPS>
-- Edwards, Ron. "System Does Matter" (1999); mechanics shape the experience, not any-system-will-do. <https://www.indie-rpgs.com/_articles/system_does_matter.html>
-- "GNS theory" (the "system matters" lineage and its later contestation). Wikipedia. <https://en.wikipedia.org/wiki/GNS_theory>
-- D&D 5e product-line settings: Eberron, Strixhaven, Spelljammer, Planescape (setting-as-content under stable mechanics). <https://en.wikipedia.org/wiki/Eberron> and <https://en.wikipedia.org/wiki/Planescape:_Adventures_in_the_Multiverse>
-- "Do TTRPGs Have a Grimdark Problem?", Golem Productions; heroic-recovery hit points against a death-is-cheap premise. <https://golemproductions.substack.com/p/do-ttrpgs-have-a-grimdark-problem>
-- "Call of Cthulhu Sanity system," GAMES.GG; SAN mechanics encoding the Lovecraftian thesis. <https://games.gg/news/call-of-cthulhu-sanity-system-origin/>
 
 <!-- BACKLINKS:START (generated by scripts/backlinks.py — do not edit by hand) -->
 
