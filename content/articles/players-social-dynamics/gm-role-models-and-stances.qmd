@@ -108,6 +108,7 @@ The seductive failure is the secret stance switch. A gamemaster runs a game as a
 - [Host Roles & the Host-Cannot-Play Problem](host-roles-and-the-host-cannot-play-problem.qmd)
 - [NPC Craft & Voicing](../story-character-voice/npc-craft-and-voicing.qmd)
 - [One-on-One Scene Design](one-on-one-scene-design.qmd)
+- [Paranoia](../../exemplars/paranoia.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
 - [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)

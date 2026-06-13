@@ -1,0 +1,73 @@
+---
+title: "Paranoia"
+type: exemplar
+medium: tabletop
+year: 1984
+designer: "Greg Costikyan, Eric Goldberg & Dan Gelber (West End Games)"
+mechanisms:
+  - ../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd
+  - ../articles/players-social-dynamics/gm-role-models-and-stances.qmd
+  - ../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd
+  - ../articles/players-social-dynamics/the-session-zero-playbook.qmd
+  - ../articles/players-social-dynamics/safety-tools-as-design-layer.qmd
+  - ../articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd
+  - ../articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd
+  - ../articles/story-character-voice/tropes-archetypes-and-variations.qmd
+provenance: "corpus"
+---
+
+*Profile: a comedy of totalitarian bureaucracy where the Game Master is licensed to lie and every character is a criminal hiding the fact from the others, and where death arrives as a cheap and frequent punchline.*
+
+Paranoia is the game that printed adversarial play into the rulebook and made it work. Most tabletop design positions the referee as a neutral facilitator who arbitrates fairly between the players and the fiction. Paranoia does the opposite on purpose: it instructs the Game Master to conceal rules, feed players false information, and rule for comic effect over accuracy, and it asks the players at the table to betray one another as a matter of routine. Greg Costikyan, Eric Goldberg, and Dan Gelber published it through West End Games in 1984, where it won that year's Origins Award for Best Roleplaying Rules. [corpus] What shipped was not a tonal suggestion to play darkly. It was a structure that manufactures comedy and betrayal out of its own mechanics.
+
+It earns a place in this gazetteer because it is the cleanest worked example of a design stance most games treat as a failure mode. Paranoia takes [adversarial play](../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd) and shows the precise conditions under which it is sustainable rather than miserable. The links below run to the articles each part illustrates; read in the other direction, those articles list Paranoia in their *Referenced by* register.
+
+## The design profile
+
+The game is set in Alpha Complex, an enormous underground city run by The Computer, a totalitarian artificial intelligence of questionable sanity that surveils and routinely threatens its entire population. [corpus] Citizens hold colour-coded security clearances, from Infrared at the bottom to Ultraviolet at the top, and the clearance fixes what a citizen may touch, read, speak aloud, or even know about. [corpus] Player characters are Troubleshooters, Red-clearance agents sent to find and shoot threats to The Computer, a job description that makes survival improbable by design. The setting draws on *1984*, *Brave New World*, and *Logan's Run*, but refracts that dystopia through absurdist comedy. The Computer's edicts contradict each other and treason is everywhere and unavoidable, so the correct response to a colleague's mutation is summary execution followed by a cheerful productivity report. [corpus]
+
+The clearance system is not just flavour. It is a structural [information asymmetry](../articles/players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd) the Game Master exploits freely, because characters routinely carry equipment whose very existence is classified above the clearance they hold. [corpus] On top of that sits a second layer of concealment. Every Troubleshooter belongs to a secret society whose agenda conflicts with The Computer's. Every Troubleshooter also carries a mutation. Both are treasonous. [corpus] So each player begins as a criminal who must hide their crimes from colleagues hiding identical ones. Intra-party betrayal is not an emergent breakdown of the group. It is the equilibrium the rules set up.
+
+::: {.callout-note}
+### The Signature
+
+Paranoia hands the Game Master an explicit licence to deceive. The rulebook instructs the referee to conceal rules from players and to supply incorrect information, and to rule on the spot for comic effect rather than for accuracy. [corpus] The historical rulebook even split itself by clearance: lower-clearance players received a version that omitted or misrepresented mechanics available higher up. [corpus] This is a written design specification rather than a loophole a hostile referee happened to find. In 1984 it inverted the era's collaborative-facilitator model, and it still reads as the field's defining statement of the referee as a designed adversary rather than a neutral arbiter. [synthesis]
+:::
+
+That licence is the case the article on [Game Master roles and stances](../articles/players-social-dynamics/gm-role-models-and-stances.qmd) returns to when it maps the spectrum from neutral arbiter to declared opponent. Paranoia anchors the far end. The asymmetry it formalises is between the Game Master and the players collectively, and it is precisely because the referee is openly against the group that the moment-to-moment lying never curdles into private grudges.
+
+Death is the other engine. Player characters arrive with a six-clone backup pack, so a death (frequent, often instantaneous) returns a fresh clone to the table within moments at some administrative inconvenience. [corpus] The mechanic does two jobs at once. It removes the lost-investment paralysis that makes character death sting in other systems, and it converts dying into a repeatable comic beat that the table starts counting rather than mourning. [corpus] Without that relief valve the high-lethality comedy would simply be punishing. The clone pack is what lets the game spend lives freely as setups for jokes, which is the structural reading the article on [moral dilemmas and consequence chains](../articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd) draws on. When betrayal and execution carry a comic rather than a tragic consequence, players reach for them willingly. The dilemma then becomes a source of play rather than a source of dread. [synthesis]
+
+The Troubleshooter is itself an archetype the game weaponises. It is the loyal company man whose loyalty is a performance, the trusted teammate who is also the traitor, and Paranoia hands every player that same doubled role at once. That systemic use of a [stock archetype and its subversion](../articles/story-character-voice/tropes-archetypes-and-variations.qmd) is what makes the betrayal legible: players already know the Betrayer figure, so the game can assign it to everyone and trust the table to read the irony. [synthesis]
+
+## The wider influence
+
+The adversarial stance works because it is established as an explicit pre-play contract. [corpus] A player choosing Paranoia is choosing to be lied to, betrayed, and killed, and to do the same in return, and the consent is carried by the genre label, the game's reputation, and the [session-zero tone-setting](../articles/players-social-dynamics/the-session-zero-playbook.qmd) before the first roll. [corpus] The unfairness is applied uniformly, which the critic WJ McGuffin characterises as treating everyone with unfairness fairly: the imbalance runs between the Game Master and the players as a group, never between one player and another. [corpus] Safety tools such as the X-card and lines and veils remain compatible with the game and are recommended for it, because an adversarial fiction does not exempt a real table from real-world comfort management. [corpus] That pairing is the point the article on [safety tools as a design layer](../articles/players-social-dynamics/safety-tools-as-design-layer.qmd) makes about consent: the clone pack and the announced frame form the in-fiction half while the X-card forms the out-of-fiction half, and a game built on betrayal needs both halves at once.
+
+::: {.callout-warning}
+### The Hazard
+
+Paranoia is constantly cited to license Game-Master-versus-player play in games never built for it. The lesson it actually teaches is narrower. Adversarial play stays sustainable only under four conditions held together. It has to be announced in advance and applied symmetrically to every player. It has to be enclosed in a comedy frame that converts loss into entertainment. And it has to be structurally relieved by quick re-entry such as the clone pack. [corpus] Remove any one of those conditions and you are left with a referee bullying players who never agreed to it. The betrayal Paranoia runs on also depends on [trust and social pressure](../articles/players-social-dynamics/trust-conformity-and-social-pressure.qmd) staying inside the fiction, which is exactly what the comedy frame and the symmetry protect. [synthesis]
+:::
+
+Paranoia and Steve Jackson Games' *Toon*, both published in 1984, are the twin originating texts of comedy-RPG design. [corpus] Where *Toon* drew its humour from cartoon physics and resurrection-as-slapstick, Paranoia drew its own from totalitarian bureaucracy applied with rigorous internal consistency, and together the two demonstrated that humour could be a design goal rather than a tonal accident. [corpus] Later comedy systems such as *Macho Women with Guns* (1988) and the ultra-light *Risus* (1993) work in the space Paranoia opened, and contemporary one-shots inherit its lesson that mechanical brevity and a pre-committed genre tone can replace narrative investment as the engine of engagement. [corpus] Its long life as a convention staple comes from the same structural properties. Clone backups strand no one and the sessions are self-contained, and the adversarial frame asks for no prior relationship between players. [corpus]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop roleplaying game |
+| Designer | Greg Costikyan, Eric Goldberg and Dan Gelber (West End Games) |
+| Published | 1984 (West End Games); later editions under Mongoose Publishing |
+| Players | A Game Master and roughly three to six Troubleshooters |
+| Format | Comic one-shot and short campaign play, run in sessions of a few hours |
+| Substrate | Core rulebook, character sheets, clone backup packs, six-sided dice |
+| Editions | West End Games (1984 to 1995); Paranoia XP onward, Mongoose Publishing (2004 to 2023) |
+
+## Sources
+
+- "Paranoia (role-playing game)." Wikipedia. (Designers, 1984 West End Games publication, Origins Award, Alpha Complex and The Computer, security clearances, secret societies, mutations, clone backups, edition history.) <https://en.wikipedia.org/wiki/Paranoia_(role-playing_game)>
+- McGuffin, WJ (via Dave Thaumavore). "Paranoia is fair in its unfairness." 2024. (The adversarial contract, symmetric unfairness, compatibility with safety tools.) <https://thaumavore.substack.com/p/paranoia-is-fair-in-its-unfairness>
+- Appelcline, Shannon. "The Top 10 Funny RPGs." Designers & Dragons, 2022. (Paranoia and Toon as the originating comedy-RPG texts; the later comedy tradition.) <https://www.designers-and-dragons.com/2022/03/15/the-top-10-funny-rpgs/>
+- "Paranoia." RPG Collecting. (Edition history across West End Games and Mongoose Publishing.) <https://www.rpg-collecting.com/paranoia/>
+- "Paranoia [game]." Science Fiction Encyclopedia. (Dystopian sources, the comic-totalitarian setting, design lineage.) <https://sf-encyclopedia.com/entry/paranoia_game>

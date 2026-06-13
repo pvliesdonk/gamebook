@@ -90,6 +90,7 @@ This connects to a quieter principle about who authors what. Paul Czege observed
 - [Accessibility in Live & Interactive Games](accessibility-in-live-and-interactive-games.qmd)
 - [Bleed, Aftercare & Debriefing](bleed-aftercare-and-debriefing.qmd)
 - [One-on-One Scene Design](one-on-one-scene-design.qmd)
+- [Paranoia](../../exemplars/paranoia.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Pre-Game Workshop Design](pre-game-workshop-design.qmd)
 - [Romance & Relationships](../story-character-voice/romance-and-relationships.qmd)

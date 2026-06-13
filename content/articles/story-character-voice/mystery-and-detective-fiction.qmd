@@ -117,6 +117,7 @@ The tempting cheat is the late save. Perhaps the murderer is introduced only in 
 
 - [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd)
 - [Call of Cthulhu](../../exemplars/call-of-cthulhu.qmd)
+- [Hunt A Killer](../../exemplars/hunt-a-killer.qmd)
 - [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd)
 
 <!-- BACKLINKS:END -->

@@ -121,6 +121,7 @@ There is a whole tradition that builds faction-like structures and deliberately 
 - [Cooperative vs Adversarial Formats](cooperative-vs-adversarial-formats.qmd)
 - [Heist & Caper Patterns](../story-character-voice/heist-and-caper-patterns.qmd)
 - [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd)
+- [Pandemic](../../exemplars/pandemic.qmd)
 - [Parallel Team Architectures](parallel-team-architectures.qmd)
 - [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd)
 

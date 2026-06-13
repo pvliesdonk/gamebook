@@ -1,0 +1,74 @@
+---
+title: "Hunt A Killer"
+type: exemplar
+medium: live-game
+year: 2016
+designer: "Ryan Hogan and Derrick Smith (Hunt A Killer, Baltimore)"
+mechanisms:
+  - ../articles/structure-pacing/episodic-and-serialised-structure.qmd
+  - ../articles/structure-pacing/campaign-arc-shapes.qmd
+  - ../articles/structure-pacing/nonlinear-narrative-structures.qmd
+  - ../articles/story-character-voice/mystery-and-detective-fiction.qmd
+  - ../articles/space-props-materiality/artefact-design-and-document-production.qmd
+  - ../articles/space-props-materiality/physical-clue-formats.qmd
+  - ../articles/puzzles-clues-information/cluing-and-fairness.qmd
+  - ../articles/puzzles-clues-information/information-architecture.qmd
+provenance: "corpus"
+---
+
+*Profile: a murder investigation that arrives by post at one box of forged evidence a month, casting the subscriber as the detective who must assemble the case before the season runs out.*
+
+Hunt A Killer turned the murder mystery into a postal subscription. Once a month a box lands on the doormat. Inside is correspondence. A typed letter from a private investigator sits with a few clippings and a suspect's scrawled notes, and somewhere in the box there is a small object, a key or a ribbon. There is no rulebook and no explicit game. You are simply a person who has begun receiving evidence about a crime, and the season ends when you can name who did it. Ryan Hogan and Derrick Smith launched the company from Baltimore in October 2016 with a few dozen subscribers. By August 2019 it had shipped its one-millionth episode and booked roughly 27 million US dollars of revenue that year. [corpus]
+
+It earns a place in this gazetteer because it is the clearest worked example of narrative-by-mail. The proposition is simple and the execution is mostly production craft, yet the format exposes the full mechanics of drip-paced storytelling, the good and the bad together. The links below run to the articles each part exemplifies.
+
+## The design profile
+
+A season is six episodes, one box a month, a complete investigative arc delivered over roughly six months. [corpus] That cadence is the spine of the thing and the reason it reads as a worked example of [episodic and serialised structure](../articles/structure-pacing/episodic-and-serialised-structure.qmd). The monthly wait does work that purely digital experiences reach only with effort. It builds genuine anticipation and gives players a month to theorise between sessions, so each delivery feels like an event rather than a download. [synthesis] At the scale of the whole season, the six boxes form a single arc with a hook, a slow build, and a resolution, which is the shape the article on [campaign arc shapes](../articles/structure-pacing/campaign-arc-shapes.qmd) describes: a season runs as one long campaign told in instalments rather than a string of self-contained cases. [corpus]
+
+The defining choice is that everything arrives in character. The box should look, at first glance, like real correspondence rather than a game, so the production aims for deniability. Papers are printed on different stocks, some items show deliberate ageing, and at least one early season shipped a letter actually typed on a period typewriter. [corpus] This is the mass-production pole of [artefact design and document production](../articles/space-props-materiality/artefact-design-and-document-production.qmd): not the one-off prop aged by hand at a table, but a scaled, art-directed print run that has to read as authentic in tens of thousands of identical copies. [synthesis] The boxes themselves are a serial of distributed [physical clue formats](../articles/space-props-materiality/physical-clue-formats.qmd), letters and reports and photographs and small objects parcelled out across episodes, with a companion website carrying the video, audio, and interactive documents that cannot be shipped in a parcel. [corpus]
+
+::: {.callout-note}
+### The Signature
+
+There is no game explanation, only mail. Into your hands come a private investigator's typed letter and a suspect's scrawled note, along with police reports, clippings, maps, photographs, and small physical objects, all framed as materials arriving from a fictional source. The subscriber is not playing a detective character; the subscriber is the recipient, and the documents are the archive they must read. The first season cast the player as a "Listening Friend" corresponding with an imprisoned man named John William James, so the very first box hooked on the dread of a letter from a possible killer. [corpus]
+:::
+
+Because the player holds only fragments and must reconstruct events from them, the format is a study in [mystery and detective fiction](../articles/story-character-voice/mystery-and-detective-fiction.qmd) rebuilt as a physical activity. Each season has a defined cast, suspects are introduced gradually, and evidence is designed to first inculpate and then exculpate different characters so the working theory shifts as the months pass. [corpus] The picture is never visible from episode one; it is built by accumulation, and because later boxes cast earlier ones in a new light, a player who returns to old materials is rewarded, the way a detective novel's opening chapters acquire new meaning once the solution is known. [corpus] That retrospective re-reading, where facts change meaning after the fact, is the engine the article on [nonlinear narrative structures](../articles/structure-pacing/nonlinear-narrative-structures.qmd) examines: the story is assembled out of chronological order from a scattered record rather than told straight through. [corpus]
+
+The harder craft sits in how the evidence is metered and curated. A subscription delivers the next episode whether or not the current one is resolved, and the format gives the player no in-session way to confirm they have finished a box. The Room Escape Artist review of the first season named this as the central failure: "There was no way to know when we were finished investigating a box." [corpus] Without that closure the forward momentum cannot build. The player carries a double uncertainty: about who did it, and about whether they have even read a single episode correctly. The deeper problem is curation, which is where the discipline of [cluing and fairness](../articles/puzzles-clues-information/cluing-and-fairness.qmd) bites. A fair mystery owes the solver a clear signal of what is load-bearing and what is decoration, and Hunt A Killer often withholds it. The first season's promotional pencil is the emblematic case, an object players studied for hours that the epilogue revealed was merely a prop. [corpus] Anything that can be read as a clue either does work or misleads, so a prop with no exit only trains the player to chase dead ends.
+
+That tension is really a question of [information architecture](../articles/puzzles-clues-information/information-architecture.qmd). The designer governs what the player knows at each point and by what route it reached them. A growing archive also has to stay navigable. By the later episodes a player is holding a large and ever-larger pile of evidence with no designed triage, the recurring complaint across the review corpus. [corpus] Hunt A Killer patched the worst of it during the first season by retrofitting an "Inspector's Notes" hint layer and a members hub, once players had found themselves stranded with no way to verify progress. The structural strain still remains. [corpus]
+
+## The wider influence
+
+Hunt A Killer became the textbook case for a wave of subscription and box-set mysteries, and its own catalogue maps the format's limits. The company extended the model into adjacent genres under separate brands: Empty Faces for the paranormal, Escape The Invasion for science fiction. Its own murder seasons ran the gamut from the 1930s-theatre Curtain Call to the class-reunion Class of '98. [corpus] More telling is the pivot toward standalone box sets like Death at the Dive Bar and the lighter, jigsaw-led Whodonut, a complete mystery solvable in one sitting. [corpus] That shift answers a documented friction: a six-month commitment is a real barrier, and a player who falls one box behind faces a compounding problem as evidence arrives faster than it can be processed. [corpus] The standalone set keeps the artefact craft and discards the drip.
+
+The format also teaches a structural lesson about where narrative weight lands. The episodic shape naturally front-loads the hook, the worldbuilding, and the character introductions into the early boxes, which leaves the middle episodes feeling like connective tissue and concentrates an enormous expectation into a single final box. [corpus] Reviewers consistently find the resolution compressed against six months of buildup. [corpus] The intimate, epistolary tone that makes the opening boxes work does not scale to a large conspiracy either, so a season that escalates from a contained crime into a "grand murderous epic" breaks its own fictional frame. [corpus] The clearest takeaway for a designer is that the strengths of mail-based mystery, anticipation and authenticity and the archivist's pleasure of assembly, sit on a contained crime with a small cast, not on an arc that keeps inflating.
+
+::: {.callout-warning}
+### The Hazard
+
+The subscription cadence is a one-way ratchet. The next box ships on the calendar, not on the player's progress, so a format with no in-session resolution and no curation of its own evidence steadily loads the player with unfinished archives. Anticipation curdles into backlog. If you borrow the monthly-box thrill without also building a way to close each episode and to mark what matters in the pile, you inherit the drip's frustration along with its magic. [synthesis]
+:::
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Subscription mystery game (physical episodes by post, plus companion website) |
+| Designer | Ryan Hogan and Derrick Smith (Hunt A Killer, Baltimore) |
+| Published | Launched October 2016 |
+| Players | One to five, solo or around a table |
+| Format | Six monthly episodes per season, roughly 1.5 to 3 hours per box, about 9 to 18 hours per season |
+| Substrate | In-character letters, documents, photographs, and physical props on varied and aged stock; companion member hub |
+| Reach | One-millionth episode shipped by August 2019; about 27 million USD revenue that year |
+
+## Sources
+
+- Ryan, Kevin J. "This Business Made a Killing by Mailing Murder Mysteries." *Inc.*, September 2020. (Founding story, co-founder background, revenue and subscriber figures.) <https://www.inc.com/kevin-j-ryan/hunt-a-killer-murder-mystery-subscription-box.html>
+- Spira, David. "Hunt A Killer Season 1 Review." *Room Escape Artist*, 27 November 2017. (Listening Friends framing, the no-feedback-loop problem, the promotional-pencil dead end, and the narrative collapse into a "grand murderous epic.") <https://roomescapeartist.com/2017/11/27/hunt-a-killer-review/>
+- Hogan, Ryan. Starter Story interview. (Founding timeline, subscriber count at launch, revenue at scale, gross margin, and brand portfolio.) <https://www.starterstory.com/stories/hunt-a-killer>
+- "Hunt A Killer: Curtain Call." *Third Coast Review*, July 2020. (Period 1930s-theatre setting, narrative structure, thematic cohesion.) <https://thirdcoastreview.com/2020/07/24/board-game-review-hunt-a-killer-curtain-call/>
+- "Hunt A Killer Curtain Call Review." *How-To Geek*. (Box contents, the logic-leap and cipher critiques.) <https://www.howtogeek.com/hunt-a-killer-curtain-call-review/>
+- Spira, David. "Hunt A Killer: Mystery at Magnolia Gardens Review." *Room Escape Artist*, May 2023. (Later-season iteration and the standalone box-set direction.) <https://roomescapeartist.com/2023/05/hunt-a-killer-mystery-at-magnolia-gardens-review/>

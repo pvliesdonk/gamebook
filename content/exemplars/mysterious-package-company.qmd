@@ -1,0 +1,74 @@
+---
+title: "The Mysterious Package Company"
+type: exemplar
+medium: live-game
+year: 2013
+designer: "Colin Bolton, Misha Schneider and Tim Sullivan (The Mysterious Package Company)"
+mechanisms:
+  - ../articles/space-props-materiality/artefact-design-and-document-production.qmd
+  - ../articles/story-character-voice/canon-management.qmd
+  - ../articles/structure-pacing/episodic-and-serialised-structure.qmd
+  - ../articles/space-props-materiality/physical-clue-formats.qmd
+  - ../articles/space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd
+  - ../articles/story-character-voice/diegetic-design.qmd
+  - ../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd
+provenance: "corpus"
+---
+
+*Profile: a story posted to you one parcel at a time over weeks, told through objects that argue for their own age rather than through a game you sit down to.*
+
+The Mysterious Package Company is the most committed practitioner of narrative-by-post in the contemporary live-game landscape. Colin Bolton, Misha Schneider and Tim Sullivan founded it in Toronto in 2013 on a premise their co-founder stated plainly: they are storytellers who tell stories in the medium of the postal service. [corpus] What lands on a recipient's doormat over the following weeks is not a box of puzzles. It is a sequence of envelopes that smell faintly of old paper and sealed packets that have to be torn open, each object carrying the weight of an invented history. [corpus]
+
+It earns a place in this gazetteer because it pushes one idea further than almost anyone: the physical [artefact](../articles/space-props-materiality/artefact-design-and-document-production.qmd) as the primary carrier of the story, with the post itself as the pacing engine. Most live games treat objects as dressing for a script. This company reverses the hierarchy and lets the object make the argument. The links below run to the articles each part exemplifies.
+
+## The design profile
+
+The model rests on a few commitments that set it apart from a box game or an escape room. It paces the story by correspondence. It loads each parcel with dense, hand-made artefacts. And it writes the recipient into the fiction rather than seating them outside it.
+
+The pacing is the part that reads as strange the first time. The company does not ship one parcel to be opened in a sitting. It sequences a story across several mailings, and the recipient is left without a date for the next one. Postal delay is not treated as a logistics problem to be hidden. A letter that promises to come "in a few weeks" and then arrives weeks later has performed in the fiction as well as in the post. [corpus] The story is happening to you on the world's clock, not yours, which is a different contract from any experience whose duration sits in the player's hands. As a serial running over weeks to months it is the postal cousin of [episodic and serialised structure](../articles/structure-pacing/episodic-and-serialised-structure.qmd), with the gap between instalments doing real dramatic work rather than going to waste. [synthesis] In practice a flagship runs to three or five mailings. [corpus]
+
+::: {.callout-note}
+### The Signature
+
+What arrives is evidence, not exposition. Documents are printed on period-appropriate stock and sometimes aged by hand. Photographs carry the grain and yellowing of their supposed era. A small carved figure, a sealed vial, an envelope sealed inside the envelope, each is made to reward close handling. The recipient is not told about the world; they handle proof of it, and the object carries the argument of its own authenticity. Reviewing *The Century Beast*, the designer and critic Emily Short judged that the production out-competes most of the Infocom feelies, the physical extras packed with Infocom's text adventures in the 1980s and a long-standing high mark for this kind of craft. [corpus]
+:::
+
+That density is why the company is the corpus's sharpest case of [artefact design](../articles/space-props-materiality/artefact-design-and-document-production.qmd). The text contextualises the object rather than the object illustrating the text. Each item invites close inspection in its own right, before any written explanation. [corpus] It also commits hard to a format choice the article on [physical clue formats](../articles/space-props-materiality/physical-clue-formats.qmd) treats as a deliberate argument. Sealed packets are built to need destructive opening, and the small transgression of tearing something irreversible is itself part of the immersion. [corpus] That single-use, no-going-back quality is the everyday version of the more elaborate devices the article on [hidden compartments and reveal mechanisms](../articles/space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd) catalogues: the reveal lands harder because it cannot be undone. [synthesis]
+
+The objects are doing immersion work, not decoration work, which is the distinction the article on [theme and sensory environment](../articles/space-props-materiality/theme-immersion-and-sensory-environment.qmd) is built around. [corpus] Pulling out paper that genuinely feels a hundred years old is a small physical performance of the premise, and it does atmospheric work no amount of written framing can replicate.
+
+The perspective seals the effect. The recipient is placed at the centre of the story, not as a detective watching from outside but as a correspondent, a confidant, or an heir who has received something they were never meant to see. Characters write straight to them, and their real name appears on the envelopes. [corpus] There is no visible game layer to step over: by the test the article on [diegetic design](../articles/story-character-voice/diegetic-design.qmd) sets, every surface would be legible to someone inside the world, because nothing on it admits to being a game. [corpus]
+
+Holding that fiction together across mailings that land weeks apart is a quiet feat of [canon management](../articles/story-character-voice/canon-management.qmd). Each parcel has to stay continuous with the last, and the company meters revelation across tiers, with higher tiers receiving more frequent correspondence that sustains the slow burn while lower ones receive a thinner cut of the same story. [corpus] When that metering slips, the format suffers, as the next section shows.
+
+## The wider influence
+
+The company proved there was a market for premium postal narrative at scale. *The Century Beast* (Kickstarted in 2015) raised more than USD 300,000 from 1,291 backers; *Filigree in Shadow* (2016), a Victorian horror experience, took CAD 606,530 from 1,786 backers against a CAD 50,000 goal. [corpus] In 2014 the Vancouver entrepreneur Jason Kapalka came on as a primary investor, funding the shift from one-off Kickstarter releases to a sustained catalogue, and in 2023 the company acquired the puzzle-forward studio Curious Correspondence, folding a lighter, puzzle-dense correspondence line in beside its flagship narrative experiences. [corpus]
+
+Its real export is a posture other designers can adopt without the warehouse behind it. Waiting is not dead time. The gap between mailings is a narrative space in its own right and rewards deliberate shaping. The same lesson applies to any format with built-in delay, from a seasonal alternate reality game through to a drip-released, appointment-based experience. [synthesis] The companion lesson is that commitment is the mechanism, not a cost of it. A participant who has waited three weeks for the next parcel has, by waiting, invested in the story's reality, and scepticism is harder to sustain across three weeks of anticipation than across three minutes of reading. [corpus]
+
+::: {.callout-warning}
+### The Hazard
+
+The model breaks at the seams the production cannot fully control. Two of them recur. First, tiers must be cut for pacing, not just price. The *Century Beast* Bronze tier shipped only two mailings. The first carried little; the second landed with everything at once. Two parcels do not make a correspondence arc, they make a delivery split. [corpus] Second, the craft is unevenly distributed. Across reviews the recurring note is that the artefacts outpace the writing, with characters reading as archetypes (A Vacationer, A Loving Father) rather than people. A team that can fabricate convincing Edwardian ephemera more easily than it can write a character who feels alive will ship exactly that imbalance unless writing is treated as a first-class production value. [corpus]
+:::
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Postal narrative; a story delivered as physical artefacts by mail |
+| Designer | Colin Bolton, Misha Schneider and Tim Sullivan |
+| Founded | 2013, Toronto, Canada |
+| Players | One recipient per experience, placed inside the story by name |
+| Format | Multi-mailing serial, typically three to five parcels, weeks to months apart |
+| Substrate | Aged documents, period photographs, sealed and destructively opened packets, carved props, in-character audio on USB |
+| Status | Active catalogue; acquired Curious Correspondence (2023) |
+
+## Sources
+
+- Short, Emily. "Mysterious Package Company and Narrative of Objects." *Emily Short's Interactive Storytelling*, 29 June 2016. (The most detailed published design review: artefact quality, pacing structure, the Infocom-feelies comparison, and the writing weaknesses.) <https://emshort.blog/2016/06/29/mysterious-package-company-and-narrative-of-objects/>
+- Short, Emily. "The Century Beast (The Mysterious Package Company)." *Emily Short's Interactive Storytelling*, 12 June 2015. (First-impression review with an artefact inventory.) <https://emshort.blog/2015/06/12/the-century-beast-the-mysterious-package-company/>
+- "The Mysterious Package Company." Wikipedia. (Founding details, founder names, Kickstarter figures, Kapalka investment, and the Curious Correspondence acquisition.) <https://en.wikipedia.org/wiki/The_Mysterious_Package_Company>
+- The Mysterious Package Company. About page. (Self-description of the postal-narrative format and philosophy, including the founders' framing of the post as a storytelling medium.) <https://www.mysteriouspackage.com/pages/about-us>
+- "The Century Beast." Kickstarter, The Mysterious Package Company, 2015. (Funding total and backer count.) <https://www.kickstarter.com/projects/mysteriouspackage/the-century-beast>

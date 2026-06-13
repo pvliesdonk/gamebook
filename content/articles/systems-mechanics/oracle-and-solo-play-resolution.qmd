@@ -97,6 +97,7 @@ The contemporary version of the question is sharpest when the non-human particip
 ## Referenced by
 
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
+- [Ironsworn](../../exemplars/ironsworn.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
 - [Prep Economy](prep-economy.qmd)
 - [Prompt Design in Solo Journaling](../story-character-voice/prompt-design-in-solo-journaling.qmd)

@@ -116,6 +116,7 @@ The live form runs along the same axis with the body as the medium. An escape ro
 - [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
 - [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
 - [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd)
+- [Pandemic](../../exemplars/pandemic.qmd)
 - [Replayability](replayability.qmd)
 - [System vs Setting](system-vs-setting.qmd)
 - [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd)

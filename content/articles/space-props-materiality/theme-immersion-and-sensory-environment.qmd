@@ -152,6 +152,7 @@ In a puzzle hunt or an alternate reality game the set is the real world itself, 
 - [Sleep No More & Punchdrunk](../../exemplars/sleep-no-more-and-punchdrunk.qmd)
 - [System vs Setting](../systems-mechanics/system-vs-setting.qmd)
 - [The Crystal Maze](../../exemplars/crystal-maze.qmd)
+- [The Mysterious Package Company](../../exemplars/mysterious-package-company.qmd)
 - [Theme-Mechanism Integration](../systems-mechanics/theme-mechanism-integration.qmd)
 
 <!-- BACKLINKS:END -->

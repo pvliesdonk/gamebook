@@ -104,6 +104,7 @@ The legacy idea has crossed over too, and the bridge is a physical one. The *Exi
 - [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
 - [Fabrication & Sourcing](../space-props-materiality/fabrication-and-sourcing.qmd)
 - [Materials, Durability & Reset](../space-props-materiality/materials-durability-and-reset.qmd)
+- [Pandemic](../../exemplars/pandemic.qmd)
 - [Replayability](replayability.qmd)
 - [Social Performance Genres](social-performance-genres.qmd)
 - [Solo Modes](solo-modes.qmd)

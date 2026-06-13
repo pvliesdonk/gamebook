@@ -128,6 +128,7 @@ A live game answers the same question with hardware. A self-resolving puzzle mak
 - [Encounter & Challenge Design](encounter-and-challenge-design.qmd)
 - [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
 - [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
+- [Ironsworn](../../exemplars/ironsworn.qmd)
 - [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
 - [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)
 - [Playbook Design](playbook-design.qmd)

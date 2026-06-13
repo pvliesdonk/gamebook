@@ -102,6 +102,7 @@ The single-player media inherit the small-scale version of the same problem. Int
 - [Information Architecture](../puzzles-clues-information/information-architecture.qmd)
 - [Mixed-Ability Groups & Universal Design](mixed-ability-groups-and-universal-design.qmd)
 - [Parallel Team Architectures](parallel-team-architectures.qmd)
+- [Paranoia](../../exemplars/paranoia.qmd)
 - [Player Types & Casting](player-types-and-casting.qmd)
 - [Safety Tools as Design Layer](safety-tools-as-design-layer.qmd)
 - [Social Performance Genres](../systems-mechanics/social-performance-genres.qmd)

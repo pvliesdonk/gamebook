@@ -114,6 +114,7 @@ The same accumulation logic shows up outside the tabletop. In a large live game 
 - [Heist & Caper Patterns](../story-character-voice/heist-and-caper-patterns.qmd)
 - [Hint Systems & Recovery](../puzzles-clues-information/hint-systems-and-recovery.qmd)
 - [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
+- [Ironsworn](../../exemplars/ironsworn.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
 - [NPC Craft & Voicing](../story-character-voice/npc-craft-and-voicing.qmd)
 - [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)

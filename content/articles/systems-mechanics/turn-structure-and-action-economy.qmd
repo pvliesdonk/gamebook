@@ -112,5 +112,6 @@ Interactive fiction meets a thinner version of the same question. A single-playe
 - [Encounter & Challenge Design](encounter-and-challenge-design.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
 - [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
+- [Pandemic](../../exemplars/pandemic.qmd)
 
 <!-- BACKLINKS:END -->

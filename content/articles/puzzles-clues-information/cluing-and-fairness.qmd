@@ -127,6 +127,7 @@ The seductive failure is the clever rule only you know. You invent an elegant st
 - [Hidden Compartments & Reveal Mechanisms](../space-props-materiality/hidden-compartments-and-reveal-mechanisms.qmd)
 - [Hint Systems & Recovery](hint-systems-and-recovery.qmd)
 - [Horror Conventions](../story-character-voice/horror-conventions.qmd)
+- [Hunt A Killer](../../exemplars/hunt-a-killer.qmd)
 - [Information Architecture](information-architecture.qmd)
 - [Information Asymmetry: Hidden Information vs Hidden Roles](../players-social-dynamics/information-asymmetry-hidden-information-vs-hidden-roles.qmd)
 - [Lock Taxonomy](../space-props-materiality/lock-taxonomy.qmd)

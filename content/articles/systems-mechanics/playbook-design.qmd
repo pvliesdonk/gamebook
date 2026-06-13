@@ -115,6 +115,7 @@ The live version makes one design choice especially visible. Concealment is univ
 - [Blades in the Dark](../../exemplars/blades-in-the-dark.qmd)
 - [Character Voice](../story-character-voice/character-voice.qmd)
 - [Distributing Narrative Authority](distributing-narrative-authority.qmd)
+- [Ironsworn](../../exemplars/ironsworn.qmd)
 - [Moral Dilemmas & Consequence Chains](../story-character-voice/moral-dilemmas-and-consequence-chains.qmd)
 - [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
 - [NPC Craft & Voicing](../story-character-voice/npc-craft-and-voicing.qmd)
