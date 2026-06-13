@@ -37,6 +37,27 @@ $endif$
   #v(2.2fr)
 ]
 
+// --- Colophon / imprint (the verso of the cover) ------------
+// Print-only (this template is typst-only). Title and author read from metadata
+// like the cover; the copyright line, licence, and typeface credits are fixed
+// colophon furniture (Quarto's book schema has no copyright field).
+#let fg-colophon() = page(header: none, footer: none, background: none, numbering: none, fill: paper)[
+  #set par(justify: false, leading: 0.72em)
+  #set text(font: "Cronos Pro")
+  #v(3cm)
+  #text(size: 13pt, fill: ink-deep)[$title$]
+$if(by-author)$
+  #v(0.35em, weak: true)
+  #text(size: 9.5pt, fill: ink-muted, tracking: 0.4pt)[$for(by-author)$$it.name.literal$$sep$, $endfor$]
+$endif$
+  #v(1fr)
+  #set text(size: 8.5pt, fill: ink-muted)
+  #block(below: 1em)[#text(size: 9.5pt, fill: ink-deep)[© 2026 Peter van Liesdonk]]
+  #block(below: 1em)[This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International Licence (CC BY-NC 4.0): #link("https://creativecommons.org/licenses/by-nc/4.0/")[creativecommons.org/licenses/by-nc/4.0]. The build tooling that produces it is separately licensed under the MIT Licence.]
+  #block[Set in Adobe Jenson Pro, Cronos Pro, and Letter Gothic Std. Built with Quarto and Typst.]
+  #v(2.4cm)
+]
+
 // --- Contents -----------------------------------------------
 #let fg-toc() = page(header: none, footer: none, background: none, numbering: none, fill: paper)[
   #set par(justify: false)
@@ -156,4 +177,5 @@ $endif$
 
 // Front matter: the cover and the contents, then the body flows.
 #fg-cover()
+#fg-colophon()
 #fg-toc()
