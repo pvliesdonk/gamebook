@@ -51,7 +51,8 @@ not a proposal:
 
 > **DRAFT — functional families:** Structure & Pacing; Puzzles, Clues & Information;
 > Story, Character & Voice; Players & Social Dynamics; Space, Props & Materiality;
-> Systems & Mechanics. Plus two galleries (exemplars, style specimens).
+> Systems & Mechanics. Plus the Exemplars gazetteer. (A style-specimen gallery was
+> originally envisioned but scrapped; see decision #20.)
 
 ## The skeleton (envisioned)
 
@@ -68,9 +69,10 @@ not a proposal:
 5. **Exemplars gazetteer.** Profiles of real works (for example Blades in the Dark, The Crystal
    Maze, the MIT Mystery Hunt) as consistent stat blocks, cross-linked to the mechanisms they show
    off.
-6. **Style specimen gallery.** The prose specimens with a point-of-view by register by rhythm
-   lookup matrix. The colour plates.
-7. **Index and glossary.**
+6. **Index and glossary.**
+
+   *(A style-specimen gallery was originally listed here as a seventh part, a register by
+   rhythm lookup matrix of prose "colour plates", but was scrapped; see decision #20.)*
 
 ## Entry anatomy (envisioned)
 
@@ -108,7 +110,7 @@ One markdown source, two renderers, via Quarto:
 - **PDF edition.** Curated, designed. Drawn from the source by a frontmatter selection flag, not a
   second copy. Rendered with Typst (custom template) for typographic quality without the
   maintainability cost of a bespoke LaTeX class.
-- **Wiki.** The complete living guide. Every entry, primer, key, profile and specimen, plus
+- **Wiki.** The complete living guide. Every entry, primer, key and profile, plus
   backlinks ("referenced by") computed from the guide's own internal link graph at build time. An
   optional graph view is a later nice to have.
 
