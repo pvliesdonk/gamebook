@@ -1,5 +1,6 @@
 ---
 title: "Keys · By Format"
+pdf: false
 ---
 
 Find an article by the form of the game or production.

@@ -2,6 +2,9 @@
 -- field-guide.lua (Typst / print). NOTE: for a Quarto typst BOOK this
 -- filter runs once over the WHOLE merged document (all chapters), so it
 -- must handle chapter boundaries itself.
+--   * drops chapters flagged `pdf: false` (curated PDF, decision #17; the
+--     HTML wiki keeps them since this filter is typst-only). The excluded
+--     titles are listed in filters/_pdf-exclude.txt by scripts/curate.py.
 --   * drops the Sources and "Referenced by" sections (web artifacts;
 --     a consolidated bibliography appendix is issue #61)
 --   * the Silhouette line  -> #fg-silhouette[...] (label stripped)
@@ -16,6 +19,19 @@ end
 
 local stringify = pandoc.utils.stringify
 local DROP = { ["Sources"] = true, ["Referenced by"] = true }
+
+-- Titles to exclude from the curated PDF (one per line; written by curate.py).
+-- Missing file (e.g. a build without the pre-render) -> exclude nothing.
+local function read_excluded()
+  local set, f = {}, io.open("filters/_pdf-exclude.txt", "r")
+  if not f then return set end
+  for line in f:lines() do
+    local t = line:gsub("^%s+", ""):gsub("%s+$", "")
+    if t ~= "" then set[t] = true end
+  end
+  f:close()
+  return set
+end
 
 local function wrap(inlines, open, close)
   table.insert(inlines, 1, pandoc.RawInline("typst", open))
@@ -38,7 +54,62 @@ local function strip_label(inlines)
   return inlines
 end
 
+-- A part divider is a Div with class "quarto-book-part" (Quarto turns it into a
+-- `#part[...]` call later, in the typst writer; at filter time it is still a Div).
+-- Chapters are flat level-1 headings between these part Divs.
+local function is_part_div(b)
+  if b.t ~= "Div" then return false end
+  for _, c in ipairs(b.classes) do if c == "quarto-book-part" then return true end end
+  return false
+end
+
 function Pandoc(doc)
+  -- 0. Curated PDF (decision #17): drop whole chapters flagged `pdf: false`.
+  -- A chapter runs from its level-1 heading to the next chapter boundary (the next
+  -- level-1 heading or the next part Div); level-2 sections and callout Divs inside
+  -- it do NOT end it. The TOC and article numbering follow automatically, since
+  -- both derive from the level-1 headings that remain.
+  local excluded = read_excluded()
+  if next(excluded) ~= nil then
+    local function chapter_boundary(b)
+      return (b.t == "Header" and b.level == 1) or is_part_div(b)
+    end
+    local kept0, i = {}, 1
+    while i <= #doc.blocks do
+      local b = doc.blocks[i]
+      if b.t == "Header" and b.level == 1 and excluded[stringify(b)] then
+        i = i + 1
+        while i <= #doc.blocks and not chapter_boundary(doc.blocks[i]) do i = i + 1 end
+      else
+        kept0[#kept0 + 1] = b
+        i = i + 1
+      end
+    end
+    doc.blocks = kept0
+
+    -- Drop any part divider left empty by those chapter drops: a part Div with no
+    -- level-1 heading before the next part Div or the end of the book.
+    local kept1, j = {}, 1
+    while j <= #doc.blocks do
+      local b = doc.blocks[j]
+      if is_part_div(b) then
+        local k, has_chapter = j + 1, false
+        while k <= #doc.blocks and not is_part_div(doc.blocks[k]) do
+          if doc.blocks[k].t == "Header" and doc.blocks[k].level == 1 then
+            has_chapter = true
+            break
+          end
+          k = k + 1
+        end
+        if has_chapter then kept1[#kept1 + 1] = b end
+      else
+        kept1[#kept1 + 1] = b
+      end
+      j = j + 1
+    end
+    doc.blocks = kept1
+  end
+
   -- 1. Drop the Sources / Referenced-by sections. `dropping` resets at any
   -- chapter title (level 1) or non-drop level-2 header, so it never bleeds
   -- past a chapter boundary into the next article's title/silhouette.

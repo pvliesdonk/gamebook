@@ -1,5 +1,6 @@
 ---
 title: "Keys · By Effect"
+pdf: false
 ---
 
 Find an article by the effect or feeling you want to create.
