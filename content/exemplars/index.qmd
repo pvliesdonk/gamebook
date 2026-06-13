@@ -14,13 +14,19 @@ article's *Referenced by* register to find the works that demonstrate it.
 - [Blades in the Dark](blades-in-the-dark.qmd): position-and-effect resolution, progress clocks, the flashback, and faction clocks as a world-engine.
 - [Blood on the Clocktower](blood-on-the-clocktower.qmd): social deduction without player elimination, run by a Storyteller who cannot play.
 - [Call of Cthulhu](call-of-cthulhu.qmd): the Sanity mechanic and investigative cluing, with horror encoded in the rules.
+- [Dungeons & Dragons, 5th Edition](dungeons-and-dragons-5e.qmd): the d20 core and bounded accuracy, an accessible on-ramp, and the DM's wide authority.
+- [Exit: The Game](exit-the-game.qmd): a boxed escape game you write on and destroy, self-checked by a decoder dial.
 - [Ironsworn](ironsworn.qmd): the oracle as a solo resolution engine and progress tracks, in a game built to run with or without a GM.
+- [Magic: the Gathering](magic-the-gathering.qmd): deck construction as a metagame, the colour pie, and the living, rotating format that founded the TCG.
 - [Pandemic](pandemic.qmd): fully cooperative play and asymmetric specialist roles, against an escalating outbreak that pushes back.
 - [Paranoia](paranoia.qmd): adversarial-by-design play, a licensed-deceiver GM, and betrayal held inside a consent contract.
+- [Thousand Year Old Vampire](thousand-year-old-vampire.qmd): solo journaling driven by prompts, where the diary is the game and memory is forced to decay.
+- [Unlock!](unlock-series.qmd): a card-based boxed escape game with a companion app as judge, timer, and hint desk.
 
 ## Live games
 
 - [The Crystal Maze](crystal-maze.qmd): zoned timed challenges and theatrical hosting, paced across a long session.
 - [Hunt A Killer](hunt-a-killer.qmd): a murder mystery serialised as monthly boxes of physical evidence to assemble.
 - [The Mysterious Package Company](mysterious-package-company.qmd): a story delivered as real artefacts in the post, with no visible game layer.
+- [Notable Escape Rooms](notable-real-escape-rooms.qmd): the live escape-room form, read through several landmark venues.
 - [Sleep No More & Punchdrunk](sleep-no-more-and-punchdrunk.qmd): free-roaming immersive theatre, the mask contract, and the repeating loop as a multiple-visit engine.

@@ -112,5 +112,6 @@ Three failure modes recur often enough to be worth checking any design against. 
 
 - [Boardgame Mechanism Vocabulary](boardgame-mechanism-vocabulary.qmd)
 - [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
+- [Magic: the Gathering](../../exemplars/magic-the-gathering.qmd)
 
 <!-- BACKLINKS:END -->

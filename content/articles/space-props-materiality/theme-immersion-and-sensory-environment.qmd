@@ -144,6 +144,7 @@ In a puzzle hunt or an alternate reality game the set is the real world itself, 
 - [Horror Conventions](../story-character-voice/horror-conventions.qmd)
 - [Lock Taxonomy](lock-taxonomy.qmd)
 - [Materials, Durability & Reset](materials-durability-and-reset.qmd)
+- [Notable Escape Rooms](../../exemplars/notable-real-escape-rooms.qmd)
 - [Physical Clue Formats](physical-clue-formats.qmd)
 - [Physical vs Digital Puzzle Artefacts](physical-vs-digital-puzzle-artefacts.qmd)
 - [QR & NFC Patterns](qr-and-nfc-patterns.qmd)
@@ -154,5 +155,6 @@ In a puzzle hunt or an alternate reality game the set is the real world itself, 
 - [The Crystal Maze](../../exemplars/crystal-maze.qmd)
 - [The Mysterious Package Company](../../exemplars/mysterious-package-company.qmd)
 - [Theme-Mechanism Integration](../systems-mechanics/theme-mechanism-integration.qmd)
+- [Unlock!](../../exemplars/unlock-series.qmd)
 
 <!-- BACKLINKS:END -->

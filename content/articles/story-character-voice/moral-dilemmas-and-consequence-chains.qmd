@@ -115,6 +115,7 @@ The seductive failure is the rigged dilemma. It is a choice dressed as a genuine
 - [Paranoia](../../exemplars/paranoia.qmd)
 - [Romance & Relationships](romance-and-relationships.qmd)
 - [Scene & Sequel in Interactive Fiction](../structure-pacing/scene-and-sequel-in-interactive-fiction.qmd)
+- [Thousand Year Old Vampire](../../exemplars/thousand-year-old-vampire.qmd)
 - [Time Loop Patterns](../structure-pacing/time-loop-patterns.qmd)
 - [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd)
 

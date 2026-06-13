@@ -133,6 +133,7 @@ In a live game the randomness question shows up in the physical apparatus. A sel
 - [Euro vs Ameritrash: The Two Design Poles](euro-vs-ameritrash-the-two-design-poles.qmd)
 - [Fantasy Conventions](../story-character-voice/fantasy-conventions.qmd)
 - [IF Mechanics & Procedural Rhetoric](if-mechanics-and-procedural-rhetoric.qmd)
+- [Magic: the Gathering](../../exemplars/magic-the-gathering.qmd)
 - [Mechanical Resolution Types](mechanical-resolution-types.qmd)
 - [Moves & the Fiction-Mechanic-Fiction Loop](moves-and-the-fiction-mechanic-fiction-loop.qmd)
 - [Pandemic](../../exemplars/pandemic.qmd)

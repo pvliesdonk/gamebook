@@ -147,5 +147,6 @@ The seductive failure is to build the prop you find interesting rather than the 
 - [Science Fiction Conventions](../story-character-voice/science-fiction-conventions.qmd)
 - [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd)
 - [Theme, Immersion & Sensory Environment](theme-immersion-and-sensory-environment.qmd)
+- [Unlock!](../../exemplars/unlock-series.qmd)
 
 <!-- BACKLINKS:END -->

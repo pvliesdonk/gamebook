@@ -103,5 +103,6 @@ The kinship runs deeper than the shared deck of cards. Both traditions depend on
 - [Oracle & Solo-Play Resolution](oracle-and-solo-play-resolution.qmd)
 - [Replayability](replayability.qmd)
 - [Solo Journaling RPGs: Genre & Form](../story-character-voice/solo-journaling-rpgs-genre-and-form.qmd)
+- [Thousand Year Old Vampire](../../exemplars/thousand-year-old-vampire.qmd)
 
 <!-- BACKLINKS:END -->

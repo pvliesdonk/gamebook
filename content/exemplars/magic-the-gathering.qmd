@@ -1,0 +1,73 @@
+---
+title: "Magic: the Gathering"
+type: exemplar
+medium: tabletop
+year: 1993
+designer: "Richard Garfield (Wizards of the Coast)"
+mechanisms:
+  - ../articles/systems-mechanics/decision-space-and-choice-design.qmd
+  - ../articles/systems-mechanics/elegance-emergence-and-randomness.qmd
+  - ../articles/systems-mechanics/turn-structure-and-action-economy.qmd
+  - ../articles/systems-mechanics/replayability.qmd
+  - ../articles/systems-mechanics/deckbuilders.qmd
+  - ../articles/systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd
+provenance: "corpus"
+---
+
+*Profile: the first trading card game. Each player brings a deck they built themselves, and a five-colour grammar quietly decides what every card is allowed to do.*
+
+Magic invented its own genre and has never left the top of it. Richard Garfield, a doctoral candidate in combinatorial mathematics, pitched it to Wizards of the Coast as a portable filler for the gaps between longer tabletop sessions. The Limited Edition Alpha print run sold out within weeks of its Gen Con debut on 5 August 1993. [corpus] No card game of consequence has since been designed without reference to it. Two ideas carry most of its design weight: a [resource curve](../articles/systems-mechanics/turn-structure-and-action-economy.qmd) built from mana, and a constrained [decision vocabulary](../articles/systems-mechanics/decision-space-and-choice-design.qmd) built from the five colours.
+
+It earns a place in this gazetteer because so much of the field is downstream of it. The collectible deck you assemble yourself, the [living metagame](../articles/systems-mechanics/replayability.qmd) that re-solves itself every season, the [deckbuilding lineage](../articles/systems-mechanics/deckbuilders.qmd) that later stripped out the collectible part: all of these begin here. The links below run to the articles each part exemplifies; read in the other direction, those articles now list Magic in their *Referenced by* register.
+
+## The design profile
+
+Garfield's prototype, then called Mana Clash, solved three problems at once. It needed a decision layer rich enough for competitive play yet learnable in a single sitting, an economic model that could sustain a small publisher, and replayability that no fixed boxed game could offer. [corpus] Random packs of varying rarity answered the last two in a single move. The five-colour mana system answered the first.
+
+Mana is an elegant piece of resource-curve design. A player cannot simply cast every card they draw, because their [action economy](../articles/systems-mechanics/turn-structure-and-action-economy.qmd) is throttled by the land in play. Each land yields one mana per turn, and most relevant spells cost two to five. [corpus] That throttle produces a reliable developmental arc. The opening turns, the middle of the game and the late game each feel distinct, and every card has to be judged against its cost rather than in isolation. [corpus] The system had no real precedent, and it has been imitated, knowingly or not, in almost every resource-curve game since, analogue or digital. [corpus]
+
+::: {.callout-note}
+### The Signature
+
+The five colours, white, blue, black, red and green, are not decoration. Each colour holds a mechanical identity and a defined range of effects it may and may not produce. White stands for order and life gain. Blue is the colour of knowledge and control. Black draws on ambition and on death as a cost. Red brings chaos and direct damage. Green grows large creatures out of the natural world. [corpus] Effects that blur those identities are called colour pie violations and treated as design errors rather than flavour slips. The pie is an active constraint on what a set is allowed to do. An ongoing internal body called the Council of Colors governs it. [corpus] In effect the pie turns an open combinatorial space into a constrained vocabulary. That constraint is generative. A designer asks which colour a mechanic belongs to and why, on top of asking what it does. [corpus]
+:::
+
+Because the deck is something the player constructs before play, Magic hands the randomness dial to the player. A shuffled deck is a sampling-without-replacement system, so the consistency of the draw, how reliably the deck produces its intended plan, becomes a quantity the player tunes through construction. [corpus] That is an unusual case of variance calibration done by the player rather than the designer, and it is part of why the game reads as a worked example of [elegance, emergence and randomness](../articles/systems-mechanics/elegance-emergence-and-randomness.qmd) at the system level even while the card pool itself runs on exceptions. [synthesis]
+
+A further discipline sits on top of complexity. Lenticular design, a term coined by Mark Rosewater, the game's lead designer since the mid-1990s, names a card that reads as simple to a beginner and as a strategic engine piece to an expert. [corpus] The card has not changed; the player's model of the game has. The practical rule is to keep the most common cards lenticular, approachable on the surface and rewarding of a second look, so that beginners are not swamped and experts are not bored by the same printing. [corpus] Rosewater formalised this after a set perceived as too complex depressed sales, and the fix was structural: cap complexity at the common rarity, preserve it higher up. [corpus]
+
+## The wider influence
+
+Magic founded the trading card game as a commercial form and still dominates it more than thirty years on. [corpus] Its clearest line of inheritance runs into the [deckbuilder genre](../articles/systems-mechanics/deckbuilders.qmd). Donald Vaccarino designed Dominion in 2008 in full awareness of Magic's precedents, and Dominion's shared market of purchasable cards is a deliberate translation of Magic's hand of options into a non-collectible form. [corpus] The genre's central tension, buy for power now or save for combinations later, is Magic's resource-curve problem rephrased, and every major deckbuilder since, from Ascension to Star Realms to Aeon's End, is in dialogue with that lineage. [corpus] The relationship is ancestral rather than categorical: Magic is a constructed and collectible card game, the thing the deckbuilders descended from and then redefined by removing the collectible layer. [synthesis]
+
+The other line is the living metagame. Magic is not a static product. The Standard format restricts legal play to the most recent sets and rotates older ones out on a schedule, now three years, which periodically resets the card pool so no single strategy calcifies into the only viable one. [corpus] When rotation is too slow, a card that distorts the format may be added to the banned and restricted list. That list is a health intervention rather than an admission of failure. A card that is individually clever but systemically toxic comes out regardless of how well it is built. [corpus] The corpus treats Magic as the canonical case of the metagame as a source of [replayability](../articles/systems-mechanics/replayability.qmd): a format that was solved one season is scrambled by the next release, so the content can sit still while the effective game keeps moving. [corpus]
+
+Rosewater's *Making Magic*, published weekly since 2002, has turned this practice into one of the longest-running public design journals in the industry, and its vocabulary, the colour pie, lenticular design, restrictions breeding creativity, has spread well past Magic into design postmortems and university game-design courses. [corpus] His "Twenty Years, Twenty Lessons" talk at GDC 2016 has passed a million views and turns up on reading lists for those same courses. [corpus] That makes Magic an unusual case of influence: not through collaboration but through sustained public articulation of principles drawn from live practice, the same impulse that the article on [mechanics and procedural rhetoric](../articles/systems-mechanics/if-mechanics-and-procedural-rhetoric.qmd) traces from a different tradition. [synthesis]
+
+::: {.callout-warning}
+### The Hazard
+
+The colour pie works because it is enforced, not merely written down. A team that treats a colour identity as a flavour note to consult after the mechanics are set gets the look of a grammar without its discipline, and the effects drift until each colour can do anything. The same trap waits for anyone borrowing the idea. A faction identity or a resource colour only constrains the design if violating it counts as an error worth reverting, with someone whose job is to revert it. [synthesis]
+:::
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Trading card game |
+| Designer | Richard Garfield (Wizards of the Coast) |
+| Published | 1993, Wizards of the Coast (Limited Edition Alpha) |
+| Players | Two or more, each bringing a self-constructed deck |
+| Format | Constructed and limited play across rotating formats; Commander as the dominant casual mode |
+| Substrate | Collectible cards in five colours, lands as the mana source, booster packs of mixed rarity |
+| Status | First and still-dominant collectible card game; acquired by Hasbro in 1999, with a digital edition (Arena) from 2018 |
+
+## Sources
+
+- "Richard Garfield and the Birth of Magic: The Gathering." Tabletop Trove. (Garfield's background and the Mana Clash prototype that sold out as Alpha.) <https://tabletoptrove.com/richard-garfield-and-the-birth-of-magic-the-gathering/>
+- Rosewater, Mark. *Making Magic* column. Wizards of the Coast, 2002 to present. (The weekly design journal covering colour pie governance and format philosophy.) <https://magic.wizards.com/en/news/making-magic>
+- Rosewater, Mark. "Let's Talk Color Pie." *Making Magic*, Wizards of the Coast. (The five colours as a mechanical constraint grammar and the colour pie violation concept.) <https://magic.wizards.com/en/news/making-magic/lets-talk-color-pie>
+- Rosewater, Mark. "Twenty Years, Twenty Lessons." *Making Magic*, 30 May 2016, and GDC 2016. (Restrictions breed creativity, the transferable lessons, and the talk's reach.) <https://magic.wizards.com/en/news/making-magic/twenty-years-twenty-lessons-part-1-2016-05-30>
+- "Mark Rosewater." Wikipedia. (Rosewater's tenure as head designer and the run of the *Making Magic* column.) <https://en.wikipedia.org/wiki/Mark_Rosewater>
+- "Magic: The Gathering formats." Wikipedia. (Standard rotation on its three-year cycle, plus the banned and restricted list.) <https://en.wikipedia.org/wiki/Magic:_The_Gathering_formats>
+- "Magic: The Gathering Commander." Wikipedia. (The fan origin of Commander and its rise to the dominant format under a later change of governance.) <https://en.wikipedia.org/wiki/Magic:_The_Gathering_Commander>

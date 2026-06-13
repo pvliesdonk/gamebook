@@ -129,5 +129,6 @@ Single-player digital puzzle games gate the same way, but use it to pace the tea
 - [QR & NFC Patterns](../space-props-materiality/qr-and-nfc-patterns.qmd)
 - [Self-Resolving Puzzles](../puzzles-clues-information/self-resolving-puzzles.qmd)
 - [The Aha Moment](../puzzles-clues-information/the-aha-moment.qmd)
+- [Unlock!](../../exemplars/unlock-series.qmd)
 
 <!-- BACKLINKS:END -->

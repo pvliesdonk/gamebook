@@ -122,6 +122,7 @@ The cliffhanger earns its own mention because it is a scheduling tool as much as
 - [Escape Room Topologies](escape-room-topologies.qmd)
 - [Horror Conventions](../story-character-voice/horror-conventions.qmd)
 - [Host Roles & the Host-Cannot-Play Problem](../players-social-dynamics/host-roles-and-the-host-cannot-play-problem.qmd)
+- [Notable Escape Rooms](../../exemplars/notable-real-escape-rooms.qmd)
 - [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
 - [Progress Clocks & Faction State](../systems-mechanics/progress-clocks-and-faction-state.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](sandbox-situation-and-the-railroad-spectrum.qmd)
