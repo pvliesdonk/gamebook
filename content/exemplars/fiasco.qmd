@@ -1,0 +1,77 @@
+---
+title: "Fiasco"
+type: exemplar
+medium: tabletop
+year: 2009
+designer: "Jason Morningstar (Bully Pulpit Games)"
+mechanisms:
+  - ../articles/systems-mechanics/distributing-narrative-authority.qmd
+  - ../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd
+  - ../articles/players-social-dynamics/the-session-zero-playbook.qmd
+  - ../articles/story-character-voice/conflict-patterns.qmd
+  - ../articles/structure-pacing/scene-structure-and-transitions.qmd
+  - ../articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd
+  - ../articles/systems-mechanics/ttrpg-format-taxonomy.qmd
+provenance: "researched"
+---
+
+*Profile: ordinary people with big ambition and worse judgement, set loose without a referee. The story runs over two acts that bend from hope to wreckage. A closing roll then settles exactly how badly each of them ends up.*
+
+Fiasco is the game that proved a table could tell a tight, satisfying story in a single evening with no game master and almost no preparation. Jason Morningstar published it through Bully Pulpit Games in 2009, modelling it on the caper-gone-wrong cinema of *Fargo*, *Blood Simple*, and *A Simple Plan*, where small schemes curdle into disaster. [researched] It runs without a referee, so the right to assert what is true in the fiction has to be shared out by rule rather than held by one person, which makes it a worked example of [distributing narrative authority](../articles/systems-mechanics/distributing-narrative-authority.qmd). [synthesis] The other thing it is known for is shape: a [two-act structure](../articles/structure-pacing/scene-structure-and-transitions.qmd) that turns at a midpoint and a dice resolution that pays out only at the very end.
+
+It earns a place in this gazetteer because it solved a specific problem cleanly. Most story games of its era either kept a facilitator or drifted without a spine. Fiasco kept neither a referee nor the drift, and the parts it used to manage that have travelled into other designs. The links below run to the articles each part exemplifies; read in the other direction, those articles list Fiasco in their *Referenced by* register.
+
+## The design profile
+
+A game of Fiasco begins with a playset: a themed sheet of four numbered tables, holding Relationships, Needs, Objects, and Locations, each laid out as six categories of six entries. [researched] The core book ships several, including small-town America and Antarctica, and the publisher has put out a long run of free playsets with many more made by fans. [researched] Setup turns that raw material into a specific situation. The group rolls a pool of four dice per player in two colours, then takes turns spending dice to pick entries from the tables, building a relationship with the player on each side and seeding it with a shared need, an object, or a place. [researched] By the end every character is tied to the people next to them, and nobody has had to write a scenario in advance.
+
+That setup is the game's answer to a problem the [session zero](../articles/players-social-dynamics/the-session-zero-playbook.qmd) article frames at length: a campaign normally needs a separate meeting to align expectations and wire characters together, and that meeting often collapses into solo character creation with no shared situation. Fiasco folds the whole negotiation into a structured half-hour at the same table, with the playset doing the work a session zero agenda would otherwise have to carry. [synthesis]
+
+::: {.callout-note}
+### The Signature
+
+Every relationship in the setup carries a hidden charge: a *need*. One pairing wants money, another wants escape, another wants revenge. These needs point in different directions and cannot all be satisfied at once, so the table is loaded with cross-purposes before a single scene is played. The characters are not heroes with a quest. They are people with poor impulse control and incompatible wants, and the game simply lets those wants collide. That collision is the engine. [researched]
+:::
+
+Because the needs are set in opposition during setup, play becomes a study in [conflict driven by character want](../articles/story-character-voice/conflict-patterns.qmd) rather than by an external threat. The stakes are not a monster or a clock. They are what each person is willing to do to get the thing they came for, and how that crosses what the person beside them is trying to get. [synthesis]
+
+Play runs as a sequence of scenes split across two acts, which is where the [scene framing](../articles/structure-pacing/scene-structure-and-transitions.qmd) does its work. Each scene belongs to one player, and that player chooses one of two roles in it. If they choose to **establish**, they set the scene, naming who is there and where it happens and what the trouble is. The rest of the table then decides how it ends, handing the player a light die for a good outcome or a dark die for a bad one. If they choose to **resolve** instead, the table sets the scene around them and the player keeps the power to decide how it lands. [researched] Either way, authority over a scene is split between the person at its centre and everyone else, and the dice that change hands are not spent now. They are kept.
+
+That split is the concrete mechanism behind the game's [shared narrative authority](../articles/systems-mechanics/distributing-narrative-authority.qmd). No one owns the whole fiction. The right to frame a scene and the right to resolve it are deliberately handed to different people, so every scene is co-authored and no single player can steer the story alone. [synthesis] The same logic makes Fiasco a clean case of a [cooperative rather than adversarial format](../articles/players-social-dynamics/cooperative-vs-adversarial-formats.qmd): inside the fiction the characters betray and rob each other. Outside it the players are on the same side, jointly building a story that none of them controls and no one wins. [synthesis]
+
+Between the acts comes the Tilt. The players holding the most light and the most dark dice pick complications from a Tilt table, and those land at the start of Act Two as a forced turn toward worse. [researched] The midpoint is mechanical, not improvised: the structure guarantees the story will bend, and the people who profited from Act One are usually the ones who choose how it sours. [synthesis]
+
+::: {.callout-warning}
+### The Hazard
+
+The dice are colour-coded, but they are not a scoreboard for mid-game reading. A light die is only "good" at the Aftermath, and a pile of them can still total into a grim ending. Tables new to Fiasco often treat the colour as a score. They hoard their light dice and force every scene toward a tidy resolution. That instinct drains the comedy. The game pays out best when players chase the want and let the dice fall. A Fiasco is meant to end in wreckage, and the pleasure lies in how spectacular the wreckage gets. [synthesis]
+:::
+
+The ending is a single resolution rather than a running tally. At the close each player totals the dice they have gathered and reads the result off the Aftermath table, which sets how their character comes out: well, badly, dead, or worse. [researched] The table then narrates a short montage of where everyone lands. Because the dice were earned scene by scene and never spent until now, the [chain of consequences](../articles/story-character-voice/moral-dilemmas-and-consequence-chains.qmd) is cumulative. Each bad choice that drew a dark die earlier is still sitting in the pile, waiting to be counted, so the small compromises of Act One are what decide the catastrophe of the Aftermath. [synthesis]
+
+## The wider influence
+
+Fiasco arrived as one-shot, no-prep, referee-free story games were finding their feet, and it became the example people reached for when arguing that the form could work. The 2011 Diana Jones Award citation put the case plainly, praising it as a satisfying storytelling experience played in a few hours with almost no preparation. [researched] It has since been translated into Italian, French, Spanish, Portuguese, Russian, Korean, and German, and Morningstar remains the only named individual to have won the Diana Jones Award twice. [researched]
+
+Its most copied idea is the playset itself: a portable, swappable content layer of relationships, needs, objects, and locations that drops any theme onto the same engine. The free Playset of the Month line and the wide field of fan-made playsets turned that template into a small ecosystem, and the structure has been borrowed by later games wanting the same fast, themed setup. [researched] A second edition followed in 2021, reworking the dice-and-table setup into a card-driven one while keeping the two-act, Tilt, and Aftermath spine intact. [researched] The lesson the profile leaves is that a sharply bounded structure can free a table rather than constrain it: by fixing the shape and the turn and the reckoning, Fiasco lets players improvise everything else without fear that the story will go nowhere. [synthesis]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop roleplaying game |
+| Designer | Jason Morningstar (Bully Pulpit Games) |
+| Published | 2009 (first edition), 2021 (second edition) |
+| Players | Three to five, with no game master |
+| Format | One-shot, run in a single session of roughly two to three hours |
+| Substrate | A playset of four tables, four dice per player in two colours, the Tilt and Aftermath tables |
+| Status | In print; second edition recasts the dice setup as a card-driven one |
+
+## Sources
+
+- "Fiasco (role-playing game)." Wikipedia. (Designer and publisher, 2009 and 2021 editions, the playset structure of relationships, needs, objects, and locations, the four-dice setup, the establish/resolve scene framing, the Tilt, the Aftermath, awards, and the cinematic models.) <https://en.wikipedia.org/wiki/Fiasco_(role-playing_game)>
+- "Jason Morningstar." Wikipedia. (Designer biography, Bully Pulpit Games, the 2011 Diana Jones Award and its citation, the seven translation languages, the twice-winner note.) <https://en.wikipedia.org/wiki/Jason_Morningstar>
+- "Fiasco: Rules, Dice, Friends, And Trouble." Gnome Stew. (Setup procedure, the two-act structure, the role of light and dark dice across acts, the Tilt, and the Aftermath roll.) <https://gnomestew.com/fiasco-rules-dice-friends-trouble/>
+- "Review: Fiasco." Critical Hits, 2010. (GM-less collaborative play, the establish-or-resolve choice, other players framing and resolving a scene around the player at its centre.) <https://critical-hits.com/blog/2010/06/25/review-fiasco/>
+- "Playset." Bully Pulpit Games. (The free Playset of the Month line and the wider field of community-made playsets built on the four-table template.) <https://bullypulpitgames.com/products/fiasco-10-playset-anthology-vol-1>
+- "Fiasco." Bully Pulpit Games. (Marketing of the game as GM-less for three to five players, played in a few hours with six-sided dice and no preparation, modelled on caper-gone-wrong cinema.) <https://bullypulpitgames.com/>

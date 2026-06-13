@@ -119,6 +119,7 @@ The live form runs along the same axis with the body as the medium. An escape ro
 - [Pandemic](../../exemplars/pandemic.qmd)
 - [Replayability](replayability.qmd)
 - [System vs Setting](system-vs-setting.qmd)
+- [Ten Candles](../../exemplars/ten-candles.qmd)
 - [Theme, Immersion & Sensory Environment](../space-props-materiality/theme-immersion-and-sensory-environment.qmd)
 
 <!-- BACKLINKS:END -->

@@ -121,6 +121,7 @@ The same accumulation logic shows up outside the tabletop. In a large live game 
 - [Prep Economy](prep-economy.qmd)
 - [Sandbox, Situation & the Railroad Spectrum](../structure-pacing/sandbox-situation-and-the-railroad-spectrum.qmd)
 - [TTRPG Format Taxonomy](ttrpg-format-taxonomy.qmd)
+- [The Quiet Year](../../exemplars/the-quiet-year.qmd)
 - [Try-Fail Cycles & Escalation](../structure-pacing/try-fail-cycles-and-escalation.qmd)
 - [West Marches & the Open-Table Format](../structure-pacing/west-marches-and-the-open-table-format.qmd)
 

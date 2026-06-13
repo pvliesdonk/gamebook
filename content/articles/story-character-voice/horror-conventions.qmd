@@ -113,6 +113,7 @@ Horror handles material that can genuinely wound a reader, and the responsible v
 - [A Taxonomy of Genre Conventions](a-taxonomy-of-genre-conventions.qmd)
 - [Audience & Age-Targeting](audience-and-age-targeting.qmd)
 - [Call of Cthulhu](../../exemplars/call-of-cthulhu.qmd)
+- [Ten Candles](../../exemplars/ten-candles.qmd)
 - [Tropes, Archetypes & Variations](tropes-archetypes-and-variations.qmd)
 
 <!-- BACKLINKS:END -->

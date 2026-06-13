@@ -1,0 +1,73 @@
+---
+title: "The MIT Mystery Hunt"
+type: exemplar
+medium: puzzle-hunt
+year: 1981
+designer: "Founded by Brad Schaefer; each year run by the previous year's winning team"
+mechanisms:
+  - ../articles/puzzles-clues-information/puzzle-hunt-craft.qmd
+  - ../articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd
+  - ../articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd
+  - ../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd
+  - ../articles/puzzles-clues-information/the-aha-moment.qmd
+  - ../articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd
+  - ../articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd
+provenance: "researched"
+---
+
+*Profile: a weekend-long puzzle marathon held every January at MIT. Dozens of small answers feed larger puzzles, the largest of those a runaround across campus. The prize is a hidden coin plus the duty of building it all again next year.*
+
+The MIT Mystery Hunt is the event the whole tradition measures itself against. A graduate student named Brad Schaefer ran the first one in January 1981, during the Institute's Independent Activities Period, as a single sheet of twelve subclues whose answers pointed to an Indian Head cent hidden somewhere on campus. [researched] Four decades later the same weekend in January carries hundreds of puzzles, thousands of solvers, and a production budget measured in tens of thousands of volunteer hours, yet the shape is the one Schaefer drew: solve to find the coin. [researched] Almost every mechanism the modern [puzzle hunt](../articles/puzzles-clues-information/puzzle-hunt-craft.qmd) treats as standard was either invented here or hardened here.
+
+It belongs in this gazetteer because it is the root specimen. Most exemplars illustrate one mechanism cleanly. The Mystery Hunt is where several of the family's load-bearing structures were first assembled into one machine and then stress-tested, year after year, by the people who had to build the next one. The links below run to the articles each part exemplifies.
+
+## The design profile
+
+The first thing to understand is that a Hunt is not a pile of puzzles but a structure that stacks them. Individual puzzles, the feeders, each yield a single word or short phrase. Those answers are not endpoints. They become the raw material for a higher puzzle, the meta, which reads the set as data rather than as a list of solved things. [researched] That upward feed is the spine of the format, the mechanism the article on [extraction, indexing and meta-puzzles](../articles/puzzles-clues-information/extraction-indexing-and-meta-puzzles.qmd) is built around. The round-and-meta structure with progressive unlocking settled into its modern form around 1998, and from there it became the template the rest of the scene copied. [researched]
+
+The defining convention sits one level below structure, in how a single puzzle presents itself. A Mystery Hunt puzzle usually arrives with no question on it. There is a title, some material, and nothing telling you what to do. Working out what kind of puzzle it is, and so what operation will crack it, is the puzzle. [researched]
+
+::: {.callout-note}
+### The Signature
+
+A meta-puzzle in the Hunt almost never carries instructions. The solver is handed a set of answers and has to notice, unaided, what those answers have in common and what message they are hiding: that they are all chemical elements, say, or that their lengths index into a phrase. [researched] Recognising the mechanism is the act of solving it. This is the skill the article on [a taxonomy of puzzles](../articles/puzzles-clues-information/a-taxonomy-of-puzzles.qmd) trains, applied one level up: spotting that twenty-six clean answers are reaching for the alphabet, or that a column of state names wants their capitals. A puzzle that announced its own method would have given the game away. [synthesis]
+:::
+
+Because the method is withheld, the payoff lands harder when it arrives. The long stretch of staring at material that will not resolve is not dead time but setup. The instant the structure turns visible is the event the puzzle was built to produce. That is the [aha moment](../articles/puzzles-clues-information/the-aha-moment.qmd) engineered at scale: hundreds of small clicks across a weekend, each one a hidden shape snapping into something readable. [synthesis]
+
+The whole machine ends not on the hardest puzzle but on a walk. The final sequence is a runaround, a chain of clues that sends the winning team physically across the MIT campus to a spot where the coin is hidden. [researched] The runaround takes no feeder answers and is rarely the toughest challenge in the Hunt. Its job is the memory, the victory lap after sixty hours of solving. Finding the coin triggers the ceremonial end. The writing team, on duty at headquarters around the clock, comes out to greet the finishers and hand them the artefact. [researched] The object is called the coin by tradition, though past Hunts have hidden compact discs, meteorite fragments, and snow-globes in its place. [researched]
+
+::: {.callout-warning}
+### The Hazard
+
+The coin is the lure, but the real prize is heavier. Whoever finds it wins the right, and the obligation, to write the entire following year's Hunt. [researched] A team that built nothing this year inherits the job of producing hundreds of puzzles, a theme, a meta structure, a runaround, and round-the-clock support for thousands of solvers, all for free. The skill that wins a Hunt is solving, and the skill the prize demands is construction, which is not the same skill. [synthesis] Borrow the winner-writes-next model for your own long-running event and you are betting that your strongest solvers also want to become your unpaid production studio.
+:::
+
+## The wider influence
+
+The succession rule is the institution's most distinctive feature and the reason it has lasted. After Schaefer left MIT in 1983 he formalised it: the team that found the coin earned the right to write the next year's Hunt. [researched] No team runs two in a row. The format reinvents itself annually, on donated rather than purchased labour. The result is a self-sustaining event that costs tens of thousands of person-hours to produce and is offered at no charge. [researched]
+
+That model also carries a trust problem the article on [designer-community trust in long-form hunts](../articles/players-social-dynamics/designer-community-trust-in-long-form-hunts.qmd) examines. A team that spends a weekend solving has to believe every puzzle has a reachable answer and that the construction is honest. The Hunt answers that with relentless test-solving before release and a hint queue that pulls a stuck team off a dead puzzle, so good faith is engineered into the structure rather than promised. [synthesis] Scale brings its own strain, which is the subject of [team sizes and the bottleneck problem](../articles/players-social-dynamics/team-sizes-and-the-bottleneck-problem.qmd): teams now run from a dozen people to more than two hundred, and a team that large only stays a team if there are always enough open puzzles to keep every solver working rather than watching. [researched]
+
+The reach is the clearest measure of the influence. University hunts at Cambridge and elsewhere, the corporate Microsoft Puzzle Hunt, the city-spanning DASH, and the online Galactic Puzzle Hunt all descend from this one, and the community that runs them is dense with Mystery Hunt alumni. [researched] The Galactic Puzzle Hunt began when a team finished the 2017 Mystery Hunt early and spent the spare day building a round of their own. [researched] The lineage and the conventions it spread are traced in [the puzzle hunt and ARG tradition](../articles/puzzles-clues-information/the-puzzle-hunt-and-arg-tradition.qmd). The lesson of the profile is that a format invented as a one-off lark became a tradition because its prize was also its production engine.
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Competitive puzzle hunt |
+| Origin | Founded by Brad Schaefer, January 1981, at MIT |
+| Held | Annually over a January weekend during MIT's Independent Activities Period |
+| Players | Teams ranging from about a dozen to more than 200 solvers; recent Hunts draw over 5,000 contestants across 200-plus teams |
+| Format | Roughly 48 hours, occasionally past 75; up to around 250 puzzles in rounds, metas, and a final runaround |
+| Substrate | Web-published and printed puzzles, usually with no instructions; a physical coin hidden on campus; on-site headquarters and a hint queue |
+| Lineage | Root of the modern hunt scene: DASH, the Galactic Puzzle Hunt, Microsoft Puzzle Hunt, and university hunts all descend from it |
+
+## Sources
+
+- "MIT Mystery Hunt." Wikipedia. (Founding by Schaefer in 1981, the original twelve subclues and Indian Head cent, the 1998 round-and-meta structure, no-instructions meta-puzzles, team sizes, the 48-hour weekend, the runaround and coin, the winner-writes-next tradition, and descendant hunts.) <https://en.wikipedia.org/wiki/MIT_Mystery_Hunt>
+- "History of the Mystery Hunt." MIT Mystery Hunt / Puzzle Club. (Founding, January IAP timing, opening skit and theme, growth from a few dozen puzzles to over 200, the 2013 record length, plus the winning-team-writes-next rule.) <https://puzzles.mit.edu/history.html>
+- Quines, CJ. "On the MIT Mystery Hunt 2026." *Infinite Ascent*, January 2026. (Tens of thousands of person-hours, free volunteer production, large writing team.) <https://blog.cjquines.com/post/mystery-hunt-2026/>
+- Irpan, Alex. "MIT Mystery Hunt 2026." January 2026. (Write-skill is not solve-skill; succession and team scale.) <https://www.alexirpan.com/2026/01/29/mh-2026.html>
+- "Happy Birthday, Mystery Hunt!" *MIT Technology Review*, December 2009. (Schaefer's founding, the coin tradition, and the Hunt's growth into an institution.) <https://www.technologyreview.com/2009/12/21/28792/happy-birthday-mystery-hunt/>
+- Schaefer, Brad, and the MIT Puzzle Club. "Mystery Hunt coins." *MIT News*, 2010. (The varied physical artefacts used as the coin across years.) <https://news.mit.edu/2010/mystery-hunt-coins>

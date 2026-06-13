@@ -112,6 +112,7 @@ These formats are live-game native, but their grammar carries into single-player
 - [Blood on the Clocktower](../../exemplars/blood-on-the-clocktower.qmd)
 - [Cooperative & Legacy Genres](../systems-mechanics/cooperative-and-legacy-genres.qmd)
 - [Faction Design & Asymmetric Objectives](faction-design-and-asymmetric-objectives.qmd)
+- [Fiasco](../../exemplars/fiasco.qmd)
 - [Information Asymmetry: Hidden Information vs Hidden Roles](information-asymmetry-hidden-information-vs-hidden-roles.qmd)
 - [Ironsworn](../../exemplars/ironsworn.qmd)
 - [Pandemic](../../exemplars/pandemic.qmd)

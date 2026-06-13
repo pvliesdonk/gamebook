@@ -16,12 +16,19 @@ article's *Referenced by* register to find the works that demonstrate it.
 - [Call of Cthulhu](call-of-cthulhu.qmd): the Sanity mechanic and investigative cluing, with horror encoded in the rules.
 - [Dungeons & Dragons, 5th Edition](dungeons-and-dragons-5e.qmd): the d20 core and bounded accuracy, an accessible on-ramp, and the DM's wide authority.
 - [Exit: The Game](exit-the-game.qmd): a boxed escape game you write on and destroy, self-checked by a decoder dial.
+- [Fiasco](fiasco.qmd): GM-less play where a dice-built web of relationships and needs drives ordinary people to ruin across two acts.
 - [Ironsworn](ironsworn.qmd): the oracle as a solo resolution engine and progress tracks, in a game built to run with or without a GM.
 - [Magic: the Gathering](magic-the-gathering.qmd): deck construction as a metagame, the colour pie, and the living, rotating format that founded the TCG.
 - [Pandemic](pandemic.qmd): fully cooperative play and asymmetric specialist roles, against an escalating outbreak that pushes back.
 - [Paranoia](paranoia.qmd): adversarial-by-design play, a licensed-deceiver GM, and betrayal held inside a consent contract.
+- [The Quiet Year](the-quiet-year.qmd): a GM-less community drawn onto a shared map, prompted by a deck of cards across four seasons.
+- [Ten Candles](ten-candles.qmd): tragic horror played by literal candlelight, where ten extinguished candles are the clock and every character is doomed.
 - [Thousand Year Old Vampire](thousand-year-old-vampire.qmd): solo journaling driven by prompts, where the diary is the game and memory is forced to decay.
 - [Unlock!](unlock-series.qmd): a card-based boxed escape game with a companion app as judge, timer, and hint desk.
+
+## Puzzle hunts
+
+- [The MIT Mystery Hunt](mit-mystery-hunt.qmd): the founding puzzle hunt, where unmarked puzzles feed meta-puzzles and the winning team writes the next year's hunt.
 
 ## Live games
 

@@ -96,6 +96,7 @@ This connects to a quieter principle about who authors what. Paul Czege observed
 - [Romance & Relationships](../story-character-voice/romance-and-relationships.qmd)
 - [Rulings vs Rules & the Authority Contract](rulings-vs-rules-and-the-authority-contract.qmd)
 - [Safety Systems as Mechanical Layer](../systems-mechanics/safety-systems-as-mechanical-layer.qmd)
+- [Ten Candles](../../exemplars/ten-candles.qmd)
 - [The Session Zero Playbook](the-session-zero-playbook.qmd)
 - [Trust, Conformity & Social Pressure](trust-conformity-and-social-pressure.qmd)
 

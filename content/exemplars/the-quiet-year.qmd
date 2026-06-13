@@ -1,0 +1,66 @@
+---
+title: "The Quiet Year"
+type: exemplar
+medium: tabletop
+year: 2013
+designer: "Avery Alder (Buried Without Ceremony)"
+mechanisms:
+  - ../articles/systems-mechanics/distributing-narrative-authority.qmd
+  - ../articles/systems-mechanics/oracle-and-solo-play-resolution.qmd
+  - ../articles/systems-mechanics/progress-clocks-and-faction-state.qmd
+  - ../articles/story-character-voice/worldbuilding-patterns.qmd
+  - ../articles/story-character-voice/environmental-storytelling-and-setting-as-character.qmd
+provenance: "researched"
+---
+
+*Profile: a community draws its own map week by week from the prompts on a deck of cards, with no storyteller at the table and a known catastrophe at the bottom of the pile.*
+
+The Quiet Year leaves a physical record of itself. When the last card turns and the game stops, what sits on the table is a hand-drawn map of a community that survived a long war and had one quiet year to rebuild before the next disaster arrived. Avery Alder published it in 2013 through Buried Without Ceremony, and it won Most Innovative Game of that year. [researched] No one runs it. The right to say what is true passes around the table by a rule rather than resting with a facilitator, which makes it a clean study in [distributing narrative authority](../articles/systems-mechanics/distributing-narrative-authority.qmd). [synthesis]
+
+It earns a place in this gazetteer because each of its parts does one job and does it visibly. The deck of cards stands in for the missing storyteller as a [shared oracle](../articles/systems-mechanics/oracle-and-solo-play-resolution.qmd). The Project dice are [progress clocks](../articles/systems-mechanics/progress-clocks-and-faction-state.qmd) you can read across the table. The map is the game's whole memory. The links below run to the articles each part exemplifies; read in the other direction, those articles list The Quiet Year in their *Referenced by* register.
+
+## The design profile
+
+There is no gamemaster, and that absence is the design. Each player speaks for the whole community rather than a single character, taking one turn and then handing the turn on. [researched] On your turn you do exactly one of three things. You discover something new, you start a project, or else you hold a discussion. [researched] Because the right to frame what happens next moves by a fixed rotation, the authority a single narrator would normally hold gets parcelled out one turn at a time. No one ends up owning the whole truth of the place. That parcelling is the mechanism the article on [distributing narrative authority](../articles/systems-mechanics/distributing-narrative-authority.qmd) sets out to describe. [synthesis]
+
+With the storyteller gone, the surprises have to come from somewhere. They come from a standard 52-card deck. One card is drawn per week, and the four suits mark the four seasons of the year. [researched] Each card carries open prompts rather than instructions, and the active player picks one and reads it into the fiction: another community appears somewhere on the map, a belief that unifies the survivors, a hard frost that kills the crop. [researched] The cards do not tell a story. They set a condition and leave the table to interpret it, which is the exact work an oracle does for a solo player who cannot author their own surprises.
+
+::: {.callout-note}
+### The Signature
+
+The deck is the game's clock and its oracle at once. Fifty-two cards, drawn one per week, sorted into four seasonal piles that are shuffled separately and stacked spring on top of winter. So the table knows roughly how far through the year it is without knowing exactly when the end will fall, because the King of Spades, sitting somewhere in the winter pile, ends everything the moment it turns: the Frost Shepherds arrive and the quiet year is over. [researched] The deadline is felt rather than counted, and every project started late in autumn is a bet against an end no one can see precisely. [synthesis]
+:::
+
+That deck makes the cards a [shared oracle](../articles/systems-mechanics/oracle-and-solo-play-resolution.qmd). The player knows the kind of thing the deck holds but not which prompt comes next, and that gap between drawing and reading is what keeps each game from settling into a story the table already had in mind. [synthesis] No two games draw the same sequence, so the same blank map grows into a different community every time.
+
+The projects run on dice. When a player starts a project, such as digging a well or building a wall, they set a six-sided die on the map showing how many weeks it will take, and that die ticks down by one each week until it resolves. [researched] A die sitting at three is a small visible promise that something will happen in three weeks, unless scarcity or a later card knocks it off course first. This is the [progress clock](../articles/systems-mechanics/progress-clocks-and-faction-state.qmd) in its most literal form: a tally that sits in the open and belongs to no one, filling toward a change the whole table can see coming. [synthesis] Several dice on the map at once turn the community's plans into a row of competing deadlines racing the larger deadline of the winter pile.
+
+The map itself is the artefact that carries everything. Players start by sketching the terrain and naming the resources the community has and lacks, then add to the drawing every turn. A road appears, then a graveyard, then a faction that has split off and gone east. [researched] Nothing is written in a logbook. The history lives as marks on the paper, so the place accumulates its own past in front of you, and the map at the end is both the record of the year and the only character that was present for all of it. The community is the protagonist, and the map is how that protagonist is made visible. So the game reads as a worked example of both [collaborative worldbuilding](../articles/story-character-voice/worldbuilding-patterns.qmd) and [setting as character](../articles/story-character-voice/environmental-storytelling-and-setting-as-character.qmd). The world is built one consistent mark at a time, and that built world, rather than any single person in it, is what the table comes to care about. [synthesis]
+
+One mechanism deliberately does nothing. Contempt Tokens, small skull-shaped markers, let a player who feels unheard take a token to register the slight, and later spend it to justify acting selfishly on their own turn. [researched] They have no mechanical effect on anything else. They are a social tracker for the friction of deciding things as a group, and reviewers have split on whether they pull their weight or sit awkwardly against the game's own rules about discussion. [researched]
+
+## The wider influence
+
+The game gave collaborative cartography a working template, and others followed. [researched] In 2014 Alder and Mark Diaz Truman published *The Deep Forest*, a direct hack that keeps the card deck, the community protagonist, the map, and the deferred doom, while reframing the fiction as monsters rebuilding after driving off human occupiers. [researched] That portability is the lesson. The engine survives a complete change of setting because each of its parts (the seasonal deck, the project dice, the shared map) does its job without depending on the post-apocalyptic dressing around it. [synthesis]
+
+The map-as-narrative idea travelled further than the specific rules did. The Quiet Year sits in a small lineage of GM-less worldbuilding games alongside Ben Robbins's Microscope and Kingdom, and it is the one most often cited when a later design reaches for a community-scale story drawn rather than written. [researched] Designers who have never played it still borrow the central move. Hand the table a blank map and a rotating turn, set a deck to dole out prompts, and let a place tell its own history. [synthesis]
+
+## The stat block
+
+| Attribute | Value |
+|-----------|-------|
+| Medium | Tabletop storytelling game |
+| Designer | Avery Alder (Buried Without Ceremony) |
+| Published | 2013 (revised edition 2019) |
+| Players | Two to four, no gamemaster |
+| Format | Single session of roughly three to four hours |
+| Substrate | Rules booklet, a 52-card deck, six six-sided dice, Contempt Tokens, and a shared hand-drawn map |
+| Status | In print; hacked directly as *The Deep Forest* (2014) |
+
+## Sources
+
+- Alder, Avery. *The Quiet Year*. Buried Without Ceremony, 2013 (revised 2019). Publisher page: components, the card-per-week structure, the Frost Shepherds ending, GM-less play. <https://buriedwithoutceremony.com/the-quiet-year>
+- "The Quiet Year." Wikipedia. (Publication history, the three actions, the seasonal deck, the King of Spades ending, awards, *The Deep Forest*, influence on collaborative cartography.) <https://en.wikipedia.org/wiki/The_Quiet_Year>
+- "Avery Alder." Wikipedia. (Designer biography and the Buried Without Ceremony catalogue.) <https://en.wikipedia.org/wiki/Avery_Alder>
+- Alexander, Justin. "Review: The Quiet Year." The Alexandrian. (Map as central artefact, resource setup, the three action types, Project dice, a critical reading of Contempt Tokens.) <https://thealexandrian.net/wordpress/44594/roleplaying-games/review-the-quiet-year>
+- "RPG Review: The Quiet Year." Shut Up & Sit Down. (Collaborative map play for two to four players under the Frost Shepherds premise, with detail on the physical components including Contempt Tokens.) <https://www.shutupandsitdown.com/rpg-review-quiet-year/>

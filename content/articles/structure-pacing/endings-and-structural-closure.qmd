@@ -131,6 +131,7 @@ The full-circle ending is one move that pays off especially well in any medium t
 - [Parallel Threads & Convergence](parallel-threads-and-convergence.qmd)
 - [Scope, Scale & Branching Depth](scope-scale-and-branching-depth.qmd)
 - [Session Pacing & Energy Management](session-pacing-and-energy-management.qmd)
+- [Ten Candles](../../exemplars/ten-candles.qmd)
 - [Time Loop Patterns](time-loop-patterns.qmd)
 
 <!-- BACKLINKS:END -->
