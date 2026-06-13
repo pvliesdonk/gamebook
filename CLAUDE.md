@@ -47,6 +47,15 @@ quarto render --to typst # PDF only
 
 Build output goes to `_book/` (gitignored).
 
+### Curated PDF (decision #17)
+
+The PDF is a curated edition; the HTML wiki is complete. To exclude a document from
+the **PDF only**, add `pdf: false` to its frontmatter. The wiki still renders it.
+`scripts/curate.py` (pre-render) collects the flagged titles and the Typst filter
+drops those chapters. Default: nothing excluded (full edition). Note that excluding a
+chapter leaves any in-PDF references to it (e.g. its gazetteer index entry) as dead
+links, so prefer excluding self-contained or web-native material.
+
 ## Directory layout
 
 ```
