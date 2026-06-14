@@ -1,0 +1,104 @@
+/*-- scss:defaults --*/
+// ============================================================
+// Field Guide — web theme (interim Quarto HTML edition, #73).
+// Themes Quarto's cosmo shell to the design system as far as the
+// fixed navbar+sidebar+content allows. The bespoke site is #62.
+// Palette and type mirror design-system/tokens/.
+// ============================================================
+
+// ---- palette (design-system/tokens/colors.css) ----
+$paper:       #fafafa;
+$paper-warm:  #f5f1e9;
+$paper-deep:  #ece5d7;
+$ink:         #1a1a1a;
+$ink-soft:    #2c2824;
+$ink-muted:   #6b6155;
+$rule:        #ddd6c8;
+$rule-strong: #c2b9a7;
+$amber:       #c07840;
+$amber-deep:  #a25f2c;
+$amber-ink:   #7f4a20;
+
+// ---- type (OFL faces matching the PDF fallback; loaded via include-in-header) ----
+$font-family-serif:       "EB Garamond", Georgia, "Times New Roman", serif;
+$font-family-sans-serif:  "Source Sans 3", -apple-system, "Segoe UI", system-ui, sans-serif;
+$font-family-monospace:   "Courier Prime", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+$font-family-base:        "EB Garamond", Georgia, "Times New Roman", serif;
+$headings-font-family:    "EB Garamond", Georgia, "Times New Roman", serif;
+$font-size-root:          18px;
+$line-height-base:        1.62;
+$headings-font-weight:    600;
+$headings-color:          $ink;
+
+// ---- Bootstrap / Quarto mappings ----
+$body-bg:           $paper;
+$body-color:        $ink-soft;
+$link-color:        $amber-ink;
+$link-hover-color:  $amber-deep;
+$link-decoration:   underline;
+$border-color:      $rule;
+$blockquote-border-color: $amber;
+
+// navbar + sidebar in warm paper, not cosmo blue
+$navbar-bg:         $paper-warm;
+$navbar-light-color:        $ink-muted;
+$navbar-light-active-color: $amber-ink;
+$navbar-light-hover-color:  $amber-deep;
+$sidebar-bg:        $paper-warm;
+$code-color:        $amber-ink;
+$code-bg:           $paper-warm;
+
+/*-- scss:rules --*/
+// ---- design tokens needed for callouts + family accents ----
+:root {
+  --paper: #{$paper}; --paper-warm: #{$paper-warm};
+  --ink: #{$ink}; --ink-soft: #{$ink-soft}; --ink-muted: #{$ink-muted};
+  --rule: #{$rule}; --amber: #{$amber}; --amber-ink: #{$amber-ink};
+  // callout inks
+  --specimen: #5d6b3f;  --specimen-ink: #44502c; --specimen-tint: #e6e8d6; --specimen-edge: #c3cba0;
+  --fieldnote: #3f6168; --fieldnote-ink: #2f4a50; --fieldnote-tint: #dde7e8; --fieldnote-edge: #a9c4c6;
+  --hazard: #a0492f;    --hazard-ink: #863a23;   --hazard-tint: #f1ddd3;   --hazard-edge: #dcab97;
+  // six family inks (oklch; greyscale-separable)
+  --fam-structure: oklch(0.46 0.072 264); --fam-puzzles: oklch(0.675 0.074 198);
+  --fam-story: oklch(0.595 0.110 22);     --fam-players: oklch(0.705 0.076 132);
+  --fam-space: oklch(0.625 0.072 58);     --fam-systems: oklch(0.53 0.084 344);
+}
+
+// per-article accent re-skin: the web-family filter wraps the body in
+// [data-family="…"]; remap the amber accent to the family ink within it.
+[data-family="structure"] { --amber: var(--fam-structure); --amber-ink: var(--fam-structure); }
+[data-family="puzzles"]   { --amber: var(--fam-puzzles);   --amber-ink: var(--fam-puzzles); }
+[data-family="story"]     { --amber: var(--fam-story);     --amber-ink: var(--fam-story); }
+[data-family="players"]   { --amber: var(--fam-players);   --amber-ink: var(--fam-players); }
+[data-family="space"]     { --amber: var(--fam-space);     --amber-ink: var(--fam-space); }
+[data-family="systems"]   { --amber: var(--fam-systems);   --amber-ink: var(--fam-systems); }
+
+// links + family-accented headings rule
+main a { color: var(--amber-ink); text-underline-offset: 0.15em; text-decoration-color: var(--amber); }
+#title-block-header .quarto-title h1.title {
+  border-top: 3px solid var(--amber); padding-top: 0.5rem; font-weight: 600;
+}
+h2, h3 { font-weight: 600; }
+
+// the Silhouette / Profile lead line (first italic paragraph) reads as a subhead
+#title-block-header + section > p:first-child em,
+section[id] > p:first-of-type em { color: var(--ink-muted); }
+
+// ---- callouts -> Specimen (note) / Hazard (warning) / Field Note (tip) ----
+// Articles carry their own H3 title ("The Specimen" etc.), so hide Quarto's
+// default callout header and let the body title + the coloured rule carry it.
+div.callout { border-radius: 4px; border-left-width: 3px; }
+div.callout > .callout-header { display: none; }
+div.callout > .callout-body { padding: 0.8rem 1rem; }
+div.callout-note    { border-left-color: var(--specimen); background: var(--specimen-tint); }
+div.callout-note    .callout-body > :first-child { color: var(--specimen-ink); }
+div.callout-warning { border-left-color: var(--hazard);   background: var(--hazard-tint); }
+div.callout-warning .callout-body > :first-child { color: var(--hazard-ink); }
+div.callout-tip     { border-left-color: var(--fieldnote); background: var(--fieldnote-tint); }
+div.callout-tip     .callout-body > :first-child { color: var(--fieldnote-ink); }
+
+// blockquotes / insets in warm cream
+blockquote { background: var(--paper-warm); border-left: 3px solid var(--amber); padding: 0.6rem 1rem; }
+
+// tables: amber rule under the head (matches print)
+table > thead > tr > th { border-bottom: 2px solid var(--amber); font-family: #{$font-family-sans-serif}; font-weight: 600; }

@@ -201,15 +201,23 @@ book:
       chapters:
         - content/glossary.qmd
 
-# Runs for every format: strips internal provenance markers from rendered output.
+# Project filters (each self-gates by format): strip provenance markers (all
+# formats); tag the HTML body with its family for the web accent re-skin.
 filters:
   - filters/strip-provenance.lua
+  - filters/web-family.lua
 
 format:
   html:
     theme:
       - cosmo
       - brand
+      - theme/field-guide-web.scss
+    include-in-header:
+      - text: |
+          <link rel="preconnect" href="https://fonts.googleapis.com">
+          <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+          <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Source+Sans+3:ital,wght@0,400;0,600;0,700&family=Courier+Prime:ital,wght@0,400;0,700;1,400&display=swap">
   typst:
     # Fonts are owned by the theme (typst/field-guide.typ) as fallback lists:
     # the licensed Adobe faces first, free OFL faces (assets/fallback) second, so
