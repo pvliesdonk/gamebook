@@ -96,6 +96,13 @@ $endif$
           #fg-leader()
           #text(font: fg-mono, size: 8.5pt, fill: ink-muted)[#pg]
         ]
+      } else if fg-unnumbered.at(loc) {
+        block(below: 0.35em)[
+          #box(width: 1.6em)[]
+          #text(size: 10pt, style: "italic", fill: ink-muted)[#art.body]
+          #fg-leader()
+          #text(font: fg-mono, size: 8.5pt, fill: ink-muted)[#pg]
+        ]
       } else {
         block(below: 0.35em)[
           #box(width: 1.6em)[#text(font: fg-mono, size: 8.5pt, fill: c)[#fg-article.at(loc).first()]]
@@ -158,6 +165,11 @@ $endif$
             block(below: 0.4em)[
               #box(width: 1.7em)[]
               #text(size: 11pt, style: "italic", fill: ink-muted)[#art.body #text(font: fg-sans, size: 8pt, tracking: 1pt)[· PRIMER]]
+            ]
+          } else if fg-unnumbered.at(loc) {
+            block(below: 0.4em)[
+              #box(width: 1.7em)[]
+              #text(size: 11pt, style: "italic", fill: ink-muted)[#art.body]
             ]
           } else {
             block(below: 0.4em)[
