@@ -122,14 +122,17 @@ $endif$
   for (k, v) in fam-label.pairs() { if v == s { id = k } }
 
   if id == none {
-    // Back matter: leave article mode; plain appendix divider.
+    // Back matter. The Exemplars part is the gazetteer (styled, article-level
+    // chapters); other back matter (Keys, Glossary) is a plain appendix.
     fg-in-body.update(false)
+    let gaz = s == "Exemplars"
+    fg-gazetteer.update(gaz)
     pagebreak(weak: true)
     block(width: 100%, above: 3cm, below: 1.2em, breakable: false)[
       #set par(justify: false)
-      #text(font: fg-sans, size: 11pt, fill: ink-muted, tracking: 2pt)[APPENDIX]
+      #text(font: fg-sans, size: 11pt, fill: ink-muted, tracking: 2pt)[#if gaz [THE GAZETTEER] else [APPENDIX]]
       #v(0.45em, weak: true)
-      #line(length: 100%, stroke: 2pt + ink-muted)
+      #line(length: 100%, stroke: 2pt + (if gaz { amber } else { ink-muted }))
       #v(0.55em, weak: true)
       #text(font: fg-serif, size: 30pt, weight: "semibold", fill: ink-deep)[#title]
     ]
@@ -138,6 +141,7 @@ $endif$
 
   fg-family.update(id)
   fg-in-body.update(true)
+  fg-gazetteer.update(false)
   fg-part-count.step()
   context { if fg-part-count.get().first() == 1 { fg-article.update(0) } }
   let c = fam.at(id, default: amber)

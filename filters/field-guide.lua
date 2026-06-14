@@ -47,11 +47,11 @@ local function strip_label(inlines)
     return inlines
   end
   if #inlines >= 1 and inlines[1].t == "Str" then
-    if inlines[1].text == "Silhouette:" then
+    if inlines[1].text == "Silhouette:" or inlines[1].text == "Profile:" then
       table.remove(inlines, 1)
       if inlines[1] and inlines[1].t == "Space" then table.remove(inlines, 1) end
     else
-      inlines[1].text = inlines[1].text:gsub("^Silhouette:%s*", "")
+      inlines[1].text = inlines[1].text:gsub("^Silhouette:%s*", ""):gsub("^Profile:%s*", "")
     end
   end
   return inlines
@@ -176,7 +176,8 @@ function Pandoc(doc)
   local n = #doc.blocks
   for i = 1, n do
     local b = doc.blocks[i]
-    if b.t == "Para" and stringify(b):match("^%s*Silhouette:") then
+    local stxt = stringify(b)
+    if b.t == "Para" and (stxt:match("^%s*Silhouette:") or stxt:match("^%s*Profile:")) then
       b.content = strip_label(b.content)
       wrap(b.content, "#fg-silhouette[", "]")
       for j = i + 1, n do

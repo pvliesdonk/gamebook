@@ -63,6 +63,10 @@
 // Works & References credits page): rendered, but never numbered, so its opener
 // and side tab show no (stale) article number.
 #let fg-unnumbered = state("fg-unnumbered", false)
+// True inside the Exemplars part (the gazetteer): its chapters are profiles, not
+// family articles, so they get the exemplar opener (amber rule + gazetteer
+// kicker) and the gazetteer running head, but no family number or thumb-tabs.
+#let fg-gazetteer = state("fg-gazetteer", false)
 
 #let kicker(s, c: ink-muted, size: 8.5pt) = text(
   font: fg-sans, size: size, weight: "semibold", fill: c, tracking: 1.2pt,
@@ -120,6 +124,31 @@
   ]
 }
 
+// --- The exemplar field-record: a glyph-led key/value specimen ---------------
+// Used on gazetteer/exemplar openers (the design system's StatBlock / the
+// print-back-matter field-record). Each row is a (glyph, value) pair; the glyph
+// (Phosphor Thin, assets/icons/field/<glyph>-thin.svg) replaces the text label.
+// Two columns, capped to the body measure, set under the Profile line. The data
+// is injected by scripts/exemplar_record.py and rendered by the Lua filter.
+#let fg-record(rows) = {
+  if rows.len() == 0 { return }
+  // A band, not a card: amber top rule + faint bottom rule, no fill (per the
+  // design system's .fr2 field-record). Two columns, glyph + serif value, the
+  // glyph nudged to sit on the first line; long values wrap under the value.
+  block(above: 0.85em, below: 1.05em, breakable: false, width: 100%,
+    stroke: (top: 1.5pt + amber, bottom: 0.75pt + rule),
+    inset: (top: 7pt, bottom: 8pt))[
+    #grid(
+      columns: (1fr, 1fr), column-gutter: 22pt, row-gutter: 5pt,
+      ..rows.map(((glyph, value)) => grid(
+        columns: (auto, 1fr), column-gutter: 6pt, align: (left + top, left + top),
+        box(inset: (top: 2.2pt), image("assets/icons/field/" + glyph + "-thin.svg", height: 9.5pt)),
+        text(font: fg-serif, size: 10pt, fill: ink)[#value],
+      )),
+    )
+  ]
+}
+
 // --- Headings (54/33/22/17 type scale, scaled for print) ----
 // Level 1 = chapter opener. The article counter is stepped by the Lua filter
 // (before the heading), and primer chapters carry fg-primer-flag; here we only
@@ -152,6 +181,15 @@
     ]
   } else if fg-in-body.get() {
     opener[№ #fg-article.get().first()]
+  } else if fg-gazetteer.get() {
+    // exemplar profile: article-style opener, amber rule + gazetteer kicker, no number
+    block(width: 100%, above: 0pt, below: 0.9em, breakable: false)[
+      #line(length: 100%, stroke: 2pt + amber)
+      #v(0.55em, weak: true)
+      #box(kicker("Exemplar · The Gazetteer"))
+      #v(0.4em, weak: true)
+      #text(font: fg-serif, size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
+    ]
   } else {
     // front / back matter: a plain title, no rule / number / kicker
     block(width: 100%, above: 0pt, below: 0.8em, breakable: false)[
@@ -215,10 +253,10 @@
 
 // --- Page furniture (called from partials/page.typ) ---------
 #let fg-header() = context {
-  if not fg-in-body.get() { return }
+  if not (fg-in-body.get() or fg-gazetteer.get()) { return }
   let p = counter(page).get().first()
   let f = fg-family.get()
-  let lbl = fam-label.at(f, default: "The Field Guide")
+  let lbl = if fg-gazetteer.get() { "Exemplars · The Gazetteer" } else { fam-label.at(f, default: "The Field Guide") }
   let num = text(font: fg-mono, size: 8pt, fill: ink-muted)[#p]
   set text(size: 8pt)
   let row = if calc.odd(p) { [#kicker("The Field Guide") #h(1fr) #num] }
