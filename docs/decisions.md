@@ -13,7 +13,7 @@ open — do not build on them. If a `draft` item blocks your work, stop and ask.
 | 4 | Output: Quarto single-source, Typst PDF + HTML wiki | settled | — | |
 | 5 | Backlinks injected at build from the guide's own graph | settled | — | |
 | 6 | Brand: one `_brand.yml` drives both faces | settled | 2026-06-06 | Warm amber accent, Georgia serif. |
-| 7 | Split pipeline (separate web renderer) as fallback | **draft** | | trigger: pilot web output disappoints |
+| 7 | Split pipeline: bespoke web renderer, separate from the Typst PDF | settled | 2026-06-14 | The design-system handoff settles it: the public website is a **bespoke app built from scratch** (`design-system/guidelines/web-rendering-strategy.md`), since Quarto's fixed navbar+sidebar shell cannot produce the masthead + family rail + Gazetteer. Quarto/Typst stays the **PDF pipeline only**; both faces read the one `.qmd` source. Blueprint: `ui_kits/wiki/`. Tracked by #62 (bespoke build). A themed-Quarto-HTML interim is #73. |
 | 8 | Graph view for the wiki | proposed | | phase-six nice to have |
 | 9 | Consistency: LLM style guide primary, thin Vale backstop | settled | 2026-06-06 | Vale + ai-tells + pre-commit configured. |
 | 10 | Repo: independent, new; corpus = point-in-time input | settled | — | |
