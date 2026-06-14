@@ -22,6 +22,14 @@ function Div(el)
       or el.attributes["data-unless-format"] or el.attributes["data-when-format"] then
     return {}
   end
+  -- the print specimen-line tags (scripts/specimen_tags.py) are Typst-only
+  -- apparatus rendered by field-guide.lua; their custom attributes (effect,
+  -- problem, media, family) are invalid XHTML, so drop them from the EPUB.
+  for _, c in ipairs(el.classes) do
+    if c == "specimen-line" then
+      return {}
+    end
+  end
   local first = el.content and el.content[1] or nil
   if first and first.t == "Header" and first.level == 2 and stringify(first) == "Research basis" then
     return {}

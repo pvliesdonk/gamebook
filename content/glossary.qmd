@@ -5,7 +5,7 @@ title: "Glossary & Index"
 An alphabetical reference to the mechanisms in this guide and the other names they go by. A bold entry links to the article that covers it (the print edition adds its article number); an italic entry redirects an alias to its canonical term.
 
 
-## #
+## \#
 
 *The 1:1*: see [One-on-One Scene Design](articles/players-social-dynamics/one-on-one-scene-design.qmd) [(76)]{.content-visible when-format="typst"}
 
@@ -992,4 +992,3 @@ An alphabetical reference to the mechanisms in this guide and the other names th
 *Yes-But / No-And*: see [Try-Fail Cycles & Escalation](articles/structure-pacing/try-fail-cycles-and-escalation.qmd) [(5)]{.content-visible when-format="typst"}
 
 *Yes/No Oracle*: see [Oracle & Solo-Play Resolution](articles/systems-mechanics/oracle-and-solo-play-resolution.qmd) [(98)]{.content-visible when-format="typst"}
-

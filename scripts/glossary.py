@@ -119,11 +119,14 @@ def main() -> None:
     for key in sorted(entries):
         letter = key[0].upper() if key and key[0].isalpha() else "#"
         if letter != last_letter:
-            lines += ["", f"## {letter}", ""]
+            # escape a lone "#" so pandoc does not read it as an ATX close
+            # marker (which yields an empty heading and an empty nav anchor)
+            heading = r"\#" if letter == "#" else letter
+            lines += ["", f"## {heading}", ""]
             last_letter = letter
         lines.append(f"{entries[key]}\n")
 
-    OUT.write_text("\n".join(lines) + "\n", encoding="utf-8")
+    OUT.write_text("\n".join(lines).rstrip("\n") + "\n", encoding="utf-8")
     print(f"glossary: {len(entries)} entries across the A-Z reference")
 
 

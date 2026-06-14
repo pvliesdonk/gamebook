@@ -6,6 +6,7 @@ project:
     - python3 scripts/exemplar_record.py
     - python3 scripts/keys.py
     - python3 scripts/glossary.py
+    - python3 scripts/xref_anchors.py
     - python3 scripts/curate.py
 
 book:
@@ -210,6 +211,7 @@ rights: "© 2026 Peter van Liesdonk. Content licensed under CC BY-NC 4.0."
 # formats); tag the HTML body with its family for the web accent re-skin.
 filters:
   - filters/strip-provenance.lua
+  - filters/resolve-xref.lua
   - filters/web-family.lua
   - filters/curate-epub.lua
 
