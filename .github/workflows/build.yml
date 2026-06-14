@@ -1,0 +1,95 @@
+name: build
+
+# Continuous integration for the Field Guide: lint the rendered prose and build
+# all three editions (Typst PDF, EPUB, HTML wiki) on every push to main and on
+# pull requests. The PDF/EPUB use the bundled OFL fallback fonts because the
+# licensed commercial faces are gitignored and absent from CI (see NOTICE);
+# the build therefore renders in the look-alike faces, which is expected here.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: build-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Vale
+        run: |
+          VALE_VERSION=3.14.2
+          curl -sSL "https://github.com/errata-ai/vale/releases/download/v${VALE_VERSION}/vale_${VALE_VERSION}_Linux_64-bit.tar.gz" \
+            | sudo tar -xz -C /usr/local/bin vale
+          vale --version
+
+      - name: Sync Vale packages (ai-tells)
+        run: vale sync
+
+      # The whitespace/EOF/YAML/large-file hooks pass repo-wide. The vale and
+      # markdownlint pre-commit hooks currently lint unrendered notes
+      # (docs/, research/) and are tracked separately (#77), so they are skipped
+      # here; the rendered prose is gated by the dedicated Vale step below.
+      - name: Structural checks (pre-commit)
+        run: |
+          pip install pre-commit
+          SKIP=markdownlint,vale pre-commit run --all-files --show-diff-on-failure
+
+      # The quality gate for what actually ships: the rendered prose (content/).
+      - name: Vale — rendered prose
+        run: vale content/
+
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Python dependencies for the pre-render scripts
+        run: pip install pyyaml
+
+      - uses: quarto-dev/quarto-actions/setup@v2
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "17"
+
+      # `quarto render` (no --to) builds every format declared in _quarto.yml:
+      # the Typst PDF, the EPUB and the HTML wiki, all into _book/.
+      - name: Render PDF + EPUB + HTML wiki
+        run: quarto render
+
+      - name: Validate EPUB (epubcheck)
+        run: |
+          EPUBCHECK_VERSION=5.1.0
+          curl -sSL -o epubcheck.zip \
+            "https://github.com/w3c/epubcheck/releases/download/v${EPUBCHECK_VERSION}/epubcheck-${EPUBCHECK_VERSION}.zip"
+          unzip -q epubcheck.zip
+          java -jar "epubcheck-${EPUBCHECK_VERSION}/epubcheck.jar" _book/*.epub
+
+      - name: Upload editions (PDF + EPUB + wiki)
+        uses: actions/upload-artifact@v4
+        with:
+          name: field-guide
+          path: |
+            _book/*.pdf
+            _book/*.epub
+            _book/
+          if-no-files-found: error
+          retention-days: 14
