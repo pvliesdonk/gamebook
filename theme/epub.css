@@ -1,0 +1,55 @@
+/* ============================================================
+   Field Guide — EPUB stylesheet (#72). A lightweight, reflowable
+   edition mirroring the curated PDF. No embedded fonts (readers
+   supply serif/sans/mono); the brand comes from the palette,
+   the amber rules, and the callout voices. Tokens mirror
+   design-system/tokens/colors.css.
+   ============================================================ */
+
+body {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #2c2824;            /* ink-soft */
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4 {
+  font-family: Georgia, "Times New Roman", serif;
+  color: #1a1a1a;            /* ink */
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+/* the article title carries the amber spine rule */
+h1 { border-top: 3px solid #c07840; padding-top: 0.4em; }
+
+a { color: #7f4a20; }        /* amber-ink */
+
+/* the Silhouette / Profile lead reads as a quiet subhead */
+p > em:only-child { color: #6b6155; }
+
+/* ---- callouts -> Specimen (note) / Hazard (warning) / Field Note (tip) ---- */
+div.callout {
+  border-left: 3px solid #c2b9a7;
+  border-radius: 3px;
+  padding: 0.6em 0.9em;
+  margin: 1.1em 0;
+}
+/* the article supplies its own H3 title inside; drop any default callout header */
+div.callout > .callout-header,
+div.callout .callout-title { display: none; }
+div.callout-note    { border-left-color: #5d6b3f; background: #e6e8d6; }  /* moss  */
+div.callout-warning { border-left-color: #a0492f; background: #f1ddd3; }  /* clay  */
+div.callout-tip     { border-left-color: #3f6168; background: #dde7e8; }  /* slate */
+
+blockquote {
+  background: #f5f1e9;       /* paper-warm */
+  border-left: 3px solid #c07840;
+  padding: 0.5em 0.9em;
+  margin: 1em 0;
+}
+
+table { border-collapse: collapse; }
+th { border-bottom: 2px solid #c07840; text-align: left; }
+td, th { padding: 0.35em 0.6em; }
+
+code, pre { font-family: "DejaVu Sans Mono", "Courier New", monospace; }

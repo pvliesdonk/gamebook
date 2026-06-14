@@ -129,7 +129,7 @@ The works this part's articles discuss and the texts they cite. The print editio
 - Striner, Alina, Andrew M. Webb, Jessica Hammer and Amy Cook. "Mapping Design Spaces for Audience Participation in Game Live Streaming." CHI 2021. <https://dl.acm.org/doi/10.1145/3411764.3445511>
 - Twice, Erik. "The 'alpha player' in coops is a symptom, not the disease." eriktwice.com, 12 March 2021. <https://eriktwice.com/en/2021/03/12/alpha-player-cooperative-games-symptom/>
 
-::: {.content-hidden when-format="typst"}
+::: {.content-hidden unless-format="html"}
 
 ## Research basis
 

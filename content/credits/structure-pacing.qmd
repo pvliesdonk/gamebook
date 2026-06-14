@@ -106,7 +106,7 @@ The works this part's articles discuss and the texts they cite. The print editio
 - Vogler, Christopher. *The Writer's Journey: Mythic Structure for Writers*. Michael Wiese Productions, 1992.
 - Whitta, Gary. "*The Walking Dead* and the Art of Providing No 'Good' Choice." Game Developer. <https://www.gamedeveloper.com/design/-i-the-walking-dead-i-and-the-art-of-providing-no-good-choice>
 
-::: {.content-hidden when-format="typst"}
+::: {.content-hidden unless-format="html"}
 
 ## Research basis
 

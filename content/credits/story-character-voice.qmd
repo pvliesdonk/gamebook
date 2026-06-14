@@ -119,7 +119,7 @@ The works this part's articles discuss and the texts they cite. The print editio
 - Wieslander, Emma. "Ars Amandi." In *Nordic Larp*, ed. Stenros and Montola, Fëa Livia, 2010.
 - Zinsser, William. *On Writing Well*. Harper & Row, 1976.
 
-::: {.content-hidden when-format="typst"}
+::: {.content-hidden unless-format="html"}
 
 ## Research basis
 

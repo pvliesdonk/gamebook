@@ -66,7 +66,7 @@ The works this part's articles discuss and the texts they cite. The print editio
 - Van Dine, S. S. (Willard Huntington Wright). "Twenty Rules for Writing Detective Stories." *The American Magazine*, September 1928. <http://gaslight-lit.s3-website.ca-central-1.amazonaws.com/gaslight/vandine.htm>
 - Wilson, Dan. "Introduction to Writing Good Puzzle Hunt Puzzles." MIT. <http://web.mit.edu/dwilson/www/puzzles/puzzlewriting.html>
 
-::: {.content-hidden when-format="typst"}
+::: {.content-hidden unless-format="html"}
 
 ## Research basis
 

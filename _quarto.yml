@@ -11,6 +11,7 @@ project:
 book:
   title: "Field Guide to Narrative & Game Design"
   author: "Compiled by Peter van Liesdonk"
+  date: "2026"
   chapters:
     - index.qmd
     - part: "Structure & Pacing"
@@ -201,11 +202,16 @@ book:
       chapters:
         - content/glossary.qmd
 
+# Pandoc metadata applied across formats: en-GB throughout; rights line in the EPUB.
+lang: en-GB
+rights: "© 2026 Peter van Liesdonk. Content licensed under CC BY-NC 4.0."
+
 # Project filters (each self-gates by format): strip provenance markers (all
 # formats); tag the HTML body with its family for the web accent re-skin.
 filters:
   - filters/strip-provenance.lua
   - filters/web-family.lua
+  - filters/curate-epub.lua
 
 format:
   html:
@@ -232,4 +238,9 @@ format:
       - typst/field-guide.typ
     filters:
       - filters/field-guide.lua
-  epub: default
+  epub:
+    cover-image: assets/cover.png
+    toc: true
+    number-sections: false
+    css:
+      - theme/epub.css

@@ -64,7 +64,7 @@ The works this part's articles discuss and the texts they cite. The print editio
 - Szulborski, Dave. *This Is Not A Game: A Guide to Alternate Reality Gaming.* <https://archive.org/details/TINAG>
 - Zittrain, Jonathan, Kendra Albert and Lawrence Lessig. "Perma: Scoping and Addressing the Problem of Link and Reference Rot in Legal Citations." *Harvard Law Review* Vol. 127, 2014. <https://harvardlawreview.org/forum/vol-127/perma-scoping-and-addressing-the-problem-of-link-and-reference-rot-in-legal-citations/>
 
-::: {.content-hidden when-format="typst"}
+::: {.content-hidden unless-format="html"}
 
 ## Research basis
 

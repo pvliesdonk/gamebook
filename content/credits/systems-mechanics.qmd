@@ -196,7 +196,7 @@ The works this part's articles discuss and the texts they cite. The print editio
 - Twice, Erik. "The alpha player in co-ops is a symptom, not the disease." 2021. <https://eriktwice.com>
 - Woods, Stewart. *Eurogames: The Design, Culture and Play of Modern European Board Games*. McFarland, 2012. <https://mcfarlandbooks.com/product/eurogames/>
 
-::: {.content-hidden when-format="typst"}
+::: {.content-hidden unless-format="html"}
 
 ## Research basis
 
