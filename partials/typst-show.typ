@@ -35,16 +35,16 @@
   #set align(center)
   #set par(justify: false)
   #v(3fr)
-  #text(font: "Cronos Pro", size: 12pt, fill: amber-ink, tracking: 4pt)[THE FIELD GUIDE TO]
+  #text(font: fg-sans, size: 12pt, fill: amber-ink, tracking: 4pt)[THE FIELD GUIDE TO]
   #v(0.9em)
-  #text(font: "Adobe Jenson Pro", size: 40pt, weight: "semibold", fill: ink-deep)[Narrative &\ Game Design]
+  #text(font: fg-serif, size: 40pt, weight: "semibold", fill: ink-deep)[Narrative &\ Game Design]
   #v(1.4em)
   #box(stack(dir: ltr, spacing: 0pt, ..fam-order.map(f => box(width: 1.3cm, height: 7pt, fill: fam.at(f)))))
   #v(1fr)
-  #text(font: "Cronos Pro", size: 9pt, fill: ink-muted, tracking: 2pt)[A NATURALIST FIELD GUIDE · SIX DESIGN DISCIPLINES]
+  #text(font: fg-sans, size: 9pt, fill: ink-muted, tracking: 2pt)[A NATURALIST FIELD GUIDE · SIX DESIGN DISCIPLINES]
 $if(by-author)$
   #v(1.1em)
-  #text(font: "Cronos Pro", size: 9.5pt, fill: ink-deep, tracking: 1.5pt)[$for(by-author)$$it.name.literal$$sep$ · $endfor$]
+  #text(font: fg-sans, size: 9.5pt, fill: ink-deep, tracking: 1.5pt)[$for(by-author)$$it.name.literal$$sep$ · $endfor$]
 $endif$
   #v(2.2fr)
 ]
@@ -55,7 +55,7 @@ $endif$
 // colophon furniture (Quarto's book schema has no copyright field).
 #let fg-colophon() = page(header: none, footer: none, background: none, numbering: none, fill: paper)[
   #set par(justify: false, leading: 0.72em)
-  #set text(font: "Cronos Pro")
+  #set text(font: fg-sans)
   #v(3cm)
   #text(size: 13pt, fill: ink-deep)[$title$]
 $if(by-author)$
@@ -73,7 +73,7 @@ $endif$
 // --- Contents -----------------------------------------------
 #let fg-toc() = page(header: none, footer: none, background: none, numbering: none, fill: paper)[
   #set par(justify: false)
-  #text(font: "Adobe Jenson Pro", size: 26pt, weight: "semibold", fill: ink-deep)[Contents]
+  #text(font: fg-serif, size: 26pt, weight: "semibold", fill: ink-deep)[Contents]
   #v(1.2em)
   #context {
     let last = none
@@ -85,23 +85,23 @@ $endif$
       let pg = counter(page).at(loc).first()
       if f != last {
         block(above: 1.1em, below: 0.45em)[
-          #text(font: "Cronos Pro", size: 10pt, weight: "semibold", fill: c, tracking: 1.2pt)[#upper(fam-label.at(f))]
+          #text(font: fg-sans, size: 10pt, weight: "semibold", fill: c, tracking: 1.2pt)[#upper(fam-label.at(f))]
         ]
         last = f
       }
       if fg-primer-flag.at(loc) {
         block(below: 0.35em)[
           #box(width: 1.6em)[]
-          #text(size: 10pt, style: "italic", fill: ink-muted)[#art.body #text(font: "Cronos Pro", size: 8pt, tracking: 1pt)[· PRIMER]]
+          #text(size: 10pt, style: "italic", fill: ink-muted)[#art.body #text(font: fg-sans, size: 8pt, tracking: 1pt)[· PRIMER]]
           #fg-leader()
-          #text(font: "Letter Gothic Std", size: 8.5pt, fill: ink-muted)[#pg]
+          #text(font: fg-mono, size: 8.5pt, fill: ink-muted)[#pg]
         ]
       } else {
         block(below: 0.35em)[
-          #box(width: 1.6em)[#text(font: "Letter Gothic Std", size: 8.5pt, fill: c)[#fg-article.at(loc).first()]]
+          #box(width: 1.6em)[#text(font: fg-mono, size: 8.5pt, fill: c)[#fg-article.at(loc).first()]]
           #text(size: 10pt)[#art.body]
           #fg-leader()
-          #text(font: "Letter Gothic Std", size: 8.5pt, fill: ink-muted)[#pg]
+          #text(font: fg-mono, size: 8.5pt, fill: ink-muted)[#pg]
         ]
       }
     }
@@ -120,11 +120,11 @@ $endif$
     pagebreak(weak: true)
     block(width: 100%, above: 3cm, below: 1.2em, breakable: false)[
       #set par(justify: false)
-      #text(font: "Cronos Pro", size: 11pt, fill: ink-muted, tracking: 2pt)[APPENDIX]
+      #text(font: fg-sans, size: 11pt, fill: ink-muted, tracking: 2pt)[APPENDIX]
       #v(0.45em, weak: true)
       #line(length: 100%, stroke: 2pt + ink-muted)
       #v(0.55em, weak: true)
-      #text(font: "Adobe Jenson Pro", size: 30pt, weight: "semibold", fill: ink-deep)[#title]
+      #text(font: fg-serif, size: 30pt, weight: "semibold", fill: ink-deep)[#title]
     ]
     return
   }
@@ -142,13 +142,13 @@ $endif$
   page(header: fg-header(), background: fg-tabs(), fill: paper)[
     #set par(justify: false)
     #v(1.6cm)
-    #text(font: "Letter Gothic Std", size: 12pt, fill: c)[Part #numbering("A", pnum)]
+    #text(font: fg-mono, size: 12pt, fill: c)[Part #numbering("A", pnum)]
     #v(0.5em, weak: true)
     #line(length: 100%, stroke: 3pt + c)
     #v(0.6em, weak: true)
-    #text(font: "Adobe Jenson Pro", size: 34pt, weight: "semibold", fill: ink-deep)[#title]
+    #text(font: fg-serif, size: 34pt, weight: "semibold", fill: ink-deep)[#title]
     #v(1.8em)
-    #text(font: "Cronos Pro", size: 9pt, weight: "semibold", fill: ink-muted, tracking: 1.2pt)[CONTENTS]
+    #text(font: fg-sans, size: 9pt, weight: "semibold", fill: ink-muted, tracking: 1.2pt)[CONTENTS]
     #v(0.6em)
     #context {
       for art in query(heading.where(level: 1)) {
@@ -157,11 +157,11 @@ $endif$
           if fg-primer-flag.at(loc) {
             block(below: 0.4em)[
               #box(width: 1.7em)[]
-              #text(size: 11pt, style: "italic", fill: ink-muted)[#art.body #text(font: "Cronos Pro", size: 8pt, tracking: 1pt)[· PRIMER]]
+              #text(size: 11pt, style: "italic", fill: ink-muted)[#art.body #text(font: fg-sans, size: 8pt, tracking: 1pt)[· PRIMER]]
             ]
           } else {
             block(below: 0.4em)[
-              #box(width: 1.7em)[#text(font: "Letter Gothic Std", size: 9pt, fill: c)[#fg-article.at(loc).first()]]
+              #box(width: 1.7em)[#text(font: fg-mono, size: 9pt, fill: c)[#fg-article.at(loc).first()]]
               #text(size: 11pt)[#art.body]
             ]
           }

@@ -13,6 +13,12 @@ This repository is dual-licensed.
   templates/, and the Quarto and build configuration) is licensed under the MIT
   licence. See LICENSE-CODE.
 
-Third-party fonts are NOT covered by either licence and are NOT distributed with
-this repository. The Typst PDF build expects licensed fonts to be supplied locally
-under assets/fonts/ (gitignored). Obtain them under your own licence; see README.
+The commercial display fonts (Adobe Jenson Pro, Cronos Pro, Letter Gothic Std) are
+NOT covered by either licence and are NOT distributed with this repository. The
+Typst PDF build prefers them when supplied locally under assets/fonts/ (gitignored);
+obtain them under your own licence (see README).
+
+When those fonts are absent the build falls back to open-source faces bundled under
+assets/fallback/ (EB Garamond, Source Sans 3, Courier Prime). These are licensed
+under the SIL Open Font License 1.1; each family's OFL.txt sits beside it. They are
+redistributable and are included in this repository.

@@ -47,10 +47,13 @@ quarto render --to typst # PDF only
 
 Build output goes to `_book/` (gitignored).
 
-The Typst PDF needs licensed commercial fonts (Adobe Jenson Pro, Cronos Pro,
-Letter Gothic Std) under `assets/fonts/`. Those fonts are **gitignored and not
-redistributable** — supply your own licensed copies locally to build the PDF. The
-HTML wiki uses free look-alikes and needs nothing extra. See `NOTICE`.
+The canonical Typst PDF uses licensed commercial fonts (Adobe Jenson Pro, Cronos
+Pro, Letter Gothic Std) under `assets/fonts/` (**gitignored, not
+redistributable** — supply your own licensed copies locally). The PDF still
+builds without them: the theme (`typst/field-guide.typ`) declares each face as a
+fallback list, dropping to bundled OFL fonts under `assets/fallback/` (EB
+Garamond, Source Sans 3, Courier Prime). The HTML wiki uses free web fonts. See
+`NOTICE`.
 
 ### Curated PDF (decision #17)
 

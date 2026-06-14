@@ -209,10 +209,12 @@ format:
       - cosmo
       - brand
   typst:
-    mainfont: "Adobe Jenson Pro"
-    monofont: "Letter Gothic Std"
+    # Fonts are owned by the theme (typst/field-guide.typ) as fallback lists:
+    # the licensed Adobe faces first, free OFL faces (assets/fallback) second, so
+    # builds without the desktop Font Folio licence still render on-brand.
     font-paths:
       - assets/fonts
+      - assets/fallback
     template-partials:
       - partials/page.typ
       - partials/typst-show.typ

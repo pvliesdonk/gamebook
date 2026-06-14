@@ -23,6 +23,16 @@
 #let slate     = rgb("#2f4a50")
 #let clay      = rgb("#863a23")
 
+// --- Type families: licensed primary face, free OFL fallback ---------------
+// The Adobe Font Folio faces are a desktop licence (gitignored, not shipped).
+// When they are absent (CI, public builds, anyone without the licence), Typst
+// falls back per glyph to the bundled OFL faces under assets/fallback/:
+// EB Garamond (serif), Source Sans 3 (sans), Courier Prime (mono). Every font
+// reference in the theme uses these lists, never a bare family name.
+#let fg-serif = ("Adobe Jenson Pro", "EB Garamond")
+#let fg-sans  = ("Cronos Pro", "Source Sans 3")
+#let fg-mono  = ("Letter Gothic Std", "Courier Prime")
+
 #let fam = (
   structure: oklch(46%,   0.072, 264deg),
   puzzles:   oklch(67.5%, 0.074, 198deg),
@@ -55,23 +65,24 @@
 #let fg-unnumbered = state("fg-unnumbered", false)
 
 #let kicker(s, c: ink-muted, size: 8.5pt) = text(
-  font: "Cronos Pro", size: size, weight: "semibold", fill: c, tracking: 1.2pt,
+  font: fg-sans, size: size, weight: "semibold", fill: c, tracking: 1.2pt,
 )[#upper(s)]
 
 // --- Body type-setting (the reading measure) ----------------
-#set text(fill: ink, font: "Adobe Jenson Pro", size: 10.5pt, number-type: "old-style")
+#set text(fill: ink, font: fg-serif, size: 10.5pt, number-type: "old-style")
 #set par(justify: true, leading: 0.68em, spacing: 1.0em, first-line-indent: 0pt)
+#show raw: set text(font: fg-mono)  // code / verbatim uses the mono face + fallback
 
 // --- The Silhouette: the italic subhead lead under the title -
 #let fg-silhouette(body) = block(below: 1.0em, above: 0.3em)[
-  #set text(font: "Adobe Jenson Pro", size: 13.5pt, fill: ink)
+  #set text(font: fg-serif, size: 13.5pt, fill: ink)
   #body
 ]
 
 // --- The lead paragraph: a two-line drop cap ----------------
 #let fg-lead(body) = dropcap(
   height: 2, gap: 6pt, hanging-indent: 0pt,
-  transform: letter => text(font: "Adobe Jenson Pro", weight: "semibold", fill: ink-deep)[#letter],
+  transform: letter => text(font: fg-serif, weight: "semibold", fill: ink-deep)[#letter],
   body,
 )
 
@@ -88,11 +99,11 @@
   let opener(mark) = block(width: 100%, above: 0pt, below: 0.9em, breakable: false)[
     #line(length: 100%, stroke: 2pt + c)
     #v(0.55em, weak: true)
-    #box(text(font: "Letter Gothic Std", size: 9pt, fill: c)[#mark])
+    #box(text(font: fg-mono, size: 9pt, fill: c)[#mark])
     #h(0.7em)
     #box(kicker(fam-label.at(f, default: "")))
     #v(0.4em, weak: true)
-    #text(font: "Adobe Jenson Pro", size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
+    #text(font: fg-serif, size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
   ]
   if fg-primer-flag.get() {
     opener[Primer]
@@ -103,39 +114,39 @@
       #v(0.55em, weak: true)
       #box(kicker(fam-label.at(f, default: "")))
       #v(0.4em, weak: true)
-      #text(font: "Adobe Jenson Pro", size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
+      #text(font: fg-serif, size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
     ]
   } else if fg-in-body.get() {
     opener[№ #fg-article.get().first()]
   } else {
     // front / back matter: a plain title, no rule / number / kicker
     block(width: 100%, above: 0pt, below: 0.8em, breakable: false)[
-      #text(font: "Adobe Jenson Pro", size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
+      #text(font: fg-serif, size: 21pt, weight: "semibold", fill: ink-deep)[#it.body]
     ]
   }
 }
-#show heading.where(level: 2): set text(font: "Adobe Jenson Pro", size: 15pt, fill: ink-deep, weight: "semibold")
-#show heading.where(level: 3): set text(font: "Adobe Jenson Pro", size: 12.5pt, fill: ink-deep, weight: "semibold")
-#show heading.where(level: 4): set text(font: "Adobe Jenson Pro", size: 11pt, fill: ink-muted, weight: "semibold", style: "italic")
+#show heading.where(level: 2): set text(font: fg-serif, size: 15pt, fill: ink-deep, weight: "semibold")
+#show heading.where(level: 3): set text(font: fg-serif, size: 12.5pt, fill: ink-deep, weight: "semibold")
+#show heading.where(level: 4): set text(font: fg-serif, size: 11pt, fill: ink-muted, weight: "semibold", style: "italic")
 #show heading.where(level: 2): set block(above: 1.5em, below: 0.7em)
 #show heading.where(level: 3): set block(above: 1.1em, below: 0.5em)
 #show heading: set par(justify: false)  // display headings ragged, never justified
 
 // --- Links, code, provenance --------------------------------
 #show link: set text(fill: amber-ink)
-#show raw: set text(font: "Letter Gothic Std")
-#show regex("\[corpus\]"): it => text(font: "Letter Gothic Std", size: 0.82em, fill: ink-muted, it)
-#show regex("\[researched\]"): it => text(font: "Letter Gothic Std", size: 0.82em, fill: slate, it)
-#show regex("\[synthesis\]"): it => text(font: "Letter Gothic Std", size: 0.82em, fill: amber-ink, it)
+#show raw: set text(font: fg-mono)
+#show regex("\[corpus\]"): it => text(font: fg-mono, size: 0.82em, fill: ink-muted, it)
+#show regex("\[researched\]"): it => text(font: fg-mono, size: 0.82em, fill: slate, it)
+#show regex("\[synthesis\]"): it => text(font: fg-mono, size: 0.82em, fill: amber-ink, it)
 
 // --- Tables -------------------------------------------------
-#show table.cell.where(y: 0): set text(font: "Cronos Pro", size: 0.82em, weight: "semibold", fill: ink-muted)
+#show table.cell.where(y: 0): set text(font: fg-sans, size: 0.82em, weight: "semibold", fill: ink-muted)
 #set table(
   stroke: (x, y) => (bottom: if y == 0 { 2pt + amber } else { 0.5pt + rule-soft }),
   inset: (x: 8pt, y: 6pt),
 )
 #show quote.where(block: true): set text(fill: ink-muted, style: "italic")
-#show footnote.entry: it => { set text(font: "Letter Gothic Std", size: 8pt, fill: ink-muted); it }
+#show footnote.entry: it => { set text(font: fg-mono, size: 8pt, fill: ink-muted); it }
 
 // --- Callouts: the three printed voices ---------------------
 #let callout(
@@ -155,10 +166,10 @@
     inset: (x: 12pt, top: 9pt, bottom: 12pt),
   )[
     #if label != "" and label != "Callout" [
-      #block(below: 0.5em)[#text(font: "Cronos Pro", size: 8.5pt, weight: "semibold", fill: voice, tracking: 1pt)[#mark #h(0.35em) #upper(label)]]
+      #block(below: 0.5em)[#text(font: fg-sans, size: 8.5pt, weight: "semibold", fill: voice, tracking: 1pt)[#mark #h(0.35em) #upper(label)]]
     ]
     #show heading: h => block(below: 0.45em, above: 0em)[
-      #text(font: "Cronos Pro", size: 8.5pt, weight: "semibold", fill: voice, tracking: 1pt)[#mark #h(0.35em) #upper(h.body)]
+      #text(font: fg-sans, size: 8.5pt, weight: "semibold", fill: voice, tracking: 1pt)[#mark #h(0.35em) #upper(h.body)]
     ]
     #set text(size: 0.96em)
     #body
@@ -174,7 +185,7 @@
   let p = counter(page).get().first()
   let f = fg-family.get()
   let lbl = fam-label.at(f, default: "The Field Guide")
-  let num = text(font: "Letter Gothic Std", size: 8pt, fill: ink-muted)[#p]
+  let num = text(font: fg-mono, size: 8pt, fill: ink-muted)[#p]
   set text(size: 8pt)
   let row = if calc.odd(p) { [#kicker("The Field Guide") #h(1fr) #num] }
             else { [#num #h(1fr) #kicker(lbl)] }
@@ -197,7 +208,7 @@
     box(
       width: if on { 24pt } else { 14pt }, height: 28pt, fill: fam.at(f),
       radius: if recto { (left: 2pt) } else { (right: 2pt) },
-      align(center + horizon, text(font: "Letter Gothic Std", size: 7.5pt, fill: white)[#lab]),
+      align(center + horizon, text(font: fg-mono, size: 7.5pt, fill: white)[#lab]),
     )
   }))
   place(if recto { top + right } else { top + left }, dy: 3.0cm, tabs)

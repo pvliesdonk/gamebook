@@ -20,11 +20,13 @@ quarto render --to typst  # PDF only
 Build output goes to `_book/` (gitignored). See `CLAUDE.md` for the project
 conventions and `docs/` for the style guide, decision register, and term registry.
 
-**Fonts.** The Typst PDF uses licensed commercial fonts (Adobe Jenson Pro, Cronos
-Pro, Letter Gothic Std) that are **not redistributable and not included in this
-repository**. Supply your own licensed copies under `assets/fonts/` (gitignored)
-to build the PDF; the HTML wiki uses free look-alike web fonts and needs nothing
-extra. See [`NOTICE`](NOTICE).
+**Fonts.** The Typst PDF is designed for licensed commercial fonts (Adobe Jenson
+Pro, Cronos Pro, Letter Gothic Std) that are **not redistributable and not
+included in this repository**; supply your own copies under `assets/fonts/`
+(gitignored) for the canonical edition. Without them the PDF still builds: the
+theme falls back, per face, to bundled open-source fonts under `assets/fallback/`
+(EB Garamond, Source Sans 3, Courier Prime, all OFL and redistributable). The
+HTML wiki uses free web fonts. See [`NOTICE`](NOTICE).
 
 ## Layout
 
