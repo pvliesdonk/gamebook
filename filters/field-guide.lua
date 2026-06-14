@@ -187,5 +187,32 @@ function Pandoc(doc)
       end
     end
   end
+
+  -- 3. Render the injected `.specimen-line` divs (scripts/specimen_tags.py) as
+  -- the printed specimen line. Each carries effect/problem/media/family attrs and
+  -- sits between the silhouette and the lead; replace it with a #fg-tags() call.
+  local function tags_raw(div)
+    local a = div.attributes or {}
+    local function q(s) return (s == nil or s == "") and "none" or ('"' .. s .. '"') end
+    local media = "()"
+    if a.media and a.media ~= "" then
+      local items = {}
+      for m in a.media:gmatch("[^,%s]+") do items[#items + 1] = '"' .. m .. '"' end
+      media = "(" .. table.concat(items, ", ") .. (#items == 1 and ",)" or ")")
+    end
+    return pandoc.RawBlock("typst",
+      "#fg-tags(effect: " .. q(a.effect) .. ", problem: " .. q(a.problem)
+      .. ", media: " .. media .. ", family: " .. q(a.family) .. ")")
+  end
+  local out = {}
+  for _, b in ipairs(doc.blocks) do
+    local is_tags = false
+    if b.t == "Div" then
+      for _, c in ipairs(b.classes) do if c == "specimen-line" then is_tags = true end end
+    end
+    out[#out + 1] = is_tags and tags_raw(b) or b
+  end
+  doc.blocks = out
+
   return doc
 end

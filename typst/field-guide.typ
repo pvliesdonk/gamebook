@@ -86,6 +86,40 @@
   body,
 )
 
+// --- The specimen line: lead effect · problem, then quiet media glyphs ------
+// Surfaced on the printed opener under the silhouette (see the design system's
+// guidelines/print-article-tags.md). Effect leads in neutral ink, problem in the
+// family ink; present media show as small ghosted glyphs (count signals span).
+// `family` is the family key; the data is injected after the silhouette by
+// scripts/specimen_tags.py and rendered by the Lua filter (.specimen-line div).
+#let fg-media-order = ("if", "live", "tabletop", "hunt")
+#let fg-tags(effect: none, problem: none, media: (), family: none) = {
+  if effect == none and problem == none { return }
+  let accent = fam.at(family, default: amber-ink)
+  block(above: 0.55em, below: 0.95em, breakable: false)[
+    #set text(font: fg-sans, size: 8.5pt, weight: "semibold", tracking: 0.55pt)
+    #grid(
+      columns: (auto, 1fr, auto),
+      align: (left + horizon, center + horizon, right + horizon),
+      column-gutter: 0.9em,
+      box[
+        #if effect != none [#text(fill: ink-muted)[#upper(effect)]]
+        #if effect != none and problem != none [#h(0.45em)#text(fill: ink-faint)[·]#h(0.45em)]
+        #if problem != none [#text(fill: accent)[#upper(problem)]]
+      ],
+      line(length: 100%, stroke: 0.5pt + rule-soft),
+      box(inset: (bottom: 1pt))[
+        #for m in fg-media-order {
+          if m in media {
+            box(baseline: 2pt, image("assets/icons/media/" + m + "-thin.svg", height: 8pt))
+            h(0.45em)
+          }
+        }
+      ],
+    )
+  ]
+}
+
 // --- Headings (54/33/22/17 type scale, scaled for print) ----
 // Level 1 = chapter opener. The article counter is stepped by the Lua filter
 // (before the heading), and primer chapters carry fg-primer-flag; here we only

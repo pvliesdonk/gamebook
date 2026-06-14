@@ -2,6 +2,7 @@ project:
   type: book
   pre-render:
     - python3 scripts/backlinks.py
+    - python3 scripts/specimen_tags.py
     - python3 scripts/keys.py
     - python3 scripts/glossary.py
     - python3 scripts/curate.py
