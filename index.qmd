@@ -2,10 +2,55 @@
 title: "How to Use This Guide"
 ---
 
-This guide is organised by design function: six families of articles, each opened
-by a primer and illustrated by a gazetteer of real-world exemplars.
+This is a field guide to the craft of narrative and game design, for anyone who
+builds experiences that other people play: tabletop roleplaying games,
+interactive fiction, escape rooms, puzzle hunts, live and immersive events, and
+the board and video games beside them. It treats design as a set of functions
+rather than a set of media. A clue behaves much the same whether it is hidden in
+a novel, a room, or a save file, so the guide is organised by what a mechanism
+*does*, not by the medium it happens to appear in. Each article carries the media
+it touches as tags, so a single idea can be followed across all of them.
+
+## The six families
+
+The articles are grouped into six families, each a distinct design discipline.
+
+- **Structure & Pacing**: how an experience is shaped over time, from branching maps to the rhythm of a single session.
+- **Puzzles, Clues & Information**: the craft of fair challenge and the controlled release of what a player comes to know.
+- **Story, Character & Voice**: the fiction itself, and the craft of character, voice, prose and genre that shapes it.
+- **Players & Social Dynamics**: the people at the table and the trust between them, held together by clear roles and safety tools.
+- **Space, Props & Materiality**: the physical and digital objects of play, from a sealed letter to a lock to a screen.
+- **Systems & Mechanics**: the rules engine, from dice and economies to the loops that keep a game worth replaying.
+
+## How an article is built
+
+Every article opens with a one-line *Silhouette* that names the mechanism in a
+sentence. **The Mechanism** then explains how it works, and **Where this fits**
+places it among its neighbours, with links to follow. Two kinds of call-out
+punctuate the text: a **Specimen** points to a real work where the mechanism can
+be seen in the wild, and a **Hazard** marks the way it most often fails.
+
+Each family is introduced by a **primer** that sketches the terrain before the
+articles go deep, and closes with a **Works & References** page crediting the
+games, films, books and essays the family draws on.
+
+## Finding your way in
+
+You can read a family from its primer onward, or follow the cross-links between
+articles wherever one mechanism leans on another. The **Exemplars** gazetteer
+profiles real works, a game or a hunt or a show, and links each back to the
+mechanisms it demonstrates. The **Glossary & Index** is an A-to-Z of every
+mechanism and the other names it goes by.
 
 ::: {.content-hidden when-format="typst"}
-The Keys section lets you search by the effect you want to create or the problem
-you are trying to solve.
+The **Keys** route you to articles by what you need rather than by name: by the
+*effect* you want to create, the *problem* you are trying to solve, the
+*components* you have to hand, or by *genre*, *medium* and *format*.
 :::
+
+## Two editions
+
+This guide is both a printed book and a web wiki, built from one source. The
+wiki is the complete edition. The print edition is curated, leaving some
+web-native material (the Keys, the wider research trails) to the wiki alone,
+where links and search make it useful. Where the two differ, the wiki has more.
