@@ -199,6 +199,10 @@ book:
       chapters:
         - content/glossary.qmd
 
+# Runs for every format: strips internal provenance markers from rendered output.
+filters:
+  - filters/strip-provenance.lua
+
 format:
   html:
     theme:
