@@ -83,6 +83,12 @@ jobs:
           unzip -q epubcheck.zip
           java -jar "epubcheck-${EPUBCHECK_VERSION}/epubcheck.jar" _book/*.epub
 
+      # The HTML wiki contains web-native paths with characters
+      # upload-artifact rejects (e.g. a colon in a glossary-alias page), so the
+      # wiki is tarred (which preserves them) rather than uploaded as a tree.
+      - name: Package the HTML wiki
+        run: tar czf field-guide-wiki.tar.gz -C _book .
+
       - name: Upload editions (PDF + EPUB + wiki)
         uses: actions/upload-artifact@v4
         with:
@@ -90,6 +96,6 @@ jobs:
           path: |
             _book/*.pdf
             _book/*.epub
-            _book/
+            field-guide-wiki.tar.gz
           if-no-files-found: error
           retention-days: 14
