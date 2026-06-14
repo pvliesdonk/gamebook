@@ -1,0 +1,54 @@
+<!-- @dsCard group="Colors" viewport="700x180" name="Three Facets, Three Channels" subtitle="Family = colour · Media = icon · Genre = text — never the same channel twice" -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { padding: 20px 24px; }
+  .row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 18px; }
+  .ch { border: 1px solid var(--border-hairline); border-radius: var(--radius-md); padding: 13px 15px; background: var(--paper-warm); }
+  .lab { font-family: var(--font-sans); font-size: 9px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--text-faint); margin-bottom: 9px; }
+  .chan { font-family: var(--font-sans); font-size: 13px; font-weight: 600; color: var(--ink); margin-bottom: 9px; }
+  .demo { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+  .dot { width: 13px; height: 13px; border-radius: 3px; }
+  .ico svg { width: 16px; height: 16px; stroke: var(--ink-soft); fill: none; stroke-width: 1.5; stroke-linecap: round; stroke-linejoin: round; }
+  .tag { font-family: var(--font-mono); font-size: 11px; color: var(--ink-soft); border: 1px solid var(--border-hairline); border-radius: 2px; padding: 1px 6px; background: var(--paper-pure); }
+  .mini { font-family: var(--font-sans); font-size: 9px; letter-spacing: .03em; color: var(--text-muted); }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="ch">
+      <div class="lab">Facet 1</div>
+      <div class="chan">Family → colour</div>
+      <div class="demo">
+        <span class="dot" style="background:var(--fam-structure)"></span>
+        <span class="dot" style="background:var(--fam-puzzles)"></span>
+        <span class="dot" style="background:var(--fam-story)"></span>
+        <span class="dot" style="background:var(--fam-players)"></span>
+        <span class="dot" style="background:var(--fam-space)"></span>
+        <span class="dot" style="background:var(--fam-systems)"></span>
+      </div>
+    </div>
+    <div class="ch">
+      <div class="lab">Facet 2</div>
+      <div class="chan">Media → icon</div>
+      <div class="demo ico">
+        <svg viewBox="0 0 24 24"><path d="M12 7v14"/><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+        <svg viewBox="0 0 24 24"><rect width="12" height="12" x="2" y="10" rx="2"/><path d="m17.92 14 3.5-3.5a2.24 2.24 0 0 0 0-3l-5-4.92a2.24 2.24 0 0 0-3 0L10 6"/><path d="M6 18h.01"/><path d="M10 14h.01"/><path d="M15 6h.01"/><path d="M18 9h.01"/></svg>
+        <span class="mini">+ live · hunt</span>
+      </div>
+    </div>
+    <div class="ch">
+      <div class="lab">Facet 3</div>
+      <div class="chan">Genre → text</div>
+      <div class="demo">
+        <span class="tag">mystery</span>
+        <span class="tag">horror</span>
+        <span class="tag">fantasy</span>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

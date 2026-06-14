@@ -1,0 +1,110 @@
+/* ============================================================
+   FAMILY WAYFINDING — Field Guide to Narrative & Game Design
+   ------------------------------------------------------------
+   The guide has SIX families (docs/outline.md). Each owns one
+   earthy ink. Colour is the family channel; media is carried by
+   ICON, genre by a text tag — three facets, three channels, no
+   collision.
+
+   TWO design constraints shaped this palette:
+
+   1. GREYSCALE-SEPARABLE. The book prints in colour but must stay
+      legible in B&W (esp. the bleed tabs). Six hues alone collapse
+      in greyscale, so the six bases are laddered across an even
+      LIGHTNESS range (oklch L 0.46 → 0.66). Hue distinguishes them
+      in colour; value distinguishes them in greyscale.
+
+   2. AMBER STAYS THE BRAND SPINE. #c07840 anchors the masthead,
+      home, logo and any cross-family view (it is the :root accent).
+      Inside an article, a [data-family="…"] scope REMAPS the accent
+      to that family's ink — because every component references the
+      semantic amber tokens, one scoped remap re-skins the whole
+      article (top-rule, kicker, links, active states) with zero
+      component edits.
+
+   Family ids ↔ outline:
+     structure · puzzles · story · players · space · systems
+   ============================================================ */
+
+:root {
+  /* --- 1 · Structure & Pacing — INDIGO (the framework) ------ */
+  --fam-structure:      oklch(0.46 0.072 264);
+  --fam-structure-deep: oklch(0.38 0.078 264);
+  --fam-structure-ink:  oklch(0.40 0.080 264);
+  --fam-structure-tint: oklch(0.93 0.032 264);
+  --fam-structure-edge: oklch(0.82 0.050 264);
+
+  /* --- 2 · Puzzles, Clues & Information — TEAL (the aha) ----- */
+  --fam-puzzles:        oklch(0.675 0.074 198);
+  --fam-puzzles-deep:   oklch(0.52 0.074 198);
+  --fam-puzzles-ink:    oklch(0.45 0.072 198);
+  --fam-puzzles-tint:   oklch(0.94 0.030 198);
+  --fam-puzzles-edge:   oklch(0.84 0.048 198);
+
+  /* --- 3 · Story, Character & Voice — GARNET (the drama) ----- */
+  --fam-story:          oklch(0.595 0.110 22);
+  --fam-story-deep:     oklch(0.44 0.112 22);
+  --fam-story-ink:      oklch(0.44 0.110 22);
+  --fam-story-tint:     oklch(0.93 0.040 22);
+  --fam-story-edge:     oklch(0.83 0.065 22);
+
+  /* --- 4 · Players & Social Dynamics — MOSS (the table) ------ */
+  --fam-players:        oklch(0.705 0.076 132);
+  --fam-players-deep:   oklch(0.51 0.074 132);
+  --fam-players-ink:    oklch(0.43 0.070 132);
+  --fam-players-tint:   oklch(0.93 0.034 132);
+  --fam-players-edge:   oklch(0.83 0.052 132);
+
+  /* --- 5 · Space, Props & Materiality — UMBER (the object) -- */
+  --fam-space:          oklch(0.625 0.072 58);
+  --fam-space-deep:     oklch(0.47 0.074 58);
+  --fam-space-ink:      oklch(0.42 0.072 58);
+  --fam-space-tint:     oklch(0.93 0.036 58);
+  --fam-space-edge:     oklch(0.83 0.056 58);
+
+  /* --- 6 · Systems & Mechanics — PLUM (the engine) ---------- */
+  --fam-systems:        oklch(0.53 0.084 344);
+  --fam-systems-deep:   oklch(0.43 0.086 344);
+  --fam-systems-ink:    oklch(0.44 0.084 344);
+  --fam-systems-tint:   oklch(0.93 0.034 344);
+  --fam-systems-edge:   oklch(0.83 0.052 344);
+}
+
+/* ============================================================
+   ARTICLE SCOPE — set data-family="<id>" on an article/page
+   container and the accent re-skins to that family. Remapping
+   the five raw amber tokens cascades through every semantic
+   alias (--accent, --link, --text-accent, --border-accent,
+   --surface-accent) because they are defined as references.
+   ============================================================ */
+
+[data-family="structure"] {
+  --amber: var(--fam-structure); --amber-deep: var(--fam-structure-deep);
+  --amber-ink: var(--fam-structure-ink); --amber-tint: var(--fam-structure-tint);
+  --amber-edge: var(--fam-structure-edge);
+}
+[data-family="puzzles"] {
+  --amber: var(--fam-puzzles); --amber-deep: var(--fam-puzzles-deep);
+  --amber-ink: var(--fam-puzzles-ink); --amber-tint: var(--fam-puzzles-tint);
+  --amber-edge: var(--fam-puzzles-edge);
+}
+[data-family="story"] {
+  --amber: var(--fam-story); --amber-deep: var(--fam-story-deep);
+  --amber-ink: var(--fam-story-ink); --amber-tint: var(--fam-story-tint);
+  --amber-edge: var(--fam-story-edge);
+}
+[data-family="players"] {
+  --amber: var(--fam-players); --amber-deep: var(--fam-players-deep);
+  --amber-ink: var(--fam-players-ink); --amber-tint: var(--fam-players-tint);
+  --amber-edge: var(--fam-players-edge);
+}
+[data-family="space"] {
+  --amber: var(--fam-space); --amber-deep: var(--fam-space-deep);
+  --amber-ink: var(--fam-space-ink); --amber-tint: var(--fam-space-tint);
+  --amber-edge: var(--fam-space-edge);
+}
+[data-family="systems"] {
+  --amber: var(--fam-systems); --amber-deep: var(--fam-systems-deep);
+  --amber-ink: var(--fam-systems-ink); --amber-tint: var(--fam-systems-tint);
+  --amber-edge: var(--fam-systems-edge);
+}

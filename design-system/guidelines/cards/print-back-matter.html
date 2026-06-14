@@ -1,0 +1,217 @@
+<!-- @dsCard group="Print Edition" viewport="940x1360" name="Back Matter — Index & Stat Block" subtitle="Two-column field index + the exemplar field-record (Phosphor Thin icon rows)" -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<script src="_fr-glyphs.js"></script>
+<style>
+  body { background: #d9d3c6; padding: 30px 30px 44px; margin: 0; }
+  .canvas { max-width: 880px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
+  .head { display: flex; align-items: baseline; gap: 12px; border-bottom: 1px solid rgba(40,30,14,.22); padding-bottom: 13px; }
+  .head h2 { margin: 0; font-family: var(--font-label); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #3a342b; white-space: nowrap; }
+  .head .sub { font-family: var(--font-mono); font-size: 11px; color: #5b5446; }
+  .opt-h { display: flex; align-items: baseline; gap: 10px; margin: 4px 0 -6px; }
+  .opt-h .k { font-family: var(--font-label); font-size: 11px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: #3a342b; }
+  .opt-h .d { font-family: var(--font-serif); font-style: italic; font-size: 13px; color: #5b5446; }
+
+  .page { background: var(--paper); border: 1px solid var(--rule-strong); border-radius: 2px;
+          box-shadow: 0 1px 3px rgba(40,30,14,.12), 0 14px 34px rgba(40,30,14,.15);
+          padding: 38px 42px 32px; }
+
+  /* running head */
+  .rh { display: flex; justify-content: space-between; align-items: baseline; border-bottom: .5px solid var(--rule); padding-bottom: 5px; margin-bottom: 20px; }
+  .rh .l { font-family: var(--font-label); font-size: 9px; font-weight: 600; letter-spacing: .18em; text-transform: uppercase; color: var(--ink-muted); }
+  .rh .p { font-family: var(--font-mono); font-size: 9px; color: var(--ink-muted); }
+
+  /* ===== INDEX ===== */
+  .idx-title { font-family: var(--font-display); font-weight: 600; font-size: 26px; color: var(--ink); margin: 0 0 3px; }
+  .idx-intro { font-family: var(--font-serif); font-size: 11.5px; font-style: italic; line-height: 1.4; color: var(--ink-muted); margin: 0 0 18px; max-width: 60ch; }
+  .cols { column-count: 2; column-gap: 34px; column-rule: .5px solid var(--rule-soft); }
+  .lettermark { break-inside: avoid; display: flex; align-items: center; gap: 9px; margin: 2px 0 7px; }
+  .lettermark:first-child { margin-top: 0; }
+  .lettermark .L { font-family: var(--font-display); font-weight: 600; font-size: 17px; color: var(--amber-ink); line-height: 1; }
+  .lettermark .bar { flex: 1; height: 1px; background: var(--amber-edge); }
+  .entry { break-inside: avoid; font-family: var(--font-serif); font-size: 10.5px; line-height: 1.34; color: var(--ink-soft);
+           padding-left: 11px; text-indent: -11px; margin: 0 0 5px; }
+  .entry .term { font-weight: 700; color: var(--ink); }
+  .entry .alias { font-style: italic; color: var(--ink-soft); }
+  .entry .see { font-variant: small-caps; font-style: normal; color: var(--ink-faint); letter-spacing: .03em; }
+  .entry .def { color: var(--ink-muted); }
+  .entry .num { font-family: var(--font-mono); font-size: 9px; color: var(--amber-ink); }
+
+  /* ===== EXEMPLAR FIELD-RECORD (margin specimen) ===== */
+  .ex-page { position: relative; }
+  .ex-rule { height: 2px; background: var(--amber); margin: 0 0 10px; }
+  .ex-top { display: flex; align-items: center; gap: 11px; }
+  .ex-num { font-family: var(--font-mono); font-size: 11px; color: var(--amber); }
+  .ex-kicker { font-family: var(--font-label); font-size: 10px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-muted); }
+  .ex-title { font-family: var(--font-display); font-weight: 600; font-size: 30px; color: var(--ink); margin: 6px 0 0; }
+  .ex-profile { font-family: var(--font-subhead); font-style: italic; font-size: 14.5px; line-height: 1.32; color: var(--ink-soft); margin: 9px 0 0; max-width: 54ch; }
+  .ex-body { margin-top: 14px; }
+  .ex-lead-full { font-family: var(--font-serif); font-size: 12.5px; line-height: 1.5; color: var(--ink-soft); text-align: justify; }
+  .ex-lead-full .dc { float: left; font-family: var(--font-display); font-weight: 600; font-size: 40px; line-height: .82; color: var(--ink); padding: 3px 7px 0 0; }
+  .ex-lead-full p { margin: 0 0 9px; }
+
+  /* ---- the field-record: icon rows, capped to the body reading measure ---- */
+  .fr2 { border-top: 1.5px solid var(--amber); border-bottom: 1px solid var(--rule); margin-top: 13px; padding: 7px 0 8px; font-size: 12.5px; max-width: var(--measure); }
+  /* icon rows: glyph replaces label, two columns, values wrap */
+  .frgrid2 { display: grid; grid-template-columns: 1fr 1fr; column-gap: 24px; row-gap: 5px; }
+  .frow { display: flex; align-items: baseline; gap: 7px; min-width: 0; line-height: 1.32; }
+  .frow svg { position: relative; top: 1.5px; }
+  .frow .v { font-family: var(--font-serif); font-size: 9.5px; color: var(--ink-soft); }
+  .ex-lead { font-family: var(--font-serif); font-size: 12.5px; line-height: 1.5; color: var(--ink-soft); text-align: justify; }
+  .ex-lead .dc { float: left; font-family: var(--font-display); font-weight: 600; font-size: 40px; line-height: .82; color: var(--ink); padding: 3px 7px 0 0; }
+  .ex-lead p { margin: 0 0 9px; }
+  /* (legacy float card removed) */
+
+  .note { font-family: var(--font-mono); font-size: 10.5px; line-height: 1.6; color: var(--ink-muted); margin: 4px 2px 0; padding-top: 12px; border-top: 1px dashed var(--rule); }
+  .note b { color: var(--ink-soft); font-weight: 400; }
+  .note code { font-size: 10px; background: var(--paper-warm); border: 1px solid var(--border-hairline); border-radius: 2px; padding: 0 4px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+
+// ---- real index entries (from content/glossary.qmd) ----
+const INDEX = [
+  { L: 'A' },
+  { alias: 'A11y in Games', see: 'Accessibility in Live & Interactive Games', num: 77 },
+  { term: 'Accessibility in Live & Interactive Games', def: 'The social model; sensory/mobility/cognitive access; hints as access.', num: 77 },
+  { alias: 'Atmosphere', see: 'Theme, Immersion & Sensory Environment', num: 81 },
+  { term: 'Audience & Age-Targeting', def: 'Cross-genre age calibration, distinct from the Children\u2019s/YA genre craft.', num: 60 },
+  { L: 'B' },
+  { term: 'Backsolving', def: 'Deriving a feeder answer from the meta rather than from the feeder itself.' },
+  { term: 'Branching Narrative Craft', def: 'Choice architecture; meaningful vs illusory choice; convergence and state.', num: 1 },
+  { alias: 'Branching Topologies', see: 'IF Graph Structures: A Taxonomy', num: 2 },
+  { L: 'C' },
+  { alias: 'The Click', see: 'Aha Moment', num: 27 },
+  { term: 'Clue Sequencing & Chains', def: 'The order clues arrive and how one unlocks the next.', num: 20 },
+  { term: 'Cluing & Fairness', def: 'The fairness contract: every clue sound, the answer reachable.', num: 19 },
+  { alias: 'Countdown', see: 'Progress Clock' },
+  { term: 'Cue Management & GM Station', def: 'Audio/lighting automation and the operator\u2019s hint discipline.', num: 89 },
+];
+
+function IndexEntry({ e }) {
+  if (e.L) return (
+    <div className="lettermark"><span className="L">{e.L}</span><span className="bar"></span></div>
+  );
+  const N = '\u2116';
+  if (e.alias) return (
+    <p className="entry"><span className="alias">{e.alias}</span> <span className="see">see</span> <span className="alias">{e.see}</span>{e.num != null && <span className="num"> {N}{e.num}</span>}</p>
+  );
+  return (
+    <p className="entry"><span className="term">{e.term}</span>{e.num != null && <span className="num"> {N}{e.num}</span>} <span className="def">{e.def}</span></p>
+  );
+}
+
+function IndexPage() {
+  return (
+    <div className="page">
+      <div className="rh"><span className="l">Appendix · Glossary &amp; Index</span><span className="p">1142</span></div>
+      <h1 className="idx-title">Glossary &amp; Index</h1>
+      <p className="idx-intro">An alphabetical reference to the mechanisms in this guide and the other names they go by. A bold entry links to the article that covers it, with its number; an italic entry redirects an alias to its canonical term.</p>
+      <div className="cols">
+        {INDEX.map((e, i) => <IndexEntry key={i} e={e} />)}
+      </div>
+    </div>
+  );
+}
+
+// ---- real exemplar (Blades in the Dark) ----
+const G = window.FR_GLYPHS || {};
+function Glyph({ name, size = 13, color = 'var(--ink-muted)' }) {
+  return (
+    <svg viewBox="0 0 256 256" width={size} height={size} fill={color}
+      style={{ flex: 'none', display: 'block' }}
+      dangerouslySetInnerHTML={{ __html: G[name] || '' }} />
+  );
+}
+// field: [glyph, label, value]
+const REC = [
+  ['medium',    'Medium',       'Tabletop roleplaying game'],
+  ['designer',  'Designer',     'John Harper (One Seven Design)'],
+  ['published', 'Published',    '2017, Evil Hat Productions'],
+  ['players',   'Players',      'A GM and one to four players sharing a single crew'],
+  ['format',    'Format',       'Campaign play, scores of three to four hours'],
+  ['substrate', 'Substrate',    'd6 dice pools, character & crew playbooks, clocks'],
+  ['licence',   'Open licence', 'Forged in the Dark SRD (CC-BY, 2017)'],
+];
+const LEAD = (
+  <div className="ex-lead-full">
+    <p><span className="dc">B</span>lades in the Dark is the rare design that is quoted more often than it is played. A table that has never touched Doskvol still reaches for its progress clocks, still weighs a roll’s position and effect, still lets a player rewind the fiction to explain a precaution they never declared.</p>
+    <p>It earns its place because so many of its parts travel. Most exemplars here illustrate one or two mechanisms cleanly; Blades illustrates most of a system family at once.</p>
+  </div>
+);
+
+function ExHead() {
+  return (
+    <React.Fragment>
+      <div className="ex-rule"></div>
+      <div className="ex-top"><span className="ex-kicker">Exemplar &middot; The Gazetteer</span><span style={{ marginLeft: 'auto', fontFamily: 'var(--font-mono)', fontSize: 10, letterSpacing: '.06em', color: 'var(--ink-faint)', textTransform: 'uppercase' }}>Tabletop</span></div>
+      <h1 className="ex-title">Blades in the Dark</h1>
+      <p className="ex-profile">A crew of scoundrels in a haunted industrial city, run by an engine that turns every dice roll into a small negotiation over danger and reward.</p>
+    </React.Fragment>
+  );
+}
+function ExShell({ children }) {
+  return (
+    <div className="page">
+      <div className="rh"><span className="l">Exemplars · The Gazetteer</span><span className="p">1064</span></div>
+      <ExHead />
+      {children}
+      <div className="ex-body">{LEAD}</div>
+    </div>
+  );
+}
+
+// 1 · icon replaces the label — glyph + value, two columns (canonical)
+function ExIconRows() {
+  return (
+    <ExShell>
+      <div className="fr2">
+        <div className="frgrid2">
+          {REC.map(([g, k, v]) => (
+            <div className="frow" key={k} title={k}>
+              <Glyph name={g} size={12} color="var(--amber-ink)" />
+              <span className="v">{v}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+    </ExShell>
+  );
+}
+
+// (icon-strip and text-label explorations removed — icon rows chosen)
+
+function App() {
+  return (
+    <div className="canvas">
+      <div className="head">
+        <h2>Back Matter</h2>
+        <span className="sub">the index &amp; the exemplar field-record · real data · band under the silhouette</span>
+      </div>
+
+      <div className="opt-h"><span className="k">Glossary &amp; Index</span><span className="d">two columns, letter marks, hanging indent, mono № locator</span></div>
+      <IndexPage />
+
+      <div className="opt-h"><span className="k">Exemplar field-record</span><span className="d">Phosphor Thin glyph per field, two columns, capped to the body measure</span></div>
+      <ExIconRows />
+
+      <div className="note">
+        <b>Index.</b> Set in <b>two columns</b> with a hairline rule (halves the ~20pp it runs now). Each letter is a small amber Jenson mark on a rule; entries hang-indent so wrapped lines tuck under the term. Canonical terms are bold with a mono <b>№</b> locator (amber); aliases are italic with a small-caps <i>see</i>. Generated as today from <code>scripts/glossary.py</code> — only the Typst styling changes.<br/>
+        <b>Field-record.</b> Each field led by a <b>Phosphor Thin</b> glyph (the system’s icon family) in place of a text label — cube (medium), pen-nib (designer), calendar (published), users (players), hourglass (format), stack (substrate), copyright (licence) — set in two columns and <b>capped to the body reading measure</b> (<code>--measure</code>, 64ch) so it lines up with the prose beneath rather than the full page. Long values wrap within their cell. Downstream this implies formalizing the field set across all exemplars and trimming values to the cell measure.
+      </div>
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

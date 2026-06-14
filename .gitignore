@@ -21,3 +21,7 @@ filters/_pdf-exclude.txt
 
 # Licensed third-party fonts — NOT redistributable; supply locally for the PDF build (see README/NOTICE)
 assets/fonts/
+
+# Design-system bundle ships licensed fonts + heavy uploads; never commit those.
+design-system/assets/fonts/
+design-system/uploads/

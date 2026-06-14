@@ -1,0 +1,129 @@
+<!-- @dsCard group="Print Edition" viewport="900x1280" name="Article Tags — The Specimen Line" subtitle="The locked pattern (A): effect · problem lead, media recedes — one line under the silhouette" -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<style>
+  body { background: #d9d3c6; padding: 30px 30px 40px; margin: 0; }
+  .canvas { max-width: 840px; margin: 0 auto; display: flex; flex-direction: column; gap: 22px; }
+  .head { display: flex; align-items: baseline; gap: 12px; border-bottom: 1px solid rgba(40,30,14,.22); padding-bottom: 13px; }
+  .head h2 { margin: 0; font-family: var(--font-label); font-size: 12px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: #3a342b; white-space: nowrap; }
+  .head .sub { font-family: var(--font-mono); font-size: 11px; color: #5b5446; }
+
+  .page { background: var(--paper); border: 1px solid var(--rule-strong); border-radius: 2px;
+          box-shadow: 0 1px 3px rgba(40,30,14,.12), 0 12px 30px rgba(40,30,14,.14);
+          padding: 30px 40px 26px; }
+
+  .fam-rule { height: 2px; margin: 0 0 9px; }
+  .opener-top { display: flex; align-items: center; gap: 11px; }
+  .num { font-family: var(--font-mono); font-size: 11px; letter-spacing: .04em; }
+  .kicker { font-family: var(--font-label); font-size: 10px; font-weight: 600; letter-spacing: .14em; text-transform: uppercase; color: var(--ink-muted); }
+  .title { font-family: var(--font-display); font-weight: 600; font-size: 29px; line-height: 1.02; letter-spacing: -.01em; color: var(--ink); margin: 6px 0 0; }
+  .silhouette { font-family: var(--font-subhead); font-style: italic; font-size: 14.5px; line-height: 1.3; color: var(--ink-soft); margin: 9px 0 0; max-width: 56ch; }
+  .lead { font-family: var(--font-serif); font-size: 12.5px; line-height: 1.48; color: var(--ink-soft); margin: 12px 0 0; text-align: justify; }
+  .lead .dc { float: left; font-family: var(--font-display); font-weight: 600; font-size: 40px; line-height: .82; color: var(--ink); padding: 3px 7px 0 0; }
+
+  /* the specimen line */
+  .rail { display: flex; align-items: center; gap: 11px; margin-top: 10px; }
+  .rail .facet { font-family: var(--font-label); font-size: 11px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase; white-space: nowrap; }
+  .rail .sep { font-family: var(--font-mono); font-size: 11px; color: var(--ink-faint); }
+  .rail .hair { flex: 1; height: 1px; background: var(--rule-soft); min-width: 14px; max-width: 110px; }
+
+  .note { font-family: var(--font-mono); font-size: 10.5px; line-height: 1.6; color: var(--ink-muted); margin: 4px 2px 0; padding-top: 12px; border-top: 1px dashed var(--rule); }
+  .note b { color: var(--ink-soft); font-weight: 400; }
+  .note code { font-size: 10px; background: var(--paper-warm); border: 1px solid var(--border-hairline); border-radius: 2px; padding: 0 4px; }
+  .legend { display: flex; gap: 16px; align-items: center; margin-top: 8px; font-family: var(--font-mono); font-size: 10px; color: var(--ink-faint); }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+</style>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel">
+const NS = window.FieldGuideDesignSystem_df43d1;
+const { Icon } = NS;
+
+const ALL_MEDIA = ['if', 'live', 'tabletop', 'hunt'];
+const MEDIA_TITLE = { if: 'Interactive Fiction', live: 'Live game', tabletop: 'Tabletop', hunt: 'Puzzle-hunt' };
+
+// three real articles, three families — effect/problem are the FIRST-listed (dominant) facet
+const ARTS = [
+  { num: '№ 01', fam: 'puzzles', famLabel: 'Structure & Pacing', famKey: 'structure',
+    title: 'Branching Narrative Craft',
+    silhouette: 'The craft of making a choice cost something without making the story cost everything.',
+    effect: 'agency', problem: 'content-cost', media: ['if','live','tabletop','hunt'],
+    lead: 'A branching story makes a promise the moment it offers the reader a choice — that the decision is real, and that the path not taken was a genuine path.' },
+  { num: '№ 20', fam: 'puzzles', famLabel: 'Puzzles, Clues & Information', famKey: 'puzzles',
+    title: 'Cluing & Fairness',
+    silhouette: 'The contract that says a solver who pays attention can get there from here.',
+    effect: 'discovery', problem: 'dead-end', media: ['if','live','tabletop','hunt'],
+    lead: 'Cluing is the craft of handing over exactly enough to reach the answer and no more — a puzzle with no clues is a locked box with no keyhole.' },
+  { num: '№ 79', fam: 'space', famLabel: 'Space, Props & Materiality', famKey: 'space',
+    title: 'Lock Taxonomy',
+    silhouette: 'The workhorse prop that turns a found answer into an opened box — chosen for how it resets and whether it fits the world.',
+    effect: 'legibility', problem: 'content-cost', media: ['live','hunt'],
+    lead: 'A lock is the most honest gate a designer owns. It states its terms in metal: a code to find, or a key, and until the player has it the shackle stays shut.' },
+];
+
+function MediaQuiet({ media }) {
+  return (
+    <span style={{ display: 'inline-flex', gap: 7, alignItems: 'center' }}>
+      {ALL_MEDIA.map(m => {
+        const on = media.includes(m);
+        return <Icon key={m} name={m} size={13} title={MEDIA_TITLE[m] + (on ? '' : ' — absent')}
+          style={{ color: 'var(--ink-faint)', opacity: on ? 0.82 : 0.2 }} />;
+      })}
+    </span>
+  );
+}
+
+function Opener({ a }) {
+  return (
+    <div className="page" data-family={a.famKey}>
+      <div className="fam-rule" style={{ background: 'var(--amber)' }}></div>
+      <div className="opener-top">
+        <span className="num" style={{ color: 'var(--amber)' }}>{a.num}</span>
+        <span className="kicker">{a.famLabel}</span>
+      </div>
+      <h1 className="title">{a.title}</h1>
+      <p className="silhouette">{a.silhouette}</p>
+      <div className="rail">
+        <span className="facet" style={{ color: 'var(--ink-soft)' }}>{a.effect}</span>
+        <span className="sep">·</span>
+        <span className="facet" style={{ color: 'var(--amber-ink)' }}>{a.problem}</span>
+        <span className="hair"></span>
+        <MediaQuiet media={a.media} />
+      </div>
+      <p className="lead"><span className="dc">{a.lead[0]}</span>{a.lead.slice(1)}</p>
+    </div>
+  );
+}
+
+function App() {
+  return (
+    <div className="canvas">
+      <div className="head">
+        <h2>The Specimen Line</h2>
+        <span className="sub">locked pattern · effect · problem lead · media recedes · one line</span>
+      </div>
+
+      {ARTS.map(a => <Opener key={a.num} a={a} />)}
+
+      <div className="note">
+        <b>The rule.</b> One line under the silhouette: the <b>lead effect</b> (ink) and <b>lead problem</b> (amber) — the first-listed, i.e. dominant, value of each frontmatter axis — then a hairline, then the <code>media</code> faces as small ghosted glyphs (lit when present, dimmed when absent — see <b>Lock Taxonomy</b>: interactive-fiction &amp; tabletop sit dim). Effect colours in the family ink via <code>--amber</code>. Everything else — the full effect/problem lists, components, genre, format — stays in the back-of-book <b>Keys</b>. Typst recipe in <code>guidelines/print-article-tags.md</code>.
+        <div className="legend">
+          <span><Icon name="if" size={13} style={{ color: 'var(--ink-faint)', opacity: 0.82 }} /> present</span>
+          <span><Icon name="if" size={13} style={{ color: 'var(--ink-faint)', opacity: 0.2 }} /> absent</span>
+        </div>
+      </div>
+    </div>
+  );
+}
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>

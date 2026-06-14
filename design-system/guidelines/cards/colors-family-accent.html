@@ -1,0 +1,45 @@
+<!-- @dsCard group="Colors" viewport="700x250" name="Family Accent in the Article" subtitle="One scoped remap re-skins the whole article — amber → the family ink" -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { padding: 20px 24px; }
+  .row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px; }
+  .art { border-top: 2px solid var(--amber); padding-top: 11px; }
+  .kick { display: flex; align-items: baseline; gap: 8px; margin-bottom: 7px; }
+  .no { font-family: var(--font-mono); font-size: 10px; color: var(--amber-ink); }
+  .tax { font-family: var(--font-sans); font-size: 9px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-muted); }
+  .art h3 { font-family: var(--font-subhead); font-size: 19px; font-weight: 600; margin: 0 0 5px; line-height: 1.12; }
+  .art p { font-size: 12.5px; line-height: 1.5; color: var(--ink-soft); margin: 0 0 7px; }
+  .art a { font-style: normal; }
+  .pill { display: inline-block; font-family: var(--font-sans); font-size: 9px; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--amber-ink); background: var(--amber-tint); border: 1px solid var(--amber-edge); border-radius: 999px; padding: 2px 8px; }
+  .note { font-family: var(--font-sans-text); font-size: 11px; color: var(--text-muted); margin: 16px 0 0; }
+  .note code { font-size: 11px; }
+</style>
+</head>
+<body>
+  <div class="row">
+    <div class="art" data-family="puzzles">
+      <div class="kick"><span class="no">№ 14</span><span class="tax">Puzzles · Cluing</span></div>
+      <h3>The Fairness Contract</h3>
+      <p>Every locked door has a <a href="#">findable key</a>.</p>
+      <span class="pill">Teal</span>
+    </div>
+    <div class="art" data-family="story">
+      <div class="kick"><span class="no">№ 31</span><span class="tax">Story · Structure</span></div>
+      <h3>The Locked-Room Mystery</h3>
+      <p>The answer was <a href="#">always inside</a>.</p>
+      <span class="pill">Garnet</span>
+    </div>
+    <div class="art" data-family="structure">
+      <div class="kick"><span class="no">№ 02</span><span class="tax">Structure · Pacing</span></div>
+      <h3>The Architecture of Dread</h3>
+      <p>Fear is a <a href="#">tempo</a>, not a monster.</p>
+      <span class="pill">Indigo</span>
+    </div>
+  </div>
+  <p class="note">Each column sets <code>data-family="…"</code>. Every component already reads the semantic accent tokens, so the top-rule, kicker, link and active pill re-skin with no per-component change.</p>
+</body>
+</html>

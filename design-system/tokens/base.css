@@ -1,0 +1,109 @@
+/* ============================================================
+   BASE — element defaults for the Field Guide
+   ------------------------------------------------------------
+   Opt-in via importing styles.css. Sets the paper-and-ink
+   reading surface, link treatment, headings, tables and rules
+   so any consuming page inherits the field-guide register.
+   ============================================================ */
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  background: var(--surface-page);
+  color: var(--text-body);
+  font-family: var(--font-reading);
+  font-size: var(--text-base);
+  line-height: var(--leading-reading);
+  font-variant-numeric: oldstyle-figures proportional-nums;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* --- Headings: Jenson Display optical, tight, ink ---------- */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+  color: var(--text-heading);
+  line-height: var(--leading-tight);
+  font-weight: var(--weight-bold);
+  margin: 0 0 var(--space-4);
+  text-wrap: balance;
+}
+h1 { font-size: var(--text-3xl); letter-spacing: var(--tracking-tight); font-weight: var(--weight-semibold); }
+h2 { font-size: var(--text-2xl); font-weight: var(--weight-semibold); }
+h3 { font-size: var(--text-xl);  font-weight: var(--weight-semibold); }
+/* H4 sits in the Subhead size band — use that master. */
+h4 { font-family: var(--font-subhead); font-size: var(--text-lg);  font-weight: var(--weight-semibold); }
+
+/* --- Body flow --------------------------------------------- */
+p { margin: 0 0 var(--flow); max-width: var(--measure); text-wrap: pretty; }
+
+a {
+  color: var(--link);
+  text-decoration: underline;
+  text-decoration-color: var(--link-underline);
+  text-underline-offset: 0.14em;
+  text-decoration-thickness: 1px;
+  transition: color var(--dur-fast) var(--ease-paper);
+}
+a:hover { color: var(--link-hover); text-decoration-color: currentColor; }
+
+strong { font-weight: var(--weight-bold); color: var(--ink); }
+em { font-style: italic; }
+
+/* Inline keyword / mechanism reference */
+code, kbd {
+  font-family: var(--font-data);
+  font-size: 0.85em;
+  background: var(--paper-warm);
+  border: var(--border-width) solid var(--border-hairline);
+  border-radius: var(--radius-xs);
+  padding: 0.05em 0.4em;
+}
+
+/* --- Rules ------------------------------------------------- */
+hr {
+  border: 0;
+  border-top: var(--border-width) solid var(--border-hairline);
+  margin: var(--flow-loose) 0;
+}
+
+/* --- Field-guide tables (data-dense lists live here) ------- */
+table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: var(--text-sm);
+  margin: var(--flow) 0;
+}
+th {
+  font-family: var(--font-label);
+  font-size: var(--text-xs);
+  font-weight: var(--weight-semibold);
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  color: var(--text-muted);
+  text-align: left;
+  padding: var(--space-2) var(--space-3);
+  border-bottom: var(--border-width-rule) solid var(--rule-strong);
+}
+td {
+  padding: var(--space-3);
+  border-bottom: var(--border-width) solid var(--border-hairline);
+  vertical-align: top;
+  line-height: var(--leading-snug);
+}
+
+/* --- Blockquote: a quiet inset ----------------------------- */
+blockquote {
+  margin: var(--flow) 0;
+  padding: var(--space-2) 0 var(--space-2) var(--space-5);
+  border-left: var(--border-width-rule) solid var(--border-accent);
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+::selection { background: var(--amber-tint); }
+
+:focus-visible { outline: none; box-shadow: var(--focus-ring); border-radius: var(--radius-xs); }

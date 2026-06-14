@@ -1,0 +1,40 @@
+<!-- @dsCard group="Colors" viewport="700x300" name="The Six Families" subtitle="One ink each, value-laddered so they stay separable in greyscale" -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { padding: 20px 24px; }
+  .lab { font-family: var(--font-sans); font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-faint); margin: 0 0 9px; }
+  .grid { display: grid; grid-template-columns: repeat(6, 1fr); gap: 10px; }
+  .sw { border-radius: var(--radius-sm); height: 58px; display: flex; flex-direction: column; justify-content: flex-end; padding: 8px; }
+  .no { font-family: var(--font-mono); font-size: 10px; color: rgba(255,255,255,.7); }
+  .nm { font-family: var(--font-sans); font-size: 10px; font-weight: 600; letter-spacing: .03em; color: #fff; line-height: 1.15; }
+  .gs { filter: grayscale(1); }
+  .cap { font-family: var(--font-sans-text); font-size: 12px; color: var(--ink-muted); margin: 16px 0 0; line-height: 1.5; max-width: 64ch; }
+  .cap b { color: var(--ink-soft); font-weight: 600; }
+</style>
+</head>
+<body>
+  <div class="lab">In colour — the family channel</div>
+  <div class="grid">
+    <div class="sw" style="background:var(--fam-structure)"><span class="no">1</span><span class="nm">Structure &amp; Pacing</span></div>
+    <div class="sw" style="background:var(--fam-puzzles)"><span class="no">2</span><span class="nm">Puzzles &amp; Clues</span></div>
+    <div class="sw" style="background:var(--fam-story)"><span class="no">3</span><span class="nm">Story &amp; Voice</span></div>
+    <div class="sw" style="background:var(--fam-players)"><span class="no">4</span><span class="nm">Players &amp; Social</span></div>
+    <div class="sw" style="background:var(--fam-space)"><span class="no">5</span><span class="nm">Space &amp; Props</span></div>
+    <div class="sw" style="background:var(--fam-systems)"><span class="no">6</span><span class="nm">Systems</span></div>
+  </div>
+  <div class="lab" style="margin-top:16px">In greyscale — still six distinct steps (B&amp;W print)</div>
+  <div class="grid gs">
+    <div class="sw" style="background:var(--fam-structure)"><span class="nm">1</span></div>
+    <div class="sw" style="background:var(--fam-puzzles)"><span class="nm">2</span></div>
+    <div class="sw" style="background:var(--fam-story)"><span class="nm">3</span></div>
+    <div class="sw" style="background:var(--fam-players)"><span class="nm">4</span></div>
+    <div class="sw" style="background:var(--fam-space)"><span class="nm">5</span></div>
+    <div class="sw" style="background:var(--fam-systems)"><span class="nm">6</span></div>
+  </div>
+  <p class="cap">Each family is laddered across an even <b>lightness</b> range, so hue separates them in colour and <b>value</b> separates them in greyscale. <b>Amber stays the brand spine</b> — it is not a family.</p>
+</body>
+</html>

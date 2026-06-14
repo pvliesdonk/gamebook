@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Illustration Directions — comparison</title>
+<link rel="stylesheet" href="../styles.css">
+<style>
+  body { background: var(--paper-deep); padding: 40px 36px 64px; }
+  .head { max-width: 1080px; margin: 0 auto 30px; }
+  .kick { font-family: var(--font-sans); font-size: 11px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--amber-ink); margin-bottom: 8px; }
+  .head h1 { font-size: 38px; margin: 0 0 8px; }
+  .head p { font-family: var(--font-subhead); font-style: italic; font-size: 18px; color: var(--ink-muted); max-width: 64ch; margin: 0; }
+  .head p.note { font-family: var(--font-sans-text); font-style: normal; font-size: 13px; color: var(--ink-muted); max-width: 70ch; margin: 16px 0 0; line-height: 1.55; }
+
+  .grid { max-width: 1080px; margin: 0 auto; display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; align-items: start; }
+  .col h2 { font-family: var(--font-display); font-size: 22px; margin: 0 0 3px; }
+  .col .sub { font-family: var(--font-sans); font-size: 10px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--text-faint); margin-bottom: 14px; }
+
+  /* the real IllustrationPlate frame */
+  .plate { background: var(--paper-pure); border: 1px solid var(--rule-strong); border-radius: 2px; box-shadow: var(--shadow-plate); padding: 8px; }
+  .plate .inner { border: 1px solid var(--rule); overflow: hidden; background: var(--paper-warm); }
+  .plate svg { display: block; width: 100%; height: auto; }
+  figcaption { display: flex; gap: 8px; margin-top: 9px; padding-left: 2px; }
+  .fig { font-family: var(--font-sans); font-size: 10px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; white-space: nowrap; }
+  .cap { font-family: var(--font-subhead); font-style: italic; font-size: 13px; line-height: 1.45; color: var(--ink-muted); }
+
+  .body { font-family: var(--font-reading); font-size: 14.5px; line-height: 1.6; color: var(--ink-soft); margin: 16px 0 0; }
+  .pros { list-style: none; margin: 12px 0 0; padding: 0; }
+  .pros li { font-family: var(--font-sans-text); font-size: 13px; line-height: 1.5; color: var(--ink-muted); display: flex; gap: 8px; margin-bottom: 4px; }
+  .pros .m { font-family: var(--font-mono); font-size: 11px; flex-shrink: 0; width: 16px; }
+  .pros .y { color: var(--moss-ink); }
+  .pros .n { color: var(--clay-ink); }
+  .rec { font-family: var(--font-sans); font-size: 10px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; color: var(--amber-ink); border: 1px solid var(--amber-edge); background: var(--amber-tint); border-radius: 999px; padding: 3px 10px; display: inline-block; margin-top: 14px; }
+</style>
+</head>
+<body>
+  <div class="head">
+    <div class="kick">Decision aid · treatment study</div>
+    <h1>Three illustration directions</h1>
+    <p>One subject — a pinned specimen moth — rendered three ways inside the real plate frame, so you compare the treatment, not the drawing.</p>
+    <p class="note">These are CSS/SVG <strong>treatment studies</strong>, not final art: they show the visual register (line, tone, colour) each direction would carry. Once you pick one, the actual plates would be generated or commissioned to match — every entry's <code>IllustrationPlate</code> slot is already wired to take them.</p>
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+<script>
+/* ---- shared pinned-moth geometry (left half + centre) -------------- */
+const PIN  = '<line x1="100" y1="20" x2="100" y2="190" />';
+const FORE = 'M100,84 C72,64 44,58 33,69 C24,80 34,101 50,105 L100,103 Z';
+const HIND = 'M100,105 C75,109 58,119 60,139 C62,156 85,151 100,138 Z';
+const ANT  = 'M100,75 C92,62 83,55 73,50';
+const SEG  = ['M95,112 H105','M95,122 H105','M94,132 H106','M95,142 H104'];
+
+function moth(sfx, t) {
+  // build the mirrorable left-half group
+  const half = (cls) => `
+    <path class="fore" d="${FORE}" />
+    <path class="hind" d="${HIND}" />
+    <path class="ant"  d="${ANT}" fill="none" />
+    <circle class="eye" cx="58" cy="84" r="6.5" />`;
+
+  // treatment-specific defs + presentation
+  let defs = '', wrap = '';
+  if (t === 'engrave') {
+    defs = `
+      <pattern id="h-${sfx}" patternUnits="userSpaceOnUse" width="3.6" height="3.6" patternTransform="rotate(45)">
+        <line x1="0" y1="0" x2="0" y2="3.6" stroke="#2c2824" stroke-width="0.55" />
+      </pattern>
+      <pattern id="hh-${sfx}" patternUnits="userSpaceOnUse" width="5.4" height="5.4" patternTransform="rotate(45)">
+        <line x1="0" y1="0" x2="0" y2="5.4" stroke="#2c2824" stroke-width="0.5" />
+      </pattern>`;
+  }
+  return `
+  <svg viewBox="0 0 200 205" xmlns="http://www.w3.org/2000/svg" class="moth ${t}">
+    <defs>${defs}</defs>
+    <g class="pin">${PIN}</g>
+    <g class="wings">
+      <g>${half()}</g>
+      <g transform="matrix(-1 0 0 1 200 0)">${half()}</g>
+    </g>
+    <g class="bodyg">
+      <ellipse class="thorax" cx="100" cy="92" rx="7.5" ry="13" />
+      <circle class="head" cx="100" cy="78" r="5" />
+      <path class="abdomen" d="M93,104 Q100,101 107,104 L103,150 Q100,159 97,150 Z" />
+      <g class="segs">${SEG.map(d=>`<path d="${d}" fill="none"/>`).join('')}</g>
+    </g>
+    <circle class="pinhead" cx="100" cy="20" r="4.5" />
+  </svg>`;
+}
+
+const cards = [
+  {
+    t: 'engrave', title: 'Engraving / Woodcut', sub: 'Monochrome ink line + hatch',
+    fig: 'Fig. 22', figTone: 'var(--ink-soft)',
+    cap: 'Saturnia velata, the dread-moth.',
+    body: 'Hatched ink linework on bare paper — the literal language of an antique natural-history plate.',
+    rec: true,
+    pros: [['y','Truest to the field-guide conceit; lives in the same ink as the rules & type'],['y','Cheapest to reproduce; scales to any size, prints crisp in the Typst PDF'],['n','Demands real draughtsmanship — flat or muddy hatching reads as clip-art']],
+  },
+  {
+    t: 'wash', title: 'Tonal Wash', sub: 'Soft sepia / grisaille',
+    fig: 'Fig. 22', figTone: 'var(--ink-muted)',
+    cap: 'Saturnia velata, the dread-moth.',
+    body: 'Soft monochrome wash, edges dissolving into the paper — atmospheric, moody, less clinical.',
+    rec: false,
+    pros: [['y','Warm and evocative; suits Atmosphere & Mood entries especially'],['n','Softness fights the crisp hairlines, Letter Gothic and 2px rules elsewhere'],['n','Harder to keep consistent across 200 entries; muddier in print']],
+  },
+  {
+    t: 'duo', title: 'Two-Colour Plate', sub: 'Ink + amber spot',
+    fig: 'Fig. 22', figTone: 'var(--amber-ink)',
+    cap: 'Saturnia velata, the dread-moth.',
+    body: 'Ink linework with a single amber spot-colour fill — a vintage two-plate press look that builds the brand accent into the art.',
+    rec: false,
+    pros: [['y','Brand amber lives inside the illustration; bold and distinctive'],['y','Still cheap (two inks); reproduces cleanly'],['n','Risks looking more "graphic poster" than "naturalist field guide"']],
+  },
+];
+
+document.getElementById('grid').innerHTML = cards.map(c => `
+  <div class="col">
+    <h2>${c.title}</h2>
+    <div class="sub">${c.sub}</div>
+    <figure style="margin:0">
+      <div class="plate"><div class="inner">${moth(c.t, c.t)}</div></div>
+      <figcaption>
+        <span class="fig" style="color:${c.figTone}">${c.fig}</span>
+        <span class="cap">${c.cap}</span>
+      </figcaption>
+    </figure>
+    <p class="body">${c.body}</p>
+    <ul class="pros">${c.pros.map(([k,txt])=>`<li><span class="m ${k}">${k==='y'?'+':'\u2013'}</span>${txt}</li>`).join('')}</ul>
+    ${c.rec ? '<span class="rec">My recommendation</span>' : ''}
+  </div>
+`).join('');
+</script>
+
+<style>
+  /* ===== treatment styling ===== */
+  .moth .pin { stroke: var(--ink-faint); stroke-width: 1; }
+  .moth .pinhead { fill: var(--ink-muted); }
+
+  /* Engraving — ink line + hatch, monochrome */
+  .moth.engrave .fore   { fill: url(#h-engrave);  stroke: #2c2824; stroke-width: 1.3; }
+  .moth.engrave .hind   { fill: url(#hh-engrave); stroke: #2c2824; stroke-width: 1.1; }
+  .moth.engrave .thorax,
+  .moth.engrave .abdomen{ fill: url(#h-engrave);  stroke: #2c2824; stroke-width: 1.1; }
+  .moth.engrave .head   { fill: #2c2824; }
+  .moth.engrave .eye    { fill: var(--paper-warm); stroke: #2c2824; stroke-width: 1; }
+  .moth.engrave .ant,
+  .moth.engrave .segs path { stroke: #2c2824; stroke-width: 1; }
+
+  /* Tonal wash — soft sepia, blurred edges, no hard outline */
+  .moth.wash .fore   { fill: #9c8a72; }
+  .moth.wash .hind   { fill: #b6a78f; }
+  .moth.wash .thorax { fill: #5f564a; }
+  .moth.wash .abdomen{ fill: #6f6655; }
+  .moth.wash .head   { fill: #4f463b; }
+  .moth.wash .eye    { fill: #4f463b; opacity: .5; }
+  .moth.wash .ant    { stroke: #6f6655; stroke-width: 1.4; }
+  .moth.wash .segs path { stroke: #4f463b; stroke-width: 0.8; opacity: .5; }
+  .moth.wash .wings, .moth.wash .bodyg { filter: blur(0.7px); }
+
+  /* Two-colour — ink line + amber spot fill */
+  .moth.duo .fore   { fill: #c07840; stroke: #2c2824; stroke-width: 1.3; }
+  .moth.duo .hind   { fill: #e6c39a; stroke: #2c2824; stroke-width: 1.1; }
+  .moth.duo .thorax,
+  .moth.duo .abdomen{ fill: #2c2824; stroke: #2c2824; stroke-width: 1; }
+  .moth.duo .head   { fill: #2c2824; }
+  .moth.duo .eye    { fill: #2c2824; stroke: none; }
+  .moth.duo .ant,
+  .moth.duo .segs path { stroke: #2c2824; stroke-width: 1; }
+  .moth.duo .segs path { stroke: #f0e1cf; }
+</style>
+</body>
+</html>

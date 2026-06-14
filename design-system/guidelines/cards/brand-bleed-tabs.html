@@ -1,0 +1,59 @@
+<!-- @dsCard group="Brand" viewport="700x340" name="Bleed Tabs" subtitle="Family by letter (A–F) + colour; the active tab shows the article number" -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { padding: 24px; background: var(--paper-deep); }
+  .scene { display: flex; gap: 34px; align-items: flex-start; }
+  .leaf { position: relative; width: 300px; height: 286px; background: var(--paper-pure); box-shadow: var(--shadow-raised); border-radius: 2px 0 0 2px; padding: 22px 24px; }
+  .leaf.gs { filter: grayscale(1); }
+  .leaf .rule { border-top: 2px solid var(--amber); padding-top: 8px; }
+  .leaf .kick { font-family: var(--font-sans); font-size: 9px; font-weight: 600; letter-spacing: .09em; text-transform: uppercase; color: var(--text-muted); }
+  .leaf h3 { font-family: var(--font-subhead); font-size: 19px; font-weight: 600; margin: 4px 0 0; }
+  .leaf p { font-size: 12px; line-height: 1.5; color: var(--ink-muted); margin: 9px 0 0; }
+  .leaf p b { color: var(--ink-soft); font-weight: 600; }
+  .tabs { position: absolute; top: 0; right: -20px; display: flex; flex-direction: column; gap: 5px; padding-top: 16px; }
+  .tab { width: 20px; height: 38px; border-radius: 0 3px 3px 0; display: flex; align-items: center; justify-content: center; box-shadow: 1px 1px 2px rgba(40,30,14,.12); }
+  .tab span { font-family: var(--font-mono); font-size: 11px; color: #fff; opacity: .9; }
+  .tab.active { width: 28px; }
+  .tab.active span { font-size: 10px; }
+</style>
+</head>
+<body>
+  <div class="scene">
+    <div class="leaf" data-family="puzzles">
+      <div class="tabs">
+        <div class="tab" style="background:var(--fam-structure)"><span>A</span></div>
+        <div class="tab active" style="background:var(--fam-puzzles)"><span>14</span></div>
+        <div class="tab" style="background:var(--fam-story)"><span>C</span></div>
+        <div class="tab" style="background:var(--fam-players)"><span>D</span></div>
+        <div class="tab" style="background:var(--fam-space)"><span>E</span></div>
+        <div class="tab" style="background:var(--fam-systems)"><span>F</span></div>
+      </div>
+      <div class="rule">
+        <div class="kick">Part B · Puzzles, Clues &amp; Information</div>
+        <h3>Cluing &amp; Fairness</h3>
+        <p>Inactive tabs carry the <b>family letter</b> (A–F); the active tab extends and shows the current <b>article number</b> (№ 14). Letter vs number keeps the two systems apart.</p>
+      </div>
+    </div>
+
+    <div class="leaf gs" data-family="puzzles" style="width:300px">
+      <div class="tabs">
+        <div class="tab" style="background:var(--fam-structure)"><span>A</span></div>
+        <div class="tab active" style="background:var(--fam-puzzles)"><span>14</span></div>
+        <div class="tab" style="background:var(--fam-story)"><span>C</span></div>
+        <div class="tab" style="background:var(--fam-players)"><span>D</span></div>
+        <div class="tab" style="background:var(--fam-space)"><span>E</span></div>
+        <div class="tab" style="background:var(--fam-systems)"><span>F</span></div>
+      </div>
+      <div class="rule">
+        <div class="kick">Greyscale proof</div>
+        <h3>Same page, in B&amp;W</h3>
+        <p>The six tabs stay separable as grey steps — the family letter is the failsafe.</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

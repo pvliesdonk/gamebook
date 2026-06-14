@@ -1,0 +1,110 @@
+/* ============================================================
+   COLORS — Field Guide to Narrative & Game Design
+   ------------------------------------------------------------
+   A limited, earthy ink palette in the spirit of an aged
+   naturalist plate: warm cream paper, near-black ink, one warm
+   amber accent (all three SETTLED in _brand.yml), plus a small
+   set of desaturated botanical inks for callouts, media tabs and
+   provenance. Nothing is bright; everything reads as pigment on
+   paper, not pixels on a screen.
+   ============================================================ */
+
+:root {
+  /* --- Paper & ink (settled base) --------------------------- */
+  --paper:        #fafafa;  /* SETTLED background */
+  --paper-warm:   #f5f1e9;  /* warm cream — insets, callouts, cards */
+  --paper-deep:   #ece5d7;  /* aged tone — sidebars, thumb rails */
+  --paper-pure:   #ffffff;  /* true white — plate mounts, search field */
+
+  --ink:          #1a1a1a;  /* SETTLED foreground — headings, plate ink */
+  --ink-soft:     #2c2824;  /* body text, warm near-black */
+  --ink-muted:    #6b6155;  /* captions, secondary, meta */
+  --ink-faint:    #968b7c;  /* faintest labels, placeholder */
+
+  /* --- Hairlines & rules (warm, print-like) ----------------- */
+  --rule:         #ddd6c8;  /* hairline divider */
+  --rule-strong:  #c2b9a7;  /* stronger rule, table heads, frames */
+
+  /* --- Accent: warm amber (settled) ------------------------- */
+  --amber:        #c07840;  /* SETTLED accent */
+  --amber-deep:   #a25f2c;  /* hover / press / link visited */
+  --amber-ink:    #7f4a20;  /* amber text on paper (AA on cream) */
+  --amber-tint:   #f0e1cf;  /* pale amber wash */
+  --amber-edge:   #e0bd95;  /* amber hairline */
+
+  /* --- Botanical secondary inks (callouts, tabs, provenance) - */
+  --moss:         #5d6b3f;  /* observed green — The Specimen */
+  --moss-ink:     #44502c;
+  --moss-tint:    #e6e8d6;
+  --moss-edge:    #c3cba0;
+
+  --slate:        #3f6168;  /* annotation teal — The Field Note */
+  --slate-ink:    #2f4a50;
+  --slate-tint:   #dde7e8;
+  --slate-edge:   #a9c4c6;
+
+  --clay:         #a0492f;  /* warning rust — The Hazard */
+  --clay-ink:     #863a23;
+  --clay-tint:    #f1ddd3;
+  --clay-edge:    #dcab97;
+
+  --ochre:        #b08a2e;  /* gold ink — puzzle-hunt media, accents */
+  --ochre-ink:    #87681e;
+  --ochre-tint:   #f0e7cc;
+  --ochre-edge:   #ddc585;
+
+  /* ============================================================
+     SEMANTIC ALIASES — author against these, not the raw inks
+     ============================================================ */
+
+  /* Surfaces */
+  --surface-page:    var(--paper);
+  --surface-inset:   var(--paper-warm);   /* callouts, blockquotes, insets */
+  --surface-card:    var(--paper-pure);   /* entry cards, stat blocks */
+  --surface-rail:    var(--paper-deep);   /* sidebars, thumb-tab rails */
+  --surface-accent:  var(--amber-tint);
+
+  /* Text */
+  --text-heading:    var(--ink);
+  --text-body:       var(--ink-soft);
+  --text-muted:      var(--ink-muted);
+  --text-faint:      var(--ink-faint);
+  --text-accent:     var(--amber-ink);
+  --text-on-accent:  var(--paper);
+
+  /* Lines */
+  --border-hairline: var(--rule);
+  --border-strong:   var(--rule-strong);
+  --border-accent:   var(--amber-edge);
+
+  /* Links */
+  --link:            var(--amber-ink);
+  --link-hover:      var(--amber-deep);
+  --link-underline:  var(--amber-edge);
+
+  /* Interactive accent (buttons, active filters) */
+  --accent:          var(--amber);
+  --accent-hover:    var(--amber-deep);
+
+  /* --- Callout semantic mapping ----------------------------- */
+  --specimen:        var(--moss);     /* note  — real-world example */
+  --specimen-tint:   var(--moss-tint);
+  --specimen-edge:   var(--moss-edge);
+  --fieldnote:       var(--slate);    /* tip   — mentor advice */
+  --fieldnote-tint:  var(--slate-tint);
+  --fieldnote-edge:  var(--slate-edge);
+  --hazard:          var(--clay);     /* warning — failure mode */
+  --hazard-tint:     var(--clay-tint);
+  --hazard-edge:     var(--clay-edge);
+
+  /* --- Provenance markers ----------------------------------- */
+  --prov-corpus:     var(--ink-muted); /* from the vault corpus */
+  --prov-researched: var(--slate-ink); /* externally researched */
+  --prov-synthesis:  var(--amber-ink); /* author synthesis */
+
+  /* --- Media wayfinding (the four faces of the guide) -------- */
+  --media-if:        var(--slate);  /* interactive-fiction */
+  --media-live:      var(--clay);   /* live-game */
+  --media-tabletop:  var(--moss);   /* tabletop */
+  --media-hunt:      var(--ochre);  /* puzzle-hunt */
+}

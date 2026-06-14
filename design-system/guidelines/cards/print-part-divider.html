@@ -1,0 +1,52 @@
+<!-- @dsCard group="Print Edition" viewport="700x440" name="Part Divider" subtitle="Family opener — primer as subtitle, then the numbered articles" -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { padding: 26px; background: var(--paper-deep); }
+  .leaf { position: relative; width: 392px; min-height: 388px; margin: 0 auto; background: var(--paper-pure); box-shadow: var(--shadow-raised); border-radius: 2px; padding: 40px 44px; }
+  .tabs { position: absolute; top: 40px; right: -16px; display: flex; flex-direction: column; gap: 4px; }
+  .tab { width: 16px; height: 30px; border-radius: 0 3px 3px 0; display: flex; align-items: center; justify-content: center; box-shadow: 1px 1px 2px rgba(40,30,14,.14); }
+  .tab.active { width: 26px; }
+  .tab span { font-family: var(--font-mono); font-size: 9px; color: #fff; opacity: .85; }
+  .part { font-family: var(--font-mono); font-size: 12px; color: var(--amber-ink); letter-spacing: .06em; }
+  .fam { font-family: var(--font-label); font-size: 10px; font-weight: 600; letter-spacing: .1em; text-transform: uppercase; color: var(--text-muted); margin-left: 10px; }
+  h1 { font-size: 40px; margin: 12px 0 6px; line-height: 1.04; }
+  .primer { font-family: var(--font-subhead); font-style: italic; font-size: 19px; color: var(--amber-ink); line-height: 1.25; margin: 0 0 14px; }
+  .primer .pl { font-family: var(--font-label); font-style: normal; font-size: 9px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--text-faint); margin-right: 9px; vertical-align: middle; }
+  .lead { font-family: var(--font-reading); font-size: 14.5px; line-height: 1.62; color: var(--ink-soft); margin: 0 0 22px; }
+  .toc { list-style: none; margin: 0; padding: 16px 0 0; border-top: 1px solid var(--border-hairline); }
+  .toc li { display: flex; align-items: baseline; gap: 12px; padding: 5px 0; }
+  .toc .n { font-family: var(--font-mono); font-size: 12px; color: var(--amber-ink); width: 18px; }
+  .toc .t { font-family: var(--font-subhead); font-size: 15px; color: var(--ink-soft); }
+  .toc .pr { font-family: var(--font-label); font-size: 9px; font-weight: 700; letter-spacing: .09em; text-transform: uppercase; color: var(--text-faint); width: 18px; }
+</style>
+</head>
+<body>
+  <div class="leaf" data-family="puzzles">
+    <div class="tabs">
+      <div class="tab" style="background:var(--fam-structure)"><span>A</span></div>
+      <div class="tab active" style="background:var(--fam-puzzles)"><span>B</span></div>
+      <div class="tab" style="background:var(--fam-story)"><span>C</span></div>
+      <div class="tab" style="background:var(--fam-players)"><span>D</span></div>
+      <div class="tab" style="background:var(--fam-space)"><span>E</span></div>
+      <div class="tab" style="background:var(--fam-systems)"><span>F</span></div>
+    </div>
+    <div style="border-top:2px solid var(--amber);padding-top:14px">
+      <span class="part">PART B</span><span class="fam">Puzzles, Clues &amp; Information</span>
+      <h1>Puzzles, Clues &amp; Information</h1>
+      <p class="primer"><span class="pl">Primer</span>The Fairness Contract</p>
+      <p class="lead">A puzzle is a promise: that an attentive solver, working only with what they were given, can get there from here. Everything in this family is built on keeping that promise.</p>
+      <ul class="toc">
+        <li><span class="pr">—</span><span class="t" style="font-style:italic">Primer · The Fairness Contract</span></li>
+        <li><span class="n">14</span><span class="t">Cluing &amp; Fairness</span></li>
+        <li><span class="n">15</span><span class="t">Clue Sequencing &amp; Chains</span></li>
+        <li><span class="n">16</span><span class="t">A Taxonomy of Puzzles</span></li>
+        <li><span class="n">17</span><span class="t">The Aha Moment</span></li>
+      </ul>
+    </div>
+  </div>
+</body>
+</html>

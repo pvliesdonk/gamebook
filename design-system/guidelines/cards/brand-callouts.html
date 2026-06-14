@@ -1,0 +1,57 @@
+<!-- @dsCard group="Brand" viewport="700x300" name="The Three Callouts" subtitle="Specimen · Field Note · Hazard — printed field-guide asides, not docs admonitions" -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { padding: 24px 28px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; align-items: start; }
+  .stack { display: flex; flex-direction: column; gap: 22px; }
+
+  /* --- The Field Note: a penned marginal aside, run-in label ----- */
+  .fn { max-width: 46ch; }
+  .fn p { font-family: var(--font-serif); font-style: italic; font-size: 16px; line-height: 1.6; color: var(--ink-soft); margin: 0; }
+  .fn .v { font-style: normal; font-family: var(--font-label); font-weight: 600; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--slate-ink); }
+  .fn .m { font-style: normal; color: var(--slate); padding-right: 2px; }
+
+  /* --- The Hazard: a printed caution band, symmetric solid rules - */
+  .hz { max-width: 46ch; }
+  .hz .rule { height: 0; border-top: 2px solid var(--clay); }
+  .hz .b { padding: 10px 0; }
+  .hz p { font-family: var(--font-serif); font-size: 15px; line-height: 1.55; color: var(--ink-soft); margin: 0; }
+  .hz .v { font-family: var(--font-label); font-weight: 700; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--clay-ink); }
+  .hz .m { color: var(--clay); padding-right: 2px; }
+
+  /* --- The Specimen: a quiet text-first note, moss top-rule -------- */
+  .sp { background: var(--paper-pure); border: 1px solid var(--border-hairline); border-top: 2px solid var(--moss); border-radius: 2px; padding: 12px 17px 15px; }
+  .sp .k { font-family: var(--font-label); font-size: 10px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--moss-ink); }
+  .sp .m { color: var(--moss); padding-right: 4px; }
+  .sp h4 { font-family: var(--font-subhead); font-size: 19px; margin: 4px 0 6px; color: var(--ink); line-height: 1.15; }
+  .sp p { font-family: var(--font-serif); font-size: 14.5px; line-height: 1.5; color: var(--ink-soft); margin: 0; }
+  .hint { font-family: var(--font-sans-text); font-size: 11px; color: var(--text-muted); margin: 13px 0 0; line-height: 1.5; }
+</style>
+</head>
+<body>
+  <div class="grid">
+    <div class="stack">
+      <aside class="fn">
+        <p><span class="v"><span class="m">&#9758;</span>Field Note.</span> Reveal the lock before the key. A player who knows what they are solving for will read every clue twice as hard.</p>
+      </aside>
+      <aside class="hz">
+        <div class="rule"></div>
+        <div class="b"><p><span class="v"><span class="m">&#8225;</span>Hazard.</span> The guess-the-verb wall: a solution exists, but the parser refuses every word the player actually types.</p></div>
+        <div class="rule"></div>
+      </aside>
+    </div>
+    <div>
+      <figure class="sp">
+        <div class="k"><span class="m">&#8258;</span>Specimen</div>
+        <h4>Return of the Obra Dinn</h4>
+        <p>Every death is its own locked diorama — the player is handed the cast and the corpse, and must read the scene as evidence.</p>
+      </figure>
+      <p class="hint">The specimen reads complete with no image. Full plates live at article level; a small inset plate is a rare opt-in.</p>
+    </div>
+  </div>
+</body>
+</html>

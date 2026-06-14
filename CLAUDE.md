@@ -71,6 +71,7 @@ content/        renderable guide content — entries, primers, keys, exemplars, 
 docs/           decisions register, style guide, term registry, reference docs (not rendered)
 research/       research notes and sources (not rendered)
 scripts/        build-time scripts (backlinks injection)
+design-system/  brand source of truth: tokens, guidelines, components, blueprints (not rendered)
 templates/      content-type templates — copy when creating new entries
 _quarto.yml     Quarto book config
 _brand.yml      brand tokens (SETTLED)

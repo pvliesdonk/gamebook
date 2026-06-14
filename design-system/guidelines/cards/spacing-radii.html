@@ -1,0 +1,38 @@
+<!-- @dsCard group="Spacing" viewport="700x180" name="Radii, Rules & Lift" subtitle="Print-derived: crisp corners, hairline rules, barely-there shadow" -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="../../styles.css">
+<style>
+  body { padding: 22px 28px; display: flex; gap: 30px; align-items: center; flex-wrap: wrap; }
+  .grp { display: flex; gap: 14px; align-items: center; }
+  .box { width: 64px; height: 64px; background: var(--paper-pure); border: 1px solid var(--border-strong); display: flex; align-items: flex-end; justify-content: center; padding-bottom: 5px; }
+  .cap { font-family: var(--font-mono); font-size: 9px; color: var(--text-faint); }
+  .lift { box-shadow: var(--shadow-raised); border-color: var(--border-hairline); }
+  .div { width: 1px; height: 64px; background: var(--border-hairline); }
+  .label { font-family: var(--font-label); font-size: 10px; text-transform: uppercase; letter-spacing: .08em; color: var(--text-muted); margin-bottom: 6px; }
+  .col { display: flex; flex-direction: column; }
+</style>
+</head>
+<body>
+  <div class="col">
+    <div class="label">Radii</div>
+    <div class="grp">
+      <div class="box" style="border-radius:2px"><span class="cap">xs · 2</span></div>
+      <div class="box" style="border-radius:3px"><span class="cap">sm · 3</span></div>
+      <div class="box" style="border-radius:4px"><span class="cap">md · 4</span></div>
+      <div class="box" style="border-radius:999px;width:64px"><span class="cap">pill</span></div>
+    </div>
+  </div>
+  <div class="div"></div>
+  <div class="col">
+    <div class="label">Lift</div>
+    <div class="grp">
+      <div class="box"><span class="cap">flat</span></div>
+      <div class="box lift" style="box-shadow:var(--shadow-plate)"><span class="cap">plate</span></div>
+      <div class="box lift"><span class="cap">raised</span></div>
+    </div>
+  </div>
+</body>
+</html>
