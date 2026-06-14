@@ -169,4 +169,3 @@ One canonical term per mechanism. Aliases listed. Agents must use canonical term
 | Solo Journaling RPGs: Genre & Form | Journaling Games, Wretched & Alone Games | Family 3 | The prompt → response → artefact form; oracle and epistolary lineages. |
 | Prompt Design in Solo Journaling | Journaling Prompts, The Prompt as Mechanic | Family 3 | The prompt as the load-bearing unit; generative vs flat; failure modes. |
 | The Journal as Artefact | Journaling as Output, Writing as the Game | Family 3 | The journal as durable output; voice under journaling pressure. |
-

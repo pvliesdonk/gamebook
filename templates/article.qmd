@@ -15,7 +15,7 @@ provenance: ""       # corpus | researched | synthesis
 *Silhouette: A single-line "jizz" definition of the mechanism's impression.*
 
 <!-- THE READABLE HEAD (THE SPARK) -->
-<!-- 1-3 short paragraphs of evocative "Naturalist" prose. 
+<!-- 1-3 short paragraphs of evocative "Naturalist" prose.
      No headers, no bullet points. Focus on the feeling and purpose. -->
 
 ## The Mechanism (How it works)

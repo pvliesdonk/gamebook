@@ -20,7 +20,7 @@ This exchange rests on absolute trust. If the information is too obscure, the pl
 ## The Mechanism
 
 ### The Fairness Contract
-A puzzle requires the player to believe the system is rationally solvable. This belief is sustained by a strict information economy where every necessary fact is present in the game world and findable by an observant player [synthesis]. In interactive fiction, this manifests as the fair-play mystery convention. It inherits heavily from the Van Dine and Christie tradition: all clues must be present and available to the attentive reader [corpus]. The game state must never demand a logical leap that the embedded information cannot objectively support. 
+A puzzle requires the player to believe the system is rationally solvable. This belief is sustained by a strict information economy where every necessary fact is present in the game world and findable by an observant player [synthesis]. In interactive fiction, this manifests as the fair-play mystery convention. It inherits heavily from the Van Dine and Christie tradition: all clues must be present and available to the attentive reader [corpus]. The game state must never demand a logical leap that the embedded information cannot objectively support.
 
 ### Clue Density and Redundancy
 Because human attention is highly variable, an investigation must account for missed details. A single piece of evidence forming a chokepoint often leads to a stalled game. In tabletop design, this fragility is resolved by the Alexandrian Three Clue Rule: for every conclusion the players need to reach, the scenario must provide at least three distinct clues leading to it [corpus]. This node-based scenario design ensures that if the players ignore the first clue and misinterpret the second, they will still encounter the third [synthesis].
@@ -47,17 +47,17 @@ The single point of failure. Locking critical narrative progress behind a lone c
 
 ## Interactions
 
-**Confusable With:** 
+**Confusable With:**
 Clue Sequencing & Chains: Fairness governs the validity and visibility of information, whereas sequencing dictates the strict temporal or structural order in which those clues are revealed.
 
-**Pairs Well With:** 
+**Pairs Well With:**
 Aha Moment: The cognitive reward that pays off a fairly constructed trail of evidence.
 Progress Clock: Visualising the accumulation of clues or the closing window to solve a mystery before the state changes.
 
-**Common Transitions:** 
+**Common Transitions:**
 Once a player has gathered enough information through fair cluing, they typically move to action. In a tabletop context, this often triggers a PbtA Move to act on their findings.
 
-**Implementation Interlocks:** 
+**Implementation Interlocks:**
 Diegetic journals, inspectable props, database queries, and dialogue trees serve as the physical or digital widgets that house and dispense the clues.
 
 ## Sources

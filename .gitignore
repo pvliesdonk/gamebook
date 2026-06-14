@@ -25,3 +25,7 @@ assets/fonts/
 # Design-system bundle ships licensed fonts + heavy uploads; never commit those.
 design-system/assets/fonts/
 design-system/uploads/
+
+# Playwright MCP + ad-hoc screenshots
+.playwright-mcp/
+wiki-*.png

@@ -8,7 +8,7 @@ provenance: ""       # corpus | researched | synthesis
 *Silhouette: A one-line orientation of the terrain feature.*
 
 <!-- Primers are orientation pieces (e.g. "Structure and Pacing").
-     Voice: Light authorial / Mentor. 
+     Voice: Light authorial / Mentor.
      Goal: Dip-in orientation, not an exhaustive essay. -->
 
 ## The Terrain
@@ -22,7 +22,7 @@ High-level advice on navigating this terrain. [synthesis]
 
 ## Key Mechanisms
 
-<!-- Briefly introduce the load-bearing mechanisms of this family, 
+<!-- Briefly introduce the load-bearing mechanisms of this family,
      linking to full articles. -->
 
 ## Related Exemplars
