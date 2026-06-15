@@ -1,6 +1,6 @@
 ---
 title: "One-on-One Scene Design"
-aliases: ["The 1:1", "Solo Audience Scene", "Intimate Scenework"]
+aliases: ["The 1-on-1", "Solo Audience Scene", "Intimate Scenework"]
 family: "Players & Social Dynamics"
 media: [live-game, tabletop]
 facets:
