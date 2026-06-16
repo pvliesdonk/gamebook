@@ -30,8 +30,14 @@ function Div(el)
       return {}
     end
   end
+  -- the web-only primer article-card listing (content-visible html, which EPUB
+  -- shows): the empty listing div and its "Articles in This Part" section.
+  if el.identifier == "part-articles" then
+    return {}
+  end
   local first = el.content and el.content[1] or nil
-  if first and first.t == "Header" and first.level == 2 and stringify(first) == "Research basis" then
+  if first and first.t == "Header" and first.level == 2
+      and (stringify(first) == "Research basis" or stringify(first) == "Articles in This Part") then
     return {}
   end
   -- the index "How to Use" page's web-only Keys note (no heading, no surviving

@@ -1,6 +1,16 @@
 ---
 type: primer
 provenance: "synthesis"
+listing:
+  id: part-articles
+  contents: "../articles/space-props-materiality/*.qmd"
+  type: grid
+  grid-columns: 2
+  fields: [title]
+  sort: false
+  filter-ui: false
+  sort-ui: false
+  page-size: 60
 ---
 
 # Making It Real {.primer .unnumbered}
@@ -39,3 +49,10 @@ Behind the wall sits the room you never see. [Cue Management & GM Station](../ar
 ## Related Exemplars
 
 The Mysterious Package Company shows the artefact carrying the story rather than decorating it, with aged dossiers and a burned ship's-wheel fragment posted as the medium itself. Infocom's feelies are where the physical artefact was first commercialised, the coroner's report in the *Deadline* (1982) box doing double duty as fiction and copy protection. *Masquerade*'s golden hare is the physical pole proven across decades: buried in Ampthill Park in 1979 and sold at Sotheby's in 2025, intact. And *Caverns of Thracia* (1979) is the case for designed space, with three entrances to the first level and routes that fork and rejoin instead of marching the party down a corridor.
+
+::::: {.content-visible when-format="html"}
+## Articles in This Part {.unnumbered}
+
+::: {#part-articles}
+:::
+:::::

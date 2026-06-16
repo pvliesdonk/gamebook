@@ -1,6 +1,16 @@
 ---
 type: primer
 provenance: "synthesis"
+listing:
+  id: part-articles
+  contents: "../articles/puzzles-clues-information/*.qmd"
+  type: grid
+  grid-columns: 2
+  fields: [title]
+  sort: false
+  filter-ui: false
+  sort-ui: false
+  page-size: 60
 ---
 
 # The Fairness Contract {.primer .unnumbered}
@@ -35,3 +45,10 @@ At the scale of whole events the contract shapes formats: the feeders, rounds, a
 ## Related Exemplars
 
 The MIT Mystery Hunt is the deepest living laboratory of fair cluing at scale; *Cain's Jawbone* is the fairness contract turned inside out, a solver reconstructing the order the text demands; and the *Unlock!* series shows the contract enforced by a companion app that judges every answer.
+
+::::: {.content-visible when-format="html"}
+## Articles in This Part {.unnumbered}
+
+::: {#part-articles}
+:::
+:::::

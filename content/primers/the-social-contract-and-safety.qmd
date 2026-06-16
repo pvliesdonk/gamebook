@@ -1,6 +1,16 @@
 ---
 type: primer
 provenance: "synthesis"
+listing:
+  id: part-articles
+  contents: "../articles/players-social-dynamics/*.qmd"
+  type: grid
+  grid-columns: 2
+  fields: [title]
+  sort: false
+  filter-ui: false
+  sort-ui: false
+  page-size: 60
 ---
 
 # The Social Contract & Safety {.primer .unnumbered}
@@ -39,3 +49,10 @@ Last, the contract decides who holds authority. The person running the game is a
 ## Related Exemplars
 
 John Stavropoulos's X-Card is the safety tool reduced to its smallest possible form, a card anyone can tap to edit any content out of a scene with no explanation owed. Ron Edwards's Lines and Veils, from *Sorcerer*, draws the older distinction the X-Card builds on: a line is content the table will not cross, a veil is content it plays out behind a cut. *The Resistance: Avalon* is the social-deduction contract at its cleanest, an informed minority against an uninformed majority where public accusation is the only weapon. And the Nordic-larp tradition is where workshop, calibration, and debrief became standard design layers rather than afterthoughts, treating the time before and after the game as part of the game.
+
+::::: {.content-visible when-format="html"}
+## Articles in This Part {.unnumbered}
+
+::: {#part-articles}
+:::
+:::::

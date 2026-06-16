@@ -1,6 +1,16 @@
 ---
 type: primer
 provenance: "synthesis"
+listing:
+  id: part-articles
+  contents: "../articles/structure-pacing/*.qmd"
+  type: grid
+  grid-columns: 2
+  fields: [title]
+  sort: false
+  filter-ui: false
+  sort-ui: false
+  page-size: 60
 ---
 
 # The Shape of Time {.primer .unnumbered}
@@ -39,3 +49,10 @@ The family runs from the smallest rhythm up to the longest shape, so this is the
 ## Related Exemplars
 
 *Groundhog Day* (1993) is the time loop in its purest popular form, the world resetting while only Phil's knowledge carries forward. *Pulp Fiction* (1994) braids three stories that share a city and a grain until they fold into one shape. Dwight Swain's *Techniques of the Selling Writer* (1965) gave the scene-and-sequel rhythm the vocabulary the field still uses. And Ben Robbins's West Marches, run from 2001 to 2003 and written up in 2007, is the open-table campaign proven in practice: a persistent world that stayed coherent while the roster changed every session.
+
+::::: {.content-visible when-format="html"}
+## Articles in This Part {.unnumbered}
+
+::: {#part-articles}
+:::
+:::::

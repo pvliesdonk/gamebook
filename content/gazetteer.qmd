@@ -1,0 +1,92 @@
+---
+title: "The Gazetteer"
+pdf: false
+listing:
+  id: gazetteer
+  contents:
+    - "articles/*/*.qmd"
+    - "exemplars/*.qmd"
+  template: ../theme/gazetteer.ejs
+  filter-ui: false
+  sort-ui: false
+  sort: false
+  page-size: 400
+---
+
+::: {.fg-gazetteer-intro}
+A faceted, searchable index of every entry in the guide: the articles by family
+alongside the exemplars from the gazetteer of worked examples. Type a name in
+the search box, or pick from the filters below.
+:::
+
+```{=html}
+<div class="fg-gaz-controls">
+  <input id="fg-search" class="fg-search" type="search" placeholder="Search entries by name…" aria-label="Search entries">
+  <div id="fg-gaz-count" class="fg-gaz-count"></div>
+</div>
+<div class="fg-facets">
+  <div class="fg-facet-group"><span class="fg-facet-label">Family</span><div id="fg-facet-family" class="fg-chips"></div></div>
+  <div class="fg-facet-group"><span class="fg-facet-label">Medium</span><div id="fg-facet-media" class="fg-chips"></div></div>
+  <div class="fg-facet-group"><span class="fg-facet-label">Genre</span><div id="fg-facet-genre" class="fg-chips"></div></div>
+</div>
+<p id="fg-gaz-empty" class="fg-gaz-empty" style="display:none">No entries match those filters.</p>
+```
+
+::: {#gazetteer}
+:::
+
+```{=html}
+<script>
+(function () {
+  function ready(fn){ document.readyState!=='loading' ? fn() : document.addEventListener('DOMContentLoaded', fn); }
+  ready(function () {
+    var grid = document.querySelector('.fg-gaz-grid');
+    if (!grid) return;
+    var cards = Array.prototype.slice.call(grid.querySelectorAll('.fg-card'));
+    var FAM = [['structure','Structure & Pacing'],['puzzles','Puzzles, Clues & Information'],['story','Story, Character & Voice'],['players','Players & Social Dynamics'],['space','Space, Props & Materiality'],['systems','Systems & Mechanics']];
+    var MEDIA = [['interactive-fiction','Interactive Fiction'],['live-game','Live Game'],['tabletop','Tabletop'],['puzzle-hunt','Puzzle-hunt']];
+    var sel = { family:new Set(), media:new Set(), genre:new Set() }, search='';
+
+    function countBy(attr){ var m={}; cards.forEach(function(c){ (c.dataset[attr]||'').split(' ').forEach(function(k){ if(k) m[k]=(m[k]||0)+1; }); }); return m; }
+    var counts = { family:countBy('family'), media:countBy('media'), genre:countBy('genre') };
+    var GENRE = Object.keys(counts.genre).sort().map(function(g){ return [g, g.charAt(0).toUpperCase()+g.slice(1).replace(/-/g,' ')]; });
+
+    function chip(group, key, label){
+      var b=document.createElement('button');
+      b.className='fg-chip'; b.type='button'; b.dataset.group=group; b.dataset.key=key; b.setAttribute('aria-pressed','false');
+      var n=counts[group][key]||0;
+      b.innerHTML=label+' <span class="fg-chip-n">'+n+'</span>';
+      b.addEventListener('click', function(){
+        var s=sel[group];
+        if(s.has(key)){ s.delete(key); b.classList.remove('on'); b.setAttribute('aria-pressed','false'); }
+        else { s.add(key); b.classList.add('on'); b.setAttribute('aria-pressed','true'); }
+        apply();
+      });
+      return b;
+    }
+    function fill(id, group, list){ var box=document.getElementById(id); if(box) list.forEach(function(p){ box.appendChild(chip(group,p[0],p[1])); }); }
+    fill('fg-facet-family','family',FAM);
+    fill('fg-facet-media','media',MEDIA);
+    fill('fg-facet-genre','genre',GENRE);
+
+    var countEl=document.getElementById('fg-gaz-count'), emptyEl=document.getElementById('fg-gaz-empty');
+    function hit(c){
+      if(search && (c.dataset.title||'').indexOf(search)<0) return false;
+      if(sel.family.size && !sel.family.has(c.dataset.family)) return false;
+      if(sel.media.size && !(c.dataset.media||'').split(' ').some(function(x){return sel.media.has(x);})) return false;
+      if(sel.genre.size && !(c.dataset.genre||'').split(' ').some(function(x){return sel.genre.has(x);})) return false;
+      return true;
+    }
+    function apply(){
+      var n=0;
+      cards.forEach(function(c){ var ok=hit(c); c.style.display=ok?'':'none'; if(ok)n++; });
+      if(countEl) countEl.textContent=n+' of '+cards.length+' entries';
+      if(emptyEl) emptyEl.style.display=n?'none':'';
+    }
+    var si=document.getElementById('fg-search');
+    if(si) si.addEventListener('input', function(){ search=si.value.toLowerCase().trim(); apply(); });
+    apply();
+  });
+})();
+</script>
+```

@@ -1,6 +1,16 @@
 ---
 type: primer
 provenance: "synthesis"
+listing:
+  id: part-articles
+  contents: "../articles/story-character-voice/*.qmd"
+  type: grid
+  grid-columns: 2
+  fields: [title]
+  sort: false
+  filter-ui: false
+  sort-ui: false
+  page-size: 60
 ---
 
 # Making It Matter {.primer .unnumbered}
@@ -41,3 +51,10 @@ A player never cares about a world you have not first made them believe in. When
 ## Related Exemplars
 
 *Disco Elysium* (ZA/UM, 2019) is character voice as the whole game, a cast so distinct that the skills inside the detective's own head argue in voices you can tell apart with the names covered. *Kentucky Route Zero* (Cardboard Computer, 2013) keeps its machinery so far inside the fiction that the player meets a world and never the gears. Ursula K. Le Guin's Earthsea holds a magic with rules strict enough that the cost of a name is felt across six books without once contradicting itself. And *The Wretched* (Chris Bissette, 2019) is the solo-journaling form at its sharpest, a deck of prompts and a tower of blocks where the writing left behind is the only record that the play happened at all.
+
+::::: {.content-visible when-format="html"}
+## Articles in This Part {.unnumbered}
+
+::: {#part-articles}
+:::
+:::::

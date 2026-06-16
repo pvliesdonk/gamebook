@@ -15,6 +15,7 @@ book:
   date: "2026"
   chapters:
     - index.qmd
+    - content/gazetteer.qmd
     - part: "Structure & Pacing"
       chapters:
         - content/primers/the-shape-of-time.qmd
@@ -212,7 +213,7 @@ rights: "© 2026 Peter van Liesdonk. Content licensed under CC BY-NC 4.0."
 filters:
   - filters/strip-provenance.lua
   - filters/resolve-xref.lua
-  - filters/web-family.lua
+  - filters/web-article.lua
   - filters/curate-epub.lua
 
 format:
@@ -221,6 +222,13 @@ format:
       - cosmo
       - brand
       - theme/field-guide-web.scss
+    # full width: the design-system ArticleView lays its own two-column grid
+    # (reading well + sticky plate margin) inside the content area.
+    page-layout: full
+    grid:
+      body-width: 940px
+    # the wiki does not number articles (the № locator is a print-only device)
+    number-sections: false
     include-in-header:
       - text: |
           <link rel="preconnect" href="https://fonts.googleapis.com">

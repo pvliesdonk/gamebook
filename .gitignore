@@ -29,3 +29,5 @@ design-system/uploads/
 # Playwright MCP + ad-hoc screenshots
 .playwright-mcp/
 wiki-*.png
+inc*.png
+gazetteer-*.png

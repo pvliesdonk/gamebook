@@ -1,0 +1,30 @@
+<%
+// Custom listing template for the Gazetteer. Emits one EntryCard per item with
+// the three brand channels as data attributes (family / media / genre) so
+// theme/gazetteer-facets.js can filter across all three. See
+// content/gazetteer.qmd and design-system/ui_kits/wiki/BrowseView.jsx.
+// NOTE: each card is emitted FLUSH-LEFT on a single line — indented output is
+// read as a markdown code block by Pandoc.
+const FAM = {
+  "Structure & Pacing": "structure",
+  "Puzzles, Clues & Information": "puzzles",
+  "Story, Character & Voice": "story",
+  "Players & Social Dynamics": "players",
+  "Space, Props & Materiality": "space",
+  "Systems & Mechanics": "systems",
+};
+const MEDIA = {
+  "interactive-fiction": "Interactive Fiction", "live-game": "Live Game",
+  "tabletop": "Tabletop", "puzzle-hunt": "Puzzle-hunt",
+};
+function esc(s){ return String(s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;'); }
+%>
+<div class="fg-gaz-grid">
+<% for (const item of items) {
+   const fk = FAM[item.family] || "";
+   const media = item.media || [];
+   const genre = (item.facets && item.facets.genre) || [];
+%>
+<div class="fg-card" data-family="<%= fk %>" data-media="<%= media.join(' ') %>" data-genre="<%= genre.join(' ') %>" data-title="<%= esc((item.title||'').toLowerCase()) %>"><a class="fg-card-title stretched-link" href="<%- item.path %>"><%= esc(item.title) %></a><span class="fg-card-meta"><% if (fk) { %><span class="fg-card-fam"><%= esc(item.family) %></span><% } %><% for (const m of media) { %><span class="fg-card-media"><%= esc(MEDIA[m] || m) %></span><% } %></span></div>
+<% } %>
+</div>

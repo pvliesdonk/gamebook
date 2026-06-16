@@ -1,6 +1,16 @@
 ---
 type: primer
 provenance: "synthesis"
+listing:
+  id: part-articles
+  contents: "../articles/systems-mechanics/*.qmd"
+  type: grid
+  grid-columns: 2
+  fields: [title]
+  sort: false
+  filter-ui: false
+  sort-ui: false
+  page-size: 60
 ---
 
 # The Engine Room {.primer .unnumbered}
@@ -45,3 +55,10 @@ Build the smallest engine that produces the behaviour you want, then stop. The i
 ## Related Exemplars
 
 *Apocalypse World* (Vincent Baker, 2010) is the resolution method chosen as an argument rather than a default: its 2d6 curve puts the partial success on the fattest part of the bell so that things always get complicated by design. *Blades in the Dark* (John Harper, 2017) made the Progress Clock a household tool and built faction state into the engine, so the world moves whether the crew is watching or not. *Dominion* (Donald X. Vaccarino, 2008) founded the deckbuilder, where the deck stops being a thing you play from and becomes the thing you sculpt while playing. And *Spirit Island* (R. Eric Reuss, 2017) is mechanism-as-argument at its most pointed, an anti-colonial thesis welded into the rules tightly enough that the welding itself drew both praise and complaint.
+
+::::: {.content-visible when-format="html"}
+## Articles in This Part {.unnumbered}
+
+::: {#part-articles}
+:::
+:::::
