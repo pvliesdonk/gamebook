@@ -1,6 +1,16 @@
 # Web Rendering Strategy — build the website from scratch
 
-> **Decision (2026-06-11):** The public website is **built from scratch** as a
+> **⚠️ SUPERSEDED (2026-06-17) — see `docs/decisions.md` #7.** The premise below
+> ("Quarto cannot be the website") was asserted without testing Quarto's
+> capabilities. A documentation-first re-check found Quarto HTML reaches ~85% of
+> this design system (margin columns, custom EJS listings, SCSS theming,
+> per-page accent classes, page-layout), and the wiki is now **rendered by
+> Quarto** from the same source as the PDF (`theme/field-guide-web.scss`,
+> `filters/web-article.lua`, `theme/gazetteer.ejs`). This document is kept for
+> historical context; treat `ui_kits/wiki/` as the visual target, not as
+> evidence that a bespoke build is required.
+
+> **Decision (2026-06-11, SUPERSEDED):** The public website is **built from scratch** as a
 > bespoke app, using this design system as its blueprint. Quarto/Typst remains
 > the **PDF / canonical-content** pipeline; it does **not** render the website.
 
